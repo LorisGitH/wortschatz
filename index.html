@@ -4411,9 +4411,9 @@ function phrTab() {
       </section>`).join("")}</div>`;
 }
 function orderTab() {
-  const items = sitItems("osit");
+  // always the whole set of phrases (Loris asked to drop the situation filter here)
+  const items = PH;
   return `
-    ${sitChips("osit")}
     <button class="cta" data-vx="order">
       <div><h2>Remets la phrase dans l'ordre</h2><p>8 phrases du quotidien : touche les mots dans le bon ordre.</p></div><span class="go">Jouer →</span>
     </button>
@@ -4557,7 +4557,7 @@ function startVX(kind) {
   } else if (k === "prep") qs = pickV(VP, "vp", 15, weakOnly).map(it => ({ it }));
   else if (k === "dek") qs = shuffle(dkNouns()).slice(0, 10).map(w => dkQuestion(w));
   else if (k === "plural") qs = pickV(plNouns().map(w => Object.assign({ key: w.id }, { w })), "pl", 10, weakOnly);
-  else if (k === "order") qs = pickV(sitItems("osit"), "ord", 8, weakOnly).map(it => { const o = orderTokens(it.de); return { it, toks: o.toks, end: o.end, pool: shuffle(o.toks.map((t, i) => i)), built: [] }; });
+  else if (k === "order") qs = pickV(PH, "ord", 8, weakOnly).map(it => { const o = orderTokens(it.de); return { it, toks: o.toks, end: o.end, pool: shuffle(o.toks.map((t, i) => i)), built: [] }; });
   else if (k === "dict") qs = pickV(sitItems("dsit"), "dic", 8, weakOnly).map(it => ({ it }));
   else if (k === "cards") qs = pickV(sitItems("psit"), "ph", 10, weakOnly).map(it => ({ it }));
   if (!qs.length) return;
