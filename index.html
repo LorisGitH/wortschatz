@@ -93,7 +93,7 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--signal); ou
 
 /* modes */
 .section { display: flex; flex-direction: column; gap: 10px; }
-.modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 5px; }
+.modes { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 5px; }
 .mode { border: 0; background: transparent; border-radius: 7px; padding: 9px 4px; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; }
 .mode b { font-family: var(--font-display); font-size: 16px; font-weight: 600; }
 .mode span { font-size: 11.5px; color: var(--muted); text-align: center; line-height: 1.2; }
@@ -2882,12 +2882,11 @@ function checkTyped(w, input) {
 /* ---------- session building ---------- */
 const MODES = {
   qcm: { name: "QCM", desc: "4 choix" },
-  article: { name: "Article", desc: "der, die, das" },
   type: { name: "Saisie", desc: "écrire le mot" },
 };
 let settings = { mode: "qcm", dir: "mix", level: "all", autoNext: true };
 try { Object.assign(settings, JSON.parse(localStorage.getItem("wortschatz-settings") || "{}")); } catch (e) {}
-if (!MODES[settings.mode]) settings.mode = "qcm"; // the self-graded cards mode was removed
+if (!MODES[settings.mode]) settings.mode = "qcm"; // the cards and article modes were removed (gender lives in the Genre tab)
 const LEVELS = [["all", "Tous niveaux"], ["A1–B1", "A1 → B1"], ["B2", "B2"]];
 function activeThemes() { return THEMES.filter(t => t.level === "mine" ? t.words.length : settings.level === "all" || t.level === settings.level); }
 function activeWords() { return settings.level === "all" ? WORDS : WORDS.filter(w => w.level === settings.level || w.mine); }
