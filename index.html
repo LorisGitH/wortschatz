@@ -150,7 +150,8 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--signal); ou
 .art-pl { color: var(--pl); }
 .tag { font-size: 11px; font-family: var(--font-display); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; vertical-align: 2px; margin-left: 4px; }
 
-.icon-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 36px; height: 36px; display: inline-grid; place-items: center; flex: none; }
+.icon-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 36px; height: 36px; padding: 0; display: inline-grid; place-items: center; flex: none; line-height: 0; }
+.icon-btn svg { display: block; }
 .icon-btn svg { width: 18px; height: 18px; }
 .icon-btn.sm { width: 30px; height: 30px; }
 .icon-btn.sm svg { width: 15px; height: 15px; }
@@ -360,7 +361,7 @@ em.irr { font-style: normal; font-weight: 700; color: var(--irr); }
 .bbadge { position: absolute; top: -3px; right: 2px; min-width: 17px; height: 17px; padding: 0 4px; border-radius: 9px; background: var(--bad); color: var(--surface); font: 700 10.5px/17px var(--font-body); font-style: normal; text-align: center; }
 .errhead { display: flex; align-items: center; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
 .errhead .label { margin: 0; }
-button.sm { width: auto; padding: 8px 14px; font-size: 14px; min-height: 0; }
+.errhead button.sm { width: auto; padding: 8px 14px; font-size: 14px; min-height: 0; }
 .errn { margin-left: 6px; font-size: 12px; color: var(--muted); font-weight: 600; }
 .errrow .tag { vertical-align: 1px; }
 .fxrow { width: 100%; text-align: left; border: 0; background: none; font: inherit; color: inherit; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
