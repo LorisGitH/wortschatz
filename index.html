@@ -3068,12 +3068,6 @@ function todayView() {
   const weakRows = [
     [nErr, nErr > 1 ? "erreurs" : "erreur", "à corriger", 'data-sec="err"'],
     [due, "mots", "à revoir aujourd'hui", 'data-start="review"'],
-    [vMeter(activeIrr(), "irr").weak, "verbes", "à reconjuguer", 'data-vx="conj-weak"'],
-    [vMeter(VP, "vp").weak, "verbes à préposition", "ratés", 'data-vx="prep-weak"'],
-    [vMeter(plNouns().map(w => ({ key: w.id })), "pl").weak, "pluriels", "ratés", 'data-vx="plural-weak"'],
-    [vMeter(PH, "ord").weak, "phrases", "à remettre dans l'ordre", 'data-vx="order-weak"'],
-    [canSpeak ? vMeter(PH, "dic").weak : 0, "dictées", "à refaire", 'data-vx="dict-weak"'],
-    [vMeter(PH, "ph").weak, "phrases du quotidien", "à revoir", 'data-vx="cards-weak"'],
     [activeFiches().filter(f => ficheState(f.id).key === "weak").length, "fiches", "à retravailler", 'data-go="gram:fiches"'],
   ].filter(r => r[0]);
   return `
@@ -3130,7 +3124,6 @@ function pluralView() {
       <div><h2>Trouve le pluriel</h2><p>10 noms : écris leur forme au pluriel.</p></div><span class="go">Jouer →</span>
     </button>
     ${statsBox(items, "pl", "noms")}
-    ${weakBtn(items, "pl", "plural")}
     <div class="tipcard"><b>Les tendances à connaître</b><ul>
       <li>Masculins : souvent <b>-e</b>, parfois avec umlaut. der Tisch → die Tische, der Stuhl → die Stühle.</li>
       <li>Féminins : presque toujours <b>-(e)n</b>. die Lampe → die Lampen, die Wohnung → die Wohnungen.</li>
@@ -4109,10 +4102,6 @@ function statsBox(items, store, unit) {
       <div class="stat"><b>${m.weak}</b><span>à revoir</span></div>
     </section>`;
 }
-function weakBtn(items, store, kind) {
-  const m = vMeter(items, store);
-  return m.weak ? `<button class="fiche-link" data-vx="${kind}-weak"><span class="fnum">${m.weak}</span><span>Revoir les ratés</span><span aria-hidden="true">→</span></button>` : "";
-}
 function sitChips(setting) {
   const cur = settings[setting] || "all";
   return `<div class="dirs" role="group" aria-label="Situation">${[["all", "Toutes"]].concat(SITS.map(s => [s.id, s.name])).map(([k, l]) => `<button class="chip" data-sit="${setting}:${k}" aria-pressed="${cur === k}">${esc(l)}</button>`).join("")}</div>`;
@@ -4177,7 +4166,6 @@ function conjTab() {
     </section>
     ${autoSwitch()}
     ${statsBox(items, "irr", "verbes")}
-    ${weakBtn(items, "irr", "conj")}
     <p class="note">Au présent, les questions portent surtout sur les personnes où le verbe change (souvent du et er/sie/es). Au parfait, écris l'auxiliaire et le participe : <b>bist gefahren</b>. Pour un verbe séparable, écris aussi la particule : <b>stehst auf</b>.</p>
     ${ficheLink(3, "Fiche :")}${ficheLink(12, "Fiche :")}${ficheLink(14, "Fiche :")}${ficheLink(15, "Fiche :")}`;
 }
@@ -4222,7 +4210,6 @@ function qprepTab() {
     </button>
     ${autoSwitch()}
     ${statsBox(VP, "vp", "verbes")}
-    ${weakBtn(VP, "vp", "prep")}
     <p class="note">Apprends toujours le verbe avec sa préposition et son cas, comme un seul bloc : <b>warten auf + Akk.</b> La liste complète est dans l'onglet Prépositions.</p>
     ${ficheLink(21, "Fiche :")}`;
 }
@@ -4404,7 +4391,6 @@ function phrTab() {
       <div><h2>Apprendre ces phrases</h2><p>10 cartes : tu lis la phrase en français, tu la dis en allemand, puis tu vérifies.</p></div><span class="go">Jouer →</span>
     </button>
     ${statsBox(items, "ph", "phrases")}
-    ${weakBtn(items, "ph", "cards")}
     <div id="phlist">${(settings.psit && settings.psit !== "all" ? [SIT_BY_ID[settings.psit]] : SITS).map(s => `
       <section class="section" style="margin-bottom:18px">
         <span class="label">${esc(s.name)} · ${esc(s.desc)}</span>
@@ -4420,7 +4406,6 @@ function orderTab() {
     </button>
     ${autoSwitch()}
     ${statsBox(items, "ord", "phrases")}
-    ${weakBtn(items, "ord", "order")}
     <div class="tipcard"><b>Les 3 places du verbe</b><ul>
       <li>Phrase simple : le verbe conjugué est en <b>2e position</b>. Morgen <b>fahre</b> ich nach Berlin.</li>
       <li>Avec un modal, le parfait ou un verbe séparable : la 2e partie va <b>à la fin</b>. Ich <b>muss</b> heute <b>arbeiten</b>.</li>
@@ -4438,7 +4423,6 @@ function dictTab() {
     </button>` : `<div class="tipcard">Ton navigateur ne peut pas lire l'audio, la dictée n'est donc pas disponible ici. Essaie depuis un autre navigateur (Chrome, Safari ou Edge).</div>`}
     ${autoSwitch()}
     ${statsBox(items, "dic", "phrases")}
-    ${weakBtn(items, "dic", "dict")}
     <p class="note">Tu peux réécouter autant de fois que tu veux, et aussi au ralenti. Les majuscules et la ponctuation ne comptent pas, mais les umlauts et le ß, si. La voix dépend de ton appareil.</p>`;
 }
 
