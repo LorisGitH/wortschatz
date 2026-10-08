@@ -2886,7 +2886,7 @@ const MODES = {
   type: { name: "Saisie", desc: "écrire le mot" },
   cards: { name: "Cartes", desc: "auto-évaluation" },
 };
-let settings = { mode: "qcm", dir: "mix", tab: "learn", level: "all", autoNext: true };
+let settings = { mode: "qcm", dir: "mix", level: "all", autoNext: true };
 try { Object.assign(settings, JSON.parse(localStorage.getItem("wortschatz-settings") || "{}")); } catch (e) {}
 const LEVELS = [["all", "Tous niveaux"], ["A1–B1", "A1 → B1"], ["B2", "B2"]];
 function activeThemes() { return THEMES.filter(t => t.level === "mine" ? t.words.length : settings.level === "all" || t.level === settings.level); }
@@ -2989,18 +2989,20 @@ const ICONS = {
 };
 const SECTIONS = [
   { id: "today", label: "Aujourd'hui", subs: [] },
-  { id: "mots", label: "Mots", subs: [["quiz", "Quiz"], ["genre", "Genre"], ["pluriel", "Pluriels"], ["lex", "Lexique"]] },
-  { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["dek", "Déclinaisons"], ["order", "Ordre des mots"]] },
+  { id: "mots", label: "Quiz", subs: [["quiz", "Vocabulaire"], ["genre", "Genre"], ["pluriel", "Pluriels"]] },
+  { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["dek", "Déclinaisons"], ["order", "Ordre des mots"], ["lex", "Lexique"]] },
   { id: "verbes", label: "Verbes", subs: [["conj", "Conjugaison"], ["irr", "Irréguliers"], ["qprep", "Quiz prép."], ["vprep", "Prépositions"]] },
   { id: "phrases", label: "Phrases", subs: [["phr", "Situations"], ["dict", "Dictée"]] },
   { id: "err", label: "Erreurs", subs: [] },
 ];
 const SEC_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
 // earlier versions used one flat row of tabs: map the last one used to its new place
-const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "mots:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "verbes:conj", vprep: "verbes:vprep", qprep: "verbes:qprep", dict: "phrases:dict", phr: "phrases:phr" };
+const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "gram:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "verbes:conj", vprep: "verbes:vprep", qprep: "verbes:qprep", dict: "phrases:dict", phr: "phrases:phr" };
 settings.sub = settings.sub || {};
 if (!settings.sec) settings.sec = "today";
 if (settings.tab && OLD_TAB[settings.tab]) { const [a, b] = OLD_TAB[settings.tab].split(":"); settings.sub[a] = b; delete settings.tab; }
+// the word list moved from Mots (now Quiz) to Grammaire
+if (settings.sub.mots === "lex") { settings.sub.mots = "quiz"; if (settings.sec === "mots") { settings.sec = "gram"; settings.sub.gram = "lex"; } }
 function curSub(sec) { const s = SEC_BY_ID[sec]; return s.subs.some(x => x[0] === settings.sub[sec]) ? settings.sub[sec] : (s.subs[0] || [""])[0]; }
 let setOpen = false;
 
@@ -3162,7 +3164,7 @@ function renderHome() {
   else if (sub === "phr") body = phrTab();
   else if (sub === "dict") body = dictTab();
   app.innerHTML = topBar(sec === "today" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length ? subNav(sec) : "") + body + bottomNav();
-  if (sub === "lex" && sec === "mots") renderLex();
+  if (sub === "lex" && sec === "gram") renderLex();
   if (sub === "irr") renderIrrList();
   if (sub === "vprep") renderVpList();
   const cur = app.querySelector('.subnav [aria-selected="true"]');
