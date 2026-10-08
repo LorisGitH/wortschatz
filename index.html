@@ -93,7 +93,7 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--signal); ou
 
 /* modes */
 .section { display: flex; flex-direction: column; gap: 10px; }
-.modes { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 5px; }
+.modes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 5px; }
 .mode { border: 0; background: transparent; border-radius: 7px; padding: 9px 4px; display: flex; flex-direction: column; align-items: center; gap: 2px; min-width: 0; }
 .mode b { font-family: var(--font-display); font-size: 16px; font-weight: 600; }
 .mode span { font-size: 11.5px; color: var(--muted); text-align: center; line-height: 1.2; }
@@ -2884,10 +2884,10 @@ const MODES = {
   qcm: { name: "QCM", desc: "4 choix" },
   article: { name: "Article", desc: "der, die, das" },
   type: { name: "Saisie", desc: "écrire le mot" },
-  cards: { name: "Cartes", desc: "auto-évaluation" },
 };
 let settings = { mode: "qcm", dir: "mix", level: "all", autoNext: true };
 try { Object.assign(settings, JSON.parse(localStorage.getItem("wortschatz-settings") || "{}")); } catch (e) {}
+if (!MODES[settings.mode]) settings.mode = "qcm"; // the self-graded cards mode was removed
 const LEVELS = [["all", "Tous niveaux"], ["A1–B1", "A1 → B1"], ["B2", "B2"]];
 function activeThemes() { return THEMES.filter(t => t.level === "mine" ? t.words.length : settings.level === "all" || t.level === settings.level); }
 function activeWords() { return settings.level === "all" ? WORDS : WORDS.filter(w => w.level === settings.level || w.mine); }
@@ -4509,7 +4509,7 @@ function startErrSession(cat) {
   if (cat === "w" || cat === "art") {
     const qs = list.map(({ o, x }) => {
       if (cat === "art") return buildQuestion("article", x.w);
-      const type = ["de2fr", "fr2de", "type", "card"].includes(o.e[3]) ? o.e[3] : "fr2de";
+      const type = ["de2fr", "fr2de", "type"].includes(o.e[3]) ? o.e[3] : "fr2de";
       const q = { w: x.w, type, answered: false };
       if (type === "de2fr" || type === "fr2de") q.options = shuffle([x.w, ...distractors(x.w, type === "de2fr" ? "fr" : "de")]);
       return q;
