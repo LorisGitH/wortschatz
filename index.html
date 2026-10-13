@@ -38,6 +38,7 @@
   --font-display: "Barlow Semi Condensed", "Arial Narrow", system-ui, sans-serif;
   --font-body: "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
   --irr: #B4560F;
+  --tr: #7A5230;
   --r: 10px;
 }
 @media (prefers-color-scheme: dark) {
@@ -45,7 +46,7 @@
     --bg: #0E1412; --surface: #18201D; --ink: #E6ECE8; --muted: #9AA69F; --line: #2B3531;
     --signal: #F2C230; --signal-ink: #1A1A12;
     --good: #5CC98A; --good-bg: #183326; --bad: #F07A8B; --bad-bg: #3A1C22;
-    --der: #79A6EE; --die: #F07A8B; --das: #63C98F; --pl: #B39AE6; --irr: #F2A35E;
+    --der: #79A6EE; --die: #F07A8B; --das: #63C98F; --pl: #B39AE6; --irr: #F2A35E; --tr: #E0B68A;
     color-scheme: dark;
   }
 }
@@ -53,7 +54,7 @@
   --bg: #0E1412; --surface: #18201D; --ink: #E6ECE8; --muted: #9AA69F; --line: #2B3531;
   --signal: #F2C230; --signal-ink: #1A1A12;
   --good: #5CC98A; --good-bg: #183326; --bad: #F07A8B; --bad-bg: #3A1C22;
-  --der: #79A6EE; --die: #F07A8B; --das: #63C98F; --pl: #B39AE6; --irr: #F2A35E;
+  --der: #79A6EE; --die: #F07A8B; --das: #63C98F; --pl: #B39AE6; --irr: #F2A35E; --tr: #E0B68A;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -211,9 +212,13 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--signal); ou
 .answer > div { min-width: 0; flex: 1; }
 .answer .de { font-size: 19px; font-weight: 700; overflow-wrap: anywhere; }
 .answer .sub { font-size: 14px; color: var(--muted); }
+/* translations: own line, shifted right, italic, warm tone, so they never mix with the German */
+.trl, .ex-fr, .missed .fr, .lex .fr, .errrow .fr { font-style: italic; color: var(--tr) !important; padding-left: 12px; border-left: 2px solid color-mix(in srgb, var(--tr) 35%, transparent); margin-top: 2px; }
+.trl { font-size: 16px; }
+.plx { color: var(--muted); font-size: 14px; font-weight: 400; }
 .ex { display: flex; align-items: flex-start; gap: 10px; width: 100%; border-top: 1px solid var(--line); padding-top: 9px; }
 .ex-text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 1px; }
-.ex-de { font-size: 16.5px; font-style: italic; overflow-wrap: anywhere; }
+.ex-de { font-size: 16.5px; overflow-wrap: anywhere; }
 .ex-fr { font-size: 13.5px; color: var(--muted); }
 @keyframes up { from { transform: translateY(30%); opacity: 0; } to { transform: none; opacity: 1; } }
 
@@ -3299,7 +3304,7 @@ function renderLex() {
       <span class="label">${esc(g.name)}</span>
       <div class="lex">${g.words.map(w => `
         <div class="row" data-notr>
-          <div class="de">${deHTML(w)}${w.kind === "n" && w.pl ? ` <span class="fr" style="font-weight:400">· die ${esc(w.pl)}</span>` : ""}</div>
+          <div class="de">${deHTML(w)}${w.kind === "n" && w.pl ? ` <span class="plx">· die ${esc(w.pl)}</span>` : ""}</div>
           <div class="fr">${esc(w.fr)}${w.kind === "v" ? ` · <i>${esc(w.forms)}</i>` : ""}</div>
           ${w.ex ? `<div class="lex-ex"><div><div class="ex-de" lang="de">${esc(w.ex.de)}</div><div class="ex-fr" data-notr>${esc(w.ex.fr)}</div></div>${spkBtn(w.ex.de, true)}</div>` : ""}
           <div class="side"><span class="boxes" title="Niveau ${box(w.id)}/5">${[1, 2, 3, 4, 5].map(i => `<i class="${box(w.id) >= i ? "on" : ""}"></i>`).join("")}</span>${spkBtn(w.de, true)}${w.mine ? `<button class="del" data-delmine="${w.id}" aria-label="Supprimer ${esc(w.de)}" title="Supprimer">✕</button>` : ""}</div>
@@ -3367,7 +3372,7 @@ function feedback(q) {
   const note = q.why ? `<div class="sub">${esc(q.why)}</div>` : q.near ? `<div class="sub">Orthographe exacte ci-dessous.</div>` : "";
   return `<div class="sheet ${ok ? "good" : "bad"}" role="status"><div class="sheet-in">
     <div class="verdict"><h3>${title}</h3></div>
-    <div class="answer"><div><div class="de">${deHTML(w)}</div><div class="sub"><span data-notr>${esc(w.fr)}</span>${details(w) ? " · " + details(w) : ""}</div>${note}</div>${spkBtn(w.de)}</div>
+    <div class="answer"><div><div class="de">${deHTML(w)}</div><div class="trl" data-notr>${esc(w.fr)}</div>${details(w) ? `<div class="sub">${details(w)}</div>` : ""}${note}</div>${spkBtn(w.de)}</div>
     ${q.type === "article" && genderRule(w) ? `<div class="sub rule-hint">${genderRule(w)}</div>` : ""}
     ${exampleHTML(w)}
     ${(() => { const fs = fichesFor(w, q); return fs.length ? `<div class="fiche-links"><span class="label">Revoir la règle</span>${fs.map(id => ficheLink(id)).join("")}</div>` : ""; })()}
