@@ -1,5 +1,5 @@
-// Offline support: the app shell is cached; pages try the network first so updates arrive, fonts are cached once.
-const VERSION = "9492befe88";
+// Offline support: the app shell is cached; pages try the network first (revalidated, never a stale HTTP copy) so updates arrive, fonts are cached once.
+const VERSION = "1817883d48";
 const SHELL = ["./", "index.html", "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open("app-" + VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {
@@ -15,7 +15,7 @@ self.addEventListener("fetch", e => {
   }
   if (url.origin !== location.origin) return;
   if (req.mode === "navigate") {
-    e.respondWith(fetch(req).then(res => { const copy = res.clone(); caches.open("app-" + VERSION).then(c => c.put("index.html", copy)); return res; })
+    e.respondWith(fetch(req.url, { cache: "no-cache", credentials: "same-origin" }).then(res => { const copy = res.clone(); caches.open("app-" + VERSION).then(c => c.put("index.html", copy)); return res; })
       .catch(() => caches.match("index.html")));
     return;
   }
