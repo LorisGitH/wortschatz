@@ -4454,8 +4454,10 @@ function ikiAddText() {
   for (const line of IA.text.split("\n")) {
     const raw = line.replace(/^[\s•·*\-–—\d.)]+/, "").trim();
     if (!raw) continue;
-    const parts = raw.split(/\s*(?:=|:|\s[–—-]\s)\s*/);
-    const de = parts[0].trim(), fr = parts.slice(1).join(" ").trim();
+    // "=" separates German and translation; without it, ":" or " - " do
+    const eq = raw.indexOf("=");
+    const parts = eq >= 0 ? [raw.slice(0, eq), raw.slice(eq + 1)] : raw.split(/\s*(?::|\s[–—-]\s)\s*/);
+    const de = parts[0].trim(), fr = (eq >= 0 ? parts[1] : parts.slice(1).join(" ")).trim();
     if (!de) continue;
     const known = ikiLookup(de);
     if (known) rows.push({ de: known.de, fr: fr || known.fr, kind: known.kind, pl: known.pl || "", base: known.base, forms: known.forms || "" });
