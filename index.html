@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
@@ -59,6 +59,9 @@
 }
 * { box-sizing: border-box; }
 body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 16px; line-height: 1.45; }
+/* no page zoom on phones: no double-tap zoom, and fields big enough that iOS doesn't zoom in on focus */
+html { touch-action: manipulation; }
+@media (pointer: coarse) { input, textarea, select { font-size: max(16px, 1em) !important; } }
 .wrap { max-width: 580px; margin: 0 auto; padding-inline: 16px; padding-block: 16px 300px; display: flex; flex-direction: column; gap: 22px; }
 h1, h2, h3 { font-family: var(--font-display); margin: 0; text-wrap: balance; letter-spacing: .01em; }
 button { font: inherit; color: inherit; cursor: pointer; }
@@ -469,7 +472,8 @@ b.miss { color: var(--bad); text-decoration: underline 2px var(--bad); text-unde
 .ikiform h2 { font-size: 24px; }
 .ikiprev { border: 0; padding: 0; background: none; }
 .ikiprev img { width: 100%; max-height: 260px; object-fit: contain; border-radius: var(--r); background: var(--surface); display: block; }
-.ikibig { width: 100%; height: auto; border-radius: 8px; }
+.ikibig { width: 100%; height: auto; border-radius: 8px; transform-origin: 0 0; touch-action: none; }
+.ikizoom { overflow: hidden; border-radius: 8px; }
 .filebtn { text-align: center; cursor: pointer; display: block; }
 .filebtn input { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .ikirows { display: flex; flex-direction: column; gap: 6px; }
@@ -498,6 +502,9 @@ textarea.search { resize: vertical; }
 <div id="pop" class="pop" role="dialog" aria-modal="true" aria-label="Tableaux des déclinaisons" hidden></div>
 
 <script>
+// iOS ignores user-scalable=no: block pinch zoom of the page; the board photo zooms on its own (ikiZoom)
+document.addEventListener("gesturestart", e => e.preventDefault());
+document.addEventListener("touchmove", e => { if (e.touches.length > 1 && !e.target.closest(".ikibig")) e.preventDefault(); }, { passive: false });
 const RAW = `# bases|Premiers pas|Saluer, remercier, se faire comprendre
 Hallo!||Salut ! / Bonjour !
 Guten Morgen!||Bonjour ! (le matin)
@@ -4546,6 +4553,45 @@ function ikiAddText() {
   render();
 }
 
+// pinch or double-tap to zoom into the board photo, drag to move around it
+function ikiZoom(img) {
+  let z = 1, x = 0, y = 0, start = null, lastTap = 0;
+  const apply = () => {
+    z = Math.min(5, Math.max(1, z));
+    const w = img.clientWidth, h = img.clientHeight;
+    x = Math.min(0, Math.max(w - w * z, x)); y = Math.min(0, Math.max(h - h * z, y));
+    img.style.transform = z > 1 ? `translate(${x}px,${y}px) scale(${z})` : "";
+  };
+  const pt = (t, r) => [t.clientX - r.left, t.clientY - r.top];
+  const base = () => { const r = img.getBoundingClientRect(); return { left: r.left - x, top: r.top - y }; }; // where the photo sits unzoomed
+  img.addEventListener("touchstart", e => {
+    const r = base(), t = e.touches;
+    if (t.length === 2) {
+      const a = pt(t[0], r), b = pt(t[1], r);
+      start = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), z, x, y, c: [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2] };
+    } else if (t.length === 1) {
+      const now = Date.now(), p = pt(t[0], r);
+      if (now - lastTap < 300) { if (z > 1) { z = 1; x = y = 0; } else { z = 2.5; x = -p[0] * 1.5; y = -p[1] * 1.5; } apply(); lastTap = 0; start = null; return; }
+      lastTap = now; start = { p, x, y };
+    }
+  }, { passive: true });
+  img.addEventListener("touchmove", e => {
+    if (!start || e.touches.length < 2 && z === 1) return;
+    e.preventDefault();
+    const r = base(), t = e.touches;
+    if (t.length === 2 && start.d) {
+      const a = pt(t[0], r), b = pt(t[1], r), k = Math.hypot(a[0] - b[0], a[1] - b[1]) / start.d;
+      z = start.z * k;
+      const f = z / start.z; // keep the point between the fingers in place
+      x = start.c[0] - (start.c[0] - start.x) * f; y = start.c[1] - (start.c[1] - start.y) * f;
+      apply();
+    } else if (t.length === 1 && start.p && z > 1) {
+      const p = pt(t[0], r); x = start.x + p[0] - start.p[0]; y = start.y + p[1] - start.p[1]; apply();
+    }
+  }, { passive: false });
+  img.addEventListener("touchend", e => { if (!e.touches.length) start = null; });
+}
+
 /* photos stay on this device, in IndexedDB */
 let ikiDBp = null;
 function ikiDB() {
@@ -4594,7 +4640,8 @@ async function ikiSetPhoto(file) {
   if (ikiAI && !IA.rows.length) ikiRead();
 }
 function ikiOpenPhoto(url) {
-  pop.innerHTML = `<div class="pop-card"><div class="pop-top"><h2>Photo du tableau</h2><button class="x pop-close" id="popclose" aria-label="Fermer">✕ Fermer</button></div><img class="ikibig" src="${url}" alt="Photo du tableau"></div>`;
+  pop.innerHTML = `<div class="pop-card"><div class="pop-top"><h2>Photo du tableau</h2><button class="x pop-close" id="popclose" aria-label="Fermer">✕ Fermer</button></div><div class="ikizoom"><img class="ikibig" src="${url}" alt="Photo du tableau"></div></div>`;
+  ikiZoom(pop.querySelector(".ikibig"));
   pop.hidden = false;
   document.documentElement.style.overflow = "hidden";
   document.getElementById("popclose").focus({ preventScroll: true });
