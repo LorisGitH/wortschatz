@@ -494,6 +494,34 @@ textarea.search { resize: vertical; }
 .mform .note { margin: 0; }
 .del { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 30px; height: 30px; color: var(--muted); font-size: 13px; flex: none; }
 .del:hover { color: var(--bad); border-color: var(--bad); }
+/* wide screens (laptop): the bottom bar becomes a left sidebar, pages get two columns.
+   On a phone the column wrappers are invisible (display: contents), so nothing moves. */
+.dcols, div.dcol, .dgrid { display: contents; }
+/* "Mes cours" sits under the modes on wide screens, but stays last on a phone */
+.ikimine { order: 1; }
+@media (min-width: 1000px) {
+  body:has(.bnav) { padding-left: 232px; }
+  .wrap:has(> .bnav) { max-width: 1120px; padding-inline: 36px; padding-block: 28px 80px; }
+  .bnav { top: 0; right: auto; width: 232px; border-top: 0; border-right: 1px solid var(--line); padding: 24px 14px; overflow-y: auto; }
+  .bnav-in { max-width: none; display: flex; flex-direction: column; gap: 4px; }
+  .bnav button { flex-direction: row; justify-content: flex-start; gap: 12px; padding: 4px 8px 4px 4px; font-size: 16px; border-radius: 18px; text-align: left; }
+  .bnav button:hover { background: var(--bg); color: var(--ink); }
+  .bico { width: 52px; height: 34px; border-radius: 17px; flex: none; }
+  .dcols { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px 36px; align-items: start; }
+  div.dcol { display: flex; flex-direction: column; gap: 22px; min-width: 0; }
+  .dcol { min-width: 0; }
+  .dgrid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 22px 36px; align-items: start; }
+  #lex { columns: 2; column-gap: 36px; }
+  #lex .section { break-inside: avoid; }
+  .ikiform .dcols { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); }
+  .ikiside, .qside { position: sticky; top: 20px; }
+  .ikiside .row2 { order: -1; }
+  .ikiside .ikiprev img { max-height: calc(100vh - 110px); }
+  /* sheets open beside the sidebar, in a wider column */
+  body:has(.bnav) .ov { left: 232px; }
+  .ov-in { max-width: 860px; padding-inline: 36px; }
+  .pop-card { max-width: 980px; }
+}
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 
@@ -501,4 +529,4 @@ textarea.search { resize: vertical; }
 <div id="ov" class="ov" role="dialog" aria-modal="true" aria-label="Fiche de grammaire" hidden></div>
 <div id="pop" class="pop" role="dialog" aria-modal="true" aria-label="Tableaux des déclinaisons" hidden></div>
 
-<script src="app.js?v=b7a04c85af"></script>
+<script src="app.js?v=e9700c8809"></script>

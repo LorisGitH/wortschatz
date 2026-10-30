@@ -6,6 +6,15 @@ Version installable et hors ligne, publiée avec GitHub Pages. Sur iPhone : ouvr
 
 La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter ou importer la progression.
 
+## Téléphone et ordinateur
+
+Une seule app, qui s'adapte à la largeur de l'écran :
+
+- **Téléphone et tablette** (moins de 1000 px de large) : barre de rubriques en bas, une colonne.
+- **Ordinateur** (1000 px et plus) : barre de rubriques à gauche, pages sur deux colonnes (par exemple les modes du quiz à gauche et les thèmes à droite, la photo d'un cours IKI à gauche et ses mots à droite), fiches de grammaire ouvertes à côté de la barre.
+
+Captures dans [`docs/captures/`](docs/captures/).
+
 ## Hébergement
 
 Le dépôt contient l'app déjà construite : `index.html`, son script `app.js`, le service worker `sw.js`, le manifeste et les icônes. Deux hébergements la servent :

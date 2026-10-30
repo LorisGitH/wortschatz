@@ -2668,7 +2668,7 @@ function todayView() {
       <div class="stat"><b>${doneFiches()}</b><span>fiches acquises / ${FICHES.length}</span></div>
       <div class="goal"><span>Objectif du jour</span><div class="bar"><i style="width:${Math.min(100, doneN / GOAL * 100)}%"></i></div><span class="num">${Math.min(doneN, GOAL)}/${GOAL}</span></div>
     </section>
-    <section class="section">
+    <div class="dcols"><section class="section dcol">
       <span class="label">Ton plan du jour · ${nDone}/3</span>
       <div class="plan">
         ${step(1, steps[0], 'data-start="review"', "Révision des mots", due ? `${due} mot${due > 1 ? "s" : ""} à revoir, puis quelques nouveaux` : fresh ? "5 nouveaux mots à découvrir" : "Entraînement libre sur tes mots", nx === 0)}
@@ -2677,11 +2677,11 @@ function todayView() {
       </div>
       ${nDone === 3 ? `<p class="note good-note">Plan du jour terminé. Bravo ! Tu peux continuer librement dans les autres rubriques.</p>` : ""}
     </section>
-    <section class="section">
+    <section class="section dcol">
       <span class="label">À revoir</span>
       ${weakRows.length ? `<div class="lex">${weakRows.map(([n, what, how, attrs]) => `<button class="wrow" ${attrs}><b class="num">${n}</b><span>${what} ${how}</span><span aria-hidden="true">→</span></button>`).join("")}</div>`
         : `<p class="note">Rien à revoir pour l'instant. Les erreurs de chaque exercice apparaîtront ici.</p>`}
-    </section>`;
+    </section></div>`;
 }
 function doneFiches() { return FICHES.filter(f => ficheState(f.id).key === "ok").length; }
 
@@ -2692,7 +2692,7 @@ function quizView(AW, o = null) {
   const themes = o ? o.themes : activeThemes(), allId = o ? "iki" : "all";
   const n = m === "genre" ? 20 : 10;
   const mtr = words => m === "plural" ? plMeter(eligible("plural", words)) : meter(eligible(m, words));
-  return `
+  return `<div class="dcols"><div class="dcol${o ? "" : " qside"}">
     <section class="section">
       <div class="modes" role="group" aria-label="Type d'exercice">
         ${Object.entries(MODES).map(([k, v]) => `<button class="mode" data-${key}="${k}" aria-pressed="${m === k}"><b>${v.name}</b><span>${v.desc}</span></button>`).join("")}
@@ -2710,7 +2710,8 @@ function quizView(AW, o = null) {
       <div class="stat"><b>${eligible("genre", AW).length}</b><span>noms à entraîner${o || settings.level === "all" ? "" : " (" + settings.level.replace("–", " → ") + ")"}</span></div>
     </section>` : ""}
     ${m === "plural" ? statsBox(eligible("plural", AW).map(w => ({ key: w.id })), "pl", "noms") : ""}
-    <section class="section">
+    ${o && o.side || ""}</div>
+    <section class="section dcol">
       <span class="label">${o ? "Choisis un cours" : "Choisis un thème"} · ${n} questions</span>
       <div class="tlist">
         <button class="trow all" data-start="${m}" data-theme="${allId}"><span class="tname">${o ? "Tous les cours" : "Tous les thèmes"}</span><span class="tmeta">${mtr(AW)}</span></button>
@@ -2723,7 +2724,7 @@ function quizView(AW, o = null) {
       ${m === "plural"
         ? `<div class="legend"><span><b style="color:var(--good)">■</b> maîtrisé</span><span><b style="color:var(--signal)">■</b> en cours</span><span>Un pluriel est maîtrisé après 2 bonnes réponses d'affilée.</span></div>`
         : `<div class="legend"><span><b style="color:var(--good)">■</b> maîtrisé</span><span><b style="color:var(--signal)">■</b> en cours</span><span>Un mot est maîtrisé après 4 bonnes réponses espacées dans le temps.</span></div>`}
-    </section>
+    </section></div>
     ${m === "genre" ? genreRules() : m === "plural" ? pluralRules() : ""}`;
 }
 // Quiz → Verbes: the two verb drills, picked like the vocabulary modes
@@ -3086,14 +3087,14 @@ function gramTab() {
       <div class="goal" style="border-top:0"><span>Fiches acquises</span><div class="bar"><i style="width:${done / AF.length * 100}%;background:var(--good)"></i></div><span class="num">${done}/${AF.length}</span></div>
     </section>
     <p class="note">Chaque fiche se termine par un exercice corrigé automatiquement. Une fiche est acquise à partir de 80 % de bonnes réponses ; elle te sera reproposée à relire trois semaines plus tard.</p>
-    ${FICHE_GROUPS.filter(([, a]) => ficheInLevel(a)).map(([name, a, b]) => `
+    <div class="dgrid">${FICHE_GROUPS.filter(([, a]) => ficheInLevel(a)).map(([name, a, b]) => `
       <section class="section">
         <span class="label">${name}</span>
         <div class="flist">${FICHES.filter(f => f.id >= a && f.id <= b).map(f => {
           const s = ficheState(f.id);
           return `<button class="frow" data-fiche="${f.id}"><span class="fnum">${f.id}</span><span class="ftitle"><span data-notr>${esc(f.title)}</span><small>${esc(f.level)}</small></span><span class="pill pill-${s.key}">${s.label}</span></button>`;
         }).join("")}</div>
-      </section>`).join("")}`;
+      </section>`).join("")}</div>`;
 }
 
 /* ---------- sheet overlay ---------- */
@@ -4193,8 +4194,8 @@ function ikiView() {
   if (IA) return ikiForm();
   const cta = `<button class="cta" data-ikiadd="1"><div><h2>Nouveau cours</h2><p>Ajoute la photo du tableau et la date du cours, puis entraîne-toi sur ses mots.</p></div><span class="go">Ajouter →</span></button>`;
   if (!IKI_THEMES.length) return cta + `<p class="note">Les mots de tes cours d'allemand. Chaque cours garde sa date et la photo du tableau, et a son propre quiz. Ces mots restent séparés du reste de l'app.</p>`;
-  return cta + quizView(IKI_ALL.words, { themes: IKI_THEMES }) + `
-    <section class="section">
+  return cta + quizView(IKI_ALL.words, { themes: IKI_THEMES, side: `
+    <section class="section ikimine">
       <span class="label">Mes cours</span>
       <div class="ikil">${IKI_THEMES.map(t => `
         <div class="ikic">
@@ -4203,7 +4204,7 @@ function ikiView() {
           <button class="chip" data-ikiedit="${t.lid}">Voir les mots</button>
         </div>`).join("")}
       </div>
-    </section>`;
+    </section>` });
 }
 function ikiForm() {
   if (IA.lid && !IA.editing) return ikiShow();
@@ -4246,11 +4247,14 @@ function ikiShow() {
   return `
     <section class="section ikiform">
       <h2>${esc(ikiDateName(IA.date))}</h2>
+      <div class="dcols"><div class="dcol ikiside">
       ${IA.photoURL ? `<button class="ikiprev" data-ikiview="form" aria-label="Agrandir la photo"><img src="${IA.photoURL}" alt="Photo du tableau"></button>` : ""}
       <div class="row2"><button class="secondary" id="iki-cancel">Retour</button><button class="primary" id="iki-modify">Modifier</button></div>
+      </div><div class="dcol">
       <span class="label">Les mots du cours · ${words.length}</span>
       <div class="lex">${words.map(wordRow).join("")}</div>
       <button class="secondary" id="iki-modify2">Modifier les mots</button>
+      </div></div>
     </section>`;
 }
 function ikiInput(el) {
@@ -4479,7 +4483,7 @@ function errView() {
   return `<section class="section">
       <p class="note">${total > 1 ? `${total} erreurs à corriger. Chacune disparaît` : `${total} erreur à corriger. Elle disparaît`} dès que tu y réponds juste, ici ou dans un exercice.</p>
     </section>
-    ${groups.map(g => {
+    <div class="dgrid">${groups.map(g => {
       const SHOW = g.items.length <= 5 ? 5 : 4, more = g.items.length - SHOW;
       const rows = g.items.map(r => errRow(g.cat, r.x, r.o.e));
       return `<section class="section errgroup">
@@ -4487,7 +4491,7 @@ function errView() {
         <div class="missed">${rows.slice(0, SHOW).join("")}</div>
         ${more > 0 ? `<details class="errmore"><summary>Voir les ${more} autres</summary><div class="missed">${rows.slice(SHOW).join("")}</div></details>` : ""}
       </section>`;
-    }).join("")}`;
+    }).join("")}</div>`;
 }
 // a session made only of the open errors of one category
 function startErrSession(cat) {
@@ -4931,7 +4935,7 @@ app.addEventListener("click", e => {
   if (t.dataset.fiche) { openFiche(+t.dataset.fiche); return; }
   if (t.id === "reloadbtn") { reloadApp(); return; }
   if (t.id === "autoNext") { settings.autoNext = !settings.autoNext; saveSettings(); render(); return; }
-  if (t.dataset.sec) { view = "home"; settings.sec = t.dataset.sec; setOpen = false; saveSettings(); render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.sec) { if (!ov.hidden) closeFiche(); view = "home"; settings.sec = t.dataset.sec; setOpen = false; saveSettings(); render(); window.scrollTo(0, 0); return; }
   if (t.dataset.sub) { const [a, b] = t.dataset.sub.split(":"); settings.sub[a] = b; saveSettings(); render(); return; }
   if (t.dataset.go) { const [a, b] = t.dataset.go.split(":"); settings.sec = a; settings.sub[a] = b; saveSettings(); render(); window.scrollTo(0, 0); return; }
   if (t.id === "setbtn") { setOpen = !setOpen; render(); return; }
