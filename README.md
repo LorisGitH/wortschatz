@@ -11,7 +11,7 @@ La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter
 Une seule app, qui s'adapte à la largeur de l'écran :
 
 - **Téléphone et tablette** (moins de 1000 px de large) : barre de rubriques en bas, une colonne.
-- **Ordinateur** (1000 px et plus) : barre de rubriques à gauche, pages sur deux colonnes (par exemple les modes du quiz à gauche et les thèmes à droite, la photo d'un cours IKI à gauche et ses mots à droite), fiches de grammaire ouvertes à côté de la barre.
+- **Ordinateur** (1000 px et plus) : barre de rubriques à gauche, pages sur deux colonnes (par exemple les modes du quiz à gauche et les thèmes à droite), fiches de grammaire ouvertes à côté de la barre.
 
 Captures dans [`docs/captures/`](docs/captures/).
 
