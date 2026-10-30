@@ -2,6 +2,10 @@
 # GHCR as ghcr.io/lorisgith/wortschatz:main-<unix timestamp>-<short sha>. The Traquenard
 # Server's bump workflow orders tags by that timestamp. GitHub Pages is published by its
 # own, separate mechanism and is not touched.
+#
+# A first push creates the package private (https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry),
+# so after the first run, set it to public by hand in the package's settings on GitHub; without that
+# the Cluster can't pull it.
 name: image
 
 on:
@@ -14,7 +18,7 @@ permissions:
 
 jobs:
   image:
-    # A native arm64 runner, free on public repositories (no QEMU):
+    # A native arm64 runner, free and unlimited on public repositories (no QEMU):
     # https://docs.github.com/en/actions/reference/runners/github-hosted-runners
     runs-on: ubuntu-24.04-arm
     steps:
@@ -34,12 +38,15 @@ jobs:
       - name: Smoke check
         run: |
           docker run -d --name app -p 8080:8080 wortschatz:test
-          for _ in $(seq 20); do curl -fs -o /dev/null http://localhost:8080/ && break; sleep 1; done
+          for _ in $(seq 20); do curl -fs -o /dev/null http://localhost:8080/ && ready=1 && break; sleep 1; done
+          [ -n "${ready:-}" ] || { docker logs app; echo "the container never answered" >&2; exit 1; }
           ./smoke.sh http://localhost:8080 || { docker logs app; exit 1; }
 
       - name: Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           image=ghcr.io/lorisgith/wortschatz:${tag}
-          echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          echo "$GITHUB_TOKEN" | docker login ghcr.io -u "$GITHUB_ACTOR" --password-stdin
           docker tag wortschatz:test "$image"
           docker push "$image"

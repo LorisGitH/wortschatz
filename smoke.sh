@@ -11,6 +11,8 @@ base=${base%/}
 fail=0
 
 pass() { echo "ok:   $1"; }
+# Content types are matched loosely (nginx's mime.types maps .js to text/javascript or application/javascript
+# depending on its version); unverified against the real image until the first CI run.
 bad() { echo "FAIL: $1" >&2; fail=1; }
 
 # fetch <path>: sets status, headers (lower-cased, CR removed) and body_file.
@@ -22,7 +24,7 @@ fetch() {
 }
 header() { sed -n "s/^$1:[[:space:]]*//p" <<<"$headers" | head -1; }
 
-revalidates() { [[ "$(header cache-control)" =~ (no-cache|no-store|max-age=0|must-revalidate) ]]; }
+revalidates() { [[ "$(header cache-control)" =~ (no-cache|no-store|max-age=0) ]]; }
 
 fetch /
 if [[ "$status" == 200 ]] && grep -qi '<html' "$body_file" && grep -q 'Wortschatz' "$body_file"; then
@@ -56,6 +58,9 @@ revalidates && pass "/manifest.webmanifest revalidates" || bad "/manifest.webman
 
 # Every icon the manifest lists, plus the iOS one the service worker caches.
 icons=$(curl -s -m 15 "$base/manifest.webmanifest" | grep -o '"src": *"[^"]*"' | sed 's/.*"\([^"]*\)"$/\1/')
+if [[ -z "$icons" ]]; then
+  bad "the manifest lists no icons"
+fi
 for icon in $icons icon-180.png; do
   fetch "/$icon"
   age=$(header cache-control | sed -n 's/.*max-age=\([0-9]*\).*/\1/p')

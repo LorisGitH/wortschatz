@@ -2,6 +2,9 @@
 # Pod passes Pod Security `restricted`. Only the listed files are copied, so everything else
 # (README, LICENSE, CI files) answers 404.
 # https://github.com/nginx/docker-nginx-unprivileged#readme
+# The tag exists with an arm64 build (observed 2026-10-30 on Docker Hub's tag API,
+# hub.docker.com/v2/repositories/nginxinc/nginx-unprivileged/tags/1.31.6-alpine).
+# Pod Security `restricted`: https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted
 FROM docker.io/nginxinc/nginx-unprivileged:1.31.6-alpine
 
 LABEL org.opencontainers.image.source="https://github.com/LorisGitH/wortschatz"
