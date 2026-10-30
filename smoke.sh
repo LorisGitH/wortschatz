@@ -43,6 +43,27 @@ else
   bad "/index.html: status ${status:-none}, cache-control '$(header cache-control)'"
 fi
 
+csp=$(header content-security-policy)
+script_src=$(tr ';' '\n' <<<"$csp" | sed -n 's/^[[:space:]]*script-src[[:space:]]*//p')
+if [[ -n "$script_src" && "$script_src" != *unsafe-inline* && "$script_src" != *unsafe-eval* ]]; then
+  pass "the page sends a Content-Security-Policy whose script-src allows no inline script"
+else
+  bad "the page has no Content-Security-Policy, or its script-src allows inline script ('$csp')"
+fi
+
+# The script the page loads, under the exact name it asks for.
+src=$(grep -o '<script src="[^"]*"' "$body_file" | head -1 | sed 's/.*src="//; s/"$//')
+if [[ -z "$src" ]]; then
+  bad "the page loads no script file"
+else
+  fetch "/$src"
+  if [[ "$status" == 200 && "$(header content-type)" == *javascript* ]] && revalidates; then
+    pass "/$src returns 200 as JavaScript and revalidates"
+  else
+    bad "/$src: status ${status:-none}, content-type '$(header content-type)', cache-control '$(header cache-control)'"
+  fi
+fi
+
 fetch /sw.js
 if [[ "$status" == 200 && "$(header content-type)" == *javascript* ]] && revalidates; then
   pass "/sw.js returns 200 as JavaScript and revalidates"

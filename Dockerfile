@@ -12,4 +12,4 @@ FROM docker.io/nginxinc/nginx-unprivileged:1.31.6-alpine
 LABEL org.opencontainers.image.source="https://github.com/LorisGitH/wortschatz"
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf
-COPY index.html sw.js manifest.webmanifest icon-180.png icon-192.png icon-512.png icon-maskable-512.png /usr/share/nginx/html/
+COPY index.html app.js sw.js manifest.webmanifest icon-180.png icon-192.png icon-512.png icon-maskable-512.png /usr/share/nginx/html/
