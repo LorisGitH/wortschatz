@@ -7,6 +7,8 @@
 # Pod Security `restricted`: https://kubernetes.io/docs/concepts/security/pod-security-standards/#restricted
 FROM docker.io/nginxinc/nginx-unprivileged:1.31.6-alpine
 
+# Links the GHCR package to this repo:
+# https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-container-registry
 LABEL org.opencontainers.image.source="https://github.com/LorisGitH/wortschatz"
 
 COPY nginx.conf /etc/nginx/conf.d/default.conf

@@ -42,6 +42,8 @@ jobs:
           [ -n "${ready:-}" ] || { docker logs app; echo "the container never answered" >&2; exit 1; }
           ./smoke.sh http://localhost:8080 || { docker logs app; exit 1; }
 
+      # GITHUB_TOKEN with `packages: write` publishes to the repo-linked package:
+      # https://docs.github.com/en/actions/tutorials/publish-packages/publish-docker-images
       - name: Push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

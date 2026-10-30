@@ -11,8 +11,10 @@ base=${base%/}
 fail=0
 
 pass() { echo "ok:   $1"; }
-# Content types are matched loosely (nginx's mime.types maps .js to text/javascript or application/javascript
-# depending on its version); unverified against the real image until the first CI run.
+# Content types are matched loosely: nginx's mime.types maps .js to application/javascript and
+# .png to image/png (read 2026-10-30 at release-1.31.6,
+# https://github.com/nginx/nginx/blob/release-1.31.6/conf/mime.types), but this script also
+# runs against the live site, whose server may differ.
 bad() { echo "FAIL: $1" >&2; fail=1; }
 
 # fetch <path>: sets status, headers (lower-cased, CR removed) and body_file.
