@@ -1,0 +1,114 @@
+// Phrases du quotidien par situation : une ligne « # id|Nom|Description » ouvre une situation, puis « allemand|français ».
+# arzt|Chez le médecin|Rendez-vous, symptômes, pharmacie
+Ich möchte einen Termin bei Dr. Weber machen.|Quisiera pedir una cita con el Dr. Weber.
+Haben Sie diese Woche noch einen Termin frei?|¿Tiene todavía alguna cita libre esta semana?
+Ich habe seit drei Tagen Fieber.|Tengo fiebre desde hace tres días.
+Mir tut der Rücken weh.|Me duele la espalda.
+Ich bin gegen Penizillin allergisch.|Soy alérgico a la penicilina.
+Wie oft muss ich die Tabletten nehmen?|¿Cuántas veces tengo que tomar las pastillas?
+Können Sie mich bitte krankschreiben?|¿Puede darme un certificado de baja por enfermedad, por favor?
+Ich brauche ein Rezept für dieses Medikament.|Necesito una receta para este medicamento.
+Hier ist meine Versichertenkarte.|Aquí tiene mi tarjeta del seguro médico.
+Gibt es das Medikament auch ohne Rezept?|¿Este medicamento también se vende sin receta?
+Ich weiß nicht, ob ich nüchtern kommen muss.|No sé si tengo que venir en ayunas.
+# amt|Administration|Bürgeramt, papiers, formulaires
+Ich möchte meinen Wohnsitz anmelden.|Quisiera registrar mi domicilio.
+Welche Unterlagen muss ich mitbringen?|¿Qué documentos tengo que traer?
+Ich habe einen Termin um zehn Uhr.|Tengo una cita a las diez.
+Können Sie mir beim Ausfüllen des Formulars helfen?|¿Puede ayudarme a completar el formulario?
+Wo muss ich hier unterschreiben?|¿Dónde tengo que firmar?
+Mein Aufenthaltstitel läuft nächsten Monat ab.|Mi permiso de residencia vence el mes que viene.
+Wie lange dauert die Bearbeitung?|¿Cuánto tarda la tramitación?
+Ich habe den Brief vom Amt nicht verstanden.|No entendí la carta de la administración.
+Könnten Sie das bitte langsamer wiederholen?|¿Podría repetirlo más despacio, por favor?
+Muss ich die Gebühr bar bezahlen?|¿Tengo que pagar la tasa en efectivo?
+Ich warte schon seit einer Stunde.|Ya llevo una hora esperando.
+# wohnung|Logement|Propriétaire, réparations, voisinage
+Die Heizung funktioniert seit gestern nicht mehr.|La calefacción no funciona desde ayer.
+Wann kann der Handwerker vorbeikommen?|¿Cuándo puede pasar el técnico?
+Im Badezimmer tropft der Wasserhahn.|En el baño gotea el grifo.
+Ist die Miete warm oder kalt?|¿El alquiler incluye los gastos (calefacción, agua) o no?
+Ich möchte die Wohnung gern besichtigen.|Me gustaría ver el apartamento.
+Wie hoch ist die Kaution?|¿De cuánto es el depósito (la fianza)?
+Wir ziehen am Ersten des Monats ein.|Nos mudamos el primero de mes.
+Ich habe meinen Schlüssel verloren.|Perdí mi llave.
+Wo stelle ich den Müll hin?|¿Dónde dejo la basura?
+Ich kündige die Wohnung zum Ende März.|Rescindo el contrato de alquiler para finales de marzo.
+Wann bekomme ich die Nebenkostenabrechnung?|¿Cuándo recibiré la liquidación de los gastos?
+# telefon|Au téléphone|Appeler, laisser un message
+Guten Tag, hier spricht Martin Dubois.|Buenos días, le habla Martin Dubois.
+Ich rufe wegen meiner Rechnung an.|Llamo por mi factura.
+Könnten Sie mich bitte mit Frau Schmidt verbinden?|¿Podría comunicarme con la señora Schmidt, por favor?
+Die Verbindung ist sehr schlecht.|La línea se oye muy mal.
+Können Sie das bitte buchstabieren?|¿Puede deletrearlo, por favor?
+Wann kann ich sie am besten erreichen?|¿Cuándo es más fácil localizarla?
+Ich rufe später noch einmal an.|Volveré a llamar más tarde.
+Könnten Sie ihm sagen, dass ich angerufen habe?|¿Podría decirle que llamé?
+Meine Nummer ist null eins sieben sechs.|Mi número es cero uno siete seis.
+Entschuldigung, ich habe mich verwählt.|Disculpe, me equivoqué de número.
+# einkaufen|Courses & magasins|Supermarché, boulangerie, retours
+Wo finde ich die Milch?|¿Dónde encuentro la leche?
+Ich hätte gern ein Kilo Äpfel.|Quisiera un kilo de manzanas.
+Haben Sie das auch in einer anderen Größe?|¿Lo tiene también en otra talla?
+Kann ich mit Karte bezahlen?|¿Puedo pagar con tarjeta?
+Brauchen Sie eine Tüte?|¿Necesita una bolsa?
+Ich möchte diese Hose umtauschen.|Quisiera cambiar este pantalón.
+Den Kassenbon habe ich noch.|Todavía tengo el recibo de compra.
+Das ist mir leider zu teuer.|Lamentablemente, es demasiado caro para mí.
+Bis wann haben Sie heute geöffnet?|¿Hasta qué hora abren hoy?
+Zwei Brötchen und ein Vollkornbrot, bitte.|Dos panecillos y un pan integral, por favor.
+# restaurant|Café & restaurant|Réserver, commander, payer
+Ich möchte einen Tisch für vier Personen reservieren.|Quisiera reservar una mesa para cuatro personas.
+Ist dieser Platz noch frei?|¿Está libre este asiento?
+Können wir bitte die Speisekarte haben?|¿Podemos ver la carta, por favor?
+Was können Sie uns empfehlen?|¿Qué nos recomienda?
+Ich nehme die Suppe und danach den Fisch.|Tomo la sopa y después el pescado.
+Ist in dem Gericht Fleisch?|¿Este plato lleva carne?
+Wir möchten bitte zahlen.|Quisiéramos pagar, por favor.
+Zusammen oder getrennt?|¿Juntos o por separado?
+Stimmt so, danke.|Quédese con el cambio, gracias.
+Das Essen war ausgezeichnet.|La comida estaba excelente.
+# verkehr|Transports|Train, bus, trajets
+Wo kann ich eine Fahrkarte kaufen?|¿Dónde puedo comprar un billete?
+Fährt dieser Bus zum Hauptbahnhof?|¿Este autobús va a la estación central?
+Wann fährt der nächste Zug nach München?|¿Cuándo sale el próximo tren a Múnich?
+Muss ich umsteigen?|¿Tengo que hacer transbordo?
+Der Zug hat zwanzig Minuten Verspätung.|El tren tiene veinte minutos de retraso.
+Ich habe meinen Anschluss verpasst.|Perdí mi conexión.
+An welcher Haltestelle muss ich aussteigen?|¿En qué parada tengo que bajarme?
+Ist das Deutschlandticket hier gültig?|¿El Deutschlandticket es válido aquí?
+Entschuldigung, wie komme ich zum Rathaus?|Disculpe, ¿cómo llego al ayuntamiento?
+Gehen Sie geradeaus und dann die zweite Straße links.|Siga recto y luego tome la segunda calle a la izquierda.
+# arbeit|Au travail|Collègues, réunions, absences
+Ich bin heute krank und komme nicht ins Büro.|Hoy estoy enfermo y no voy a la oficina.
+Können wir das Meeting auf morgen verschieben?|¿Podemos aplazar la reunión a mañana?
+Ich schicke Ihnen die Unterlagen bis Freitag.|Le envío los documentos antes del viernes.
+Hast du kurz Zeit für eine Frage?|¿Tienes un momento para una pregunta?
+Ich habe die Aufgabe noch nicht ganz verstanden.|Todavía no entiendo del todo la tarea.
+Ich möchte nächste Woche zwei Tage Urlaub nehmen.|Quisiera tomarme dos días de vacaciones la semana que viene.
+Wer ist für dieses Projekt zuständig?|¿Quién es el responsable de este proyecto?
+Ich arbeite heute im Homeoffice.|Hoy trabajo desde casa.
+Wann bekomme ich meine Gehaltsabrechnung?|¿Cuándo recibiré mi nómina (recibo de sueldo)?
+Schönes Wochenende und bis Montag!|¡Buen fin de semana y hasta el lunes!
+# nachbarn|Voisins & small talk|Se présenter, discuter, rendre service
+Hallo, ich bin neu hier im Haus.|Hola, soy nuevo en el edificio.
+Woher kommen Sie eigentlich?|¿Y usted de dónde es?
+Wie lange wohnen Sie schon hier?|¿Cuánto tiempo hace que vive aquí?
+Könnten Sie mein Paket annehmen, wenn ich nicht da bin?|¿Podría recibir mi paquete si no estoy?
+Wir feiern am Samstag eine kleine Party.|El sábado hacemos una pequeña fiesta.
+Es tut mir leid, dass es gestern so laut war.|Siento mucho que ayer hubiera tanto ruido.
+Was machen Sie am Wochenende?|¿Qué hace este fin de semana?
+Das Wetter ist heute wirklich schön.|Hoy hace un tiempo realmente bueno.
+Ich habe am Wochenende einen Ausflug gemacht.|El fin de semana hice una excursión.
+Sagen Sie Bescheid, wenn Sie Hilfe brauchen.|Avíseme si necesita ayuda.
+# bank|Banque & poste|Compte, colis, courrier
+Ich möchte ein Girokonto eröffnen.|Quisiera abrir una cuenta corriente.
+Meine Karte ist gesperrt.|Mi tarjeta está bloqueada.
+Ich möchte Geld auf dieses Konto überweisen.|Quisiera transferir dinero a esta cuenta.
+Wie hoch sind die Gebühren?|¿De cuánto son las comisiones?
+Ich möchte dieses Paket nach Frankreich schicken.|Quisiera enviar este paquete a Francia.
+Wie lange braucht ein Brief nach Paris?|¿Cuánto tarda una carta a París?
+Ich habe eine Benachrichtigung für ein Paket bekommen.|Recibí un aviso de entrega de un paquete.
+Brauche ich dafür meinen Ausweis?|¿Necesito mi documento de identidad para eso?
+Ich möchte eine Briefmarke für eine Postkarte.|Quisiera un sello (una estampilla) para una postal.
+Können Sie mir die Kontonummer noch einmal sagen?|¿Puede repetirme el número de cuenta?

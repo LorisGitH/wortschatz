@@ -1,0 +1,163 @@
+heiraten|Meine Schwester heiratet im Sommer.|My sister is getting married this summer.
+besuchen|Am Wochenende besuche ich meine Eltern.|On weekends, I visit my parents.
+umziehen|Wir ziehen nächsten Monat nach Berlin um.|We're moving to Berlin next month.
+mieten|Ich habe eine kleine Wohnung im Zentrum gemietet.|I rented a small apartment downtown.
+putzen|Samstags putzen wir die ganze Wohnung.|On Saturdays, we clean the whole apartment.
+lüften|Bitte lüfte das Zimmer, es ist so warm hier.|Please air out the room, it's so warm in here.
+kochen|Heute Abend koche ich Nudeln mit Tomatensoße.|Tonight I'm making pasta with tomato sauce.
+kaufen|Ich kaufe noch schnell Brot beim Bäcker.|I'm just going to grab some bread at the bakery.
+einkaufen|Ich kaufe nach der Arbeit im Supermarkt ein.|I go grocery shopping at the supermarket after work.
+bezahlen|Kann ich hier mit Karte bezahlen?|Can I pay by card here?
+kosten|Die Fahrkarte kostet drei Euro zwanzig.|The ticket costs three euros twenty.
+bestellen|Ich bestelle ein Schnitzel und ein Wasser.|I'll have a schnitzel and a water.
+reservieren|Ich möchte einen Tisch für vier Personen reservieren.|I'd like to reserve a table for four people.
+fahren|Morgen fahre ich mit dem Zug nach München.|Tomorrow I'm going to Munich by train.
+umsteigen|In Frankfurt müssen Sie umsteigen.|In Frankfurt, you have to change trains.
+einsteigen|Bitte steigen Sie ein, der Zug fährt gleich ab.|Please get on, the train is about to leave.
+aussteigen|Ich steige an der nächsten Haltestelle aus.|I'm getting off at the next stop.
+arbeiten|Ich arbeite von Montag bis Freitag im Büro.|I work at the office from Monday to Friday.
+verdienen|Er verdient mehr als vorher.|He earns more than before.
+sich bewerben|Ich habe mich bei drei Firmen beworben.|I applied to three companies.
+kündigen|Ich habe meinen Handyvertrag gekündigt.|I canceled my cell phone plan.
+ausfüllen|Füllen Sie bitte dieses Formular aus.|Please fill out this form.
+unterschreiben|Bitte unterschreiben Sie hier unten.|Please sign here at the bottom.
+sich anmelden|Nach dem Umzug muss man sich beim Bürgeramt anmelden.|After moving, you have to register your address at the citizens' office.
+beantragen|Ich muss einen neuen Reisepass beantragen.|I have to apply for a new passport.
+überweisen|Ich überweise dir das Geld morgen.|I'll transfer the money to you tomorrow.
+anziehen|Zieh dir eine Jacke an, es ist kalt!|Put on a jacket, it's cold!
+anprobieren|Kann ich diese Hose anprobieren?|Can I try on these pants?
+passen|Die Schuhe passen mir leider nicht.|Unfortunately, these shoes don't fit me.
+spazieren gehen|Nach dem Essen gehen wir im Park spazieren.|After the meal, we go for a walk in the park.
+schwimmen|Im Sommer schwimme ich gern im See.|In the summer, I like swimming in the lake.
+wandern|Am Sonntag sind wir in den Bergen gewandert.|On Sunday, we went hiking in the mountains.
+sich treffen|Wir treffen uns um acht vor dem Kino.|We're meeting at eight in front of the movie theater.
+sein|Ich bin seit zwei Monaten in Deutschland.|I've been in Germany for two months.
+haben|Hast du heute Abend Zeit?|Do you have time tonight?
+werden|Es wird langsam dunkel.|It's slowly getting dark.
+können|Kannst du mir bitte helfen?|Can you help me, please?
+müssen|Ich muss morgen früh aufstehen.|I have to get up early tomorrow.
+wollen|Wir wollen nächstes Jahr nach Italien fahren.|We want to go to Italy next year.
+dürfen|Hier darf man nicht rauchen.|You're not allowed to smoke here.
+sollen|Der Arzt sagt, ich soll mehr Wasser trinken.|The doctor says I should drink more water.
+mögen|Ich mag keinen Kaffee ohne Milch.|I don't like coffee without milk.
+gehen|Ich gehe jeden Morgen zu Fuß zur Arbeit.|I walk to work every morning.
+kommen|Wann kommst du nach Hause?|When are you coming home?
+machen|Was machst du am Wochenende?|What are you doing this weekend?
+sagen|Was hat er gesagt? Ich habe es nicht gehört.|What did he say? I didn't hear it.
+sprechen|Sprechen Sie Französisch?|Do you speak French?
+fragen|Ich frage mal den Verkäufer.|I'll ask the salesperson.
+antworten|Sie hat noch nicht auf meine E-Mail geantwortet.|She hasn't answered my email yet.
+wissen|Weißt du, wo die Post ist?|Do you know where the post office is?
+kennen|Kennst du ein gutes Restaurant hier?|Do you know a good restaurant around here?
+verstehen|Entschuldigung, ich habe das nicht verstanden.|Sorry, I didn't understand that.
+sehen|Siehst du die Haltestelle dort drüben?|Do you see the stop over there?
+hören|Ich höre gern Radio beim Frühstück.|I like listening to the radio at breakfast.
+lesen|Sie liest jeden Abend ein bisschen.|She reads a little every evening.
+schreiben|Ich schreibe dir später eine Nachricht.|I'll write you a message later.
+essen|Wir essen um sieben zu Abend.|We have dinner at seven.
+trinken|Was möchtest du trinken?|What would you like to drink?
+schlafen|Ich habe heute Nacht schlecht geschlafen.|I slept badly last night.
+wohnen|Ich wohne im dritten Stock.|I live on the third floor.
+leben|Sie lebt seit fünf Jahren in Hamburg.|She has been living in Hamburg for five years.
+geben|Kannst du mir bitte das Salz geben?|Can you pass me the salt, please?
+nehmen|Ich nehme den Bus um halb neun.|I take the bus at eight thirty.
+bringen|Der Kellner bringt die Rechnung.|The waiter brings the check.
+mitbringen|Soll ich etwas zum Essen mitbringen?|Should I bring something to eat?
+finden|Ich finde meinen Schlüssel nicht.|I can't find my key.
+suchen|Wir suchen eine größere Wohnung.|We're looking for a bigger apartment.
+brauchen|Ich brauche einen Termin beim Arzt.|I need a doctor's appointment.
+helfen|Kann ich Ihnen helfen?|Can I help you?
+warten|Ich warte schon seit zwanzig Minuten.|I've already been waiting for twenty minutes.
+bleiben|Heute bleibe ich zu Hause.|Today I'm staying home.
+lernen|Ich lerne jeden Tag zehn neue Wörter.|I learn ten new words every day.
+gefallen|Wie gefällt dir die neue Wohnung?|How do you like the new apartment?
+glauben|Ich glaube, der Laden ist heute geschlossen.|I think the store is closed today.
+denken|Was denkst du darüber?|What do you think about it?
+öffnen|Die Bäckerei öffnet um sechs Uhr.|The bakery opens at six o'clock.
+schließen|Bitte schließen Sie die Tür.|Please close the door.
+anfangen|Der Kurs fängt um neun Uhr an.|The class starts at nine o'clock.
+aufhören|Er hat mit dem Rauchen aufgehört.|He quit smoking.
+aufstehen|Ich stehe jeden Tag um sieben auf.|I get up at seven every day.
+anrufen|Ich rufe dich heute Abend an.|I'll call you tonight.
+vergessen|Ich habe meinen Regenschirm vergessen.|I forgot my umbrella.
+zeigen|Können Sie mir den Weg auf der Karte zeigen?|Can you show me the way on the map?
+verlieren|Ich habe mein Portemonnaie verloren.|I lost my wallet.
+liegen|Das Handy liegt auf dem Tisch.|The phone is on the table.
+sitzen|Wir sitzen auf dem Balkon und trinken Kaffee.|We're sitting on the balcony drinking coffee.
+stehen|Die Flaschen stehen im Kühlschrank.|The bottles are in the refrigerator.
+laufen|Ich laufe dreimal pro Woche im Park.|I run in the park three times a week.
+tragen|Sie trägt heute ein rotes Kleid.|She's wearing a red dress today.
+verhandeln|Ich will über mein Gehalt verhandeln.|I want to negotiate my salary.
+sich weiterbilden|Sie bildet sich abends im Bereich Marketing weiter.|She's doing further training in marketing in the evenings.
+befördern|Nach zwei Jahren wurde er zum Teamleiter befördert.|After two years, he was promoted to team leader.
+einstellen|Die Firma stellt dieses Jahr zehn neue Mitarbeiter ein.|The company is hiring ten new employees this year.
+entlassen|Wegen der Krise wurden viele Mitarbeiter entlassen.|Because of the crisis, many employees were laid off.
+leiten|Sie leitet die Abteilung seit drei Jahren.|She has been running the department for three years.
+einreichen|Sie müssen die Unterlagen bis Freitag einreichen.|You have to submit the documents by Friday.
+verlängern|Ich muss meine Aufenthaltserlaubnis verlängern.|I have to extend my residence permit.
+Widerspruch einlegen|Gegen diesen Bescheid können Sie innerhalb eines Monats Widerspruch einlegen.|You can file an objection to this decision within one month.
+genehmigen|Mein Chef hat meinen Urlaub genehmigt.|My boss approved my vacation request.
+nachweisen|Sie müssen Ihr Einkommen nachweisen.|You have to provide proof of your income.
+haften|Eltern haften für ihre Kinder.|Parents are liable for their children.
+sich erholen|Im Urlaub habe ich mich gut erholt.|I got a good rest on vacation.
+sich verletzen|Er hat sich beim Fußball am Knie verletzt.|He hurt his knee playing soccer.
+behandeln|Der Arzt behandelt die Entzündung mit Antibiotika.|The doctor is treating the inflammation with antibiotics.
+untersuchen|Die Ärztin untersucht meinen Rücken.|The doctor is examining my back.
+verschreiben|Der Arzt hat mir ein Medikament verschrieben.|The doctor prescribed me some medication.
+leiden an|Viele Menschen leiden an Rückenschmerzen.|Many people suffer from back pain.
+vorbeugen|Mit Sport kann man vielen Krankheiten vorbeugen.|With exercise, you can prevent many illnesses.
+wählen|Im September wählen die Deutschen ein neues Parlament.|In September, Germans elect a new parliament.
+abstimmen|Morgen stimmt der Bundestag über das Gesetz ab.|Tomorrow, the Bundestag votes on the law.
+berichten|Die Zeitung berichtet über den Streik.|The newspaper is reporting on the strike.
+fordern|Die Gewerkschaft fordert höhere Löhne.|The union is demanding higher wages.
+sich engagieren|Sie engagiert sich in einem Verein für Flüchtlinge.|She volunteers with an organization for refugees.
+kritisieren|Viele Bürger kritisieren die neue Regel.|Many citizens criticize the new rule.
+verschwenden|Wir verschwenden zu viele Lebensmittel.|We waste too much food.
+sparen|Mit LED-Lampen kann man Strom sparen.|With LED bulbs, you can save electricity.
+recyceln|Altglas wird in Deutschland fast komplett recycelt.|In Germany, waste glass is almost completely recycled.
+schützen|Wir müssen die Natur besser schützen.|We have to protect nature better.
+vermeiden|Ich versuche, Plastik zu vermeiden.|I try to avoid plastic.
+verbrauchen|Unser Kühlschrank verbraucht zu viel Strom.|Our refrigerator uses too much electricity.
+sich verlieben|Sie haben sich im Urlaub ineinander verliebt.|They fell in love with each other on vacation.
+sich trennen|Nach zehn Jahren haben sie sich getrennt.|After ten years, they split up.
+sich streiten|Die Nachbarn streiten sich oft laut.|The neighbors often argue loudly.
+vermissen|Ich vermisse meine Familie in Frankreich.|I miss my family in France.
+enttäuschen|Der Film hat mich enttäuscht.|The movie disappointed me.
+vertrauen|Ich vertraue meinem besten Freund völlig.|I trust my best friend completely.
+sich schämen|Er schämt sich für seinen Fehler.|He's ashamed of his mistake.
+sich aufregen|Reg dich nicht auf, es ist nicht so schlimm!|Don't get upset, it's not that bad!
+sich kümmern um|Wer kümmert sich um die Katze, wenn wir weg sind?|Who will take care of the cat while we're away?
+sich freuen auf|Ich freue mich schon auf den Urlaub.|I'm already looking forward to the vacation.
+sich freuen über|Sie hat sich sehr über das Geschenk gefreut.|She was very happy about the gift.
+sich interessieren für|Ich interessiere mich für Geschichte.|I'm interested in history.
+sich ärgern über|Er ärgert sich über die Verspätung.|He's annoyed about the delay.
+sich beschweren über|Die Nachbarn beschweren sich über den Lärm.|The neighbors complain about the noise.
+sich gewöhnen an|Ich habe mich an das Wetter gewöhnt.|I've gotten used to the weather.
+sich erinnern an|Erinnerst du dich an unseren ersten Tag in Berlin?|Do you remember our first day in Berlin?
+sich bedanken für|Ich bedanke mich für Ihre Hilfe.|Thank you for your help.
+sich entscheiden für|Wir haben uns für die größere Wohnung entschieden.|We chose the bigger apartment.
+sich verlassen auf|Auf sie kann man sich immer verlassen.|You can always rely on her.
+sich bewerben um|Ich bewerbe mich um eine Stelle als Ingenieur.|I'm applying for a position as an engineer.
+sich beschäftigen mit|In meiner Freizeit beschäftige ich mich mit Fotografie.|In my free time, I'm into photography.
+sich unterhalten über|Wir haben uns lange über Politik unterhalten.|We talked about politics for a long time.
+sich vorbereiten auf|Ich bereite mich auf die Prüfung vor.|I'm preparing for the exam.
+sich konzentrieren auf|Konzentrier dich auf das Wesentliche!|Focus on what matters!
+sich sorgen um|Die Mutter sorgt sich um ihren kranken Sohn.|The mother is worried about her sick son.
+sich fürchten vor|Das Kind fürchtet sich vor dem Hund.|The child is afraid of the dog.
+warten auf|Ich warte auf den Bus.|I'm waiting for the bus.
+denken an|Ich denke oft an meine Freunde in Paris.|I often think of my friends in Paris.
+glauben an|Sie glaubt an eine bessere Zukunft.|She believes in a better future.
+teilnehmen an|Ich nehme an einem Deutschkurs teil.|I'm taking part in a German course.
+abhängen von|Das hängt vom Wetter ab.|That depends on the weather.
+bestehen aus|Die Wohnung besteht aus drei Zimmern.|The apartment consists of three rooms.
+träumen von|Er träumt von einem Haus am Meer.|He dreams of a house by the sea.
+bitten um|Darf ich Sie um einen Gefallen bitten?|May I ask you a favor?
+fragen nach|Ein Tourist hat mich nach dem Weg gefragt.|A tourist asked me for directions.
+achten auf|Achte bitte auf die Stufe!|Please watch out for the step!
+gehören zu|Das gehört zu meinen Aufgaben.|That's one of my tasks.
+sorgen für|Die Eltern sorgen für ihre Kinder.|Parents take care of their children.
+führen zu|Zu viel Stress führt oft zu Krankheiten.|Too much stress often leads to illness.
+überzeugen von|Er hat mich von seiner Idee überzeugt.|He convinced me of his idea.
+hinweisen auf|Ich möchte Sie auf einen Fehler hinweisen.|I'd like to point out a mistake to you.
+verzichten auf|Ich verzichte seit einem Monat auf Zucker.|I've been going without sugar for a month.
+zweifeln an|Ich zweifle an seiner Ehrlichkeit.|I doubt his honesty.

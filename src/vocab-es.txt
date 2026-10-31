@@ -1,0 +1,978 @@
+# bases|Premiers pas|Saluer, remercier, se faire comprendre
+Hallo!||¡Hola!
+Guten Morgen!||¡Buenos días! (por la mañana)
+Guten Tag!||¡Buenos días! / ¡Buenas tardes! (durante el día)
+Guten Abend!||¡Buenas tardes! / ¡Buenas noches! (saludo al anochecer)
+Gute Nacht!||¡Buenas noches! (al irse a dormir)
+Tschüss!||¡Chao! / ¡Adiós! (al despedirse, informal)
+Auf Wiedersehen!||¡Adiós! / ¡Hasta la vista! (formal)
+Bis später!||¡Hasta luego!
+Bis morgen!||¡Hasta mañana!
+Wie geht's?||¿Qué tal?
+Mir geht es gut, danke.||Estoy bien, gracias.
+Danke schön!||¡Muchas gracias!
+Bitte schön!||¡No hay de qué! / ¡Aquí tiene!
+Gern geschehen.||Con mucho gusto. (de nada)
+Entschuldigung!||¡Disculpe! / ¡Perdón!
+Es tut mir leid.||Lo siento.
+ja||sí
+nein||no
+doch||sí (tras una pregunta negativa)
+bitte||por favor
+Ich verstehe nicht.||No entiendo.
+Können Sie das wiederholen?||¿Puede repetirlo?
+Sprechen Sie bitte langsamer.||Hable más despacio, por favor.
+Wie heißen Sie?||¿Cómo se llama usted?
+Ich heiße …||Me llamo …
+Woher kommen Sie?||¿De dónde es usted?
+Ich komme aus Frankreich.||Soy de Francia.
+Freut mich!||¡Encantado(a)!
+Wie sagt man das auf Deutsch?||¿Cómo se dice esto en alemán?
+Was bedeutet das?||¿Qué significa eso?
+Kein Problem.||No hay problema.
+Alles klar!||¡De acuerdo! / ¡Entendido!
+Viel Glück!||¡Buena suerte!
+Schönes Wochenende!||¡Buen fin de semana!
+Herzlich willkommen!||¡Bienvenido(a)!
+Prost!||¡Salud! (al brindar)
+Guten Appetit!||¡Buen provecho!
+# temps|Temps & calendrier|Jours, mois, saisons, moments de la journée
+der Tag|Tage|el día
+die Woche|Wochen|la semana
+der Monat|Monate|el mes
+das Jahr|Jahre|el año
+die Stunde|Stunden|la hora (duración)
+die Minute|Minuten|el minuto
+die Uhr|Uhren|el reloj; las … (la hora)
+der Morgen|Morgen|la mañana (primeras horas)
+der Vormittag|Vormittage|la mañana (hasta el mediodía)
+der Mittag|Mittage|el mediodía
+der Nachmittag|Nachmittage|la tarde
+der Abend|Abende|la tarde-noche (al anochecer)
+die Nacht|Nächte|la noche
+der Montag|Montage|lunes
+der Dienstag|Dienstage|martes
+der Mittwoch|Mittwoche|miércoles
+der Donnerstag|Donnerstage|jueves
+der Freitag|Freitage|viernes
+der Samstag|Samstage|sábado
+der Sonntag|Sonntage|domingo
+das Wochenende|Wochenenden|el fin de semana
+der Januar|—|enero
+der Februar|—|febrero
+der März|—|marzo
+der April|—|abril
+der Mai|—|mayo
+der Juni|—|junio
+der Juli|—|julio
+der August|—|agosto
+der September|—|septiembre
+der Oktober|—|octubre
+der November|—|noviembre
+der Dezember|—|diciembre
+der Frühling|Frühlinge|la primavera
+der Sommer|Sommer|el verano
+der Herbst|Herbste|el otoño
+der Winter|Winter|el invierno
+der Termin|Termine|la cita
+der Feiertag|Feiertage|el día festivo
+der Geburtstag|Geburtstage|el cumpleaños
+heute||hoy
+morgen||mañana (el día siguiente)
+gestern||ayer
+übermorgen||pasado mañana
+jetzt||ahora
+bald||pronto
+später||más tarde
+immer||siempre
+oft||a menudo
+manchmal||a veces
+nie||nunca
+Wie spät ist es?||¿Qué hora es?
+Es ist halb drei.||Son las dos y media.
+# nombres|Nombres|Compter, payer, donner l'heure
+null||cero
+eins||uno
+zwei||dos
+drei||tres
+vier||cuatro
+fünf||cinco
+sechs||seis
+sieben||siete
+acht||ocho
+neun||nueve
+zehn||diez
+elf||once
+zwölf||doce
+dreizehn||trece
+sechzehn||dieciséis
+siebzehn||diecisiete
+zwanzig||veinte
+einundzwanzig||veintiuno
+dreißig||treinta
+vierzig||cuarenta
+fünfzig||cincuenta
+sechzig||sesenta
+siebzig||setenta
+achtzig||ochenta
+neunzig||noventa
+hundert||cien
+tausend||mil
+die Million|Millionen|el millón
+die Zahl|Zahlen|el número
+die Hälfte|Hälften|la mitad
+das Viertel|Viertel|el cuarto
+erste||primero
+zweite||segundo
+dritte||tercero
+# famille|Famille & entourage|Les proches, les voisins, la situation familiale
+die Familie|Familien|la familia
+die Eltern (Pl.)|—|los padres
+die Mutter|Mütter|la madre
+der Vater|Väter|el padre
+das Kind|Kinder|el niño (la criatura)
+der Sohn|Söhne|el hijo
+die Tochter|Töchter|la hija
+der Bruder|Brüder|el hermano
+die Schwester|Schwestern|la hermana
+die Geschwister (Pl.)|—|los hermanos (hermanos y hermanas)
+die Großeltern (Pl.)|—|los abuelos
+die Oma|Omas|la abuelita
+der Opa|Opas|el abuelito
+der Onkel|Onkel|el tío
+die Tante|Tanten|la tía
+der Mann|Männer|el hombre; el marido
+die Frau|Frauen|la mujer; señora (tratamiento)
+der Freund|Freunde|el amigo; el novio
+die Freundin|Freundinnen|la amiga; la novia
+der Nachbar|Nachbarn|el vecino
+die Nachbarin|Nachbarinnen|la vecina
+das Baby|Babys|el bebé
+der Junge|Jungen|el chico (varón)
+das Mädchen|Mädchen|la chica, la niña
+die Leute (Pl.)|—|la gente
+der Hund|Hunde|el perro
+die Katze|Katzen|el gato
+verheiratet||casado(a)
+ledig||soltero(a)
+geschieden||divorciado(a)
+~heiraten|heiratet · heiratete · hat geheiratet|casarse
+~besuchen|besucht · besuchte · hat besucht|visitar (a alguien)
+# logement|Logement|Appartement, meubles, location
+die Wohnung|Wohnungen|el apartamento, el piso (vivienda)
+das Haus|Häuser|la casa
+das Zimmer|Zimmer|la habitación, el cuarto
+die Küche|Küchen|la cocina
+das Bad|Bäder|el cuarto de baño
+das Schlafzimmer|Schlafzimmer|el dormitorio
+das Wohnzimmer|Wohnzimmer|el salón, la sala de estar
+der Flur|Flure|el pasillo, la entrada
+der Balkon|Balkone|el balcón
+der Keller|Keller|el sótano
+die Toilette|Toiletten|el inodoro, el baño (WC)
+die Tür|Türen|la puerta
+das Fenster|Fenster|la ventana
+die Treppe|Treppen|la escalera
+das Stockwerk|Stockwerke|la planta, el piso (nivel)
+der Aufzug|Aufzüge|el ascensor
+der Schlüssel|Schlüssel|la llave
+die Miete|Mieten|el alquiler
+die Nebenkosten (Pl.)|—|los gastos adicionales (agua, calefacción…)
+der Vermieter|Vermieter|el propietario (arrendador)
+der Mieter|Mieter|el inquilino
+die Kaution|Kautionen|la fianza
+der Mietvertrag|Mietverträge|el contrato de alquiler
+das Bett|Betten|la cama
+der Tisch|Tische|la mesa
+der Stuhl|Stühle|la silla
+der Schrank|Schränke|el armario
+das Sofa|Sofas|el sofá
+die Lampe|Lampen|la lámpara
+der Kühlschrank|Kühlschränke|el frigorífico, la nevera
+die Waschmaschine|Waschmaschinen|la lavadora
+die Heizung|Heizungen|la calefacción
+der Müll|—|la basura
+die Mülltonne|Mülltonnen|el cubo de basura (contenedor)
+der Briefkasten|Briefkästen|el buzón
+~umziehen|zieht um · zog um · ist umgezogen|mudarse
+~mieten|mietet · mietete · hat gemietet|alquilar (como inquilino)
+~putzen|putzt · putzte · hat geputzt|limpiar
+~lüften|lüftet · lüftete · hat gelüftet|ventilar, airear
+gemütlich||acogedor
+# cuisine|Cuisine & aliments|Ce qu'on mange, ce qu'on boit, la vaisselle
+das Essen|—|la comida
+das Frühstück|Frühstücke|el desayuno
+das Mittagessen|Mittagessen|el almuerzo
+das Abendessen|Abendessen|la cena
+das Brot|Brote|el pan
+das Brötchen|Brötchen|el panecillo
+die Butter|—|la mantequilla
+der Käse|Käse|el queso
+die Wurst|Würste|la salchicha, el embutido
+das Fleisch|—|la carne
+das Hähnchen|Hähnchen|el pollo
+der Fisch|Fische|el pescado
+das Ei|Eier|el huevo
+die Milch|—|la leche
+der Joghurt|Joghurts|el yogur
+das Gemüse|—|las verduras
+das Obst|—|la fruta
+der Apfel|Äpfel|la manzana
+die Banane|Bananen|el plátano, la banana
+die Kartoffel|Kartoffeln|la patata, la papa
+die Tomate|Tomaten|el tomate
+die Zwiebel|Zwiebeln|la cebolla
+der Salat|Salate|la ensalada; la lechuga
+der Reis|—|el arroz
+die Nudeln (Pl.)|—|la pasta
+das Salz|—|la sal
+der Pfeffer|—|la pimienta
+der Zucker|—|el azúcar
+der Kuchen|Kuchen|el pastel, la tarta
+das Wasser|—|el agua
+der Saft|Säfte|el zumo, el jugo
+der Kaffee|Kaffees|el café (bebida)
+der Tee|Tees|el té
+das Bier|Biere|la cerveza
+der Wein|Weine|el vino
+der Topf|Töpfe|la olla
+die Pfanne|Pfannen|la sartén
+der Teller|Teller|el plato (vajilla)
+die Tasse|Tassen|la taza
+das Glas|Gläser|el vaso
+das Messer|Messer|el cuchillo
+die Gabel|Gabeln|el tenedor
+der Löffel|Löffel|la cuchara
+~kochen|kocht · kochte · hat gekocht|cocinar; hervir
+lecker||rico, delicioso
+Ich habe Hunger.||Tengo hambre.
+Ich habe Durst.||Tengo sed.
+# courses|Courses|Magasins, caisse, prix
+der Supermarkt|Supermärkte|el supermercado
+die Bäckerei|Bäckereien|la panadería
+die Metzgerei|Metzgereien|la carnicería
+die Apotheke|Apotheken|la farmacia
+die Drogerie|Drogerien|la droguería (higiene, limpieza)
+der Markt|Märkte|el mercado
+das Geschäft|Geschäfte|la tienda
+die Kasse|Kassen|la caja
+der Kassenbon|Kassenbons|el tique de caja
+die Tüte|Tüten|la bolsa
+der Einkaufswagen|Einkaufswagen|el carrito de la compra
+das Pfand|—|el depósito (por envase)
+die Flasche|Flaschen|la botella
+die Dose|Dosen|la lata (de conserva o de bebida)
+die Packung|Packungen|el paquete, el envase
+das Kilo|Kilos|el kilo
+das Gramm|Gramm|el gramo
+der Preis|Preise|el precio
+das Angebot|Angebote|la oferta, la promoción
+das Bargeld|—|el dinero en efectivo
+die Karte|Karten|la tarjeta
+der Euro|Euro|el euro
+der Cent|Cent|el céntimo
+~kaufen|kauft · kaufte · hat gekauft|comprar
+~einkaufen|kauft ein · kaufte ein · hat eingekauft|hacer la compra
+~bezahlen|bezahlt · bezahlte · hat bezahlt|pagar
+~kosten|kostet · kostete · hat gekostet|costar
+billig||barato
+teuer||caro
+günstig||económico, a buen precio
+geöffnet||abierto
+geschlossen||cerrado
+Wie viel kostet das?||¿Cuánto cuesta?
+Kann ich mit Karte zahlen?||¿Puedo pagar con tarjeta?
+Brauchen Sie eine Tüte?||¿Quiere una bolsa?
+Ich schaue nur.||Solo estoy mirando.
+# resto|Restaurant & café|Commander, payer, réserver
+das Restaurant|Restaurants|el restaurante
+das Café|Cafés|la cafetería (el local)
+die Kneipe|Kneipen|el bar, la taberna
+die Speisekarte|Speisekarten|la carta (de platos), el menú
+die Rechnung|Rechnungen|la cuenta; la factura
+das Trinkgeld|Trinkgelder|la propina
+der Kellner|Kellner|el camarero, el mesero
+die Kellnerin|Kellnerinnen|la camarera, la mesera
+die Vorspeise|Vorspeisen|el entrante, la entrada
+das Hauptgericht|Hauptgerichte|el plato principal
+die Nachspeise|Nachspeisen|el postre
+die Suppe|Suppen|la sopa
+das Getränk|Getränke|la bebida
+~bestellen|bestellt · bestellte · hat bestellt|pedir (en un restaurante), encargar
+~reservieren|reserviert · reservierte · hat reserviert|reservar
+vegetarisch||vegetariano
+scharf||picante
+Die Karte, bitte.||La carta, por favor.
+Ich hätte gern einen Kaffee.||Quisiera un café.
+Die Rechnung, bitte.||La cuenta, por favor.
+Zusammen oder getrennt?||¿Juntos o por separado?
+Stimmt so.||Quédese con el cambio.
+Ist hier noch frei?||¿Está libre este sitio?
+Einen Tisch für zwei, bitte.||Una mesa para dos, por favor.
+Was empfehlen Sie?||¿Qué me recomienda?
+# transports|Transports & ville|Se déplacer, s'orienter
+der Bahnhof|Bahnhöfe|la estación de tren
+der Zug|Züge|el tren
+der Bus|Busse|el autobús
+die Straßenbahn|Straßenbahnen|el tranvía
+die U-Bahn|U-Bahnen|el metro
+die S-Bahn|S-Bahnen|el tren de cercanías
+die Haltestelle|Haltestellen|la parada
+das Gleis|Gleise|la vía (el andén)
+die Fahrkarte|Fahrkarten|el billete, el boleto
+der Fahrplan|Fahrpläne|el horario
+die Verspätung|Verspätungen|el retraso
+das Auto|Autos|el coche, el auto
+das Fahrrad|Fahrräder|la bicicleta
+der Flughafen|Flughäfen|el aeropuerto
+die Straße|Straßen|la calle
+die Ampel|Ampeln|el semáforo
+die Kreuzung|Kreuzungen|el cruce
+die Ecke|Ecken|la esquina
+der Platz|Plätze|la plaza
+die Brücke|Brücken|el puente
+die Stadt|Städte|la ciudad
+das Dorf|Dörfer|el pueblo
+die Innenstadt|Innenstädte|el centro de la ciudad
+die Kirche|Kirchen|la iglesia
+der Park|Parks|el parque
+die Post|—|la oficina de correos
+der Führerschein|Führerscheine|el permiso de conducir, la licencia de conducir
+~fahren|fährt · fuhr · ist gefahren|ir (en vehículo), conducir
+~umsteigen|steigt um · stieg um · ist umgestiegen|hacer transbordo (cambiar de tren, de línea)
+~einsteigen|steigt ein · stieg ein · ist eingestiegen|subir (a un vehículo)
+~aussteigen|steigt aus · stieg aus · ist ausgestiegen|bajar (de un vehículo)
+links||a la izquierda
+rechts||a la derecha
+geradeaus||todo recto
+weit||lejos
+in der Nähe||cerca
+Wo ist die Haltestelle?||¿Dónde está la parada?
+Wie komme ich zum Bahnhof?||¿Cómo llego a la estación?
+hin und zurück||ida y vuelta
+Nächster Halt||Próxima parada
+# travail|Travail|Bureau, contrat, candidature
+die Arbeit|Arbeiten|el trabajo
+der Job|Jobs|el empleo (coloquial)
+der Beruf|Berufe|la profesión, el oficio
+die Stelle|Stellen|el puesto (de trabajo)
+die Firma|Firmen|la empresa
+das Büro|Büros|la oficina
+der Chef|Chefs|el jefe
+die Chefin|Chefinnen|la jefa
+der Kollege|Kollegen|el compañero de trabajo
+die Kollegin|Kolleginnen|la compañera de trabajo
+das Gehalt|Gehälter|el sueldo
+der Vertrag|Verträge|el contrato
+die Bewerbung|Bewerbungen|la candidatura, la solicitud de empleo
+der Lebenslauf|Lebensläufe|el currículum (CV)
+das Vorstellungsgespräch|Vorstellungsgespräche|la entrevista de trabajo
+die Besprechung|Besprechungen|la reunión
+der Urlaub|Urlaube|las vacaciones
+die Pause|Pausen|la pausa, el descanso
+die Überstunde|Überstunden|la hora extra
+der Feierabend|Feierabende|el final de la jornada laboral
+der Computer|Computer|el ordenador, la computadora
+die E-Mail|E-Mails|el correo electrónico
+das Handy|Handys|el móvil, el celular
+die Aufgabe|Aufgaben|la tarea
+~arbeiten|arbeitet · arbeitete · hat gearbeitet|trabajar
+~verdienen|verdient · verdiente · hat verdient|ganar (dinero)
+~sich bewerben|bewirbt sich · bewarb sich · hat sich beworben|presentar una candidatura, postularse
+~kündigen|kündigt · kündigte · hat gekündigt|dimitir, renunciar; rescindir (un contrato)
+pünktlich||puntual
+krankgeschrieben||de baja médica
+Schönen Feierabend!||¡Que disfrutes el final de la jornada!
+# sante|Santé & corps|Chez le médecin, à la pharmacie
+der Körper|Körper|el cuerpo
+der Kopf|Köpfe|la cabeza
+das Auge|Augen|el ojo
+das Ohr|Ohren|la oreja
+die Nase|Nasen|la nariz
+der Mund|Münder|la boca
+der Zahn|Zähne|el diente
+der Hals|Hälse|el cuello; la garganta
+der Arm|Arme|el brazo
+die Hand|Hände|la mano
+der Finger|Finger|el dedo
+der Bauch|Bäuche|el vientre, la barriga
+der Rücken|Rücken|la espalda
+das Bein|Beine|la pierna
+der Fuß|Füße|el pie
+das Herz|Herzen|el corazón
+der Arzt|Ärzte|el médico
+die Ärztin|Ärztinnen|la médica, la doctora
+die Praxis|Praxen|la consulta (médica)
+das Krankenhaus|Krankenhäuser|el hospital
+die Notaufnahme|Notaufnahmen|urgencias
+das Medikament|Medikamente|el medicamento
+das Rezept|Rezepte|la receta médica; la receta de cocina
+die Krankenkasse|Krankenkassen|la aseguradora de salud (seguro médico)
+die Versichertenkarte|Versichertenkarten|la tarjeta sanitaria (del seguro médico)
+die Krankmeldung|Krankmeldungen|la baja médica (el certificado)
+das Fieber|—|la fiebre
+die Erkältung|Erkältungen|el resfriado
+der Husten|—|la tos
+die Schmerzen (Pl.)|—|los dolores
+krank||enfermo
+gesund||sano
+müde||cansado
+Ich habe Kopfschmerzen.||Me duele la cabeza.
+Mir ist schlecht.||Tengo náuseas.
+Ich brauche einen Termin.||Necesito una cita.
+Gute Besserung!||¡Que te mejores!
+# admin|Administration & argent|Démarches, banque, courrier
+das Amt|Ämter|la administración (el organismo)
+das Bürgeramt|Bürgerämter|la oficina de atención ciudadana (≈ ayuntamiento)
+die Anmeldung|Anmeldungen|el empadronamiento (registro de domicilio); la inscripción
+die Behörde|Behörden|la autoridad administrativa
+das Formular|Formulare|el formulario
+der Antrag|Anträge|la solicitud (oficial)
+der Ausweis|Ausweise|el documento de identidad
+der Reisepass|Reisepässe|el pasaporte
+die Adresse|Adressen|la dirección
+die Unterschrift|Unterschriften|la firma
+die Staatsangehörigkeit|Staatsangehörigkeiten|la nacionalidad
+der Wohnsitz|Wohnsitze|el domicilio
+die Steuer|Steuern|el impuesto
+die Steuernummer|Steuernummern|el número de identificación fiscal
+die Versicherung|Versicherungen|el seguro
+die Bank|Banken|el banco
+das Konto|Konten|la cuenta (bancaria)
+die Überweisung|Überweisungen|la transferencia
+der Geldautomat|Geldautomaten|el cajero automático
+das Geld|—|el dinero
+der Brief|Briefe|la carta (correo)
+das Paket|Pakete|el paquete (envío postal)
+die Frist|Fristen|el plazo
+die Gebühr|Gebühren|la tasa, los gastos
+der Rundfunkbeitrag|—|la tasa de radio y televisión
+~ausfüllen|füllt aus · füllte aus · hat ausgefüllt|rellenar (un formulario)
+~unterschreiben|unterschreibt · unterschrieb · hat unterschrieben|firmar
+~sich anmelden|meldet sich an · meldete sich an · hat sich angemeldet|inscribirse; empadronarse (registrar el domicilio)
+~beantragen|beantragt · beantragte · hat beantragt|solicitar oficialmente
+~überweisen|überweist · überwies · hat überwiesen|transferir (dinero)
+# vetements|Vêtements|S'habiller, essayer, acheter
+die Kleidung|—|la ropa
+die Hose|Hosen|el pantalón
+das Hemd|Hemden|la camisa
+das T-Shirt|T-Shirts|la camiseta
+der Pullover|Pullover|el jersey, el suéter
+die Jacke|Jacken|la chaqueta
+der Mantel|Mäntel|el abrigo
+das Kleid|Kleider|el vestido
+der Rock|Röcke|la falda
+der Schuh|Schuhe|el zapato
+die Socke|Socken|el calcetín
+die Mütze|Mützen|el gorro
+der Schal|Schals|la bufanda
+der Regenschirm|Regenschirme|el paraguas
+die Tasche|Taschen|el bolso; el bolsillo
+die Größe|Größen|la talla
+die Umkleidekabine|Umkleidekabinen|el probador
+~anziehen|zieht an · zog an · hat angezogen|ponerse (una prenda)
+~anprobieren|probiert an · probierte an · hat anprobiert|probarse (una prenda)
+~passen|passt · passte · hat gepasst|quedar bien (de talla)
+eng||ajustado, estrecho
+bequem||cómodo
+# loisirs|Loisirs & météo|Temps qu'il fait, sorties, sport
+das Wetter|—|el tiempo (meteorológico)
+die Sonne|Sonnen|el sol
+der Regen|—|la lluvia
+der Schnee|—|la nieve
+der Wind|Winde|el viento
+die Wolke|Wolken|la nube
+das Gewitter|Gewitter|la tormenta
+die Temperatur|Temperaturen|la temperatura
+sonnig||soleado
+bewölkt||nublado
+Es regnet.||Llueve.
+Es ist kalt.||Hace frío.
+Es ist warm.||Hace calor.
+die Freizeit|—|el tiempo libre, el ocio
+das Hobby|Hobbys|el pasatiempo, la afición
+der Sport|—|el deporte
+das Kino|Kinos|el cine
+der Film|Filme|la película
+das Buch|Bücher|el libro
+die Musik|—|la música
+das Konzert|Konzerte|el concierto
+das Museum|Museen|el museo
+der Ausflug|Ausflüge|la excursión
+die Reise|Reisen|el viaje
+das Schwimmbad|Schwimmbäder|la piscina
+der Verein|Vereine|la asociación, el club
+das Spiel|Spiele|el juego; el partido
+~spazieren gehen|geht spazieren · ging spazieren · ist spazieren gegangen|pasear, dar un paseo
+~schwimmen|schwimmt · schwamm · ist geschwommen|nadar
+~wandern|wandert · wanderte · ist gewandert|hacer senderismo
+~sich treffen|trifft sich · traf sich · hat sich getroffen|quedar, reunirse (con alguien)
+Hast du Lust?||¿Te apetece?
+# verbes|Verbes essentiels|Les 50 verbes du quotidien, avec leurs formes
+~sein|ist · war · ist gewesen|ser, estar
+~haben|hat · hatte · hat gehabt|tener; haber
+~werden|wird · wurde · ist geworden|llegar a ser, volverse
+~können|kann · konnte · hat gekonnt|poder, saber hacer
+~müssen|muss · musste · hat gemusst|tener que, deber (obligación)
+~wollen|will · wollte · hat gewollt|querer
+~dürfen|darf · durfte · hat gedurft|tener permiso para, poder (permiso)
+~sollen|soll · sollte · hat gesollt|deber (consigna, consejo)
+~mögen|mag · mochte · hat gemocht|apreciar, tener simpatía por
+~gehen|geht · ging · ist gegangen|ir (a pie)
+~kommen|kommt · kam · ist gekommen|venir
+~machen|macht · machte · hat gemacht|hacer
+~sagen|sagt · sagte · hat gesagt|decir
+~sprechen|spricht · sprach · hat gesprochen|hablar
+~fragen|fragt · fragte · hat gefragt|preguntar
+~antworten|antwortet · antwortete · hat geantwortet|responder
+~wissen|weiß · wusste · hat gewusst|saber
+~kennen|kennt · kannte · hat gekannt|conocer
+~verstehen|versteht · verstand · hat verstanden|entender, comprender
+~sehen|sieht · sah · hat gesehen|ver
+~hören|hört · hörte · hat gehört|oír, escuchar
+~lesen|liest · las · hat gelesen|leer
+~schreiben|schreibt · schrieb · hat geschrieben|escribir
+~essen|isst · aß · hat gegessen|comer
+~trinken|trinkt · trank · hat getrunken|beber
+~schlafen|schläft · schlief · hat geschlafen|dormir
+~wohnen|wohnt · wohnte · hat gewohnt|vivir (residir en un lugar)
+~leben|lebt · lebte · hat gelebt|vivir (existir)
+~geben|gibt · gab · hat gegeben|dar
+~nehmen|nimmt · nahm · hat genommen|tomar
+~bringen|bringt · brachte · hat gebracht|traer, llevar
+~mitbringen|bringt mit · brachte mit · hat mitgebracht|traer (consigo)
+~finden|findet · fand · hat gefunden|encontrar
+~suchen|sucht · suchte · hat gesucht|buscar
+~brauchen|braucht · brauchte · hat gebraucht|necesitar
+~helfen|hilft · half · hat geholfen|ayudar
+~warten|wartet · wartete · hat gewartet|esperar
+~bleiben|bleibt · blieb · ist geblieben|quedarse, permanecer
+~lernen|lernt · lernte · hat gelernt|aprender
+~gefallen|gefällt · gefiel · hat gefallen|gustar, agradar
+~glauben|glaubt · glaubte · hat geglaubt|creer
+~denken|denkt · dachte · hat gedacht|pensar
+~öffnen|öffnet · öffnete · hat geöffnet|abrir
+~schließen|schließt · schloss · hat geschlossen|cerrar
+~anfangen|fängt an · fing an · hat angefangen|empezar
+~aufhören|hört auf · hörte auf · hat aufgehört|dejar de, parar
+~aufstehen|steht auf · stand auf · ist aufgestanden|levantarse
+~anrufen|ruft an · rief an · hat angerufen|llamar por teléfono (a alguien)
+~vergessen|vergisst · vergaß · hat vergessen|olvidar
+~zeigen|zeigt · zeigte · hat gezeigt|mostrar, enseñar
+~verlieren|verliert · verlor · hat verloren|perder
+~liegen|liegt · lag · hat gelegen|estar tumbado, estar (en posición horizontal)
+~sitzen|sitzt · saß · hat gesessen|estar sentado
+~stehen|steht · stand · hat gestanden|estar de pie, estar (en posición vertical)
+~laufen|läuft · lief · ist gelaufen|correr, andar
+~tragen|trägt · trug · hat getragen|llevar, cargar; llevar puesto
+# adjectifs|Adjectifs utiles|Décrire les choses et les gens
+groß||grande
+klein||pequeño
+alt||viejo, mayor
+neu||nuevo
+jung||joven
+gut||bueno, bien
+schlecht||malo, mal
+schön||bonito, hermoso
+hässlich||feo
+lang||largo
+kurz||corto
+schnell||rápido
+langsam||lento
+heiß||ardiente, muy caliente
+kalt||frío
+warm||cálido, caliente
+voll||lleno
+leer||vacío
+leicht||ligero; fácil
+schwer||pesado; difícil
+einfach||sencillo, simple
+schwierig||difícil
+richtig||correcto
+falsch||falso, incorrecto
+wichtig||importante
+laut||ruidoso, fuerte (sonido)
+leise||silencioso, en voz baja
+sauber||limpio
+schmutzig||sucio
+früh||temprano
+spät||tarde
+nah||cercano
+freundlich||amable
+nett||simpático
+glücklich||feliz
+traurig||triste
+froh||contento
+böse||malvado; enfadado
+fertig||listo; terminado
+frei||libre
+besetzt||ocupado
+kaputt||roto, estropeado
+sicher||seguro
+# outils|Mots-outils|Questions, liaisons, quantités
+wer?||¿quién?
+was?||¿qué?
+wo?||¿dónde?
+wohin?||¿adónde? (dirección)
+woher?||¿de dónde?
+wann?||¿cuándo?
+warum?||¿por qué?
+wie?||¿cómo?
+wie viel?||¿cuánto?
+welcher?||¿cuál?
+und||y
+oder||o
+aber||pero
+weil||porque
+dass||que (conjunción)
+wenn||si; cuando
+also||entonces, así que
+auch||también
+noch||todavía, aún
+schon||ya
+nur||solo, solamente
+sehr||muy
+ziemlich||bastante (más bien)
+vielleicht||quizás, tal vez
+zusammen||juntos
+allein||solo (sin compañía)
+hier||aquí
+dort||allí
+alles||todo
+nichts||nada
+etwas||algo
+jemand||alguien
+niemand||nadie
+viel||mucho
+wenig||poco
+genug||suficiente (lo necesario)
+# b2travail|Monde du travail|Carrière, contrat, négociation|B2
+die Arbeitsbedingungen (Pl.)|—|las condiciones de trabajo
+der Arbeitgeber|Arbeitgeber|el empleador
+der Arbeitnehmer|Arbeitnehmer|el trabajador asalariado
+die Kündigungsfrist|Kündigungsfristen|el plazo de preaviso
+die Probezeit|Probezeiten|el periodo de prueba
+die Gehaltserhöhung|Gehaltserhöhungen|el aumento de sueldo
+die Beförderung|Beförderungen|el ascenso
+die Weiterbildung|Weiterbildungen|la formación continua
+die Fähigkeit|Fähigkeiten|la capacidad, la habilidad
+die Erfahrung|Erfahrungen|la experiencia
+die Verantwortung|Verantwortungen|la responsabilidad
+die Leistung|Leistungen|el rendimiento; la prestación
+der Umsatz|Umsätze|la facturación, el volumen de negocios
+der Gewinn|Gewinne|el beneficio, la ganancia
+der Verlust|Verluste|la pérdida
+die Abteilung|Abteilungen|el departamento, la sección
+die Geschäftsführung|Geschäftsführungen|la dirección, la gerencia
+der Betriebsrat|Betriebsräte|el comité de empresa
+die Gewerkschaft|Gewerkschaften|el sindicato
+der Streik|Streiks|la huelga
+die Teilzeit|—|la jornada parcial
+die Vollzeit|—|la jornada completa
+das Homeoffice|Homeoffices|el teletrabajo
+die Arbeitslosigkeit|—|el desempleo, el paro
+die Agentur für Arbeit|—|la agencia de empleo (servicio público de empleo)
+der Auftrag|Aufträge|el pedido, el encargo
+~verhandeln|verhandelt · verhandelte · hat verhandelt|negociar
+~sich weiterbilden|bildet sich weiter · bildete sich weiter · hat sich weitergebildet|formarse (de forma continua)
+~befördern|befördert · beförderte · hat befördert|ascender (a alguien)
+~einstellen|stellt ein · stellte ein · hat eingestellt|contratar
+~entlassen|entlässt · entließ · hat entlassen|despedir
+~leiten|leitet · leitete · hat geleitet|dirigir
+selbstständig||autónomo, por cuenta propia
+befristet||de duración determinada (temporal)
+unbefristet||indefinido
+# b2droit|Droit & démarches|Contrats, recours, assurances, impôts|B2
+der Anspruch|Ansprüche|el derecho (a), la reivindicación
+die Bescheinigung|Bescheinigungen|el certificado
+der Bescheid|Bescheide|la resolución oficial, la notificación
+der Widerspruch|Widersprüche|el recurso; la contradicción
+die Vollmacht|Vollmachten|el poder (de representación)
+die Genehmigung|Genehmigungen|el permiso, la autorización
+die Aufenthaltserlaubnis|Aufenthaltserlaubnisse|el permiso de residencia
+die Voraussetzung|Voraussetzungen|el requisito previo
+die Bedingung|Bedingungen|la condición
+die Kündigung|Kündigungen|la rescisión; el despido
+die Mahnung|Mahnungen|el requerimiento de pago (recordatorio)
+der Rechtsanwalt|Rechtsanwälte|el abogado
+das Gericht|Gerichte|el tribunal; el plato (de cocina)
+das Gesetz|Gesetze|la ley
+die Vorschrift|Vorschriften|la norma, la prescripción
+die Haftpflichtversicherung|Haftpflichtversicherungen|el seguro de responsabilidad civil
+der Schaden|Schäden|el daño
+die Steuererklärung|Steuererklärungen|la declaración de impuestos
+der Beitrag|Beiträge|la cuota; la contribución
+die Rente|Renten|la jubilación (pensión)
+das Kindergeld|—|la prestación por hijos (ayuda familiar)
+das Bürgergeld|—|la renta mínima (prestación social básica)
+die Unterlagen (Pl.)|—|los documentos, la documentación
+der Nachweis|Nachweise|el justificante, el comprobante
+~einreichen|reicht ein · reichte ein · hat eingereicht|presentar (un expediente)
+~verlängern|verlängert · verlängerte · hat verlängert|prolongar, prorrogar
+~Widerspruch einlegen|legt Widerspruch ein · legte Widerspruch ein · hat Widerspruch eingelegt|presentar un recurso
+~genehmigen|genehmigt · genehmigte · hat genehmigt|autorizar
+~nachweisen|weist nach · wies nach · hat nachgewiesen|demostrar, justificar
+~haften|haftet · haftete · hat gehaftet|ser responsable (legalmente)
+gültig||válido
+fristgerecht||dentro del plazo
+verpflichtet||obligado
+zuständig||competente, responsable (de)
+# b2sante|Santé & bien-être|Symptômes, traitements, prévention|B2
+die Beschwerden (Pl.)|—|las molestias, los males
+die Untersuchung|Untersuchungen|el examen médico
+die Behandlung|Behandlungen|el tratamiento
+die Diagnose|Diagnosen|el diagnóstico
+der Facharzt|Fachärzte|el médico especialista
+der Hausarzt|Hausärzte|el médico de cabecera
+die Nebenwirkung|Nebenwirkungen|el efecto secundario
+die Impfung|Impfungen|la vacunación
+die Allergie|Allergien|la alergia
+die Verletzung|Verletzungen|la herida, la lesión
+die Entzündung|Entzündungen|la inflamación
+der Blutdruck|—|la tensión arterial, la presión arterial
+die Ernährung|—|la alimentación
+die Bewegung|Bewegungen|el movimiento; la actividad física
+der Stress|—|el estrés
+die Erschöpfung|—|el agotamiento
+die Sucht|Süchte|la adicción, la dependencia
+die Vorsorge|—|la prevención (médica)
+~sich erholen|erholt sich · erholte sich · hat sich erholt|descansar, recuperarse
+~sich verletzen|verletzt sich · verletzte sich · hat sich verletzt|herirse, lesionarse
+~behandeln|behandelt · behandelte · hat behandelt|tratar, curar
+~untersuchen|untersucht · untersuchte · hat untersucht|examinar
+~verschreiben|verschreibt · verschrieb · hat verschrieben|recetar
+~leiden an|leidet · litt · hat gelitten|sufrir de, padecer (+ Dat.)
+~vorbeugen|beugt vor · beugte vor · hat vorgebeugt|prevenir (+ Dat.)
+ansteckend||contagioso
+chronisch||crónico
+erschöpft||agotado
+schwanger||embarazada
+rezeptpflichtig||con receta médica
+# b2gesellschaft|Société, politique & médias|Actualité, débats, institutions|B2
+die Gesellschaft|Gesellschaften|la sociedad
+die Regierung|Regierungen|el gobierno
+die Wahl|Wahlen|las elecciones (votación); la elección (opción)
+die Partei|Parteien|el partido (político)
+der Bundestag|—|el Parlamento federal
+der Bundeskanzler|Bundeskanzler|el canciller federal
+die Demokratie|Demokratien|la democracia
+die Meinung|Meinungen|la opinión
+die Freiheit|Freiheiten|la libertad
+die Gleichberechtigung|—|la igualdad de derechos
+die Integration|—|la integración
+die Einwanderung|Einwanderungen|la inmigración
+die Armut|—|la pobreza
+der Wohlstand|—|la prosperidad, el bienestar
+die Ungleichheit|Ungleichheiten|la desigualdad
+die Bildung|—|la educación, la formación
+die Nachricht|Nachrichten|la noticia, la información
+die Zeitung|Zeitungen|el periódico
+die Sendung|Sendungen|el programa (de radio o televisión)
+der Bericht|Berichte|el informe, el reportaje
+die Umfrage|Umfragen|la encuesta
+die Krise|Krisen|la crisis
+die Entwicklung|Entwicklungen|el desarrollo, la evolución
+die Herausforderung|Herausforderungen|el desafío, el reto
+der Bürger|Bürger|el ciudadano
+~wählen|wählt · wählte · hat gewählt|votar; elegir
+~abstimmen|stimmt ab · stimmte ab · hat abgestimmt|votar (sobre una cuestión)
+~berichten|berichtet · berichtete · hat berichtet|informar, hacer un reportaje
+~fordern|fordert · forderte · hat gefordert|exigir, reclamar
+~sich engagieren|engagiert sich · engagierte sich · hat sich engagiert|comprometerse, implicarse
+~kritisieren|kritisiert · kritisierte · hat kritisiert|criticar
+gesellschaftlich||social, de la sociedad
+politisch||político
+umstritten||controvertido, polémico
+aktuell||actual
+# b2umwelt|Environnement & énergie|Climat, tri, consommation|B2
+die Umwelt|—|el medio ambiente
+der Klimawandel|—|el cambio climático
+der Umweltschutz|—|la protección del medio ambiente
+die Energie|Energien|la energía
+der Strom|—|la electricidad; la corriente
+der Verbrauch|—|el consumo
+die Nachhaltigkeit|—|la sostenibilidad
+die Verschmutzung|Verschmutzungen|la contaminación
+die Abgase (Pl.)|—|los gases de escape
+der Abfall|Abfälle|el residuo, el desecho
+die Mülltrennung|—|la separación de residuos
+der Gelbe Sack|gelben Säcke|la bolsa amarilla (envases)
+das Altglas|—|el vidrio para reciclar
+die Solaranlage|Solaranlagen|la instalación solar
+die Windkraft|—|la energía eólica
+das Kraftwerk|Kraftwerke|la central eléctrica
+die Ressource|Ressourcen|el recurso
+die Überschwemmung|Überschwemmungen|la inundación
+die Dürre|Dürren|la sequía
+~verschwenden|verschwendet · verschwendete · hat verschwendet|desperdiciar, derrochar
+~sparen|spart · sparte · hat gespart|ahorrar
+~recyceln|recycelt · recycelte · hat recycelt|reciclar
+~schützen|schützt · schützte · hat geschützt|proteger
+~vermeiden|vermeidet · vermied · hat vermieden|evitar
+~verbrauchen|verbraucht · verbrauchte · hat verbraucht|consumir
+nachhaltig||sostenible
+umweltfreundlich||ecológico, respetuoso con el medio ambiente
+erneuerbar||renovable
+klimaneutral||neutro en carbono
+# b2gefuehle|Sentiments & relations|Caractère, émotions, vie à deux|B2
+das Gefühl|Gefühle|el sentimiento
+die Beziehung|Beziehungen|la relación
+das Vertrauen|—|la confianza
+die Eifersucht|—|los celos
+die Enttäuschung|Enttäuschungen|la decepción
+die Sehnsucht|Sehnsüchte|el anhelo, la nostalgia
+die Geduld|—|la paciencia
+der Streit|—|la pelea, la discusión
+die Versöhnung|Versöhnungen|la reconciliación
+das Missverständnis|Missverständnisse|el malentendido
+die Rücksicht|—|la consideración (hacia los demás)
+der Eindruck|Eindrücke|la impresión
+die Stimmung|Stimmungen|el ambiente, el estado de ánimo
+~sich verlieben|verliebt sich · verliebte sich · hat sich verliebt|enamorarse
+~sich trennen|trennt sich · trennte sich · hat sich getrennt|separarse
+~sich streiten|streitet sich · stritt sich · hat sich gestritten|pelearse, discutir
+~vermissen|vermisst · vermisste · hat vermisst|echar de menos, extrañar
+~enttäuschen|enttäuscht · enttäuschte · hat enttäuscht|decepcionar
+~vertrauen|vertraut · vertraute · hat vertraut|confiar en (+ Dat.)
+~sich schämen|schämt sich · schämte sich · hat sich geschämt|avergonzarse, tener vergüenza
+~sich aufregen|regt sich auf · regte sich auf · hat sich aufgeregt|alterarse, ponerse nervioso
+zuverlässig||fiable, confiable
+ehrgeizig||ambicioso
+eifersüchtig||celoso
+geduldig||paciente
+ungeduldig||impaciente
+neugierig||curioso
+schüchtern||tímido
+selbstbewusst||seguro de sí mismo
+großzügig||generoso
+hilfsbereit||servicial
+empfindlich||sensible, susceptible
+gelassen||sereno, tranquilo
+enttäuscht||decepcionado
+verlegen||cohibido, avergonzado
+# b2argumenter|Argumenter & nuancer|Connecteurs et formules pour donner son avis|B2
+meiner Meinung nach||en mi opinión
+Ich bin der Ansicht, dass …||Soy de la opinión de que …
+einerseits … andererseits||por un lado … por otro
+trotzdem||a pesar de todo, aun así
+deshalb||por eso
+dennoch||no obstante
+obwohl||aunque, a pesar de que
+während||mientras; mientras que
+sobald||en cuanto, tan pronto como
+falls||en caso de que
+außerdem||además
+allerdings||sin embargo, eso sí
+zwar … aber||es cierto que … pero
+je … desto||cuanto más … más
+sowohl … als auch||tanto … como
+weder … noch||ni … ni
+stattdessen||en su lugar
+im Gegensatz zu||al contrario de, a diferencia de
+im Vergleich zu||en comparación con
+aufgrund||debido a (+ Gen.)
+trotz||a pesar de (+ Gen.)
+anstatt||en vez de
+infolgedessen||por consiguiente
+letztendlich||al fin y al cabo
+beispielsweise||por ejemplo
+Es kommt darauf an.||Depende.
+Das hängt davon ab, ob …||Eso depende de si …
+Da bin ich anderer Meinung.||En eso no estoy de acuerdo.
+Ich stimme dir zu.||Estoy de acuerdo contigo.
+Das stimmt zwar, aber …||Es cierto, pero …
+Ich gebe zu, dass …||Admito que …
+Es ist fraglich, ob …||Es dudoso que …
+Ein Vorteil ist, dass …||Una ventaja es que …
+Ein Nachteil ist, dass …||Un inconveniente es que …
+# b2verbes|Verbes à préposition|Les rections à connaître par cœur|B2
+~sich kümmern um|kümmert sich · kümmerte sich · hat sich gekümmert|ocuparse de, atender (+ Akk.)
+~sich freuen auf|freut sich · freute sich · hat sich gefreut|esperar con ilusión (algo futuro, + Akk.)
+~sich freuen über|freut sich · freute sich · hat sich gefreut|alegrarse de (algo presente o pasado, + Akk.)
+~sich interessieren für|interessiert sich · interessierte sich · hat sich interessiert|interesarse por (+ Akk.)
+~sich ärgern über|ärgert sich · ärgerte sich · hat sich geärgert|enfadarse por (+ Akk.)
+~sich beschweren über|beschwert sich · beschwerte sich · hat sich beschwert|quejarse de (+ Akk.)
+~sich gewöhnen an|gewöhnt sich · gewöhnte sich · hat sich gewöhnt|acostumbrarse a (+ Akk.)
+~sich erinnern an|erinnert sich · erinnerte sich · hat sich erinnert|acordarse de (+ Akk.)
+~sich bedanken für|bedankt sich · bedankte sich · hat sich bedankt|dar las gracias por (+ Akk.)
+~sich entscheiden für|entscheidet sich · entschied sich · hat sich entschieden|decidirse por (+ Akk.)
+~sich verlassen auf|verlässt sich · verließ sich · hat sich verlassen|contar con, fiarse de (+ Akk.)
+~sich bewerben um|bewirbt sich · bewarb sich · hat sich beworben|presentarse a, solicitar (un puesto) (+ Akk.)
+~sich beschäftigen mit|beschäftigt sich · beschäftigte sich · hat sich beschäftigt|dedicarse a, trabajar en (+ Dat.)
+~sich unterhalten über|unterhält sich · unterhielt sich · hat sich unterhalten|conversar sobre (+ Akk.)
+~sich vorbereiten auf|bereitet sich vor · bereitete sich vor · hat sich vorbereitet|prepararse para (+ Akk.)
+~sich konzentrieren auf|konzentriert sich · konzentrierte sich · hat sich konzentriert|concentrarse en (+ Akk.)
+~sich sorgen um|sorgt sich · sorgte sich · hat sich gesorgt|preocuparse por (+ Akk.)
+~sich fürchten vor|fürchtet sich · fürchtete sich · hat sich gefürchtet|tener miedo de (+ Dat.)
+~warten auf|wartet · wartete · hat gewartet|esperar (+ Akk.)
+~denken an|denkt · dachte · hat gedacht|pensar en (+ Akk.)
+~glauben an|glaubt · glaubte · hat geglaubt|creer en (+ Akk.)
+~teilnehmen an|nimmt teil · nahm teil · hat teilgenommen|participar en (+ Dat.)
+~abhängen von|hängt ab · hing ab · hat abgehangen|depender de (+ Dat.)
+~bestehen aus|besteht · bestand · hat bestanden|constar de, componerse de (+ Dat.)
+~träumen von|träumt · träumte · hat geträumt|soñar con (+ Dat.)
+~bitten um|bittet · bat · hat gebeten|pedir (algo) (+ Akk.)
+~fragen nach|fragt · fragte · hat gefragt|preguntar por (alguien, el camino) (+ Dat.)
+~achten auf|achtet · achtete · hat geachtet|prestar atención a (+ Akk.)
+~gehören zu|gehört · gehörte · hat gehört|formar parte de (+ Dat.)
+~sorgen für|sorgt · sorgte · hat gesorgt|encargarse de, velar por (+ Akk.)
+~führen zu|führt · führte · hat geführt|llevar a, conducir a (+ Dat.)
+~überzeugen von|überzeugt · überzeugte · hat überzeugt|convencer de (+ Dat.)
+~hinweisen auf|weist hin · wies hin · hat hingewiesen|llamar la atención sobre (+ Akk.)
+~verzichten auf|verzichtet · verzichtete · hat verzichtet|renunciar a (+ Akk.)
+~zweifeln an|zweifelt · zweifelte · hat gezweifelt|dudar de (+ Dat.)
+# b2nuances|Adjectifs & adverbes nuancés|Pour décrire avec précision|B2
+offensichtlich||obviamente, evidente
+eindeutig||claro, inequívoco
+angeblich||supuestamente
+anscheinend||al parecer, aparentemente
+vermutlich||probablemente
+ausgerechnet||precisamente (como hecho a propósito)
+ausreichend||suficiente
+erheblich||considerable
+gewissermaßen||en cierto modo
+überwiegend||mayoritariamente
+vorübergehend||temporal, provisional
+dauerhaft||duradero, permanente
+umfangreich||amplio, extenso
+anspruchsvoll||exigente
+aufwendig||costoso (en tiempo, en esfuerzo)
+mühsam||penoso, laborioso
+zufällig||por casualidad
+absichtlich||a propósito, adrede
+rechtzeitig||a tiempo
+ehemalig||antiguo (ex-)
+vorhanden||disponible, existente
+selbstverständlich||evidentemente, por supuesto
+bisher||hasta ahora
+inzwischen||mientras tanto, entretanto
+ständig||constantemente
+kaum||apenas
+überhaupt nicht||en absoluto
+eher||más bien
+durchaus||totalmente, sin duda
+keineswegs||de ningún modo
+# b2idiomes|Expressions idiomatiques|Ce que les Allemands disent vraiment|B2
+Ich verstehe nur Bahnhof.||No entiendo nada. (me suena a chino)
+Das ist mir Wurst.||Me da igual.
+Ich drücke dir die Daumen.||Cruzo los dedos por ti.
+Schwein haben||tener suerte
+Tomaten auf den Augen haben||no ver lo que salta a la vista
+Ich habe die Nase voll.||Estoy harto(a).
+ins Fettnäpfchen treten||meter la pata
+auf dem Holzweg sein||ir por mal camino
+den Nagel auf den Kopf treffen||dar en el clavo
+um den heißen Brei herumreden||andarse con rodeos
+Hals- und Beinbruch!||¡Mucha suerte! (expresión para desear éxito)
+Da steppt der Bär.||Va a haber mucho ambiente.
+Alles hat ein Ende, nur die Wurst hat zwei.||Todo tiene un final.
+etwas auf die lange Bank schieben||dejar para más tarde (aplazar)
+=die Katze im Sack kaufen||comprar a ciegas
+jemandem auf den Keks gehen||sacar de quicio a alguien
+Das ist nicht mein Bier.||No es asunto mío.
+Das ist mir ein Rätsel.||Es un misterio para mí.
+unter vier Augen||a solas, en privado
+zwei Fliegen mit einer Klappe schlagen||matar dos pájaros de un tiro
+Lügen haben kurze Beine.||La mentira tiene las patas cortas.
+Ende gut, alles gut.||Bien está lo que bien acaba.
+Übung macht den Meister.||La práctica hace al maestro.

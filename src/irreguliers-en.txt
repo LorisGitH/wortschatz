@@ -1,0 +1,144 @@
+# Verbes irréguliers. Format : infinitif|présent|prétérit|parfait|traduction|niveau
+# présent = "du,er" (les autres personnes sont régulières) ou les 6 formes "ich,du,er,wir,ihr,sie"
+# prétérit = forme ich/er (les autres personnes s'en déduisent) ; parfait = forme er (hat/ist + participe)
+sein|bin,bist,ist,sind,seid,sind|war|ist gewesen|to be|A1
+haben|habe,hast,hat,haben,habt,haben|hatte|hat gehabt|to have|A1
+werden|werde,wirst,wird,werden,werdet,werden|wurde|ist geworden|to become|A1
+wissen|weiß,weißt,weiß,wissen,wisst,wissen|wusste|hat gewusst|to know (a fact)|A1
+können|kann,kannst,kann,können,könnt,können|konnte|hat gekonnt|can, to be able to|A1
+müssen|muss,musst,muss,müssen,müsst,müssen|musste|hat gemusst|must, to have to (obligation)|A1
+wollen|will,willst,will,wollen,wollt,wollen|wollte|hat gewollt|to want|A1
+dürfen|darf,darfst,darf,dürfen,dürft,dürfen|durfte|hat gedurft|may, to be allowed to|A1
+sollen|soll,sollst,soll,sollen,sollt,sollen|sollte|hat gesollt|should, to be supposed to (someone asked me to)|A1
+mögen|mag,magst,mag,mögen,mögt,mögen|mochte|hat gemocht|to like|A1
+gehen|gehst,geht|ging|ist gegangen|to go (on foot)|A1
+kommen|kommst,kommt|kam|ist gekommen|to come|A1
+fahren|fährst,fährt|fuhr|ist gefahren|to go (by vehicle), to drive|A1
+laufen|läufst,läuft|lief|ist gelaufen|to run, to walk|A1
+fliegen|fliegst,fliegt|flog|ist geflogen|to fly|A1
+bleiben|bleibst,bleibt|blieb|ist geblieben|to stay|A1
+schwimmen|schwimmst,schwimmt|schwamm|ist geschwommen|to swim|A1
+stehen|stehst,steht|stand|hat gestanden|to stand|A1
+sitzen|sitzt,sitzt|saß|hat gesessen|to be sitting|A1
+liegen|liegst,liegt|lag|hat gelegen|to be lying, to be located|A1
+essen|isst,isst|aß|hat gegessen|to eat|A1
+trinken|trinkst,trinkt|trank|hat getrunken|to drink|A1
+sehen|siehst,sieht|sah|hat gesehen|to see|A1
+lesen|liest,liest|las|hat gelesen|to read|A1
+sprechen|sprichst,spricht|sprach|hat gesprochen|to speak|A1
+nehmen|nimmst,nimmt|nahm|hat genommen|to take|A1
+geben|gibst,gibt|gab|hat gegeben|to give|A1
+helfen|hilfst,hilft|half|hat geholfen|to help|A1
+treffen|triffst,trifft|traf|hat getroffen|to meet|A1
+schlafen|schläfst,schläft|schlief|hat geschlafen|to sleep|A1
+finden|findest,findet|fand|hat gefunden|to find|A1
+heißen|heißt,heißt|hieß|hat geheißen|to be called|A1
+schreiben|schreibst,schreibt|schrieb|hat geschrieben|to write|A1
+beginnen|beginnst,beginnt|begann|hat begonnen|to begin|A1
+bringen|bringst,bringt|brachte|hat gebracht|to bring|A1
+kennen|kennst,kennt|kannte|hat gekannt|to know (a person, a place)|A1
+gefallen|gefällst,gefällt|gefiel|hat gefallen|to please, to appeal to|A1
+vergessen|vergisst,vergisst|vergaß|hat vergessen|to forget|A1
+verstehen|verstehst,versteht|verstand|hat verstanden|to understand|A1
+bekommen|bekommst,bekommt|bekam|hat bekommen|to receive, to get|A1
+tun|tust,tut|tat|hat getan|to do|A2
+denken|denkst,denkt|dachte|hat gedacht|to think|A2
+nennen|nennst,nennt|nannte|hat genannt|to name, to call|A2
+rennen|rennst,rennt|rannte|ist gerannt|to run (fast)|A2
+waschen|wäschst,wäscht|wusch|hat gewaschen|to wash|A2
+tragen|trägst,trägt|trug|hat getragen|to carry, to wear|A2
+halten|hältst,hält|hielt|hat gehalten|to hold, to stop|A2
+lassen|lässt,lässt|ließ|hat gelassen|to let, to have (something) done|A2
+fallen|fällst,fällt|fiel|ist gefallen|to fall|A2
+rufen|rufst,ruft|rief|hat gerufen|to call|A2
+steigen|steigst,steigt|stieg|ist gestiegen|to climb, to rise|A2
+scheinen|scheinst,scheint|schien|hat geschienen|to shine; to seem|A2
+treiben|treibst,treibt|trieb|hat getrieben|to do, to practice (Sport treiben)|A2
+schneiden|schneidest,schneidet|schnitt|hat geschnitten|to cut|A2
+gewinnen|gewinnst,gewinnt|gewann|hat gewonnen|to win|A2
+singen|singst,singt|sang|hat gesungen|to sing|A2
+ziehen|ziehst,zieht|zog|hat gezogen|to pull|A2
+verlieren|verlierst,verliert|verlor|hat verloren|to lose|A2
+schließen|schließt,schließt|schloss|hat geschlossen|to close|A2
+bitten|bittest,bittet|bat|hat gebeten|to ask, to request|A2
+empfehlen|empfiehlst,empfiehlt|empfahl|hat empfohlen|to recommend|A2
+sterben|stirbst,stirbt|starb|ist gestorben|to die|A2
+werfen|wirfst,wirft|warf|hat geworfen|to throw|A2
+unterschreiben|unterschreibst,unterschreibt|unterschrieb|hat unterschrieben|to sign|A2
+fangen|fängst,fängt|fing|hat gefangen|to catch|B1
+raten|rätst,rät|riet|hat geraten|to advise, to guess|B1
+schlagen|schlägst,schlägt|schlug|hat geschlagen|to hit, to beat|B1
+laden|lädst,lädt|lud|hat geladen|to load|B1
+wachsen|wächst,wächst|wuchs|ist gewachsen|to grow|B1
+braten|brätst,brät|briet|hat gebraten|to roast, to fry|B1
+schreien|schreist,schreit|schrie|hat geschrien|to scream, to shout|B1
+leihen|leihst,leiht|lieh|hat geliehen|to lend|B1
+leiden|leidest,leidet|litt|hat gelitten|to suffer|B1
+streiten|streitest,streitet|stritt|hat gestritten|to argue|B1
+reiten|reitest,reitet|ritt|ist geritten|to ride (a horse)|B1
+beißen|beißt,beißt|biss|hat gebissen|to bite|B1
+vergleichen|vergleichst,vergleicht|verglich|hat verglichen|to compare|B1
+entscheiden|entscheidest,entscheidet|entschied|hat entschieden|to decide|B1
+springen|springst,springt|sprang|ist gesprungen|to jump|B1
+verschwinden|verschwindest,verschwindet|verschwand|ist verschwunden|to disappear|B1
+klingen|klingst,klingt|klang|hat geklungen|to sound, to ring|B1
+frieren|frierst,friert|fror|hat gefroren|to be cold, to freeze|B1
+fließen|fließt,fließt|floss|ist geflossen|to flow|B1
+genießen|genießt,genießt|genoss|hat genossen|to enjoy, to savor|B1
+gießen|gießt,gießt|goss|hat gegossen|to water, to pour|B1
+bieten|bietest,bietet|bot|hat geboten|to offer|B1
+verbieten|verbietest,verbietet|verbot|hat verboten|to forbid, to ban|B1
+riechen|riechst,riecht|roch|hat gerochen|to smell (have or notice a smell)|B1
+lügen|lügst,lügt|log|hat gelogen|to lie (tell a lie)|B1
+wiegen|wiegst,wiegt|wog|hat gewogen|to weigh|B1
+messen|misst,misst|maß|hat gemessen|to measure|B1
+stehlen|stiehlst,stiehlt|stahl|hat gestohlen|to steal|B1
+brechen|brichst,bricht|brach|hat gebrochen|to break|B1
+gelten|giltst,gilt|galt|hat gegolten|to be valid|B1
+erhalten|erhältst,erhält|erhielt|hat erhalten|to receive (official mail)|B1
+verlassen|verlässt,verlässt|verließ|hat verlassen|to leave|B1
+hängen|hängst,hängt|hing|hat gehangen|to be hanging|B1
+brennen|brennst,brennt|brannte|hat gebrannt|to burn|B1
+stoßen|stößt,stößt|stieß|hat gestoßen|to push, to bump|B2
+schweigen|schweigst,schweigt|schwieg|hat geschwiegen|to be silent|B2
+greifen|greifst,greift|griff|hat gegriffen|to grab, to grasp|B2
+reißen|reißt,reißt|riss|hat gerissen|to tear, to rip|B2
+beweisen|beweist,beweist|bewies|hat bewiesen|to prove|B2
+sinken|sinkst,sinkt|sank|ist gesunken|to drop, to sink|B2
+zwingen|zwingst,zwingt|zwang|hat gezwungen|to force, to compel|B2
+schieben|schiebst,schiebt|schob|hat geschoben|to push (an object)|B2
+heben|hebst,hebt|hob|hat gehoben|to lift|B2
+treten|trittst,tritt|trat|ist getreten|to step on, to step (into)|B2
+befehlen|befiehlst,befiehlt|befahl|hat befohlen|to order, to command|B2
+# Verbes séparables : la particule est séparée par « · » ; le présent et le prétérit sont donnés pour le verbe de base, le parfait en entier.
+auf·stehen|stehst,steht|stand|ist aufgestanden|to get up|A1
+an·fangen|fängst,fängt|fing|hat angefangen|to start, to begin|A1
+an·rufen|rufst,ruft|rief|hat angerufen|to call (on the phone)|A1
+ein·kaufen|kaufst,kauft|kaufte|hat eingekauft|to go shopping|A1
+ein·steigen|steigst,steigt|stieg|ist eingestiegen|to get on (a vehicle)|A1
+aus·steigen|steigst,steigt|stieg|ist ausgestiegen|to get off (a vehicle)|A1
+um·steigen|steigst,steigt|stieg|ist umgestiegen|to change (trains, buses)|A1
+an·kommen|kommst,kommt|kam|ist angekommen|to arrive|A1
+mit·kommen|kommst,kommt|kam|ist mitgekommen|to come along|A1
+fern·sehen|siehst,sieht|sah|hat ferngesehen|to watch TV|A1
+ab·holen|holst,holt|holte|hat abgeholt|to pick up|A1
+auf·machen|machst,macht|machte|hat aufgemacht|to open|A1
+zu·machen|machst,macht|machte|hat zugemacht|to close|A1
+aus·gehen|gehst,geht|ging|ist ausgegangen|to go out|A2
+ab·fahren|fährst,fährt|fuhr|ist abgefahren|to leave, to depart (train, bus)|A2
+zurück·kommen|kommst,kommt|kam|ist zurückgekommen|to come back|A2
+mit·nehmen|nimmst,nimmt|nahm|hat mitgenommen|to take along, to take with you|A2
+auf·hören|hörst,hört|hörte|hat aufgehört|to stop|A2
+auf·räumen|räumst,räumt|räumte|hat aufgeräumt|to tidy up|A2
+an·ziehen|ziehst,zieht|zog|hat angezogen|to put on (clothes)|A2
+um·ziehen|ziehst,zieht|zog|ist umgezogen|to move (to a new home)|A2
+ein·laden|lädst,lädt|lud|hat eingeladen|to invite|A2
+aus·füllen|füllst,füllt|füllte|hat ausgefüllt|to fill out (a form)|A2
+zu·hören|hörst,hört|hörte|hat zugehört|to listen|A2
+aus·sehen|siehst,sieht|sah|hat ausgesehen|to look (like), to seem|A2
+kennen·lernen|lernst,lernt|lernte|hat kennengelernt|to get to know, to meet|A2
+vor·schlagen|schlägst,schlägt|schlug|hat vorgeschlagen|to suggest|B1
+vor·bereiten|bereitest,bereitet|bereitete|hat vorbereitet|to prepare|B1
+fest·stellen|stellst,stellt|stellte|hat festgestellt|to notice, to establish|B1
+teil·nehmen|nimmst,nimmt|nahm|hat teilgenommen|to take part, to participate|B1
+ab·geben|gibst,gibt|gab|hat abgegeben|to hand in, to drop off|B1

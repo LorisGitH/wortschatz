@@ -1,0 +1,105 @@
+# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+achten|auf|A|prestar atención a|Achte bitte [auf] den Verkehr.|Presta atención al tráfico.
+denken|an|A|pensar en|Ich denke oft [an] meine Familie.|Pienso a menudo en mi familia.
+warten|auf|A|esperar (a)|Wir warten [auf] den Bus.|Esperamos el autobús.
+sich freuen|auf|A|tener muchas ganas de (algo futuro)|Ich freue mich [auf] den Urlaub.|Tengo muchas ganas de que lleguen las vacaciones.
+sich freuen|über|A|alegrarse de/por (algo presente o pasado)|Sie freut sich [über] das Geschenk.|Se alegra por el regalo.
+sich interessieren|für|A|interesarse por|Er interessiert sich [für] Politik.|Se interesa por la política.
+sich kümmern|um|A|ocuparse de, cuidar de|Wer kümmert sich [um] den Hund?|¿Quién cuida al perro?
+sich ärgern|über|A|molestarse por, enfadarse por|Ich ärgere mich [über] den Lärm.|Me molesta el ruido.
+sich beschweren|über|A|quejarse de|Die Mieter beschweren sich [über] die Heizung.|Los inquilinos se quejan de la calefacción.
+sich beschweren|bei|D|quejarse ante|Ich beschwere mich [beim] Vermieter.|Me quejo ante el propietario.
+sich gewöhnen|an|A|acostumbrarse a|Ich gewöhne mich langsam [an] das Wetter.|Poco a poco me acostumbro al clima.
+sich erinnern|an|A|acordarse de, recordar|Erinnerst du dich [an] unseren ersten Tag?|¿Te acuerdas de nuestro primer día?
+sich bedanken|für|A|dar las gracias por, agradecer|Ich bedanke mich [für] Ihre Hilfe.|Le doy las gracias por su ayuda.
+sich entscheiden|für|A|decidirse por, elegir|Wir haben uns [für] die kleine Wohnung entschieden.|Nos decidimos por el apartamento pequeño.
+sich verlassen|auf|A|contar con, confiar en|Du kannst dich [auf] mich verlassen.|Puedes contar conmigo.
+sich bewerben|um|A|solicitar (un puesto)|Sie bewirbt sich [um] eine Stelle als Pflegerin.|Solicita un puesto de cuidadora.
+sich bewerben|bei|D|presentar una solicitud en (una empresa)|Er bewirbt sich [bei] einer Bank.|Presenta una solicitud en un banco.
+sich beschäftigen|mit|D|ocuparse de, trabajar en|Ich beschäftige mich gerade [mit] dem Thema.|Ahora mismo estoy trabajando en ese tema.
+sich unterhalten|über|A|conversar sobre, hablar de|Wir unterhalten uns [über] den Film.|Conversamos sobre la película.
+sich unterhalten|mit|D|conversar con, charlar con|Ich unterhalte mich [mit] dem Nachbarn.|Charlo con el vecino.
+sich vorbereiten|auf|A|prepararse para|Ich bereite mich [auf] die Prüfung vor.|Me preparo para el examen.
+sich konzentrieren|auf|A|concentrarse en|Konzentrier dich [auf] die Arbeit!|¡Concéntrate en el trabajo!
+sich sorgen|um|A|preocuparse por|Die Eltern sorgen sich [um] ihren Sohn.|Los padres se preocupan por su hijo.
+sich fürchten|vor|D|tener miedo de, temer|Das Kind fürchtet sich [vor] dem Hund.|El niño le tiene miedo al perro.
+Angst haben|vor|D|tener miedo de|Ich habe Angst [vor] der Prüfung.|Tengo miedo al examen.
+glauben|an|A|creer en|Ich glaube [an] dich.|Creo en ti.
+teilnehmen|an|D|participar en|Ich nehme [an] einem Deutschkurs teil.|Participo en un curso de alemán.
+abhängen|von|D|depender de|Das hängt [vom] Wetter ab.|Depende del tiempo.
+bestehen|aus|D|constar de, componerse de|Das Team besteht [aus] fünf Personen.|El equipo consta de cinco personas.
+bestehen|auf|D|exigir, insistir en|Er besteht [auf] einer Antwort.|Insiste en recibir una respuesta.
+träumen|von|D|soñar con|Ich träume [von] einem Haus am See.|Sueño con una casa junto a un lago.
+bitten|um|A|pedir (algo)|Darf ich Sie [um] einen Gefallen bitten?|¿Puedo pedirle un favor?
+fragen|nach|D|preguntar por (el camino, cómo está alguien)|Er fragt [nach] dem Weg.|Pregunta por el camino.
+gehören|zu|D|formar parte de|Das gehört [zu] meinen Aufgaben.|Eso forma parte de mis tareas.
+sorgen|für|A|encargarse de, cuidar de|Die Eltern sorgen [für] die Kinder.|Los padres cuidan de los hijos.
+führen|zu|D|llevar a, conducir a|Stress kann [zu] Krankheiten führen.|El estrés puede llevar a enfermedades.
+überzeugen|von|D|convencer de|Er hat mich [von] seiner Idee überzeugt.|Me convenció de su idea.
+hinweisen|auf|A|señalar, llamar la atención sobre|Ich möchte Sie [auf] einen Fehler hinweisen.|Quisiera señalarle un error.
+verzichten|auf|A|renunciar a|Ich verzichte [auf] Zucker.|Renuncio al azúcar.
+zweifeln|an|D|dudar de|Ich zweifle [an] seiner Ehrlichkeit.|Dudo de su honestidad.
+sprechen|mit|D|hablar con|Ich muss [mit] dem Chef sprechen.|Tengo que hablar con el jefe.
+sprechen|über|A|hablar de/sobre|Wir sprechen [über] das Problem.|Hablamos del problema.
+telefonieren|mit|D|hablar por teléfono con|Ich telefoniere [mit] meiner Mutter.|Hablo por teléfono con mi madre.
+anfangen|mit|D|empezar por/con|Wir fangen [mit] der Übung an.|Empezamos con el ejercicio.
+aufhören|mit|D|dejar de|Er hat [mit] dem Rauchen aufgehört.|Dejó de fumar.
+helfen|bei|D|ayudar a/con|Kannst du mir [beim] Umzug helfen?|¿Me ayudas con la mudanza?
+sich verabreden|mit|D|citarse con, quedar con|Ich habe mich [mit] Anna verabredet.|Tengo una cita con Anna.
+sich treffen|mit|D|encontrarse con, ver (a alguien)|Ich treffe mich heute [mit] Freunden.|Hoy me veo con unos amigos.
+einladen|zu|D|invitar a|Sie lädt uns [zum] Essen ein.|Nos invita a comer.
+gratulieren|zu|D|felicitar por|Ich gratuliere dir [zum] Geburtstag.|Te felicito por tu cumpleaños.
+sich entschuldigen|für|A|disculparse por, pedir perdón por|Ich entschuldige mich [für] die Verspätung.|Pido disculpas por el retraso.
+sich entschuldigen|bei|D|disculparse con, pedir perdón a|Du solltest dich [bei] ihr entschuldigen.|Deberías disculparte con ella.
+sich anmelden|für|A|inscribirse en|Ich melde mich [für] den Kurs an.|Me inscribo en el curso.
+sich informieren|über|A|informarse sobre|Ich informiere mich [über] die Kosten.|Me informo sobre los gastos.
+sich erkundigen|nach|D|informarse sobre, preguntar por|Er erkundigt sich [nach] den Öffnungszeiten.|Pregunta por el horario de apertura.
+sich streiten|mit|D|discutir con, pelearse con|Er streitet sich oft [mit] seinem Bruder.|A menudo discute con su hermano.
+sich verlieben|in|A|enamorarse de|Sie hat sich [in] ihn verliebt.|Se enamoró de él.
+sich wundern|über|A|sorprenderse de, extrañarse de|Ich wundere mich [über] seine Reaktion.|Me sorprende su reacción.
+sich aufregen|über|A|alterarse por, enfadarse con|Reg dich nicht [über] ihn auf!|¡No te alteres por él!
+lachen|über|A|reírse de|Wir haben [über] den Witz gelacht.|Nos reímos del chiste.
+nachdenken|über|A|reflexionar sobre, pensar en|Ich denke [über] dein Angebot nach.|Estoy pensando en tu oferta.
+diskutieren|über|A|discutir sobre, debatir sobre|Wir diskutieren [über] die Zukunft.|Debatimos sobre el futuro.
+berichten|über|A|informar sobre|Die Zeitung berichtet [über] den Unfall.|El periódico informa sobre el accidente.
+schreiben|an|A|escribir a|Ich schreibe einen Brief [an] die Behörde.|Escribo una carta a la administración.
+erzählen|von|D|contar, hablar de|Erzähl mir [von] deiner Reise!|¡Háblame de tu viaje!
+hören|von|D|tener noticias de, saber de|Ich habe lange nichts [von] ihm gehört.|Hace mucho que no sé nada de él.
+sich verabschieden|von|D|despedirse de|Wir verabschieden uns [von] den Gästen.|Nos despedimos de los invitados.
+sich erholen|von|D|recuperarse de|Ich muss mich [vom] Stress erholen.|Tengo que recuperarme del estrés.
+leiden|an|D|sufrir de, padecer (una enfermedad)|Er leidet [an] einer Allergie.|Padece una alergia.
+leiden|unter|D|sufrir por (una situación)|Viele leiden [unter] der Hitze.|Muchos sufren por el calor.
+arbeiten|an|D|trabajar en|Ich arbeite [an] einem Projekt.|Trabajo en un proyecto.
+sterben|an|D|morir de|Er ist [an] einer Grippe gestorben.|Murió de gripe.
+sich beteiligen|an|D|participar en|Alle beteiligen sich [an] den Kosten.|Todos participan en los gastos.
+erkennen|an|D|reconocer por|Ich erkenne ihn [an] der Stimme.|Lo reconozco por la voz.
+sich wenden|an|A|dirigirse a|Wenden Sie sich bitte [an] den Kundenservice.|Diríjase al servicio de atención al cliente, por favor.
+sich halten|an|A|respetar, atenerse a (una regla)|Bitte halten Sie sich [an] die Regeln.|Por favor, respete las normas.
+reagieren|auf|A|reaccionar a/ante|Wie hat er [auf] die Nachricht reagiert?|¿Cómo reaccionó ante la noticia?
+antworten|auf|A|responder a|Bitte antworten Sie [auf] meine E-Mail.|Por favor, responda a mi correo electrónico.
+hoffen|auf|A|esperar, tener la esperanza de|Wir hoffen [auf] gutes Wetter.|Esperamos que haga buen tiempo.
+aufpassen|auf|A|vigilar, cuidar a|Kannst du [auf] die Kinder aufpassen?|¿Puedes cuidar a los niños?
+ankommen|auf|A|depender de (es kommt auf … an)|Es kommt [auf] die Situation an.|Depende de la situación.
+sich einsetzen|für|A|comprometerse con, luchar por|Sie setzt sich [für] die Umwelt ein.|Lucha por el medio ambiente.
+danken|für|A|agradecer, dar las gracias por|Danke [für] die Einladung!|¡Gracias por la invitación!
+ausgeben|für|A|gastar en|Wie viel gibst du [für] die Miete aus?|¿Cuánto gastas en el alquiler?
+kämpfen|gegen|A|luchar contra|Wir kämpfen [gegen] den Klimawandel.|Luchamos contra el cambio climático.
+protestieren|gegen|A|protestar contra|Viele protestieren [gegen] das neue Gesetz.|Muchos protestan contra la nueva ley.
+sich verstehen|mit|D|llevarse bien con|Ich verstehe mich gut [mit] meinen Kollegen.|Me llevo bien con mis compañeros de trabajo.
+rechnen|mit|D|contar con, esperar|[Mit] so viel Verkehr habe ich nicht gerechnet.|No contaba con tanto tráfico.
+vergleichen|mit|D|comparar con|Vergleich dich nicht [mit] anderen!|¡No te compares con los demás!
+umgehen|mit|D|saber tratar a/con|Er kann gut [mit] Kindern umgehen.|Sabe tratar muy bien a los niños.
+sich auskennen|mit|D|entender de, saber de|Kennst du dich [mit] Computern aus?|¿Entiendes de informática?
+suchen|nach|D|buscar|Ich suche [nach] meinem Schlüssel.|Busco mi llave.
+riechen|nach|D|oler a|Hier riecht es [nach] Kaffee.|Aquí huele a café.
+sich sehnen|nach|D|añorar, extrañar|Ich sehne mich [nach] der Sonne.|Extraño el sol.
+schützen|vor|D|proteger de|Die Creme schützt [vor] der Sonne.|La crema protege del sol.
+warnen|vor|D|advertir de, alertar sobre|Man warnt [vor] dem Sturm.|Advierten de la tormenta.
+passen|zu|D|quedar bien a, combinar con|Die Farbe passt gut [zu] dir.|Ese color te queda bien.
+beitragen|zu|D|contribuir a|Jeder kann [zum] Umweltschutz beitragen.|Todos pueden contribuir a la protección del medio ambiente.
+leben|von|D|vivir de|Er lebt [von] seiner Rente.|Vive de su pensión.
+sich trennen|von|D|separarse de|Sie hat sich [von] ihrem Freund getrennt.|Se separó de su novio.
+handeln|von|D|tratar de, hablar de (un libro, una película)|Der Film handelt [von] einer Familie.|La película trata de una familia.
+gehen|um|A|tratarse de (es geht um …)|In dem Brief geht es [um] die Miete.|La carta trata del alquiler.
+sich handeln|um|A|tratarse de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Se trata de un malentendido.
+sich bemühen|um|A|esforzarse por conseguir|Ich bemühe mich [um] eine Lösung.|Me esfuerzo por encontrar una solución.

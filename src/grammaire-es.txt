@@ -1,0 +1,1033 @@
+@1|Género y artículos|A1
+Todo sustantivo alemán tiene un género: masculino (**der**), femenino (**die**) o neutro (**das**). A menudo no coincide con el español (la mesa = der Tisch), así que aprende siempre cada sustantivo con su artículo. Los sustantivos se escriben siempre con mayúscula.
+#table
+ | Masculino | Femenino | Neutro | Plural
+Definido (el, la) | der Tisch | die Lampe | das Bett | die Tische
+Indefinido (un, una) | ein Tisch | eine Lampe | ein Bett | (unos) Tische
+Negativo (ningún, ninguna) | kein Tisch | keine Lampe | kein Bett | keine Tische
+
+#h Pistas para adivinar el género
+- **Masculino**: días, meses, estaciones (der Montag, der Mai), sustantivos en -er que designan personas (der Lehrer), -ling, -ismus.
+- **Femenino**: -ung (die Wohnung), -heit, -keit (die Möglichkeit), -schaft, -ion (die Information), -tät, -ie, y la mayoría de los sustantivos en -e (die Straße).
+- **Neutro**: -chen y -lein (das Mädchen), -ment, -um (das Zentrum), verbos sustantivados (das Essen).
+- **Sustantivo compuesto**: decide la última palabra. die Haustür = das Haus + die Tür.
+#h En el día a día
+> Ich brauche einen Termin. = Necesito una cita.
+> Die Miete ist hoch. = El alquiler es alto.
+> Ich habe kein Auto. = No tengo auto.
+#ex Escribe el artículo definido.
+___ Rechnung (factura) = die
+___ Brötchen (panecillo) = das
+___ Bahnhof (estación de tren) = der
+___ Wohnung (apartamento) = die
+___ Krankenversicherung (seguro médico) = die
+
+@2|Pronombres personales y presente|A1
+En presente, se quita **-en** al infinitivo y se añade la terminación de cada persona. **Sie** con mayúscula es la forma de cortesía (usted y ustedes); se conjuga como sie (ellos).
+#table
+Pronombre | Significado | Terminación | wohnen | arbeiten | sein | haben
+ich | yo | -e | wohne | arbeite | bin | habe
+du | tú | -st | wohnst | arbeitest | bist | hast
+er / sie / es | él / ella | -t | wohnt | arbeitet | ist | hat
+wir | nosotros | -en | wohnen | arbeiten | sind | haben
+ihr | vosotros / ustedes (varios amigos) | -t | wohnt | arbeitet | seid | habt
+sie / Sie | ellos / usted, ustedes (formal) | -en | wohnen | arbeiten | sind | haben
+
+#h Trampas
+- Raíz en -t o -d (arbeiten, finden): se añade una -e- para poder pronunciar: du arbeitest, er findet.
+- Raíz en -s, -ß, -z (heißen, tanzen): du heißt, du tanzt (nunca -sst).
+- **man** (se, uno) se conjuga como er: Hier darf man nicht rauchen.
+- El presente también sirve para el futuro próximo: Morgen gehe ich zum Arzt.
+#h En el día a día
+> Ich heiße Loris und ich komme aus Frankreich. = Me llamo Loris y vengo de Francia.
+> Haben Sie einen Moment Zeit? = ¿Tiene usted un momento?
+> Wir sind neu hier. = Somos nuevos aquí.
+#ex Conjuga.
+Du ___ (wohnen) in Berlin. = wohnst
+Er ___ (arbeiten) bei Siemens. = arbeitet
+Ihr ___ (sein) spät. = seid
+___ (haben) Sie eine Kundenkarte? = Haben
+Wie ___ (heißen) du? = heißt
+
+@3|Verbos fuertes en presente|A1
+Algunos verbos cambian de vocal, pero **solo con du y er/sie/es**. Las demás personas siguen siendo regulares.
+#table
+Cambio | Infinitivo | ich | du | er / sie / es | wir
+a → ä | fahren (ir en vehículo) | fahre | fährst | fährt | fahren
+a → ä | schlafen (dormir) | schlafe | schläfst | schläft | schlafen
+au → äu | laufen (correr, caminar) | laufe | läufst | läuft | laufen
+e → i | essen (comer) | esse | isst | isst | essen
+e → i | sprechen (hablar) | spreche | sprichst | spricht | sprechen
+e → i | helfen (ayudar) | helfe | hilfst | hilft | helfen
+e → i | geben (dar) | gebe | gibst | gibt | geben
+e → ie | sehen (ver) | sehe | siehst | sieht | sehen
+e → ie | lesen (leer) | lese | liest | liest | lesen
+irregular | nehmen (tomar) | nehme | nimmst | nimmt | nehmen
+irregular | wissen (saber) | weiß | weißt | weiß | wissen
+irregular | werden (llegar a ser, volverse) | werde | wirst | wird | werden
+
+Otros que conviene conocer: tragen (llevar), waschen (lavar), vergessen (olvidar), treffen (encontrarse con), empfehlen (recomendar), werfen (lanzar, tirar).
+#h En el día a día
+> Sprichst du Französisch? = ¿Hablas francés?
+> Der Bus fährt um 8 Uhr. = El autobús sale a las 8.
+> Ich nehme das Menü 2. = Tomo el menú 2.
+> Das weiß ich nicht. = No lo sé.
+#ex Conjuga en presente.
+Was ___ du heute Abend? (essen) = isst
+Er ___ sehr gut Deutsch. (sprechen) = spricht
+___ du den Zug? (sehen) = Siehst
+Sie (ella) ___ zur Arbeit. (fahren) = fährt
+Was ___ Sie mir? (empfehlen, Sie formal) = empfehlen
+
+@4|Orden de las palabras|A1
+La regla de oro: en una oración enunciativa, **el verbo conjugado va siempre en 2.ª posición**. Si empiezas por algo que no es el sujeto, el sujeto se coloca justo después del verbo (inversión).
+#table
+Posición 1 | Posición 2 (verbo) | Resto | Final (2.ª parte del verbo)
+Ich | gehe | heute ins Kino. |
+Heute | gehe | ich ins Kino. |
+Ins Kino | gehe | ich heute. |
+Ich | möchte | heute ins Kino | gehen.
+Ich | habe | gestern einen Film | gesehen.
+
+#h Los tipos de oraciones
+- **Pregunta cerrada** (sí/no): el verbo en 1.ª posición. Kommst du mit?
+- **Pregunta abierta**: la palabra interrogativa en 1, el verbo en 2. Wann kommst du?
+- **Verbo en dos partes** (modal, perfecto, partícula): la 2.ª parte va al final; es el «paréntesis verbal».
+#h El orden en el centro: Te-Ka-Mo-Lo
+Cuando hay varios complementos: temporal (cuándo), kausal (por qué), modal (cómo), lokal (dónde).
+> Ich fahre morgen wegen der Arbeit mit dem Zug nach München. = Mañana voy a Múnich en tren por trabajo.
+**Trampa típica**: Heute ich gehe → Heute gehe ich. Las palabras und, aber, oder, denn, sondern no cuentan como posición 1: Ich bin müde, aber ich gehe arbeiten.
+#ex Ordena la frase empezando por la primera palabra.
+Am Montag / ich / habe / einen Termin = Am Montag habe ich einen Termin.
+Jetzt / wir / essen = Jetzt essen wir.
+du / kannst / mir / helfen / ? (pregunta de sí/no) = Kannst du mir helfen?
+Leider / der Zug / hat / Verspätung = Leider hat der Zug Verspätung.
+
+@5|Negación nicht / kein|A1
+**kein** niega un sustantivo precedido de ein o sin artículo; **nicht** niega todo lo demás (verbo, adjetivo, sustantivo con der/die/das, nombre propio).
+#table
+Frase afirmativa | Negación | Por qué
+Ich habe ein Auto. | Ich habe kein Auto. | ein + sustantivo
+Ich brauche Hilfe. | Ich brauche keine Hilfe. | sustantivo sin artículo
+Ich habe Zeit. | Ich habe keine Zeit. | sustantivo sin artículo
+Das ist der Bus nach Hause. | Das ist nicht der Bus nach Hause. | sustantivo con der
+Ich komme. | Ich komme nicht. | verbo
+Das ist teuer. | Das ist nicht teuer. | adjetivo
+
+kein se declina como ein (keinen, keinem, keiner…) y tiene plural: keine Kinder.
+#h ¿Dónde se coloca nicht?
+- Al final, para negar toda la frase: Ich kenne ihn nicht.
+- Delante de lo que se niega: Ich wohne nicht in Berlin. Das ist nicht gut.
+- Delante de la 2.ª parte del verbo: Ich habe das nicht gewusst.
+- nicht … sondern: Nicht heute, sondern morgen.
+Otras negaciones útiles: nichts (nada), niemand (nadie), nie / niemals (nunca), noch nicht (todavía no), nicht mehr (ya no), kein … mehr (ya no + sustantivo).
+**Responder a una pregunta negativa**: doch = sí (llevando la contraria). Kommst du nicht? → Doch, ich komme!
+#ex Pon la frase en forma negativa con nicht o kein.
+Ich habe ein Konto bei der Bank. = Ich habe kein Konto bei der Bank. || kein Konto
+Ich verstehe das. = Ich verstehe das nicht.
+Wir haben Milch. = Wir haben keine Milch. || keine Milch
+Das Essen ist warm. = Das Essen ist nicht warm. || nicht warm
+Er hat Kinder. = Er hat keine Kinder. || keine Kinder
+
+@6|Plural de los sustantivos|A1
+El artículo plural es siempre **die**, pero la terminación del sustantivo varía. Aprende el plural junto con el sustantivo (der Tisch, -e). Estas tendencias funcionan en la mayoría de los casos.
+#table
+Terminación | Sobre todo para | Ejemplos
+-(e)n | casi todos los femeninos | die Frau → Frauen, die Wohnung → Wohnungen
+-e (a menudo + umlaut) | muchos masculinos | der Tag → Tage, der Zug → Züge, der Stuhl → Stühle
+-er (+ umlaut si es posible) | neutros cortos | das Kind → Kinder, das Haus → Häuser
+nada (a veces umlaut) | masc./neutros en -er, -el, -en, -chen | der Lehrer → Lehrer, der Apfel → Äpfel
+-s | palabras extranjeras, siglas, sustantivos terminados en vocal | das Auto → Autos, die Kita → Kitas
+-nen | femeninos en -in | die Lehrerin → Lehrerinnen
+
+#h Para recordar
+- En dativo plural se añade una -n al sustantivo si no la tiene: mit den Kindern (salvo los plurales en -s: mit den Autos).
+- En un diccionario, «der Tisch, -e» significa que el plural es Tische; «der Apfel, ¨» significa Äpfel.
+- Plurales irregulares frecuentes: das Museum → Museen, das Visum → Visa.
+#h En el día a día
+> Zwei Brötchen, bitte. = Dos panecillos, por favor.
+> Ich habe drei Kinder. = Tengo tres hijos.
+> Die Preise sind gestiegen. = Los precios han subido.
+#ex Escribe el plural (sin el artículo).
+die Tasche (bolso) = Taschen || die Taschen
+das Glas (vaso) = Gläser || die Gläser
+der Freund (amigo) = Freunde || die Freunde
+die Kollegin (compañera de trabajo) = Kolleginnen || die Kolleginnen
+das Handy (móvil, celular) = Handys || die Handys
+
+@7|Los casos: nominativo y acusativo|A1
+El **nominativo** es el sujeto (¿quién hace la acción?). El **acusativo** es el complemento directo (¿a quién?, ¿qué?). Buena noticia: **solo cambia el masculino** en acusativo.
+#table
+ | Masculino | Femenino | Neutro | Plural
+Nominativo | der / ein / kein | die / eine | das / ein | die / keine
+Acusativo | den / einen / keinen | die / eine | das / ein | die / keine
+
+#h Cómo encontrar el acusativo
+- Busca el verbo y luego el sujeto (¿quién hace la acción?). Lo que recibe directamente la acción va en acusativo.
+> Der Mann kauft den Kaffee. = El hombre compra el café.
+> Den Kaffee kauft der Mann. = El mismo significado: es el artículo el que indica quién hace qué.
+**Verbos que van con acusativo**: haben, brauchen, kaufen, suchen, finden, nehmen, sehen, kennen, mögen, bestellen, bezahlen, es gibt (hay).
+**Trampa**: sein, werden y heißen no llevan acusativo: Das ist der Chef.
+#h En el día a día
+> Ich suche einen Job. = Busco trabajo.
+> Es gibt keinen Parkplatz. = No hay sitio para estacionar.
+> Ich nehme den Salat. = Tomo la ensalada.
+#ex Completa con el artículo.
+Ich brauche ___ (ein) Stift. (der Stift) = einen
+Wir suchen ___ (die) Wohnung. = die
+___ (der) Hund bellt. = Der
+Hast du ___ (der) Schlüssel? = den
+Es gibt ___ (kein) Aufzug. (der Aufzug) = keinen
+
+@8|El dativo|A1–A2
+El dativo suele ser el complemento indirecto: ¿a quién?, ¿para quién? (**wem?**). También aparece después de ciertas preposiciones (ficha 10) y de ciertos verbos.
+#table
+ | Masculino | Femenino | Neutro | Plural
+Nominativo | der / ein | die / eine | das / ein | die / –
+Acusativo | den / einen | die / eine | das / ein | die / –
+Dativo | dem / einem | der / einer | dem / einem | den + sustantivo en -n
+
+**Truco**: en dativo, el masculino y el neutro terminan en -m, el femenino en -r y el plural en -n («M-R-M-N»).
+Con dos objetos: en general, la persona (dativo) va antes que la cosa (acusativo).
+> Ich gebe dem Vermieter den Schlüssel. = Le doy la llave al propietario.
+#h Verbos que solo llevan dativo
+helfen, danken, antworten, gefallen, gehören, passen, schmecken, gratulieren, folgen, fehlen.
+> Kann ich Ihnen helfen? = ¿Puedo ayudarle?
+> Das Essen schmeckt mir. = Me gusta esta comida.
+> Wem gehört das Fahrrad? = ¿De quién es esta bicicleta?
+**Verbos con doble objeto** (dativo + acusativo): geben, schenken, zeigen, schicken, erklären, leihen, bringen.
+#ex Completa con el caso correcto.
+Ich helfe ___ (der) Nachbarin. = der
+Wir danken ___ (die) Kollegen. (plural) = den
+Er zeigt ___ (das) Kind ___ (der) Weg. (2 palabras) = dem den
+Die Jacke gehört ___ (ein) Freund. = einem
+Ich gebe ___ (die) Kassiererin das Geld. = der
+
+@9|Pronombres en los distintos casos y posesivos|A1–A2
+Los pronombres cambian según el caso, igual que los artículos.
+#table
+Nominativo | Acusativo | Dativo | Posesivo
+ich | mich | mir | mein
+du | dich | dir | dein
+er | ihn | ihm | sein
+sie (ella) | sie | ihr | ihr
+es | es | ihm | sein
+wir | uns | uns | unser
+ihr | euch | euch | euer
+sie (ellos) | sie | ihnen | ihr
+Sie (formal) | Sie | Ihnen | Ihr
+
+> Ruf mich an! = ¡Llámame!
+#h El posesivo se declina como ein / kein
+#table
+ | Masculino | Femenino | Neutro | Plural
+Nominativo | mein | meine | mein | meine
+Acusativo | meinen | meine | mein | meine
+Dativo | meinem | meiner | meinem | meinen
+
+#h Trampas
+- sein = su (de él), ihr = su (de ella). El posesivo depende del poseedor, y la terminación, del sustantivo poseído: Er besucht seine Mutter. Sie besucht ihren Vater.
+- euer pierde la -e- cuando lleva terminación: eure Wohnung.
+- Dos pronombres: el acusativo va antes que el dativo. Ich gebe es ihm. Pero: Ich gebe ihm das Buch.
+#ex Completa.
+Kannst du ___ (ich) die Adresse schicken? = mir
+Ich kenne ___ (er) nicht. = ihn
+Wie geht es ___ (Sie)? = Ihnen
+Das ist ___ (mi) Ausweis. (der Ausweis) = mein
+Ich suche ___ (mi) Brille. (die Brille) = meine
+Sie (ella) ruft ___ (su) Bruder an. = ihren
+
+@10|Preposiciones|A1–A2
+Cada preposición exige un caso. Hay tres grupos que debes aprender de memoria.
+#table
+Grupo | Preposiciones | Ejemplo
+Siempre acusativo | durch, für, gegen, ohne, um, bis | Das ist für den Chef.
+Siempre dativo | aus, bei, mit, nach, seit, von, zu, gegenüber | Ich fahre mit dem Bus.
+Mixtas | in, an, auf, über, unter, vor, hinter, neben, zwischen | Ich bin im Büro. / Ich gehe ins Büro.
+
+**Truco para memorizar**: acusativo = DOGFUB (durch, ohne, gegen, für, um, bis); dativo = «aus-bei-mit-nach-seit-von-zu».
+#h Preposiciones mixtas (de dos vías): la pregunta decide
+#table
+Pregunta | Caso | Verbos típicos | Ejemplo
+Wo? (sin desplazamiento) | Dativo | sein, liegen, stehen, sitzen | Das Buch liegt auf dem Tisch.
+Wohin? (con desplazamiento) | Acusativo | gehen, legen, stellen, setzen | Ich lege das Buch auf den Tisch.
+
+Contracciones: in dem = im, in das = ins, an dem = am, zu dem = zum, zu der = zur, bei dem = beim, von dem = vom.
+#h Ir a algún sitio: ¿nach, zu o in?
+- **nach** + ciudad o país sin artículo: nach Berlin, nach Frankreich, nach Hause.
+- **zu** + persona, tienda, lugar concreto: zum Arzt, zur Post. zu Hause = en casa (sin desplazamiento).
+- **in** + lugar en el que se entra, o país con artículo: ins Kino, in die Schweiz.
+#ex Completa.
+Ich wohne seit ___ (ein) Jahr in Hamburg. = einem
+Wir gehen heute ___ (in, das) Restaurant. = ins
+Der Schlüssel ist ___ (in, die) Tasche. (2 palabras) = in der
+Ich fahre morgen ___ Wien. = nach
+Ich muss ___ (zu, der) Zahnarzt. = zum
+Ohne ___ (mein) Handy bin ich verloren. (das Handy) = mein
+
+@11|Verbos modales|A1–A2
+El modal se conjuga en 2.ª posición y el otro verbo va al final, en infinitivo. Atención: **ich y er tienen la misma forma**, sin terminación.
+#table
+ | können | müssen | dürfen | wollen | sollen | möchten
+ich | kann | muss | darf | will | soll | möchte
+du | kannst | musst | darfst | willst | sollst | möchtest
+er / sie | kann | muss | darf | will | soll | möchte
+wir | können | müssen | dürfen | wollen | sollen | möchten
+ihr | könnt | müsst | dürft | wollt | sollt | möchtet
+sie / Sie | können | müssen | dürfen | wollen | sollen | möchten
+
+#h Matices que suelen confundir
+- **nicht müssen** = no tener que (no es obligatorio): Du musst nicht kommen.
+- **nicht dürfen** = prohibición: Hier darf man nicht parken.
+- **wollen** es muy directo; en una tienda, mejor di möchte: Ich möchte bezahlen.
+- **sollen** = otra persona lo ha pedido: Der Arzt sagt, ich soll mehr schlafen.
+- **mögen** (gustar) se usa sobre todo solo: Ich mag Kaffee.
+#h En el día a día
+> Kann ich mit Karte zahlen? = ¿Puedo pagar con tarjeta?
+> Ich muss das Formular ausfüllen. = Tengo que completar el formulario.
+> Ich möchte einen Termin vereinbaren. = Quisiera pedir una cita.
+#ex Completa con el modal adecuado.
+Ich ___ morgen früh aufstehen. (obligación) = muss
+___ du Deutsch sprechen? (capacidad) = Kannst
+Hier ___ man nicht rauchen. (prohibición) = darf
+Sie (ella) ___ nicht warten, wir sind fertig. (no está obligada) = muss || müssen
+Ich ___ einen Kaffee, bitte. (cortés) = möchte
+
+@12|Verbos separables e inseparables|A1–A2
+Si el prefijo es **separable** (lleva el acento al hablar), en presente se va al final de la frase. Si es **inseparable**, se queda unido al verbo.
+#table
+ | Prefijos | Presente | Perfecto
+Separables | ab-, an-, auf-, aus-, bei-, ein-, mit-, nach-, vor-, weg-, zu-, zurück- | Ich rufe dich morgen an. | Ich habe dich angerufen.
+Inseparables | be-, emp-, ent-, er-, ge-, miss-, ver-, zer- | Ich bezahle die Rechnung. | Ich habe bezahlt (sin ge-).
+
+#h Verbos separables imprescindibles
+#table
+Verbo | Significado | Ejemplo
+anrufen | llamar por teléfono | Ich rufe beim Amt an.
+aufstehen | levantarse | Ich stehe um 7 Uhr auf.
+einkaufen | hacer las compras | Wir kaufen am Samstag ein.
+ankommen | llegar | Der Zug kommt um 9 Uhr an.
+abholen | ir a buscar, recoger | Ich hole die Kinder ab.
+anmelden | inscribir, registrar | Ich melde mich beim Bürgeramt an.
+umziehen | mudarse | Wir ziehen nächste Woche um.
+umsteigen | hacer transbordo (transporte) | Sie müssen in Hannover umsteigen.
+mitbringen | traer | Ich bringe einen Kuchen mit.
+
+#h Cuándo la partícula se queda unida
+- Después de un modal: Ich muss morgen früh aufstehen.
+- En una oración subordinada: …, weil ich früh aufstehe.
+- En el perfecto, ge se coloca en medio: aufgestanden, eingekauft.
+- Con zu: Ich habe keine Lust, einzukaufen.
+#ex Pon en presente.
+Der Film (anfangen) um 20 Uhr. = Der Film fängt um 20 Uhr an.
+Ich (einladen) dich zum Essen. = Ich lade dich zum Essen ein.
+Wann (ankommen) du? = Wann kommst du an?
+Ich (verstehen) das nicht. = Ich verstehe das nicht.
+Wir (aussteigen) an der nächsten Haltestelle. = Wir steigen an der nächsten Haltestelle aus.
+
+@13|Imperativo|A2
+El imperativo sirve para dar una orden, un consejo o una instrucción. Añade **bitte** para ser cortés.
+#table
+A quién | Formación | kommen | warten | fahren | nehmen | sein
+du (un amigo) | raíz, sin du | Komm! | Warte! | Fahr! | Nimm! | Sei!
+ihr (varios amigos) | forma de ihr, sin ihr | Kommt! | Wartet! | Fahrt! | Nehmt! | Seid!
+Sie (formal) | infinitivo + Sie | Kommen Sie! | Warten Sie! | Fahren Sie! | Nehmen Sie! | Seien Sie!
+
+#h Reglas de la forma du
+- Los verbos e → i / ie mantienen el cambio: Nimm! Gib! Lies! Hilf!
+- Los verbos a → ä no lo mantienen: Fahr! Schlaf gut!
+- Raíz en -t, -d: se añade -e: Warte! Antworte!
+- La partícula separable va al final: Ruf mich an! Steig ein!
+Para suavizar una orden (muy alemán): **mal, doch, bitte**.
+> Komm mal her! = ¡Ven un momento!
+> Setzen Sie sich doch! = ¡Siéntese, por favor!
+#ex Pon en imperativo (forma du).
+(sprechen) langsamer! = Sprich langsamer!
+(helfen) mir! = Hilf mir!
+(aufmachen) die Tür! = Mach die Tür auf!
+(sein) pünktlich! = Sei pünktlich!
+(lesen) den Brief! = Lies den Brief!
+
+@14|El perfecto (Perfekt)|A2
+Es el tiempo del pasado en la lengua hablada. Se forma con **haben o sein** conjugado en 2.ª posición + el **participio** al final.
+> Ich habe gestern lange gearbeitet. = Ayer trabajé mucho.
+> Wir sind am Wochenende nach Dresden gefahren. = El fin de semana fuimos a Dresde.
+#h ¿haben o sein?
+La mayoría de los verbos llevan haben. Se usa **sein** con:
+- un desplazamiento: gehen, fahren, fliegen, kommen, laufen, umziehen;
+- un cambio de estado: aufstehen, einschlafen, aufwachen, werden, sterben;
+- y además: sein (ich bin gewesen), bleiben (ich bin geblieben), passieren (was ist passiert?).
+#h Cómo se forma el participio
+#table
+Tipo | Regla | Ejemplos
+Débil | ge- + raíz + -t | machen → gemacht, arbeiten → gearbeitet
+Fuerte | ge- + raíz (a menudo modificada) + -en | sehen → gesehen, trinken → getrunken
+Separable | partícula + ge + participio | einkaufen → eingekauft
+Inseparable | sin ge- | bezahlen → bezahlt, verstehen → verstanden
+Verbos en -ieren | sin ge-, -t | studieren → studiert
+Mixtos | ge- + raíz modificada + -t | bringen → gebracht, denken → gedacht, wissen → gewusst
+
+#h Participios fuertes que debes conocer
+#table
+Infinitivo | Participio | Auxiliar
+sein | gewesen | sein
+gehen | gegangen | sein
+kommen | gekommen | sein
+fahren | gefahren | sein
+bleiben | geblieben | sein
+essen | gegessen | haben
+trinken | getrunken | haben
+nehmen | genommen | haben
+sprechen | gesprochen | haben
+schreiben | geschrieben | haben
+finden | gefunden | haben
+helfen | geholfen | haben
+treffen | getroffen | haben
+
+#ex Pon en perfecto.
+Ich kaufe Brot. = Ich habe Brot gekauft.
+Wir fliegen nach Spanien. = Wir sind nach Spanien geflogen.
+Er versteht die Frage nicht. = Er hat die Frage nicht verstanden.
+Sie (ella) ruft den Arzt an. = Sie hat den Arzt angerufen.
+Was passiert? = Was ist passiert?
+Ich vergesse meinen Schlüssel. = Ich habe meinen Schlüssel vergessen.
+
+@15|El pretérito (Präteritum) útil|A2
+Al hablar se usa el perfecto, salvo con algunos verbos muy frecuentes que casi siempre van en pretérito: **sein, haben, los modales** y **es gab** (había).
+#table
+ | sein | haben | können | müssen | wollen | werden
+ich | war | hatte | konnte | musste | wollte | wurde
+du | warst | hattest | konntest | musstest | wolltest | wurdest
+er / sie | war | hatte | konnte | musste | wollte | wurde
+wir | waren | hatten | konnten | mussten | wollten | wurden
+ihr | wart | hattet | konntet | musstet | wolltet | wurdet
+sie / Sie | waren | hatten | konnten | mussten | wollten | wurden
+
+Los modales pierden el umlaut en pretérito (können → konnte) e ich = er.
+#h Para leer la prensa
+- Verbos débiles: raíz + -te: machen → ich machte.
+- Verbos fuertes: cambio de vocal: gehen → ging, kommen → kam, sehen → sah, fahren → fuhr.
+#h En el día a día
+> Wie war dein Wochenende? = ¿Qué tal tu fin de semana?
+> Ich hatte keine Zeit. = No tenía tiempo.
+> Früher gab es hier einen Bäcker. = Antes había una panadería aquí.
+#ex Pon en pretérito.
+Ich bin müde. = Ich war müde.
+Wir haben Glück. = Wir hatten Glück.
+Er muss lange warten. = Er musste lange warten.
+Kannst du schlafen? = Konntest du schlafen?
+Es gibt ein Problem. = Es gab ein Problem.
+
+@16|Verbos reflexivos|A2
+El pronombre reflexivo va casi siempre en **acusativo**. Pasa a **dativo** cuando la frase ya tiene un complemento directo.
+#table
+Sujeto | Acusativo | Dativo | Ejemplo en acusativo | Ejemplo en dativo
+ich | mich | mir | Ich wasche mich. | Ich wasche mir die Hände.
+du | dich | dir | Du freust dich. | Du putzt dir die Zähne.
+er / sie / es | sich | sich | Er setzt sich. | Er kauft sich ein Auto.
+wir | uns | uns | Wir treffen uns. | Wir machen uns Sorgen.
+ihr | euch | euch | Ihr beeilt euch. | Ihr nehmt euch Zeit.
+sie / Sie | sich | sich | Setzen Sie sich! | Merken Sie sich das.
+
+Solo las formas de ich y du cambian entre acusativo y dativo.
+#h Verbos reflexivos del día a día
+sich anmelden (inscribirse), sich beeilen (darse prisa), sich bewerben (postularse a un empleo), sich entschuldigen (disculparse), sich erkälten (resfriarse), sich fühlen (sentirse), sich freuen (alegrarse), sich interessieren (interesarse), sich kümmern (ocuparse), sich setzen (sentarse), sich treffen (verse, quedar), sich (D) etwas merken (recordar, retener), sich (D) Sorgen machen (preocuparse).
+Posición del pronombre: justo después del verbo conjugado o después del sujeto invertido: Heute fühle ich mich besser.
+#ex Completa con el pronombre reflexivo.
+Ich freue ___ auf das Wochenende. = mich
+Du musst ___ beeilen! = dich
+Ich kaufe ___ eine neue Jacke. = mir
+Wir treffen ___ um acht. = uns
+Kannst du ___ das merken? = dir
+
+@17|Conjunciones y oraciones subordinadas|A2–B1
+Las **conjunciones coordinantes** no cambian el orden de las palabras; las **subordinantes** mandan el verbo conjugado al final del todo.
+#table
+Tipo | Conjunciones | Efecto | Ejemplo
+Coordinante (posición 0) | und, aber, oder, denn, sondern | orden normal | Ich bleibe zu Hause, denn ich bin krank.
+Subordinante | weil, dass, wenn, ob, als, bevor, nachdem, obwohl, damit, während, seit, bis | verbo al final | Ich bleibe zu Hause, weil ich krank bin.
+Adverbio conector (posición 1) | deshalb, deswegen, trotzdem, dann, danach, sonst | inversión | Ich bin krank, deshalb bleibe ich zu Hause.
+
+#h Reglas de la oración subordinada
+- Siempre hay una coma antes de la conjunción.
+- El verbo conjugado va el último: …, weil ich gestern lange gearbeitet habe.
+- La partícula vuelve a unirse al verbo: …, wenn der Zug ankommt.
+- Si la subordinada va delante, ocupa la posición 1, así que queda verbo-coma-verbo: Wenn ich Zeit habe, komme ich.
+#h Elegir bien
+- **als** para un hecho único en el pasado; **wenn** para el presente, el futuro o algo que se repite.
+- **wenn** = condición; **ob** = pregunta indirecta (Ich weiß nicht, ob er kommt.).
+- **sondern** después de una negación, para corregir (nicht Bier, sondern Wein).
+#ex Une las dos frases.
+Ich lerne Deutsch. Ich wohne in Deutschland. (weil) = Ich lerne Deutsch, weil ich in Deutschland wohne.
+Ich glaube. Der Laden ist heute zu. (dass) = Ich glaube, dass der Laden heute zu ist.
+Es regnet. Wir gehen spazieren. (trotzdem) = Es regnet, trotzdem gehen wir spazieren.
+Ich habe Zeit. Ich rufe dich an. (wenn, al principio) = Wenn ich Zeit habe, rufe ich dich an.
+Weißt du? Der Bus fährt heute. (ob) = Weißt du, ob der Bus heute fährt?
+
+@18|Declinación del adjetivo|A2–B1
+Un adjetivo predicativo (después de sein) nunca lleva terminación: Die Wohnung ist groß. Delante de un sustantivo, lleva una terminación que depende del artículo. **Si el artículo ya muestra el género y el caso, al adjetivo le basta con -e o -en; si no, es el adjetivo el que los muestra.**
+#h 1. Después de der / die / das
+#table
+ | Masculino | Femenino | Neutro | Plural
+N | der neue Job | die neue Stelle | das neue Auto | die neuen Nachbarn
+A | den neuen Job | die neue Stelle | das neue Auto | die neuen Nachbarn
+D | dem neuen Job | der neuen Stelle | dem neuen Auto | den neuen Nachbarn
+G | des neuen Jobs | der neuen Stelle | des neuen Autos | der neuen Nachbarn
+
+Truco: -e en las 5 casillas de arriba a la izquierda, -en en todas las demás.
+#h 2. Después de ein / kein / mein
+#table
+ | Masculino | Femenino | Neutro | Plural
+N | ein neuer Job | eine neue Stelle | ein neues Auto | meine neuen Nachbarn
+A | einen neuen Job | eine neue Stelle | ein neues Auto | meine neuen Nachbarn
+D | einem neuen Job | einer neuen Stelle | einem neuen Auto | meinen neuen Nachbarn
+G | eines neuen Jobs | einer neuen Stelle | eines neuen Autos | meiner neuen Nachbarn
+
+Diferencia con la tabla 1: solo 3 casillas: ein neuer (m. N), ein neues (n. N y A).
+#h 3. Sin artículo
+#table
+ | Masculino | Femenino | Neutro | Plural
+N | frischer Kaffee | frische Milch | frisches Brot | frische Brötchen
+A | frischen Kaffee | frische Milch | frisches Brot | frische Brötchen
+D | frischem Kaffee | frischer Milch | frischem Brot | frischen Brötchen
+
+El adjetivo toma la terminación del artículo definido (der → -er, dem → -em).
+#h En el día a día
+> Ich suche eine günstige Wohnung mit großem Balkon. = Busco un apartamento barato con un balcón grande.
+> Ich hätte gern den grünen Pullover. = Quisiera el suéter verde.
+#ex Completa la terminación (escribe el adjetivo completo).
+Das ist ein gut___ Restaurant. = gutes
+Ich nehme den rot___ Wein. = roten
+Wir wohnen in einer klein___ Stadt. = kleinen
+Er hat einen neu___ Chef. = neuen
+Kalt___ Bier ist das Beste. = Kaltes
+Mit freundlich___ Grüßen = freundlichen
+
+@19|Comparativo y superlativo|A2
+Comparativo: adjetivo + **-er** (+ **als** = que). Superlativo: **am** + adjetivo + **-sten**, o delante de un sustantivo: der/die/das + adjetivo + -ste.
+#table
+Base | Comparativo | Superlativo | Observación
+billig | billiger | am billigsten | regular
+alt | älter | am ältesten | umlaut + -esten
+groß | größer | am größten | umlaut
+teuer | teurer | am teuersten | pierde la e
+gut | besser | am besten | irregular
+viel | mehr | am meisten | irregular
+gern | lieber | am liebsten | irregular
+hoch | höher | am höchsten | irregular
+nah | näher | am nächsten | irregular
+
+#h Comparar
+- Superioridad: Die Bahn ist schneller als der Bus.
+- Igualdad: Das Zimmer ist so groß wie meins.
+- Inferioridad: Das ist nicht so teuer wie in Paris.
+- Preferencia: Ich trinke lieber Tee. Am liebsten trinke ich Wasser.
+**Trampa**: als (comparativo) y wie (igualdad). La forma correcta es besser als.
+#ex Completa.
+München ist ___ (teuer) als Leipzig. = teurer
+Im Juli ist es am ___ (warm). = wärmsten
+Mein Bruder ist ___ (alt) als ich. = älter
+Was trinkst du ___ (gern), Tee oder Kaffee? = lieber
+Wo ist die ___ (nah) Apotheke? = nächste
+
+@20|Futuro y Konjunktiv II de cortesía|A2–B1
+El futuro se forma con **werden** + infinitivo al final. En el día a día se suele preferir el presente + una expresión de tiempo; werden se usa sobre todo para una promesa, una previsión o una suposición.
+> Ich werde dich morgen anrufen. = Te llamaré mañana.
+> Er wird wohl krank sein. = Debe de estar enfermo.
+#h El Konjunktiv II: ser cortés, desear, suponer
+#table
+ | haben | sein | werden | können | müssen | sollen
+ich | hätte | wäre | würde | könnte | müsste | sollte
+du | hättest | wär(e)st | würdest | könntest | müsstest | solltest
+er / sie | hätte | wäre | würde | könnte | müsste | sollte
+wir / sie / Sie | hätten | wären | würden | könnten | müssten | sollten
+
+Para los demás verbos: **würde + infinitivo**. Ich würde gern mitkommen.
+#h Frases corteses imprescindibles
+> Ich hätte gern ein Stück Kuchen. = Quisiera un trozo de pastel.
+> Könnten Sie mir bitte helfen? = ¿Podría ayudarme, por favor?
+> Würden Sie das bitte wiederholen? = ¿Podría repetirlo, por favor?
+> Du solltest zum Arzt gehen. = Deberías ir al médico.
+> Wenn ich mehr Zeit hätte, würde ich mehr Deutsch lernen. = Si tuviera más tiempo, estudiaría más alemán.
+#ex Haz la frase más cortés.
+Ich will einen Kaffee. = Ich hätte gern einen Kaffee. || Ich möchte einen Kaffee.
+Kannst du das Fenster zumachen? = Könntest du das Fenster zumachen?
+Haben Sie Zeit? = Hätten Sie Zeit?
+Wiederholen Sie das! = Würden Sie das bitte wiederholen? || Könnten Sie das bitte wiederholen?
+Wenn ich reich bin, kaufe ich ein Haus. (hipótesis) = Wenn ich reich wäre, würde ich ein Haus kaufen.
+
+@21|Verbos con preposición, da- y wo-|B1
+Muchos verbos se usan con una **preposición fija**, a menudo distinta de la del español. Apréndelos como un bloque: verbo + preposición + caso.
+#table
+Verbo | Significado | Ejemplo
+warten auf + A | esperar | Ich warte auf den Bus.
+sich freuen auf + A | tener ganas de, esperar con ilusión | Ich freue mich auf den Urlaub.
+sich freuen über + A | alegrarse de | Ich freue mich über das Geschenk.
+denken an + A | pensar en | Ich denke an dich.
+sich kümmern um + A | ocuparse de | Wer kümmert sich um die Kinder?
+sich interessieren für + A | interesarse por | Ich interessiere mich für Politik.
+sich ärgern über + A | molestarse por | Ich ärgere mich über den Lärm.
+fragen nach + D | preguntar por | Er fragt nach dem Weg.
+teilnehmen an + D | participar en | Ich nehme am Kurs teil.
+Angst haben vor + D | tener miedo de | Sie hat Angst vor Hunden.
+abhängen von + D | depender de | Das hängt vom Wetter ab.
+sich gewöhnen an + A | acostumbrarse a | Ich gewöhne mich an das Wetter.
+
+#h da- (respuesta) y wo- (pregunta) para una cosa
+No se dice auf es, sino **da(r) + preposición**. Para preguntar: **wo(r) + preposición**. Se añade una -r- si la preposición empieza por vocal.
+#table
+Preposición | Pregunta (cosa) | Respuesta (cosa) | Persona
+auf | Worauf wartest du? | Ich warte darauf. | Auf wen wartest du?
+an | Woran denkst du? | Ich denke daran. | An wen denkst du?
+über | Worüber sprecht ihr? | Wir sprechen darüber. | Über wen…?
+mit | Womit fährst du? | Ich fahre damit. | Mit wem…?
+
+Para una persona, se mantiene preposición + pronombre: Ich warte auf ihn.
+#ex Completa.
+Ich warte ___ deine Antwort. = auf
+___ denkst du? (cosa) = Woran
+Hast du ___ gedacht, den Müll rauszubringen? = daran
+Er interessiert sich nicht ___ Fußball. = für
+Ich nehme ___ Integrationskurs teil. = am
+
+@22|Oraciones de relativo|B1
+La oración de relativo empieza con un **pronombre relativo** que se parece al artículo definido. Su género y su número vienen del sustantivo al que sustituye; su caso, de su función dentro de la relativa. El verbo va al final y hay comas.
+#table
+ | Masculino | Femenino | Neutro | Plural
+Nominativo (que) | der | die | das | die
+Acusativo (al que, a la que) | den | die | das | die
+Dativo (a quien) | dem | der | dem | **denen**
+Genitivo (cuyo) | **dessen** | **deren** | **dessen** | **deren**
+
+#h Método en 3 pasos
+- ¿Qué sustantivo sustituyo? → género y número. ¿Qué función tiene en la relativa? → caso. Luego pronombre + resto + verbo al final.
+> Der Mann, der dort steht, ist mein Nachbar. = El hombre que está allí es mi vecino.
+> Der Mann, den ich kenne, ist mein Nachbar. = El hombre al que conozco es mi vecino.
+> Der Mann, dem ich helfe, ist mein Nachbar. = El hombre al que ayudo es mi vecino.
+> Die Kollegen, mit denen ich arbeite, sind nett. = Los compañeros con los que trabajo son simpáticos.
+#h Casos especiales
+- Preposición delante del pronombre: Die Wohnung, in der ich wohne, ist klein.
+- Después de das, alles, etwas, nichts: was. Das ist alles, was ich weiß.
+- Para un lugar: wo. Die Stadt, wo ich wohne…
+#ex Completa con el pronombre relativo.
+Das ist die Frau, ___ in der Apotheke arbeitet. = die
+Der Film, ___ wir gestern gesehen haben, war gut. = den
+Das Kind, ___ ich das Buch gegeben habe, ist mein Neffe. = dem
+Die Leute, ___ ich gestern getroffen habe, kommen aus Spanien. = die
+Der Kollege, ___ Frau Französin ist, heißt Jan. = dessen
+Das Problem, ___ wir gesprochen haben, ist gelöst. (über) = über das
+
+@23|Infinitivo con zu, um … zu|B1
+Después de muchos verbos, sustantivos y adjetivos, el infinitivo va precedido de **zu** y se coloca al final, después de una coma. **No se usa zu** después de los modales ni después de gehen, lernen, lassen, bleiben, hören, sehen.
+#table
+Desencadenante | Ejemplo
+versuchen, vergessen, anfangen, aufhören, planen, vorhaben, bitten | Ich habe vergessen, dich anzurufen.
+Lust haben, Zeit haben, keine Ahnung haben, es ist Zeit | Hast du Lust, ins Kino zu gehen?
+es ist wichtig / schwer / verboten / möglich | Es ist verboten, hier zu parken.
+
+Con un verbo separable, zu se mete en medio: anzurufen, einzukaufen, aufzustehen.
+#table
+Estructura | Significado | Ejemplo
+um … zu | para (finalidad) | Ich lerne Deutsch, um in Deutschland zu arbeiten.
+ohne … zu | sin | Er ist gegangen, ohne Tschüss zu sagen.
+statt … zu | en lugar de | Statt zu lernen, schaut er Netflix.
+
+**¿um … zu o damit?** um … zu cuando el sujeto es el mismo. Si no, damit + oración subordinada: Ich spreche langsam, damit du mich verstehst.
+#ex Completa.
+Ich habe keine Zeit, ___ (kochen). = zu kochen
+Vergiss nicht, die Tür ___ (abschließen)! = abzuschließen
+Ich spare Geld, ___ ein Auto ___ (kaufen). (2 huecos) = um zu kaufen
+Ich kann heute ___ (kommen). = kommen
+Er hat versucht, mich ___ (erreichen). = zu erreichen
+
+@24|La voz pasiva|B1
+La pasiva pone la acción en el centro. Está por todas partes en las cartas oficiales y en los carteles. Se forma con **werden** conjugado + el participio al final.
+#table
+Tiempo | Formación | Ejemplo
+Presente | werden + participio | Das Paket wird morgen geliefert.
+Pretérito | wurde + participio | Die Straße wurde gesperrt.
+Perfecto | sein + participio + worden | Mein Fahrrad ist gestohlen worden.
+Con modal | modal + participio + werden | Das Formular muss bis Freitag ausgefüllt werden.
+
+En el perfecto de la pasiva se usa **worden** (no geworden). Para decir quién hace la acción: von + dativo.
+#h Pasiva de proceso o de estado
+- werden = la acción: Der Laden wird um 20 Uhr geschlossen.
+- sein = el resultado: Der Laden ist geschlossen.
+#h En el día a día
+> Hier wird Deutsch gesprochen. = Aquí se habla alemán.
+> Ihr Antrag wurde genehmigt. = Su solicitud ha sido aprobada.
+Alternativa activa frecuente: man + verbo en activa. Man spricht hier Deutsch.
+#ex Pon en pasiva.
+Man repariert die Heizung. (presente) = Die Heizung wird repariert.
+Man hat den Termin abgesagt. (perfecto) = Der Termin ist abgesagt worden.
+Man muss die Miete am Monatsanfang bezahlen. = Die Miete muss am Monatsanfang bezahlt werden.
+Man baute das Haus 1910. (pretérito) = Das Haus wurde 1910 gebaut.
+
+@25|El genitivo|B1
+El genitivo expresa pertenencia. Al hablar se sustituye a menudo por von + dativo, pero aparece en la lengua escrita, en los documentos oficiales y después de ciertas preposiciones.
+#table
+ | Masculino | Femenino | Neutro | Plural
+Definido | des Vertrags | der Wohnung | des Kindes | der Kinder
+Indefinido | eines Vertrags | einer Wohnung | eines Kindes | –
+
+Masculino y neutro: el sustantivo toma **-s** (o -es en las palabras cortas). Femenino y plural: el sustantivo no cambia. Nombres propios: una simple -s: Annas Wohnung.
+- Escrito: die Adresse des Arbeitgebers. Hablado: die Adresse vom Arbeitgeber.
+#h Preposiciones + genitivo
+#table
+Preposición | Significado | Ejemplo
+wegen | a causa de | Wegen des Streiks fährt kein Zug.
+trotz | a pesar de | Trotz des Regens gehen wir raus.
+während | durante | während der Arbeitszeit
+innerhalb / außerhalb | dentro de / fuera de | außerhalb der Öffnungszeiten
+statt / anstatt | en lugar de | Statt eines Briefes schicke ich eine E-Mail.
+
+Al hablar, wegen y trotz van muy a menudo con dativo (wegen dem Streik).
+#ex Completa.
+Das ist das Auto ___ (mein) Vaters. = meines
+Die Tür ___ (die) Wohnung ist kaputt. = der
+___ (wegen, das) Wetters bleiben wir zu Hause. (2 palabras) = Wegen des
+Das ist ___ (Lisa) Fahrrad. = Lisas
+
+@26|Números, hora y fechas|A1
+Del 21 al 99 se dice **la unidad antes que la decena**, unidas por und, en una sola palabra: 24 = vierundzwanzig.
+#table
+1–12 | Decenas | Números grandes
+eins, zwei, drei … elf, zwölf | zwanzig, dreißig (sin z), vierzig … neunzig | hundert, tausend, eine Million
+13–19: dreizehn … neunzehn | 35 = fünfunddreißig | 1 250 = tausendzweihundertfünfzig
+
+Precios: 3,50 € = drei Euro fünfzig. Por teléfono se suele decir zwo en lugar de zwei. Coma para los decimales, punto para los miles: 1.250,99 €.
+#h La hora
+#table
+Hora | Oficial | Coloquial
+8:10 | acht Uhr zehn | zehn nach acht
+8:15 | acht Uhr fünfzehn | Viertel nach acht
+8:30 | acht Uhr dreißig | halb neun (!)
+8:45 | acht Uhr fünfundvierzig | Viertel vor neun
+20:00 | zwanzig Uhr | acht Uhr abends
+
+**Trampa número 1**: halb neun = 8:30, no 9:30.
+#h Las fechas
+- Ordinales: -te hasta el 19, -ste a partir del 20. der zweite, der zwanzigste. Irregulares: der erste, der dritte, der siebte.
+- Heute ist der dritte Oktober. ¿En qué fecha? Am dritten Oktober.
+- Preposiciones de tiempo: am + día (am Montag), um + hora, im + mes o estación (im Mai), in + plazo futuro (in zwei Wochen), vor + tiempo pasado (vor drei Jahren).
+#ex Escribe en letras o traduce.
+47 = siebenundvierzig
+9:30 (coloquial) = halb zehn
+14:45 (coloquial) = Viertel vor drei
+El 1 de mayo estoy de vacaciones. = Am ersten Mai habe ich Urlaub.
+Hace dos años me mudé. = Vor zwei Jahren bin ich umgezogen.
+
+@27|Las preguntas (W-Fragen)|A1
+Pregunta abierta: palabra interrogativa en posición 1, verbo en 2. Pregunta cerrada (sí/no): verbo en 1.
+#table
+Palabra | Significado | Ejemplo
+wer / wen / wem / wessen | quién (N / A / D / G) | Wer ist das? Wem gehört das?
+was | qué | Was kostet das?
+wo | dónde (sin desplazamiento) | Wo ist die Toilette?
+wohin | adónde | Wohin fährt dieser Bus?
+woher | de dónde | Woher kommst du?
+wann | cuándo | Wann öffnet das Bürgeramt?
+wie | cómo | Wie funktioniert das?
+wie viel / wie viele | cuánto / cuántos | Wie viele Zimmer hat die Wohnung?
+wie lange | cuánto tiempo | Wie lange dauert das?
+warum | por qué | Warum ist der Zug verspätet?
+welcher / welche / welches | qué, cuál | Welche Linie fährt zum Bahnhof?
+was für ein | qué tipo de | Was für ein Auto hast du?
+
+#h Trampas
+- wer = quién; wo = dónde. No los confundas con el inglés (who / where).
+- Al hablar se suele separar: Wo gehst du hin? Wo kommst du her?
+- Pregunta indirecta: verbo al final. Können Sie mir sagen, wo der Bahnhof ist?
+#h Frases de supervivencia
+> Wie bitte? = ¿Perdón? ¿Cómo dice?
+> Wo finde ich die Milch? = ¿Dónde encuentro la leche?
+> Wie lange haben Sie heute geöffnet? = ¿Hasta qué hora abren hoy?
+#ex Encuentra la palabra interrogativa.
+___ wohnst du? – In Köln. = Wo
+___ kostet das Ticket? – 3 Euro. = Wie viel
+___ hast du Geburtstag? – Im Mai. = Wann
+___ hilfst du? – Meiner Nachbarin. = Wem
+___ Zug nimmst du? – Den ICE um 10 Uhr. = Welchen
+___ gehst du? – Zum Supermarkt. = Wohin
+
+@28|Konjunktiv II del pasado: lamentos y reproches|B2
+Para hablar de una situación pasada **que no ocurrió** (lamento, reproche, hipótesis), se usa **hätte** o **wäre** + participio. Es el «habría…» del español. La elección entre hätte y wäre sigue la regla del perfecto (ficha 14).
+#table
+Perfecto (real) | Konjunktiv II del pasado (irreal) | Significado
+Ich habe gewartet. | Ich hätte gewartet. | Habría esperado.
+Ich bin gekommen. | Ich wäre gekommen. | Habría venido.
+Ich habe kommen können. | Ich hätte kommen können. | Habría podido venir.
+Du hast anrufen sollen. | Du hättest anrufen sollen. | Deberías haber llamado.
+
+Con un modal, hay un **doble infinitivo** al final: hätte … machen müssen / können / sollen.
+#h Los usos
+- **Hipótesis irreal**: Wenn ich das gewusst hätte, wäre ich gekommen.
+- **Lamento**: Hätte ich bloß mehr gespart!
+- **Reproche**: Du hättest mir Bescheid sagen sollen.
+- **Casi**: Fast wäre ich zu spät gekommen.
+#h En el día a día
+> Wenn ich früher losgefahren wäre, hätte ich den Zug nicht verpasst. = Si hubiera salido antes, no habría perdido el tren.
+> Das hätten Sie mir früher sagen müssen. = Usted tendría que habérmelo dicho antes.
+> An deiner Stelle hätte ich den Vertrag nicht unterschrieben. = Yo que tú, no habría firmado el contrato.
+#ex Completa con hätte o wäre (bien conjugado).
+Wenn ich das gewusst ___, wäre ich gekommen. = hätte
+Wenn du früher aufgestanden ___, hättest du den Bus bekommen. = wärst || wärest
+Du ___ mich anrufen sollen! = hättest
+Fast ___ ich den Termin vergessen. = hätte
+Wenn wir den Zug genommen ___, wären wir schon da. = hätten
+
+@29|Konjunktiv I y estilo indirecto|B2
+Los periódicos, la radio y las cartas oficiales reproducen las palabras de otros en **Konjunktiv I**. Indica que se está citando sin tomar partido. En la práctica, se usa sobre todo en la **3.ª persona del singular**: raíz + **-e**.
+#table
+Infinitivo | Indicativo | Konjunktiv I | Ejemplo
+sein | er ist | er sei | Er sagt, er sei krank.
+haben | er hat | er habe | Sie sagt, sie habe keine Zeit.
+können | er kann | er könne | Er meint, er könne nicht kommen.
+werden | er wird | er werde | Sie erklärt, sie werde kündigen.
+kommen | er kommt | er komme | Er sagt, er komme morgen.
+
+**Si el Konjunktiv I coincide con el indicativo** (sobre todo en plural: sie haben), se usa el Konjunktiv II: Sie sagen, sie hätten keine Zeit.
+#h Transformar una frase
+- Pasado: habe / sei + participio. „Ich bin gefahren." → Er sagt, er sei gefahren.
+- Pregunta: ob o palabra interrogativa + verbo al final. Sie fragt, ob ich Zeit habe.
+- Orden: sollen. „Warten Sie!" → Er sagt, ich solle warten.
+- Los pronombres cambian según quién habla: „Ich komme" (Anna) → Anna sagt, sie komme.
+#h En el día a día
+> Der Minister sagte, die Lage sei ernst. = El ministro dijo que la situación era grave.
+> Die Firma teilte mit, sie habe keine Fehler gemacht. = La empresa comunicó que no había cometido ningún error.
+#ex Pasa al estilo indirecto (una sola palabra).
+Er sagt: „Ich bin krank." → Er sagt, er ___ krank. = sei
+Sie sagt: „Ich habe keine Zeit." → Sie sagt, sie ___ keine Zeit. = habe
+Der Chef sagt: „Das Projekt kann warten." → Er sagt, das Projekt ___ warten. = könne
+Die Zeitung schreibt: „Der Minister ist zurückgetreten." → Der Minister ___ zurückgetreten. = sei
+Sie sagen: „Wir haben das nicht gewusst." → Sie sagen, sie ___ das nicht gewusst. = hätten
+
+@30|Pasiva avanzada y sus alternativas|B2
+En el nivel B2 aparece la pasiva en todos los tiempos y con los modales, pero también estructuras que tienen **sentido pasivo sin werden**. Están por todas partes en los reglamentos y en las cartas oficiales.
+#table
+Estructura | Significado | Ejemplo
+modal + participio + werden | pasiva con modal | Die Miete muss pünktlich bezahlt werden.
+pasiva impersonal | se (sin sujeto) | Hier wird nicht geraucht.
+sich lassen + infinitivo | se puede hacer | Das Problem lässt sich lösen.
+sein + zu + infinitivo | se debe / se puede hacer | Der Antrag ist bis Freitag einzureichen.
+adjetivo en -bar | que se puede … | lösbar, machbar, erreichbar
+man + activa | se, uno | Man muss die Miete pünktlich bezahlen.
+
+**sein + zu + infinitivo** tiene dos significados según el contexto: obligación (Die Gebühr ist sofort zu zahlen = debe pagarse) o posibilidad, sobre todo en negativo (Das ist nicht zu verstehen = no se puede entender).
+#h En el día a día
+> Der Ausweis ist bei der Anmeldung vorzulegen. = El documento de identidad debe presentarse al hacer el registro.
+> Ich bin telefonisch gut erreichbar. = Se me puede localizar fácilmente por teléfono.
+> Das lässt sich leicht ändern. = Eso se puede cambiar fácilmente.
+#ex Transforma con la estructura indicada.
+Das Problem kann gelöst werden. (sich lassen) = Das Problem lässt sich lösen.
+Der Antrag muss bis Freitag eingereicht werden. (sein + zu) = Der Antrag ist bis Freitag einzureichen.
+Das kann man nicht lesen. (adjetivo en -bar) = Das ist nicht lesbar.
+Man musste die Rechnung bezahlen. (pasiva en pretérito) = Die Rechnung musste bezahlt werden.
+Man arbeitet hier sonntags nicht. (pasiva impersonal) = Hier wird sonntags nicht gearbeitet. || Sonntags wird hier nicht gearbeitet.
+
+@31|Conjunciones dobles|B2
+Para estructurar una argumentación, el alemán usa conjunciones de dos partes. Unen dos palabras, dos grupos o dos oraciones.
+#table
+Conjunción | Significado | Ejemplo
+sowohl … als auch | tanto … como | Er spricht sowohl Deutsch als auch Englisch.
+nicht nur … sondern auch | no solo … sino también | Die Wohnung ist nicht nur groß, sondern auch billig.
+weder … noch | ni … ni | Ich trinke weder Kaffee noch Tee.
+entweder … oder | o … o | Entweder kommst du mit, oder du bleibst hier.
+zwar … aber | es cierto que … pero | Die Wohnung ist zwar teuer, aber sehr schön.
+einerseits … andererseits | por un lado … por otro | Einerseits verdiene ich gut, andererseits habe ich keine Zeit.
+je … desto / umso | cuanto más … más | Je mehr ich übe, desto besser spreche ich.
+
+#h El orden de las palabras con je … desto
+- **je** + comparativo abre una oración subordinada: el verbo va al final. Je früher wir losfahren, …
+- **desto** + comparativo está en posición 1: el verbo va justo después, y luego el sujeto. …, desto weniger Stau gibt es.
+- weder … noch ya niega la frase: no se añade nicht ni kein.
+#ex Completa (escribe las dos palabras, separadas por un espacio).
+Ich trinke ___ Kaffee ___ Tee. (ni … ni) = weder noch
+___ mehr ich lerne, ___ mehr verstehe ich. (cuanto más … más) = Je desto || Je umso
+Er spricht ___ Deutsch ___ Englisch. (tanto … como, 3 palabras) = sowohl als auch
+Die Wohnung ist ___ teuer, ___ sehr schön. (es cierto que … pero) = zwar aber
+___ wir fahren mit dem Zug, ___ wir nehmen das Auto. (o … o) = Entweder oder
+
+@32|Participios usados como adjetivos|B2
+En la lengua escrita, en lugar de una oración de relativo, se suele colocar un **participio delante del sustantivo**. Se declina como un adjetivo (ficha 18) y puede ir precedido de complementos: es el «atributo extendido», típico de los periódicos y los textos oficiales.
+#table
+Participio | Formación | Significado | Ejemplo
+Partizip I | infinitivo + -d | acción en curso (activa) | die steigenden Preise (los precios que suben)
+Partizip II | participio pasado | acción sufrida o terminada | das gekaufte Auto (el auto comprado)
+
+#h De la oración de relativo al participio
+#table
+Oración de relativo | Participio
+die Preise, die seit Jahren steigen | die seit Jahren steigenden Preise
+die Unterlagen, die vom Amt geschickt wurden | die vom Amt geschickten Unterlagen
+ein Kind, das schläft | ein schlafendes Kind
+der Zug, der gerade ankommt | der gerade ankommende Zug
+
+**Para leer** una frase escrita larga: localiza el artículo y salta hasta el sustantivo; todo lo que hay entre ambos describe ese sustantivo.
+#h En el día a día
+> Bitte senden Sie uns die vollständig ausgefüllten Formulare zurück. = Por favor, devuélvanos los formularios completamente rellenados.
+> Die stark gestiegenen Mieten sind ein großes Problem. = Los alquileres, que han subido mucho, son un gran problema.
+#ex Completa con el participio bien declinado.
+Die Preise steigen. → die ___ Preise (steigen) = steigenden
+Der Brief wurde gestern geschickt. → der gestern ___ Brief = geschickte
+ein Kind, das schläft → ein ___ Kind = schlafendes
+Die Unterlagen wurden ausgefüllt. → die ___ Unterlagen = ausgefüllten
+Wasser, das kocht → ___ Wasser = kochendes
+
+@33|Estilo nominal y expresiones verbo + sustantivo|B2
+La lengua escrita y administrativa prefiere los **sustantivos** a los verbos. Saber pasar de unos a otros ayuda a leer las cartas oficiales y a escribir de forma más formal.
+#table
+Verbo | Sustantivo | Ejemplo escrito
+anmelden | die Anmeldung | Die Anmeldung erfolgt online.
+ankommen | die Ankunft | Nach der Ankunft des Zuges …
+abfahren | die Abfahrt | Vor der Abfahrt bitte einsteigen.
+entscheiden | die Entscheidung | Die Entscheidung fällt morgen.
+beantragen | die Beantragung | Für die Beantragung brauchen Sie …
+rauchen | das Rauchen | Das Rauchen ist hier verboten.
+
+> Nachdem der Zug angekommen ist, … = Nach der Ankunft des Zuges, …
+#h Expresiones verbo + sustantivo (Nomen-Verb-Verbindungen)
+El significado lo aporta el sustantivo; el verbo es fijo y hay que aprenderlo junto con él.
+#table
+Expresión | Significado
+einen Antrag stellen | presentar una solicitud
+eine Entscheidung treffen | tomar una decisión
+in Frage stellen | poner en duda, cuestionar
+zur Verfügung stehen / stellen | estar / poner a disposición
+Bescheid geben / sagen | informar, avisar
+Rücksicht nehmen auf + A | tener en cuenta, tener consideración con
+in Kraft treten | entrar en vigor
+zur Kenntnis nehmen | tomar nota de
+eine Rolle spielen | desempeñar un papel
+Kritik üben an + D | criticar
+
+#ex Completa con el verbo o el sustantivo.
+Wir müssen heute eine Entscheidung ___. (tomar) = treffen
+Ich möchte einen Antrag auf Elterngeld ___. (presentar) = stellen
+Das neue Gesetz ___ im Januar in Kraft. = tritt
+Bitte ___ Sie mir bis Freitag Bescheid. = geben || sagen
+Für Fragen ___ wir Ihnen gern zur Verfügung. = stehen
+ankommen → die ___ = Ankunft
+
+@34|Preposiciones del estilo escrito|B2
+Las cartas oficiales, los contratos y la prensa usan preposiciones que apenas se oyen al hablar. La mayoría van seguidas de **genitivo**.
+#table
+Preposición | Caso | Significado | Ejemplo
+aufgrund | G | debido a | aufgrund der hohen Kosten
+angesichts | G | en vista de | angesichts der Lage
+bezüglich / hinsichtlich | G | con respecto a | bezüglich Ihrer Anfrage
+infolge | G | como consecuencia de | infolge des Sturms
+mithilfe | G | con ayuda de | mithilfe eines Wörterbuchs
+anlässlich | G | con motivo de | anlässlich seines Geburtstags
+zugunsten | G | a favor de | zugunsten der Mieter
+laut | D (o G) | según | laut Vertrag
+gemäß / entsprechend | D | conforme a | gemäß § 5
+dank | D (o G) | gracias a | dank Ihrer Hilfe
+zufolge | D, detrás del sustantivo | según, de acuerdo con | dem Bericht zufolge
+
+#h En el día a día
+> Bezüglich Ihrer Anfrage vom 3. Mai teilen wir Ihnen Folgendes mit. = Con respecto a su consulta del 3 de mayo, le comunicamos lo siguiente.
+> Laut Vertrag beträgt die Kündigungsfrist drei Monate. = Según el contrato, el plazo de preaviso es de tres meses.
+> Infolge des Streiks fallen heute viele Züge aus. = Como consecuencia de la huelga, hoy se cancelan muchos trenes.
+#ex Elige la preposición.
+___ Vertrag beträgt die Kündigungsfrist drei Monate. (según) = Laut
+___ Ihrer Anfrage vom 3. Mai … (con respecto a) = Bezüglich || Hinsichtlich
+___ des Streiks fallen viele Züge aus. (debido a) = Aufgrund || Wegen || Infolge
+___ Ihrer Hilfe haben wir es geschafft. (gracias a) = Dank
+___ der hohen Kosten wurde das Projekt gestoppt. (en vista de) = Angesichts
+
+@35|Oraciones subordinadas avanzadas|B2
+Además de weil, dass y wenn, estas conjunciones permiten expresar el modo, la consecuencia, la comparación irreal o la condición. El verbo va siempre al final (ficha 17).
+#table
+Conjunción | Significado | Ejemplo
+indem | gerundio (-ando, -iendo) | Man spart Energie, indem man weniger heizt.
+sodass / so …, dass | de modo que | Es regnete stark, sodass das Spiel ausfiel.
+als ob + K II | como si | Er tut so, als ob er nichts wüsste.
+ohne dass | sin que | Er ging, ohne dass ich es merkte.
+(an)statt dass | en vez de (que) | Statt dass er hilft, schaut er zu.
+je nachdem, ob / wie | según (si / cómo) | Je nachdem, wie das Wetter ist, fahren wir.
+sofern / soweit | siempre que, en la medida en que | Sofern nichts dagegen spricht, …
+falls | en caso de que, por si | Falls du Hilfe brauchst, ruf mich an.
+solange | mientras | Solange du Fieber hast, bleibst du zu Hause.
+nachdem | después de que | Nachdem ich gegessen hatte, ging ich los.
+
+#h Concordancia de tiempos con nachdem
+La acción de nachdem es **anterior**: pluscuamperfecto (hatte / war + participio) si la principal está en pasado, perfecto si está en presente.
+> Nachdem wir umgezogen waren, haben wir uns angemeldet. = Después de mudarnos, registramos nuestro nuevo domicilio.
+#ex Elige la conjunción.
+Man lernt eine Sprache am besten, ___ man sie jeden Tag spricht. (gerundio: hablándola) = indem
+Er tut so, ___ er mich nicht kennen würde. (como si) = als ob
+Es regnete stark, ___ das Spiel abgesagt wurde. (de modo que) = sodass
+___ ich mit der Arbeit fertig war, ging ich nach Hause. (después de que) = Nachdem
+___ du Hilfe brauchst, ruf mich an. (en caso de que) = Falls
+
+@36|Modales de suposición y de rumor|B2
+Los verbos modales también sirven para decir **hasta qué punto estás seguro** de una información, o **de dónde procede**. Es muy frecuente tanto al hablar como en la prensa.
+#table
+Modal | Grado | Ejemplo | Significado
+muss | casi seguro | Er muss krank sein. | Debe de estar enfermo (es seguro).
+dürfte | probable | Das dürfte teuer sein. | Probablemente sea caro.
+wird wohl | probable | Sie wird wohl im Büro sein. | Seguramente está en la oficina.
+könnte / kann | posible | Sie könnte recht haben. | Puede que tenga razón.
+kann nicht | imposible | Das kann nicht stimmen. | Eso no puede ser cierto.
+soll | se dice que | Das Restaurant soll sehr gut sein. | Dicen que el restaurante es muy bueno.
+will | él asegura | Er will das nicht gewusst haben. | Asegura que no lo sabía.
+
+#h En pasado
+Modal + **participio + haben / sein** (infinitivo pasado): Er muss den Zug verpasst haben. (Debe de haber perdido el tren.) Sie soll nach Berlin gezogen sein. (Dicen que se ha mudado a Berlín.)
+#ex Completa.
+Dicen que la película es muy buena. → Der Film ___ sehr gut sein. = soll
+Asegura que está enfermo. → Er ___ krank sein. = will
+Seguro que es Anna. → Das ___ Anna sein. = muss
+Puede que tenga razón. → Sie ___ recht haben. = könnte || kann
+Seguro que ha perdido el tren. → Er muss den Zug ___ haben. = verpasst
+
+@37|La declinación débil (N-Deklination)|B1–B2
+Algunos sustantivos masculinos toman **-(e)n en todos los casos salvo en el nominativo singular**. Es un error frecuente incluso en el nivel B2.
+#table
+Caso | Singular | Plural
+Nominativo | der Kollege | die Kollegen
+Acusativo | den Kollegen | die Kollegen
+Dativo | dem Kollegen | den Kollegen
+Genitivo | des Kollegen | der Kollegen
+
+#h ¿Qué sustantivos?
+- Masculinos en **-e** que designan personas o animales: der Kollege, der Kunde, der Junge, der Neffe, der Löwe.
+- Masculinos en **-ent, -ant, -ist, -at**: der Student, der Praktikant, der Polizist, der Kandidat, der Automat.
+- Algunos otros que debes conocer: der Mensch, der Nachbar, der Herr (den Herrn, plural die Herren), der Bauer.
+- Particularidad: der Name y der Gedanke toman -ns en genitivo (des Namens).
+#h En el día a día
+> Ich habe Herrn Müller eine E-Mail geschickt. = Le he enviado un correo electrónico al señor Müller.
+> Der Kellner fragt den Kunden, was er möchte. = El camarero le pregunta al cliente qué desea.
+#ex Completa con la forma correcta.
+Ich frage meinen ___ (Nachbar). = Nachbarn
+Wir helfen dem ___ (Kunde). = Kunden
+Kennst du den ___ (Student)? = Studenten
+Ich habe mit ___ Schmidt telefoniert. (Herr) = Herrn
+Der Polizist hilft dem ___ (Mensch). = Menschen
+
+@38|Las partículas modales|B2
+Los alemanes salpican sus frases de palabritas que no se traducen palabra por palabra, pero que cambian el tono: insistencia, sorpresa, cortesía, resignación. Hacen que el alemán hablado suene natural.
+#table
+Partícula | Efecto | Ejemplo
+doch | insistencia, algo evidente | Komm doch mit! Das weißt du doch!
+mal | suaviza una petición | Schau mal! Kannst du mal kommen?
+ja | sorpresa o algo que ambos saben | Das ist ja toll! Du weißt ja, wie er ist.
+denn | pregunta con interés | Was ist denn los?
+halt / eben | es lo que hay | Das ist halt so.
+eigentlich | por cierto, en realidad | Wie heißt du eigentlich?
+wohl | suposición | Er ist wohl krank.
+schon | tranquilizar | Das klappt schon.
+bloß / nur | preocupación o advertencia | Was hast du bloß gemacht? Mach das bloß nicht!
+
+**Posición**: después del verbo conjugado y de los pronombres, antes de lo importante: Kannst du mir mal helfen? Nunca van en la posición 1.
+#h En el día a día
+> Setzen Sie sich doch! = ¡Siéntese, por favor!
+> Wo bist du denn? = Pero ¿dónde estás?
+> Das ist eben so in Deutschland. = En Alemania las cosas son así.
+#ex Completa con la partícula.
+Was ist ___ los? (pregunta con interés) = denn
+Komm ___ mit! (invitación insistente) = doch
+Schau ___ hier! (suaviza) = mal
+Das ist ___ so, da kann man nichts machen. (resignación) = halt || eben
+Keine Sorge, das klappt ___. (tranquilizar) = schon

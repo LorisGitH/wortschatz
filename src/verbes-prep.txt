@@ -1,0 +1,105 @@
+# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+achten|auf|A|faire attention à|Achte bitte [auf] den Verkehr.|Fais attention à la circulation.
+denken|an|A|penser à|Ich denke oft [an] meine Familie.|Je pense souvent à ma famille.
+warten|auf|A|attendre|Wir warten [auf] den Bus.|Nous attendons le bus.
+sich freuen|auf|A|avoir hâte de (à venir)|Ich freue mich [auf] den Urlaub.|J'ai hâte d'être en vacances.
+sich freuen|über|A|être content de (présent ou passé)|Sie freut sich [über] das Geschenk.|Elle est contente du cadeau.
+sich interessieren|für|A|s'intéresser à|Er interessiert sich [für] Politik.|Il s'intéresse à la politique.
+sich kümmern|um|A|s'occuper de|Wer kümmert sich [um] den Hund?|Qui s'occupe du chien ?
+sich ärgern|über|A|être agacé par|Ich ärgere mich [über] den Lärm.|Le bruit m'agace.
+sich beschweren|über|A|se plaindre de|Die Mieter beschweren sich [über] die Heizung.|Les locataires se plaignent du chauffage.
+sich beschweren|bei|D|se plaindre auprès de|Ich beschwere mich [beim] Vermieter.|Je me plains auprès du propriétaire.
+sich gewöhnen|an|A|s'habituer à|Ich gewöhne mich langsam [an] das Wetter.|Je m'habitue peu à peu au temps.
+sich erinnern|an|A|se souvenir de|Erinnerst du dich [an] unseren ersten Tag?|Tu te souviens de notre premier jour ?
+sich bedanken|für|A|remercier pour|Ich bedanke mich [für] Ihre Hilfe.|Je vous remercie pour votre aide.
+sich entscheiden|für|A|se décider pour, choisir|Wir haben uns [für] die kleine Wohnung entschieden.|Nous avons choisi le petit appartement.
+sich verlassen|auf|A|compter sur|Du kannst dich [auf] mich verlassen.|Tu peux compter sur moi.
+sich bewerben|um|A|postuler à (un poste)|Sie bewirbt sich [um] eine Stelle als Pflegerin.|Elle postule à un poste d'aide-soignante.
+sich bewerben|bei|D|postuler chez (une entreprise)|Er bewirbt sich [bei] einer Bank.|Il postule dans une banque.
+sich beschäftigen|mit|D|s'occuper de, travailler sur|Ich beschäftige mich gerade [mit] dem Thema.|Je travaille en ce moment sur ce sujet.
+sich unterhalten|über|A|discuter de|Wir unterhalten uns [über] den Film.|Nous discutons du film.
+sich unterhalten|mit|D|discuter avec|Ich unterhalte mich [mit] dem Nachbarn.|Je discute avec le voisin.
+sich vorbereiten|auf|A|se préparer à|Ich bereite mich [auf] die Prüfung vor.|Je me prépare à l'examen.
+sich konzentrieren|auf|A|se concentrer sur|Konzentrier dich [auf] die Arbeit!|Concentre-toi sur le travail !
+sich sorgen|um|A|s'inquiéter pour|Die Eltern sorgen sich [um] ihren Sohn.|Les parents s'inquiètent pour leur fils.
+sich fürchten|vor|D|avoir peur de|Das Kind fürchtet sich [vor] dem Hund.|L'enfant a peur du chien.
+Angst haben|vor|D|avoir peur de|Ich habe Angst [vor] der Prüfung.|J'ai peur de l'examen.
+glauben|an|A|croire en|Ich glaube [an] dich.|Je crois en toi.
+teilnehmen|an|D|participer à|Ich nehme [an] einem Deutschkurs teil.|Je participe à un cours d'allemand.
+abhängen|von|D|dépendre de|Das hängt [vom] Wetter ab.|Ça dépend du temps.
+bestehen|aus|D|se composer de|Das Team besteht [aus] fünf Personen.|L'équipe se compose de cinq personnes.
+bestehen|auf|D|exiger, insister sur|Er besteht [auf] einer Antwort.|Il exige une réponse.
+träumen|von|D|rêver de|Ich träume [von] einem Haus am See.|Je rêve d'une maison au bord d'un lac.
+bitten|um|A|demander (quelque chose)|Darf ich Sie [um] einen Gefallen bitten?|Puis-je vous demander un service ?
+fragen|nach|D|demander (le chemin, des nouvelles)|Er fragt [nach] dem Weg.|Il demande son chemin.
+gehören|zu|D|faire partie de|Das gehört [zu] meinen Aufgaben.|Ça fait partie de mes tâches.
+sorgen|für|A|veiller à, prendre soin de|Die Eltern sorgen [für] die Kinder.|Les parents prennent soin des enfants.
+führen|zu|D|mener à|Stress kann [zu] Krankheiten führen.|Le stress peut mener à des maladies.
+überzeugen|von|D|convaincre de|Er hat mich [von] seiner Idee überzeugt.|Il m'a convaincu de son idée.
+hinweisen|auf|A|signaler, attirer l'attention sur|Ich möchte Sie [auf] einen Fehler hinweisen.|Je voudrais vous signaler une erreur.
+verzichten|auf|A|renoncer à|Ich verzichte [auf] Zucker.|Je renonce au sucre.
+zweifeln|an|D|douter de|Ich zweifle [an] seiner Ehrlichkeit.|Je doute de son honnêteté.
+sprechen|mit|D|parler avec|Ich muss [mit] dem Chef sprechen.|Je dois parler au chef.
+sprechen|über|A|parler de|Wir sprechen [über] das Problem.|Nous parlons du problème.
+telefonieren|mit|D|téléphoner à|Ich telefoniere [mit] meiner Mutter.|Je téléphone à ma mère.
+anfangen|mit|D|commencer par|Wir fangen [mit] der Übung an.|Nous commençons par l'exercice.
+aufhören|mit|D|arrêter de|Er hat [mit] dem Rauchen aufgehört.|Il a arrêté de fumer.
+helfen|bei|D|aider à, pour|Kannst du mir [beim] Umzug helfen?|Tu peux m'aider pour le déménagement ?
+sich verabreden|mit|D|prendre rendez-vous avec|Ich habe mich [mit] Anna verabredet.|J'ai rendez-vous avec Anna.
+sich treffen|mit|D|retrouver, voir (quelqu'un)|Ich treffe mich heute [mit] Freunden.|Je vois des amis aujourd'hui.
+einladen|zu|D|inviter à|Sie lädt uns [zum] Essen ein.|Elle nous invite à manger.
+gratulieren|zu|D|féliciter pour|Ich gratuliere dir [zum] Geburtstag.|Je te souhaite un bon anniversaire.
+sich entschuldigen|für|A|s'excuser de|Ich entschuldige mich [für] die Verspätung.|Je m'excuse pour le retard.
+sich entschuldigen|bei|D|s'excuser auprès de|Du solltest dich [bei] ihr entschuldigen.|Tu devrais t'excuser auprès d'elle.
+sich anmelden|für|A|s'inscrire à|Ich melde mich [für] den Kurs an.|Je m'inscris au cours.
+sich informieren|über|A|se renseigner sur|Ich informiere mich [über] die Kosten.|Je me renseigne sur les coûts.
+sich erkundigen|nach|D|se renseigner sur|Er erkundigt sich [nach] den Öffnungszeiten.|Il se renseigne sur les horaires d'ouverture.
+sich streiten|mit|D|se disputer avec|Er streitet sich oft [mit] seinem Bruder.|Il se dispute souvent avec son frère.
+sich verlieben|in|A|tomber amoureux de|Sie hat sich [in] ihn verliebt.|Elle est tombée amoureuse de lui.
+sich wundern|über|A|s'étonner de|Ich wundere mich [über] seine Reaktion.|Sa réaction m'étonne.
+sich aufregen|über|A|s'énerver contre|Reg dich nicht [über] ihn auf!|Ne t'énerve pas contre lui !
+lachen|über|A|rire de|Wir haben [über] den Witz gelacht.|Nous avons ri de la blague.
+nachdenken|über|A|réfléchir à|Ich denke [über] dein Angebot nach.|Je réfléchis à ton offre.
+diskutieren|über|A|discuter de, débattre de|Wir diskutieren [über] die Zukunft.|Nous discutons de l'avenir.
+berichten|über|A|rendre compte de|Die Zeitung berichtet [über] den Unfall.|Le journal parle de l'accident.
+schreiben|an|A|écrire à|Ich schreibe einen Brief [an] die Behörde.|J'écris une lettre à l'administration.
+erzählen|von|D|raconter, parler de|Erzähl mir [von] deiner Reise!|Raconte-moi ton voyage !
+hören|von|D|avoir des nouvelles de|Ich habe lange nichts [von] ihm gehört.|Je n'ai pas eu de ses nouvelles depuis longtemps.
+sich verabschieden|von|D|dire au revoir à|Wir verabschieden uns [von] den Gästen.|Nous disons au revoir aux invités.
+sich erholen|von|D|se remettre de|Ich muss mich [vom] Stress erholen.|Je dois me remettre du stress.
+leiden|an|D|souffrir de (une maladie)|Er leidet [an] einer Allergie.|Il souffre d'une allergie.
+leiden|unter|D|souffrir de (une situation)|Viele leiden [unter] der Hitze.|Beaucoup souffrent de la chaleur.
+arbeiten|an|D|travailler sur|Ich arbeite [an] einem Projekt.|Je travaille sur un projet.
+sterben|an|D|mourir de|Er ist [an] einer Grippe gestorben.|Il est mort d'une grippe.
+sich beteiligen|an|D|participer à|Alle beteiligen sich [an] den Kosten.|Tout le monde participe aux frais.
+erkennen|an|D|reconnaître à|Ich erkenne ihn [an] der Stimme.|Je le reconnais à sa voix.
+sich wenden|an|A|s'adresser à|Wenden Sie sich bitte [an] den Kundenservice.|Adressez-vous au service client.
+sich halten|an|A|respecter (une règle)|Bitte halten Sie sich [an] die Regeln.|Merci de respecter les règles.
+reagieren|auf|A|réagir à|Wie hat er [auf] die Nachricht reagiert?|Comment a-t-il réagi à la nouvelle ?
+antworten|auf|A|répondre à|Bitte antworten Sie [auf] meine E-Mail.|Merci de répondre à mon e-mail.
+hoffen|auf|A|espérer|Wir hoffen [auf] gutes Wetter.|Nous espérons du beau temps.
+aufpassen|auf|A|surveiller, faire attention à|Kannst du [auf] die Kinder aufpassen?|Tu peux surveiller les enfants ?
+ankommen|auf|A|dépendre de (es kommt auf … an)|Es kommt [auf] die Situation an.|Ça dépend de la situation.
+sich einsetzen|für|A|s'engager pour|Sie setzt sich [für] die Umwelt ein.|Elle s'engage pour l'environnement.
+danken|für|A|remercier pour|Danke [für] die Einladung!|Merci pour l'invitation !
+ausgeben|für|A|dépenser pour|Wie viel gibst du [für] die Miete aus?|Combien dépenses-tu pour le loyer ?
+kämpfen|gegen|A|lutter contre|Wir kämpfen [gegen] den Klimawandel.|Nous luttons contre le changement climatique.
+protestieren|gegen|A|protester contre|Viele protestieren [gegen] das neue Gesetz.|Beaucoup protestent contre la nouvelle loi.
+sich verstehen|mit|D|s'entendre avec|Ich verstehe mich gut [mit] meinen Kollegen.|Je m'entends bien avec mes collègues.
+rechnen|mit|D|s'attendre à, compter sur|[Mit] so viel Verkehr habe ich nicht gerechnet.|Je ne m'attendais pas à autant de circulation.
+vergleichen|mit|D|comparer à|Vergleich dich nicht [mit] anderen!|Ne te compare pas aux autres !
+umgehen|mit|D|savoir s'y prendre avec|Er kann gut [mit] Kindern umgehen.|Il sait bien s'y prendre avec les enfants.
+sich auskennen|mit|D|s'y connaître en|Kennst du dich [mit] Computern aus?|Tu t'y connais en informatique ?
+suchen|nach|D|chercher|Ich suche [nach] meinem Schlüssel.|Je cherche ma clé.
+riechen|nach|D|sentir (avoir l'odeur de)|Hier riecht es [nach] Kaffee.|Ça sent le café ici.
+sich sehnen|nach|D|avoir la nostalgie de|Ich sehne mich [nach] der Sonne.|Le soleil me manque.
+schützen|vor|D|protéger de|Die Creme schützt [vor] der Sonne.|La crème protège du soleil.
+warnen|vor|D|mettre en garde contre|Man warnt [vor] dem Sturm.|On met en garde contre la tempête.
+passen|zu|D|aller bien avec|Die Farbe passt gut [zu] dir.|Cette couleur te va bien.
+beitragen|zu|D|contribuer à|Jeder kann [zum] Umweltschutz beitragen.|Chacun peut contribuer à la protection de l'environnement.
+leben|von|D|vivre de|Er lebt [von] seiner Rente.|Il vit de sa retraite.
+sich trennen|von|D|se séparer de|Sie hat sich [von] ihrem Freund getrennt.|Elle s'est séparée de son copain.
+handeln|von|D|parler de (un livre, un film)|Der Film handelt [von] einer Familie.|Le film parle d'une famille.
+gehen|um|A|s'agir de (es geht um …)|In dem Brief geht es [um] die Miete.|La lettre concerne le loyer.
+sich handeln|um|A|s'agir de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Il s'agit d'un malentendu.
+sich bemühen|um|A|s'efforcer d'obtenir|Ich bemühe mich [um] eine Lösung.|Je m'efforce de trouver une solution.

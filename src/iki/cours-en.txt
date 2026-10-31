@@ -1,0 +1,108 @@
+# IKI classes, English translations (same lines as cours.txt)
+@2026-10-13|2026-10-13.jpg
+vertraut|familiar, trusted||
+eine neue Richtung einschlagen|to take a new direction||
+etwas wagen|to dare (to do) something (+ acc.)||
+etwas hinterfragen|to question something (+ acc.)||
+sich sehnen nach|to long for, to yearn for (+ dative)||
+etwas verwirklichen|to make something real, a dream, a project (+ acc.)||
+der Baukredit|the mortgage, home loan|Baukredite|
+etwas klappt gut / nicht|something works out well / doesn't work out (subject in nominative)||
+etwas weitergeben an|to pass something on to someone (an + acc.)||
+die Begeisterung|enthusiasm||
+Begeisterung haben für|to be passionate about (für + acc.)||
+die Anregung|suggestion, inspiring idea|Anregungen|
+der Staub|dust||
+Staub wischen|to dust||
+sich ansammeln|to accumulate, to pile up||sammelt sich an · sammelte sich an · hat sich angesammelt
+etwas feststellen|to notice, to find something (+ acc.)||
+sich eingesperrt fühlen|to feel trapped||
+etwas aufgeben|to give something up (+ acc.)||
+den Mut zusammennehmen|to pluck up one's courage||
+jemanden beraten|to advise someone (+ acc.)||
+der Hinweis|hint, tip, clue|Hinweise|
+einen Hinweis geben|to give a hint||
+einen Hinweis bekommen|to get a hint||
+einen Hinweis brauchen|to need a hint||
+sich den Lebensunterhalt verdienen|to earn a living||
+steil|steep (a career: meteoric)||
+unter Druck stehen|to be under pressure||
+erschöpft sein|to be exhausted||
+etwas verursachen|to cause something, an accident, chaos (+ acc.)||
+der Wendepunkt|turning point|Wendepunkte|
+Wert legen auf|to attach importance to (auf + acc.)||
+etwas umstellen|to change, to rearrange something (+ acc.)||
+etwas kommt gut / nicht gut an|something goes down well / badly||
+@2026-10-20|2026-10-20.jpg
+auswandern nach|to emigrate to (a country)||
+einwandern nach|to immigrate to (a country)||
+etwas erforschen|to explore, to study something (+ acc.)||
+forschen|to do research||
+der Forscher|the researcher (die Forscherin: female researcher)||
+der Wissenschaftler|the scientist||
+etwas herausfinden|to find out, to discover something (+ acc.)||
+das Fernweh|wanderlust||
+das Heimweh|homesickness||
+Fernweh haben|to have wanderlust||
+Heimweh haben|to be homesick||
+sogenannt|so-called||
+zurückkehren nach|to return to (a country, a city)||
+Asyl beantragen|to apply for asylum||
+einen Antrag stellen|to submit an application||
+etwas nachweisen|to prove, to demonstrate something (+ acc.)||
+der Vorfahre|the ancestor||
+der Siedler|the settler||
+siedeln|to settle (to live somewhere)||
+sich niederlassen in|to settle in (+ dative)||
+@2026-10-22|2026-10-22.jpg
+etwas erleben|to experience something (+ acc.)||
+mit erhobenen Armen|with raised arms||
+unzählig|countless, innumerable||
+die Abstammung|origin, descent, ancestry||
+abstammen von|to be descended from, to come from (von + dative)||
+ehemalig|former, ex- (der ehemalige Chef: the former boss)||
+allerdings|however, though (followed by the verb: Allerdings ist …)||
+boomen|to boom, to thrive||
+hin- und hergerissen sein|to be torn, to be in two minds||
+etwas überwinden|to overcome something (homesickness, a border…) (+ acc.)||
+etwas pflegen|to maintain, to cultivate something (a tradition, a friendship…) (+ acc.)||
+der Nachfahre|the descendant||
+gelten als|to be regarded as, to be considered||
+der Schutz|protection, shelter||
+Schutz suchen|to seek shelter, to seek protection||
+Schutz finden|to find shelter, to find protection||
+belastend|stressful, burdensome||
+jemanden belasten mit|to burden someone with (mit + dative)||
+etwas beherrschen|to master something (a language…) (+ acc.)||
+etwas zurücklassen|to leave something or someone behind (+ acc.)||
+heimisch|native, local||
+sich heimisch fühlen|to feel at home||
+sich wohlfühlen|to feel good, to feel comfortable (in + dative, mit + dative)||
+damals|back then, at that time||
+darunter|among them, including; underneath||
+@2026-10-29|2026-10-29.jpg
+die Stadtführung|the guided city tour||
+das Stammlokal|the regular haunt, one's local (café or pub)||
+der Stammgast|the regular (customer)||
+das Geräusch|the sound, the noise||
+der Lärm|the loud noise, the din||
+außerhalb|outside (of) (+ genitive)||
+innerhalb|inside, within (+ genitive)||
+übrigens|by the way, incidentally||
+jemandem einen Heiratsantrag machen|to propose to someone||
+Fernost|the Far East (in Fernost: in the Far East)||
+bummeln durch|to stroll through (durch + acc.)||
+etwas ist besetzt|something is taken, occupied (a seat, a line) (subject in nominative)||
+das Pulsieren|the pulsing, the buzz (of a city)||
+die Melange|Viennese coffee (milky coffee with foam)||
+die Jause|the snack, light meal (in Austria)||
+sich befinden|to be located (+ preposition of place)||
+fehlerfrei|error-free, without mistakes||
+etwas abbrechen|to break off, to drop something (studies…) (+ acc.)||
+sich orientieren|to find one's way, to get one's bearings||
+etwas ablegen|to take (an exam), to put down, to give up something (+ acc.)||
+sich entschließen zu|to decide to (zu + dative)||
+der Studiengang|the degree course, the study programme||
+vertraut sein mit|to be familiar with (mit + dative)||
+hetzen|to rush, to hurry (zu / nach / durch)||
+sich erinnern an|to remember (an + acc.)||

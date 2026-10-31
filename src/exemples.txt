@@ -1,0 +1,163 @@
+heiraten|Meine Schwester heiratet im Sommer.|Ma sœur se marie cet été.
+besuchen|Am Wochenende besuche ich meine Eltern.|Le week-end, je rends visite à mes parents.
+umziehen|Wir ziehen nächsten Monat nach Berlin um.|Nous déménageons à Berlin le mois prochain.
+mieten|Ich habe eine kleine Wohnung im Zentrum gemietet.|J'ai loué un petit appartement dans le centre.
+putzen|Samstags putzen wir die ganze Wohnung.|Le samedi, nous nettoyons tout l'appartement.
+lüften|Bitte lüfte das Zimmer, es ist so warm hier.|Aère la pièce s'il te plaît, il fait si chaud ici.
+kochen|Heute Abend koche ich Nudeln mit Tomatensoße.|Ce soir, je fais des pâtes à la sauce tomate.
+kaufen|Ich kaufe noch schnell Brot beim Bäcker.|Je vais vite acheter du pain chez le boulanger.
+einkaufen|Ich kaufe nach der Arbeit im Supermarkt ein.|Je fais les courses au supermarché après le travail.
+bezahlen|Kann ich hier mit Karte bezahlen?|Je peux payer par carte ici ?
+kosten|Die Fahrkarte kostet drei Euro zwanzig.|Le billet coûte trois euros vingt.
+bestellen|Ich bestelle ein Schnitzel und ein Wasser.|Je commande une escalope et une eau.
+reservieren|Ich möchte einen Tisch für vier Personen reservieren.|Je voudrais réserver une table pour quatre personnes.
+fahren|Morgen fahre ich mit dem Zug nach München.|Demain, je vais à Munich en train.
+umsteigen|In Frankfurt müssen Sie umsteigen.|À Francfort, vous devez changer de train.
+einsteigen|Bitte steigen Sie ein, der Zug fährt gleich ab.|Montez s'il vous plaît, le train va partir.
+aussteigen|Ich steige an der nächsten Haltestelle aus.|Je descends au prochain arrêt.
+arbeiten|Ich arbeite von Montag bis Freitag im Büro.|Je travaille au bureau du lundi au vendredi.
+verdienen|Er verdient mehr als vorher.|Il gagne plus qu'avant.
+sich bewerben|Ich habe mich bei drei Firmen beworben.|J'ai postulé dans trois entreprises.
+kündigen|Ich habe meinen Handyvertrag gekündigt.|J'ai résilié mon forfait de portable.
+ausfüllen|Füllen Sie bitte dieses Formular aus.|Remplissez ce formulaire, s'il vous plaît.
+unterschreiben|Bitte unterschreiben Sie hier unten.|Signez ici en bas, s'il vous plaît.
+sich anmelden|Nach dem Umzug muss man sich beim Bürgeramt anmelden.|Après un déménagement, il faut déclarer son domicile au bureau des citoyens.
+beantragen|Ich muss einen neuen Reisepass beantragen.|Je dois faire une demande de nouveau passeport.
+überweisen|Ich überweise dir das Geld morgen.|Je te vire l'argent demain.
+anziehen|Zieh dir eine Jacke an, es ist kalt!|Mets une veste, il fait froid !
+anprobieren|Kann ich diese Hose anprobieren?|Je peux essayer ce pantalon ?
+passen|Die Schuhe passen mir leider nicht.|Malheureusement, ces chaussures ne me vont pas.
+spazieren gehen|Nach dem Essen gehen wir im Park spazieren.|Après le repas, nous allons nous promener dans le parc.
+schwimmen|Im Sommer schwimme ich gern im See.|L'été, j'aime nager dans le lac.
+wandern|Am Sonntag sind wir in den Bergen gewandert.|Dimanche, nous avons fait de la randonnée en montagne.
+sich treffen|Wir treffen uns um acht vor dem Kino.|On se retrouve à huit heures devant le cinéma.
+sein|Ich bin seit zwei Monaten in Deutschland.|Je suis en Allemagne depuis deux mois.
+haben|Hast du heute Abend Zeit?|Tu as le temps ce soir ?
+werden|Es wird langsam dunkel.|Il commence à faire nuit.
+können|Kannst du mir bitte helfen?|Tu peux m'aider, s'il te plaît ?
+müssen|Ich muss morgen früh aufstehen.|Je dois me lever tôt demain.
+wollen|Wir wollen nächstes Jahr nach Italien fahren.|Nous voulons aller en Italie l'année prochaine.
+dürfen|Hier darf man nicht rauchen.|Ici, on n'a pas le droit de fumer.
+sollen|Der Arzt sagt, ich soll mehr Wasser trinken.|Le médecin dit que je dois boire plus d'eau.
+mögen|Ich mag keinen Kaffee ohne Milch.|Je n'aime pas le café sans lait.
+gehen|Ich gehe jeden Morgen zu Fuß zur Arbeit.|Je vais au travail à pied tous les matins.
+kommen|Wann kommst du nach Hause?|Quand est-ce que tu rentres à la maison ?
+machen|Was machst du am Wochenende?|Qu'est-ce que tu fais ce week-end ?
+sagen|Was hat er gesagt? Ich habe es nicht gehört.|Qu'est-ce qu'il a dit ? Je ne l'ai pas entendu.
+sprechen|Sprechen Sie Französisch?|Vous parlez français ?
+fragen|Ich frage mal den Verkäufer.|Je vais demander au vendeur.
+antworten|Sie hat noch nicht auf meine E-Mail geantwortet.|Elle n'a pas encore répondu à mon e-mail.
+wissen|Weißt du, wo die Post ist?|Tu sais où est la poste ?
+kennen|Kennst du ein gutes Restaurant hier?|Tu connais un bon restaurant ici ?
+verstehen|Entschuldigung, ich habe das nicht verstanden.|Pardon, je n'ai pas compris.
+sehen|Siehst du die Haltestelle dort drüben?|Tu vois l'arrêt là-bas ?
+hören|Ich höre gern Radio beim Frühstück.|J'aime écouter la radio au petit-déjeuner.
+lesen|Sie liest jeden Abend ein bisschen.|Elle lit un peu chaque soir.
+schreiben|Ich schreibe dir später eine Nachricht.|Je t'écris un message plus tard.
+essen|Wir essen um sieben zu Abend.|Nous dînons à sept heures.
+trinken|Was möchtest du trinken?|Qu'est-ce que tu veux boire ?
+schlafen|Ich habe heute Nacht schlecht geschlafen.|J'ai mal dormi cette nuit.
+wohnen|Ich wohne im dritten Stock.|J'habite au troisième étage.
+leben|Sie lebt seit fünf Jahren in Hamburg.|Elle vit à Hambourg depuis cinq ans.
+geben|Kannst du mir bitte das Salz geben?|Tu peux me passer le sel, s'il te plaît ?
+nehmen|Ich nehme den Bus um halb neun.|Je prends le bus de huit heures et demie.
+bringen|Der Kellner bringt die Rechnung.|Le serveur apporte l'addition.
+mitbringen|Soll ich etwas zum Essen mitbringen?|Je dois apporter quelque chose à manger ?
+finden|Ich finde meinen Schlüssel nicht.|Je ne trouve pas ma clé.
+suchen|Wir suchen eine größere Wohnung.|Nous cherchons un appartement plus grand.
+brauchen|Ich brauche einen Termin beim Arzt.|J'ai besoin d'un rendez-vous chez le médecin.
+helfen|Kann ich Ihnen helfen?|Je peux vous aider ?
+warten|Ich warte schon seit zwanzig Minuten.|J'attends depuis déjà vingt minutes.
+bleiben|Heute bleibe ich zu Hause.|Aujourd'hui, je reste à la maison.
+lernen|Ich lerne jeden Tag zehn neue Wörter.|J'apprends dix nouveaux mots chaque jour.
+gefallen|Wie gefällt dir die neue Wohnung?|Comment tu trouves le nouvel appartement ?
+glauben|Ich glaube, der Laden ist heute geschlossen.|Je crois que le magasin est fermé aujourd'hui.
+denken|Was denkst du darüber?|Qu'est-ce que tu en penses ?
+öffnen|Die Bäckerei öffnet um sechs Uhr.|La boulangerie ouvre à six heures.
+schließen|Bitte schließen Sie die Tür.|Fermez la porte, s'il vous plaît.
+anfangen|Der Kurs fängt um neun Uhr an.|Le cours commence à neuf heures.
+aufhören|Er hat mit dem Rauchen aufgehört.|Il a arrêté de fumer.
+aufstehen|Ich stehe jeden Tag um sieben auf.|Je me lève tous les jours à sept heures.
+anrufen|Ich rufe dich heute Abend an.|Je t'appelle ce soir.
+vergessen|Ich habe meinen Regenschirm vergessen.|J'ai oublié mon parapluie.
+zeigen|Können Sie mir den Weg auf der Karte zeigen?|Pouvez-vous me montrer le chemin sur la carte ?
+verlieren|Ich habe mein Portemonnaie verloren.|J'ai perdu mon porte-monnaie.
+liegen|Das Handy liegt auf dem Tisch.|Le portable est sur la table.
+sitzen|Wir sitzen auf dem Balkon und trinken Kaffee.|Nous sommes assis sur le balcon et buvons un café.
+stehen|Die Flaschen stehen im Kühlschrank.|Les bouteilles sont dans le réfrigérateur.
+laufen|Ich laufe dreimal pro Woche im Park.|Je cours trois fois par semaine dans le parc.
+tragen|Sie trägt heute ein rotes Kleid.|Elle porte une robe rouge aujourd'hui.
+verhandeln|Ich will über mein Gehalt verhandeln.|Je veux négocier mon salaire.
+sich weiterbilden|Sie bildet sich abends im Bereich Marketing weiter.|Elle se forme le soir dans le domaine du marketing.
+befördern|Nach zwei Jahren wurde er zum Teamleiter befördert.|Après deux ans, il a été promu chef d'équipe.
+einstellen|Die Firma stellt dieses Jahr zehn neue Mitarbeiter ein.|L'entreprise embauche dix nouveaux employés cette année.
+entlassen|Wegen der Krise wurden viele Mitarbeiter entlassen.|À cause de la crise, beaucoup d'employés ont été licenciés.
+leiten|Sie leitet die Abteilung seit drei Jahren.|Elle dirige le service depuis trois ans.
+einreichen|Sie müssen die Unterlagen bis Freitag einreichen.|Vous devez déposer les documents avant vendredi.
+verlängern|Ich muss meine Aufenthaltserlaubnis verlängern.|Je dois prolonger mon titre de séjour.
+Widerspruch einlegen|Gegen diesen Bescheid können Sie innerhalb eines Monats Widerspruch einlegen.|Vous pouvez faire un recours contre cette décision dans un délai d'un mois.
+genehmigen|Mein Chef hat meinen Urlaub genehmigt.|Mon chef a accepté ma demande de congés.
+nachweisen|Sie müssen Ihr Einkommen nachweisen.|Vous devez justifier de vos revenus.
+haften|Eltern haften für ihre Kinder.|Les parents sont responsables de leurs enfants.
+sich erholen|Im Urlaub habe ich mich gut erholt.|Je me suis bien reposé pendant les vacances.
+sich verletzen|Er hat sich beim Fußball am Knie verletzt.|Il s'est blessé au genou en jouant au foot.
+behandeln|Der Arzt behandelt die Entzündung mit Antibiotika.|Le médecin traite l'inflammation avec des antibiotiques.
+untersuchen|Die Ärztin untersucht meinen Rücken.|La médecin examine mon dos.
+verschreiben|Der Arzt hat mir ein Medikament verschrieben.|Le médecin m'a prescrit un médicament.
+leiden an|Viele Menschen leiden an Rückenschmerzen.|Beaucoup de gens souffrent de maux de dos.
+vorbeugen|Mit Sport kann man vielen Krankheiten vorbeugen.|Avec le sport, on peut prévenir beaucoup de maladies.
+wählen|Im September wählen die Deutschen ein neues Parlament.|En septembre, les Allemands élisent un nouveau Parlement.
+abstimmen|Morgen stimmt der Bundestag über das Gesetz ab.|Demain, le Bundestag vote sur la loi.
+berichten|Die Zeitung berichtet über den Streik.|Le journal parle de la grève.
+fordern|Die Gewerkschaft fordert höhere Löhne.|Le syndicat réclame des salaires plus élevés.
+sich engagieren|Sie engagiert sich in einem Verein für Flüchtlinge.|Elle s'engage dans une association pour les réfugiés.
+kritisieren|Viele Bürger kritisieren die neue Regel.|Beaucoup de citoyens critiquent la nouvelle règle.
+verschwenden|Wir verschwenden zu viele Lebensmittel.|Nous gaspillons trop de nourriture.
+sparen|Mit LED-Lampen kann man Strom sparen.|Avec des lampes LED, on peut économiser de l'électricité.
+recyceln|Altglas wird in Deutschland fast komplett recycelt.|En Allemagne, le verre usagé est presque entièrement recyclé.
+schützen|Wir müssen die Natur besser schützen.|Nous devons mieux protéger la nature.
+vermeiden|Ich versuche, Plastik zu vermeiden.|J'essaie d'éviter le plastique.
+verbrauchen|Unser Kühlschrank verbraucht zu viel Strom.|Notre réfrigérateur consomme trop d'électricité.
+sich verlieben|Sie haben sich im Urlaub ineinander verliebt.|Ils sont tombés amoureux l'un de l'autre en vacances.
+sich trennen|Nach zehn Jahren haben sie sich getrennt.|Après dix ans, ils se sont séparés.
+sich streiten|Die Nachbarn streiten sich oft laut.|Les voisins se disputent souvent bruyamment.
+vermissen|Ich vermisse meine Familie in Frankreich.|Ma famille en France me manque.
+enttäuschen|Der Film hat mich enttäuscht.|Le film m'a déçu.
+vertrauen|Ich vertraue meinem besten Freund völlig.|Je fais entièrement confiance à mon meilleur ami.
+sich schämen|Er schämt sich für seinen Fehler.|Il a honte de son erreur.
+sich aufregen|Reg dich nicht auf, es ist nicht so schlimm!|Ne t'énerve pas, ce n'est pas si grave !
+sich kümmern um|Wer kümmert sich um die Katze, wenn wir weg sind?|Qui s'occupe du chat quand nous sommes partis ?
+sich freuen auf|Ich freue mich schon auf den Urlaub.|J'ai déjà hâte d'être en vacances.
+sich freuen über|Sie hat sich sehr über das Geschenk gefreut.|Elle a été très contente du cadeau.
+sich interessieren für|Ich interessiere mich für Geschichte.|Je m'intéresse à l'histoire.
+sich ärgern über|Er ärgert sich über die Verspätung.|Il est agacé par le retard.
+sich beschweren über|Die Nachbarn beschweren sich über den Lärm.|Les voisins se plaignent du bruit.
+sich gewöhnen an|Ich habe mich an das Wetter gewöhnt.|Je me suis habitué au temps.
+sich erinnern an|Erinnerst du dich an unseren ersten Tag in Berlin?|Tu te souviens de notre premier jour à Berlin ?
+sich bedanken für|Ich bedanke mich für Ihre Hilfe.|Je vous remercie pour votre aide.
+sich entscheiden für|Wir haben uns für die größere Wohnung entschieden.|Nous avons choisi le plus grand appartement.
+sich verlassen auf|Auf sie kann man sich immer verlassen.|On peut toujours compter sur elle.
+sich bewerben um|Ich bewerbe mich um eine Stelle als Ingenieur.|Je postule à un poste d'ingénieur.
+sich beschäftigen mit|In meiner Freizeit beschäftige ich mich mit Fotografie.|Pendant mon temps libre, je m'intéresse à la photographie.
+sich unterhalten über|Wir haben uns lange über Politik unterhalten.|Nous avons longuement discuté de politique.
+sich vorbereiten auf|Ich bereite mich auf die Prüfung vor.|Je me prépare à l'examen.
+sich konzentrieren auf|Konzentrier dich auf das Wesentliche!|Concentre-toi sur l'essentiel !
+sich sorgen um|Die Mutter sorgt sich um ihren kranken Sohn.|La mère s'inquiète pour son fils malade.
+sich fürchten vor|Das Kind fürchtet sich vor dem Hund.|L'enfant a peur du chien.
+warten auf|Ich warte auf den Bus.|J'attends le bus.
+denken an|Ich denke oft an meine Freunde in Paris.|Je pense souvent à mes amis à Paris.
+glauben an|Sie glaubt an eine bessere Zukunft.|Elle croit en un avenir meilleur.
+teilnehmen an|Ich nehme an einem Deutschkurs teil.|Je participe à un cours d'allemand.
+abhängen von|Das hängt vom Wetter ab.|Ça dépend du temps.
+bestehen aus|Die Wohnung besteht aus drei Zimmern.|L'appartement se compose de trois pièces.
+träumen von|Er träumt von einem Haus am Meer.|Il rêve d'une maison au bord de la mer.
+bitten um|Darf ich Sie um einen Gefallen bitten?|Puis-je vous demander un service ?
+fragen nach|Ein Tourist hat mich nach dem Weg gefragt.|Un touriste m'a demandé le chemin.
+achten auf|Achte bitte auf die Stufe!|Fais attention à la marche, s'il te plaît !
+gehören zu|Das gehört zu meinen Aufgaben.|Ça fait partie de mes tâches.
+sorgen für|Die Eltern sorgen für ihre Kinder.|Les parents prennent soin de leurs enfants.
+führen zu|Zu viel Stress führt oft zu Krankheiten.|Trop de stress mène souvent à des maladies.
+überzeugen von|Er hat mich von seiner Idee überzeugt.|Il m'a convaincu de son idée.
+hinweisen auf|Ich möchte Sie auf einen Fehler hinweisen.|Je voudrais vous signaler une erreur.
+verzichten auf|Ich verzichte seit einem Monat auf Zucker.|Je me passe de sucre depuis un mois.
+zweifeln an|Ich zweifle an seiner Ehrlichkeit.|Je doute de son honnêteté.

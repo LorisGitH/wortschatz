@@ -1,0 +1,114 @@
+// Phrases du quotidien par situation : une ligne « # id|Nom|Description » ouvre une situation, puis « allemand|français ».
+# arzt|Chez le médecin|Rendez-vous, symptômes, pharmacie
+Ich möchte einen Termin bei Dr. Weber machen.|Je voudrais prendre rendez-vous avec le Dr Weber.
+Haben Sie diese Woche noch einen Termin frei?|Avez-vous encore un créneau libre cette semaine ?
+Ich habe seit drei Tagen Fieber.|J'ai de la fièvre depuis trois jours.
+Mir tut der Rücken weh.|J'ai mal au dos.
+Ich bin gegen Penizillin allergisch.|Je suis allergique à la pénicilline.
+Wie oft muss ich die Tabletten nehmen?|Combien de fois dois-je prendre les comprimés ?
+Können Sie mich bitte krankschreiben?|Pouvez-vous me faire un arrêt maladie, s'il vous plaît ?
+Ich brauche ein Rezept für dieses Medikament.|J'ai besoin d'une ordonnance pour ce médicament.
+Hier ist meine Versichertenkarte.|Voici ma carte d'assurance maladie.
+Gibt es das Medikament auch ohne Rezept?|Ce médicament existe-t-il aussi sans ordonnance ?
+Ich weiß nicht, ob ich nüchtern kommen muss.|Je ne sais pas si je dois venir à jeun.
+# amt|Administration|Bürgeramt, papiers, formulaires
+Ich möchte meinen Wohnsitz anmelden.|Je voudrais déclarer mon domicile.
+Welche Unterlagen muss ich mitbringen?|Quels documents dois-je apporter ?
+Ich habe einen Termin um zehn Uhr.|J'ai un rendez-vous à dix heures.
+Können Sie mir beim Ausfüllen des Formulars helfen?|Pouvez-vous m'aider à remplir le formulaire ?
+Wo muss ich hier unterschreiben?|Où dois-je signer ?
+Mein Aufenthaltstitel läuft nächsten Monat ab.|Mon titre de séjour expire le mois prochain.
+Wie lange dauert die Bearbeitung?|Combien de temps prend le traitement du dossier ?
+Ich habe den Brief vom Amt nicht verstanden.|Je n'ai pas compris la lettre de l'administration.
+Könnten Sie das bitte langsamer wiederholen?|Pourriez-vous répéter plus lentement, s'il vous plaît ?
+Muss ich die Gebühr bar bezahlen?|Dois-je payer les frais en espèces ?
+Ich warte schon seit einer Stunde.|J'attends déjà depuis une heure.
+# wohnung|Logement|Propriétaire, réparations, voisinage
+Die Heizung funktioniert seit gestern nicht mehr.|Le chauffage ne marche plus depuis hier.
+Wann kann der Handwerker vorbeikommen?|Quand l'artisan peut-il passer ?
+Im Badezimmer tropft der Wasserhahn.|Dans la salle de bains, le robinet goutte.
+Ist die Miete warm oder kalt?|Le loyer est-il charges comprises ou hors charges ?
+Ich möchte die Wohnung gern besichtigen.|Je voudrais bien visiter l'appartement.
+Wie hoch ist die Kaution?|À combien s'élève la caution ?
+Wir ziehen am Ersten des Monats ein.|Nous emménageons le premier du mois.
+Ich habe meinen Schlüssel verloren.|J'ai perdu ma clé.
+Wo stelle ich den Müll hin?|Où est-ce que je dépose les poubelles ?
+Ich kündige die Wohnung zum Ende März.|Je résilie le bail pour la fin mars.
+Wann bekomme ich die Nebenkostenabrechnung?|Quand vais-je recevoir le décompte des charges ?
+# telefon|Au téléphone|Appeler, laisser un message
+Guten Tag, hier spricht Martin Dubois.|Bonjour, ici Martin Dubois.
+Ich rufe wegen meiner Rechnung an.|J'appelle au sujet de ma facture.
+Könnten Sie mich bitte mit Frau Schmidt verbinden?|Pourriez-vous me passer Mme Schmidt, s'il vous plaît ?
+Die Verbindung ist sehr schlecht.|La communication est très mauvaise.
+Können Sie das bitte buchstabieren?|Pouvez-vous l'épeler, s'il vous plaît ?
+Wann kann ich sie am besten erreichen?|Quand puis-je la joindre le plus facilement ?
+Ich rufe später noch einmal an.|Je rappellerai plus tard.
+Könnten Sie ihm sagen, dass ich angerufen habe?|Pourriez-vous lui dire que j'ai appelé ?
+Meine Nummer ist null eins sieben sechs.|Mon numéro est zéro un sept six.
+Entschuldigung, ich habe mich verwählt.|Excusez-moi, je me suis trompé de numéro.
+# einkaufen|Courses & magasins|Supermarché, boulangerie, retours
+Wo finde ich die Milch?|Où est-ce que je trouve le lait ?
+Ich hätte gern ein Kilo Äpfel.|Je voudrais un kilo de pommes.
+Haben Sie das auch in einer anderen Größe?|L'avez-vous aussi dans une autre taille ?
+Kann ich mit Karte bezahlen?|Est-ce que je peux payer par carte ?
+Brauchen Sie eine Tüte?|Avez-vous besoin d'un sac ?
+Ich möchte diese Hose umtauschen.|Je voudrais échanger ce pantalon.
+Den Kassenbon habe ich noch.|J'ai encore le ticket de caisse.
+Das ist mir leider zu teuer.|C'est malheureusement trop cher pour moi.
+Bis wann haben Sie heute geöffnet?|Jusqu'à quelle heure êtes-vous ouverts aujourd'hui ?
+Zwei Brötchen und ein Vollkornbrot, bitte.|Deux petits pains et un pain complet, s'il vous plaît.
+# restaurant|Café & restaurant|Réserver, commander, payer
+Ich möchte einen Tisch für vier Personen reservieren.|Je voudrais réserver une table pour quatre personnes.
+Ist dieser Platz noch frei?|Cette place est-elle encore libre ?
+Können wir bitte die Speisekarte haben?|Pouvons-nous avoir la carte, s'il vous plaît ?
+Was können Sie uns empfehlen?|Que pouvez-vous nous recommander ?
+Ich nehme die Suppe und danach den Fisch.|Je prends la soupe et ensuite le poisson.
+Ist in dem Gericht Fleisch?|Y a-t-il de la viande dans ce plat ?
+Wir möchten bitte zahlen.|Nous voudrions payer, s'il vous plaît.
+Zusammen oder getrennt?|Ensemble ou séparément ?
+Stimmt so, danke.|Gardez la monnaie, merci.
+Das Essen war ausgezeichnet.|Le repas était excellent.
+# verkehr|Transports|Train, bus, trajets
+Wo kann ich eine Fahrkarte kaufen?|Où puis-je acheter un billet ?
+Fährt dieser Bus zum Hauptbahnhof?|Ce bus va-t-il à la gare centrale ?
+Wann fährt der nächste Zug nach München?|Quand part le prochain train pour Munich ?
+Muss ich umsteigen?|Dois-je changer ?
+Der Zug hat zwanzig Minuten Verspätung.|Le train a vingt minutes de retard.
+Ich habe meinen Anschluss verpasst.|J'ai raté ma correspondance.
+An welcher Haltestelle muss ich aussteigen?|À quel arrêt dois-je descendre ?
+Ist das Deutschlandticket hier gültig?|Le Deutschlandticket est-il valable ici ?
+Entschuldigung, wie komme ich zum Rathaus?|Excusez-moi, comment aller à la mairie ?
+Gehen Sie geradeaus und dann die zweite Straße links.|Allez tout droit, puis la deuxième rue à gauche.
+# arbeit|Au travail|Collègues, réunions, absences
+Ich bin heute krank und komme nicht ins Büro.|Je suis malade aujourd'hui et je ne viens pas au bureau.
+Können wir das Meeting auf morgen verschieben?|Pouvons-nous repousser la réunion à demain ?
+Ich schicke Ihnen die Unterlagen bis Freitag.|Je vous envoie les documents d'ici vendredi.
+Hast du kurz Zeit für eine Frage?|Tu as un moment pour une question ?
+Ich habe die Aufgabe noch nicht ganz verstanden.|Je n'ai pas encore tout à fait compris la tâche.
+Ich möchte nächste Woche zwei Tage Urlaub nehmen.|Je voudrais prendre deux jours de congé la semaine prochaine.
+Wer ist für dieses Projekt zuständig?|Qui est responsable de ce projet ?
+Ich arbeite heute im Homeoffice.|Je travaille de chez moi aujourd'hui.
+Wann bekomme ich meine Gehaltsabrechnung?|Quand vais-je recevoir ma fiche de paie ?
+Schönes Wochenende und bis Montag!|Bon week-end et à lundi !
+# nachbarn|Voisins & small talk|Se présenter, discuter, rendre service
+Hallo, ich bin neu hier im Haus.|Bonjour, je suis nouveau dans l'immeuble.
+Woher kommen Sie eigentlich?|D'où venez-vous, au fait ?
+Wie lange wohnen Sie schon hier?|Depuis combien de temps habitez-vous ici ?
+Könnten Sie mein Paket annehmen, wenn ich nicht da bin?|Pourriez-vous réceptionner mon colis si je ne suis pas là ?
+Wir feiern am Samstag eine kleine Party.|Nous faisons une petite fête samedi.
+Es tut mir leid, dass es gestern so laut war.|Je suis désolé qu'il y ait eu autant de bruit hier.
+Was machen Sie am Wochenende?|Que faites-vous ce week-end ?
+Das Wetter ist heute wirklich schön.|Il fait vraiment beau aujourd'hui.
+Ich habe am Wochenende einen Ausflug gemacht.|J'ai fait une excursion ce week-end.
+Sagen Sie Bescheid, wenn Sie Hilfe brauchen.|Dites-le-moi si vous avez besoin d'aide.
+# bank|Banque & poste|Compte, colis, courrier
+Ich möchte ein Girokonto eröffnen.|Je voudrais ouvrir un compte courant.
+Meine Karte ist gesperrt.|Ma carte est bloquée.
+Ich möchte Geld auf dieses Konto überweisen.|Je voudrais virer de l'argent sur ce compte.
+Wie hoch sind die Gebühren?|À combien s'élèvent les frais ?
+Ich möchte dieses Paket nach Frankreich schicken.|Je voudrais envoyer ce colis en France.
+Wie lange braucht ein Brief nach Paris?|Combien de temps met une lettre pour Paris ?
+Ich habe eine Benachrichtigung für ein Paket bekommen.|J'ai reçu un avis de passage pour un colis.
+Brauche ich dafür meinen Ausweis?|Ai-je besoin de ma carte d'identité pour ça ?
+Ich möchte eine Briefmarke für eine Postkarte.|Je voudrais un timbre pour une carte postale.
+Können Sie mir die Kontonummer noch einmal sagen?|Pouvez-vous me redonner le numéro de compte ?
