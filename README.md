@@ -42,6 +42,8 @@ Tout le reste est fermé (`default-src 'self'`, `object-src 'none'`, `base-uri '
 
 Les tâches sont suivies dans les [issues GitHub](https://github.com/LorisGitH/wortschatz/issues), triées avec les libellés `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human` et `wontfix`. Les instructions pour Claude sont dans [`CLAUDE.md`](CLAUDE.md), et la configuration des skills d'ingénierie dans [`docs/agents/`](docs/agents/).
 
+Les skills d'ingénierie viennent du plugin `mattpocock-skills` ([mattpocock/skills](https://github.com/mattpocock/skills)), déclaré dans [`.claude/settings.json`](.claude/settings.json) : en ouvrant le dépôt dans Claude Code (terminal ou VS Code), accepter l'installation proposée, puis taper `/` pour retrouver `mattpocock-skills:triage`, `mattpocock-skills:to-tickets`, etc.
+
 ## Licence
 
 [PolyForm Noncommercial 1.0.0](LICENSE.md) : usage libre pour un usage personnel, l'étude ou un organisme non commercial (école, association…). Tout usage commercial est interdit sans l'accord de l'auteur.
