@@ -1,5 +1,5 @@
 // Offline support: the app shell is cached; pages try the network first (revalidated, never a stale HTTP copy) so updates arrive, fonts are cached once.
-const VERSION = "d9a33bbcfc";
+const VERSION = "a13c7b25f6";
 const SHELL = ["./", "index.html", "app.js?v=" + VERSION, "manifest.webmanifest", "icon-180.png", "icon-192.png", "icon-512.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open("app-" + VERSION).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
 self.addEventListener("activate", e => {

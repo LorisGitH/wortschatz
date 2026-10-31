@@ -471,6 +471,12 @@ textarea.search { resize: vertical; }
 .mform .note { margin: 0; }
 .del { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 30px; height: 30px; color: var(--muted); font-size: 13px; flex: none; }
 .del:hover { color: var(--bad); border-color: var(--bad); }
+/* Grammaire: collapsible parts */
+.gparts { display: flex; flex-direction: column; gap: 10px; }
+.gpart-h { display: flex; align-items: center; justify-content: space-between; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 13px 16px; font-family: var(--font-display); font-size: 18px; }
+.gpart-h[aria-expanded="true"] { border-color: var(--ink); }
+.gbody { padding-top: 12px; }
+.trainlink { align-self: flex-start; border: 0; background: none; padding: 2px 0; font-family: var(--font-display); font-size: 17px; font-weight: 700; color: var(--ink); text-decoration: underline; text-decoration-color: var(--signal); text-decoration-thickness: 3px; text-underline-offset: 3px; }
 /* Quiz hub */
 .hubcard { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; }
 .hubcard b { display: block; font-family: var(--font-display); font-size: 18px; font-weight: 600; }
@@ -890,17 +896,13 @@ const ICONS = {
   today: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/>',
   mots: '<rect x="3.5" y="7" width="12" height="14" rx="2"/><path d="M8.5 3.5h10a2 2 0 0 1 2 2V17"/>',
   gram: '<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/>',
-  verbes: '<path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6z"/>',
   iki: '<rect x="3" y="4.5" width="18" height="12" rx="1.5"/><path d="M7 9h7M7 12.5h4.5M9 20.5l1.5-4M15 20.5l-1.5-4"/>',
-  phrases: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4h0.5A1.5 1.5 0 0 1 4 14.5z"/><path d="M8 9h8M8 12h5"/>',
 };
 const SECTIONS = [
   { id: "today", label: "Aujourd'hui", subs: [] },
   // Quiz is a hub of cards: its pages are reached from the cards (no pills), each with a way back to the hub
   { id: "mots", label: "Quiz", nopills: true, subs: [["hub", "Quiz"], ["quiz", "Vocabulaire"], ["verbes", "Verbes"], ["dict", "Dictée"], ["err", "Mes erreurs"]] },
-  { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["dek", "Déclinaisons"], ["order", "Ordre des mots"], ["lex", "Lexique"]] },
-  { id: "verbes", label: "Verbes", subs: [["irr", "Irréguliers"], ["vprep", "Prépositions"]] },
-  { id: "phrases", label: "Phrases", subs: [["phr", "Situations"]] },
+  { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["verbes", "Verbes"], ["listes", "Listes"]] },
   { id: "iki", label: "IKI", subs: [] },
 ];
 const SEC_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
@@ -933,6 +935,14 @@ if (settings.sec === "mots") settings.sub.mots = "hub";
 // the Erreurs section and the Dictée of Phrases moved into the Quiz hub
 if (settings.sec === "err") { settings.sec = "mots"; settings.sub.mots = "err"; }
 if (settings.sub.phrases === "dict") { settings.sub.phrases = "phr"; if (settings.sec === "phrases") { settings.sec = "mots"; settings.sub.mots = "dict"; } }
+// Grammaire now has three pages (Fiches, Verbes, Listes), each made of collapsible parts; Verbes and Phrases moved in
+settings.gopen = settings.gopen || {};
+const GRAM_PAGE_OF = { dek: "fiches", order: "fiches", irr: "verbes", vprep: "verbes", lex: "listes", phr: "listes" };
+if (settings.sec === "verbes" || settings.sec === "phrases") {
+  const part = settings.sec === "verbes" ? settings.sub.verbes : "phr";
+  const was = settings.sec; settings.sec = "gram"; settings.sub.gram = part || (was === "verbes" ? "irr" : "phr");
+}
+if (GRAM_PAGE_OF[settings.sub.gram]) { settings.gopen[settings.sub.gram] = true; settings.sub.gram = GRAM_PAGE_OF[settings.sub.gram]; }
 function curSub(sec) { const s = SEC_BY_ID[sec]; return s.subs.some(x => x[0] === settings.sub[sec]) ? settings.sub[sec] : (s.subs[0] || [""])[0]; }
 let setOpen = false;
 
@@ -1156,6 +1166,24 @@ function lexView() {
     <div id="lex"></div>`;
 }
 
+// ---- Grammaire: each page is a stack of collapsible parts (the first one is open until the person chooses) ----
+const GRAM_PAGES = {
+  fiches: [["fiches", "Fiches", () => gramTab()], ["dek", "Déclinaisons", () => dkTab()], ["order", "Ordre des mots", () => orderTab()]],
+  verbes: [["irr", "Irréguliers", () => irrTab()], ["vprep", "Prépositions", () => vprepTab()]],
+  listes: [["lex", "Lexique", () => lexView()], ["phr", "Situations", () => phrTab()]],
+};
+function partOpen(key) {
+  if (settings.gopen[key] !== undefined) return !!settings.gopen[key];
+  return Object.values(GRAM_PAGES).some(parts => parts[0][0] === key);
+}
+function gramPage(page) {
+  return `<div class="gparts">${(GRAM_PAGES[page] || GRAM_PAGES.fiches).map(([key, title, view]) => {
+    const open = partOpen(key);
+    return `<section class="gpart"><button class="gpart-h" data-gopen="${key}" aria-expanded="${open}"><b>${title}</b><span aria-hidden="true">${open ? "▾" : "▸"}</span></button>${open ? `<div class="gbody section">${view()}</div>` : ""}</section>`;
+  }).join("")}</div>`;
+}
+// the discreet way to start an exercise from a page that is for reading
+function trainLink(kind) { return `<button class="trainlink" data-vx="${kind}">S'entraîner →</button>`; }
 function renderHome() {
   if (!SEC_BY_ID[settings.sec] || (settings.sec === "iki" && !showIki())) settings.sec = "today";
   const sec = settings.sec;
@@ -1165,19 +1193,15 @@ function renderHome() {
   if (sec === "today") body = todayView();
   else if (sec === "iki") body = ikiView();
   else if (sec === "mots") body = quizPage(sub, AW);
-  else if (sub === "lex") body = lexView();
-  else if (sub === "fiches") body = gramTab();
-  else if (sub === "dek") body = dkTab();
-  else if (sub === "order") body = orderTab();
-  else if (sub === "conj") body = conjTab();
-  else if (sub === "irr") body = irrTab();
-  else if (sub === "qprep") body = qprepTab();
-  else if (sub === "vprep") body = vprepTab();
-  else if (sub === "phr") body = phrTab();
+  else if (sec === "gram") body = gramPage(sub);
   app.innerHTML = topBar(sec === "today" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length && !SEC_BY_ID[sec].nopills ? subNav(sec) : "") + body + bottomNav();
-  if (sub === "lex" && sec === "gram") renderLex();
-  if (sub === "irr") renderIrrList();
-  if (sub === "vprep") renderVpList();
+  if (sec === "gram") {
+    // the long lists are filled in after the page is in place, only for the parts shown on this page
+    const shown = (GRAM_PAGES[sub] || []).map(p => p[0]).filter(partOpen);
+    if (shown.includes("lex")) renderLex();
+    if (shown.includes("irr")) renderIrrList();
+    if (shown.includes("vprep")) renderVpList();
+  }
   const cur = app.querySelector('.subnav [aria-selected="true"]');
   if (cur) cur.scrollIntoView({ block: "nearest", inline: "nearest" });
 }
@@ -1765,6 +1789,7 @@ function verbSetChips() {
 function irrTab() {
   return `
     ${levelChips()}
+    ${trainLink("conj")}
     ${verbSetChips()}
     <input class="search" id="qi" type="search" placeholder="Chercher un verbe (allemand ou français)…" value="${esc(settings.qi || "")}" autocomplete="off">
     <p class="note">Touche un verbe pour voir toute sa conjugaison. <em class="irr">En couleur</em> : les formes qui ne suivent pas la règle. Le parfait indique l'auxiliaire : <b>hat</b> (haben) ou <b>ist</b> (sein). Pour les verbes séparables, la particule va à la fin de la phrase : ich <b>stehe</b> um 7 Uhr <b>auf</b>.</p>
@@ -1812,6 +1837,7 @@ function conjTab() {
 }
 function vprepTab() {
   return `
+    ${trainLink("prep")}
     <input class="search" id="qp" type="search" placeholder="Chercher un verbe ou une préposition…" value="${esc(settings.qp || "")}" autocomplete="off">
     <div class="tipcard">
       <b>Repères pour le cas</b>
@@ -1913,9 +1939,7 @@ function dkTab() {
   const byCase = ["N", "A", "D", "G"].map(k => { let ok = 0, n = 0; for (const [key, s] of Object.entries(st)) if (key[0] === k) { ok += s[0]; n += s[1]; } return [k, ok, n]; });
   return `
     ${levelChips()}
-    <button class="cta" data-vx="dek">
-      <div><h2>Déclinaisons</h2><p>10 phrases : écris ${m === "adj" ? "l'article et l'adjectif" : "l'article"} au bon cas.</p></div><span class="go">Jouer →</span>
-    </button>
+    ${trainLink("dek")}
     <section class="section">
       <span class="label">Exercice</span>
       <div class="dirs" role="group" aria-label="Exercice">${[["art", "Articles seuls"], ["adj", "Article + adjectif"]].map(([k, l]) => `<button class="chip" data-dkmode="${k}" aria-pressed="${m === k}">${l}</button>`).join("")}</div>
@@ -2251,9 +2275,7 @@ function phrTab() {
   const items = sitItems("psit");
   return `
     ${sitChips("psit")}
-    <button class="cta" data-vx="cards">
-      <div><h2>Apprendre ces phrases</h2><p>10 cartes : tu lis la phrase en français, tu la dis en allemand, puis tu vérifies.</p></div><span class="go">Jouer →</span>
-    </button>
+    ${trainLink("cards")}
     ${statsBox(items, "ph", "phrases")}
     <div id="phlist">${(settings.psit && settings.psit !== "all" ? [SIT_BY_ID[settings.psit]] : SITS).map(s => `
       <section class="section" style="margin-bottom:18px">
@@ -2265,9 +2287,7 @@ function orderTab() {
   // always the whole set of phrases (Loris asked to drop the situation filter here)
   const items = PH;
   return `
-    <button class="cta" data-vx="order">
-      <div><h2>Remets la phrase dans l'ordre</h2><p>8 phrases du quotidien : touche les mots dans le bon ordre.</p></div><span class="go">Jouer →</span>
-    </button>
+    ${trainLink("order")}
     ${autoSwitch()}
     ${statsBox(items, "ord", "phrases")}
     <div class="tipcard"><b>Les 3 places du verbe</b><ul>
@@ -2827,6 +2847,7 @@ app.addEventListener("click", e => {
   if (t.dataset.ikidir) { settings.ikidir = t.dataset.ikidir; saveSettings(); render(); return; }
   if (t.dataset.start) { startSession(t.dataset.start, t.dataset.theme); return; }
   if (t.dataset.errgo) { startErrSession(t.dataset.errgo); return; }
+  if (t.dataset.gopen) { settings.gopen[t.dataset.gopen] = !partOpen(t.dataset.gopen); saveSettings(); render(); return; }
   if (t.dataset.vx) { startVX(t.dataset.vx); return; }
   if (t.dataset.ctense) { settings.ctense = t.dataset.ctense; saveSettings(); render(); return; }
   if (t.dataset.csep) { settings.csep = t.dataset.csep; saveSettings(); render(); return; }

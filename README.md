@@ -17,6 +17,16 @@ La rubrique Quiz est une page de cartes, groupées par thème :
 
 Chaque carte ouvre l'écran correspondant, avec « ← Quiz » pour revenir. Toucher « Quiz » dans la barre de rubriques ramène toujours à cette page.
 
+## Grammaire
+
+La rubrique Grammaire sert à lire et à apprendre. Elle a trois pages, chacune faite de parties que l'on déplie ou replie (la première est ouverte au départ, le choix est conservé) :
+
+- **Fiches** : les fiches, les déclinaisons et l'ordre des mots.
+- **Verbes** : les verbes irréguliers et les verbes à préposition.
+- **Listes** : le lexique et les situations (exemples de phrases).
+
+Un lien « S'entraîner → » lance, depuis la page de lecture, le même exercice que dans Quiz.
+
 ## Rubrique IKI
 
 La rubrique IKI (les cours de l'école) sert à peu de monde : elle est masquée par défaut. Réglages, « Afficher IKI » l'ajoute à la barre de rubriques. Elle apparaît d'elle-même pour qui a déjà ajouté ou modifié un cours IKI, ou travaillé des mots IKI. Éteindre l'interrupteur la masque à nouveau, sans rien effacer de la progression.
