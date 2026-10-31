@@ -6,6 +6,17 @@ Version installable et hors ligne, publiée avec GitHub Pages. Sur iPhone : ouvr
 
 La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter ou importer la progression.
 
+## Quiz
+
+La rubrique Quiz est une page de cartes, groupées par thème :
+
+- **Mots** : Vocabulaire (QCM, saisie, genre, pluriels).
+- **Verbes** : conjugaison et verbes à préposition.
+- **Grammaire** : Déclinaisons, Ordre des mots et Phrases, qui lancent directement l'exercice.
+- **Écoute et révision** : Dictée (si le navigateur sait lire l'audio) et Mes erreurs, avec le nombre d'erreurs à corriger.
+
+Chaque carte ouvre l'écran correspondant, avec « ← Quiz » pour revenir. Toucher « Quiz » dans la barre de rubriques ramène toujours à cette page.
+
 ## Rubrique IKI
 
 La rubrique IKI (les cours de l'école) sert à peu de monde : elle est masquée par défaut. Réglages, « Afficher IKI » l'ajoute à la barre de rubriques. Elle apparaît d'elle-même pour qui a déjà ajouté ou modifié un cours IKI, ou travaillé des mots IKI. Éteindre l'interrupteur la masque à nouveau, sans rien effacer de la progression.
