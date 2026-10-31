@@ -2570,7 +2570,12 @@ const SECTIONS = [
 ];
 const SEC_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
 // IKI is only for a few people: hidden unless switched on in Réglages, or already in use (a lesson added or edited, or progress on an IKI word)
-function ikiUsed() { return Object.values(P.iki || {}).some(l => l.t > 1) || WORDS.some(w => w.iki && P.w[w.id]); }
+// (a few IKI words share their id, hence their progress, with a normal word: those say nothing about IKI)
+function ikiUsed() {
+  if (Object.values(P.iki || {}).some(l => l.t > 1)) return true;
+  const own = new Set(WORDS.filter(w => !w.iki).map(w => w.id));
+  return WORDS.some(w => w.iki && P.w[w.id] && !own.has(w.id));
+}
 function showIki() { return settings.showIki === undefined ? ikiUsed() : !!settings.showIki; }
 function visibleSections() { return SECTIONS.filter(s => s.id !== "iki" || showIki()); }
 // earlier versions used one flat row of tabs: map the last one used to its new place
