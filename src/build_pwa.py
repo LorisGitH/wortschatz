@@ -118,6 +118,8 @@ La rubrique Quiz est une page de cartes, groupées par thème :
 
 Chaque carte ouvre l'écran correspondant, avec « ← Quiz » pour revenir. Toucher « Quiz » dans la barre de rubriques ramène toujours à cette page.
 
+La page Aujourd'hui affiche une carte « Revoir mes erreurs » avec le nombre d'erreurs, tant qu'il y en a, et elle ouvre Mes erreurs.
+
 ## Grammaire
 
 La rubrique Grammaire sert à lire et à apprendre. Elle a trois pages, chacune faite de parties que l'on déplie ou replie (la première est ouverte au départ, le choix est conservé) :

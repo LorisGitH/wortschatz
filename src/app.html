@@ -1055,10 +1055,10 @@ function todayView() {
   const nx = steps.indexOf(false);
   const nErr = errCount();
   const weakRows = [
-    [nErr, nErr > 1 ? "erreurs" : "erreur", "à corriger", 'data-go="mots:err"'],
     [due, "mots", "à revoir aujourd'hui", 'data-start="review"'],
     [activeFiches().filter(f => ficheState(f.id).key === "weak").length, "fiches", "à retravailler", 'data-go="gram:fiches"'],
   ].filter(r => r[0]);
+  const errCard = nErr ? hubCard('data-go="mots:err"', "Revoir mes erreurs", nErr > 1 ? "erreurs à corriger" : "erreur à corriger", `<i class="bbadge num">${Math.min(nErr, 99)}</i>`) : "";
   return `
     <section class="stats" aria-label="Progression">
       <div class="stat"><b>${streak()}</b><span>jour${streak() > 1 ? "s" : ""} de suite</span></div>
@@ -1077,8 +1077,9 @@ function todayView() {
     </section>
     <section class="section dcol">
       <span class="label">À revoir</span>
+      ${errCard}
       ${weakRows.length ? `<div class="lex">${weakRows.map(([n, what, how, attrs]) => `<button class="wrow" ${attrs}><b class="num">${n}</b><span>${what} ${how}</span><span aria-hidden="true">→</span></button>`).join("")}</div>`
-        : `<p class="note">Rien à revoir pour l'instant. Les erreurs de chaque exercice apparaîtront ici.</p>`}
+        : nErr ? "" : `<p class="note">Rien à revoir pour l'instant. Les erreurs de chaque exercice apparaîtront ici.</p>`}
     </section></div>`;
 }
 function doneFiches() { return FICHES.filter(f => ficheState(f.id).key === "ok").length; }
