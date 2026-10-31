@@ -38,6 +38,10 @@ Tout le reste est fermé (`default-src 'self'`, `object-src 'none'`, `base-uri '
 
 `app.js` est appelé avec `?v=<version>` : une nouvelle page ne peut pas tourner avec un ancien script gardé en cache.
 
+## Travailler sur le projet
+
+Les tâches sont suivies dans les [issues GitHub](https://github.com/LorisGitH/wortschatz/issues), triées avec les libellés `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human` et `wontfix`. Les instructions pour Claude sont dans [`CLAUDE.md`](CLAUDE.md), et la configuration des skills d'ingénierie dans [`docs/agents/`](docs/agents/).
+
 ## Licence
 
 [PolyForm Noncommercial 1.0.0](LICENSE.md) : usage libre pour un usage personnel, l'étude ou un organisme non commercial (école, association…). Tout usage commercial est interdit sans l'accord de l'auteur.
