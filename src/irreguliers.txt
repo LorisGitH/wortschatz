@@ -1,0 +1,144 @@
+# Verbes irréguliers. Format : infinitif|présent|prétérit|parfait|traduction|niveau
+# présent = "du,er" (les autres personnes sont régulières) ou les 6 formes "ich,du,er,wir,ihr,sie"
+# prétérit = forme ich/er (les autres personnes s'en déduisent) ; parfait = forme er (hat/ist + participe)
+sein|bin,bist,ist,sind,seid,sind|war|ist gewesen|être|A1
+haben|habe,hast,hat,haben,habt,haben|hatte|hat gehabt|avoir|A1
+werden|werde,wirst,wird,werden,werdet,werden|wurde|ist geworden|devenir|A1
+wissen|weiß,weißt,weiß,wissen,wisst,wissen|wusste|hat gewusst|savoir|A1
+können|kann,kannst,kann,können,könnt,können|konnte|hat gekonnt|pouvoir|A1
+müssen|muss,musst,muss,müssen,müsst,müssen|musste|hat gemusst|devoir (obligation)|A1
+wollen|will,willst,will,wollen,wollt,wollen|wollte|hat gewollt|vouloir|A1
+dürfen|darf,darfst,darf,dürfen,dürft,dürfen|durfte|hat gedurft|avoir le droit de|A1
+sollen|soll,sollst,soll,sollen,sollt,sollen|sollte|hat gesollt|devoir (on me l'a demandé)|A1
+mögen|mag,magst,mag,mögen,mögt,mögen|mochte|hat gemocht|aimer bien|A1
+gehen|gehst,geht|ging|ist gegangen|aller (à pied)|A1
+kommen|kommst,kommt|kam|ist gekommen|venir|A1
+fahren|fährst,fährt|fuhr|ist gefahren|aller (en véhicule), conduire|A1
+laufen|läufst,läuft|lief|ist gelaufen|courir, marcher|A1
+fliegen|fliegst,fliegt|flog|ist geflogen|prendre l'avion, voler|A1
+bleiben|bleibst,bleibt|blieb|ist geblieben|rester|A1
+schwimmen|schwimmst,schwimmt|schwamm|ist geschwommen|nager|A1
+stehen|stehst,steht|stand|hat gestanden|être debout|A1
+sitzen|sitzt,sitzt|saß|hat gesessen|être assis|A1
+liegen|liegst,liegt|lag|hat gelegen|être couché, se trouver|A1
+essen|isst,isst|aß|hat gegessen|manger|A1
+trinken|trinkst,trinkt|trank|hat getrunken|boire|A1
+sehen|siehst,sieht|sah|hat gesehen|voir|A1
+lesen|liest,liest|las|hat gelesen|lire|A1
+sprechen|sprichst,spricht|sprach|hat gesprochen|parler|A1
+nehmen|nimmst,nimmt|nahm|hat genommen|prendre|A1
+geben|gibst,gibt|gab|hat gegeben|donner|A1
+helfen|hilfst,hilft|half|hat geholfen|aider|A1
+treffen|triffst,trifft|traf|hat getroffen|rencontrer|A1
+schlafen|schläfst,schläft|schlief|hat geschlafen|dormir|A1
+finden|findest,findet|fand|hat gefunden|trouver|A1
+heißen|heißt,heißt|hieß|hat geheißen|s'appeler|A1
+schreiben|schreibst,schreibt|schrieb|hat geschrieben|écrire|A1
+beginnen|beginnst,beginnt|begann|hat begonnen|commencer|A1
+bringen|bringst,bringt|brachte|hat gebracht|apporter|A1
+kennen|kennst,kennt|kannte|hat gekannt|connaître|A1
+gefallen|gefällst,gefällt|gefiel|hat gefallen|plaire|A1
+vergessen|vergisst,vergisst|vergaß|hat vergessen|oublier|A1
+verstehen|verstehst,versteht|verstand|hat verstanden|comprendre|A1
+bekommen|bekommst,bekommt|bekam|hat bekommen|recevoir, obtenir|A1
+tun|tust,tut|tat|hat getan|faire|A2
+denken|denkst,denkt|dachte|hat gedacht|penser|A2
+nennen|nennst,nennt|nannte|hat genannt|nommer|A2
+rennen|rennst,rennt|rannte|ist gerannt|courir (vite)|A2
+waschen|wäschst,wäscht|wusch|hat gewaschen|laver|A2
+tragen|trägst,trägt|trug|hat getragen|porter|A2
+halten|hältst,hält|hielt|hat gehalten|tenir, s'arrêter|A2
+lassen|lässt,lässt|ließ|hat gelassen|laisser, faire faire|A2
+fallen|fällst,fällt|fiel|ist gefallen|tomber|A2
+rufen|rufst,ruft|rief|hat gerufen|appeler|A2
+steigen|steigst,steigt|stieg|ist gestiegen|monter, augmenter|A2
+scheinen|scheinst,scheint|schien|hat geschienen|briller ; sembler|A2
+treiben|treibst,treibt|trieb|hat getrieben|pratiquer (Sport treiben)|A2
+schneiden|schneidest,schneidet|schnitt|hat geschnitten|couper|A2
+gewinnen|gewinnst,gewinnt|gewann|hat gewonnen|gagner|A2
+singen|singst,singt|sang|hat gesungen|chanter|A2
+ziehen|ziehst,zieht|zog|hat gezogen|tirer|A2
+verlieren|verlierst,verliert|verlor|hat verloren|perdre|A2
+schließen|schließt,schließt|schloss|hat geschlossen|fermer|A2
+bitten|bittest,bittet|bat|hat gebeten|demander, prier|A2
+empfehlen|empfiehlst,empfiehlt|empfahl|hat empfohlen|recommander|A2
+sterben|stirbst,stirbt|starb|ist gestorben|mourir|A2
+werfen|wirfst,wirft|warf|hat geworfen|jeter|A2
+unterschreiben|unterschreibst,unterschreibt|unterschrieb|hat unterschrieben|signer|A2
+fangen|fängst,fängt|fing|hat gefangen|attraper|B1
+raten|rätst,rät|riet|hat geraten|conseiller, deviner|B1
+schlagen|schlägst,schlägt|schlug|hat geschlagen|frapper, battre|B1
+laden|lädst,lädt|lud|hat geladen|charger|B1
+wachsen|wächst,wächst|wuchs|ist gewachsen|grandir, pousser|B1
+braten|brätst,brät|briet|hat gebraten|faire rôtir, faire cuire|B1
+schreien|schreist,schreit|schrie|hat geschrien|crier|B1
+leihen|leihst,leiht|lieh|hat geliehen|prêter|B1
+leiden|leidest,leidet|litt|hat gelitten|souffrir|B1
+streiten|streitest,streitet|stritt|hat gestritten|se disputer|B1
+reiten|reitest,reitet|ritt|ist geritten|monter à cheval|B1
+beißen|beißt,beißt|biss|hat gebissen|mordre|B1
+vergleichen|vergleichst,vergleicht|verglich|hat verglichen|comparer|B1
+entscheiden|entscheidest,entscheidet|entschied|hat entschieden|décider|B1
+springen|springst,springt|sprang|ist gesprungen|sauter|B1
+verschwinden|verschwindest,verschwindet|verschwand|ist verschwunden|disparaître|B1
+klingen|klingst,klingt|klang|hat geklungen|sonner, avoir l'air|B1
+frieren|frierst,friert|fror|hat gefroren|avoir froid, geler|B1
+fließen|fließt,fließt|floss|ist geflossen|couler|B1
+genießen|genießt,genießt|genoss|hat genossen|savourer, profiter de|B1
+gießen|gießt,gießt|goss|hat gegossen|arroser, verser|B1
+bieten|bietest,bietet|bot|hat geboten|offrir, proposer|B1
+verbieten|verbietest,verbietet|verbot|hat verboten|interdire|B1
+riechen|riechst,riecht|roch|hat gerochen|sentir (une odeur)|B1
+lügen|lügst,lügt|log|hat gelogen|mentir|B1
+wiegen|wiegst,wiegt|wog|hat gewogen|peser|B1
+messen|misst,misst|maß|hat gemessen|mesurer|B1
+stehlen|stiehlst,stiehlt|stahl|hat gestohlen|voler (dérober)|B1
+brechen|brichst,bricht|brach|hat gebrochen|casser|B1
+gelten|giltst,gilt|galt|hat gegolten|être valable|B1
+erhalten|erhältst,erhält|erhielt|hat erhalten|recevoir (courrier officiel)|B1
+verlassen|verlässt,verlässt|verließ|hat verlassen|quitter|B1
+hängen|hängst,hängt|hing|hat gehangen|être accroché|B1
+brennen|brennst,brennt|brannte|hat gebrannt|brûler|B1
+stoßen|stößt,stößt|stieß|hat gestoßen|pousser, heurter|B2
+schweigen|schweigst,schweigt|schwieg|hat geschwiegen|se taire|B2
+greifen|greifst,greift|griff|hat gegriffen|saisir|B2
+reißen|reißt,reißt|riss|hat gerissen|déchirer|B2
+beweisen|beweist,beweist|bewies|hat bewiesen|prouver|B2
+sinken|sinkst,sinkt|sank|ist gesunken|baisser, couler|B2
+zwingen|zwingst,zwingt|zwang|hat gezwungen|forcer, obliger|B2
+schieben|schiebst,schiebt|schob|hat geschoben|pousser (un objet)|B2
+heben|hebst,hebt|hob|hat gehoben|soulever|B2
+treten|trittst,tritt|trat|ist getreten|marcher sur, entrer|B2
+befehlen|befiehlst,befiehlt|befahl|hat befohlen|ordonner|B2
+# Verbes séparables : la particule est séparée par « · » ; le présent et le prétérit sont donnés pour le verbe de base, le parfait en entier.
+auf·stehen|stehst,steht|stand|ist aufgestanden|se lever|A1
+an·fangen|fängst,fängt|fing|hat angefangen|commencer|A1
+an·rufen|rufst,ruft|rief|hat angerufen|appeler (au téléphone)|A1
+ein·kaufen|kaufst,kauft|kaufte|hat eingekauft|faire les courses|A1
+ein·steigen|steigst,steigt|stieg|ist eingestiegen|monter (dans un véhicule)|A1
+aus·steigen|steigst,steigt|stieg|ist ausgestiegen|descendre (d'un véhicule)|A1
+um·steigen|steigst,steigt|stieg|ist umgestiegen|changer (de train, de bus)|A1
+an·kommen|kommst,kommt|kam|ist angekommen|arriver|A1
+mit·kommen|kommst,kommt|kam|ist mitgekommen|venir avec|A1
+fern·sehen|siehst,sieht|sah|hat ferngesehen|regarder la télévision|A1
+ab·holen|holst,holt|holte|hat abgeholt|aller chercher|A1
+auf·machen|machst,macht|machte|hat aufgemacht|ouvrir|A1
+zu·machen|machst,macht|machte|hat zugemacht|fermer|A1
+aus·gehen|gehst,geht|ging|ist ausgegangen|sortir|A2
+ab·fahren|fährst,fährt|fuhr|ist abgefahren|partir (train, bus)|A2
+zurück·kommen|kommst,kommt|kam|ist zurückgekommen|revenir|A2
+mit·nehmen|nimmst,nimmt|nahm|hat mitgenommen|emporter, emmener|A2
+auf·hören|hörst,hört|hörte|hat aufgehört|arrêter|A2
+auf·räumen|räumst,räumt|räumte|hat aufgeräumt|ranger|A2
+an·ziehen|ziehst,zieht|zog|hat angezogen|mettre (un vêtement)|A2
+um·ziehen|ziehst,zieht|zog|ist umgezogen|déménager|A2
+ein·laden|lädst,lädt|lud|hat eingeladen|inviter|A2
+aus·füllen|füllst,füllt|füllte|hat ausgefüllt|remplir (un formulaire)|A2
+zu·hören|hörst,hört|hörte|hat zugehört|écouter|A2
+aus·sehen|siehst,sieht|sah|hat ausgesehen|avoir l'air|A2
+kennen·lernen|lernst,lernt|lernte|hat kennengelernt|faire la connaissance de|A2
+vor·schlagen|schlägst,schlägt|schlug|hat vorgeschlagen|proposer|B1
+vor·bereiten|bereitest,bereitet|bereitete|hat vorbereitet|préparer|B1
+fest·stellen|stellst,stellt|stellte|hat festgestellt|constater|B1
+teil·nehmen|nimmst,nimmt|nahm|hat teilgenommen|participer|B1
+ab·geben|gibst,gibt|gab|hat abgegeben|remettre, déposer|B1

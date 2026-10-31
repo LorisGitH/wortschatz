@@ -1,0 +1,978 @@
+# bases|Premiers pas|Saluer, remercier, se faire comprendre
+Hallo!||Hi! / Hello!
+Guten Morgen!||Good morning!
+Guten Tag!||Good day! / Hello! (formal, during the day)
+Guten Abend!||Good evening!
+Gute Nacht!||Good night!
+Tschüss!||Bye! (informal, when leaving)
+Auf Wiedersehen!||Goodbye!
+Bis später!||See you later!
+Bis morgen!||See you tomorrow!
+Wie geht's?||How are you?
+Mir geht es gut, danke.||I'm fine, thanks.
+Danke schön!||Thank you very much!
+Bitte schön!||You're welcome! / Here you go!
+Gern geschehen.||My pleasure. (you're welcome)
+Entschuldigung!||Excuse me! / Sorry!
+Es tut mir leid.||I'm sorry.
+ja||yes
+nein||no
+doch||yes (after a negative question)
+bitte||please
+Ich verstehe nicht.||I don't understand.
+Können Sie das wiederholen?||Can you repeat that?
+Sprechen Sie bitte langsamer.||Please speak more slowly.
+Wie heißen Sie?||What's your name?
+Ich heiße …||My name is …
+Woher kommen Sie?||Where are you from?
+Ich komme aus Frankreich.||I'm from France.
+Freut mich!||Nice to meet you!
+Wie sagt man das auf Deutsch?||How do you say that in German?
+Was bedeutet das?||What does that mean?
+Kein Problem.||No problem.
+Alles klar!||Okay! / Got it!
+Viel Glück!||Good luck!
+Schönes Wochenende!||Have a nice weekend!
+Herzlich willkommen!||Welcome!
+Prost!||Cheers! (when toasting)
+Guten Appetit!||Enjoy your meal!
+# temps|Temps & calendrier|Jours, mois, saisons, moments de la journée
+der Tag|Tage|day
+die Woche|Wochen|week
+der Monat|Monate|month
+das Jahr|Jahre|year
+die Stunde|Stunden|hour (duration)
+die Minute|Minuten|minute
+die Uhr|Uhren|clock, watch; … o'clock
+der Morgen|Morgen|morning
+der Vormittag|Vormittage|late morning (before noon)
+der Mittag|Mittage|noon, midday
+der Nachmittag|Nachmittage|afternoon
+der Abend|Abende|evening
+die Nacht|Nächte|night
+der Montag|Montage|Monday
+der Dienstag|Dienstage|Tuesday
+der Mittwoch|Mittwoche|Wednesday
+der Donnerstag|Donnerstage|Thursday
+der Freitag|Freitage|Friday
+der Samstag|Samstage|Saturday
+der Sonntag|Sonntage|Sunday
+das Wochenende|Wochenenden|weekend
+der Januar|—|January
+der Februar|—|February
+der März|—|March
+der April|—|April
+der Mai|—|May
+der Juni|—|June
+der Juli|—|July
+der August|—|August
+der September|—|September
+der Oktober|—|October
+der November|—|November
+der Dezember|—|December
+der Frühling|Frühlinge|spring
+der Sommer|Sommer|summer
+der Herbst|Herbste|fall, autumn
+der Winter|Winter|winter
+der Termin|Termine|appointment
+der Feiertag|Feiertage|public holiday
+der Geburtstag|Geburtstage|birthday
+heute||today
+morgen||tomorrow
+gestern||yesterday
+übermorgen||the day after tomorrow
+jetzt||now
+bald||soon
+später||later
+immer||always
+oft||often
+manchmal||sometimes
+nie||never
+Wie spät ist es?||What time is it?
+Es ist halb drei.||It's half past two.
+# nombres|Nombres|Compter, payer, donner l'heure
+null||zero
+eins||one
+zwei||two
+drei||three
+vier||four
+fünf||five
+sechs||six
+sieben||seven
+acht||eight
+neun||nine
+zehn||ten
+elf||eleven
+zwölf||twelve
+dreizehn||thirteen
+sechzehn||sixteen
+siebzehn||seventeen
+zwanzig||twenty
+einundzwanzig||twenty-one
+dreißig||thirty
+vierzig||forty
+fünfzig||fifty
+sechzig||sixty
+siebzig||seventy
+achtzig||eighty
+neunzig||ninety
+hundert||a hundred
+tausend||a thousand
+die Million|Millionen|million
+die Zahl|Zahlen|number
+die Hälfte|Hälften|half
+das Viertel|Viertel|quarter
+erste||first
+zweite||second
+dritte||third
+# famille|Famille & entourage|Les proches, les voisins, la situation familiale
+die Familie|Familien|family
+die Eltern (Pl.)|—|parents
+die Mutter|Mütter|mother
+der Vater|Väter|father
+das Kind|Kinder|child
+der Sohn|Söhne|son
+die Tochter|Töchter|daughter
+der Bruder|Brüder|brother
+die Schwester|Schwestern|sister
+die Geschwister (Pl.)|—|siblings (brothers and sisters)
+die Großeltern (Pl.)|—|grandparents
+die Oma|Omas|grandma
+der Opa|Opas|grandpa
+der Onkel|Onkel|uncle
+die Tante|Tanten|aunt
+der Mann|Männer|man; husband
+die Frau|Frauen|woman; wife; Mrs./Ms.
+der Freund|Freunde|friend (male); boyfriend
+die Freundin|Freundinnen|friend (female); girlfriend
+der Nachbar|Nachbarn|neighbor (male)
+die Nachbarin|Nachbarinnen|neighbor (female)
+das Baby|Babys|baby
+der Junge|Jungen|boy
+das Mädchen|Mädchen|girl
+die Leute (Pl.)|—|people
+der Hund|Hunde|dog
+die Katze|Katzen|cat
+verheiratet||married
+ledig||single (unmarried)
+geschieden||divorced
+~heiraten|heiratet · heiratete · hat geheiratet|to get married, to marry
+~besuchen|besucht · besuchte · hat besucht|to visit (someone)
+# logement|Logement|Appartement, meubles, location
+die Wohnung|Wohnungen|apartment
+das Haus|Häuser|house
+das Zimmer|Zimmer|room
+die Küche|Küchen|kitchen
+das Bad|Bäder|bathroom
+das Schlafzimmer|Schlafzimmer|bedroom
+das Wohnzimmer|Wohnzimmer|living room
+der Flur|Flure|hallway, entrance hall
+der Balkon|Balkone|balcony
+der Keller|Keller|basement, cellar
+die Toilette|Toiletten|toilet, restroom
+die Tür|Türen|door
+das Fenster|Fenster|window
+die Treppe|Treppen|stairs, staircase
+das Stockwerk|Stockwerke|floor (story of a building)
+der Aufzug|Aufzüge|elevator
+der Schlüssel|Schlüssel|key
+die Miete|Mieten|rent
+die Nebenkosten (Pl.)|—|utilities (extra costs on top of rent)
+der Vermieter|Vermieter|landlord
+der Mieter|Mieter|tenant
+die Kaution|Kautionen|security deposit (for renting)
+der Mietvertrag|Mietverträge|lease, rental agreement
+das Bett|Betten|bed
+der Tisch|Tische|table
+der Stuhl|Stühle|chair
+der Schrank|Schränke|closet, cupboard, wardrobe
+das Sofa|Sofas|sofa, couch
+die Lampe|Lampen|lamp
+der Kühlschrank|Kühlschränke|refrigerator
+die Waschmaschine|Waschmaschinen|washing machine
+die Heizung|Heizungen|heating
+der Müll|—|trash, garbage
+die Mülltonne|Mülltonnen|garbage can (outdoor bin)
+der Briefkasten|Briefkästen|mailbox
+~umziehen|zieht um · zog um · ist umgezogen|to move (to a new home)
+~mieten|mietet · mietete · hat gemietet|to rent (as a tenant)
+~putzen|putzt · putzte · hat geputzt|to clean
+~lüften|lüftet · lüftete · hat gelüftet|to air out (a room)
+gemütlich||cozy
+# cuisine|Cuisine & aliments|Ce qu'on mange, ce qu'on boit, la vaisselle
+das Essen|—|food, meal
+das Frühstück|Frühstücke|breakfast
+das Mittagessen|Mittagessen|lunch
+das Abendessen|Abendessen|dinner
+das Brot|Brote|bread
+das Brötchen|Brötchen|bread roll
+die Butter|—|butter
+der Käse|Käse|cheese
+die Wurst|Würste|sausage, cold cuts
+das Fleisch|—|meat
+das Hähnchen|Hähnchen|chicken
+der Fisch|Fische|fish
+das Ei|Eier|egg
+die Milch|—|milk
+der Joghurt|Joghurts|yogurt
+das Gemüse|—|vegetables
+das Obst|—|fruit
+der Apfel|Äpfel|apple
+die Banane|Bananen|banana
+die Kartoffel|Kartoffeln|potato
+die Tomate|Tomaten|tomato
+die Zwiebel|Zwiebeln|onion
+der Salat|Salate|salad, lettuce
+der Reis|—|rice
+die Nudeln (Pl.)|—|pasta, noodles
+das Salz|—|salt
+der Pfeffer|—|pepper
+der Zucker|—|sugar
+der Kuchen|Kuchen|cake
+das Wasser|—|water
+der Saft|Säfte|juice
+der Kaffee|Kaffees|coffee (drink)
+der Tee|Tees|tea
+das Bier|Biere|beer
+der Wein|Weine|wine
+der Topf|Töpfe|pot, saucepan
+die Pfanne|Pfannen|frying pan
+der Teller|Teller|plate
+die Tasse|Tassen|cup
+das Glas|Gläser|glass
+das Messer|Messer|knife
+die Gabel|Gabeln|fork
+der Löffel|Löffel|spoon
+~kochen|kocht · kochte · hat gekocht|to cook; to boil
+lecker||delicious, tasty
+Ich habe Hunger.||I'm hungry.
+Ich habe Durst.||I'm thirsty.
+# courses|Courses|Magasins, caisse, prix
+der Supermarkt|Supermärkte|supermarket
+die Bäckerei|Bäckereien|bakery
+die Metzgerei|Metzgereien|butcher shop
+die Apotheke|Apotheken|pharmacy
+die Drogerie|Drogerien|drugstore (toiletries, household goods)
+der Markt|Märkte|market
+das Geschäft|Geschäfte|store, shop
+die Kasse|Kassen|checkout, cash register
+der Kassenbon|Kassenbons|receipt
+die Tüte|Tüten|bag (plastic or paper)
+der Einkaufswagen|Einkaufswagen|shopping cart
+das Pfand|—|bottle deposit
+die Flasche|Flaschen|bottle
+die Dose|Dosen|can, tin
+die Packung|Packungen|pack, packet
+das Kilo|Kilos|kilo
+das Gramm|Gramm|gram
+der Preis|Preise|price
+das Angebot|Angebote|offer, special deal
+das Bargeld|—|cash
+die Karte|Karten|card
+der Euro|Euro|euro
+der Cent|Cent|cent
+~kaufen|kauft · kaufte · hat gekauft|to buy
+~einkaufen|kauft ein · kaufte ein · hat eingekauft|to go shopping, to shop for groceries
+~bezahlen|bezahlt · bezahlte · hat bezahlt|to pay
+~kosten|kostet · kostete · hat gekostet|to cost
+billig||cheap
+teuer||expensive
+günstig||good value, inexpensive
+geöffnet||open
+geschlossen||closed
+Wie viel kostet das?||How much does it cost?
+Kann ich mit Karte zahlen?||Can I pay by card?
+Brauchen Sie eine Tüte?||Do you need a bag?
+Ich schaue nur.||I'm just looking.
+# resto|Restaurant & café|Commander, payer, réserver
+das Restaurant|Restaurants|restaurant
+das Café|Cafés|cafe, coffee shop
+die Kneipe|Kneipen|pub, bar
+die Speisekarte|Speisekarten|menu
+die Rechnung|Rechnungen|check (in a restaurant); bill, invoice
+das Trinkgeld|Trinkgelder|tip
+der Kellner|Kellner|waiter
+die Kellnerin|Kellnerinnen|waitress
+die Vorspeise|Vorspeisen|appetizer, starter
+das Hauptgericht|Hauptgerichte|main course
+die Nachspeise|Nachspeisen|dessert
+die Suppe|Suppen|soup
+das Getränk|Getränke|drink, beverage
+~bestellen|bestellt · bestellte · hat bestellt|to order
+~reservieren|reserviert · reservierte · hat reserviert|to reserve, to book
+vegetarisch||vegetarian
+scharf||spicy, hot
+Die Karte, bitte.||The menu, please.
+Ich hätte gern einen Kaffee.||I'd like a coffee.
+Die Rechnung, bitte.||The check, please.
+Zusammen oder getrennt?||Together or separate?
+Stimmt so.||Keep the change.
+Ist hier noch frei?||Is this seat free?
+Einen Tisch für zwei, bitte.||A table for two, please.
+Was empfehlen Sie?||What do you recommend?
+# transports|Transports & ville|Se déplacer, s'orienter
+der Bahnhof|Bahnhöfe|train station
+der Zug|Züge|train
+der Bus|Busse|bus
+die Straßenbahn|Straßenbahnen|streetcar, tram
+die U-Bahn|U-Bahnen|subway
+die S-Bahn|S-Bahnen|commuter train (S-Bahn)
+die Haltestelle|Haltestellen|stop (bus, tram)
+das Gleis|Gleise|track, platform
+die Fahrkarte|Fahrkarten|ticket
+der Fahrplan|Fahrpläne|timetable, schedule
+die Verspätung|Verspätungen|delay
+das Auto|Autos|car
+das Fahrrad|Fahrräder|bicycle, bike
+der Flughafen|Flughäfen|airport
+die Straße|Straßen|street
+die Ampel|Ampeln|traffic light
+die Kreuzung|Kreuzungen|intersection
+die Ecke|Ecken|corner
+der Platz|Plätze|square (in a town); seat, space
+die Brücke|Brücken|bridge
+die Stadt|Städte|city, town
+das Dorf|Dörfer|village
+die Innenstadt|Innenstädte|downtown, city center
+die Kirche|Kirchen|church
+der Park|Parks|park
+die Post|—|post office; mail
+der Führerschein|Führerscheine|driver's license
+~fahren|fährt · fuhr · ist gefahren|to go (by vehicle), to drive
+~umsteigen|steigt um · stieg um · ist umgestiegen|to change (trains, lines), to transfer
+~einsteigen|steigt ein · stieg ein · ist eingestiegen|to get on, to get in (a vehicle)
+~aussteigen|steigt aus · stieg aus · ist ausgestiegen|to get off, to get out (of a vehicle)
+links||on the left, to the left
+rechts||on the right, to the right
+geradeaus||straight ahead
+weit||far
+in der Nähe||nearby
+Wo ist die Haltestelle?||Where is the stop?
+Wie komme ich zum Bahnhof?||How do I get to the train station?
+hin und zurück||round trip
+Nächster Halt||Next stop
+# travail|Travail|Bureau, contrat, candidature
+die Arbeit|Arbeiten|work
+der Job|Jobs|job (informal)
+der Beruf|Berufe|profession, occupation
+die Stelle|Stellen|position (job opening)
+die Firma|Firmen|company
+das Büro|Büros|office (place)
+der Chef|Chefs|boss (male)
+die Chefin|Chefinnen|boss (female)
+der Kollege|Kollegen|colleague (male)
+die Kollegin|Kolleginnen|colleague (female)
+das Gehalt|Gehälter|salary
+der Vertrag|Verträge|contract
+die Bewerbung|Bewerbungen|job application
+der Lebenslauf|Lebensläufe|resume, CV
+das Vorstellungsgespräch|Vorstellungsgespräche|job interview
+die Besprechung|Besprechungen|meeting
+der Urlaub|Urlaube|vacation, time off
+die Pause|Pausen|break
+die Überstunde|Überstunden|hour of overtime
+der Feierabend|Feierabende|end of the workday, quitting time
+der Computer|Computer|computer
+die E-Mail|E-Mails|email
+das Handy|Handys|cell phone
+die Aufgabe|Aufgaben|task
+~arbeiten|arbeitet · arbeitete · hat gearbeitet|to work
+~verdienen|verdient · verdiente · hat verdient|to earn (money)
+~sich bewerben|bewirbt sich · bewarb sich · hat sich beworben|to apply (for a job)
+~kündigen|kündigt · kündigte · hat gekündigt|to quit (a job); to cancel (a contract)
+pünktlich||punctual
+krankgeschrieben||on sick leave
+Schönen Feierabend!||Have a nice evening! (after work)
+# sante|Santé & corps|Chez le médecin, à la pharmacie
+der Körper|Körper|body
+der Kopf|Köpfe|head
+das Auge|Augen|eye
+das Ohr|Ohren|ear
+die Nase|Nasen|nose
+der Mund|Münder|mouth
+der Zahn|Zähne|tooth
+der Hals|Hälse|neck; throat
+der Arm|Arme|arm
+die Hand|Hände|hand
+der Finger|Finger|finger
+der Bauch|Bäuche|belly, stomach
+der Rücken|Rücken|back
+das Bein|Beine|leg
+der Fuß|Füße|foot
+das Herz|Herzen|heart
+der Arzt|Ärzte|doctor (male)
+die Ärztin|Ärztinnen|doctor (female)
+die Praxis|Praxen|doctor's office (practice)
+das Krankenhaus|Krankenhäuser|hospital
+die Notaufnahme|Notaufnahmen|emergency room (ER)
+das Medikament|Medikamente|medication, medicine
+das Rezept|Rezepte|prescription; recipe
+die Krankenkasse|Krankenkassen|health insurance company
+die Versichertenkarte|Versichertenkarten|health insurance card
+die Krankmeldung|Krankmeldungen|sick note (doctor's certificate)
+das Fieber|—|fever
+die Erkältung|Erkältungen|cold (illness)
+der Husten|—|cough
+die Schmerzen (Pl.)|—|pain, aches
+krank||sick, ill
+gesund||healthy
+müde||tired
+Ich habe Kopfschmerzen.||I have a headache.
+Mir ist schlecht.||I feel sick. (nauseous)
+Ich brauche einen Termin.||I need an appointment.
+Gute Besserung!||Get well soon!
+# admin|Administration & argent|Démarches, banque, courrier
+das Amt|Ämter|government office, agency
+das Bürgeramt|Bürgerämter|citizens' office (≈ city hall)
+die Anmeldung|Anmeldungen|registration of address; registration, sign-up
+die Behörde|Behörden|public authority
+das Formular|Formulare|form
+der Antrag|Anträge|application, request (official)
+der Ausweis|Ausweise|ID card
+der Reisepass|Reisepässe|passport
+die Adresse|Adressen|address
+die Unterschrift|Unterschriften|signature
+die Staatsangehörigkeit|Staatsangehörigkeiten|nationality, citizenship
+der Wohnsitz|Wohnsitze|place of residence
+die Steuer|Steuern|tax
+die Steuernummer|Steuernummern|tax number
+die Versicherung|Versicherungen|insurance
+die Bank|Banken|bank
+das Konto|Konten|account
+die Überweisung|Überweisungen|bank transfer
+der Geldautomat|Geldautomaten|ATM
+das Geld|—|money
+der Brief|Briefe|letter
+das Paket|Pakete|package, parcel
+die Frist|Fristen|deadline
+die Gebühr|Gebühren|fee, charge
+der Rundfunkbeitrag|—|broadcasting fee (TV and radio)
+~ausfüllen|füllt aus · füllte aus · hat ausgefüllt|to fill out (a form)
+~unterschreiben|unterschreibt · unterschrieb · hat unterschrieben|to sign
+~sich anmelden|meldet sich an · meldete sich an · hat sich angemeldet|to register, to sign up; to register one's address
+~beantragen|beantragt · beantragte · hat beantragt|to apply for (officially)
+~überweisen|überweist · überwies · hat überwiesen|to transfer (money)
+# vetements|Vêtements|S'habiller, essayer, acheter
+die Kleidung|—|clothes, clothing
+die Hose|Hosen|pants
+das Hemd|Hemden|shirt
+das T-Shirt|T-Shirts|T-shirt
+der Pullover|Pullover|sweater
+die Jacke|Jacken|jacket
+der Mantel|Mäntel|coat
+das Kleid|Kleider|dress
+der Rock|Röcke|skirt
+der Schuh|Schuhe|shoe
+die Socke|Socken|sock
+die Mütze|Mützen|beanie, knit hat
+der Schal|Schals|scarf
+der Regenschirm|Regenschirme|umbrella
+die Tasche|Taschen|bag, handbag; pocket
+die Größe|Größen|size
+die Umkleidekabine|Umkleidekabinen|fitting room
+~anziehen|zieht an · zog an · hat angezogen|to put on (clothes)
+~anprobieren|probiert an · probierte an · hat anprobiert|to try on (clothes)
+~passen|passt · passte · hat gepasst|to fit (be the right size)
+eng||tight
+bequem||comfortable
+# loisirs|Loisirs & météo|Temps qu'il fait, sorties, sport
+das Wetter|—|weather
+die Sonne|Sonnen|sun
+der Regen|—|rain
+der Schnee|—|snow
+der Wind|Winde|wind
+die Wolke|Wolken|cloud
+das Gewitter|Gewitter|thunderstorm
+die Temperatur|Temperaturen|temperature
+sonnig||sunny
+bewölkt||cloudy
+Es regnet.||It's raining.
+Es ist kalt.||It's cold.
+Es ist warm.||It's warm.
+die Freizeit|—|free time, leisure
+das Hobby|Hobbys|hobby
+der Sport|—|sport, sports
+das Kino|Kinos|movie theater
+der Film|Filme|movie, film
+das Buch|Bücher|book
+die Musik|—|music
+das Konzert|Konzerte|concert
+das Museum|Museen|museum
+der Ausflug|Ausflüge|excursion, outing
+die Reise|Reisen|trip, journey
+das Schwimmbad|Schwimmbäder|swimming pool
+der Verein|Vereine|club, association
+das Spiel|Spiele|game; match
+~spazieren gehen|geht spazieren · ging spazieren · ist spazieren gegangen|to go for a walk
+~schwimmen|schwimmt · schwamm · ist geschwommen|to swim
+~wandern|wandert · wanderte · ist gewandert|to hike
+~sich treffen|trifft sich · traf sich · hat sich getroffen|to meet up
+Hast du Lust?||Do you feel like it?
+# verbes|Verbes essentiels|Les 50 verbes du quotidien, avec leurs formes
+~sein|ist · war · ist gewesen|to be
+~haben|hat · hatte · hat gehabt|to have
+~werden|wird · wurde · ist geworden|to become
+~können|kann · konnte · hat gekonnt|can, to be able to; to know how to
+~müssen|muss · musste · hat gemusst|must, to have to (obligation)
+~wollen|will · wollte · hat gewollt|to want
+~dürfen|darf · durfte · hat gedurft|to be allowed to, may
+~sollen|soll · sollte · hat gesollt|should, to be supposed to (instruction, advice)
+~mögen|mag · mochte · hat gemocht|to like
+~gehen|geht · ging · ist gegangen|to go (on foot), to walk
+~kommen|kommt · kam · ist gekommen|to come
+~machen|macht · machte · hat gemacht|to do, to make
+~sagen|sagt · sagte · hat gesagt|to say
+~sprechen|spricht · sprach · hat gesprochen|to speak
+~fragen|fragt · fragte · hat gefragt|to ask (a question)
+~antworten|antwortet · antwortete · hat geantwortet|to answer
+~wissen|weiß · wusste · hat gewusst|to know (a fact)
+~kennen|kennt · kannte · hat gekannt|to know (be familiar with)
+~verstehen|versteht · verstand · hat verstanden|to understand
+~sehen|sieht · sah · hat gesehen|to see
+~hören|hört · hörte · hat gehört|to hear, to listen
+~lesen|liest · las · hat gelesen|to read
+~schreiben|schreibt · schrieb · hat geschrieben|to write
+~essen|isst · aß · hat gegessen|to eat
+~trinken|trinkt · trank · hat getrunken|to drink
+~schlafen|schläft · schlief · hat geschlafen|to sleep
+~wohnen|wohnt · wohnte · hat gewohnt|to live (reside somewhere)
+~leben|lebt · lebte · hat gelebt|to live (be alive)
+~geben|gibt · gab · hat gegeben|to give
+~nehmen|nimmt · nahm · hat genommen|to take
+~bringen|bringt · brachte · hat gebracht|to bring
+~mitbringen|bringt mit · brachte mit · hat mitgebracht|to bring along
+~finden|findet · fand · hat gefunden|to find
+~suchen|sucht · suchte · hat gesucht|to look for, to search
+~brauchen|braucht · brauchte · hat gebraucht|to need
+~helfen|hilft · half · hat geholfen|to help
+~warten|wartet · wartete · hat gewartet|to wait
+~bleiben|bleibt · blieb · ist geblieben|to stay
+~lernen|lernt · lernte · hat gelernt|to learn
+~gefallen|gefällt · gefiel · hat gefallen|to please (to be pleasing to someone)
+~glauben|glaubt · glaubte · hat geglaubt|to believe
+~denken|denkt · dachte · hat gedacht|to think
+~öffnen|öffnet · öffnete · hat geöffnet|to open
+~schließen|schließt · schloss · hat geschlossen|to close
+~anfangen|fängt an · fing an · hat angefangen|to begin, to start
+~aufhören|hört auf · hörte auf · hat aufgehört|to stop
+~aufstehen|steht auf · stand auf · ist aufgestanden|to get up
+~anrufen|ruft an · rief an · hat angerufen|to call (on the phone)
+~vergessen|vergisst · vergaß · hat vergessen|to forget
+~zeigen|zeigt · zeigte · hat gezeigt|to show
+~verlieren|verliert · verlor · hat verloren|to lose
+~liegen|liegt · lag · hat gelegen|to lie (flat), to be located (lying)
+~sitzen|sitzt · saß · hat gesessen|to sit, to be sitting
+~stehen|steht · stand · hat gestanden|to stand, to be located (upright)
+~laufen|läuft · lief · ist gelaufen|to run, to walk
+~tragen|trägt · trug · hat getragen|to carry; to wear
+# adjectifs|Adjectifs utiles|Décrire les choses et les gens
+groß||big, tall
+klein||small, little
+alt||old
+neu||new
+jung||young
+gut||good, well
+schlecht||bad, badly
+schön||beautiful, nice
+hässlich||ugly
+lang||long
+kurz||short
+schnell||fast, quick
+langsam||slow
+heiß||very hot, scorching
+kalt||cold
+warm||warm
+voll||full
+leer||empty
+leicht||light (not heavy); easy
+schwer||heavy; hard (difficult)
+einfach||simple
+schwierig||difficult
+richtig||right, correct
+falsch||wrong, false
+wichtig||important
+laut||loud, noisy
+leise||quiet, softly
+sauber||clean
+schmutzig||dirty
+früh||early
+spät||late
+nah||near, close
+freundlich||friendly
+nett||nice
+glücklich||happy
+traurig||sad
+froh||glad
+böse||mean, evil; angry
+fertig||ready; finished
+frei||free, available
+besetzt||occupied, taken
+kaputt||broken
+sicher||sure; safe
+# outils|Mots-outils|Questions, liaisons, quantités
+wer?||who?
+was?||what?
+wo?||where?
+wohin?||where (to)?
+woher?||where from?
+wann?||when?
+warum?||why?
+wie?||how?
+wie viel?||how much? / how many?
+welcher?||which (one)?
+und||and
+oder||or
+aber||but
+weil||because
+dass||that (conjunction)
+wenn||if; when
+also||so, therefore
+auch||also, too
+noch||still; more
+schon||already
+nur||only
+sehr||very
+ziemlich||fairly, pretty (somewhat)
+vielleicht||maybe, perhaps
+zusammen||together
+allein||alone
+hier||here
+dort||there
+alles||everything
+nichts||nothing
+etwas||something
+jemand||someone, somebody
+niemand||no one, nobody
+viel||a lot, much
+wenig||little, not much
+genug||enough
+# b2travail|Monde du travail|Carrière, contrat, négociation|B2
+die Arbeitsbedingungen (Pl.)|—|working conditions
+der Arbeitgeber|Arbeitgeber|employer
+der Arbeitnehmer|Arbeitnehmer|employee
+die Kündigungsfrist|Kündigungsfristen|notice period
+die Probezeit|Probezeiten|probationary period
+die Gehaltserhöhung|Gehaltserhöhungen|raise (salary increase)
+die Beförderung|Beförderungen|promotion (at work)
+die Weiterbildung|Weiterbildungen|continuing education, further training
+die Fähigkeit|Fähigkeiten|skill, ability
+die Erfahrung|Erfahrungen|experience
+die Verantwortung|Verantwortungen|responsibility
+die Leistung|Leistungen|performance; service (benefit)
+der Umsatz|Umsätze|revenue, sales
+der Gewinn|Gewinne|profit
+der Verlust|Verluste|loss
+die Abteilung|Abteilungen|department
+die Geschäftsführung|Geschäftsführungen|management (executive board)
+der Betriebsrat|Betriebsräte|works council (employee representatives)
+die Gewerkschaft|Gewerkschaften|labor union
+der Streik|Streiks|strike
+die Teilzeit|—|part-time
+die Vollzeit|—|full-time
+das Homeoffice|Homeoffices|working from home, remote work
+die Arbeitslosigkeit|—|unemployment
+die Agentur für Arbeit|—|employment agency (≈ unemployment office)
+der Auftrag|Aufträge|order (from a client), assignment
+~verhandeln|verhandelt · verhandelte · hat verhandelt|to negotiate
+~sich weiterbilden|bildet sich weiter · bildete sich weiter · hat sich weitergebildet|to continue one's training
+~befördern|befördert · beförderte · hat befördert|to promote
+~einstellen|stellt ein · stellte ein · hat eingestellt|to hire
+~entlassen|entlässt · entließ · hat entlassen|to lay off, to fire
+~leiten|leitet · leitete · hat geleitet|to manage, to lead
+selbstständig||self-employed, freelance
+befristet||fixed-term (temporary contract)
+unbefristet||open-ended (permanent contract)
+# b2droit|Droit & démarches|Contrats, recours, assurances, impôts|B2
+der Anspruch|Ansprüche|entitlement (to), claim
+die Bescheinigung|Bescheinigungen|certificate (official confirmation)
+der Bescheid|Bescheide|official decision, notice
+der Widerspruch|Widersprüche|objection, appeal; contradiction
+die Vollmacht|Vollmachten|power of attorney
+die Genehmigung|Genehmigungen|permit, authorization
+die Aufenthaltserlaubnis|Aufenthaltserlaubnisse|residence permit
+die Voraussetzung|Voraussetzungen|prerequisite
+die Bedingung|Bedingungen|condition
+die Kündigung|Kündigungen|termination (of a contract); dismissal
+die Mahnung|Mahnungen|payment reminder
+der Rechtsanwalt|Rechtsanwälte|lawyer, attorney
+das Gericht|Gerichte|court; dish (food)
+das Gesetz|Gesetze|law
+die Vorschrift|Vorschriften|rule, regulation
+die Haftpflichtversicherung|Haftpflichtversicherungen|personal liability insurance
+der Schaden|Schäden|damage
+die Steuererklärung|Steuererklärungen|tax return
+der Beitrag|Beiträge|contribution; dues
+die Rente|Renten|pension (retirement)
+das Kindergeld|—|child benefit
+das Bürgergeld|—|basic income support (≈ welfare)
+die Unterlagen (Pl.)|—|documents, paperwork
+der Nachweis|Nachweise|proof (supporting document)
+~einreichen|reicht ein · reichte ein · hat eingereicht|to submit (documents)
+~verlängern|verlängert · verlängerte · hat verlängert|to extend, to renew
+~Widerspruch einlegen|legt Widerspruch ein · legte Widerspruch ein · hat Widerspruch eingelegt|to file an objection, to appeal
+~genehmigen|genehmigt · genehmigte · hat genehmigt|to approve, to authorize
+~nachweisen|weist nach · wies nach · hat nachgewiesen|to prove, to provide proof
+~haften|haftet · haftete · hat gehaftet|to be (legally) liable
+gültig||valid
+fristgerecht||within the deadline
+verpflichtet||obliged, required to
+zuständig||in charge (of), responsible (for)
+# b2sante|Santé & bien-être|Symptômes, traitements, prévention|B2
+die Beschwerden (Pl.)|—|symptoms, ailments
+die Untersuchung|Untersuchungen|medical examination, checkup
+die Behandlung|Behandlungen|treatment
+die Diagnose|Diagnosen|diagnosis
+der Facharzt|Fachärzte|specialist (doctor)
+der Hausarzt|Hausärzte|family doctor, primary care physician
+die Nebenwirkung|Nebenwirkungen|side effect
+die Impfung|Impfungen|vaccination
+die Allergie|Allergien|allergy
+die Verletzung|Verletzungen|injury
+die Entzündung|Entzündungen|inflammation
+der Blutdruck|—|blood pressure
+die Ernährung|—|diet, nutrition
+die Bewegung|Bewegungen|movement; physical activity, exercise
+der Stress|—|stress
+die Erschöpfung|—|exhaustion
+die Sucht|Süchte|addiction
+die Vorsorge|—|preventive care
+~sich erholen|erholt sich · erholte sich · hat sich erholt|to rest, to recover
+~sich verletzen|verletzt sich · verletzte sich · hat sich verletzt|to get hurt, to injure oneself
+~behandeln|behandelt · behandelte · hat behandelt|to treat (medically)
+~untersuchen|untersucht · untersuchte · hat untersucht|to examine
+~verschreiben|verschreibt · verschrieb · hat verschrieben|to prescribe
+~leiden an|leidet · litt · hat gelitten|to suffer from (+ Dat.)
+~vorbeugen|beugt vor · beugte vor · hat vorgebeugt|to prevent (+ Dat.)
+ansteckend||contagious
+chronisch||chronic
+erschöpft||exhausted
+schwanger||pregnant
+rezeptpflichtig||prescription-only
+# b2gesellschaft|Société, politique & médias|Actualité, débats, institutions|B2
+die Gesellschaft|Gesellschaften|society
+die Regierung|Regierungen|government
+die Wahl|Wahlen|election; choice
+die Partei|Parteien|party (political)
+der Bundestag|—|Federal Parliament (Bundestag)
+der Bundeskanzler|Bundeskanzler|Federal Chancellor
+die Demokratie|Demokratien|democracy
+die Meinung|Meinungen|opinion
+die Freiheit|Freiheiten|freedom
+die Gleichberechtigung|—|equal rights
+die Integration|—|integration
+die Einwanderung|Einwanderungen|immigration
+die Armut|—|poverty
+der Wohlstand|—|prosperity
+die Ungleichheit|Ungleichheiten|inequality
+die Bildung|—|education
+die Nachricht|Nachrichten|news, message
+die Zeitung|Zeitungen|newspaper
+die Sendung|Sendungen|broadcast, program (TV, radio)
+der Bericht|Berichte|report
+die Umfrage|Umfragen|survey, poll
+die Krise|Krisen|crisis
+die Entwicklung|Entwicklungen|development
+die Herausforderung|Herausforderungen|challenge
+der Bürger|Bürger|citizen
+~wählen|wählt · wählte · hat gewählt|to vote; to choose
+~abstimmen|stimmt ab · stimmte ab · hat abgestimmt|to vote (on an issue)
+~berichten|berichtet · berichtete · hat berichtet|to report
+~fordern|fordert · forderte · hat gefordert|to demand
+~sich engagieren|engagiert sich · engagierte sich · hat sich engagiert|to get involved (for a cause)
+~kritisieren|kritisiert · kritisierte · hat kritisiert|to criticize
+gesellschaftlich||social, societal
+politisch||political
+umstritten||controversial
+aktuell||current, up to date
+# b2umwelt|Environnement & énergie|Climat, tri, consommation|B2
+die Umwelt|—|environment
+der Klimawandel|—|climate change
+der Umweltschutz|—|environmental protection
+die Energie|Energien|energy
+der Strom|—|electricity; current
+der Verbrauch|—|consumption
+die Nachhaltigkeit|—|sustainability
+die Verschmutzung|Verschmutzungen|pollution
+die Abgase (Pl.)|—|exhaust fumes
+der Abfall|Abfälle|waste
+die Mülltrennung|—|waste sorting
+der Gelbe Sack|gelben Säcke|yellow bag (for packaging waste)
+das Altglas|—|glass for recycling
+die Solaranlage|Solaranlagen|solar power system
+die Windkraft|—|wind power
+das Kraftwerk|Kraftwerke|power plant
+die Ressource|Ressourcen|resource
+die Überschwemmung|Überschwemmungen|flood
+die Dürre|Dürren|drought
+~verschwenden|verschwendet · verschwendete · hat verschwendet|to waste
+~sparen|spart · sparte · hat gespart|to save
+~recyceln|recycelt · recycelte · hat recycelt|to recycle
+~schützen|schützt · schützte · hat geschützt|to protect
+~vermeiden|vermeidet · vermied · hat vermieden|to avoid
+~verbrauchen|verbraucht · verbrauchte · hat verbraucht|to consume, to use up
+nachhaltig||sustainable
+umweltfreundlich||eco-friendly
+erneuerbar||renewable
+klimaneutral||carbon-neutral
+# b2gefuehle|Sentiments & relations|Caractère, émotions, vie à deux|B2
+das Gefühl|Gefühle|feeling
+die Beziehung|Beziehungen|relationship
+das Vertrauen|—|trust
+die Eifersucht|—|jealousy
+die Enttäuschung|Enttäuschungen|disappointment
+die Sehnsucht|Sehnsüchte|longing, yearning
+die Geduld|—|patience
+der Streit|—|argument, quarrel
+die Versöhnung|Versöhnungen|reconciliation
+das Missverständnis|Missverständnisse|misunderstanding
+die Rücksicht|—|consideration (for others)
+der Eindruck|Eindrücke|impression
+die Stimmung|Stimmungen|mood, atmosphere
+~sich verlieben|verliebt sich · verliebte sich · hat sich verliebt|to fall in love
+~sich trennen|trennt sich · trennte sich · hat sich getrennt|to separate, to break up
+~sich streiten|streitet sich · stritt sich · hat sich gestritten|to argue, to fight
+~vermissen|vermisst · vermisste · hat vermisst|to miss (someone or something)
+~enttäuschen|enttäuscht · enttäuschte · hat enttäuscht|to disappoint
+~vertrauen|vertraut · vertraute · hat vertraut|to trust (+ Dat.)
+~sich schämen|schämt sich · schämte sich · hat sich geschämt|to be ashamed
+~sich aufregen|regt sich auf · regte sich auf · hat sich aufgeregt|to get worked up, to get upset
+zuverlässig||reliable
+ehrgeizig||ambitious
+eifersüchtig||jealous
+geduldig||patient
+ungeduldig||impatient
+neugierig||curious
+schüchtern||shy
+selbstbewusst||self-confident
+großzügig||generous
+hilfsbereit||helpful
+empfindlich||sensitive, touchy
+gelassen||calm, relaxed
+enttäuscht||disappointed
+verlegen||embarrassed
+# b2argumenter|Argumenter & nuancer|Connecteurs et formules pour donner son avis|B2
+meiner Meinung nach||in my opinion
+Ich bin der Ansicht, dass …||I'm of the opinion that …
+einerseits … andererseits||on the one hand … on the other hand
+trotzdem||nevertheless, anyway
+deshalb||that's why, therefore
+dennoch||nonetheless
+obwohl||although
+während||while; whereas
+sobald||as soon as
+falls||in case, if
+außerdem||furthermore, besides
+allerdings||however, though
+zwar … aber||admittedly … but
+je … desto||the more … the more
+sowohl … als auch||both … and, as well as
+weder … noch||neither … nor
+stattdessen||instead
+im Gegensatz zu||unlike, in contrast to
+im Vergleich zu||compared to
+aufgrund||because of, due to (+ Gen.)
+trotz||despite (+ Gen.)
+anstatt||instead of
+infolgedessen||as a result, consequently
+letztendlich||ultimately, in the end
+beispielsweise||for example
+Es kommt darauf an.||It depends.
+Das hängt davon ab, ob …||That depends on whether …
+Da bin ich anderer Meinung.||I disagree on that.
+Ich stimme dir zu.||I agree with you.
+Das stimmt zwar, aber …||That's true, admittedly, but …
+Ich gebe zu, dass …||I admit that …
+Es ist fraglich, ob …||It's questionable whether …
+Ein Vorteil ist, dass …||One advantage is that …
+Ein Nachteil ist, dass …||One disadvantage is that …
+# b2verbes|Verbes à préposition|Les rections à connaître par cœur|B2
+~sich kümmern um|kümmert sich · kümmerte sich · hat sich gekümmert|to take care of, to look after (+ Akk.)
+~sich freuen auf|freut sich · freute sich · hat sich gefreut|to look forward to (something to come, + Akk.)
+~sich freuen über|freut sich · freute sich · hat sich gefreut|to be happy about (something present or past, + Akk.)
+~sich interessieren für|interessiert sich · interessierte sich · hat sich interessiert|to be interested in (+ Akk.)
+~sich ärgern über|ärgert sich · ärgerte sich · hat sich geärgert|to be annoyed about (+ Akk.)
+~sich beschweren über|beschwert sich · beschwerte sich · hat sich beschwert|to complain about (+ Akk.)
+~sich gewöhnen an|gewöhnt sich · gewöhnte sich · hat sich gewöhnt|to get used to (+ Akk.)
+~sich erinnern an|erinnert sich · erinnerte sich · hat sich erinnert|to remember (+ Akk.)
+~sich bedanken für|bedankt sich · bedankte sich · hat sich bedankt|to thank (someone) for (+ Akk.)
+~sich entscheiden für|entscheidet sich · entschied sich · hat sich entschieden|to decide on, to choose (+ Akk.)
+~sich verlassen auf|verlässt sich · verließ sich · hat sich verlassen|to rely on, to count on (+ Akk.)
+~sich bewerben um|bewirbt sich · bewarb sich · hat sich beworben|to apply for (a job) (+ Akk.)
+~sich beschäftigen mit|beschäftigt sich · beschäftigte sich · hat sich beschäftigt|to deal with, to work on (+ Dat.)
+~sich unterhalten über|unterhält sich · unterhielt sich · hat sich unterhalten|to talk about, to chat about (+ Akk.)
+~sich vorbereiten auf|bereitet sich vor · bereitete sich vor · hat sich vorbereitet|to prepare for (+ Akk.)
+~sich konzentrieren auf|konzentriert sich · konzentrierte sich · hat sich konzentriert|to concentrate on (+ Akk.)
+~sich sorgen um|sorgt sich · sorgte sich · hat sich gesorgt|to worry about (+ Akk.)
+~sich fürchten vor|fürchtet sich · fürchtete sich · hat sich gefürchtet|to be afraid of (+ Dat.)
+~warten auf|wartet · wartete · hat gewartet|to wait for (+ Akk.)
+~denken an|denkt · dachte · hat gedacht|to think of, to think about (+ Akk.)
+~glauben an|glaubt · glaubte · hat geglaubt|to believe in (+ Akk.)
+~teilnehmen an|nimmt teil · nahm teil · hat teilgenommen|to take part in (+ Dat.)
+~abhängen von|hängt ab · hing ab · hat abgehangen|to depend on (+ Dat.)
+~bestehen aus|besteht · bestand · hat bestanden|to consist of (+ Dat.)
+~träumen von|träumt · träumte · hat geträumt|to dream of (+ Dat.)
+~bitten um|bittet · bat · hat gebeten|to ask for (something) (+ Akk.)
+~fragen nach|fragt · fragte · hat gefragt|to ask about (someone's news, the way) (+ Dat.)
+~achten auf|achtet · achtete · hat geachtet|to pay attention to (+ Akk.)
+~gehören zu|gehört · gehörte · hat gehört|to be part of, to belong to (+ Dat.)
+~sorgen für|sorgt · sorgte · hat gesorgt|to ensure, to provide for (+ Akk.)
+~führen zu|führt · führte · hat geführt|to lead to (+ Dat.)
+~überzeugen von|überzeugt · überzeugte · hat überzeugt|to convince of (+ Dat.)
+~hinweisen auf|weist hin · wies hin · hat hingewiesen|to point out, to draw attention to (+ Akk.)
+~verzichten auf|verzichtet · verzichtete · hat verzichtet|to do without, to give up (+ Akk.)
+~zweifeln an|zweifelt · zweifelte · hat gezweifelt|to doubt (+ Dat.)
+# b2nuances|Adjectifs & adverbes nuancés|Pour décrire avec précision|B2
+offensichtlich||obviously, evident
+eindeutig||clear, unambiguous
+angeblich||supposedly, allegedly
+anscheinend||apparently
+vermutlich||probably, presumably
+ausgerechnet||of all things (of all people, of all times)
+ausreichend||sufficient
+erheblich||considerable
+gewissermaßen||in a way, so to speak
+überwiegend||predominantly, mostly
+vorübergehend||temporary, provisional
+dauerhaft||lasting, permanent
+umfangreich||extensive, voluminous
+anspruchsvoll||demanding
+aufwendig||time-consuming, elaborate (costly in time or effort)
+mühsam||tedious, laborious
+zufällig||by chance
+absichtlich||on purpose
+rechtzeitig||in time (early enough)
+ehemalig||former (ex-)
+vorhanden||available, existing
+selbstverständlich||of course, naturally
+bisher||until now, so far
+inzwischen||meanwhile, in the meantime
+ständig||constantly
+kaum||hardly, barely
+überhaupt nicht||not at all
+eher||rather
+durchaus||absolutely, definitely
+keineswegs||by no means
+# b2idiomes|Expressions idiomatiques|Ce que les Allemands disent vraiment|B2
+Ich verstehe nur Bahnhof.||It's all Greek to me.
+Das ist mir Wurst.||I couldn't care less.
+Ich drücke dir die Daumen.||I'll keep my fingers crossed for you.
+Schwein haben||to be lucky
+Tomaten auf den Augen haben||to not see what's right in front of you
+Ich habe die Nase voll.||I'm fed up.
+ins Fettnäpfchen treten||to put one's foot in it (make a gaffe)
+auf dem Holzweg sein||to be on the wrong track
+den Nagel auf den Kopf treffen||to hit the nail on the head
+um den heißen Brei herumreden||to beat around the bush
+Hals- und Beinbruch!||Break a leg! (good luck)
+Da steppt der Bär.||It's going to be a wild party.
+Alles hat ein Ende, nur die Wurst hat zwei.||All good things must come to an end.
+etwas auf die lange Bank schieben||to put something off
+=die Katze im Sack kaufen||to buy a pig in a poke
+jemandem auf den Keks gehen||to get on someone's nerves
+Das ist nicht mein Bier.||That's not my problem.
+Das ist mir ein Rätsel.||It's a mystery to me.
+unter vier Augen||in private (one-on-one)
+zwei Fliegen mit einer Klappe schlagen||to kill two birds with one stone
+Lügen haben kurze Beine.||Lies don't get you far.
+Ende gut, alles gut.||All's well that ends well.
+Übung macht den Meister.||Practice makes perfect.

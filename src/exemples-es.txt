@@ -1,0 +1,163 @@
+heiraten|Meine Schwester heiratet im Sommer.|Mi hermana se casa este verano.
+besuchen|Am Wochenende besuche ich meine Eltern.|El fin de semana visito a mis padres.
+umziehen|Wir ziehen nächsten Monat nach Berlin um.|Nos mudamos a Berlín el mes que viene.
+mieten|Ich habe eine kleine Wohnung im Zentrum gemietet.|Alquilé un pequeño apartamento en el centro.
+putzen|Samstags putzen wir die ganze Wohnung.|Los sábados limpiamos todo el apartamento.
+lüften|Bitte lüfte das Zimmer, es ist so warm hier.|Ventila la habitación, por favor, hace mucho calor aquí.
+kochen|Heute Abend koche ich Nudeln mit Tomatensoße.|Esta noche preparo pasta con salsa de tomate.
+kaufen|Ich kaufe noch schnell Brot beim Bäcker.|Voy rápido a comprar pan a la panadería.
+einkaufen|Ich kaufe nach der Arbeit im Supermarkt ein.|Hago las compras en el supermercado después del trabajo.
+bezahlen|Kann ich hier mit Karte bezahlen?|¿Puedo pagar con tarjeta aquí?
+kosten|Die Fahrkarte kostet drei Euro zwanzig.|El billete cuesta tres euros con veinte.
+bestellen|Ich bestelle ein Schnitzel und ein Wasser.|Pido un escalope y un agua.
+reservieren|Ich möchte einen Tisch für vier Personen reservieren.|Quisiera reservar una mesa para cuatro personas.
+fahren|Morgen fahre ich mit dem Zug nach München.|Mañana voy a Múnich en tren.
+umsteigen|In Frankfurt müssen Sie umsteigen.|En Fráncfort tiene que cambiar de tren.
+einsteigen|Bitte steigen Sie ein, der Zug fährt gleich ab.|Suba, por favor, el tren va a salir.
+aussteigen|Ich steige an der nächsten Haltestelle aus.|Me bajo en la próxima parada.
+arbeiten|Ich arbeite von Montag bis Freitag im Büro.|Trabajo en la oficina de lunes a viernes.
+verdienen|Er verdient mehr als vorher.|Gana más que antes.
+sich bewerben|Ich habe mich bei drei Firmen beworben.|Envié mi solicitud a tres empresas.
+kündigen|Ich habe meinen Handyvertrag gekündigt.|Cancelé mi contrato de telefonía móvil.
+ausfüllen|Füllen Sie bitte dieses Formular aus.|Complete este formulario, por favor.
+unterschreiben|Bitte unterschreiben Sie hier unten.|Firme aquí abajo, por favor.
+sich anmelden|Nach dem Umzug muss man sich beim Bürgeramt anmelden.|Después de una mudanza, hay que registrar el domicilio en la oficina de atención al ciudadano.
+beantragen|Ich muss einen neuen Reisepass beantragen.|Tengo que solicitar un pasaporte nuevo.
+überweisen|Ich überweise dir das Geld morgen.|Mañana te transfiero el dinero.
+anziehen|Zieh dir eine Jacke an, es ist kalt!|¡Ponte una chaqueta, hace frío!
+anprobieren|Kann ich diese Hose anprobieren?|¿Puedo probarme este pantalón?
+passen|Die Schuhe passen mir leider nicht.|Lamentablemente, estos zapatos no me quedan bien.
+spazieren gehen|Nach dem Essen gehen wir im Park spazieren.|Después de comer, vamos a pasear por el parque.
+schwimmen|Im Sommer schwimme ich gern im See.|En verano me gusta nadar en el lago.
+wandern|Am Sonntag sind wir in den Bergen gewandert.|El domingo hicimos senderismo en la montaña.
+sich treffen|Wir treffen uns um acht vor dem Kino.|Nos vemos a las ocho delante del cine.
+sein|Ich bin seit zwei Monaten in Deutschland.|Estoy en Alemania desde hace dos meses.
+haben|Hast du heute Abend Zeit?|¿Tienes tiempo esta noche?
+werden|Es wird langsam dunkel.|Está empezando a oscurecer.
+können|Kannst du mir bitte helfen?|¿Me puedes ayudar, por favor?
+müssen|Ich muss morgen früh aufstehen.|Mañana tengo que levantarme temprano.
+wollen|Wir wollen nächstes Jahr nach Italien fahren.|Queremos ir a Italia el año que viene.
+dürfen|Hier darf man nicht rauchen.|Aquí no está permitido fumar.
+sollen|Der Arzt sagt, ich soll mehr Wasser trinken.|El médico dice que debo beber más agua.
+mögen|Ich mag keinen Kaffee ohne Milch.|No me gusta el café sin leche.
+gehen|Ich gehe jeden Morgen zu Fuß zur Arbeit.|Voy al trabajo a pie todas las mañanas.
+kommen|Wann kommst du nach Hause?|¿Cuándo vuelves a casa?
+machen|Was machst du am Wochenende?|¿Qué haces este fin de semana?
+sagen|Was hat er gesagt? Ich habe es nicht gehört.|¿Qué dijo? No lo oí.
+sprechen|Sprechen Sie Französisch?|¿Habla francés?
+fragen|Ich frage mal den Verkäufer.|Voy a preguntarle al vendedor.
+antworten|Sie hat noch nicht auf meine E-Mail geantwortet.|Todavía no ha respondido a mi correo electrónico.
+wissen|Weißt du, wo die Post ist?|¿Sabes dónde está la oficina de correos?
+kennen|Kennst du ein gutes Restaurant hier?|¿Conoces un buen restaurante por aquí?
+verstehen|Entschuldigung, ich habe das nicht verstanden.|Perdón, no lo entendí.
+sehen|Siehst du die Haltestelle dort drüben?|¿Ves la parada allí enfrente?
+hören|Ich höre gern Radio beim Frühstück.|Me gusta escuchar la radio durante el desayuno.
+lesen|Sie liest jeden Abend ein bisschen.|Lee un poco cada noche.
+schreiben|Ich schreibe dir später eine Nachricht.|Te escribo un mensaje más tarde.
+essen|Wir essen um sieben zu Abend.|Cenamos a las siete.
+trinken|Was möchtest du trinken?|¿Qué quieres beber?
+schlafen|Ich habe heute Nacht schlecht geschlafen.|Anoche dormí mal.
+wohnen|Ich wohne im dritten Stock.|Vivo en el tercer piso.
+leben|Sie lebt seit fünf Jahren in Hamburg.|Vive en Hamburgo desde hace cinco años.
+geben|Kannst du mir bitte das Salz geben?|¿Me pasas la sal, por favor?
+nehmen|Ich nehme den Bus um halb neun.|Tomo el autobús de las ocho y media.
+bringen|Der Kellner bringt die Rechnung.|El camarero trae la cuenta.
+mitbringen|Soll ich etwas zum Essen mitbringen?|¿Llevo algo de comer?
+finden|Ich finde meinen Schlüssel nicht.|No encuentro mi llave.
+suchen|Wir suchen eine größere Wohnung.|Buscamos un apartamento más grande.
+brauchen|Ich brauche einen Termin beim Arzt.|Necesito una cita con el médico.
+helfen|Kann ich Ihnen helfen?|¿Puedo ayudarle?
+warten|Ich warte schon seit zwanzig Minuten.|Ya llevo veinte minutos esperando.
+bleiben|Heute bleibe ich zu Hause.|Hoy me quedo en casa.
+lernen|Ich lerne jeden Tag zehn neue Wörter.|Aprendo diez palabras nuevas cada día.
+gefallen|Wie gefällt dir die neue Wohnung?|¿Qué te parece el nuevo apartamento?
+glauben|Ich glaube, der Laden ist heute geschlossen.|Creo que la tienda está cerrada hoy.
+denken|Was denkst du darüber?|¿Qué piensas de eso?
+öffnen|Die Bäckerei öffnet um sechs Uhr.|La panadería abre a las seis.
+schließen|Bitte schließen Sie die Tür.|Cierre la puerta, por favor.
+anfangen|Der Kurs fängt um neun Uhr an.|El curso empieza a las nueve.
+aufhören|Er hat mit dem Rauchen aufgehört.|Dejó de fumar.
+aufstehen|Ich stehe jeden Tag um sieben auf.|Me levanto todos los días a las siete.
+anrufen|Ich rufe dich heute Abend an.|Te llamo esta noche.
+vergessen|Ich habe meinen Regenschirm vergessen.|Olvidé mi paraguas.
+zeigen|Können Sie mir den Weg auf der Karte zeigen?|¿Puede mostrarme el camino en el mapa?
+verlieren|Ich habe mein Portemonnaie verloren.|Perdí mi monedero.
+liegen|Das Handy liegt auf dem Tisch.|El teléfono está sobre la mesa.
+sitzen|Wir sitzen auf dem Balkon und trinken Kaffee.|Estamos sentados en el balcón tomando café.
+stehen|Die Flaschen stehen im Kühlschrank.|Las botellas están en el refrigerador.
+laufen|Ich laufe dreimal pro Woche im Park.|Corro tres veces por semana en el parque.
+tragen|Sie trägt heute ein rotes Kleid.|Hoy lleva un vestido rojo.
+verhandeln|Ich will über mein Gehalt verhandeln.|Quiero negociar mi salario.
+sich weiterbilden|Sie bildet sich abends im Bereich Marketing weiter.|Por las noches hace cursos de formación en marketing.
+befördern|Nach zwei Jahren wurde er zum Teamleiter befördert.|Después de dos años, lo ascendieron a jefe de equipo.
+einstellen|Die Firma stellt dieses Jahr zehn neue Mitarbeiter ein.|La empresa contrata a diez nuevos empleados este año.
+entlassen|Wegen der Krise wurden viele Mitarbeiter entlassen.|Debido a la crisis, despidieron a muchos empleados.
+leiten|Sie leitet die Abteilung seit drei Jahren.|Dirige el departamento desde hace tres años.
+einreichen|Sie müssen die Unterlagen bis Freitag einreichen.|Tiene que presentar los documentos antes del viernes.
+verlängern|Ich muss meine Aufenthaltserlaubnis verlängern.|Tengo que renovar mi permiso de residencia.
+Widerspruch einlegen|Gegen diesen Bescheid können Sie innerhalb eines Monats Widerspruch einlegen.|Puede presentar un recurso contra esta decisión en el plazo de un mes.
+genehmigen|Mein Chef hat meinen Urlaub genehmigt.|Mi jefe aprobó mis vacaciones.
+nachweisen|Sie müssen Ihr Einkommen nachweisen.|Tiene que acreditar sus ingresos.
+haften|Eltern haften für ihre Kinder.|Los padres son responsables de sus hijos.
+sich erholen|Im Urlaub habe ich mich gut erholt.|Durante las vacaciones descansé bien.
+sich verletzen|Er hat sich beim Fußball am Knie verletzt.|Se lesionó la rodilla jugando al fútbol.
+behandeln|Der Arzt behandelt die Entzündung mit Antibiotika.|El médico trata la inflamación con antibióticos.
+untersuchen|Die Ärztin untersucht meinen Rücken.|La médica me examina la espalda.
+verschreiben|Der Arzt hat mir ein Medikament verschrieben.|El médico me recetó un medicamento.
+leiden an|Viele Menschen leiden an Rückenschmerzen.|Mucha gente sufre de dolor de espalda.
+vorbeugen|Mit Sport kann man vielen Krankheiten vorbeugen.|Con el deporte se pueden prevenir muchas enfermedades.
+wählen|Im September wählen die Deutschen ein neues Parlament.|En septiembre, los alemanes eligen un nuevo Parlamento.
+abstimmen|Morgen stimmt der Bundestag über das Gesetz ab.|Mañana el Bundestag vota la ley.
+berichten|Die Zeitung berichtet über den Streik.|El periódico informa sobre la huelga.
+fordern|Die Gewerkschaft fordert höhere Löhne.|El sindicato exige salarios más altos.
+sich engagieren|Sie engagiert sich in einem Verein für Flüchtlinge.|Participa activamente en una asociación de ayuda a refugiados.
+kritisieren|Viele Bürger kritisieren die neue Regel.|Muchos ciudadanos critican la nueva norma.
+verschwenden|Wir verschwenden zu viele Lebensmittel.|Desperdiciamos demasiada comida.
+sparen|Mit LED-Lampen kann man Strom sparen.|Con lámparas LED se puede ahorrar electricidad.
+recyceln|Altglas wird in Deutschland fast komplett recycelt.|En Alemania, el vidrio usado se recicla casi por completo.
+schützen|Wir müssen die Natur besser schützen.|Tenemos que proteger mejor la naturaleza.
+vermeiden|Ich versuche, Plastik zu vermeiden.|Intento evitar el plástico.
+verbrauchen|Unser Kühlschrank verbraucht zu viel Strom.|Nuestro refrigerador consume demasiada electricidad.
+sich verlieben|Sie haben sich im Urlaub ineinander verliebt.|Se enamoraron durante las vacaciones.
+sich trennen|Nach zehn Jahren haben sie sich getrennt.|Después de diez años, se separaron.
+sich streiten|Die Nachbarn streiten sich oft laut.|Los vecinos discuten a menudo en voz alta.
+vermissen|Ich vermisse meine Familie in Frankreich.|Extraño a mi familia en Francia.
+enttäuschen|Der Film hat mich enttäuscht.|La película me decepcionó.
+vertrauen|Ich vertraue meinem besten Freund völlig.|Confío plenamente en mi mejor amigo.
+sich schämen|Er schämt sich für seinen Fehler.|Se avergüenza de su error.
+sich aufregen|Reg dich nicht auf, es ist nicht so schlimm!|¡No te alteres, no es tan grave!
+sich kümmern um|Wer kümmert sich um die Katze, wenn wir weg sind?|¿Quién cuida al gato cuando no estamos?
+sich freuen auf|Ich freue mich schon auf den Urlaub.|Ya tengo muchas ganas de que lleguen las vacaciones.
+sich freuen über|Sie hat sich sehr über das Geschenk gefreut.|Se puso muy contenta con el regalo.
+sich interessieren für|Ich interessiere mich für Geschichte.|Me interesa la historia.
+sich ärgern über|Er ärgert sich über die Verspätung.|Le molesta el retraso.
+sich beschweren über|Die Nachbarn beschweren sich über den Lärm.|Los vecinos se quejan del ruido.
+sich gewöhnen an|Ich habe mich an das Wetter gewöhnt.|Me acostumbré al clima.
+sich erinnern an|Erinnerst du dich an unseren ersten Tag in Berlin?|¿Te acuerdas de nuestro primer día en Berlín?
+sich bedanken für|Ich bedanke mich für Ihre Hilfe.|Le agradezco su ayuda.
+sich entscheiden für|Wir haben uns für die größere Wohnung entschieden.|Nos decidimos por el apartamento más grande.
+sich verlassen auf|Auf sie kann man sich immer verlassen.|Con ella siempre se puede contar.
+sich bewerben um|Ich bewerbe mich um eine Stelle als Ingenieur.|Solicito un puesto de ingeniero.
+sich beschäftigen mit|In meiner Freizeit beschäftige ich mich mit Fotografie.|En mi tiempo libre me dedico a la fotografía.
+sich unterhalten über|Wir haben uns lange über Politik unterhalten.|Hablamos largo rato de política.
+sich vorbereiten auf|Ich bereite mich auf die Prüfung vor.|Me preparo para el examen.
+sich konzentrieren auf|Konzentrier dich auf das Wesentliche!|¡Concéntrate en lo esencial!
+sich sorgen um|Die Mutter sorgt sich um ihren kranken Sohn.|La madre se preocupa por su hijo enfermo.
+sich fürchten vor|Das Kind fürchtet sich vor dem Hund.|El niño le tiene miedo al perro.
+warten auf|Ich warte auf den Bus.|Espero el autobús.
+denken an|Ich denke oft an meine Freunde in Paris.|Pienso a menudo en mis amigos de París.
+glauben an|Sie glaubt an eine bessere Zukunft.|Cree en un futuro mejor.
+teilnehmen an|Ich nehme an einem Deutschkurs teil.|Participo en un curso de alemán.
+abhängen von|Das hängt vom Wetter ab.|Depende del tiempo.
+bestehen aus|Die Wohnung besteht aus drei Zimmern.|El apartamento consta de tres habitaciones.
+träumen von|Er träumt von einem Haus am Meer.|Sueña con una casa junto al mar.
+bitten um|Darf ich Sie um einen Gefallen bitten?|¿Puedo pedirle un favor?
+fragen nach|Ein Tourist hat mich nach dem Weg gefragt.|Un turista me preguntó por el camino.
+achten auf|Achte bitte auf die Stufe!|¡Ten cuidado con el escalón, por favor!
+gehören zu|Das gehört zu meinen Aufgaben.|Eso forma parte de mis tareas.
+sorgen für|Die Eltern sorgen für ihre Kinder.|Los padres cuidan de sus hijos.
+führen zu|Zu viel Stress führt oft zu Krankheiten.|Demasiado estrés lleva a menudo a enfermedades.
+überzeugen von|Er hat mich von seiner Idee überzeugt.|Me convenció de su idea.
+hinweisen auf|Ich möchte Sie auf einen Fehler hinweisen.|Quisiera señalarle un error.
+verzichten auf|Ich verzichte seit einem Monat auf Zucker.|Hace un mes que prescindo del azúcar.
+zweifeln an|Ich zweifle an seiner Ehrlichkeit.|Dudo de su honestidad.

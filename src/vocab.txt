@@ -1,0 +1,978 @@
+# bases|Premiers pas|Saluer, remercier, se faire comprendre
+Hallo!||Salut ! / Bonjour !
+Guten Morgen!||Bonjour ! (le matin)
+Guten Tag!||Bonjour ! (la journée)
+Guten Abend!||Bonsoir !
+Gute Nacht!||Bonne nuit !
+Tschüss!||Salut ! (en partant)
+Auf Wiedersehen!||Au revoir !
+Bis später!||À plus tard !
+Bis morgen!||À demain !
+Wie geht's?||Ça va ?
+Mir geht es gut, danke.||Je vais bien, merci.
+Danke schön!||Merci beaucoup !
+Bitte schön!||Je vous en prie !
+Gern geschehen.||Avec plaisir. (de rien)
+Entschuldigung!||Excusez-moi ! / Pardon !
+Es tut mir leid.||Je suis désolé(e).
+ja||oui
+nein||non
+doch||si (après une question négative)
+bitte||s'il vous plaît
+Ich verstehe nicht.||Je ne comprends pas.
+Können Sie das wiederholen?||Pouvez-vous répéter ?
+Sprechen Sie bitte langsamer.||Parlez plus lentement, s'il vous plaît.
+Wie heißen Sie?||Comment vous appelez-vous ?
+Ich heiße …||Je m'appelle …
+Woher kommen Sie?||D'où venez-vous ?
+Ich komme aus Frankreich.||Je viens de France.
+Freut mich!||Enchanté(e) !
+Wie sagt man das auf Deutsch?||Comment dit-on ça en allemand ?
+Was bedeutet das?||Qu'est-ce que ça veut dire ?
+Kein Problem.||Pas de problème.
+Alles klar!||D'accord ! / C'est compris !
+Viel Glück!||Bonne chance !
+Schönes Wochenende!||Bon week-end !
+Herzlich willkommen!||Bienvenue !
+Prost!||Santé ! (en trinquant)
+Guten Appetit!||Bon appétit !
+# temps|Temps & calendrier|Jours, mois, saisons, moments de la journée
+der Tag|Tage|le jour
+die Woche|Wochen|la semaine
+der Monat|Monate|le mois
+das Jahr|Jahre|l'année
+die Stunde|Stunden|l'heure (durée)
+die Minute|Minuten|la minute
+die Uhr|Uhren|l'horloge, la montre ; … heures
+der Morgen|Morgen|le matin
+der Vormittag|Vormittage|la matinée
+der Mittag|Mittage|le midi
+der Nachmittag|Nachmittage|l'après-midi
+der Abend|Abende|le soir
+die Nacht|Nächte|la nuit
+der Montag|Montage|lundi
+der Dienstag|Dienstage|mardi
+der Mittwoch|Mittwoche|mercredi
+der Donnerstag|Donnerstage|jeudi
+der Freitag|Freitage|vendredi
+der Samstag|Samstage|samedi
+der Sonntag|Sonntage|dimanche
+das Wochenende|Wochenenden|le week-end
+der Januar|—|janvier
+der Februar|—|février
+der März|—|mars
+der April|—|avril
+der Mai|—|mai
+der Juni|—|juin
+der Juli|—|juillet
+der August|—|août
+der September|—|septembre
+der Oktober|—|octobre
+der November|—|novembre
+der Dezember|—|décembre
+der Frühling|Frühlinge|le printemps
+der Sommer|Sommer|l'été
+der Herbst|Herbste|l'automne
+der Winter|Winter|l'hiver
+der Termin|Termine|le rendez-vous
+der Feiertag|Feiertage|le jour férié
+der Geburtstag|Geburtstage|l'anniversaire
+heute||aujourd'hui
+morgen||demain
+gestern||hier
+übermorgen||après-demain
+jetzt||maintenant
+bald||bientôt
+später||plus tard
+immer||toujours
+oft||souvent
+manchmal||parfois
+nie||jamais
+Wie spät ist es?||Quelle heure est-il ?
+Es ist halb drei.||Il est deux heures et demie.
+# nombres|Nombres|Compter, payer, donner l'heure
+null||zéro
+eins||un
+zwei||deux
+drei||trois
+vier||quatre
+fünf||cinq
+sechs||six
+sieben||sept
+acht||huit
+neun||neuf
+zehn||dix
+elf||onze
+zwölf||douze
+dreizehn||treize
+sechzehn||seize
+siebzehn||dix-sept
+zwanzig||vingt
+einundzwanzig||vingt et un
+dreißig||trente
+vierzig||quarante
+fünfzig||cinquante
+sechzig||soixante
+siebzig||soixante-dix
+achtzig||quatre-vingts
+neunzig||quatre-vingt-dix
+hundert||cent
+tausend||mille
+die Million|Millionen|le million
+die Zahl|Zahlen|le nombre
+die Hälfte|Hälften|la moitié
+das Viertel|Viertel|le quart
+erste||premier
+zweite||deuxième
+dritte||troisième
+# famille|Famille & entourage|Les proches, les voisins, la situation familiale
+die Familie|Familien|la famille
+die Eltern (Pl.)|—|les parents
+die Mutter|Mütter|la mère
+der Vater|Väter|le père
+das Kind|Kinder|l'enfant
+der Sohn|Söhne|le fils
+die Tochter|Töchter|la fille (enfant de)
+der Bruder|Brüder|le frère
+die Schwester|Schwestern|la sœur
+die Geschwister (Pl.)|—|les frères et sœurs
+die Großeltern (Pl.)|—|les grands-parents
+die Oma|Omas|la mamie
+der Opa|Opas|le papi
+der Onkel|Onkel|l'oncle
+die Tante|Tanten|la tante
+der Mann|Männer|l'homme ; le mari
+die Frau|Frauen|la femme ; Madame
+der Freund|Freunde|l'ami ; le petit ami
+die Freundin|Freundinnen|l'amie ; la petite amie
+der Nachbar|Nachbarn|le voisin
+die Nachbarin|Nachbarinnen|la voisine
+das Baby|Babys|le bébé
+der Junge|Jungen|le garçon
+das Mädchen|Mädchen|la fille (jeune fille)
+die Leute (Pl.)|—|les gens
+der Hund|Hunde|le chien
+die Katze|Katzen|le chat
+verheiratet||marié(e)
+ledig||célibataire
+geschieden||divorcé(e)
+~heiraten|heiratet · heiratete · hat geheiratet|se marier
+~besuchen|besucht · besuchte · hat besucht|rendre visite à
+# logement|Logement|Appartement, meubles, location
+die Wohnung|Wohnungen|l'appartement
+das Haus|Häuser|la maison
+das Zimmer|Zimmer|la pièce, la chambre
+die Küche|Küchen|la cuisine
+das Bad|Bäder|la salle de bains
+das Schlafzimmer|Schlafzimmer|la chambre à coucher
+das Wohnzimmer|Wohnzimmer|le salon
+der Flur|Flure|le couloir, l'entrée
+der Balkon|Balkone|le balcon
+der Keller|Keller|la cave
+die Toilette|Toiletten|les toilettes
+die Tür|Türen|la porte
+das Fenster|Fenster|la fenêtre
+die Treppe|Treppen|l'escalier
+das Stockwerk|Stockwerke|l'étage
+der Aufzug|Aufzüge|l'ascenseur
+der Schlüssel|Schlüssel|la clé
+die Miete|Mieten|le loyer
+die Nebenkosten (Pl.)|—|les charges
+der Vermieter|Vermieter|le propriétaire (bailleur)
+der Mieter|Mieter|le locataire
+die Kaution|Kautionen|la caution
+der Mietvertrag|Mietverträge|le bail
+das Bett|Betten|le lit
+der Tisch|Tische|la table
+der Stuhl|Stühle|la chaise
+der Schrank|Schränke|l'armoire, le placard
+das Sofa|Sofas|le canapé
+die Lampe|Lampen|la lampe
+der Kühlschrank|Kühlschränke|le réfrigérateur
+die Waschmaschine|Waschmaschinen|la machine à laver
+die Heizung|Heizungen|le chauffage
+der Müll|—|les ordures
+die Mülltonne|Mülltonnen|la poubelle (conteneur)
+der Briefkasten|Briefkästen|la boîte aux lettres
+~umziehen|zieht um · zog um · ist umgezogen|déménager
+~mieten|mietet · mietete · hat gemietet|louer (en tant que locataire)
+~putzen|putzt · putzte · hat geputzt|nettoyer
+~lüften|lüftet · lüftete · hat gelüftet|aérer
+gemütlich||confortable, douillet
+# cuisine|Cuisine & aliments|Ce qu'on mange, ce qu'on boit, la vaisselle
+das Essen|—|la nourriture, le repas
+das Frühstück|Frühstücke|le petit-déjeuner
+das Mittagessen|Mittagessen|le déjeuner
+das Abendessen|Abendessen|le dîner
+das Brot|Brote|le pain
+das Brötchen|Brötchen|le petit pain
+die Butter|—|le beurre
+der Käse|Käse|le fromage
+die Wurst|Würste|la saucisse, la charcuterie
+das Fleisch|—|la viande
+das Hähnchen|Hähnchen|le poulet
+der Fisch|Fische|le poisson
+das Ei|Eier|l'œuf
+die Milch|—|le lait
+der Joghurt|Joghurts|le yaourt
+das Gemüse|—|les légumes
+das Obst|—|les fruits
+der Apfel|Äpfel|la pomme
+die Banane|Bananen|la banane
+die Kartoffel|Kartoffeln|la pomme de terre
+die Tomate|Tomaten|la tomate
+die Zwiebel|Zwiebeln|l'oignon
+der Salat|Salate|la salade
+der Reis|—|le riz
+die Nudeln (Pl.)|—|les pâtes
+das Salz|—|le sel
+der Pfeffer|—|le poivre
+der Zucker|—|le sucre
+der Kuchen|Kuchen|le gâteau
+das Wasser|—|l'eau
+der Saft|Säfte|le jus
+der Kaffee|Kaffees|le café (boisson)
+der Tee|Tees|le thé
+das Bier|Biere|la bière
+der Wein|Weine|le vin
+der Topf|Töpfe|la casserole
+die Pfanne|Pfannen|la poêle
+der Teller|Teller|l'assiette
+die Tasse|Tassen|la tasse
+das Glas|Gläser|le verre
+das Messer|Messer|le couteau
+die Gabel|Gabeln|la fourchette
+der Löffel|Löffel|la cuillère
+~kochen|kocht · kochte · hat gekocht|cuisiner ; faire bouillir
+lecker||délicieux
+Ich habe Hunger.||J'ai faim.
+Ich habe Durst.||J'ai soif.
+# courses|Courses|Magasins, caisse, prix
+der Supermarkt|Supermärkte|le supermarché
+die Bäckerei|Bäckereien|la boulangerie
+die Metzgerei|Metzgereien|la boucherie
+die Apotheke|Apotheken|la pharmacie
+die Drogerie|Drogerien|la droguerie (hygiène, ménage)
+der Markt|Märkte|le marché
+das Geschäft|Geschäfte|le magasin
+die Kasse|Kassen|la caisse
+der Kassenbon|Kassenbons|le ticket de caisse
+die Tüte|Tüten|le sachet, le sac
+der Einkaufswagen|Einkaufswagen|le chariot
+das Pfand|—|la consigne
+die Flasche|Flaschen|la bouteille
+die Dose|Dosen|la boîte de conserve, la canette
+die Packung|Packungen|le paquet
+das Kilo|Kilos|le kilo
+das Gramm|Gramm|le gramme
+der Preis|Preise|le prix
+das Angebot|Angebote|l'offre, la promotion
+das Bargeld|—|l'argent liquide
+die Karte|Karten|la carte
+der Euro|Euro|l'euro
+der Cent|Cent|le centime
+~kaufen|kauft · kaufte · hat gekauft|acheter
+~einkaufen|kauft ein · kaufte ein · hat eingekauft|faire les courses
+~bezahlen|bezahlt · bezahlte · hat bezahlt|payer
+~kosten|kostet · kostete · hat gekostet|coûter
+billig||bon marché
+teuer||cher
+günstig||avantageux, pas cher
+geöffnet||ouvert
+geschlossen||fermé
+Wie viel kostet das?||Combien ça coûte ?
+Kann ich mit Karte zahlen?||Je peux payer par carte ?
+Brauchen Sie eine Tüte?||Vous voulez un sac ?
+Ich schaue nur.||Je regarde seulement.
+# resto|Restaurant & café|Commander, payer, réserver
+das Restaurant|Restaurants|le restaurant
+das Café|Cafés|le café (lieu)
+die Kneipe|Kneipen|le bistrot, le bar
+die Speisekarte|Speisekarten|la carte (des plats)
+die Rechnung|Rechnungen|l'addition ; la facture
+das Trinkgeld|Trinkgelder|le pourboire
+der Kellner|Kellner|le serveur
+die Kellnerin|Kellnerinnen|la serveuse
+die Vorspeise|Vorspeisen|l'entrée
+das Hauptgericht|Hauptgerichte|le plat principal
+die Nachspeise|Nachspeisen|le dessert
+die Suppe|Suppen|la soupe
+das Getränk|Getränke|la boisson
+~bestellen|bestellt · bestellte · hat bestellt|commander
+~reservieren|reserviert · reservierte · hat reserviert|réserver
+vegetarisch||végétarien
+scharf||épicé
+Die Karte, bitte.||La carte, s'il vous plaît.
+Ich hätte gern einen Kaffee.||Je voudrais un café.
+Die Rechnung, bitte.||L'addition, s'il vous plaît.
+Zusammen oder getrennt?||Ensemble ou séparément ?
+Stimmt so.||Gardez la monnaie.
+Ist hier noch frei?||Cette place est libre ?
+Einen Tisch für zwei, bitte.||Une table pour deux, s'il vous plaît.
+Was empfehlen Sie?||Que recommandez-vous ?
+# transports|Transports & ville|Se déplacer, s'orienter
+der Bahnhof|Bahnhöfe|la gare
+der Zug|Züge|le train
+der Bus|Busse|le bus
+die Straßenbahn|Straßenbahnen|le tramway
+die U-Bahn|U-Bahnen|le métro
+die S-Bahn|S-Bahnen|le train de banlieue (RER)
+die Haltestelle|Haltestellen|l'arrêt
+das Gleis|Gleise|la voie (le quai)
+die Fahrkarte|Fahrkarten|le billet
+der Fahrplan|Fahrpläne|l'horaire
+die Verspätung|Verspätungen|le retard
+das Auto|Autos|la voiture
+das Fahrrad|Fahrräder|le vélo
+der Flughafen|Flughäfen|l'aéroport
+die Straße|Straßen|la rue
+die Ampel|Ampeln|le feu (de circulation)
+die Kreuzung|Kreuzungen|le carrefour
+die Ecke|Ecken|le coin
+der Platz|Plätze|la place
+die Brücke|Brücken|le pont
+die Stadt|Städte|la ville
+das Dorf|Dörfer|le village
+die Innenstadt|Innenstädte|le centre-ville
+die Kirche|Kirchen|l'église
+der Park|Parks|le parc
+die Post|—|la poste
+der Führerschein|Führerscheine|le permis de conduire
+~fahren|fährt · fuhr · ist gefahren|aller (en véhicule), conduire
+~umsteigen|steigt um · stieg um · ist umgestiegen|changer (de train, de ligne)
+~einsteigen|steigt ein · stieg ein · ist eingestiegen|monter (dans un véhicule)
+~aussteigen|steigt aus · stieg aus · ist ausgestiegen|descendre (d'un véhicule)
+links||à gauche
+rechts||à droite
+geradeaus||tout droit
+weit||loin
+in der Nähe||à proximité
+Wo ist die Haltestelle?||Où est l'arrêt ?
+Wie komme ich zum Bahnhof?||Comment je vais à la gare ?
+hin und zurück||aller-retour
+Nächster Halt||Prochain arrêt
+# travail|Travail|Bureau, contrat, candidature
+die Arbeit|Arbeiten|le travail
+der Job|Jobs|le boulot
+der Beruf|Berufe|le métier
+die Stelle|Stellen|le poste (emploi)
+die Firma|Firmen|l'entreprise
+das Büro|Büros|le bureau (lieu)
+der Chef|Chefs|le chef
+die Chefin|Chefinnen|la cheffe
+der Kollege|Kollegen|le collègue
+die Kollegin|Kolleginnen|la collègue
+das Gehalt|Gehälter|le salaire
+der Vertrag|Verträge|le contrat
+die Bewerbung|Bewerbungen|la candidature
+der Lebenslauf|Lebensläufe|le CV
+das Vorstellungsgespräch|Vorstellungsgespräche|l'entretien d'embauche
+die Besprechung|Besprechungen|la réunion
+der Urlaub|Urlaube|les congés, les vacances
+die Pause|Pausen|la pause
+die Überstunde|Überstunden|l'heure supplémentaire
+der Feierabend|Feierabende|la fin de la journée de travail
+der Computer|Computer|l'ordinateur
+die E-Mail|E-Mails|l'e-mail
+das Handy|Handys|le téléphone portable
+die Aufgabe|Aufgaben|la tâche
+~arbeiten|arbeitet · arbeitete · hat gearbeitet|travailler
+~verdienen|verdient · verdiente · hat verdient|gagner (de l'argent)
+~sich bewerben|bewirbt sich · bewarb sich · hat sich beworben|postuler
+~kündigen|kündigt · kündigte · hat gekündigt|démissionner ; résilier
+pünktlich||ponctuel
+krankgeschrieben||en arrêt maladie
+Schönen Feierabend!||Bonne fin de journée !
+# sante|Santé & corps|Chez le médecin, à la pharmacie
+der Körper|Körper|le corps
+der Kopf|Köpfe|la tête
+das Auge|Augen|l'œil
+das Ohr|Ohren|l'oreille
+die Nase|Nasen|le nez
+der Mund|Münder|la bouche
+der Zahn|Zähne|la dent
+der Hals|Hälse|le cou ; la gorge
+der Arm|Arme|le bras
+die Hand|Hände|la main
+der Finger|Finger|le doigt
+der Bauch|Bäuche|le ventre
+der Rücken|Rücken|le dos
+das Bein|Beine|la jambe
+der Fuß|Füße|le pied
+das Herz|Herzen|le cœur
+der Arzt|Ärzte|le médecin
+die Ärztin|Ärztinnen|la médecin (femme)
+die Praxis|Praxen|le cabinet médical
+das Krankenhaus|Krankenhäuser|l'hôpital
+die Notaufnahme|Notaufnahmen|les urgences
+das Medikament|Medikamente|le médicament
+das Rezept|Rezepte|l'ordonnance ; la recette
+die Krankenkasse|Krankenkassen|la caisse d'assurance maladie
+die Versichertenkarte|Versichertenkarten|la carte d'assuré (≈ carte Vitale)
+die Krankmeldung|Krankmeldungen|l'arrêt maladie (le certificat)
+das Fieber|—|la fièvre
+die Erkältung|Erkältungen|le rhume
+der Husten|—|la toux
+die Schmerzen (Pl.)|—|les douleurs
+krank||malade
+gesund||en bonne santé
+müde||fatigué
+Ich habe Kopfschmerzen.||J'ai mal à la tête.
+Mir ist schlecht.||J'ai la nausée.
+Ich brauche einen Termin.||J'ai besoin d'un rendez-vous.
+Gute Besserung!||Bon rétablissement !
+# admin|Administration & argent|Démarches, banque, courrier
+das Amt|Ämter|l'administration (le service)
+das Bürgeramt|Bürgerämter|le bureau des citoyens (≈ mairie)
+die Anmeldung|Anmeldungen|la déclaration de domicile ; l'inscription
+die Behörde|Behörden|l'autorité administrative
+das Formular|Formulare|le formulaire
+der Antrag|Anträge|la demande (officielle)
+der Ausweis|Ausweise|la carte d'identité
+der Reisepass|Reisepässe|le passeport
+die Adresse|Adressen|l'adresse
+die Unterschrift|Unterschriften|la signature
+die Staatsangehörigkeit|Staatsangehörigkeiten|la nationalité
+der Wohnsitz|Wohnsitze|le domicile
+die Steuer|Steuern|l'impôt
+die Steuernummer|Steuernummern|le numéro fiscal
+die Versicherung|Versicherungen|l'assurance
+die Bank|Banken|la banque
+das Konto|Konten|le compte
+die Überweisung|Überweisungen|le virement
+der Geldautomat|Geldautomaten|le distributeur de billets
+das Geld|—|l'argent
+der Brief|Briefe|la lettre
+das Paket|Pakete|le colis
+die Frist|Fristen|le délai
+die Gebühr|Gebühren|les frais, la taxe
+der Rundfunkbeitrag|—|la redevance audiovisuelle
+~ausfüllen|füllt aus · füllte aus · hat ausgefüllt|remplir (un formulaire)
+~unterschreiben|unterschreibt · unterschrieb · hat unterschrieben|signer
+~sich anmelden|meldet sich an · meldete sich an · hat sich angemeldet|s'inscrire ; déclarer son domicile
+~beantragen|beantragt · beantragte · hat beantragt|demander officiellement
+~überweisen|überweist · überwies · hat überwiesen|virer (de l'argent)
+# vetements|Vêtements|S'habiller, essayer, acheter
+die Kleidung|—|les vêtements
+die Hose|Hosen|le pantalon
+das Hemd|Hemden|la chemise
+das T-Shirt|T-Shirts|le t-shirt
+der Pullover|Pullover|le pull
+die Jacke|Jacken|la veste
+der Mantel|Mäntel|le manteau
+das Kleid|Kleider|la robe
+der Rock|Röcke|la jupe
+der Schuh|Schuhe|la chaussure
+die Socke|Socken|la chaussette
+die Mütze|Mützen|le bonnet
+der Schal|Schals|l'écharpe
+der Regenschirm|Regenschirme|le parapluie
+die Tasche|Taschen|le sac ; la poche
+die Größe|Größen|la taille
+die Umkleidekabine|Umkleidekabinen|la cabine d'essayage
+~anziehen|zieht an · zog an · hat angezogen|mettre (un vêtement)
+~anprobieren|probiert an · probierte an · hat anprobiert|essayer (un vêtement)
+~passen|passt · passte · hat gepasst|aller (être à la bonne taille)
+eng||serré
+bequem||confortable
+# loisirs|Loisirs & météo|Temps qu'il fait, sorties, sport
+das Wetter|—|le temps (météo)
+die Sonne|Sonnen|le soleil
+der Regen|—|la pluie
+der Schnee|—|la neige
+der Wind|Winde|le vent
+die Wolke|Wolken|le nuage
+das Gewitter|Gewitter|l'orage
+die Temperatur|Temperaturen|la température
+sonnig||ensoleillé
+bewölkt||nuageux
+Es regnet.||Il pleut.
+Es ist kalt.||Il fait froid.
+Es ist warm.||Il fait chaud.
+die Freizeit|—|le temps libre, les loisirs
+das Hobby|Hobbys|le passe-temps
+der Sport|—|le sport
+das Kino|Kinos|le cinéma
+der Film|Filme|le film
+das Buch|Bücher|le livre
+die Musik|—|la musique
+das Konzert|Konzerte|le concert
+das Museum|Museen|le musée
+der Ausflug|Ausflüge|l'excursion
+die Reise|Reisen|le voyage
+das Schwimmbad|Schwimmbäder|la piscine
+der Verein|Vereine|l'association, le club
+das Spiel|Spiele|le jeu ; le match
+~spazieren gehen|geht spazieren · ging spazieren · ist spazieren gegangen|se promener
+~schwimmen|schwimmt · schwamm · ist geschwommen|nager
+~wandern|wandert · wanderte · ist gewandert|faire de la randonnée
+~sich treffen|trifft sich · traf sich · hat sich getroffen|se retrouver
+Hast du Lust?||Ça te dit ?
+# verbes|Verbes essentiels|Les 50 verbes du quotidien, avec leurs formes
+~sein|ist · war · ist gewesen|être
+~haben|hat · hatte · hat gehabt|avoir
+~werden|wird · wurde · ist geworden|devenir
+~können|kann · konnte · hat gekonnt|pouvoir, savoir faire
+~müssen|muss · musste · hat gemusst|devoir (obligation)
+~wollen|will · wollte · hat gewollt|vouloir
+~dürfen|darf · durfte · hat gedurft|avoir le droit de
+~sollen|soll · sollte · hat gesollt|devoir (consigne, conseil)
+~mögen|mag · mochte · hat gemocht|aimer bien
+~gehen|geht · ging · ist gegangen|aller (à pied)
+~kommen|kommt · kam · ist gekommen|venir
+~machen|macht · machte · hat gemacht|faire
+~sagen|sagt · sagte · hat gesagt|dire
+~sprechen|spricht · sprach · hat gesprochen|parler
+~fragen|fragt · fragte · hat gefragt|demander (poser une question)
+~antworten|antwortet · antwortete · hat geantwortet|répondre
+~wissen|weiß · wusste · hat gewusst|savoir
+~kennen|kennt · kannte · hat gekannt|connaître
+~verstehen|versteht · verstand · hat verstanden|comprendre
+~sehen|sieht · sah · hat gesehen|voir
+~hören|hört · hörte · hat gehört|entendre, écouter
+~lesen|liest · las · hat gelesen|lire
+~schreiben|schreibt · schrieb · hat geschrieben|écrire
+~essen|isst · aß · hat gegessen|manger
+~trinken|trinkt · trank · hat getrunken|boire
+~schlafen|schläft · schlief · hat geschlafen|dormir
+~wohnen|wohnt · wohnte · hat gewohnt|habiter
+~leben|lebt · lebte · hat gelebt|vivre
+~geben|gibt · gab · hat gegeben|donner
+~nehmen|nimmt · nahm · hat genommen|prendre
+~bringen|bringt · brachte · hat gebracht|apporter
+~mitbringen|bringt mit · brachte mit · hat mitgebracht|apporter (avec soi)
+~finden|findet · fand · hat gefunden|trouver
+~suchen|sucht · suchte · hat gesucht|chercher
+~brauchen|braucht · brauchte · hat gebraucht|avoir besoin de
+~helfen|hilft · half · hat geholfen|aider
+~warten|wartet · wartete · hat gewartet|attendre
+~bleiben|bleibt · blieb · ist geblieben|rester
+~lernen|lernt · lernte · hat gelernt|apprendre
+~gefallen|gefällt · gefiel · hat gefallen|plaire
+~glauben|glaubt · glaubte · hat geglaubt|croire
+~denken|denkt · dachte · hat gedacht|penser
+~öffnen|öffnet · öffnete · hat geöffnet|ouvrir
+~schließen|schließt · schloss · hat geschlossen|fermer
+~anfangen|fängt an · fing an · hat angefangen|commencer
+~aufhören|hört auf · hörte auf · hat aufgehört|arrêter
+~aufstehen|steht auf · stand auf · ist aufgestanden|se lever
+~anrufen|ruft an · rief an · hat angerufen|téléphoner à
+~vergessen|vergisst · vergaß · hat vergessen|oublier
+~zeigen|zeigt · zeigte · hat gezeigt|montrer
+~verlieren|verliert · verlor · hat verloren|perdre
+~liegen|liegt · lag · hat gelegen|être couché, se trouver (à plat)
+~sitzen|sitzt · saß · hat gesessen|être assis
+~stehen|steht · stand · hat gestanden|être debout, se trouver
+~laufen|läuft · lief · ist gelaufen|courir, marcher
+~tragen|trägt · trug · hat getragen|porter
+# adjectifs|Adjectifs utiles|Décrire les choses et les gens
+groß||grand
+klein||petit
+alt||vieux, âgé
+neu||neuf, nouveau
+jung||jeune
+gut||bon, bien
+schlecht||mauvais, mal
+schön||beau
+hässlich||laid
+lang||long
+kurz||court
+schnell||rapide
+langsam||lent
+heiß||brûlant, très chaud
+kalt||froid
+warm||chaud
+voll||plein
+leer||vide
+leicht||léger ; facile
+schwer||lourd ; difficile
+einfach||simple
+schwierig||difficile
+richtig||juste, correct
+falsch||faux
+wichtig||important
+laut||bruyant, fort
+leise||silencieux, à voix basse
+sauber||propre
+schmutzig||sale
+früh||tôt
+spät||tard
+nah||proche
+freundlich||aimable
+nett||sympa
+glücklich||heureux
+traurig||triste
+froh||content
+böse||méchant ; fâché
+fertig||prêt ; terminé
+frei||libre
+besetzt||occupé
+kaputt||cassé
+sicher||sûr
+# outils|Mots-outils|Questions, liaisons, quantités
+wer?||qui ?
+was?||quoi ?
+wo?||où ?
+wohin?||où (direction) ?
+woher?||d'où ?
+wann?||quand ?
+warum?||pourquoi ?
+wie?||comment ?
+wie viel?||combien ?
+welcher?||lequel ?
+und||et
+oder||ou
+aber||mais
+weil||parce que
+dass||que (conjonction)
+wenn||si ; quand
+also||donc
+auch||aussi
+noch||encore
+schon||déjà
+nur||seulement
+sehr||très
+ziemlich||assez (plutôt)
+vielleicht||peut-être
+zusammen||ensemble
+allein||seul
+hier||ici
+dort||là-bas
+alles||tout
+nichts||rien
+etwas||quelque chose
+jemand||quelqu'un
+niemand||personne
+viel||beaucoup
+wenig||peu
+genug||assez (suffisamment)
+# b2travail|Monde du travail|Carrière, contrat, négociation|B2
+die Arbeitsbedingungen (Pl.)|—|les conditions de travail
+der Arbeitgeber|Arbeitgeber|l'employeur
+der Arbeitnehmer|Arbeitnehmer|le salarié
+die Kündigungsfrist|Kündigungsfristen|le préavis
+die Probezeit|Probezeiten|la période d'essai
+die Gehaltserhöhung|Gehaltserhöhungen|l'augmentation de salaire
+die Beförderung|Beförderungen|la promotion
+die Weiterbildung|Weiterbildungen|la formation continue
+die Fähigkeit|Fähigkeiten|la compétence, la capacité
+die Erfahrung|Erfahrungen|l'expérience
+die Verantwortung|Verantwortungen|la responsabilité
+die Leistung|Leistungen|la performance ; la prestation
+der Umsatz|Umsätze|le chiffre d'affaires
+der Gewinn|Gewinne|le bénéfice
+der Verlust|Verluste|la perte
+die Abteilung|Abteilungen|le service, le département
+die Geschäftsführung|Geschäftsführungen|la direction
+der Betriebsrat|Betriebsräte|le comité d'entreprise
+die Gewerkschaft|Gewerkschaften|le syndicat
+der Streik|Streiks|la grève
+die Teilzeit|—|le temps partiel
+die Vollzeit|—|le temps plein
+das Homeoffice|Homeoffices|le télétravail
+die Arbeitslosigkeit|—|le chômage
+die Agentur für Arbeit|—|l'agence pour l'emploi (≈ France Travail)
+der Auftrag|Aufträge|la commande, la mission
+~verhandeln|verhandelt · verhandelte · hat verhandelt|négocier
+~sich weiterbilden|bildet sich weiter · bildete sich weiter · hat sich weitergebildet|se former (en continu)
+~befördern|befördert · beförderte · hat befördert|promouvoir
+~einstellen|stellt ein · stellte ein · hat eingestellt|embaucher
+~entlassen|entlässt · entließ · hat entlassen|licencier
+~leiten|leitet · leitete · hat geleitet|diriger
+selbstständig||indépendant, à son compte
+befristet||à durée déterminée
+unbefristet||à durée indéterminée
+# b2droit|Droit & démarches|Contrats, recours, assurances, impôts|B2
+der Anspruch|Ansprüche|le droit (à), la revendication
+die Bescheinigung|Bescheinigungen|l'attestation
+der Bescheid|Bescheide|la décision officielle, l'avis
+der Widerspruch|Widersprüche|le recours ; la contradiction
+die Vollmacht|Vollmachten|la procuration
+die Genehmigung|Genehmigungen|l'autorisation
+die Aufenthaltserlaubnis|Aufenthaltserlaubnisse|le titre de séjour
+die Voraussetzung|Voraussetzungen|la condition préalable
+die Bedingung|Bedingungen|la condition
+die Kündigung|Kündigungen|la résiliation ; le licenciement
+die Mahnung|Mahnungen|la lettre de relance
+der Rechtsanwalt|Rechtsanwälte|l'avocat
+das Gericht|Gerichte|le tribunal ; le plat (cuisine)
+das Gesetz|Gesetze|la loi
+die Vorschrift|Vorschriften|la règle, la prescription
+die Haftpflichtversicherung|Haftpflichtversicherungen|l'assurance responsabilité civile
+der Schaden|Schäden|le dommage
+die Steuererklärung|Steuererklärungen|la déclaration d'impôts
+der Beitrag|Beiträge|la cotisation ; la contribution
+die Rente|Renten|la retraite (pension)
+das Kindergeld|—|les allocations familiales
+das Bürgergeld|—|le revenu minimum (≈ RSA)
+die Unterlagen (Pl.)|—|les documents, le dossier
+der Nachweis|Nachweise|le justificatif
+~einreichen|reicht ein · reichte ein · hat eingereicht|déposer (un dossier)
+~verlängern|verlängert · verlängerte · hat verlängert|prolonger
+~Widerspruch einlegen|legt Widerspruch ein · legte Widerspruch ein · hat Widerspruch eingelegt|faire un recours
+~genehmigen|genehmigt · genehmigte · hat genehmigt|autoriser
+~nachweisen|weist nach · wies nach · hat nachgewiesen|prouver, justifier
+~haften|haftet · haftete · hat gehaftet|être responsable (juridiquement)
+gültig||valable
+fristgerecht||dans les délais
+verpflichtet||obligé, tenu de
+zuständig||compétent, responsable (de)
+# b2sante|Santé & bien-être|Symptômes, traitements, prévention|B2
+die Beschwerden (Pl.)|—|les troubles, les maux
+die Untersuchung|Untersuchungen|l'examen médical
+die Behandlung|Behandlungen|le traitement
+die Diagnose|Diagnosen|le diagnostic
+der Facharzt|Fachärzte|le médecin spécialiste
+der Hausarzt|Hausärzte|le médecin traitant
+die Nebenwirkung|Nebenwirkungen|l'effet secondaire
+die Impfung|Impfungen|la vaccination
+die Allergie|Allergien|l'allergie
+die Verletzung|Verletzungen|la blessure
+die Entzündung|Entzündungen|l'inflammation
+der Blutdruck|—|la tension artérielle
+die Ernährung|—|l'alimentation
+die Bewegung|Bewegungen|le mouvement ; l'activité physique
+der Stress|—|le stress
+die Erschöpfung|—|l'épuisement
+die Sucht|Süchte|la dépendance, l'addiction
+die Vorsorge|—|la prévention (médicale)
+~sich erholen|erholt sich · erholte sich · hat sich erholt|se reposer, se rétablir
+~sich verletzen|verletzt sich · verletzte sich · hat sich verletzt|se blesser
+~behandeln|behandelt · behandelte · hat behandelt|traiter, soigner
+~untersuchen|untersucht · untersuchte · hat untersucht|examiner
+~verschreiben|verschreibt · verschrieb · hat verschrieben|prescrire
+~leiden an|leidet · litt · hat gelitten|souffrir de (+ Dat.)
+~vorbeugen|beugt vor · beugte vor · hat vorgebeugt|prévenir (+ Dat.)
+ansteckend||contagieux
+chronisch||chronique
+erschöpft||épuisé
+schwanger||enceinte
+rezeptpflichtig||sur ordonnance
+# b2gesellschaft|Société, politique & médias|Actualité, débats, institutions|B2
+die Gesellschaft|Gesellschaften|la société
+die Regierung|Regierungen|le gouvernement
+die Wahl|Wahlen|l'élection ; le choix
+die Partei|Parteien|le parti
+der Bundestag|—|le Parlement fédéral
+der Bundeskanzler|Bundeskanzler|le chancelier fédéral
+die Demokratie|Demokratien|la démocratie
+die Meinung|Meinungen|l'opinion
+die Freiheit|Freiheiten|la liberté
+die Gleichberechtigung|—|l'égalité des droits
+die Integration|—|l'intégration
+die Einwanderung|Einwanderungen|l'immigration
+die Armut|—|la pauvreté
+der Wohlstand|—|la prospérité
+die Ungleichheit|Ungleichheiten|l'inégalité
+die Bildung|—|l'éducation, la formation
+die Nachricht|Nachrichten|la nouvelle, l'information
+die Zeitung|Zeitungen|le journal
+die Sendung|Sendungen|l'émission
+der Bericht|Berichte|le rapport, le reportage
+die Umfrage|Umfragen|le sondage
+die Krise|Krisen|la crise
+die Entwicklung|Entwicklungen|le développement, l'évolution
+die Herausforderung|Herausforderungen|le défi
+der Bürger|Bürger|le citoyen
+~wählen|wählt · wählte · hat gewählt|voter ; choisir
+~abstimmen|stimmt ab · stimmte ab · hat abgestimmt|voter (sur une question)
+~berichten|berichtet · berichtete · hat berichtet|rapporter, faire un reportage
+~fordern|fordert · forderte · hat gefordert|exiger, réclamer
+~sich engagieren|engagiert sich · engagierte sich · hat sich engagiert|s'engager
+~kritisieren|kritisiert · kritisierte · hat kritisiert|critiquer
+gesellschaftlich||social, sociétal
+politisch||politique
+umstritten||controversé
+aktuell||actuel
+# b2umwelt|Environnement & énergie|Climat, tri, consommation|B2
+die Umwelt|—|l'environnement
+der Klimawandel|—|le changement climatique
+der Umweltschutz|—|la protection de l'environnement
+die Energie|Energien|l'énergie
+der Strom|—|l'électricité ; le courant
+der Verbrauch|—|la consommation
+die Nachhaltigkeit|—|la durabilité
+die Verschmutzung|Verschmutzungen|la pollution
+die Abgase (Pl.)|—|les gaz d'échappement
+der Abfall|Abfälle|le déchet
+die Mülltrennung|—|le tri des déchets
+der Gelbe Sack|gelben Säcke|le sac jaune (emballages)
+das Altglas|—|le verre à recycler
+die Solaranlage|Solaranlagen|l'installation solaire
+die Windkraft|—|l'énergie éolienne
+das Kraftwerk|Kraftwerke|la centrale électrique
+die Ressource|Ressourcen|la ressource
+die Überschwemmung|Überschwemmungen|l'inondation
+die Dürre|Dürren|la sécheresse
+~verschwenden|verschwendet · verschwendete · hat verschwendet|gaspiller
+~sparen|spart · sparte · hat gespart|économiser
+~recyceln|recycelt · recycelte · hat recycelt|recycler
+~schützen|schützt · schützte · hat geschützt|protéger
+~vermeiden|vermeidet · vermied · hat vermieden|éviter
+~verbrauchen|verbraucht · verbrauchte · hat verbraucht|consommer
+nachhaltig||durable
+umweltfreundlich||écologique
+erneuerbar||renouvelable
+klimaneutral||neutre en carbone
+# b2gefuehle|Sentiments & relations|Caractère, émotions, vie à deux|B2
+das Gefühl|Gefühle|le sentiment
+die Beziehung|Beziehungen|la relation
+das Vertrauen|—|la confiance
+die Eifersucht|—|la jalousie
+die Enttäuschung|Enttäuschungen|la déception
+die Sehnsucht|Sehnsüchte|le désir ardent, la nostalgie
+die Geduld|—|la patience
+der Streit|—|la dispute
+die Versöhnung|Versöhnungen|la réconciliation
+das Missverständnis|Missverständnisse|le malentendu
+die Rücksicht|—|les égards
+der Eindruck|Eindrücke|l'impression
+die Stimmung|Stimmungen|l'ambiance, l'humeur
+~sich verlieben|verliebt sich · verliebte sich · hat sich verliebt|tomber amoureux
+~sich trennen|trennt sich · trennte sich · hat sich getrennt|se séparer
+~sich streiten|streitet sich · stritt sich · hat sich gestritten|se disputer
+~vermissen|vermisst · vermisste · hat vermisst|regretter l'absence de
+~enttäuschen|enttäuscht · enttäuschte · hat enttäuscht|décevoir
+~vertrauen|vertraut · vertraute · hat vertraut|faire confiance à (+ Dat.)
+~sich schämen|schämt sich · schämte sich · hat sich geschämt|avoir honte
+~sich aufregen|regt sich auf · regte sich auf · hat sich aufgeregt|s'énerver
+zuverlässig||fiable
+ehrgeizig||ambitieux
+eifersüchtig||jaloux
+geduldig||patient
+ungeduldig||impatient
+neugierig||curieux
+schüchtern||timide
+selbstbewusst||sûr de soi
+großzügig||généreux
+hilfsbereit||serviable
+empfindlich||sensible, susceptible
+gelassen||serein, détendu
+enttäuscht||déçu
+verlegen||gêné
+# b2argumenter|Argumenter & nuancer|Connecteurs et formules pour donner son avis|B2
+meiner Meinung nach||à mon avis
+Ich bin der Ansicht, dass …||Je suis d'avis que …
+einerseits … andererseits||d'un côté … de l'autre
+trotzdem||malgré tout, quand même
+deshalb||c'est pourquoi
+dennoch||néanmoins
+obwohl||bien que
+während||pendant que ; tandis que
+sobald||dès que
+falls||au cas où
+außerdem||en outre
+allerdings||toutefois, cependant
+zwar … aber||certes … mais
+je … desto||plus … plus
+sowohl … als auch||aussi bien … que
+weder … noch||ni … ni
+stattdessen||à la place
+im Gegensatz zu||contrairement à
+im Vergleich zu||par rapport à
+aufgrund||en raison de (+ Gen.)
+trotz||malgré (+ Gen.)
+anstatt||au lieu de
+infolgedessen||par conséquent
+letztendlich||en fin de compte
+beispielsweise||par exemple
+Es kommt darauf an.||Ça dépend.
+Das hängt davon ab, ob …||Cela dépend si …
+Da bin ich anderer Meinung.||Là, je ne suis pas d'accord.
+Ich stimme dir zu.||Je suis d'accord avec toi.
+Das stimmt zwar, aber …||C'est vrai, certes, mais …
+Ich gebe zu, dass …||J'admets que …
+Es ist fraglich, ob …||Il est douteux que …
+Ein Vorteil ist, dass …||Un avantage, c'est que …
+Ein Nachteil ist, dass …||Un inconvénient, c'est que …
+# b2verbes|Verbes à préposition|Les rections à connaître par cœur|B2
+~sich kümmern um|kümmert sich · kümmerte sich · hat sich gekümmert|s'occuper de (+ Akk.)
+~sich freuen auf|freut sich · freute sich · hat sich gefreut|se réjouir de (à venir, + Akk.)
+~sich freuen über|freut sich · freute sich · hat sich gefreut|se réjouir de (présent ou passé, + Akk.)
+~sich interessieren für|interessiert sich · interessierte sich · hat sich interessiert|s'intéresser à (+ Akk.)
+~sich ärgern über|ärgert sich · ärgerte sich · hat sich geärgert|être fâché contre (+ Akk.)
+~sich beschweren über|beschwert sich · beschwerte sich · hat sich beschwert|se plaindre de (+ Akk.)
+~sich gewöhnen an|gewöhnt sich · gewöhnte sich · hat sich gewöhnt|s'habituer à (+ Akk.)
+~sich erinnern an|erinnert sich · erinnerte sich · hat sich erinnert|se souvenir de (+ Akk.)
+~sich bedanken für|bedankt sich · bedankte sich · hat sich bedankt|remercier pour (+ Akk.)
+~sich entscheiden für|entscheidet sich · entschied sich · hat sich entschieden|se décider pour (+ Akk.)
+~sich verlassen auf|verlässt sich · verließ sich · hat sich verlassen|compter sur (+ Akk.)
+~sich bewerben um|bewirbt sich · bewarb sich · hat sich beworben|postuler à (+ Akk.)
+~sich beschäftigen mit|beschäftigt sich · beschäftigte sich · hat sich beschäftigt|s'occuper de, travailler sur (+ Dat.)
+~sich unterhalten über|unterhält sich · unterhielt sich · hat sich unterhalten|discuter de (+ Akk.)
+~sich vorbereiten auf|bereitet sich vor · bereitete sich vor · hat sich vorbereitet|se préparer à (+ Akk.)
+~sich konzentrieren auf|konzentriert sich · konzentrierte sich · hat sich konzentriert|se concentrer sur (+ Akk.)
+~sich sorgen um|sorgt sich · sorgte sich · hat sich gesorgt|s'inquiéter pour (+ Akk.)
+~sich fürchten vor|fürchtet sich · fürchtete sich · hat sich gefürchtet|avoir peur de (+ Dat.)
+~warten auf|wartet · wartete · hat gewartet|attendre (+ Akk.)
+~denken an|denkt · dachte · hat gedacht|penser à (+ Akk.)
+~glauben an|glaubt · glaubte · hat geglaubt|croire en (+ Akk.)
+~teilnehmen an|nimmt teil · nahm teil · hat teilgenommen|participer à (+ Dat.)
+~abhängen von|hängt ab · hing ab · hat abgehangen|dépendre de (+ Dat.)
+~bestehen aus|besteht · bestand · hat bestanden|se composer de (+ Dat.)
+~träumen von|träumt · träumte · hat geträumt|rêver de (+ Dat.)
+~bitten um|bittet · bat · hat gebeten|demander (quelque chose) (+ Akk.)
+~fragen nach|fragt · fragte · hat gefragt|demander (des nouvelles de, le chemin) (+ Dat.)
+~achten auf|achtet · achtete · hat geachtet|faire attention à (+ Akk.)
+~gehören zu|gehört · gehörte · hat gehört|faire partie de (+ Dat.)
+~sorgen für|sorgt · sorgte · hat gesorgt|veiller à, prendre soin de (+ Akk.)
+~führen zu|führt · führte · hat geführt|mener à (+ Dat.)
+~überzeugen von|überzeugt · überzeugte · hat überzeugt|convaincre de (+ Dat.)
+~hinweisen auf|weist hin · wies hin · hat hingewiesen|attirer l'attention sur (+ Akk.)
+~verzichten auf|verzichtet · verzichtete · hat verzichtet|renoncer à (+ Akk.)
+~zweifeln an|zweifelt · zweifelte · hat gezweifelt|douter de (+ Dat.)
+# b2nuances|Adjectifs & adverbes nuancés|Pour décrire avec précision|B2
+offensichtlich||manifestement, évident
+eindeutig||clair, sans équivoque
+angeblich||soi-disant, prétendument
+anscheinend||apparemment
+vermutlich||probablement
+ausgerechnet||justement (comme par un fait exprès)
+ausreichend||suffisant
+erheblich||considérable
+gewissermaßen||en quelque sorte
+überwiegend||majoritairement
+vorübergehend||temporaire, provisoire
+dauerhaft||durable, permanent
+umfangreich||vaste, volumineux
+anspruchsvoll||exigeant
+aufwendig||coûteux (en temps, en effort)
+mühsam||pénible, laborieux
+zufällig||par hasard
+absichtlich||exprès
+rechtzeitig||à temps
+ehemalig||ancien (ex-)
+vorhanden||disponible, existant
+selbstverständlich||évidemment, naturellement
+bisher||jusqu'à présent
+inzwischen||entre-temps
+ständig||constamment
+kaum||à peine
+überhaupt nicht||pas du tout
+eher||plutôt
+durchaus||tout à fait
+keineswegs||nullement
+# b2idiomes|Expressions idiomatiques|Ce que les Allemands disent vraiment|B2
+Ich verstehe nur Bahnhof.||Je n'y comprends rien.
+Das ist mir Wurst.||Ça m'est égal.
+Ich drücke dir die Daumen.||Je croise les doigts pour toi.
+Schwein haben||avoir de la chance
+Tomaten auf den Augen haben||ne pas voir ce qui crève les yeux
+Ich habe die Nase voll.||J'en ai marre.
+ins Fettnäpfchen treten||faire une gaffe
+auf dem Holzweg sein||faire fausse route
+den Nagel auf den Kopf treffen||mettre dans le mille
+um den heißen Brei herumreden||tourner autour du pot
+Hals- und Beinbruch!||Bonne chance ! (merde !)
+Da steppt der Bär.||Il va y avoir de l'ambiance.
+Alles hat ein Ende, nur die Wurst hat zwei.||Toute chose a une fin.
+etwas auf die lange Bank schieben||remettre à plus tard
+=die Katze im Sack kaufen||acheter les yeux fermés
+jemandem auf den Keks gehen||taper sur les nerfs de quelqu'un
+Das ist nicht mein Bier.||Ce ne sont pas mes affaires.
+Das ist mir ein Rätsel.||C'est un mystère pour moi.
+unter vier Augen||en tête-à-tête
+zwei Fliegen mit einer Klappe schlagen||faire d'une pierre deux coups
+Lügen haben kurze Beine.||Le mensonge ne mène pas loin.
+Ende gut, alles gut.||Tout est bien qui finit bien.
+Übung macht den Meister.||C'est en forgeant qu'on devient forgeron.

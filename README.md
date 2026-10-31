@@ -15,9 +15,22 @@ Une seule app, qui s'adapte à la largeur de l'écran :
 
 Captures dans [`docs/captures/`](docs/captures/).
 
+## Sources et construction
+
+Les sources sont dans [`src/`](src/) :
+
+- `app.html` : l'app (interface, code, style), avec des repères `/*VOCAB*/`, `/*IKI*/`… où la construction insère les contenus.
+- `vocab.txt`, `exemples.txt`, `grammaire.txt`, `irreguliers.txt`, `verbes-prep.txt`, `phrases.txt` : les contenus en français, un élément par ligne, champs séparés par `|`. Chaque fichier a sa traduction `-en.txt` et `-es.txt`, ligne pour ligne.
+- `iki/cours.txt` : les cours IKI (`@date` puis `allemand|français|pluriel|formes`), avec `cours-en.txt`, `cours-es.txt` et `cours-de.txt` (synonyme ou définition en allemand), ligne pour ligne.
+- `i18n-en.json`, `i18n-es.json` : les textes de l'interface traduits.
+- `build.py` assemble tout dans `src/index.html` (une version en un seul fichier) ; `build_pwa.py` en tire les fichiers publiés à la racine.
+- `tools/` : vérifications des traductions (`python3 tools/check_content.py vocab.txt vocab-en.txt`).
+
+Après une modification dans `src/`, reconstruire avec `./build.sh` (Python 3, sans dépendance) et committer les fichiers régénérés à la racine. Le workflow `.github/workflows/build.yml` vérifie, sur chaque PR, que les fichiers publiés correspondent bien aux sources.
+
 ## Hébergement
 
-Le dépôt contient l'app déjà construite : `index.html`, son script `app.js`, le service worker `sw.js`, le manifeste et les icônes. Deux hébergements la servent :
+Le dépôt contient aussi l'app déjà construite, à la racine : `index.html`, son script `app.js`, le service worker `sw.js`, le manifeste et les icônes. Deux hébergements la servent :
 
 - **GitHub Pages**, à chaque push sur `main`.
 - **Une image Docker** (nginx non root, port 8080), construite et testée par `.github/workflows/image.yml`, puis publiée sur `ghcr.io/lorisgith/wortschatz:main-<horodatage>-<commit>`. `smoke.sh <url>` vérifie le site servi : `./smoke.sh http://localhost:8080`.

@@ -1,0 +1,144 @@
+# Verbes irréguliers. Format : infinitif|présent|prétérit|parfait|traduction|niveau
+# présent = "du,er" (les autres personnes sont régulières) ou les 6 formes "ich,du,er,wir,ihr,sie"
+# prétérit = forme ich/er (les autres personnes s'en déduisent) ; parfait = forme er (hat/ist + participe)
+sein|bin,bist,ist,sind,seid,sind|war|ist gewesen|ser, estar|A1
+haben|habe,hast,hat,haben,habt,haben|hatte|hat gehabt|tener, haber|A1
+werden|werde,wirst,wird,werden,werdet,werden|wurde|ist geworden|llegar a ser, volverse|A1
+wissen|weiß,weißt,weiß,wissen,wisst,wissen|wusste|hat gewusst|saber|A1
+können|kann,kannst,kann,können,könnt,können|konnte|hat gekonnt|poder|A1
+müssen|muss,musst,muss,müssen,müsst,müssen|musste|hat gemusst|deber, tener que (obligación)|A1
+wollen|will,willst,will,wollen,wollt,wollen|wollte|hat gewollt|querer|A1
+dürfen|darf,darfst,darf,dürfen,dürft,dürfen|durfte|hat gedurft|tener permiso para, poder (permiso)|A1
+sollen|soll,sollst,soll,sollen,sollt,sollen|sollte|hat gesollt|deber (porque otro lo pide)|A1
+mögen|mag,magst,mag,mögen,mögt,mögen|mochte|hat gemocht|gustar|A1
+gehen|gehst,geht|ging|ist gegangen|ir (a pie)|A1
+kommen|kommst,kommt|kam|ist gekommen|venir|A1
+fahren|fährst,fährt|fuhr|ist gefahren|ir (en vehículo), conducir|A1
+laufen|läufst,läuft|lief|ist gelaufen|correr, caminar|A1
+fliegen|fliegst,fliegt|flog|ist geflogen|ir en avión, volar|A1
+bleiben|bleibst,bleibt|blieb|ist geblieben|quedarse|A1
+schwimmen|schwimmst,schwimmt|schwamm|ist geschwommen|nadar|A1
+stehen|stehst,steht|stand|hat gestanden|estar de pie|A1
+sitzen|sitzt,sitzt|saß|hat gesessen|estar sentado|A1
+liegen|liegst,liegt|lag|hat gelegen|estar acostado, encontrarse|A1
+essen|isst,isst|aß|hat gegessen|comer|A1
+trinken|trinkst,trinkt|trank|hat getrunken|beber|A1
+sehen|siehst,sieht|sah|hat gesehen|ver|A1
+lesen|liest,liest|las|hat gelesen|leer|A1
+sprechen|sprichst,spricht|sprach|hat gesprochen|hablar|A1
+nehmen|nimmst,nimmt|nahm|hat genommen|tomar|A1
+geben|gibst,gibt|gab|hat gegeben|dar|A1
+helfen|hilfst,hilft|half|hat geholfen|ayudar|A1
+treffen|triffst,trifft|traf|hat getroffen|encontrarse con|A1
+schlafen|schläfst,schläft|schlief|hat geschlafen|dormir|A1
+finden|findest,findet|fand|hat gefunden|encontrar|A1
+heißen|heißt,heißt|hieß|hat geheißen|llamarse|A1
+schreiben|schreibst,schreibt|schrieb|hat geschrieben|escribir|A1
+beginnen|beginnst,beginnt|begann|hat begonnen|empezar, comenzar|A1
+bringen|bringst,bringt|brachte|hat gebracht|traer|A1
+kennen|kennst,kennt|kannte|hat gekannt|conocer|A1
+gefallen|gefällst,gefällt|gefiel|hat gefallen|gustar, agradar|A1
+vergessen|vergisst,vergisst|vergaß|hat vergessen|olvidar|A1
+verstehen|verstehst,versteht|verstand|hat verstanden|entender, comprender|A1
+bekommen|bekommst,bekommt|bekam|hat bekommen|recibir, obtener|A1
+tun|tust,tut|tat|hat getan|hacer|A2
+denken|denkst,denkt|dachte|hat gedacht|pensar|A2
+nennen|nennst,nennt|nannte|hat genannt|nombrar, llamar|A2
+rennen|rennst,rennt|rannte|ist gerannt|correr (rápido)|A2
+waschen|wäschst,wäscht|wusch|hat gewaschen|lavar|A2
+tragen|trägst,trägt|trug|hat getragen|llevar (puesto), cargar|A2
+halten|hältst,hält|hielt|hat gehalten|sostener, detenerse|A2
+lassen|lässt,lässt|ließ|hat gelassen|dejar, mandar hacer|A2
+fallen|fällst,fällt|fiel|ist gefallen|caer(se)|A2
+rufen|rufst,ruft|rief|hat gerufen|llamar|A2
+steigen|steigst,steigt|stieg|ist gestiegen|subir, aumentar|A2
+scheinen|scheinst,scheint|schien|hat geschienen|brillar; parecer|A2
+treiben|treibst,treibt|trieb|hat getrieben|practicar (Sport treiben)|A2
+schneiden|schneidest,schneidet|schnitt|hat geschnitten|cortar|A2
+gewinnen|gewinnst,gewinnt|gewann|hat gewonnen|ganar|A2
+singen|singst,singt|sang|hat gesungen|cantar|A2
+ziehen|ziehst,zieht|zog|hat gezogen|tirar (de), jalar|A2
+verlieren|verlierst,verliert|verlor|hat verloren|perder|A2
+schließen|schließt,schließt|schloss|hat geschlossen|cerrar|A2
+bitten|bittest,bittet|bat|hat gebeten|pedir, rogar|A2
+empfehlen|empfiehlst,empfiehlt|empfahl|hat empfohlen|recomendar|A2
+sterben|stirbst,stirbt|starb|ist gestorben|morir|A2
+werfen|wirfst,wirft|warf|hat geworfen|lanzar, tirar|A2
+unterschreiben|unterschreibst,unterschreibt|unterschrieb|hat unterschrieben|firmar|A2
+fangen|fängst,fängt|fing|hat gefangen|atrapar|B1
+raten|rätst,rät|riet|hat geraten|aconsejar, adivinar|B1
+schlagen|schlägst,schlägt|schlug|hat geschlagen|golpear, vencer|B1
+laden|lädst,lädt|lud|hat geladen|cargar|B1
+wachsen|wächst,wächst|wuchs|ist gewachsen|crecer|B1
+braten|brätst,brät|briet|hat gebraten|asar, freír|B1
+schreien|schreist,schreit|schrie|hat geschrien|gritar|B1
+leihen|leihst,leiht|lieh|hat geliehen|prestar|B1
+leiden|leidest,leidet|litt|hat gelitten|sufrir|B1
+streiten|streitest,streitet|stritt|hat gestritten|discutir, pelearse|B1
+reiten|reitest,reitet|ritt|ist geritten|montar a caballo|B1
+beißen|beißt,beißt|biss|hat gebissen|morder|B1
+vergleichen|vergleichst,vergleicht|verglich|hat verglichen|comparar|B1
+entscheiden|entscheidest,entscheidet|entschied|hat entschieden|decidir|B1
+springen|springst,springt|sprang|ist gesprungen|saltar|B1
+verschwinden|verschwindest,verschwindet|verschwand|ist verschwunden|desaparecer|B1
+klingen|klingst,klingt|klang|hat geklungen|sonar (parecer)|B1
+frieren|frierst,friert|fror|hat gefroren|tener frío, helarse|B1
+fließen|fließt,fließt|floss|ist geflossen|fluir, correr (un líquido)|B1
+genießen|genießt,genießt|genoss|hat genossen|saborear, disfrutar de|B1
+gießen|gießt,gießt|goss|hat gegossen|regar, verter|B1
+bieten|bietest,bietet|bot|hat geboten|ofrecer|B1
+verbieten|verbietest,verbietet|verbot|hat verboten|prohibir|B1
+riechen|riechst,riecht|roch|hat gerochen|oler|B1
+lügen|lügst,lügt|log|hat gelogen|mentir|B1
+wiegen|wiegst,wiegt|wog|hat gewogen|pesar|B1
+messen|misst,misst|maß|hat gemessen|medir|B1
+stehlen|stiehlst,stiehlt|stahl|hat gestohlen|robar|B1
+brechen|brichst,bricht|brach|hat gebrochen|romper|B1
+gelten|giltst,gilt|galt|hat gegolten|ser válido, valer|B1
+erhalten|erhältst,erhält|erhielt|hat erhalten|recibir (correo oficial)|B1
+verlassen|verlässt,verlässt|verließ|hat verlassen|dejar, irse de|B1
+hängen|hängst,hängt|hing|hat gehangen|estar colgado|B1
+brennen|brennst,brennt|brannte|hat gebrannt|arder, quemarse|B1
+stoßen|stößt,stößt|stieß|hat gestoßen|empujar, chocar (contra)|B2
+schweigen|schweigst,schweigt|schwieg|hat geschwiegen|callarse|B2
+greifen|greifst,greift|griff|hat gegriffen|agarrar, tomar|B2
+reißen|reißt,reißt|riss|hat gerissen|romper, rasgar|B2
+beweisen|beweist,beweist|bewies|hat bewiesen|demostrar, probar|B2
+sinken|sinkst,sinkt|sank|ist gesunken|bajar, hundirse|B2
+zwingen|zwingst,zwingt|zwang|hat gezwungen|forzar, obligar|B2
+schieben|schiebst,schiebt|schob|hat geschoben|empujar (un objeto)|B2
+heben|hebst,hebt|hob|hat gehoben|levantar|B2
+treten|trittst,tritt|trat|ist getreten|pisar, entrar|B2
+befehlen|befiehlst,befiehlt|befahl|hat befohlen|ordenar|B2
+# Verbes séparables : la particule est séparée par « · » ; le présent et le prétérit sont donnés pour le verbe de base, le parfait en entier.
+auf·stehen|stehst,steht|stand|ist aufgestanden|levantarse|A1
+an·fangen|fängst,fängt|fing|hat angefangen|empezar, comenzar|A1
+an·rufen|rufst,ruft|rief|hat angerufen|llamar (por teléfono)|A1
+ein·kaufen|kaufst,kauft|kaufte|hat eingekauft|hacer las compras|A1
+ein·steigen|steigst,steigt|stieg|ist eingestiegen|subir (a un vehículo)|A1
+aus·steigen|steigst,steigt|stieg|ist ausgestiegen|bajar (de un vehículo)|A1
+um·steigen|steigst,steigt|stieg|ist umgestiegen|cambiar (de tren, de autobús), hacer transbordo|A1
+an·kommen|kommst,kommt|kam|ist angekommen|llegar|A1
+mit·kommen|kommst,kommt|kam|ist mitgekommen|venir con, acompañar|A1
+fern·sehen|siehst,sieht|sah|hat ferngesehen|ver la televisión|A1
+ab·holen|holst,holt|holte|hat abgeholt|ir a buscar, recoger|A1
+auf·machen|machst,macht|machte|hat aufgemacht|abrir|A1
+zu·machen|machst,macht|machte|hat zugemacht|cerrar|A1
+aus·gehen|gehst,geht|ging|ist ausgegangen|salir|A2
+ab·fahren|fährst,fährt|fuhr|ist abgefahren|salir (tren, autobús)|A2
+zurück·kommen|kommst,kommt|kam|ist zurückgekommen|volver, regresar|A2
+mit·nehmen|nimmst,nimmt|nahm|hat mitgenommen|llevarse, llevar consigo|A2
+auf·hören|hörst,hört|hörte|hat aufgehört|dejar de, parar|A2
+auf·räumen|räumst,räumt|räumte|hat aufgeräumt|ordenar, recoger|A2
+an·ziehen|ziehst,zieht|zog|hat angezogen|ponerse (ropa)|A2
+um·ziehen|ziehst,zieht|zog|ist umgezogen|mudarse|A2
+ein·laden|lädst,lädt|lud|hat eingeladen|invitar|A2
+aus·füllen|füllst,füllt|füllte|hat ausgefüllt|completar, rellenar (un formulario)|A2
+zu·hören|hörst,hört|hörte|hat zugehört|escuchar|A2
+aus·sehen|siehst,sieht|sah|hat ausgesehen|parecer, tener aspecto de|A2
+kennen·lernen|lernst,lernt|lernte|hat kennengelernt|conocer (a alguien)|A2
+vor·schlagen|schlägst,schlägt|schlug|hat vorgeschlagen|proponer|B1
+vor·bereiten|bereitest,bereitet|bereitete|hat vorbereitet|preparar|B1
+fest·stellen|stellst,stellt|stellte|hat festgestellt|constatar, comprobar|B1
+teil·nehmen|nimmst,nimmt|nahm|hat teilgenommen|participar|B1
+ab·geben|gibst,gibt|gab|hat abgegeben|entregar|B1

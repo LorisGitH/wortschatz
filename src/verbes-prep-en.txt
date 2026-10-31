@@ -1,0 +1,105 @@
+# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+achten|auf|A|to pay attention to|Achte bitte [auf] den Verkehr.|Please pay attention to the traffic.
+denken|an|A|to think of/about|Ich denke oft [an] meine Familie.|I often think about my family.
+warten|auf|A|to wait for|Wir warten [auf] den Bus.|We're waiting for the bus.
+sich freuen|auf|A|to look forward to (something ahead)|Ich freue mich [auf] den Urlaub.|I'm looking forward to the vacation.
+sich freuen|über|A|to be happy about (now or in the past)|Sie freut sich [über] das Geschenk.|She's happy about the gift.
+sich interessieren|für|A|to be interested in|Er interessiert sich [für] Politik.|He's interested in politics.
+sich kümmern|um|A|to take care of|Wer kümmert sich [um] den Hund?|Who takes care of the dog?
+sich ärgern|über|A|to be annoyed about|Ich ärgere mich [über] den Lärm.|The noise annoys me.
+sich beschweren|über|A|to complain about|Die Mieter beschweren sich [über] die Heizung.|The tenants complain about the heating.
+sich beschweren|bei|D|to complain to (someone)|Ich beschwere mich [beim] Vermieter.|I complain to the landlord.
+sich gewöhnen|an|A|to get used to|Ich gewöhne mich langsam [an] das Wetter.|I'm slowly getting used to the weather.
+sich erinnern|an|A|to remember|Erinnerst du dich [an] unseren ersten Tag?|Do you remember our first day?
+sich bedanken|für|A|to thank (someone) for|Ich bedanke mich [für] Ihre Hilfe.|Thank you for your help.
+sich entscheiden|für|A|to decide on, to choose|Wir haben uns [für] die kleine Wohnung entschieden.|We chose the small apartment.
+sich verlassen|auf|A|to rely on, to count on|Du kannst dich [auf] mich verlassen.|You can count on me.
+sich bewerben|um|A|to apply for (a job)|Sie bewirbt sich [um] eine Stelle als Pflegerin.|She's applying for a job as a caregiver.
+sich bewerben|bei|D|to apply to (a company)|Er bewirbt sich [bei] einer Bank.|He's applying to a bank.
+sich beschäftigen|mit|D|to deal with, to work on|Ich beschäftige mich gerade [mit] dem Thema.|I'm currently working on this topic.
+sich unterhalten|über|A|to talk about|Wir unterhalten uns [über] den Film.|We're talking about the movie.
+sich unterhalten|mit|D|to talk with|Ich unterhalte mich [mit] dem Nachbarn.|I'm talking with the neighbor.
+sich vorbereiten|auf|A|to prepare for|Ich bereite mich [auf] die Prüfung vor.|I'm preparing for the exam.
+sich konzentrieren|auf|A|to concentrate on|Konzentrier dich [auf] die Arbeit!|Concentrate on your work!
+sich sorgen|um|A|to worry about|Die Eltern sorgen sich [um] ihren Sohn.|The parents are worried about their son.
+sich fürchten|vor|D|to be afraid of|Das Kind fürchtet sich [vor] dem Hund.|The child is afraid of the dog.
+Angst haben|vor|D|to be afraid of|Ich habe Angst [vor] der Prüfung.|I'm afraid of the exam.
+glauben|an|A|to believe in|Ich glaube [an] dich.|I believe in you.
+teilnehmen|an|D|to take part in|Ich nehme [an] einem Deutschkurs teil.|I'm taking part in a German course.
+abhängen|von|D|to depend on|Das hängt [vom] Wetter ab.|That depends on the weather.
+bestehen|aus|D|to consist of|Das Team besteht [aus] fünf Personen.|The team consists of five people.
+bestehen|auf|D|to insist on, to demand|Er besteht [auf] einer Antwort.|He insists on an answer.
+träumen|von|D|to dream of/about|Ich träume [von] einem Haus am See.|I dream of a house by a lake.
+bitten|um|A|to ask for (something)|Darf ich Sie [um] einen Gefallen bitten?|May I ask you a favor?
+fragen|nach|D|to ask about/for (directions, news)|Er fragt [nach] dem Weg.|He asks for directions.
+gehören|zu|D|to be part of, to belong to|Das gehört [zu] meinen Aufgaben.|That's one of my tasks.
+sorgen|für|A|to see to, to take care of|Die Eltern sorgen [für] die Kinder.|The parents take care of the children.
+führen|zu|D|to lead to|Stress kann [zu] Krankheiten führen.|Stress can lead to illness.
+überzeugen|von|D|to convince of|Er hat mich [von] seiner Idee überzeugt.|He convinced me of his idea.
+hinweisen|auf|A|to point out, to draw attention to|Ich möchte Sie [auf] einen Fehler hinweisen.|I'd like to point out a mistake to you.
+verzichten|auf|A|to do without, to give up|Ich verzichte [auf] Zucker.|I'm giving up sugar.
+zweifeln|an|D|to doubt|Ich zweifle [an] seiner Ehrlichkeit.|I doubt his honesty.
+sprechen|mit|D|to talk to/with|Ich muss [mit] dem Chef sprechen.|I need to talk to the boss.
+sprechen|über|A|to talk about|Wir sprechen [über] das Problem.|We're talking about the problem.
+telefonieren|mit|D|to talk on the phone with|Ich telefoniere [mit] meiner Mutter.|I'm on the phone with my mother.
+anfangen|mit|D|to start with|Wir fangen [mit] der Übung an.|We're starting with the exercise.
+aufhören|mit|D|to stop (doing something), to quit|Er hat [mit] dem Rauchen aufgehört.|He quit smoking.
+helfen|bei|D|to help with|Kannst du mir [beim] Umzug helfen?|Can you help me with the move?
+sich verabreden|mit|D|to arrange to meet, to make a date with|Ich habe mich [mit] Anna verabredet.|I've arranged to meet Anna.
+sich treffen|mit|D|to meet up with (someone)|Ich treffe mich heute [mit] Freunden.|I'm meeting up with friends today.
+einladen|zu|D|to invite to|Sie lädt uns [zum] Essen ein.|She's inviting us to dinner.
+gratulieren|zu|D|to congratulate on|Ich gratuliere dir [zum] Geburtstag.|Happy birthday!
+sich entschuldigen|für|A|to apologize for|Ich entschuldige mich [für] die Verspätung.|I apologize for the delay.
+sich entschuldigen|bei|D|to apologize to|Du solltest dich [bei] ihr entschuldigen.|You should apologize to her.
+sich anmelden|für|A|to sign up for, to register for|Ich melde mich [für] den Kurs an.|I'm signing up for the course.
+sich informieren|über|A|to find out about, to get information on|Ich informiere mich [über] die Kosten.|I'm finding out about the costs.
+sich erkundigen|nach|D|to ask about, to inquire about|Er erkundigt sich [nach] den Öffnungszeiten.|He's asking about the opening hours.
+sich streiten|mit|D|to argue with|Er streitet sich oft [mit] seinem Bruder.|He often argues with his brother.
+sich verlieben|in|A|to fall in love with|Sie hat sich [in] ihn verliebt.|She fell in love with him.
+sich wundern|über|A|to be surprised at|Ich wundere mich [über] seine Reaktion.|His reaction surprises me.
+sich aufregen|über|A|to get worked up about|Reg dich nicht [über] ihn auf!|Don't get worked up about him!
+lachen|über|A|to laugh at/about|Wir haben [über] den Witz gelacht.|We laughed at the joke.
+nachdenken|über|A|to think about, to think over|Ich denke [über] dein Angebot nach.|I'm thinking about your offer.
+diskutieren|über|A|to discuss, to debate|Wir diskutieren [über] die Zukunft.|We're discussing the future.
+berichten|über|A|to report on|Die Zeitung berichtet [über] den Unfall.|The newspaper is reporting on the accident.
+schreiben|an|A|to write to|Ich schreibe einen Brief [an] die Behörde.|I'm writing a letter to the authorities.
+erzählen|von|D|to tell about, to talk about|Erzähl mir [von] deiner Reise!|Tell me about your trip!
+hören|von|D|to hear from|Ich habe lange nichts [von] ihm gehört.|I haven't heard from him in a long time.
+sich verabschieden|von|D|to say goodbye to|Wir verabschieden uns [von] den Gästen.|We're saying goodbye to the guests.
+sich erholen|von|D|to recover from|Ich muss mich [vom] Stress erholen.|I need to recover from the stress.
+leiden|an|D|to suffer from (an illness)|Er leidet [an] einer Allergie.|He suffers from an allergy.
+leiden|unter|D|to suffer from (a situation)|Viele leiden [unter] der Hitze.|Many people are suffering from the heat.
+arbeiten|an|D|to work on|Ich arbeite [an] einem Projekt.|I'm working on a project.
+sterben|an|D|to die of|Er ist [an] einer Grippe gestorben.|He died of the flu.
+sich beteiligen|an|D|to take part in, to contribute to|Alle beteiligen sich [an] den Kosten.|Everyone contributes to the costs.
+erkennen|an|D|to recognize by|Ich erkenne ihn [an] der Stimme.|I recognize him by his voice.
+sich wenden|an|A|to turn to, to contact|Wenden Sie sich bitte [an] den Kundenservice.|Please contact customer service.
+sich halten|an|A|to stick to, to follow (a rule)|Bitte halten Sie sich [an] die Regeln.|Please follow the rules.
+reagieren|auf|A|to react to|Wie hat er [auf] die Nachricht reagiert?|How did he react to the news?
+antworten|auf|A|to reply to, to answer|Bitte antworten Sie [auf] meine E-Mail.|Please reply to my email.
+hoffen|auf|A|to hope for|Wir hoffen [auf] gutes Wetter.|We're hoping for good weather.
+aufpassen|auf|A|to look after, to watch out for|Kannst du [auf] die Kinder aufpassen?|Can you look after the children?
+ankommen|auf|A|to depend on (es kommt auf … an)|Es kommt [auf] die Situation an.|It depends on the situation.
+sich einsetzen|für|A|to stand up for, to campaign for|Sie setzt sich [für] die Umwelt ein.|She campaigns for the environment.
+danken|für|A|to thank for|Danke [für] die Einladung!|Thanks for the invitation!
+ausgeben|für|A|to spend on|Wie viel gibst du [für] die Miete aus?|How much do you spend on rent?
+kämpfen|gegen|A|to fight against|Wir kämpfen [gegen] den Klimawandel.|We're fighting against climate change.
+protestieren|gegen|A|to protest against|Viele protestieren [gegen] das neue Gesetz.|Many people are protesting against the new law.
+sich verstehen|mit|D|to get along with|Ich verstehe mich gut [mit] meinen Kollegen.|I get along well with my coworkers.
+rechnen|mit|D|to expect, to count on|[Mit] so viel Verkehr habe ich nicht gerechnet.|I didn't expect so much traffic.
+vergleichen|mit|D|to compare to/with|Vergleich dich nicht [mit] anderen!|Don't compare yourself to others!
+umgehen|mit|D|to know how to handle, to deal with|Er kann gut [mit] Kindern umgehen.|He's good with children.
+sich auskennen|mit|D|to know about, to be familiar with|Kennst du dich [mit] Computern aus?|Do you know much about computers?
+suchen|nach|D|to look for|Ich suche [nach] meinem Schlüssel.|I'm looking for my key.
+riechen|nach|D|to smell of/like|Hier riecht es [nach] Kaffee.|It smells like coffee here.
+sich sehnen|nach|D|to long for|Ich sehne mich [nach] der Sonne.|I miss the sun.
+schützen|vor|D|to protect from|Die Creme schützt [vor] der Sonne.|The cream protects against the sun.
+warnen|vor|D|to warn about/against|Man warnt [vor] dem Sturm.|They're warning people about the storm.
+passen|zu|D|to go well with, to suit|Die Farbe passt gut [zu] dir.|That color looks good on you.
+beitragen|zu|D|to contribute to|Jeder kann [zum] Umweltschutz beitragen.|Everyone can contribute to protecting the environment.
+leben|von|D|to live on|Er lebt [von] seiner Rente.|He lives on his pension.
+sich trennen|von|D|to separate from, to break up with|Sie hat sich [von] ihrem Freund getrennt.|She broke up with her boyfriend.
+handeln|von|D|to be about (a book, a movie)|Der Film handelt [von] einer Familie.|The movie is about a family.
+gehen|um|A|to be about (es geht um …)|In dem Brief geht es [um] die Miete.|The letter is about the rent.
+sich handeln|um|A|to be a matter of (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|It's a misunderstanding.
+sich bemühen|um|A|to strive for, to try to get|Ich bemühe mich [um] eine Lösung.|I'm trying to find a solution.

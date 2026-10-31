@@ -1,0 +1,114 @@
+// Phrases du quotidien par situation : une ligne « # id|Nom|Description » ouvre une situation, puis « allemand|français ».
+# arzt|Chez le médecin|Rendez-vous, symptômes, pharmacie
+Ich möchte einen Termin bei Dr. Weber machen.|I'd like to make an appointment with Dr. Weber.
+Haben Sie diese Woche noch einen Termin frei?|Do you have any appointments available this week?
+Ich habe seit drei Tagen Fieber.|I've had a fever for three days.
+Mir tut der Rücken weh.|My back hurts.
+Ich bin gegen Penizillin allergisch.|I'm allergic to penicillin.
+Wie oft muss ich die Tabletten nehmen?|How often do I need to take the pills?
+Können Sie mich bitte krankschreiben?|Could you write me a sick note, please?
+Ich brauche ein Rezept für dieses Medikament.|I need a prescription for this medication.
+Hier ist meine Versichertenkarte.|Here's my health insurance card.
+Gibt es das Medikament auch ohne Rezept?|Is this medication also available without a prescription?
+Ich weiß nicht, ob ich nüchtern kommen muss.|I don't know if I need to come on an empty stomach.
+# amt|Administration|Bürgeramt, papiers, formulaires
+Ich möchte meinen Wohnsitz anmelden.|I'd like to register my address.
+Welche Unterlagen muss ich mitbringen?|Which documents do I need to bring?
+Ich habe einen Termin um zehn Uhr.|I have an appointment at ten o'clock.
+Können Sie mir beim Ausfüllen des Formulars helfen?|Could you help me fill out the form?
+Wo muss ich hier unterschreiben?|Where do I need to sign?
+Mein Aufenthaltstitel läuft nächsten Monat ab.|My residence permit expires next month.
+Wie lange dauert die Bearbeitung?|How long does processing take?
+Ich habe den Brief vom Amt nicht verstanden.|I didn't understand the letter from the authorities.
+Könnten Sie das bitte langsamer wiederholen?|Could you repeat that more slowly, please?
+Muss ich die Gebühr bar bezahlen?|Do I have to pay the fee in cash?
+Ich warte schon seit einer Stunde.|I've already been waiting for an hour.
+# wohnung|Logement|Propriétaire, réparations, voisinage
+Die Heizung funktioniert seit gestern nicht mehr.|The heating hasn't been working since yesterday.
+Wann kann der Handwerker vorbeikommen?|When can the repairman come by?
+Im Badezimmer tropft der Wasserhahn.|The faucet in the bathroom is dripping.
+Ist die Miete warm oder kalt?|Does the rent include utilities or not?
+Ich möchte die Wohnung gern besichtigen.|I'd like to see the apartment.
+Wie hoch ist die Kaution?|How much is the security deposit?
+Wir ziehen am Ersten des Monats ein.|We're moving in on the first of the month.
+Ich habe meinen Schlüssel verloren.|I lost my key.
+Wo stelle ich den Müll hin?|Where do I put the trash?
+Ich kündige die Wohnung zum Ende März.|I'm giving notice on the apartment for the end of March.
+Wann bekomme ich die Nebenkostenabrechnung?|When will I get the utility statement?
+# telefon|Au téléphone|Appeler, laisser un message
+Guten Tag, hier spricht Martin Dubois.|Hello, this is Martin Dubois.
+Ich rufe wegen meiner Rechnung an.|I'm calling about my bill.
+Könnten Sie mich bitte mit Frau Schmidt verbinden?|Could you put me through to Ms. Schmidt, please?
+Die Verbindung ist sehr schlecht.|The connection is very bad.
+Können Sie das bitte buchstabieren?|Could you spell that, please?
+Wann kann ich sie am besten erreichen?|When is the best time to reach her?
+Ich rufe später noch einmal an.|I'll call back later.
+Könnten Sie ihm sagen, dass ich angerufen habe?|Could you tell him that I called?
+Meine Nummer ist null eins sieben sechs.|My number is zero one seven six.
+Entschuldigung, ich habe mich verwählt.|Sorry, I dialed the wrong number.
+# einkaufen|Courses & magasins|Supermarché, boulangerie, retours
+Wo finde ich die Milch?|Where can I find the milk?
+Ich hätte gern ein Kilo Äpfel.|I'd like a kilo of apples.
+Haben Sie das auch in einer anderen Größe?|Do you also have this in a different size?
+Kann ich mit Karte bezahlen?|Can I pay by card?
+Brauchen Sie eine Tüte?|Do you need a bag?
+Ich möchte diese Hose umtauschen.|I'd like to exchange these pants.
+Den Kassenbon habe ich noch.|I still have the receipt.
+Das ist mir leider zu teuer.|Unfortunately, that's too expensive for me.
+Bis wann haben Sie heute geöffnet?|How late are you open today?
+Zwei Brötchen und ein Vollkornbrot, bitte.|Two rolls and a loaf of whole-grain bread, please.
+# restaurant|Café & restaurant|Réserver, commander, payer
+Ich möchte einen Tisch für vier Personen reservieren.|I'd like to reserve a table for four people.
+Ist dieser Platz noch frei?|Is this seat still free?
+Können wir bitte die Speisekarte haben?|Could we have the menu, please?
+Was können Sie uns empfehlen?|What would you recommend?
+Ich nehme die Suppe und danach den Fisch.|I'll have the soup and then the fish.
+Ist in dem Gericht Fleisch?|Is there meat in this dish?
+Wir möchten bitte zahlen.|We'd like to pay, please.
+Zusammen oder getrennt?|Together or separate?
+Stimmt so, danke.|Keep the change, thanks.
+Das Essen war ausgezeichnet.|The meal was excellent.
+# verkehr|Transports|Train, bus, trajets
+Wo kann ich eine Fahrkarte kaufen?|Where can I buy a ticket?
+Fährt dieser Bus zum Hauptbahnhof?|Does this bus go to the main train station?
+Wann fährt der nächste Zug nach München?|When does the next train to Munich leave?
+Muss ich umsteigen?|Do I have to transfer?
+Der Zug hat zwanzig Minuten Verspätung.|The train is twenty minutes late.
+Ich habe meinen Anschluss verpasst.|I missed my connection.
+An welcher Haltestelle muss ich aussteigen?|Which stop do I need to get off at?
+Ist das Deutschlandticket hier gültig?|Is the Deutschlandticket valid here?
+Entschuldigung, wie komme ich zum Rathaus?|Excuse me, how do I get to city hall?
+Gehen Sie geradeaus und dann die zweite Straße links.|Go straight ahead, then take the second street on the left.
+# arbeit|Au travail|Collègues, réunions, absences
+Ich bin heute krank und komme nicht ins Büro.|I'm sick today and won't be coming into the office.
+Können wir das Meeting auf morgen verschieben?|Can we postpone the meeting until tomorrow?
+Ich schicke Ihnen die Unterlagen bis Freitag.|I'll send you the documents by Friday.
+Hast du kurz Zeit für eine Frage?|Do you have a minute for a question?
+Ich habe die Aufgabe noch nicht ganz verstanden.|I haven't quite understood the task yet.
+Ich möchte nächste Woche zwei Tage Urlaub nehmen.|I'd like to take two days off next week.
+Wer ist für dieses Projekt zuständig?|Who is responsible for this project?
+Ich arbeite heute im Homeoffice.|I'm working from home today.
+Wann bekomme ich meine Gehaltsabrechnung?|When will I get my pay stub?
+Schönes Wochenende und bis Montag!|Have a nice weekend, see you Monday!
+# nachbarn|Voisins & small talk|Se présenter, discuter, rendre service
+Hallo, ich bin neu hier im Haus.|Hi, I'm new in the building.
+Woher kommen Sie eigentlich?|Where are you from, by the way?
+Wie lange wohnen Sie schon hier?|How long have you lived here?
+Könnten Sie mein Paket annehmen, wenn ich nicht da bin?|Could you accept my package if I'm not home?
+Wir feiern am Samstag eine kleine Party.|We're having a small party on Saturday.
+Es tut mir leid, dass es gestern so laut war.|I'm sorry it was so loud yesterday.
+Was machen Sie am Wochenende?|What are you doing this weekend?
+Das Wetter ist heute wirklich schön.|The weather is really nice today.
+Ich habe am Wochenende einen Ausflug gemacht.|I went on a day trip last weekend.
+Sagen Sie Bescheid, wenn Sie Hilfe brauchen.|Let me know if you need help.
+# bank|Banque & poste|Compte, colis, courrier
+Ich möchte ein Girokonto eröffnen.|I'd like to open a checking account.
+Meine Karte ist gesperrt.|My card has been blocked.
+Ich möchte Geld auf dieses Konto überweisen.|I'd like to transfer money to this account.
+Wie hoch sind die Gebühren?|How much are the fees?
+Ich möchte dieses Paket nach Frankreich schicken.|I'd like to send this package to France.
+Wie lange braucht ein Brief nach Paris?|How long does a letter to Paris take?
+Ich habe eine Benachrichtigung für ein Paket bekommen.|I got a delivery notice for a package.
+Brauche ich dafür meinen Ausweis?|Do I need my ID for that?
+Ich möchte eine Briefmarke für eine Postkarte.|I'd like a stamp for a postcard.
+Können Sie mir die Kontonummer noch einmal sagen?|Could you tell me the account number again?
