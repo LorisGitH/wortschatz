@@ -354,7 +354,7 @@ em.irr { font-style: normal; font-weight: 700; color: var(--irr); }
 .subnav button { flex: none; border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 8px 14px; font-family: var(--font-display); font-size: 16px; font-weight: 600; color: var(--muted); }
 .subnav button[aria-selected="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
 .bnav { position: fixed; left: 0; right: 0; bottom: 0; z-index: 4; background: var(--surface); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
-.bnav-in { max-width: 580px; margin: 0 auto; display: grid; grid-template-columns: repeat(7, 1fr); }
+.bnav-in { max-width: 580px; margin: 0 auto; display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; } /* one equal column per section, whatever their number */
 .bnav button { border: 0; background: none; display: flex; flex-direction: column; align-items: center; gap: 3px; padding: 7px 0 8px; font-size: 11.5px; color: var(--muted); min-width: 0; }
 @media (max-width: 480px) { .bnav button { font-size: 10.5px; letter-spacing: -.2px; } .bico { width: 42px; } }
 @media (max-width: 370px) { .bnav button { font-size: 9.5px; } }
