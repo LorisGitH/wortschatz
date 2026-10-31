@@ -2556,7 +2556,6 @@ const ICONS = {
   gram: '<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/>',
   verbes: '<path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6z"/>',
   iki: '<rect x="3" y="4.5" width="18" height="12" rx="1.5"/><path d="M7 9h7M7 12.5h4.5M9 20.5l1.5-4M15 20.5l-1.5-4"/>',
-  err: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5.5M12 16.2v.3"/>',
   phrases: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4h0.5A1.5 1.5 0 0 1 4 14.5z"/><path d="M8 9h8M8 12h5"/>',
 };
 const SECTIONS = [
@@ -2593,6 +2592,8 @@ if (settings.sub.verbes === "conj" || settings.sub.verbes === "qprep") {
 }
 // the word list moved from Mots (now Quiz) to Grammaire
 if (settings.sub.mots === "lex") { settings.sub.mots = "quiz"; if (settings.sec === "mots") { settings.sec = "gram"; settings.sub.gram = "lex"; } }
+// the app always opens the Quiz on its hub
+if (settings.sec === "mots") settings.sub.mots = "hub";
 // the Erreurs section and the Dictée of Phrases moved into the Quiz hub
 if (settings.sec === "err") { settings.sec = "mots"; settings.sub.mots = "err"; }
 if (settings.sub.phrases === "dict") { settings.sub.phrases = "phr"; if (settings.sec === "phrases") { settings.sec = "mots"; settings.sub.mots = "dict"; } }
