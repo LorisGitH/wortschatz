@@ -899,6 +899,15 @@ const SECTIONS = [
   { id: "err", label: "Erreurs", subs: [] },
 ];
 const SEC_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
+// IKI is only for a few people: hidden unless switched on in Réglages, or already in use (a lesson added or edited, or progress on an IKI word)
+// (a few IKI words share their id, hence their progress, with a normal word: those say nothing about IKI)
+function ikiUsed() {
+  if (Object.values(P.iki || {}).some(l => l.t > 1)) return true;
+  const own = new Set(WORDS.filter(w => !w.iki).map(w => w.id));
+  return WORDS.some(w => w.iki && P.w[w.id] && !own.has(w.id));
+}
+function showIki() { return settings.showIki === undefined ? ikiUsed() : !!settings.showIki; }
+function visibleSections() { return SECTIONS.filter(s => s.id !== "iki" || showIki()); }
 // earlier versions used one flat row of tabs: map the last one used to its new place
 const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "gram:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "mots:verbes", vprep: "verbes:vprep", qprep: "mots:verbes", dict: "phrases:dict", phr: "phrases:phr" };
 settings.sub = settings.sub || {};
@@ -941,6 +950,7 @@ function topBar(title) {
     <p class="note">Le niveau filtre les mots, les verbes, les fiches et les exercices dans toute l'app.</p>
     <div class="setrow"><span><b>Passage automatique</b><small>Après une bonne réponse, la question suivante s'affiche seule.</small></span><button class="switch" role="switch" id="autoNext" aria-checked="${settings.autoNext}" aria-label="Passage automatique"><i></i></button></div>
     <div class="setrow"><span><b>Lecture à voix haute</b><small>La bonne réponse est prononcée après chaque question.</small></span><button class="switch" role="switch" id="autoSay" aria-checked="${settings.autoSay !== false}" aria-label="Lecture à voix haute"><i></i></button></div>
+    <div class="setrow"><span><b>Afficher IKI</b><small>Ajoute la rubrique IKI (cours de l'école) à la barre de navigation.</small></span><button class="switch" role="switch" id="showIki" aria-checked="${showIki()}" aria-label="Afficher IKI"><i></i></button></div>
     <div id="sync" class="sync${syncState === "on" ? " on" : ""}"><i></i><span>${syncState === "on" ? "Progression synchronisée sur ton compte" : "Progression enregistrée sur cet appareil"}</span></div>
     <div class="setrow"><span><b>Sauvegarde</b><small>Enregistre ta progression dans un fichier (Fichiers, iCloud Drive…) ou recharge-la, par exemple sur un nouveau téléphone.</small></span></div>
     <div class="row2"><button class="secondary" id="bexport">Exporter</button><button class="secondary" id="bimport">Importer</button></div>
@@ -956,7 +966,7 @@ function topBar(title) {
 }
 function header() { return topBar("Wortschatz Alltag"); }
 function bottomNav() {
-  return `<nav class="bnav" aria-label="Rubriques"><div class="bnav-in">${SECTIONS.map(s => `<button data-sec="${s.id}" ${settings.sec === s.id ? 'aria-current="page"' : ""}><span class="bico">${icon(s.id)}${s.id === "err" && errCount() ? `<i class="bbadge num">${Math.min(errCount(), 99)}</i>` : ""}</span><span>${s.label}</span></button>`).join("")}</div></nav>`;
+  return `<nav class="bnav" aria-label="Rubriques"><div class="bnav-in">${visibleSections().map(s => `<button data-sec="${s.id}" ${settings.sec === s.id ? 'aria-current="page"' : ""}><span class="bico">${icon(s.id)}${s.id === "err" && errCount() ? `<i class="bbadge num">${Math.min(errCount(), 99)}</i>` : ""}</span><span>${s.label}</span></button>`).join("")}</div></nav>`;
 }
 function subNav(sec) {
   const s = SEC_BY_ID[sec], cur = curSub(sec);
@@ -1099,7 +1109,8 @@ function lexView() {
 }
 
 function renderHome() {
-  const sec = SEC_BY_ID[settings.sec] ? settings.sec : "today";
+  if (!SEC_BY_ID[settings.sec] || (settings.sec === "iki" && !showIki())) settings.sec = "today";
+  const sec = settings.sec;
   const sub = curSub(sec);
   const AW = activeWords();
   let body = "";
@@ -2759,6 +2770,7 @@ app.addEventListener("click", e => {
   if (t.id === "bimport") { document.getElementById("bfile").click(); return; }
   if (t.id === "bcopy") { const ta = document.getElementById("bcode"); if (!ta.value) ta.value = backupText(); ta.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e) {} if (navigator.clipboard) navigator.clipboard.writeText(ta.value).then(() => bmsg("Code copié."), () => bmsg(ok ? "Code copié." : "Sélectionne le code et copie-le à la main.")); else bmsg(ok ? "Code copié." : "Sélectionne le code et copie-le à la main."); return; }
   if (t.id === "bpaste") { const ta = document.getElementById("bcode"); if (!ta.value.trim()) { bmsg("Colle d'abord un code de sauvegarde dans le champ."); return; } importProgress(ta.value); return; }
+  if (t.id === "showIki") { settings.showIki = !showIki(); saveSettings(); render(); return; }
   if (t.id === "autoSay") { settings.autoSay = settings.autoSay === false; saveSettings(); render(); return; }
   if (ikiClick(t)) return;
   if (t.dataset.mode) { settings.mode = t.dataset.mode; saveSettings(); render(); return; }

@@ -107,6 +107,10 @@ Version installable et hors ligne, publiée avec GitHub Pages. Sur iPhone : ouvr
 
 La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter ou importer la progression.
 
+## Rubrique IKI
+
+La rubrique IKI (les cours de l'école) sert à peu de monde : elle est masquée par défaut. Réglages, « Afficher IKI » l'ajoute à la barre de rubriques. Elle apparaît d'elle-même pour qui a déjà ajouté ou modifié un cours IKI, ou travaillé des mots IKI. Éteindre l'interrupteur la masque à nouveau, sans rien effacer de la progression.
+
 ## Téléphone et ordinateur
 
 Une seule app, qui s'adapte à la largeur de l'écran :
