@@ -471,6 +471,12 @@ textarea.search { resize: vertical; }
 .mform .note { margin: 0; }
 .del { border: 1px solid var(--line); background: var(--surface); border-radius: 50%; width: 30px; height: 30px; color: var(--muted); font-size: 13px; flex: none; }
 .del:hover { color: var(--bad); border-color: var(--bad); }
+/* Quiz hub */
+.hubcard { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; text-align: left; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 14px 16px; }
+.hubcard b { display: block; font-family: var(--font-display); font-size: 18px; font-weight: 600; }
+.hubcard small, .hubnote { display: block; color: var(--muted); font-size: 13px; }
+.hubcard .bbadge { position: static; flex: none; }
+.backlink { align-self: flex-start; border: 0; background: none; padding: 4px 0; font-family: var(--font-display); font-size: 17px; font-weight: 600; color: var(--muted); }
 /* wide screens (laptop): the bottom bar becomes a left sidebar, pages get two columns.
    On a phone the column wrappers are invisible (display: contents), so nothing moves. */
 .dcols, div.dcol, .dgrid { display: contents; }
@@ -886,17 +892,16 @@ const ICONS = {
   gram: '<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/>',
   verbes: '<path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6z"/>',
   iki: '<rect x="3" y="4.5" width="18" height="12" rx="1.5"/><path d="M7 9h7M7 12.5h4.5M9 20.5l1.5-4M15 20.5l-1.5-4"/>',
-  err: '<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v5.5M12 16.2v.3"/>',
   phrases: '<path d="M4 5.5A1.5 1.5 0 0 1 5.5 4h13A1.5 1.5 0 0 1 20 5.5v9a1.5 1.5 0 0 1-1.5 1.5H10l-5 4v-4h0.5A1.5 1.5 0 0 1 4 14.5z"/><path d="M8 9h8M8 12h5"/>',
 };
 const SECTIONS = [
   { id: "today", label: "Aujourd'hui", subs: [] },
-  { id: "mots", label: "Quiz", subs: [["quiz", "Vocabulaire"], ["verbes", "Verbes"]] },
+  // Quiz is a hub of cards: its pages are reached from the cards (no pills), each with a way back to the hub
+  { id: "mots", label: "Quiz", nopills: true, subs: [["hub", "Quiz"], ["quiz", "Vocabulaire"], ["verbes", "Verbes"], ["dict", "Dictée"], ["err", "Mes erreurs"]] },
   { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["dek", "Déclinaisons"], ["order", "Ordre des mots"], ["lex", "Lexique"]] },
   { id: "verbes", label: "Verbes", subs: [["irr", "Irréguliers"], ["vprep", "Prépositions"]] },
-  { id: "phrases", label: "Phrases", subs: [["phr", "Situations"], ["dict", "Dictée"]] },
+  { id: "phrases", label: "Phrases", subs: [["phr", "Situations"]] },
   { id: "iki", label: "IKI", subs: [] },
-  { id: "err", label: "Erreurs", subs: [] },
 ];
 const SEC_BY_ID = Object.fromEntries(SECTIONS.map(s => [s.id, s]));
 // IKI is only for a few people: hidden unless switched on in Réglages, or already in use (a lesson added or edited, or progress on an IKI word)
@@ -909,7 +914,7 @@ function ikiUsed() {
 function showIki() { return settings.showIki === undefined ? ikiUsed() : !!settings.showIki; }
 function visibleSections() { return SECTIONS.filter(s => s.id !== "iki" || showIki()); }
 // earlier versions used one flat row of tabs: map the last one used to its new place
-const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "gram:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "mots:verbes", vprep: "verbes:vprep", qprep: "mots:verbes", dict: "phrases:dict", phr: "phrases:phr" };
+const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "gram:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "mots:verbes", vprep: "verbes:vprep", qprep: "mots:verbes", dict: "mots:dict", phr: "phrases:phr" };
 settings.sub = settings.sub || {};
 if (!settings.sec) settings.sec = "today";
 if (settings.tab && OLD_TAB[settings.tab]) { const [a, b] = OLD_TAB[settings.tab].split(":"); settings.sub[a] = b; delete settings.tab; }
@@ -923,6 +928,11 @@ if (settings.sub.verbes === "conj" || settings.sub.verbes === "qprep") {
 }
 // the word list moved from Mots (now Quiz) to Grammaire
 if (settings.sub.mots === "lex") { settings.sub.mots = "quiz"; if (settings.sec === "mots") { settings.sec = "gram"; settings.sub.gram = "lex"; } }
+// the app always opens the Quiz on its hub
+if (settings.sec === "mots") settings.sub.mots = "hub";
+// the Erreurs section and the Dictée of Phrases moved into the Quiz hub
+if (settings.sec === "err") { settings.sec = "mots"; settings.sub.mots = "err"; }
+if (settings.sub.phrases === "dict") { settings.sub.phrases = "phr"; if (settings.sec === "phrases") { settings.sec = "mots"; settings.sub.mots = "dict"; } }
 function curSub(sec) { const s = SEC_BY_ID[sec]; return s.subs.some(x => x[0] === settings.sub[sec]) ? settings.sub[sec] : (s.subs[0] || [""])[0]; }
 let setOpen = false;
 
@@ -966,7 +976,7 @@ function topBar(title) {
 }
 function header() { return topBar("Wortschatz Alltag"); }
 function bottomNav() {
-  return `<nav class="bnav" aria-label="Rubriques"><div class="bnav-in">${visibleSections().map(s => `<button data-sec="${s.id}" ${settings.sec === s.id ? 'aria-current="page"' : ""}><span class="bico">${icon(s.id)}${s.id === "err" && errCount() ? `<i class="bbadge num">${Math.min(errCount(), 99)}</i>` : ""}</span><span>${s.label}</span></button>`).join("")}</div></nav>`;
+  return `<nav class="bnav" aria-label="Rubriques"><div class="bnav-in">${visibleSections().map(s => `<button data-sec="${s.id}" ${settings.sec === s.id ? 'aria-current="page"' : ""}><span class="bico">${icon(s.id)}</span><span>${s.label}</span></button>`).join("")}</div></nav>`;
 }
 function subNav(sec) {
   const s = SEC_BY_ID[sec], cur = curSub(sec);
@@ -980,6 +990,44 @@ function doneToday(k) { return (P.done || {})[k] === today(); }
 function markDone(k) { P.done = P.done || {}; P.done[k] = today(); try { localStorage.setItem(LS_KEY, JSON.stringify(P)); } catch (e) {} }
 function step(n, done, attrs, title, sub, next) {
   return `<button class="pstep${done ? " done" : next ? " next" : ""}" ${attrs}><span class="pnum">${done ? "✓" : n}</span><span class="ptxt"><b>${title}</b><small>${sub}</small></span><span class="pgo" aria-hidden="true">${done ? "Refaire" : "→"}</span></button>`;
+}
+// ---- Quiz hub: one card per exercise, grouped by theme; the pages behind the cards keep their own view ----
+function hubCard(attr, title, desc, extra = "") {
+  return `<button class="hubcard" ${attr}><span><b>${title}</b><small>${desc}</small></span>${extra}</button>`;
+}
+function hubView() {
+  const nErr = errCount();
+  const errExtra = nErr ? `<i class="bbadge num">${Math.min(nErr, 99)}</i>` : `<small class="hubnote">Rien à revoir</small>`;
+  return `<div class="dcols">
+    <div class="dcol">
+      <section class="section">
+        <span class="label">Mots</span>
+        <button class="cta" data-go="mots:quiz"><div><h2>Vocabulaire</h2><p>QCM, saisie, genre, pluriels</p></div><span class="go">Jouer →</span></button>
+      </section>
+      <section class="section">
+        <span class="label">Verbes</span>
+        ${hubCard('data-go="mots:verbes"', "Verbes", "Conjugaison, verbes à préposition")}
+      </section>
+    </div>
+    <div class="dcol">
+      <section class="section">
+        <span class="label">Grammaire</span>
+        ${hubCard('data-vx="dek"', "Déclinaisons", "10 phrases au bon cas")}
+        ${hubCard('data-vx="order"', "Ordre des mots", "Remets la phrase dans l'ordre")}
+        ${hubCard('data-vx="cards"', "Phrases", "10 cartes à dire en allemand")}
+      </section>
+      <section class="section">
+        <span class="label">Écoute et révision</span>
+        ${canSpeak ? hubCard('data-go="mots:dict"', "Dictée", "Écris ce que tu entends") : ""}
+        ${hubCard('data-go="mots:err"', "Mes erreurs", "Chaque erreur s'ajoute ici", errExtra)}
+      </section>
+    </div>
+  </div>`;
+}
+function quizPage(sub, AW) {
+  if (sub === "hub") return hubView();
+  const body = sub === "verbes" ? verbQuizView() : sub === "dict" ? dictTab() : sub === "err" ? errView() : quizView(AW);
+  return `<button class="backlink" data-go="mots:hub">← Quiz</button>${body}`;
 }
 function todayView() {
   const AW = activeWords();
@@ -997,7 +1045,7 @@ function todayView() {
   const nx = steps.indexOf(false);
   const nErr = errCount();
   const weakRows = [
-    [nErr, nErr > 1 ? "erreurs" : "erreur", "à corriger", 'data-sec="err"'],
+    [nErr, nErr > 1 ? "erreurs" : "erreur", "à corriger", 'data-go="mots:err"'],
     [due, "mots", "à revoir aujourd'hui", 'data-start="review"'],
     [activeFiches().filter(f => ficheState(f.id).key === "weak").length, "fiches", "à retravailler", 'data-go="gram:fiches"'],
   ].filter(r => r[0]);
@@ -1115,9 +1163,8 @@ function renderHome() {
   const AW = activeWords();
   let body = "";
   if (sec === "today") body = todayView();
-  else if (sec === "err") body = errView();
   else if (sec === "iki") body = ikiView();
-  else if (sec === "mots") body = sub === "verbes" ? verbQuizView() : quizView(AW);
+  else if (sec === "mots") body = quizPage(sub, AW);
   else if (sub === "lex") body = lexView();
   else if (sub === "fiches") body = gramTab();
   else if (sub === "dek") body = dkTab();
@@ -1127,8 +1174,7 @@ function renderHome() {
   else if (sub === "qprep") body = qprepTab();
   else if (sub === "vprep") body = vprepTab();
   else if (sub === "phr") body = phrTab();
-  else if (sub === "dict") body = dictTab();
-  app.innerHTML = topBar(sec === "today" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length ? subNav(sec) : "") + body + bottomNav();
+  app.innerHTML = topBar(sec === "today" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length && !SEC_BY_ID[sec].nopills ? subNav(sec) : "") + body + bottomNav();
   if (sub === "lex" && sec === "gram") renderLex();
   if (sub === "irr") renderIrrList();
   if (sub === "vprep") renderVpList();
@@ -1292,7 +1338,7 @@ function renderDone() {
       ${S.mode === "genre" ? `<p class="note">Meilleure série de la partie : <b>${S.best}</b> · record : <b>${P.best || 0}</b></p>` : ""}
     </section>
     ${missed.length ? `<section class="section"><span class="label">À retenir</span><div class="missed">${missed.map(w => `<div class="row" data-notr><div><div><b>${deHTML(w)}</b></div><div class="fr">${esc(w.fr)}${details(w) ? " · " + details(w) : ""}</div></div>${spkBtn(w.de, true)}</div>`).join("")}</div></section>` : ""}
-    <div class="row2"><button class="secondary" id="home">Accueil</button>${S.err ? `<button class="primary" data-sec="err">Mes erreurs</button>` : `<button class="primary" id="again">Encore une série</button>`}</div>`;
+    <div class="row2"><button class="secondary" id="home">Accueil</button>${S.err ? `<button class="primary" data-go="mots:err">Mes erreurs</button>` : `<button class="primary" id="again">Encore une série</button>`}</div>`;
 }
 
 /* ---------- grammar sheets ---------- */
@@ -2576,7 +2622,7 @@ function renderVXDone() {
       <div class="score"><b>${ok}/${n}</b><span>${msg}</span></div>
     </section>
     ${missed.length ? `<section class="section"><span class="label">À retenir</span><div class="missed">${missed.map(q => { const [a, b, say] = vxRecap(q); return `<div class="row" data-notr><div><div lang="de">${a}</div><div class="fr">${b}</div></div>${spkBtn(say, true)}</div>`; }).join("")}</div></section>` : ""}
-    <div class="row2"><button class="secondary" id="home">Retour</button>${VX.err ? `<button class="primary" data-sec="err">Mes erreurs</button>` : `<button class="primary" id="vagain">Encore une série</button>`}</div>`;
+    <div class="row2"><button class="secondary" id="home">Retour</button>${VX.err ? `<button class="primary" data-go="mots:err">Mes erreurs</button>` : `<button class="primary" id="vagain">Encore une série</button>`}</div>`;
 }
 function vxClick(t) {
   if (t.id === "vagain") { if (VX.err) startErrSession(VX.err); else startVX(VX.kind + (VX.weakOnly ? "-weak" : ""), VX.themeId); return true; }
@@ -2760,7 +2806,7 @@ app.addEventListener("click", e => {
   if (t.dataset.fiche) { openFiche(+t.dataset.fiche); return; }
   if (t.id === "reloadbtn") { reloadApp(); return; }
   if (t.id === "autoNext") { settings.autoNext = !settings.autoNext; saveSettings(); render(); return; }
-  if (t.dataset.sec) { if (!ov.hidden) closeFiche(); view = "home"; settings.sec = t.dataset.sec; setOpen = false; saveSettings(); render(); window.scrollTo(0, 0); return; }
+  if (t.dataset.sec) { if (!ov.hidden) closeFiche(); view = "home"; settings.sec = t.dataset.sec; if (settings.sec === "mots") settings.sub.mots = "hub"; setOpen = false; saveSettings(); render(); window.scrollTo(0, 0); return; }
   if (t.dataset.sub) { const [a, b] = t.dataset.sub.split(":"); settings.sub[a] = b; saveSettings(); render(); return; }
   if (t.dataset.go) { const [a, b] = t.dataset.go.split(":"); settings.sec = a; settings.sub[a] = b; saveSettings(); render(); window.scrollTo(0, 0); return; }
   if (t.id === "setbtn") { setOpen = !setOpen; render(); return; }
