@@ -104,10 +104,10 @@ gehen|um|A|s'agir de (es geht um …)|In dem Brief geht es [um] die Miete.|La le
 sich handeln|um|A|s'agir de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Il s'agit d'un malentendu.
 sich bemühen|um|A|s'efforcer d'obtenir|Ich bemühe mich [um] eine Lösung.|Je m'efforce de trouver une solution.
 die Angst|vor|D|la peur de|Seine Angst [vor] Hunden ist groß.|Sa peur des chiens est grande.
-das Interesse|an|D|l'intérêt pour|Sie hat großes Interesse [an] Musik.|Elle a un grand intérêt pour la musique.
+das Interesse|an|D|l'intérêt pour|Sie hat großes Interesse [an] der Musik.|Elle a un grand intérêt pour la musique.
 die Lust|auf|A|l'envie de|Ich habe keine Lust [auf] Kino.|Je n'ai pas envie d'aller au cinéma.
 die Freude|an|D|le plaisir à (une activité)|Er hat viel Freude [an] seiner Arbeit.|Il prend beaucoup de plaisir à son travail.
-die Freude|über|A|la joie de (un événement)|Die Freude [über] das Geschenk war groß.|La joie d'avoir reçu ce cadeau était grande.
+die Freude|über|A|la joie de (présent ou passé)|Die Freude [über] das Geschenk war groß.|La joie d'avoir reçu ce cadeau était grande.
 die Hoffnung|auf|A|l'espoir de|Wir haben Hoffnung [auf] besseres Wetter.|Nous avons l'espoir d'un temps meilleur.
 die Antwort|auf|A|la réponse à|Hast du eine Antwort [auf] meine Frage?|As-tu une réponse à ma question ?
 die Frage|nach|D|la question de|Die Frage [nach] dem Preis ist wichtig.|La question du prix est importante.
@@ -119,7 +119,7 @@ der Wunsch|nach|D|le désir de|Viele haben den Wunsch [nach] mehr Ruhe.|Beaucoup
 die Beziehung|zu|D|la relation avec|Er hat eine gute Beziehung [zu] seiner Schwester.|Il a une bonne relation avec sa sœur.
 die Einladung|zu|D|l'invitation à|Danke für die Einladung [zum] Essen.|Merci pour l'invitation à manger.
 die Suche|nach|D|la recherche de|Die Suche [nach] einer Wohnung ist schwer.|La recherche d'un appartement est difficile.
-die Diskussion|über|A|la discussion sur|Die Diskussion [über] die Miete dauert lange.|La discussion sur le loyer dure longtemps.
+das Gespräch|über|A|la conversation sur|Das Gespräch [über] die Miete dauert lange.|La conversation sur le loyer dure longtemps.
 die Sorge|um|A|l'inquiétude pour|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|L'inquiétude pour sa mère l'empêche de dormir.
 die Teilnahme|an|D|la participation à|Die Teilnahme [am] Kurs ist kostenlos.|La participation au cours est gratuite.
 die Voraussetzung|für|A|la condition pour|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|De bonnes connaissances d'allemand sont une condition pour ce poste.

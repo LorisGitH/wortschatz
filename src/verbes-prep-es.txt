@@ -104,10 +104,10 @@ gehen|um|A|tratarse de (es geht um …)|In dem Brief geht es [um] die Miete.|La 
 sich handeln|um|A|tratarse de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Se trata de un malentendido.
 sich bemühen|um|A|esforzarse por conseguir|Ich bemühe mich [um] eine Lösung.|Me esfuerzo por encontrar una solución.
 die Angst|vor|D|el miedo a|Seine Angst [vor] Hunden ist groß.|Su miedo a los perros es grande.
-das Interesse|an|D|el interés por|Sie hat großes Interesse [an] Musik.|Tiene un gran interés por la música.
+das Interesse|an|D|el interés por|Sie hat großes Interesse [an] der Musik.|Tiene un gran interés por la música.
 die Lust|auf|A|las ganas de|Ich habe keine Lust [auf] Kino.|No tengo ganas de ir al cine.
 die Freude|an|D|el placer de (una actividad)|Er hat viel Freude [an] seiner Arbeit.|Disfruta mucho de su trabajo.
-die Freude|über|A|la alegría por (un hecho)|Die Freude [über] das Geschenk war groß.|La alegría por el regalo fue grande.
+die Freude|über|A|la alegría por (algo presente o pasado)|Die Freude [über] das Geschenk war groß.|La alegría por el regalo fue grande.
 die Hoffnung|auf|A|la esperanza de|Wir haben Hoffnung [auf] besseres Wetter.|Tenemos la esperanza de que haga mejor tiempo.
 die Antwort|auf|A|la respuesta a|Hast du eine Antwort [auf] meine Frage?|¿Tienes una respuesta a mi pregunta?
 die Frage|nach|D|la cuestión de|Die Frage [nach] dem Preis ist wichtig.|La cuestión del precio es importante.
@@ -119,7 +119,7 @@ der Wunsch|nach|D|el deseo de|Viele haben den Wunsch [nach] mehr Ruhe.|Muchos ti
 die Beziehung|zu|D|la relación con|Er hat eine gute Beziehung [zu] seiner Schwester.|Tiene una buena relación con su hermana.
 die Einladung|zu|D|la invitación a|Danke für die Einladung [zum] Essen.|Gracias por la invitación a comer.
 die Suche|nach|D|la búsqueda de|Die Suche [nach] einer Wohnung ist schwer.|La búsqueda de un piso es difícil.
-die Diskussion|über|A|la discusión sobre|Die Diskussion [über] die Miete dauert lange.|La discusión sobre el alquiler dura mucho.
+das Gespräch|über|A|la conversación sobre|Das Gespräch [über] die Miete dauert lange.|La conversación sobre el alquiler dura mucho.
 die Sorge|um|A|la preocupación por|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|La preocupación por su madre no la deja dormir.
 die Teilnahme|an|D|la participación en|Die Teilnahme [am] Kurs ist kostenlos.|La participación en el curso es gratuita.
 die Voraussetzung|für|A|el requisito para|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|Un buen nivel de alemán es un requisito para el puesto.

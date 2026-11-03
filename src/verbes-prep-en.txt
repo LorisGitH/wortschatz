@@ -104,10 +104,10 @@ gehen|um|A|to be about (es geht um …)|In dem Brief geht es [um] die Miete.|The
 sich handeln|um|A|to be a matter of (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|It's a misunderstanding.
 sich bemühen|um|A|to strive for, to try to get|Ich bemühe mich [um] eine Lösung.|I'm trying to find a solution.
 die Angst|vor|D|fear of|Seine Angst [vor] Hunden ist groß.|His fear of dogs is great.
-das Interesse|an|D|interest in|Sie hat großes Interesse [an] Musik.|She has a great interest in music.
+das Interesse|an|D|interest in|Sie hat großes Interesse [an] der Musik.|She has a great interest in music.
 die Lust|auf|A|the desire for, feeling like|Ich habe keine Lust [auf] Kino.|I don't feel like going to the cinema.
 die Freude|an|D|enjoyment of (an activity)|Er hat viel Freude [an] seiner Arbeit.|He gets a lot of enjoyment from his work.
-die Freude|über|A|joy about (an event)|Die Freude [über] das Geschenk war groß.|The joy about the present was great.
+die Freude|über|A|joy about (now or in the past)|Die Freude [über] das Geschenk war groß.|The joy about the present was great.
 die Hoffnung|auf|A|hope for|Wir haben Hoffnung [auf] besseres Wetter.|We have hope for better weather.
 die Antwort|auf|A|the answer to|Hast du eine Antwort [auf] meine Frage?|Do you have an answer to my question?
 die Frage|nach|D|the question of|Die Frage [nach] dem Preis ist wichtig.|The question of the price is important.
@@ -119,7 +119,7 @@ der Wunsch|nach|D|the wish for|Viele haben den Wunsch [nach] mehr Ruhe.|Many peo
 die Beziehung|zu|D|the relationship with|Er hat eine gute Beziehung [zu] seiner Schwester.|He has a good relationship with his sister.
 die Einladung|zu|D|the invitation to|Danke für die Einladung [zum] Essen.|Thanks for the invitation to dinner.
 die Suche|nach|D|the search for|Die Suche [nach] einer Wohnung ist schwer.|The search for a flat is hard.
-die Diskussion|über|A|the discussion about|Die Diskussion [über] die Miete dauert lange.|The discussion about the rent is taking a long time.
+das Gespräch|über|A|the conversation about|Das Gespräch [über] die Miete dauert lange.|The conversation about the rent is taking a long time.
 die Sorge|um|A|worry about|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|Worry about her mother keeps her awake.
 die Teilnahme|an|D|participation in|Die Teilnahme [am] Kurs ist kostenlos.|Participation in the course is free.
 die Voraussetzung|für|A|the requirement for|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|Good German is a requirement for the job.
