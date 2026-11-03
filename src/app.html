@@ -994,7 +994,7 @@ function subNav(sec) {
 }
 
 /* today's plan: word review, today's sheet, one rotating drill */
-const DAILY_DRILLS = [["conj", "Conjugaison", "10 verbes à conjuguer"], ["dek", "Déclinaisons", "10 phrases au bon cas"], ["prep", "Verbes à préposition", "15 phrases à compléter"], ["order", "Ordre des mots", "8 phrases à remettre dans l'ordre"], ["plural", "Pluriels", "10 noms à mettre au pluriel"], ["dict", "Dictée", "8 phrases à écrire"], ["cards", "Phrases du quotidien", "10 phrases à dire en allemand"]];
+const DAILY_DRILLS = [["conj", "Conjugaison", "10 verbes à conjuguer"], ["dek", "Déclinaisons", "10 phrases au bon cas"], ["prep", "Mots à préposition", "15 phrases à compléter"], ["order", "Ordre des mots", "8 phrases à remettre dans l'ordre"], ["plural", "Pluriels", "10 noms à mettre au pluriel"], ["dict", "Dictée", "8 phrases à écrire"], ["cards", "Phrases du quotidien", "10 phrases à dire en allemand"]];
 function dailyDrill() { const list = DAILY_DRILLS.filter(d => d[0] !== "dict" || canSpeak); return list[today() % list.length]; }
 function doneToday(k) { return (P.done || {})[k] === today(); }
 function markDone(k) { P.done = P.done || {}; P.done[k] = today(); try { localStorage.setItem(LS_KEY, JSON.stringify(P)); } catch (e) {} }
@@ -1016,7 +1016,7 @@ function hubView() {
       </section>
       <section class="section">
         <span class="label">Verbes</span>
-        ${hubCard('data-go="mots:verbes"', "Verbes", "Conjugaison, verbes à préposition")}
+        ${hubCard('data-go="mots:verbes"', "Verbes", "Conjugaison, mots à préposition")}
       </section>
     </div>
     <div class="dcol">
@@ -1129,7 +1129,7 @@ function quizView(AW, o = null) {
 // Quiz → Verbes: the two verb drills, picked like the vocabulary modes
 const VMODES = {
   conj: { name: "Conjugaison", desc: "présent, prétérit, parfait" },
-  prep: { name: "Prépositions", desc: "verbe + préposition + cas" },
+  prep: { name: "Prépositions", desc: "mot + préposition + cas" },
 };
 function verbQuizView() {
   const m = VMODES[settings.vmode] ? settings.vmode : "conj";
@@ -1839,13 +1839,13 @@ function conjTab() {
 function vprepTab() {
   return `
     ${trainLink("prep")}
-    <input class="search" id="qp" type="search" placeholder="Chercher un verbe ou une préposition…" value="${esc(settings.qp || "")}" autocomplete="off">
+    <input class="search" id="qp" type="search" placeholder="Chercher un mot ou une préposition…" value="${esc(settings.qp || "")}" autocomplete="off">
     <div class="tipcard">
       <b>Repères pour le cas</b>
       <ul>
         <li><b>über</b> et <b>um</b> : toujours accusatif. <b>auf</b> : presque toujours accusatif (sauf bestehen auf + D).</li>
         <li><b>mit, von, zu, bei, nach, aus, vor</b> : toujours datif. <b>für, gegen</b> : toujours accusatif.</li>
-        <li><b>an</b> : accusatif pour penser, se souvenir, s'habituer, croire ; datif pour participer, travailler, douter, souffrir.</li>
+        <li><b>an</b> : accusatif pour penser, se souvenir, s'habituer, croire, die Erinnerung ; datif pour participer, travailler, douter, souffrir, das Interesse, die Freude, interessiert.</li>
       </ul>
     </div>
     <div id="vplist"></div>
@@ -1869,7 +1869,7 @@ function renderVpList() {
           <div class="lex-ex"><div><div class="ex-de" lang="de">${v.exHTML}</div><div class="ex-fr" data-notr>${esc(v.exfr)}</div></div>${spkBtn(v.ex, true)}</div>
         </div>`;
       }).join("")}</div>
-    </section>`).join("") || `<div class="lex"><div class="more" style="border:0">Aucun verbe ne correspond.</div></div>`;
+    </section>`).join("") || `<div class="lex"><div class="more" style="border:0">Aucun mot ne correspond.</div></div>`;
 }
 function qprepTab() {
   return `
@@ -1877,8 +1877,8 @@ function qprepTab() {
       <div><h2>Quelle préposition ?</h2><p>15 phrases à compléter. Pour an, auf, in, über, vor et unter, choisis aussi le cas.</p></div><span class="go">Jouer →</span>
     </button>
     ${autoSwitch()}
-    ${statsBox(VP, "vp", "verbes")}
-    <p class="note">Apprends toujours le verbe avec sa préposition et son cas, comme un seul bloc : <b>warten auf + Akk.</b> La liste complète est dans Verbes → Prépositions.</p>
+    ${statsBox(VP, "vp", "mots")}
+    <p class="note">Apprends toujours le mot avec sa préposition et son cas, comme un seul bloc : <b>warten auf + Akk., stolz auf + Akk.</b> La liste complète est dans Verbes → Prépositions.</p>
     ${ficheLink(21, "Fiche :")}`;
 }
 
@@ -2315,7 +2315,7 @@ function dictTab() {
 // P.err["cat:key"] = [time of last change, open (1) or corrected (0), times wrong, extra]
 const ERR_CATS = [
   ["w", "Vocabulaire"], ["art", "Articles (der, die, das)"], ["pl", "Pluriels"], ["irr", "Conjugaison"],
-  ["vp", "Verbes à préposition"], ["dk", "Déclinaisons"], ["ord", "Ordre des mots"], ["dic", "Dictée"],
+  ["vp", "Mots à préposition"], ["dk", "Déclinaisons"], ["ord", "Ordre des mots"], ["dic", "Dictée"],
   ["ph", "Phrases du quotidien"], ["fx", "Exercices des fiches"],
 ];
 const ERR_DRILL = { pl: "plural", irr: "conj", vp: "prep", dk: "dek", ord: "order", dic: "dict", ph: "cards" };
