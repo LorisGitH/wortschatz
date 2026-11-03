@@ -1,4 +1,4 @@
-# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+# Verbes, noms et adjectifs à préposition. Format : mot|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
 achten|auf|A|to pay attention to|Achte bitte [auf] den Verkehr.|Please pay attention to the traffic.
 denken|an|A|to think of/about|Ich denke oft [an] meine Familie.|I often think about my family.
 warten|auf|A|to wait for|Wir warten [auf] den Bus.|We're waiting for the bus.
@@ -103,3 +103,41 @@ handeln|von|D|to be about (a book, a movie)|Der Film handelt [von] einer Familie
 gehen|um|A|to be about (es geht um …)|In dem Brief geht es [um] die Miete.|The letter is about the rent.
 sich handeln|um|A|to be a matter of (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|It's a misunderstanding.
 sich bemühen|um|A|to strive for, to try to get|Ich bemühe mich [um] eine Lösung.|I'm trying to find a solution.
+die Angst|vor|D|fear of|Seine Angst [vor] Hunden ist groß.|His fear of dogs is great.
+das Interesse|an|D|interest in|Sie hat großes Interesse [an] der Musik.|She has a great interest in music.
+die Lust|auf|A|the desire for, feeling like|Ich habe keine Lust [auf] Kino.|I don't feel like going to the cinema.
+die Freude|an|D|enjoyment of (an activity)|Er hat viel Freude [an] seiner Arbeit.|He gets a lot of enjoyment from his work.
+die Freude|über|A|joy about (now or in the past)|Die Freude [über] das Geschenk war groß.|The joy about the present was great.
+die Hoffnung|auf|A|hope for|Wir haben Hoffnung [auf] besseres Wetter.|We have hope for better weather.
+die Antwort|auf|A|the answer to|Hast du eine Antwort [auf] meine Frage?|Do you have an answer to my question?
+die Frage|nach|D|the question of|Die Frage [nach] dem Preis ist wichtig.|The question of the price is important.
+die Bitte|um|A|the request for|Seine Bitte [um] Hilfe kam zu spät.|His request for help came too late.
+der Grund|für|A|the reason for|Was ist der Grund [für] die Verspätung?|What is the reason for the delay?
+die Lösung|für|A|the solution to|Wir suchen eine Lösung [für] das Problem.|We are looking for a solution to the problem.
+die Erinnerung|an|A|the memory of|Ich habe schöne Erinnerungen [an] meine Kindheit.|I have fond memories of my childhood.
+der Wunsch|nach|D|the wish for|Viele haben den Wunsch [nach] mehr Ruhe.|Many people have a wish for more peace and quiet.
+die Beziehung|zu|D|the relationship with|Er hat eine gute Beziehung [zu] seiner Schwester.|He has a good relationship with his sister.
+die Einladung|zu|D|the invitation to|Danke für die Einladung [zum] Essen.|Thanks for the invitation to dinner.
+die Suche|nach|D|the search for|Die Suche [nach] einer Wohnung ist schwer.|The search for a flat is hard.
+das Gespräch|über|A|the conversation about|Das Gespräch [über] die Miete dauert lange.|The conversation about the rent is taking a long time.
+die Sorge|um|A|worry about|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|Worry about her mother keeps her awake.
+die Teilnahme|an|D|participation in|Die Teilnahme [am] Kurs ist kostenlos.|Participation in the course is free.
+die Voraussetzung|für|A|the requirement for|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|Good German is a requirement for the job.
+der Streit|mit|D|the argument with|Der Streit [mit] dem Nachbarn ist vorbei.|The argument with the neighbour is over.
+stolz|auf|A|proud of|Ich bin stolz [auf] meine Tochter.|I am proud of my daughter.
+zufrieden|mit|D|satisfied with|Wir sind zufrieden [mit] der neuen Wohnung.|We are satisfied with the new flat.
+abhängig|von|D|dependent on|Der Preis ist abhängig [von] der Größe.|The price is dependent on the size.
+interessiert|an|D|interested in|Sie ist sehr interessiert [an] dem Kurs.|She is very interested in the course.
+verheiratet|mit|D|married to|Er ist [mit] einer Ärztin verheiratet.|He is married to a doctor.
+verliebt|in|A|in love with|Sie ist [in] ihren Kollegen verliebt.|She is in love with her colleague.
+böse|auf|A|angry with|Bist du noch böse [auf] mich?|Are you still angry with me?
+fertig|mit|D|finished with|Ich bin gleich fertig [mit] der Arbeit.|I'll be finished with the work soon.
+bekannt|für|A|known for|Die Stadt ist bekannt [für] ihr Bier.|The town is known for its beer.
+gespannt|auf|A|curious to see, looking forward to|Ich bin gespannt [auf] den neuen Film.|I can't wait to see the new film.
+neugierig|auf|A|curious about|Die Kinder sind neugierig [auf] das Geschenk.|The children are curious about the present.
+bereit|zu|D|ready for|Ich bin [zu] einem Gespräch bereit.|I am ready for a talk.
+froh|über|A|glad about|Ich bin froh [über] deine Hilfe.|I am glad about your help.
+traurig|über|A|sad about|Sie ist traurig [über] die Nachricht.|She is sad about the news.
+zuständig|für|A|responsible for|Wer ist [für] die Heizung zuständig?|Who is responsible for the heating?
+überzeugt|von|D|convinced of|Ich bin [von] der Idee überzeugt.|I am convinced of the idea.
+freundlich|zu|D|kind to|Die Nachbarn sind immer freundlich [zu] uns.|The neighbours are always kind to us.

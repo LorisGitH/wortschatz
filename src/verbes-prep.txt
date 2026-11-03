@@ -1,4 +1,4 @@
-# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+# Verbes, noms et adjectifs à préposition. Format : mot|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
 achten|auf|A|faire attention à|Achte bitte [auf] den Verkehr.|Fais attention à la circulation.
 denken|an|A|penser à|Ich denke oft [an] meine Familie.|Je pense souvent à ma famille.
 warten|auf|A|attendre|Wir warten [auf] den Bus.|Nous attendons le bus.
@@ -103,3 +103,41 @@ handeln|von|D|parler de (un livre, un film)|Der Film handelt [von] einer Familie
 gehen|um|A|s'agir de (es geht um …)|In dem Brief geht es [um] die Miete.|La lettre concerne le loyer.
 sich handeln|um|A|s'agir de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Il s'agit d'un malentendu.
 sich bemühen|um|A|s'efforcer d'obtenir|Ich bemühe mich [um] eine Lösung.|Je m'efforce de trouver une solution.
+die Angst|vor|D|la peur de|Seine Angst [vor] Hunden ist groß.|Sa peur des chiens est grande.
+das Interesse|an|D|l'intérêt pour|Sie hat großes Interesse [an] der Musik.|Elle a un grand intérêt pour la musique.
+die Lust|auf|A|l'envie de|Ich habe keine Lust [auf] Kino.|Je n'ai pas envie d'aller au cinéma.
+die Freude|an|D|le plaisir à (une activité)|Er hat viel Freude [an] seiner Arbeit.|Il prend beaucoup de plaisir à son travail.
+die Freude|über|A|la joie de (présent ou passé)|Die Freude [über] das Geschenk war groß.|La joie d'avoir reçu ce cadeau était grande.
+die Hoffnung|auf|A|l'espoir de|Wir haben Hoffnung [auf] besseres Wetter.|Nous avons l'espoir d'un temps meilleur.
+die Antwort|auf|A|la réponse à|Hast du eine Antwort [auf] meine Frage?|As-tu une réponse à ma question ?
+die Frage|nach|D|la question de|Die Frage [nach] dem Preis ist wichtig.|La question du prix est importante.
+die Bitte|um|A|la demande de|Seine Bitte [um] Hilfe kam zu spät.|Sa demande d'aide est arrivée trop tard.
+der Grund|für|A|la raison de|Was ist der Grund [für] die Verspätung?|Quelle est la raison du retard ?
+die Lösung|für|A|la solution à|Wir suchen eine Lösung [für] das Problem.|Nous cherchons une solution au problème.
+die Erinnerung|an|A|le souvenir de|Ich habe schöne Erinnerungen [an] meine Kindheit.|J'ai de beaux souvenirs de mon enfance.
+der Wunsch|nach|D|le désir de|Viele haben den Wunsch [nach] mehr Ruhe.|Beaucoup ont le désir de plus de calme.
+die Beziehung|zu|D|la relation avec|Er hat eine gute Beziehung [zu] seiner Schwester.|Il a une bonne relation avec sa sœur.
+die Einladung|zu|D|l'invitation à|Danke für die Einladung [zum] Essen.|Merci pour l'invitation à manger.
+die Suche|nach|D|la recherche de|Die Suche [nach] einer Wohnung ist schwer.|La recherche d'un appartement est difficile.
+das Gespräch|über|A|la conversation sur|Das Gespräch [über] die Miete dauert lange.|La conversation sur le loyer dure longtemps.
+die Sorge|um|A|l'inquiétude pour|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|L'inquiétude pour sa mère l'empêche de dormir.
+die Teilnahme|an|D|la participation à|Die Teilnahme [am] Kurs ist kostenlos.|La participation au cours est gratuite.
+die Voraussetzung|für|A|la condition pour|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|De bonnes connaissances d'allemand sont une condition pour ce poste.
+der Streit|mit|D|la dispute avec|Der Streit [mit] dem Nachbarn ist vorbei.|La dispute avec le voisin est finie.
+stolz|auf|A|fier de|Ich bin stolz [auf] meine Tochter.|Je suis fier de ma fille.
+zufrieden|mit|D|satisfait de|Wir sind zufrieden [mit] der neuen Wohnung.|Nous sommes satisfaits du nouvel appartement.
+abhängig|von|D|dépendant de|Der Preis ist abhängig [von] der Größe.|Le prix dépend de la taille.
+interessiert|an|D|intéressé par|Sie ist sehr interessiert [an] dem Kurs.|Elle est très intéressée par le cours.
+verheiratet|mit|D|marié avec|Er ist [mit] einer Ärztin verheiratet.|Il est marié avec une médecin.
+verliebt|in|A|amoureux de|Sie ist [in] ihren Kollegen verliebt.|Elle est amoureuse de son collègue.
+böse|auf|A|fâché contre|Bist du noch böse [auf] mich?|Tu es encore fâché contre moi ?
+fertig|mit|D|avoir fini (qqch)|Ich bin gleich fertig [mit] der Arbeit.|J'ai bientôt fini le travail.
+bekannt|für|A|connu pour|Die Stadt ist bekannt [für] ihr Bier.|La ville est connue pour sa bière.
+gespannt|auf|A|impatient de découvrir|Ich bin gespannt [auf] den neuen Film.|J'ai hâte de découvrir le nouveau film.
+neugierig|auf|A|curieux de|Die Kinder sind neugierig [auf] das Geschenk.|Les enfants sont curieux de voir le cadeau.
+bereit|zu|D|prêt à|Ich bin [zu] einem Gespräch bereit.|Je suis prêt à discuter.
+froh|über|A|content de|Ich bin froh [über] deine Hilfe.|Je suis content de ton aide.
+traurig|über|A|triste de|Sie ist traurig [über] die Nachricht.|Elle est triste de cette nouvelle.
+zuständig|für|A|responsable de|Wer ist [für] die Heizung zuständig?|Qui est responsable du chauffage ?
+überzeugt|von|D|convaincu de|Ich bin [von] der Idee überzeugt.|Je suis convaincu de cette idée.
+freundlich|zu|D|gentil avec|Die Nachbarn sind immer freundlich [zu] uns.|Les voisins sont toujours gentils avec nous.

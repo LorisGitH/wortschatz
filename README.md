@@ -11,7 +11,7 @@ La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter
 La rubrique Quiz est une page de cartes, groupées par thème :
 
 - **Mots** : Vocabulaire (QCM, saisie, genre, pluriels).
-- **Verbes** : conjugaison et verbes à préposition.
+- **Verbes** : conjugaison et mots à préposition (verbes, noms et adjectifs).
 - **Grammaire** : Déclinaisons, Ordre des mots et Phrases, qui lancent directement l'exercice.
 - **Écoute et révision** : Dictée (si le navigateur sait lire l'audio) et Mes erreurs, avec le nombre d'erreurs à corriger.
 
@@ -24,7 +24,7 @@ La page Aujourd'hui affiche une carte « Revoir mes erreurs » avec le nombre d'
 La rubrique Grammaire sert à lire et à apprendre. Elle a trois pages, chacune faite de parties que l'on déplie ou replie (la première est ouverte au départ, le choix est conservé) :
 
 - **Fiches** : les fiches, les déclinaisons et l'ordre des mots.
-- **Verbes** : les verbes irréguliers et les verbes à préposition.
+- **Verbes** : les verbes irréguliers et les mots à préposition (verbes, noms et adjectifs).
 - **Listes** : le lexique et les situations (exemples de phrases).
 
 Un lien « S'entraîner → » lance, depuis la page de lecture, le même exercice que dans Quiz.

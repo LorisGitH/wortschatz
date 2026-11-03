@@ -1,4 +1,4 @@
-# Verbes à préposition. Format : verbe|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
+# Verbes, noms et adjectifs à préposition. Format : mot|préposition|cas (A ou D)|traduction|exemple avec la préposition entre crochets|traduction de l'exemple
 achten|auf|A|prestar atención a|Achte bitte [auf] den Verkehr.|Presta atención al tráfico.
 denken|an|A|pensar en|Ich denke oft [an] meine Familie.|Pienso a menudo en mi familia.
 warten|auf|A|esperar (a)|Wir warten [auf] den Bus.|Esperamos el autobús.
@@ -103,3 +103,41 @@ handeln|von|D|tratar de, hablar de (un libro, una película)|Der Film handelt [v
 gehen|um|A|tratarse de (es geht um …)|In dem Brief geht es [um] die Miete.|La carta trata del alquiler.
 sich handeln|um|A|tratarse de (es handelt sich um …)|Es handelt sich [um] ein Missverständnis.|Se trata de un malentendido.
 sich bemühen|um|A|esforzarse por conseguir|Ich bemühe mich [um] eine Lösung.|Me esfuerzo por encontrar una solución.
+die Angst|vor|D|el miedo a|Seine Angst [vor] Hunden ist groß.|Su miedo a los perros es grande.
+das Interesse|an|D|el interés por|Sie hat großes Interesse [an] der Musik.|Tiene un gran interés por la música.
+die Lust|auf|A|las ganas de|Ich habe keine Lust [auf] Kino.|No tengo ganas de ir al cine.
+die Freude|an|D|el placer de (una actividad)|Er hat viel Freude [an] seiner Arbeit.|Disfruta mucho de su trabajo.
+die Freude|über|A|la alegría por (algo presente o pasado)|Die Freude [über] das Geschenk war groß.|La alegría por el regalo fue grande.
+die Hoffnung|auf|A|la esperanza de|Wir haben Hoffnung [auf] besseres Wetter.|Tenemos la esperanza de que haga mejor tiempo.
+die Antwort|auf|A|la respuesta a|Hast du eine Antwort [auf] meine Frage?|¿Tienes una respuesta a mi pregunta?
+die Frage|nach|D|la cuestión de|Die Frage [nach] dem Preis ist wichtig.|La cuestión del precio es importante.
+die Bitte|um|A|la petición de|Seine Bitte [um] Hilfe kam zu spät.|Su petición de ayuda llegó demasiado tarde.
+der Grund|für|A|el motivo de|Was ist der Grund [für] die Verspätung?|¿Cuál es el motivo del retraso?
+die Lösung|für|A|la solución a|Wir suchen eine Lösung [für] das Problem.|Buscamos una solución al problema.
+die Erinnerung|an|A|el recuerdo de|Ich habe schöne Erinnerungen [an] meine Kindheit.|Tengo bonitos recuerdos de mi infancia.
+der Wunsch|nach|D|el deseo de|Viele haben den Wunsch [nach] mehr Ruhe.|Muchos tienen el deseo de más tranquilidad.
+die Beziehung|zu|D|la relación con|Er hat eine gute Beziehung [zu] seiner Schwester.|Tiene una buena relación con su hermana.
+die Einladung|zu|D|la invitación a|Danke für die Einladung [zum] Essen.|Gracias por la invitación a comer.
+die Suche|nach|D|la búsqueda de|Die Suche [nach] einer Wohnung ist schwer.|La búsqueda de un piso es difícil.
+das Gespräch|über|A|la conversación sobre|Das Gespräch [über] die Miete dauert lange.|La conversación sobre el alquiler dura mucho.
+die Sorge|um|A|la preocupación por|Die Sorge [um] ihre Mutter lässt sie nicht schlafen.|La preocupación por su madre no la deja dormir.
+die Teilnahme|an|D|la participación en|Die Teilnahme [am] Kurs ist kostenlos.|La participación en el curso es gratuita.
+die Voraussetzung|für|A|el requisito para|Gute Deutschkenntnisse sind eine Voraussetzung [für] die Stelle.|Un buen nivel de alemán es un requisito para el puesto.
+der Streit|mit|D|la pelea con|Der Streit [mit] dem Nachbarn ist vorbei.|La pelea con el vecino se ha acabado.
+stolz|auf|A|orgulloso de|Ich bin stolz [auf] meine Tochter.|Estoy orgulloso de mi hija.
+zufrieden|mit|D|satisfecho con|Wir sind zufrieden [mit] der neuen Wohnung.|Estamos satisfechos con el piso nuevo.
+abhängig|von|D|dependiente de|Der Preis ist abhängig [von] der Größe.|El precio depende del tamaño.
+interessiert|an|D|interesado en|Sie ist sehr interessiert [an] dem Kurs.|Está muy interesada en el curso.
+verheiratet|mit|D|casado con|Er ist [mit] einer Ärztin verheiratet.|Está casado con una médica.
+verliebt|in|A|enamorado de|Sie ist [in] ihren Kollegen verliebt.|Está enamorada de su compañero.
+böse|auf|A|enfadado con|Bist du noch böse [auf] mich?|¿Sigues enfadado conmigo?
+fertig|mit|D|haber terminado (algo)|Ich bin gleich fertig [mit] der Arbeit.|Enseguida termino el trabajo.
+bekannt|für|A|conocido por|Die Stadt ist bekannt [für] ihr Bier.|La ciudad es conocida por su cerveza.
+gespannt|auf|A|con ganas de ver, expectante ante|Ich bin gespannt [auf] den neuen Film.|Tengo muchas ganas de ver la película nueva.
+neugierig|auf|A|curioso por|Die Kinder sind neugierig [auf] das Geschenk.|Los niños sienten curiosidad por el regalo.
+bereit|zu|D|dispuesto a|Ich bin [zu] einem Gespräch bereit.|Estoy dispuesto a hablar.
+froh|über|A|contento con|Ich bin froh [über] deine Hilfe.|Estoy contento con tu ayuda.
+traurig|über|A|triste por|Sie ist traurig [über] die Nachricht.|Está triste por la noticia.
+zuständig|für|A|encargado de|Wer ist [für] die Heizung zuständig?|¿Quién se encarga de la calefacción?
+überzeugt|von|D|convencido de|Ich bin [von] der Idee überzeugt.|Estoy convencido de la idea.
+freundlich|zu|D|amable con|Die Nachbarn sind immer freundlich [zu] uns.|Los vecinos siempre son amables con nosotros.
