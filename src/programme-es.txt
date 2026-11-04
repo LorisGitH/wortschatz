@@ -1,0 +1,171 @@
+// Unités du programme, dans l'ordre. L'identifiant d'une unité reste stable : la progression y est attachée.
+// @id|niveau|titre|description
+// F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
+// T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
+// Ces phrases sont réservées à l'examen : aucun exercice ne les montre, build.py le vérifie.
+
+@a1-presenter|A1|Presentarse|Saludar, decir quién eres, hablar de tu familia, hacer preguntas sencillas.
+F|1;2;27
+V|pres|sein;haben;heißen;kommen;gehen;wissen;kennen;schreiben;bleiben
+M|Hallo!;Guten Morgen!;Guten Tag!;Guten Abend!;Gute Nacht!;Tschüss!;Auf Wiedersehen!;Bis später!;Bis morgen!;Danke schön!;Bitte schön!;Entschuldigung!;ja;nein;bitte;Freut mich!;Alles klar!;Kein Problem.;Ich verstehe nicht.;Wie heißen Sie?;Woher kommen Sie?;Wie geht's?;Viel Glück!;Herzlich willkommen!;Guten Appetit!;Schönes Wochenende!
+M|die Familie;die Eltern;die Mutter;der Vater;das Kind;der Sohn;die Tochter;der Bruder;die Schwester;die Geschwister;die Großeltern;die Oma;der Opa;der Onkel;die Tante;der Mann;die Frau;der Freund;die Freundin;der Nachbar;die Nachbarin;das Baby;der Junge;das Mädchen;die Leute;der Hund;die Katze;verheiratet;ledig;geschieden;heiraten;besuchen
+T|[Die] Mutter heißt Julia.|der/die/das|La madre se llama Julia.|1
+T|[Das] Kind ist zehn Jahre alt.|der/die/das|El niño tiene diez años.|1
+T|[Der] Bruder wohnt in Hamburg.|der/die/das|El hermano vive en Hamburgo.|1
+T|Wo ist [die] Familie?|der/die/das|¿Dónde está la familia?|1
+T|Das ist [das] Mädchen.|der/die/das|Esa es la chica.|1
+T|Hier ist [der] Hund.|der/die/das|Aquí está el perro.|1
+T|Das ist [die] Katze von Anna.|der/die/das|Ese es el gato de Anna.|1
+T|Wo wohnt [die] Tante?|der/die/das|¿Dónde vive la tía?|1
+T|[Der] Junge ist neun.|der/die/das|El chico tiene nueve años.|1
+T|Ich [bin] Student.|sein|Soy estudiante.|2
+T|Du [bist] sehr nett.|sein|Eres muy amable.|2
+T|Wir [sind] aus Frankreich.|sein|Somos de Francia.|2
+T|Ihr [seid] heute hier.|sein|Hoy estáis aquí.|2
+T|Ich [habe] zwei Kinder.|haben|Tengo dos hijos.|2
+T|Er [hat] eine Schwester.|haben|Tiene una hermana.|2
+T|[Hast] du Geschwister?|haben|¿Tienes hermanos?|2
+T|Wir [haben] einen Hund.|haben|Tenemos un perro.|2
+T|Ich [heiße] Paul.|heißen|Me llamo Paul.|2
+T|Wie [heißt] deine Mutter?|heißen|¿Cómo se llama tu madre?|2
+T|Du [kommst] aus Italien.|kommen|Vienes de Italia.|2
+T|Maria [kommt] aus Polen.|kommen|María viene de Polonia.|2
+T|Wir [wohnen] in Köln.|wohnen|Vivimos en Colonia.|2
+T|Er [arbeitet] in Berlin.|arbeiten|Trabaja en Berlín.|2
+T|Du [arbeitest] viel.|arbeiten|Trabajas mucho.|2
+T|[Wo] wohnt ihr? – In Bonn.|W-Frage|¿Dónde vivís? – En Bonn.|27
+T|[Woher] kommst du? – Aus Spanien.|W-Frage|¿De dónde vienes? – De España.|27
+T|[Wer] ist das? – Das ist mein Vater.|W-Frage|¿Quién es? – Es mi padre.|27
+T|[Wie] heißt deine Schwester? – Lena.|W-Frage|¿Cómo se llama tu hermana? – Lena.|27
+T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|¿Qué haces? – Aprendo alemán.|27
+T|[Wann] kommst du? – Morgen.|W-Frage|¿Cuándo vienes? – Mañana.|27
+T|[Wohin] gehst du? – Nach Hause.|W-Frage|¿Adónde vas? – A casa.|27
+S|Me llamo Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
+S|¿Cómo te llamas?|Wie heißt du?|27
+S|¿De dónde vienes?|Woher kommst du?|27
+S|Vengo de Alemania.|Ich komme aus Deutschland.|2
+S|Vivimos en Berlín.|Wir wohnen in Berlin.|2
+S|Tengo una hermana.|Ich habe eine Schwester.|2
+S|El padre está aquí.|Der Vater ist hier.|1
+S|La madre trabaja en Múnich.|Die Mutter arbeitet in München.|2
+S|El niño se llama Max.|Das Kind heißt Max.|1
+S|¿Dónde está el perro?|Wo ist der Hund?|1
+S|¿Quién es?|Wer ist das?|27
+S|El vecino viene de Polonia.|Der Nachbar kommt aus Polen.|2
+S|La vecina está casada.|Die Nachbarin ist verheiratet.|1
+S|Tenemos dos hijos.|Wir haben zwei Kinder.|2
+S|¿Tienes una hija?|Hast du eine Tochter?|2
+S|La gente es muy amable.|Die Leute sind sehr nett.|2
+S|¿Qué haces?|Was machst du?|27
+S|¿Dónde vives?|Wo wohnst du?|27
+
+@a1-journee|A1|Mi día, mi casa|Contar tu día, decir la hora, contar, describir tu casa.
+F|3;4;26
+V|pres|fahren;essen;lesen;sehen;sprechen;nehmen;schlafen;treffen;laufen
+M|der Tag;die Woche;der Monat;das Jahr;die Stunde;die Minute;die Uhr;der Morgen;der Mittag;der Nachmittag;der Abend;die Nacht;der Montag;der Dienstag;der Mittwoch;der Donnerstag;der Freitag;der Samstag;der Sonntag;das Wochenende;der Termin;heute;morgen;gestern;jetzt;immer;oft;nie
+M|zwei;drei;vier;fünf;sechs;sieben;acht;neun;zehn;zwölf;zwanzig;dreißig;hundert
+M|die Wohnung;das Haus;das Zimmer;die Küche;das Bad;die Tür;das Fenster;der Schlüssel;das Bett;der Tisch;der Stuhl;der Schrank;das Sofa;die Lampe;die Miete;der Balkon;der Keller;die Toilette;die Treppe
+T|Du [fährst] nach Berlin.|fahren|Vas a Berlín.|3
+T|Er [fährt] mit dem Zug.|fahren|Va en tren.|3
+T|Was [isst] du zum Frühstück?|essen|¿Qué desayunas?|3
+T|Anna [isst] gern Fisch.|essen|A Anna le gusta comer pescado.|3
+T|Du [liest] ein Buch.|lesen|Lees un libro.|3
+T|Maria [liest] die Zeitung.|lesen|María lee el periódico.|3
+T|[Siehst] du das Haus?|sehen|¿Ves la casa?|3
+T|Er [sieht] den Schlüssel nicht.|sehen|No ve la llave.|3
+T|Du [sprichst] gut Deutsch.|sprechen|Hablas bien alemán.|3
+T|Der Lehrer [spricht] langsam.|sprechen|El profesor habla despacio.|3
+T|Du [nimmst] den Bus.|nehmen|Coges el autobús.|3
+T|Er [nimmt] ein Taxi.|nehmen|Coge un taxi.|3
+T|Das Kind [schläft] im Bett.|schlafen|El niño duerme en la cama.|3
+T|[Schläfst] du gut?|schlafen|¿Duermes bien?|3
+T|Lena [trifft] heute Tom.|treffen|Lena ve a Tom hoy.|3
+T|Wann [triffst] du Anna?|treffen|¿Cuándo ves a Anna?|3
+T|Mein Vater [läuft] jeden Morgen.|laufen|Mi padre corre cada mañana.|3
+T|Am Montag [fahren] wir nach Hamburg.|fahren|El lunes vamos a Hamburgo.|4
+T|Heute [habe] ich viel Zeit.|haben|Hoy tengo mucho tiempo.|4
+T|Morgen [arbeite] ich nicht.|arbeiten|Mañana no trabajo.|4
+T|Am Abend [lese] ich ein Buch.|lesen|Por la noche leo un libro.|4
+T|Jetzt [kocht] Paul.|kochen|Ahora cocina Paul.|4
+T|[Kommst] du morgen?|kommen|¿Vienes mañana?|4
+T|Es ist [halb] neun.|8:30|Son las ocho y media.|26
+T|Es ist [Viertel] vor drei.|14:45|Son las tres menos cuarto.|26
+T|Es ist Viertel [nach] zehn.|10:15|Son las diez y cuarto.|26
+T|Es ist [halb] sieben.|6:30|Son las seis y media.|26
+T|Das kostet [vierundzwanzig] Euro.|24|Cuesta 24 euros.|26
+T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|Mi hermano tiene 35 años.|26
+T|Das Zimmer kostet [dreihundert] Euro.|300|La habitación cuesta 300 euros.|26
+T|Das Haus hat [dreizehn] Zimmer.|13|La casa tiene 13 habitaciones.|26
+S|¿Qué lees?|Was liest du?|3
+S|Habla alemán.|Er spricht Deutsch.|3
+S|El lunes voy a Berlín.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
+S|Hoy duerme mucho tiempo.|Heute schläft er lange.;Er schläft heute lange.|4
+S|Anna coge el autobús.|Anna nimmt den Bus.|3
+S|¿Ves la puerta?|Siehst du die Tür?|4
+S|El piso tiene tres habitaciones.|Die Wohnung hat drei Zimmer.|26
+S|Son las diez.|Es ist zehn Uhr.|26
+S|Son las nueve y media.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
+S|La cita es el miércoles.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
+S|Mañana nos quedamos en casa.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
+S|¿Dónde está la llave?|Wo ist der Schlüssel?|4
+S|El fin de semana duermo mucho.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
+S|La noche es larga.|Die Nacht ist lang.|3
+S|El alquiler cuesta ochocientos euros.|Die Miete kostet achthundert Euro.|26
+S|Suele leer por la noche.|Er liest oft am Abend.;Am Abend liest er oft.|4
+S|Comemos a mediodía.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
+S|El armario y la cama son nuevos.|Der Schrank und das Bett sind neu.|3
+
+@a1-courses|A1|Comer y hacer la compra|Decir lo que quieres o no, preguntar un precio, contar en plural.
+F|5;6;7
+V|pres|trinken;geben;finden;mögen;bekommen;einkaufen;helfen;bringen;vergessen
+M|das Essen;das Frühstück;das Brot;das Brötchen;die Butter;der Käse;die Wurst;das Fleisch;der Fisch;das Ei;die Milch;das Gemüse;das Obst;der Apfel;die Banane;die Kartoffel;die Tomate;der Salat;der Reis;die Nudeln;das Salz;der Zucker;der Kuchen;das Wasser;der Saft;der Kaffee;der Tee;das Bier;der Wein;der Teller;die Tasse;das Glas;das Messer;die Gabel;der Löffel;kochen;lecker;Ich habe Hunger.;Ich habe Durst.
+M|der Supermarkt;die Bäckerei;die Apotheke;der Markt;das Geschäft;die Kasse;die Tüte;die Flasche;die Packung;das Kilo;der Preis;das Bargeld;die Karte;der Euro;kaufen;bezahlen;kosten;billig;teuer;geöffnet;geschlossen;Wie viel kostet das?
+T|Paul hat [kein] Auto.|nicht/kein|Paul no tiene coche.|5
+T|Wir kaufen [keine] Butter.|nicht/kein|No compramos mantequilla.|5
+T|Er trinkt [keinen] Kaffee.|nicht/kein|No bebe café.|5
+T|Das ist [kein] Apfel.|nicht/kein|Eso no es una manzana.|5
+T|Das Brot ist [nicht] teuer.|nicht/kein|El pan no es caro.|5
+T|Ich mag den Kuchen [nicht].|nicht/kein|No me gusta el pastel.|5
+T|Sie haben [keine] Kinder.|nicht/kein|No tienen hijos.|5
+T|Der Supermarkt ist heute [nicht] geöffnet.|nicht/kein|El supermercado no abre hoy.|5
+T|Ich kaufe zwei [Äpfel].|der Apfel|Compro dos manzanas.|6
+T|Wir brauchen drei [Flaschen].|die Flasche|Necesitamos tres botellas.|6
+T|Hier sind fünf [Brötchen].|das Brötchen|Aquí hay cinco panecillos.|6
+T|Die [Eier] sind frisch.|das Ei|Los huevos están frescos.|6
+T|Ich möchte zwei [Würste].|die Wurst|Quisiera dos salchichas.|6
+T|Wir nehmen vier [Gläser].|das Glas|Cogemos cuatro vasos.|6
+T|Die [Bananen] kosten zwei Euro.|die Banane|Los plátanos cuestan dos euros.|6
+T|Hier sind vier [Tassen].|die Tasse|Aquí hay cuatro tazas.|6
+T|Die [Kartoffeln] sind billig.|die Kartoffel|Las patatas son baratas.|6
+T|Ich kaufe drei [Tomaten].|die Tomate|Compro tres tomates.|6
+T|In Köln gibt es viele [Supermärkte].|der Supermarkt|En Colonia hay muchos supermercados.|6
+T|Wir nehmen [den] Salat.|der|Tomamos la ensalada.|7
+T|Wir kaufen [einen] Kuchen.|ein|Compramos un pastel.|7
+T|Hast du [den] Zucker?|der|¿Tienes el azúcar?|7
+T|Anna isst [das] Brötchen.|das|Anna come el panecillo.|7
+T|Ich suche [die] Apotheke.|die|Busco la farmacia.|7
+T|Ich brauche [eine] Tüte.|ein|Necesito una bolsa.|7
+T|Wir suchen [einen] Markt.|ein|Buscamos un mercado.|7
+T|[Der] Wein ist gut.|der|El vino es bueno.|7
+T|Er kauft [einen] Apfel.|ein|Compra una manzana.|7
+T|Möchtest du [den] Käse?|der|¿Quieres el queso?|7
+T|Ich finde [den] Preis gut.|der|El precio me parece bien.|7
+S|No tengo pan.|Ich habe kein Brot.|5
+S|No tenemos agua.|Wir haben kein Wasser.|5
+S|El café no está caliente.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
+S|Bebo té.|Ich trinke Tee.|7
+S|Compra un pastel.|Er kauft einen Kuchen.|7
+S|¿Comes carne?|Isst du Fleisch?|7
+S|Las manzanas están buenas.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
+S|Compramos tres botellas.|Wir kaufen drei Flaschen.|6
+S|Busco el supermercado.|Ich suche den Supermarkt.|7
+S|La farmacia está cerrada.|Die Apotheke ist geschlossen.|7
+S|Me gusta el queso.|Ich mag Käse.;Ich mag den Käse.|7
+S|El pan cuesta dos euros.|Das Brot kostet zwei Euro.|6
+S|No come pescado.|Er isst keinen Fisch.|5
+S|No encuentro la llave.|Ich finde den Schlüssel nicht.|5
+S|Los niños beben leche.|Die Kinder trinken Milch.|6
+S|Tomamos dos cafés.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
+S|Paul paga la comida.|Paul bezahlt das Essen.|7
+S|Los tomates no son caros.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5

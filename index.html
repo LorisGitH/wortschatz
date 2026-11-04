@@ -523,6 +523,29 @@ textarea.search { resize: vertical; }
   body:has(.bnav) .ov { left: 232px; }
   .ov-in { max-width: 860px; padding-inline: 36px; }
 }
+/* programme and exam */
+.ucard { display: flex; flex-direction: column; gap: 10px; }
+.ucard h2 { font-size: 26px; font-weight: 700; line-height: 1.1; }
+.ucard > p { margin: 0; color: var(--muted); font-size: 14.5px; }
+button.stat { border: 0; background: none; text-align: left; border-left: 1px solid var(--line); border-radius: 0 var(--r) var(--r) 0; }
+button.stat:hover { background: var(--bg); }
+.urow:disabled { opacity: .5; cursor: not-allowed; }
+.steps i.on { background: var(--muted); }
+.steps.fine { gap: 1px; }
+.extime { font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.extime.over { color: var(--bad); font-weight: 700; }
+.exlab { font-size: 13.5px; color: var(--muted); }
+.typebox input.exlong { font-size: 18px; }
+.exgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; }
+.exgrid button { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; min-height: 44px; font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+.exgrid button.todo { border: 2px dashed var(--signal); background: transparent; }
+.exgrid button.cur { border-color: var(--ink); }
+.corr { display: flex; flex-direction: column; gap: 4px; padding: 12px; }
+.corr + .corr { border-top: 1px solid var(--line); }
+.corr .yours { font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+.corr .right { font-weight: 700; overflow-wrap: anywhere; }
+.corr .pts { align-self: flex-start; }
+.corr .fiche-link { margin-top: 6px; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 
@@ -530,4 +553,4 @@ textarea.search { resize: vertical; }
 <div id="ov" class="ov" role="dialog" aria-modal="true" aria-label="Fiche de grammaire" hidden></div>
 <div id="pop" class="pop" role="dialog" aria-modal="true" aria-label="Tableaux des déclinaisons" hidden></div>
 
-<script src="app.js?v=372d1a9af7"></script>
+<script src="app.js?v=f9da551601"></script>

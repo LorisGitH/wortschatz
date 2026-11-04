@@ -1,0 +1,171 @@
+// Unités du programme, dans l'ordre. L'identifiant d'une unité reste stable : la progression y est attachée.
+// @id|niveau|titre|description
+// F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
+// T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
+// Ces phrases sont réservées à l'examen : aucun exercice ne les montre, build.py le vérifie.
+
+@a1-presenter|A1|Se présenter|Saluer, dire qui on est, parler de sa famille, poser des questions simples.
+F|1;2;27
+V|pres|sein;haben;heißen;kommen;gehen;wissen;kennen;schreiben;bleiben
+M|Hallo!;Guten Morgen!;Guten Tag!;Guten Abend!;Gute Nacht!;Tschüss!;Auf Wiedersehen!;Bis später!;Bis morgen!;Danke schön!;Bitte schön!;Entschuldigung!;ja;nein;bitte;Freut mich!;Alles klar!;Kein Problem.;Ich verstehe nicht.;Wie heißen Sie?;Woher kommen Sie?;Wie geht's?;Viel Glück!;Herzlich willkommen!;Guten Appetit!;Schönes Wochenende!
+M|die Familie;die Eltern;die Mutter;der Vater;das Kind;der Sohn;die Tochter;der Bruder;die Schwester;die Geschwister;die Großeltern;die Oma;der Opa;der Onkel;die Tante;der Mann;die Frau;der Freund;die Freundin;der Nachbar;die Nachbarin;das Baby;der Junge;das Mädchen;die Leute;der Hund;die Katze;verheiratet;ledig;geschieden;heiraten;besuchen
+T|[Die] Mutter heißt Julia.|der/die/das|La mère s'appelle Julia.|1
+T|[Das] Kind ist zehn Jahre alt.|der/die/das|L'enfant a dix ans.|1
+T|[Der] Bruder wohnt in Hamburg.|der/die/das|Le frère habite à Hambourg.|1
+T|Wo ist [die] Familie?|der/die/das|Où est la famille ?|1
+T|Das ist [das] Mädchen.|der/die/das|C'est la fille.|1
+T|Hier ist [der] Hund.|der/die/das|Voici le chien.|1
+T|Das ist [die] Katze von Anna.|der/die/das|C'est le chat d'Anna.|1
+T|Wo wohnt [die] Tante?|der/die/das|Où habite la tante ?|1
+T|[Der] Junge ist neun.|der/die/das|Le garçon a neuf ans.|1
+T|Ich [bin] Student.|sein|Je suis étudiant.|2
+T|Du [bist] sehr nett.|sein|Tu es très gentil.|2
+T|Wir [sind] aus Frankreich.|sein|Nous venons de France.|2
+T|Ihr [seid] heute hier.|sein|Vous êtes ici aujourd'hui.|2
+T|Ich [habe] zwei Kinder.|haben|J'ai deux enfants.|2
+T|Er [hat] eine Schwester.|haben|Il a une sœur.|2
+T|[Hast] du Geschwister?|haben|As-tu des frères et sœurs ?|2
+T|Wir [haben] einen Hund.|haben|Nous avons un chien.|2
+T|Ich [heiße] Paul.|heißen|Je m'appelle Paul.|2
+T|Wie [heißt] deine Mutter?|heißen|Comment s'appelle ta mère ?|2
+T|Du [kommst] aus Italien.|kommen|Tu viens d'Italie.|2
+T|Maria [kommt] aus Polen.|kommen|Maria vient de Pologne.|2
+T|Wir [wohnen] in Köln.|wohnen|Nous habitons à Cologne.|2
+T|Er [arbeitet] in Berlin.|arbeiten|Il travaille à Berlin.|2
+T|Du [arbeitest] viel.|arbeiten|Tu travailles beaucoup.|2
+T|[Wo] wohnt ihr? – In Bonn.|W-Frage|Où habitez-vous ? – À Bonn.|27
+T|[Woher] kommst du? – Aus Spanien.|W-Frage|D'où viens-tu ? – D'Espagne.|27
+T|[Wer] ist das? – Das ist mein Vater.|W-Frage|Qui est-ce ? – C'est mon père.|27
+T|[Wie] heißt deine Schwester? – Lena.|W-Frage|Comment s'appelle ta sœur ? – Lena.|27
+T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|Que fais-tu ? – J'apprends l'allemand.|27
+T|[Wann] kommst du? – Morgen.|W-Frage|Quand viens-tu ? – Demain.|27
+T|[Wohin] gehst du? – Nach Hause.|W-Frage|Où vas-tu ? – À la maison.|27
+S|Je m'appelle Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
+S|Comment t'appelles-tu ?|Wie heißt du?|27
+S|D'où viens-tu ?|Woher kommst du?|27
+S|Je viens d'Allemagne.|Ich komme aus Deutschland.|2
+S|Nous habitons à Berlin.|Wir wohnen in Berlin.|2
+S|J'ai une sœur.|Ich habe eine Schwester.|2
+S|Le père est ici.|Der Vater ist hier.|1
+S|La mère travaille à Munich.|Die Mutter arbeitet in München.|2
+S|L'enfant s'appelle Max.|Das Kind heißt Max.|1
+S|Où est le chien ?|Wo ist der Hund?|1
+S|Qui est-ce ?|Wer ist das?|27
+S|Le voisin vient de Pologne.|Der Nachbar kommt aus Polen.|2
+S|La voisine est mariée.|Die Nachbarin ist verheiratet.|1
+S|Nous avons deux enfants.|Wir haben zwei Kinder.|2
+S|As-tu une fille ?|Hast du eine Tochter?|2
+S|Les gens sont très gentils.|Die Leute sind sehr nett.|2
+S|Que fais-tu ?|Was machst du?|27
+S|Où habites-tu ?|Wo wohnst du?|27
+
+@a1-journee|A1|Ma journée, mon logement|Raconter sa journée, donner l'heure, compter, décrire son logement.
+F|3;4;26
+V|pres|fahren;essen;lesen;sehen;sprechen;nehmen;schlafen;treffen;laufen
+M|der Tag;die Woche;der Monat;das Jahr;die Stunde;die Minute;die Uhr;der Morgen;der Mittag;der Nachmittag;der Abend;die Nacht;der Montag;der Dienstag;der Mittwoch;der Donnerstag;der Freitag;der Samstag;der Sonntag;das Wochenende;der Termin;heute;morgen;gestern;jetzt;immer;oft;nie
+M|zwei;drei;vier;fünf;sechs;sieben;acht;neun;zehn;zwölf;zwanzig;dreißig;hundert
+M|die Wohnung;das Haus;das Zimmer;die Küche;das Bad;die Tür;das Fenster;der Schlüssel;das Bett;der Tisch;der Stuhl;der Schrank;das Sofa;die Lampe;die Miete;der Balkon;der Keller;die Toilette;die Treppe
+T|Du [fährst] nach Berlin.|fahren|Tu vas à Berlin.|3
+T|Er [fährt] mit dem Zug.|fahren|Il prend le train.|3
+T|Was [isst] du zum Frühstück?|essen|Que manges-tu au petit-déjeuner ?|3
+T|Anna [isst] gern Fisch.|essen|Anna aime manger du poisson.|3
+T|Du [liest] ein Buch.|lesen|Tu lis un livre.|3
+T|Maria [liest] die Zeitung.|lesen|Maria lit le journal.|3
+T|[Siehst] du das Haus?|sehen|Vois-tu la maison ?|3
+T|Er [sieht] den Schlüssel nicht.|sehen|Il ne voit pas la clé.|3
+T|Du [sprichst] gut Deutsch.|sprechen|Tu parles bien allemand.|3
+T|Der Lehrer [spricht] langsam.|sprechen|Le professeur parle lentement.|3
+T|Du [nimmst] den Bus.|nehmen|Tu prends le bus.|3
+T|Er [nimmt] ein Taxi.|nehmen|Il prend un taxi.|3
+T|Das Kind [schläft] im Bett.|schlafen|L'enfant dort dans le lit.|3
+T|[Schläfst] du gut?|schlafen|Dors-tu bien ?|3
+T|Lena [trifft] heute Tom.|treffen|Lena voit Tom aujourd'hui.|3
+T|Wann [triffst] du Anna?|treffen|Quand vois-tu Anna ?|3
+T|Mein Vater [läuft] jeden Morgen.|laufen|Mon père court chaque matin.|3
+T|Am Montag [fahren] wir nach Hamburg.|fahren|Lundi, nous allons à Hambourg.|4
+T|Heute [habe] ich viel Zeit.|haben|Aujourd'hui, j'ai beaucoup de temps.|4
+T|Morgen [arbeite] ich nicht.|arbeiten|Demain, je ne travaille pas.|4
+T|Am Abend [lese] ich ein Buch.|lesen|Le soir, je lis un livre.|4
+T|Jetzt [kocht] Paul.|kochen|Maintenant, Paul cuisine.|4
+T|[Kommst] du morgen?|kommen|Tu viens demain ?|4
+T|Es ist [halb] neun.|8:30|Il est 8 h 30.|26
+T|Es ist [Viertel] vor drei.|14:45|Il est 14 h 45.|26
+T|Es ist Viertel [nach] zehn.|10:15|Il est 10 h 15.|26
+T|Es ist [halb] sieben.|6:30|Il est 6 h 30.|26
+T|Das kostet [vierundzwanzig] Euro.|24|Ça coûte 24 euros.|26
+T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|Mon frère a 35 ans.|26
+T|Das Zimmer kostet [dreihundert] Euro.|300|La chambre coûte 300 euros.|26
+T|Das Haus hat [dreizehn] Zimmer.|13|La maison a 13 pièces.|26
+S|Que lis-tu ?|Was liest du?|3
+S|Il parle allemand.|Er spricht Deutsch.|3
+S|Lundi, je vais à Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
+S|Aujourd'hui, il dort longtemps.|Heute schläft er lange.;Er schläft heute lange.|4
+S|Anna prend le bus.|Anna nimmt den Bus.|3
+S|Vois-tu la porte ?|Siehst du die Tür?|4
+S|L'appartement a trois pièces.|Die Wohnung hat drei Zimmer.|26
+S|Il est dix heures.|Es ist zehn Uhr.|26
+S|Il est neuf heures et demie.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
+S|Le rendez-vous est mercredi.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
+S|Demain, nous restons à la maison.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
+S|Où est la clé ?|Wo ist der Schlüssel?|4
+S|Le week-end, je dors beaucoup.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
+S|La nuit est longue.|Die Nacht ist lang.|3
+S|Le loyer coûte huit cents euros.|Die Miete kostet achthundert Euro.|26
+S|Il lit souvent le soir.|Er liest oft am Abend.;Am Abend liest er oft.|4
+S|Nous mangeons à midi.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
+S|L'armoire et le lit sont neufs.|Der Schrank und das Bett sind neu.|3
+
+@a1-courses|A1|Manger et faire les courses|Dire ce qu'on veut ou non, demander un prix, compter au pluriel.
+F|5;6;7
+V|pres|trinken;geben;finden;mögen;bekommen;einkaufen;helfen;bringen;vergessen
+M|das Essen;das Frühstück;das Brot;das Brötchen;die Butter;der Käse;die Wurst;das Fleisch;der Fisch;das Ei;die Milch;das Gemüse;das Obst;der Apfel;die Banane;die Kartoffel;die Tomate;der Salat;der Reis;die Nudeln;das Salz;der Zucker;der Kuchen;das Wasser;der Saft;der Kaffee;der Tee;das Bier;der Wein;der Teller;die Tasse;das Glas;das Messer;die Gabel;der Löffel;kochen;lecker;Ich habe Hunger.;Ich habe Durst.
+M|der Supermarkt;die Bäckerei;die Apotheke;der Markt;das Geschäft;die Kasse;die Tüte;die Flasche;die Packung;das Kilo;der Preis;das Bargeld;die Karte;der Euro;kaufen;bezahlen;kosten;billig;teuer;geöffnet;geschlossen;Wie viel kostet das?
+T|Paul hat [kein] Auto.|nicht/kein|Paul n'a pas de voiture.|5
+T|Wir kaufen [keine] Butter.|nicht/kein|Nous n'achetons pas de beurre.|5
+T|Er trinkt [keinen] Kaffee.|nicht/kein|Il ne boit pas de café.|5
+T|Das ist [kein] Apfel.|nicht/kein|Ce n'est pas une pomme.|5
+T|Das Brot ist [nicht] teuer.|nicht/kein|Le pain n'est pas cher.|5
+T|Ich mag den Kuchen [nicht].|nicht/kein|Je n'aime pas le gâteau.|5
+T|Sie haben [keine] Kinder.|nicht/kein|Ils n'ont pas d'enfants.|5
+T|Der Supermarkt ist heute [nicht] geöffnet.|nicht/kein|Le supermarché n'est pas ouvert aujourd'hui.|5
+T|Ich kaufe zwei [Äpfel].|der Apfel|J'achète deux pommes.|6
+T|Wir brauchen drei [Flaschen].|die Flasche|Il nous faut trois bouteilles.|6
+T|Hier sind fünf [Brötchen].|das Brötchen|Voici cinq petits pains.|6
+T|Die [Eier] sind frisch.|das Ei|Les œufs sont frais.|6
+T|Ich möchte zwei [Würste].|die Wurst|Je voudrais deux saucisses.|6
+T|Wir nehmen vier [Gläser].|das Glas|Nous prenons quatre verres.|6
+T|Die [Bananen] kosten zwei Euro.|die Banane|Les bananes coûtent deux euros.|6
+T|Hier sind vier [Tassen].|die Tasse|Voici quatre tasses.|6
+T|Die [Kartoffeln] sind billig.|die Kartoffel|Les pommes de terre sont bon marché.|6
+T|Ich kaufe drei [Tomaten].|die Tomate|J'achète trois tomates.|6
+T|In Köln gibt es viele [Supermärkte].|der Supermarkt|À Cologne, il y a beaucoup de supermarchés.|6
+T|Wir nehmen [den] Salat.|der|Nous prenons la salade.|7
+T|Wir kaufen [einen] Kuchen.|ein|Nous achetons un gâteau.|7
+T|Hast du [den] Zucker?|der|As-tu le sucre ?|7
+T|Anna isst [das] Brötchen.|das|Anna mange le petit pain.|7
+T|Ich suche [die] Apotheke.|die|Je cherche la pharmacie.|7
+T|Ich brauche [eine] Tüte.|ein|J'ai besoin d'un sac.|7
+T|Wir suchen [einen] Markt.|ein|Nous cherchons un marché.|7
+T|[Der] Wein ist gut.|der|Le vin est bon.|7
+T|Er kauft [einen] Apfel.|ein|Il achète une pomme.|7
+T|Möchtest du [den] Käse?|der|Veux-tu le fromage ?|7
+T|Ich finde [den] Preis gut.|der|Je trouve le prix bien.|7
+S|Je n'ai pas de pain.|Ich habe kein Brot.|5
+S|Nous n'avons pas d'eau.|Wir haben kein Wasser.|5
+S|Le café n'est pas chaud.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
+S|Je bois du thé.|Ich trinke Tee.|7
+S|Il achète un gâteau.|Er kauft einen Kuchen.|7
+S|Tu manges de la viande ?|Isst du Fleisch?|7
+S|Les pommes sont bonnes.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
+S|Nous achetons trois bouteilles.|Wir kaufen drei Flaschen.|6
+S|Je cherche le supermarché.|Ich suche den Supermarkt.|7
+S|La pharmacie est fermée.|Die Apotheke ist geschlossen.|7
+S|J'aime le fromage.|Ich mag Käse.;Ich mag den Käse.|7
+S|Le pain coûte deux euros.|Das Brot kostet zwei Euro.|6
+S|Il ne mange pas de poisson.|Er isst keinen Fisch.|5
+S|Je ne trouve pas la clé.|Ich finde den Schlüssel nicht.|5
+S|Les enfants boivent du lait.|Die Kinder trinken Milch.|6
+S|Nous prenons deux cafés.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
+S|Paul paie le repas.|Paul bezahlt das Essen.|7
+S|Les tomates ne sont pas chères.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5
