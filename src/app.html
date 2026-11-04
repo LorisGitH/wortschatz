@@ -2897,7 +2897,11 @@ function examQuestion(u, id) {
   return { id, cat: "form", v: x.v, tense: b, k: +c, answers };
 }
 function hasPlural(q) { return q.cat === "word" && q.w.kind === "n" && q.w.pl && !q.w.plOnly; }
-function answered(q, a) { return !!(Array.isArray(a) ? a[0] && a[0].trim() : a && a.trim()); }
+// a noun with a plural is only answered once both fields are filled
+function answered(q, a) {
+  const [main, pl] = Array.isArray(a) ? a : [a, ""];
+  return !!(main && main.trim()) && (!hasPlural(q) || !!(pl && pl.trim()));
+}
 function examMark(q, a) {
   const main = Array.isArray(a) ? a[0] : a || "";
   if (q.cat === "gap") return markShort(q.g.answers, main, !q.g.before);
@@ -2940,9 +2944,14 @@ const UML_KEYS = `<div class="umlauts">${["ä", "ö", "ü", "ß", "Ä", "Ö", "�
 
 /* opening: resume, or rewrite what was missed, or draw a new paper that takes it up */
 function missedIds(last) { return last.ids.filter(id => last.pts[id] && last.pts[id][0] < 1); }
+// what is left to rewrite; a point whose content has since changed cannot be rewritten, so it no longer counts
+function rewriteLeft(id) {
+  const last = XD.last[id];
+  return missedIds(last).filter(q => examQuestion(UNIT_BY_ID[id], q) && !last.fixed[q]);
+}
 function mustRewrite(id) {
   const last = XD.last[id];
-  return !!last && !!last.fix && !(progress()[id] || {}).ok && missedIds(last).some(q => !last.fixed[q]);
+  return !!last && !!last.fix && !(progress()[id] || {}).ok && rewriteLeft(id).length > 0;
 }
 function openExam(id) {
   const u = UNIT_BY_ID[id];
@@ -3056,7 +3065,7 @@ function examResultView(u) {
   const last = XD.last[u.id], ok = examPassed(last.score), rec = progress()[u.id] || {};
   const rows = last.ids.filter(id => last.pts[id][0] < 1 || last.pts[id][1]);
   const over = last.ms > EXAM_MS;
-  const fix = mustRewrite(u.id), n = missedIds(last).filter(id => !last.fixed[id]).length;
+  const fix = mustRewrite(u.id), n = rewriteLeft(u.id).length;
   return `<section class="section">
       <span class="label" data-notr>${esc(u.title)}</span>
       <div class="score"><b>${scoreText(last.score)}/40</b><span>${ok ? "Examen réussi." : `Il faut ${EXAM_PASS} points sur 40 pour valider.`}</span></div>
@@ -3069,7 +3078,7 @@ function examResultView(u) {
 }
 function examFixView(u) {
   const last = XD.last[u.id], ids = missedIds(last).filter(id => examQuestion(u, id));
-  const left = ids.filter(id => !last.fixed[id]).length;
+  const left = rewriteLeft(u.id).length;
   return `<button class="backlink" id="home">← Programme</button>
     <section class="section">
       <span class="label">Réécrire mes erreurs · ${left}</span>
@@ -3088,14 +3097,13 @@ function examFixView(u) {
 function examInput(el) {
   const id = el.dataset.exid;
   if (!id || !EX) return;
-  const n = +el.dataset.exa;
-  if (EX.screen === "fix") {
-    const last = XD.last[EX.u], cur = last.fixA[id];
-    last.fixA[id] = n || Array.isArray(cur) ? [n ? (Array.isArray(cur) ? cur[0] : cur || "") : el.value, n ? el.value : Array.isArray(cur) ? cur[1] : ""] : el.value;
-  } else {
-    const x = XD.exams[EX.u], cur = x.a[id];
-    x.a[id] = n || Array.isArray(cur) ? [n ? (Array.isArray(cur) ? cur[0] : cur || "") : el.value, n ? el.value : Array.isArray(cur) ? cur[1] : ""] : el.value;
-    const left = document.getElementById("exover");
+  // an answer is a string, or [word, plural] when the question has a second field
+  const q = examQuestion(UNIT_BY_ID[EX.u], id);
+  const store = EX.screen === "fix" ? XD.last[EX.u].fixA : XD.exams[EX.u].a;
+  if (hasPlural(q)) { const cur = store[id] || ["", ""]; cur[+el.dataset.exa] = el.value; store[id] = cur; }
+  else store[id] = el.value;
+  if (EX.screen !== "fix") {
+    const x = XD.exams[EX.u], left = document.getElementById("exover");
     if (left) left.textContent = `Vue d'ensemble · ${x.ids.filter(q => !answered(examQuestion(UNIT_BY_ID[EX.u], q), x.a[q])).length} sans réponse`;
   }
   saveXD();
@@ -3133,10 +3141,8 @@ function programmeClick(t) {
   if (t.id === "excheck") {
     const u = UNIT_BY_ID[EX.u], last = XD.last[EX.u];
     last.tried = last.tried || {};
-    for (const id of missedIds(last)) {
-      const q = examQuestion(u, id);
-      if (!q || last.fixed[id]) continue;
-      const r = examMark(q, last.fixA[id]);
+    for (const id of rewriteLeft(EX.u)) {
+      const r = examMark(examQuestion(u, id), last.fixA[id]);
       // a rewrite must be right as written: no tolerated letter
       if (r.pts === 1 && !r.near) last.fixed[id] = 1; else last.tried[id] = 1;
     }
@@ -3150,7 +3156,7 @@ function programmeClick(t) {
 let progUnit = null; // the unit opened from the list; otherwise the current one
 function unitCard(u, state) {
   const rec = progress()[u.id] || {}, running = XD.exams[u.id], last = XD.last[u.id];
-  const fix = mustRewrite(u.id), left = fix ? missedIds(last).filter(id => !last.fixed[id]).length : 0;
+  const fix = mustRewrite(u.id), left = fix ? rewriteLeft(u.id).length : 0;
   const examBtn = running ? `Reprendre l'examen · ${running.i + 1}/${running.ids.length}`
     : fix ? `Réécrire mes erreurs · ${left}` : rec.ok ? "Repasser l'examen" : "Passer l'examen";
   const work = state === "next" ? [] : unitWork(u);
@@ -3170,15 +3176,17 @@ function unitCard(u, state) {
 }
 function programmeView() {
   const st = unitStatus(unitIds(), progress());
-  const focus = progUnit && UNIT_BY_ID[progUnit] && st.state[progUnit] !== "locked" ? progUnit : st.current;
+  // past the last unit, a unit skipped by an exam taken directly is what is left to do
+  const home = st.current || unitIds().find(id => st.state[id] === "open");
+  const focus = progUnit && UNIT_BY_ID[progUnit] && st.state[progUnit] !== "locked" ? progUnit : home;
   const AW = activeWords(), due = dueCount(AW), doneN = P.days[String(today())] || 0, nErr = errCount(), days = streak();
   const pills = { done: "Validée", current: "En cours", open: "Ouverte", next: "Examen possible", locked: "Verrouillée" };
   const list = UNITS.map((u, i) => {
     const s = st.state[u.id], rec = progress()[u.id] || {};
-    return `<button class="frow urow" data-punit="${u.id}"${s === "locked" ? " disabled" : ""}><span class="fnum">${i + 1}</span><span class="ftitle"><span data-notr>${esc(u.title)}</span><small data-notr>${esc(u.level)}</small></span><span class="pill${s === "done" ? " pill-ok" : ""}">${pills[s]}${rec.best ? ` · ${scoreText(rec.best)}/40` : ""}</span></button>`;
+    return `<button class="frow urow" data-punit="${u.id}"${s === "locked" ? " disabled" : ""}><span class="fnum">${i + 1}</span><span class="ftitle"><span data-notr>${esc(u.title)}</span><small data-notr>${esc(u.level)}</small></span><span class="pill${s === "done" ? " pill-ok" : ""}">${XD.exams[u.id] ? "Examen en cours" : pills[s]}${rec.best ? ` · ${scoreText(rec.best)}/40` : ""}</span></button>`;
   }).join("");
   return `<div class="dcols"><div class="dcol">
-      ${focus && focus !== st.current ? `<button class="backlink" data-punit="">← Unité en cours</button>` : ""}
+      ${focus && focus !== home ? `<button class="backlink" data-punit="">← Unité en cours</button>` : ""}
       ${focus ? unitCard(UNIT_BY_ID[focus], st.state[focus]) : `<section class="section ucard"><span class="label">Programme</span><h2>Toutes les unités disponibles sont validées</h2><p>Bravo. D'autres unités arriveront : en attendant, les autres rubriques restent ouvertes pour t'entraîner.</p></section>`}
     </div>
     <div class="dcol">

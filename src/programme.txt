@@ -43,7 +43,7 @@ T|[Wann] kommst du? – Morgen.|W-Frage|Quand viens-tu ? – Demain.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Où vas-tu ? – À la maison.|27
 S|Je m'appelle Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
 S|Comment t'appelles-tu ?|Wie heißt du?|27
-S|D'où viens-tu ?|Woher kommst du?|27
+S|D'où vient Maria ?|Woher kommt Maria?|27
 S|Je viens d'Allemagne.|Ich komme aus Deutschland.|2
 S|Nous habitons à Berlin.|Wir wohnen in Berlin.|2
 S|J'ai une sœur.|Ich habe eine Schwester.|2
@@ -51,7 +51,7 @@ S|Le père est ici.|Der Vater ist hier.|1
 S|La mère travaille à Munich.|Die Mutter arbeitet in München.|2
 S|L'enfant s'appelle Max.|Das Kind heißt Max.|1
 S|Où est le chien ?|Wo ist der Hund?|1
-S|Qui est-ce ?|Wer ist das?|27
+S|Qui est Anna ?|Wer ist Anna?|27
 S|Le voisin vient de Pologne.|Der Nachbar kommt aus Polen.|2
 S|La voisine est mariée.|Die Nachbarin ist verheiratet.|1
 S|Nous avons deux enfants.|Wir haben zwei Kinder.|2

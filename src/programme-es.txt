@@ -43,7 +43,7 @@ T|[Wann] kommst du? – Morgen.|W-Frage|¿Cuándo vienes? – Mañana.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|¿Adónde vas? – A casa.|27
 S|Me llamo Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
 S|¿Cómo te llamas?|Wie heißt du?|27
-S|¿De dónde vienes?|Woher kommst du?|27
+S|¿De dónde viene María?|Woher kommt Maria?|27
 S|Vengo de Alemania.|Ich komme aus Deutschland.|2
 S|Vivimos en Berlín.|Wir wohnen in Berlin.|2
 S|Tengo una hermana.|Ich habe eine Schwester.|2
@@ -51,7 +51,7 @@ S|El padre está aquí.|Der Vater ist hier.|1
 S|La madre trabaja en Múnich.|Die Mutter arbeitet in München.|2
 S|El niño se llama Max.|Das Kind heißt Max.|1
 S|¿Dónde está el perro?|Wo ist der Hund?|1
-S|¿Quién es?|Wer ist das?|27
+S|¿Quién es Anna?|Wer ist Anna?|27
 S|El vecino viene de Polonia.|Der Nachbar kommt aus Polen.|2
 S|La vecina está casada.|Die Nachbarin ist verheiratet.|1
 S|Tenemos dos hijos.|Wir haben zwei Kinder.|2

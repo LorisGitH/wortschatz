@@ -43,7 +43,7 @@ T|[Wann] kommst du? – Morgen.|W-Frage|When are you coming? – Tomorrow.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Where are you going? – Home.|27
 S|My name is Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
 S|What is your name?|Wie heißt du?|27
-S|Where are you from?|Woher kommst du?|27
+S|Where does Maria come from?|Woher kommt Maria?|27
 S|I come from Germany.|Ich komme aus Deutschland.|2
 S|We live in Berlin.|Wir wohnen in Berlin.|2
 S|I have a sister.|Ich habe eine Schwester.|2
@@ -51,7 +51,7 @@ S|The father is here.|Der Vater ist hier.|1
 S|The mother works in Munich.|Die Mutter arbeitet in München.|2
 S|The child is called Max.|Das Kind heißt Max.|1
 S|Where is the dog?|Wo ist der Hund?|1
-S|Who is that?|Wer ist das?|27
+S|Who is Anna?|Wer ist Anna?|27
 S|The neighbour comes from Poland.|Der Nachbar kommt aus Polen.|2
 S|The neighbour (woman) is married.|Die Nachbarin ist verheiratet.|1
 S|We have two children.|Wir haben zwei Kinder.|2
