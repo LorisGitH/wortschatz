@@ -107,6 +107,30 @@ Version installable et hors ligne, publiée avec GitHub Pages. Sur iPhone : ouvr
 
 La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter ou importer la progression.
 
+## Programme
+
+La page d'accueil est un programme, comme à l'école : on travaille une unité, puis on la valide par un examen écrit pour passer à la suivante. Les autres rubriques restent libres d'accès, et le réglage de niveau ne filtre que l'entraînement libre. Sous l'unité en cours, un bandeau donne la série, l'objectif du jour et les mots à revoir. La carte « Revoir mes erreurs » y apparaît tant qu'il reste des erreurs.
+
+- **Unités** : 3 unités A1 pour l'instant. Sans unité validée, seule la première est ouverte. Après la dernière unité disponible, le programme s'arrête et l'indique.
+- **Travail personnel** : une liste qui se coche seule d'après la progression (fiches acquises, mots et verbes de l'unité réussis une fois). Elle ne bloque jamais l'examen. L'entraînement alimente les révisions comme les autres exercices.
+- **Examen direct** : on peut passer l'examen de la prochaine unité verrouillée, et seulement celle-là. Le réussir valide l'unité.
+
+### Examen
+
+40 questions écrites, sans QCM, tirées au hasard : 12 phrases à trous, 8 formes verbales ou prépositions, 12 mots vers l'allemand (avec article et pluriel si pertinent), 8 phrases à traduire. Les phrases à trous et à traduire sont réservées à l'examen : `build.py` refuse celles que montrent les fiches, les listes, les exercices (trous remplis compris) ou les gabarits des Déclinaisons.
+
+Une question par écran, navigation libre, vue d'ensemble des questions sans réponse, aucune correction avant de rendre la copie. L'examen en cours reste sur l'appareil et reprend avec ses réponses après fermeture de l'app. La durée de 60 minutes est indicative : le temps ne s'écoule que lorsque l'examen est à l'écran, et un dépassement est noté sans pénalité.
+
+Notation, sur 40, avec 32 points pour valider :
+
+- **Réponses courtes** : juste ou faux. Majuscule obligatoire aux noms et aux prénoms, même en tête de phrase ; les autres mots peuvent commencer une phrase sans majuscule. `ae`, `oe`, `ue`, `ss` sont acceptés pour `ä`, `ö`, `ü`, `ß`, mais `Muller` pour `Müller` est faux. Terminaisons et articles exacts.
+- **Vocabulaire** : une lettre fausse est tolérée dans un mot de 5 lettres ou plus, et signalée dans le corrigé. Pas dans l'article, le pluriel, une majuscule ou un umlaut.
+- **Phrases à traduire** : 1 point pour une version acceptée, 0,5 point à un mot près (le corrigé montre la différence), sinon 0. La ponctuation ne compte pas.
+
+Après un échec, il faut réécrire correctement chaque point manqué, avec le corrigé et le lien vers la fiche. Le nouvel examen s'ouvre alors : c'est un nouveau tirage qui reprend ces points. Une validation est définitive. Un examen validé se repasse librement et le meilleur score est gardé.
+
+Un examen ne modifie ni les révisions, ni Mes erreurs, ni l'objectif du jour. Les validations et les meilleurs scores passent par la synchronisation, l'export et l'import.
+
 ## Quiz
 
 La rubrique Quiz est une page de cartes, groupées par thème :
@@ -117,8 +141,6 @@ La rubrique Quiz est une page de cartes, groupées par thème :
 - **Écoute et révision** : Dictée (si le navigateur sait lire l'audio) et Mes erreurs, avec le nombre d'erreurs à corriger.
 
 Chaque carte ouvre l'écran correspondant, avec « ← Quiz » pour revenir. Toucher « Quiz » dans la barre de rubriques ramène toujours à cette page.
-
-La page Aujourd'hui affiche une carte « Revoir mes erreurs » avec le nombre d'erreurs, tant qu'il y en a, et elle ouvre Mes erreurs.
 
 ## Grammaire
 
@@ -149,12 +171,13 @@ Les sources sont dans [`src/`](src/) :
 
 - `app.html` : l'app (interface, code, style), avec des repères `/*VOCAB*/`, `/*IKI*/`… où la construction insère les contenus.
 - `vocab.txt`, `exemples.txt`, `grammaire.txt`, `irreguliers.txt`, `verbes-prep.txt`, `phrases.txt` : les contenus en français, un élément par ligne, champs séparés par `|`. Chaque fichier a sa traduction `-en.txt` et `-es.txt`, ligne pour ligne.
+- `programme.txt` : les unités du programme, avec leurs fiches, verbes, mots et phrases réservées à l'examen (format en tête du fichier), et sa traduction `-en.txt` et `-es.txt`, ligne pour ligne. `build.py` vérifie les références et que chaque unité permet un examen complet.
 - `iki/cours.txt` : les cours IKI (`@date` puis `allemand|français|pluriel|formes`), avec `cours-en.txt`, `cours-es.txt` et `cours-de.txt` (synonyme ou définition en allemand), ligne pour ligne.
 - `i18n-en.json`, `i18n-es.json` : les textes de l'interface traduits.
 - `build.py` assemble tout dans `src/index.html` (une version en un seul fichier) ; `build_pwa.py` en tire les fichiers publiés à la racine.
-- `tools/` : vérifications des traductions (`python3 tools/check_content.py vocab.txt vocab-en.txt`).
+- `tools/` : vérifications des traductions (`python3 tools/check_content.py vocab.txt vocab-en.txt`) et tests de la notation, du tirage, du statut des unités et de la fusion de la progression (`python3 tools/test_programme.py`, avec Chrome).
 
-Après une modification dans `src/`, reconstruire avec `./build.sh` (Python 3, sans dépendance) et committer les fichiers régénérés à la racine. Le workflow `.github/workflows/build.yml` vérifie, sur chaque PR, que les fichiers publiés correspondent bien aux sources.
+Après une modification dans `src/`, reconstruire avec `./build.sh` (Python 3, sans dépendance) et committer les fichiers régénérés à la racine. Le workflow `.github/workflows/build.yml` vérifie, sur chaque PR, que les fichiers publiés correspondent bien aux sources, et lance ces tests.
 
 ## Hébergement
 

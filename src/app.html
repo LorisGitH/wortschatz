@@ -508,6 +508,29 @@ textarea.search { resize: vertical; }
   body:has(.bnav) .ov { left: 232px; }
   .ov-in { max-width: 860px; padding-inline: 36px; }
 }
+/* programme and exam */
+.ucard { display: flex; flex-direction: column; gap: 10px; }
+.ucard h2 { font-size: 26px; font-weight: 700; line-height: 1.1; }
+.ucard > p { margin: 0; color: var(--muted); font-size: 14.5px; }
+button.stat { border: 0; background: none; text-align: left; border-left: 1px solid var(--line); border-radius: 0 var(--r) var(--r) 0; }
+button.stat:hover { background: var(--bg); }
+.urow:disabled { opacity: .5; cursor: not-allowed; }
+.steps i.on { background: var(--muted); }
+.steps.fine { gap: 1px; }
+.extime { font-size: 13.5px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.extime.over { color: var(--bad); font-weight: 700; }
+.exlab { font-size: 13.5px; color: var(--muted); }
+.typebox input.exlong { font-size: 18px; }
+.exgrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(44px, 1fr)); gap: 6px; }
+.exgrid button { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; min-height: 44px; font-family: var(--font-display); font-weight: 600; font-size: 16px; }
+.exgrid button.todo { border: 2px dashed var(--signal); background: transparent; }
+.exgrid button.cur { border-color: var(--ink); }
+.corr { display: flex; flex-direction: column; gap: 4px; padding: 12px; }
+.corr + .corr { border-top: 1px solid var(--line); }
+.corr .yours { font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+.corr .right { font-weight: 700; overflow-wrap: anywhere; }
+.corr .pts { align-self: flex-start; }
+.corr .fiche-link { margin-top: 6px; }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 
@@ -596,13 +619,17 @@ function grade(w, ok) {
   const d = String(today()); P.days[d] = (P.days[d] || 0) + 1;
   persist();
 }
+function progressSnapshot() {
+  const snapshot = { v: 1, w: P.w, days: P.days, best: P.best || 0, g: P.g || {}, mine: P.mine || {}, iki: P.iki || {}, err: P.err || {}, prog: P.prog || {}, updated: Date.now() };
+  for (const st of STORES) snapshot[st] = P[st] || {};
+  return snapshot;
+}
 function persist() {
   try { localStorage.setItem(LS_KEY, JSON.stringify(P)); } catch (e) {}
   if (!remote) return;
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
-    const snapshot = { v: 1, w: P.w, days: P.days, best: P.best || 0, g: P.g || {}, mine: P.mine || {}, iki: P.iki || {}, err: P.err || {}, updated: Date.now() };
-    for (const st of STORES) snapshot[st] = P[st] || {};
+    const snapshot = progressSnapshot();
     saving = saving.then(() => remote.set(snapshot)).then(() => { setSync("on"); }).catch(err => {
       if (err && (err.code === "invalid_argument" || err.code === "revoked" || err.code === "not_granted")) { remote = null; setSync("local"); }
     });
@@ -639,6 +666,8 @@ function merge(other) {
     }
   }
   if (mergeErr(other)) changed = true;
+  P.prog = P.prog || {};
+  if (mergeProg(P.prog, other.prog)) changed = true;
   for (const [d, n] of Object.entries(other.days || {})) {
     if ((P.days[d] || 0) < n) { P.days[d] = n; changed = true; }
   }
@@ -660,7 +689,8 @@ async function initRemote() {
     setSync("on");
     // push if this device knows something the server doesn't
     const localCount = Object.keys(P.w).length, remoteCount = theirs ? Object.keys(theirs.w || {}).length : 0;
-    if (!theirs || localCount !== remoteCount || !pulled) persist();
+    const progDiffers = !theirs || JSON.stringify(P.prog) !== JSON.stringify(theirs.prog || {});
+    if (!theirs || localCount !== remoteCount || !pulled || progDiffers) persist();
     if (pulled) syncMine();
     if (pulled && view === "home") render();
   } catch (e) { setSync("local"); }
@@ -884,6 +914,7 @@ function render() {
   else if (view === "done") renderDone();
   else if (view === "vx") renderVX();
   else if (view === "vxdone") renderVXDone();
+  else if (view === "exam") renderExam();
 }
 
 function meter(words) {
@@ -893,13 +924,13 @@ function meter(words) {
 
 /* ---------- navigation: 5 sections, each with its own exercises ---------- */
 const ICONS = {
-  today: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/>',
+  prog: '<rect x="3.5" y="5" width="17" height="15.5" rx="2.5"/><path d="M3.5 10h17M8 3v4M16 3v4"/><path d="m9 15 2 2 4-4"/>',
   mots: '<rect x="3.5" y="7" width="12" height="14" rx="2"/><path d="M8.5 3.5h10a2 2 0 0 1 2 2V17"/>',
   gram: '<path d="M5 4.5A1.5 1.5 0 0 1 6.5 3H19v15H6.5A1.5 1.5 0 0 0 5 19.5z"/><path d="M5 19.5A1.5 1.5 0 0 0 6.5 21H19v-3"/><path d="M9 7.5h6M9 11h4"/>',
   iki: '<rect x="3" y="4.5" width="18" height="12" rx="1.5"/><path d="M7 9h7M7 12.5h4.5M9 20.5l1.5-4M15 20.5l-1.5-4"/>',
 };
 const SECTIONS = [
-  { id: "today", label: "Aujourd'hui", subs: [] },
+  { id: "prog", label: "Programme", subs: [] },
   // Quiz is a hub of cards: its pages are reached from the cards (no pills), each with a way back to the hub
   { id: "mots", label: "Quiz", nopills: true, subs: [["hub", "Quiz"], ["quiz", "Vocabulaire"], ["verbes", "Verbes"], ["dict", "Dictée"], ["err", "Mes erreurs"]] },
   { id: "gram", label: "Grammaire", subs: [["fiches", "Fiches"], ["verbes", "Verbes"], ["listes", "Listes"]] },
@@ -918,7 +949,7 @@ function visibleSections() { return SECTIONS.filter(s => s.id !== "iki" || showI
 // earlier versions used one flat row of tabs: map the last one used to its new place
 const OLD_TAB = { learn: "mots:quiz", genre: "mots:genre", lex: "gram:lex", gram: "gram:fiches", dek: "gram:dek", order: "gram:order", irr: "verbes:irr", conj: "mots:verbes", vprep: "verbes:vprep", qprep: "mots:verbes", dict: "mots:dict", phr: "phrases:phr" };
 settings.sub = settings.sub || {};
-if (!settings.sec) settings.sec = "today";
+if (!settings.sec || settings.sec === "today") settings.sec = "prog"; // the Programme page replaced Aujourd'hui
 if (settings.tab && OLD_TAB[settings.tab]) { const [a, b] = OLD_TAB[settings.tab].split(":"); settings.sub[a] = b; delete settings.tab; }
 // Genre and Pluriels became modes of the Quiz page, next to QCM and Saisie
 if (settings.sub.mots === "genre" || settings.sub.mots === "pluriel") { settings.mode = settings.sub.mots === "genre" ? "genre" : "plural"; delete settings.sub.mots; }
@@ -967,7 +998,7 @@ function topBar(title) {
     <p class="note">Automatique : la langue du téléphone, ou l'anglais si elle n'est pas proposée.</p>
     <span class="label">Niveau</span>
     <div class="dirs" role="group" aria-label="Niveau">${LEVELS.map(([k, l]) => `<button class="chip" data-level="${k}" aria-pressed="${settings.level === k}">${l}</button>`).join("")}</div>
-    <p class="note">Le niveau filtre les mots, les verbes, les fiches et les exercices dans toute l'app.</p>
+    <p class="note">Le niveau filtre les mots, les verbes, les fiches et les exercices de l'entraînement libre. Il ne s'applique pas au programme.</p>
     <div class="setrow"><span><b>Passage automatique</b><small>Après une bonne réponse, la question suivante s'affiche seule.</small></span><button class="switch" role="switch" id="autoNext" aria-checked="${settings.autoNext}" aria-label="Passage automatique"><i></i></button></div>
     <div class="setrow"><span><b>Lecture à voix haute</b><small>La bonne réponse est prononcée après chaque question.</small></span><button class="switch" role="switch" id="autoSay" aria-checked="${settings.autoSay !== false}" aria-label="Lecture à voix haute"><i></i></button></div>
     <div class="setrow"><span><b>Afficher IKI</b><small>Ajoute la rubrique IKI (cours de l'école) à la barre de navigation.</small></span><button class="switch" role="switch" id="showIki" aria-checked="${showIki()}" aria-label="Afficher IKI"><i></i></button></div>
@@ -993,11 +1024,6 @@ function subNav(sec) {
   return `<div class="subnav" role="tablist">${s.subs.map(([k, l]) => `<button role="tab" data-sub="${sec}:${k}" aria-selected="${cur === k}">${l}</button>`).join("")}</div>`;
 }
 
-/* today's plan: word review, today's sheet, one rotating drill */
-const DAILY_DRILLS = [["conj", "Conjugaison", "10 verbes à conjuguer"], ["dek", "Déclinaisons", "10 phrases au bon cas"], ["prep", "Mots à préposition", "15 phrases à compléter"], ["order", "Ordre des mots", "8 phrases à remettre dans l'ordre"], ["plural", "Pluriels", "10 noms à mettre au pluriel"], ["dict", "Dictée", "8 phrases à écrire"], ["cards", "Phrases du quotidien", "10 phrases à dire en allemand"]];
-function dailyDrill() { const list = DAILY_DRILLS.filter(d => d[0] !== "dict" || canSpeak); return list[today() % list.length]; }
-function doneToday(k) { return (P.done || {})[k] === today(); }
-function markDone(k) { P.done = P.done || {}; P.done[k] = today(); try { localStorage.setItem(LS_KEY, JSON.stringify(P)); } catch (e) {} }
 function step(n, done, attrs, title, sub, next) {
   return `<button class="pstep${done ? " done" : next ? " next" : ""}" ${attrs}><span class="pnum">${done ? "✓" : n}</span><span class="ptxt"><b>${title}</b><small>${sub}</small></span><span class="pgo" aria-hidden="true">${done ? "Refaire" : "→"}</span></button>`;
 }
@@ -1039,51 +1065,6 @@ function quizPage(sub, AW) {
   const body = sub === "verbes" ? verbQuizView() : sub === "dict" ? dictTab() : sub === "err" ? errView() : quizView(AW);
   return `<button class="backlink" data-go="mots:hub">← Quiz</button>${body}`;
 }
-function todayView() {
-  const AW = activeWords();
-  const due = dueCount(AW), fresh = AW.filter(w => !P.w[w.id]).length;
-  const doneN = P.days[String(today())] || 0;
-  const scoredToday = Object.entries(P.g || {}).find(([, g]) => g[2] === today());
-  const fd = scoredToday ? FICHE_BY_ID[+scoredToday[0]] : ficheDuJour();
-  const dd = dailyDrill();
-  const steps = [
-    doneToday("review"),
-    !!scoredToday,
-    doneToday(dd[0]),
-  ];
-  const nDone = steps.filter(Boolean).length;
-  const nx = steps.indexOf(false);
-  const nErr = errCount();
-  const weakRows = [
-    [due, "mots", "à revoir aujourd'hui", 'data-start="review"'],
-    [activeFiches().filter(f => ficheState(f.id).key === "weak").length, "fiches", "à retravailler", 'data-go="gram:fiches"'],
-  ].filter(r => r[0]);
-  const errCard = nErr ? hubCard('data-go="mots:err"', "Revoir mes erreurs", nErr > 1 ? "erreurs à corriger" : "erreur à corriger", `<i class="bbadge num">${Math.min(nErr, 99)}</i>`) : "";
-  return `
-    <section class="stats" aria-label="Progression">
-      <div class="stat"><b>${streak()}</b><span>jour${streak() > 1 ? "s" : ""} de suite</span></div>
-      <div class="stat"><b>${mastered(WORDS.filter(w => !w.iki))}</b><span>mots maîtrisés / ${WORDS.filter(w => !w.iki).length}</span></div>
-      <div class="stat"><b>${doneFiches()}</b><span>fiches acquises / ${FICHES.length}</span></div>
-      <div class="goal"><span>Objectif du jour</span><div class="bar"><i style="width:${Math.min(100, doneN / GOAL * 100)}%"></i></div><span class="num">${Math.min(doneN, GOAL)}/${GOAL}</span></div>
-    </section>
-    <div class="dcols"><section class="section dcol">
-      <span class="label">Ton plan du jour · ${nDone}/3</span>
-      <div class="plan">
-        ${step(1, steps[0], 'data-start="review"', "Révision des mots", due ? `${due} mot${due > 1 ? "s" : ""} à revoir, puis quelques nouveaux` : fresh ? "5 nouveaux mots à découvrir" : "Entraînement libre sur tes mots", nx === 0)}
-        ${step(2, steps[1], `data-fiche="${fd.id}"`, "Fiche du jour", `${fd.id} · <span data-notr>${esc(fd.title)}</span>`, nx === 1)}
-        ${step(3, steps[2], `data-vx="${dd[0]}"`, dd[1], dd[2], nx === 2)}
-      </div>
-      ${nDone === 3 ? `<p class="note good-note">Plan du jour terminé. Bravo ! Tu peux continuer librement dans les autres rubriques.</p>` : ""}
-    </section>
-    <section class="section dcol">
-      <span class="label">À revoir</span>
-      ${errCard}
-      ${weakRows.length ? `<div class="lex">${weakRows.map(([n, what, how, attrs]) => `<button class="wrow" ${attrs}><b class="num">${n}</b><span>${what} ${how}</span><span aria-hidden="true">→</span></button>`).join("")}</div>`
-        : nErr ? "" : `<p class="note">Rien à revoir pour l'instant. Les erreurs de chaque exercice apparaîtront ici.</p>`}
-    </section></div>`;
-}
-function doneFiches() { return FICHES.filter(f => ficheState(f.id).key === "ok").length; }
-
 // o (IKI page): its own mode setting, its lessons as themes, "iki" for all of them
 function quizView(AW, o = null) {
   const key = o ? "ikimode" : "mode";
@@ -1186,16 +1167,16 @@ function gramPage(page) {
 // the discreet way to start an exercise from a page that is for reading
 function trainLink(kind) { return `<button class="trainlink" data-vx="${kind}">S'entraîner →</button>`; }
 function renderHome() {
-  if (!SEC_BY_ID[settings.sec] || (settings.sec === "iki" && !showIki())) settings.sec = "today";
+  if (!SEC_BY_ID[settings.sec] || (settings.sec === "iki" && !showIki())) settings.sec = "prog";
   const sec = settings.sec;
   const sub = curSub(sec);
   const AW = activeWords();
   let body = "";
-  if (sec === "today") body = todayView();
+  if (sec === "prog") body = programmeView();
   else if (sec === "iki") body = ikiView();
   else if (sec === "mots") body = quizPage(sub, AW);
   else if (sec === "gram") body = gramPage(sub);
-  app.innerHTML = topBar(sec === "today" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length && !SEC_BY_ID[sec].nopills ? subNav(sec) : "") + body + bottomNav();
+  app.innerHTML = topBar(sec === "prog" ? "Wortschatz Alltag" : SEC_BY_ID[sec].label) + (SEC_BY_ID[sec].subs.length && !SEC_BY_ID[sec].nopills ? subNav(sec) : "") + body + bottomNav();
   if (sec === "gram") {
     // the long lists are filled in after the page is in place, only for the parts shown on this page
     const shown = (GRAM_PAGES[sub] || []).map(p => p[0]).filter(partOpen);
@@ -1352,7 +1333,6 @@ function next() {
 }
 
 function renderDone() {
-  if (S.mode === "review") markDone("review");
   const ok = S.results.filter(r => r.ok).length, n = S.results.length;
   const missed = S.results.filter(r => !r.ok).map(r => r.w);
   const msg = ok === n ? "Sans faute. Ausgezeichnet !" : ok / n >= .7 ? "Bonne série. Les mots ratés reviendront demain." : "Les mots ratés reviendront dans ta prochaine révision.";
@@ -2420,8 +2400,11 @@ const VX_LABEL = { conj: "Conjugaison", prep: "Prépositions", dek: "Déclinaiso
 function startVX(kind, themeId) {
   const weakOnly = kind.endsWith("-weak");
   const k = kind.replace("-weak", "");
+  const unit = UNIT_OF_THEME(themeId);
   let qs = [];
-  if (k === "conj") {
+  if (unit && k === "conj") qs = pickV(unit.verbs.map(x => x.v), "irr", 10, weakOnly).map(v => conjQuestion(v, unit.verbs.find(x => x.v === v).tense));
+  else if (unit && k === "prep") qs = pickV(unit.vps, "vp", 15, weakOnly).map(it => ({ it }));
+  else if (k === "conj") {
     const t = settings.ctense || "mix";
     qs = pickV(activeIrr(), "irr", 10, weakOnly).map(v => conjQuestion(v, t === "mix" ? ["pres", "prat", "perf"][Math.floor(Math.random() * 3)] : t));
   } else if (k === "prep") qs = pickV(VP, "vp", 15, weakOnly).map(it => ({ it }));
@@ -2633,7 +2616,6 @@ function vxRecap(q) {
   return [esc(q.it.de), esc(q.it.fr), q.it.de];
 }
 function renderVXDone() {
-  if (!VX.weakOnly) markDone(VX.kind);
   const ok = VX.results.filter(Boolean).length, n = VX.results.length;
   const missed = VX.qs.filter(q => q.answered && !q.ok);
   const msg = ok === n ? "Sans faute. Ausgezeichnet !" : ok / n >= .7 ? "Bonne série. Les ratés reviendront plus souvent." : "Les ratés reviendront dans tes prochaines séries.";
@@ -2708,6 +2690,527 @@ function closeDkPop() {
 pop.addEventListener("click", e => { if (e.target === pop || e.target.closest("#popclose")) closeDkPop(); });
 pop.addEventListener("keydown", e => { if (e.key === "Escape") closeDkPop(); });
 
+/* ---------- programme: units, each with its own sheets, verbs, words and reserved exam sentences ---------- */
+const PROGRAW = `/*PROGRAMME*/`;
+// the same units translated for the English and Spanish interface (same lines, same German)
+const PROGRAW_I18N = /*PROG_I18N*/;
+const UNITS = [];
+const UNIT_BY_ID = {};
+const CAPITALS = new Set(); // words that keep their capital at the start of a sentence
+// a noun or a name, unless the same word also exists in lowercase (der Morgen, morgen)
+function keepsCapital(word) {
+  if (!CAPITALS.has(word)) return false;
+  const low = word[0].toLowerCase() + word.slice(1);
+  return !WORDS.some(w => !w.iki && !w.mine && w.kind !== "n" && w.de === low) && !IRR.some(v => v.inf === low);
+}
+const UNIT_OF_THEME = id => String(id || "").startsWith("u-") ? UNIT_BY_ID[id.slice(2)] : null;
+function loadProgramme(lang) {
+  const wordOf = de => WORDS.find(w => !w.iki && !w.mine && w.de === de);
+  UNITS.length = 0;
+  for (const k in UNIT_BY_ID) delete UNIT_BY_ID[k];
+  CAPITALS.clear();
+  for (const w of WORDS) if (w.kind === "n" && !w.iki && !w.mine) { CAPITALS.add(w.base); if (w.pl) CAPITALS.add(w.pl); }
+  let u = null;
+  for (const raw of (PROGRAW_I18N[lang] || PROGRAW).split("\n")) {
+    const line = raw.trim();
+    if (!line || line.startsWith("//")) continue;
+    const f = line.split("|");
+    if (f[0] === "N") for (const k of f[1].split(";")) CAPITALS.add(k);
+    else if (f[0][0] === "@") {
+      u = { id: f[0].slice(1), level: f[1], title: f[2], desc: f[3], fiches: [], verbs: [], vps: [], words: [], gaps: {}, sents: {} };
+      UNITS.push(u); UNIT_BY_ID[u.id] = u;
+      // a session limited to the unit is an ordinary session on this theme; it stays out of THEMES, so out of the free training lists
+      THEME_BY_ID["u-" + u.id] = { id: "u-" + u.id, name: u.title, desc: u.desc, level: u.level, words: u.words };
+    }
+    else if (f[0] === "F") u.fiches = f[1].split(";").map(Number);
+    else if (f[0] === "V") for (const k of f[2].split(";")) u.verbs.push({ v: IRR.find(x => x.key === k), tense: f[1] });
+    else if (f[0] === "P") for (const k of f[1].split(";")) u.vps.push(VP.find(x => x.key === k.replace(">", "|")));
+    else if (f[0] === "M") for (const de of f[1].split(";")) u.words.push(wordOf(de));
+    else if (f[0] === "T") {
+      const m = f[1].match(/^(.*)\[(.+?)\](.*)$/);
+      u.gaps["g:" + u.id + ":" + hash(f[1])] = { before: m[1], after: m[3], answers: m[2].split("/"), cue: f[2], fr: f[3], fiche: +f[4] };
+    }
+    else if (f[0] === "S") u.sents["s:" + u.id + ":" + hash(f[2])] = { fr: f[1], accepted: f[2].split(";"), fiche: +f[3] };
+  }
+}
+function unitIds() { return UNITS.map(u => u.id); }
+function progress() { return P.prog || {}; }
+
+/* the personal work: ticks itself from the progress already kept (and synchronised), never blocks the exam */
+function ficheDone(id) { const g = (P.g || {})[id]; return !!g && g[0] / g[1] >= .8; }
+function unitWork(u) {
+  const right = (store, key) => { const s = (P[store] || {})[key]; return !!s && s[0] >= 1; };
+  const items = [];
+  for (const id of u.fiches) items.push({ done: ficheDone(id), attrs: `data-fiche="${id}"`, title: `Fiche ${id}`, sub: `<span data-notr>${esc(FICHE_BY_ID[id].title)}</span>` });
+  const counted = (done, n, unitName, attrs, title) => items.push({ done: done === n, attrs, title, sub: `${done}/${n} ${unitName}` });
+  counted(u.words.filter(w => P.w[w.id] && P.w[w.id][3] >= 1).length, u.words.length, "mots réussis", `data-start="qcm" data-theme="u-${u.id}"`, "S'entraîner sur les mots");
+  counted(u.verbs.filter(x => right("irr", x.v.key)).length, u.verbs.length, "verbes réussis", `data-uvx="conj:u-${u.id}"`, "S'entraîner sur les verbes");
+  if (u.vps.length) counted(u.vps.filter(x => right("vp", x.key)).length, u.vps.length, "prépositions réussies", `data-uvx="prep:u-${u.id}"`, "S'entraîner sur les prépositions");
+  return items;
+}
+
+/* ---------- exam marking: its own rules, stricter than norm() and checkTyped() (issue #20) ---------- */
+const EXAM_PASS = 32;
+const UML_ALT = { ä: "ae", ö: "oe", ü: "ue", ß: "ss", Ä: "Ae", Ö: "Oe", Ü: "Ue" };
+function deTokens(s) { return String(s || "").normalize("NFC").replace(/[.,!?;:„“"«»()…]/g, " ").split(/\s+/).filter(Boolean); }
+// target as written, or with ae/oe/ue/ss for its umlauts and ß; free: the first letter may differ in case
+function deWordEq(target, typed, free) {
+  if (free && typed) typed = (target[0] === target[0].toUpperCase() ? typed[0].toUpperCase() : typed[0].toLowerCase()) + typed.slice(1);
+  let j = 0;
+  for (const c of target) {
+    if (typed[j] === c) j++;
+    else if (UML_ALT[c] && typed.startsWith(UML_ALT[c], j)) j += 2;
+    else return false;
+  }
+  return j === typed.length;
+}
+// a lowercase first word can take a capital; a capitalised one can lose it only at the start of a sentence
+function deMatch(target, typed, atStart) {
+  const T = deTokens(target), U = deTokens(typed);
+  if (!T.length || T.length !== U.length) return false;
+  return T.every((t, i) => deWordEq(t, U[i], i === 0 && (atStart || t[0] === t[0].toLowerCase())));
+}
+function markShort(answers, typed, atStart) { return { pts: answers.some(a => deMatch(a, typed, atStart)) ? 1 : 0 }; }
+// one wrong letter, in place: never an umlaut or ß on either side, never just a missing capital
+function oneLetterOff(t, u) {
+  if (deTokens(t).join("").length < 5 || !u) return false;
+  if (t[0] !== u[0] && t[0].toLowerCase() === u[0].toLowerCase()) return false;
+  let j = 0, off = 0;
+  for (const c of t) {
+    if (u[j] === c) j++;
+    else if (UML_ALT[c] && u.startsWith(UML_ALT[c], j)) j += 2;
+    else if (UML_ALT[c] || UML_ALT[u[j]] || j >= u.length || ++off > 1) return false;
+    else j++;
+  }
+  return off === 1 && j === u.length;
+}
+function markWordOne(w, typed, typedPl, keeps) {
+  const noun = w.kind === "n";
+  const T = deTokens(w.de), U = deTokens(typed);
+  if (T.length !== U.length || !T.length) return { pts: 0 };
+  let near = false;
+  const free = !noun && !keeps(T[0]);
+  if (!deMatch(w.de, typed, free)) {
+    // the article is what's being tested, so only the other words can carry the wrong letter
+    const off = T.map((t, i) => deWordEq(t, U[i], i === 0 && (free || t[0] === t[0].toLowerCase())) ? 0 : 1);
+    const k = off.indexOf(1);
+    if (off.reduce((a, b) => a + b, 0) !== 1 || (noun && k === 0) || !oneLetterOff(T[k], U[k])) return { pts: 0 };
+    near = true;
+  }
+  if (noun && w.pl && !w.plOnly && !deMatch(w.pl, String(typedPl || "").replace(/^\s*die\s+/i, ""))) return { pts: 0 };
+  return near ? { pts: 1, near } : { pts: 1 };
+}
+// alts: other words with the same meaning; an exact answer wins over a tolerated one
+function markWord(w, typed, typedPl, alts = [], keeps = () => false) {
+  let best = { pts: 0 };
+  for (const o of [w, ...alts]) {
+    const r = markWordOne(o, typed, typedPl, keeps);
+    if (r.pts && !r.near) return r;
+    if (r.pts && !best.pts) best = r;
+  }
+  return best;
+}
+// fewest words to change, add or remove, with the words of the accepted version marked right or wrong
+function sentenceDiff(target, typed, isNoun) {
+  const T = deTokens(target), U = deTokens(typed);
+  const eq = (i, j) => deWordEq(T[i], U[j], i === 0 && j === 0 && !isNoun(T[0]));
+  const d = Array.from({ length: T.length + 1 }, (_, i) => Array.from({ length: U.length + 1 }, (_, j) => i === T.length ? U.length - j : j === U.length ? T.length - i : 0));
+  for (let i = T.length - 1; i >= 0; i--) for (let j = U.length - 1; j >= 0; j--)
+    d[i][j] = Math.min(d[i + 1][j] + 1, d[i][j + 1] + 1, d[i + 1][j + 1] + (eq(i, j) ? 0 : 1));
+  const marks = [], extra = [];
+  let i = 0, j = 0;
+  while (i < T.length || j < U.length) {
+    if (i < T.length && j < U.length && d[i][j] === d[i + 1][j + 1] + (eq(i, j) ? 0 : 1)) { marks.push([T[i], eq(i, j)]); i++; j++; }
+    else if (i < T.length && d[i][j] === d[i + 1][j] + 1) { marks.push([T[i], false]); i++; }
+    else { extra.push(U[j]); j++; }
+  }
+  return { dist: d[0][0], marks, extra };
+}
+function markSentence(accepted, typed, isNoun = () => false) {
+  if (!deTokens(typed).length) return { pts: 0, best: accepted[0], marks: deTokens(accepted[0]).map(w => [w, false]), extra: [] };
+  let best = null;
+  for (const a of accepted) {
+    const r = sentenceDiff(a, typed, isNoun);
+    if (!best || r.dist < best.dist) best = Object.assign(r, { best: a });
+  }
+  return { pts: best.dist === 0 ? 1 : best.dist === 1 ? .5 : 0, best: best.best, marks: best.marks, extra: best.extra };
+}
+function examPassed(score) { return score >= EXAM_PASS; }
+
+/* ---------- exam draw, unit status, results ---------- */
+const EXAM_QUOTA = { gap: 12, form: 8, word: 12, sent: 8 };
+const EXAM_CAT = { g: "gap", c: "form", p: "form", w: "word", s: "sent" };
+// c:sein:pres:2 and c:sein:pres:0 are one point: the same verb and tense, at another person
+const pointKey = id => id.split(":").slice(0, 3).join(":");
+// pools: { gap, form, word, sent }, lists of { id }. carry: the ids a new exam must take up.
+function drawExam(pools, carry = []) {
+  const out = [];
+  for (const [cat, n] of Object.entries(EXAM_QUOTA)) {
+    const keys = new Set(pools[cat].map(x => pointKey(x.id)));
+    const kept = carry.filter(id => EXAM_CAT[id[0]] === cat && keys.has(pointKey(id))).slice(0, n);
+    const taken = new Set(kept.map(pointKey));
+    const rest = shuffle(pools[cat].filter(x => !taken.has(pointKey(x.id)))).map(x => x.id);
+    out.push(...shuffle(kept.concat(rest.slice(0, n - kept.length))));
+  }
+  return out;
+}
+// current: the unit after the last validated one. Earlier units left unvalidated stay open; only the one right after current can be tried directly.
+function unitStatus(ids, prog) {
+  let last = -1;
+  ids.forEach((id, i) => { if (prog[id] && prog[id].ok) last = i; });
+  const state = {};
+  ids.forEach((id, i) => { state[id] = prog[id] && prog[id].ok ? "done" : i <= last ? "open" : i === last + 1 ? "current" : i === last + 2 ? "next" : "locked"; });
+  return { state, current: ids[last + 1] || null };
+}
+function recordExam(prog, id, score) {
+  const cur = prog[id] || { ok: 0, best: 0 };
+  prog[id] = { ok: cur.ok || examPassed(score) ? 1 : 0, best: Math.max(cur.best, score) };
+}
+function mergeProg(mine, other) {
+  let changed = false;
+  for (const [id, e] of Object.entries(other || {})) {
+    const cur = mine[id] || { ok: 0, best: 0 };
+    const ok = cur.ok || e.ok ? 1 : 0, best = Math.max(cur.best, e.best || 0);
+    if (!mine[id] || ok !== cur.ok || best !== cur.best) { mine[id] = { ok, best }; changed = true; }
+  }
+  return changed;
+}
+
+/* ---------- the exam in progress: kept on this device only, never in P ---------- */
+const EXAM_KEY = "wortschatz-exam-v1";
+const EXAM_MS = 60 * 60000;
+// exams[unit] = { ids, a: { id: answer }, i, ms }; last[unit] = the last marked paper, with what is left to rewrite
+let XD = { exams: {}, last: {} };
+try { const s = localStorage.getItem(EXAM_KEY); if (s) XD = Object.assign(XD, JSON.parse(s)); } catch (e) {}
+function saveXD() { try { localStorage.setItem(EXAM_KEY, JSON.stringify(XD)); } catch (e) {} }
+let EX = null; // { u, screen: "q" | "over" | "result" | "fix" }
+let exTick = Date.now(), exSaved = 0;
+
+function examPools(u) {
+  return {
+    gap: Object.keys(u.gaps).map(id => ({ id })),
+    sent: Object.keys(u.sents).map(id => ({ id })),
+    word: u.words.map(w => ({ id: "w:" + w.id })),
+    form: u.verbs.map(x => ({ id: `c:${x.v.key}:${x.tense}:${conjQuestion(x.v, x.tense).k}` })).concat(u.vps.map(it => ({ id: "p:" + it.key }))),
+  };
+}
+// a question from its id; null if the content it came from is gone
+function examQuestion(u, id) {
+  const [kind, a, b, c] = id.split(":");
+  if (kind === "g") return u.gaps[id] ? { id, cat: "gap", g: u.gaps[id] } : null;
+  if (kind === "s") return u.sents[id] ? { id, cat: "sent", s: u.sents[id] } : null;
+  if (kind === "w") { const w = u.words.find(x => x.id === a); return w ? { id, cat: "word", w } : null; }
+  if (kind === "p") { const it = u.vps.find(x => x.key === id.slice(2)); return it ? { id, cat: "form", it } : null; }
+  const x = kind === "c" && u.verbs.find(y => y.v.key === a && y.tense === b);
+  if (!x || !x.v[b][+c]) return null;
+  const answers = [x.v[b][+c]];
+  if (b === "prat" && +c === 1 && x.v.pratAlt) answers.push(x.v.pratAlt);
+  return { id, cat: "form", v: x.v, tense: b, k: +c, answers };
+}
+function hasPlural(q) { return q.cat === "word" && q.w.kind === "n" && q.w.pl && !q.w.plOnly; }
+// a noun with a plural is only answered once both fields are filled
+function answered(q, a) {
+  const [main, pl] = Array.isArray(a) ? a : [a, ""];
+  return !!(main && main.trim()) && (!hasPlural(q) || !!(pl && pl.trim()));
+}
+function examMark(q, a) {
+  const main = Array.isArray(a) ? a[0] : a || "";
+  if (q.cat === "gap") return markShort(q.g.answers, main, !q.g.before && !keepsCapital(q.g.answers[0]));
+  if (q.cat === "sent") return markSentence(q.s.accepted, main, keepsCapital);
+  if (q.cat === "word") return markWord(q.w, main, Array.isArray(a) ? a[1] : "", WORDS.filter(o => !o.iki && !o.mine && o !== q.w && o.fr === q.w.fr), keepsCapital);
+  if (q.it) return markShort([q.it.token], main, q.it.ex.startsWith(q.it.token));
+  return markShort(q.answers, main.replace(/^\s*(ich|du|er|sie|es|wir|ihr|man)\s+/i, ""));
+}
+const EX_LABEL = { gap: "Complète la phrase", form: "Écris la forme", word: "Écris en allemand", sent: "Traduis en allemand" };
+function examPrompt(q) {
+  if (q.cat === "gap") return `<div class="ex-de qsent" lang="de">${esc(q.g.before)}<span class="gap">___</span>${esc(q.g.after)} <span class="hint">(${esc(q.g.cue)})</span></div><div class="hint" data-notr>${esc(q.g.fr)}</div>`;
+  if (q.cat === "sent") return `<div class="prompt fr" data-notr>${esc(q.s.fr)}</div>`;
+  if (q.cat === "word") return `<div class="prompt fr" data-notr>${esc(q.w.fr)}</div><div class="hint">${q.w.kind === "n" ? (hasPlural(q) ? "Avec l'article, puis le pluriel" : "Avec l'article") : q.w.kind === "v" ? "À l'infinitif" : ""}</div>`;
+  if (q.it) return `<div class="prompt" lang="de">${esc(q.it.verb)} <span class="gap">___</span></div><div class="ex-de qsent" lang="de">${q.it.gapHTML}</div><div class="hint" data-notr>${esc(q.it.exfr)}</div>`;
+  return `<div class="prompt" lang="de">${esc(q.v.inf)}</div><div class="hint" data-notr>${esc(q.v.fr)}</div><div class="cask"><span class="pill">${TENSES[q.tense]}</span><span class="pill pill-p" lang="de">${PERSONS[q.k]}</span></div>`;
+}
+function examAnswerText(q) {
+  if (q.cat === "gap") return q.g.before + q.g.answers[0] + q.g.after;
+  if (q.cat === "sent") return q.s.accepted[0];
+  if (q.cat === "word") return q.w.de + (hasPlural(q) ? " · die " + q.w.pl : "");
+  if (q.it) return q.it.ex;
+  return PERSONS[q.k].split("/")[0] + " " + q.answers[0];
+}
+function examFiche(q) {
+  if (q.cat === "gap") return q.g.fiche;
+  if (q.cat === "sent") return q.s.fiche;
+  if (q.cat === "word") return q.w.kind === "n" ? (hasPlural(q) ? 6 : 1) : 0;
+  if (q.it) return 21;
+  if (q.tense === "perf") return 14;
+  if (q.tense === "prat") return 15;
+  if (q.v.particle) return 12;
+  return q.v.presIrr.some(Boolean) ? 3 : 2;
+}
+function examFields(q, a, prefix, disabled) {
+  const main = Array.isArray(a) ? a[0] : a || "", pl = Array.isArray(a) ? a[1] : "";
+  const field = (n, label, val) => `<label class="exlab" for="${prefix}${n}">${label}</label><input id="${prefix}${n}" class="${q.cat === "sent" ? "exlong" : ""}" data-exa="${n}" data-exid="${esc(q.id)}" type="text" lang="de" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" value="${esc(val || "")}"${disabled ? " disabled" : ""}>`;
+  return field(0, q.cat === "sent" ? "Ta phrase en allemand" : "Ta réponse", main) + (hasPlural(q) ? field(1, "Pluriel", pl) : "");
+}
+const UML_KEYS = `<div class="umlauts">${["ä", "ö", "ü", "ß", "Ä", "Ö", "Ü"].map(c => `<button type="button" data-exins="${c}">${c}</button>`).join("")}</div>`;
+
+/* opening: resume, or rewrite what was missed, or draw a new paper that takes it up */
+function missedIds(last) { return last.ids.filter(id => last.pts[id] && last.pts[id][0] < 1); }
+// what is left to rewrite; a point whose content has since changed cannot be rewritten, so it no longer counts
+function rewriteLeft(id) {
+  const last = XD.last[id];
+  return missedIds(last).filter(q => examQuestion(UNIT_BY_ID[id], q) && !last.fixed[q]);
+}
+function mustRewrite(id) {
+  const last = XD.last[id];
+  return !!last && !!last.fix && !(progress()[id] || {}).ok && rewriteLeft(id).length > 0;
+}
+function openExam(id) {
+  const u = UNIT_BY_ID[id];
+  if (!u || unitStatus(unitIds(), progress()).state[id] === "locked") return;
+  if (!XD.exams[id] && mustRewrite(id)) { EX = { u: id, screen: "fix" }; view = "exam"; render(); window.scrollTo(0, 0); return; }
+  const pools = examPools(u);
+  let x = XD.exams[id];
+  if (!x) {
+    const last = XD.last[id];
+    const carry = last && last.fix && !(progress()[id] || {}).ok ? missedIds(last) : [];
+    if (last) last.fix = 0;
+    x = XD.exams[id] = { ids: drawExam(pools, carry), a: {}, i: 0, ms: 0 };
+  } else if (x.ids.some(q => !examQuestion(u, q))) {
+    // the unit's content changed during the exam: keep what still exists, draw the rest
+    x.ids = drawExam(pools, x.ids.filter(q => examQuestion(u, q)));
+    x.i = Math.min(x.i, x.ids.length - 1);
+  }
+  saveXD();
+  exTick = Date.now();
+  EX = { u: id, screen: "q" };
+  view = "exam"; render(); window.scrollTo(0, 0);
+}
+function examClock(ms) {
+  const m = Math.floor(ms / 60000), s = Math.floor(ms / 1000) % 60;
+  return ms > EXAM_MS ? `Temps indicatif dépassé de ${m - 60} min` : `${m}:${String(s).padStart(2, "0")} / 60:00`;
+}
+// the clock only runs while the exam is on screen; a phone asleep without warning costs at most a few seconds
+function examTickNow() {
+  const now = Date.now(), x = EX && XD.exams[EX.u];
+  if (view !== "exam" || !x || document.hidden || (EX.screen !== "q" && EX.screen !== "over")) { exTick = now; return; }
+  x.ms += Math.min(now - exTick, 5000);
+  exTick = now;
+  const el = document.getElementById("extime");
+  if (el) { const t = examClock(x.ms); if (el.dataset.t !== t) { el.dataset.t = t; el.textContent = t; el.classList.toggle("over", x.ms > EXAM_MS); } }
+  if (now - exSaved > 5000) { exSaved = now; saveXD(); }
+}
+setInterval(examTickNow, 1000);
+document.addEventListener("visibilitychange", () => { exTick = Date.now(); if (document.hidden) saveXD(); });
+window.addEventListener("pagehide", saveXD);
+
+function renderExam() {
+  const u = UNIT_BY_ID[EX.u];
+  if (EX.screen === "result") app.innerHTML = examResultView(u);
+  else if (EX.screen === "fix") app.innerHTML = examFixView(u);
+  else {
+    const x = XD.exams[EX.u];
+    const qs = x.ids.map(id => examQuestion(u, id));
+    const top = `<div class="qtop"><button class="x" id="quit">✕ Quitter</button><div class="steps fine" aria-hidden="true">${qs.map((q, n) => `<i class="${n === x.i && EX.screen === "q" ? "cur" : answered(q, x.a[q.id]) ? "on" : ""}"></i>`).join("")}</div><span class="qcount num">${x.i + 1}/${qs.length}</span></div>
+      <div class="extime${x.ms > EXAM_MS ? " over" : ""}" id="extime">${examClock(x.ms)}</div>`;
+    app.innerHTML = top + (EX.screen === "over" ? examOverView(x, qs) : examQuestionView(x, qs));
+    if (EX.screen === "q") { const i = document.getElementById("ex0"); if (i) i.focus({ preventScroll: true }); }
+  }
+}
+function examQuestionView(x, qs) {
+  const q = qs[x.i], todo = qs.filter(o => !answered(o, x.a[o.id])).length;
+  return `<div class="qcard"><div class="qkind"><span class="label">${EX_LABEL[q.cat]}</span></div>${examPrompt(q)}</div>
+    <form class="typebox" id="exf" autocomplete="off">${examFields(q, x.a[q.id], "ex", false)}${UML_KEYS}
+      <div class="row2"><button type="button" class="secondary" id="exprev"${x.i ? "" : " disabled"}>← Précédente</button><button class="primary" type="submit">${x.i + 1 < qs.length ? "Suivante →" : "Vue d'ensemble"}</button></div>
+    </form>
+    <button class="trainlink" id="exover">Vue d'ensemble · ${todo} sans réponse</button>`;
+}
+function examOverView(x, qs) {
+  const todo = qs.filter(o => !answered(o, x.a[o.id])).length;
+  return `<section class="section">
+      <span class="label">Vue d'ensemble</span>
+      <p class="note">${todo ? `${todo} sans réponse, en pointillés. Elles comptent 0 point.` : "Tu as répondu à toutes les questions."} Rien n'est corrigé avant que tu rendes ta copie.</p>
+      <div class="exgrid">${qs.map((q, n) => `<button class="num${answered(q, x.a[q.id]) ? "" : " todo"}${n === x.i ? " cur" : ""}" data-exgo="${n}" aria-label="Question ${n + 1}">${n + 1}</button>`).join("")}</div>
+    </section>
+    <button class="primary" id="exsubmit">Rendre ma copie</button>
+    <button class="secondary" id="exback">← Continuer l'examen</button>`;
+}
+function examSubmit() {
+  const u = UNIT_BY_ID[EX.u], x = XD.exams[EX.u];
+  const pts = {};
+  let score = 0;
+  for (const id of x.ids) {
+    const r = examMark(examQuestion(u, id), x.a[id]);
+    pts[id] = r.near ? [r.pts, 1] : [r.pts];
+    score += r.pts;
+  }
+  P.prog = P.prog || {};
+  const wasOk = !!(P.prog[EX.u] || {}).ok;
+  recordExam(P.prog, EX.u, score);
+  XD.last[EX.u] = { ids: x.ids, a: x.a, pts, score, ms: x.ms, fix: !wasOk && !examPassed(score) ? 1 : 0, fixed: {}, fixA: {} };
+  delete XD.exams[EX.u];
+  saveXD();
+  persist(); // only P.prog changed: no Leitner box, no error notebook, no daily goal
+  EX.screen = "result";
+  render(); window.scrollTo(0, 0);
+}
+function scoreText(n) { return uiLang() === "en" ? String(n) : String(n).replace(".", ","); }
+function examCorrRow(u, last, id) {
+  const q = examQuestion(u, id);
+  if (!q) return "";
+  const p = last.pts[id], a = last.a[id];
+  const typed = Array.isArray(a) ? a.filter(Boolean).join(" · ") : a;
+  const diff = q.cat === "sent" && answered(q, a) ? examMark(q, a) : null;
+  const right = diff ? diff.marks.map(([w, ok]) => ok ? esc(w) : `<b class="miss">${esc(w)}</b>`).join(" ") : esc(examAnswerText(q));
+  const f = examFiche(q);
+  return `<div class="corr">
+    <span class="pill${p[0] === 1 ? " pill-ok" : ""} pts num">${scoreText(p[0])} pt</span>
+    ${examPrompt(q)}
+    <div class="yours">Ta réponse : <span lang="de">${typed ? esc(typed) : "–"}</span></div>
+    <div class="right" lang="de">${right}</div>
+    ${diff && diff.extra.length ? `<div class="yours">En trop : <span lang="de">${esc(diff.extra.join(" "))}</span></div>` : ""}
+    ${p[1] ? `<div class="yours">Une lettre fausse, comptée juste. Orthographe exacte ci-dessus.</div>` : ""}
+    ${f ? ficheLink(f) : ""}
+  </div>`;
+}
+function examResultView(u) {
+  const last = XD.last[u.id], ok = examPassed(last.score), rec = progress()[u.id] || {};
+  const rows = last.ids.filter(id => last.pts[id][0] < 1 || last.pts[id][1]);
+  const over = last.ms > EXAM_MS;
+  const fix = mustRewrite(u.id), n = rewriteLeft(u.id).length;
+  return `<section class="section">
+      <span class="label" data-notr>${esc(u.title)}</span>
+      <div class="score"><b>${scoreText(last.score)}/40</b><span>${ok ? "Examen réussi." : `Il faut ${EXAM_PASS} points sur 40 pour valider.`}</span></div>
+      ${rec.ok ? `<p class="note good-note">Unité validée · meilleur score : ${scoreText(rec.best)}/40</p>` : ""}
+      ${over ? `<p class="note">Temps indicatif dépassé de ${Math.floor(last.ms / 60000) - 60} min, sans pénalité.</p>` : ""}
+    </section>
+    ${fix ? `<p class="note">Pour repasser l'examen, réécris d'abord chaque point manqué. Le nouvel examen les reprendra.</p><button class="primary" id="exfix">Réécrire mes erreurs · ${n}</button>` : ""}
+    ${rows.length ? `<section class="section"><span class="label">Corrigé</span><div class="missed">${rows.map(id => examCorrRow(u, last, id)).join("")}</div></section>` : ""}
+    <div class="row2"><button class="secondary" id="home">Programme</button>${fix ? "" : `<button class="primary" data-exam="${u.id}">Repasser l'examen</button>`}</div>`;
+}
+function examFixView(u) {
+  const last = XD.last[u.id], ids = missedIds(last).filter(id => examQuestion(u, id));
+  const left = rewriteLeft(u.id).length;
+  return `<button class="backlink" id="home">← Programme</button>
+    <section class="section">
+      <span class="label">Réécrire mes erreurs · ${left}</span>
+      <p class="note">Recopie chaque point correctement. Le nouvel examen s'ouvre quand tout est juste.</p>
+    </section>
+    ${ids.map((id, n) => {
+      const q = examQuestion(u, id), done = last.fixed[id], f = examFiche(q);
+      return `<section class="exo"><div class="qkind"><span class="label">${EX_LABEL[q.cat]}</span></div>${examPrompt(q)}
+        <div class="right" lang="de"><b>${esc(examAnswerText(q))}</b></div>
+        <div class="exo-item typebox ${done ? "r-ok" : last.tried && last.tried[id] ? "r-ko" : ""}">${examFields(q, last.fixA[id], "fix" + n + "-", !!done)}
+          ${done ? `<div class="exo-fb">Juste</div>` : last.tried && last.tried[id] ? `<div class="exo-fb">Pas encore</div>` : ""}</div>
+        ${f ? ficheLink(f) : ""}</section>`;
+    }).join("")}
+    ${left ? `${UML_KEYS}<button class="primary" id="excheck">Vérifier</button>` : `<button class="primary" data-exam="${u.id}">Passer le nouvel examen</button>`}`;
+}
+function examInput(el) {
+  const id = el.dataset.exid;
+  if (!id || !EX) return;
+  // an answer is a string, or [word, plural] when the question has a second field
+  const q = examQuestion(UNIT_BY_ID[EX.u], id);
+  const store = EX.screen === "fix" ? XD.last[EX.u].fixA : XD.exams[EX.u].a;
+  if (hasPlural(q)) { const cur = store[id] || ["", ""]; cur[+el.dataset.exa] = el.value; store[id] = cur; }
+  else store[id] = el.value;
+  if (EX.screen !== "fix") {
+    const x = XD.exams[EX.u], left = document.getElementById("exover");
+    if (left) left.textContent = `Vue d'ensemble · ${x.ids.filter(q => !answered(examQuestion(UNIT_BY_ID[EX.u], q), x.a[q])).length} sans réponse`;
+  }
+  saveXD();
+}
+function examGo(step) {
+  const x = XD.exams[EX.u];
+  if (!x || EX.screen !== "q") return;
+  if (x.i + step >= x.ids.length) { EX.screen = "over"; render(); window.scrollTo(0, 0); return; }
+  x.i = Math.max(0, x.i + step);
+  saveXD(); render(); window.scrollTo(0, 0);
+}
+let exLastInput = null;
+app.addEventListener("focusin", e => { if (e.target.dataset && e.target.dataset.exid) exLastInput = e.target; });
+function programmeClick(t) {
+  if (t.dataset.exam) { openExam(t.dataset.exam); return true; }
+  if (t.dataset.exlast) { EX = { u: t.dataset.exlast, screen: "result" }; view = "exam"; render(); window.scrollTo(0, 0); return true; }
+  if (t.dataset.punit !== undefined) { progUnit = t.dataset.punit || null; render(); window.scrollTo(0, 0); return true; }
+  if (t.dataset.uvx) { const [k, th] = t.dataset.uvx.split(":"); startVX(k, th); return true; }
+  if (view !== "exam" || !EX) return false;
+  if (t.dataset.exins) {
+    const ti = exLastInput && document.contains(exLastInput) && !exLastInput.disabled ? exLastInput : app.querySelector("[data-exid]:not(:disabled)");
+    if (!ti) return true;
+    const s = ti.selectionStart ?? ti.value.length, en = ti.selectionEnd ?? s;
+    ti.value = ti.value.slice(0, s) + t.dataset.exins + ti.value.slice(en);
+    ti.focus(); ti.setSelectionRange(s + 1, s + 1);
+    examInput(ti);
+    return true;
+  }
+  if (t.id === "exprev") { examGo(-1); return true; }
+  if (t.id === "exover") { EX.screen = "over"; render(); window.scrollTo(0, 0); return true; }
+  if (t.id === "exback") { EX.screen = "q"; render(); return true; }
+  if (t.dataset.exgo !== undefined) { XD.exams[EX.u].i = +t.dataset.exgo; EX.screen = "q"; saveXD(); render(); window.scrollTo(0, 0); return true; }
+  if (t.id === "exsubmit") { examSubmit(); return true; }
+  if (t.id === "exfix") { EX.screen = "fix"; render(); window.scrollTo(0, 0); return true; }
+  if (t.id === "excheck") {
+    const u = UNIT_BY_ID[EX.u], last = XD.last[EX.u];
+    last.tried = last.tried || {};
+    for (const id of rewriteLeft(EX.u)) {
+      const r = examMark(examQuestion(u, id), last.fixA[id]);
+      // a rewrite must be right as written: no tolerated letter
+      if (r.pts === 1 && !r.near) last.fixed[id] = 1; else last.tried[id] = 1;
+    }
+    saveXD(); render();
+    return true;
+  }
+  return false;
+}
+
+/* ---------- the Programme page ---------- */
+let progUnit = null; // the unit opened from the list; otherwise the current one
+function unitCard(u, state) {
+  const rec = progress()[u.id] || {}, running = XD.exams[u.id], last = XD.last[u.id];
+  const fix = mustRewrite(u.id), left = fix ? rewriteLeft(u.id).length : 0;
+  const examBtn = running ? `Reprendre l'examen · ${running.i + 1}/${running.ids.length}`
+    : fix ? `Réécrire mes erreurs · ${left}` : rec.ok ? "Repasser l'examen" : "Passer l'examen";
+  const work = state === "next" ? [] : unitWork(u);
+  const nextStep = work.findIndex(w => !w.done);
+  return `<section class="section ucard">
+      <span class="label">${state === "done" ? "Unité validée" : state === "next" ? "Prochaine unité" : "Unité en cours"} · <span data-notr>${esc(u.level)}</span></span>
+      <h2 data-notr>${esc(u.title)}</h2>
+      <p data-notr>${esc(u.desc)}</p>
+      ${rec.best ? `<p>Meilleur score : ${scoreText(rec.best)}/40</p>` : ""}
+      ${state === "next" ? `<p>Unité encore verrouillée. Tu peux passer son examen directement : le réussir la valide.</p>` : ""}
+      ${work.length ? `<span class="label">Travail personnel</span><div class="plan">${work.map((w, i) => step(i + 1, w.done, w.attrs, w.title, w.sub, !rec.ok && i === nextStep)).join("")}</div>` : ""}
+      <span class="label">Examen écrit</span>
+      <p>40 questions écrites, durée indicative de 60 minutes, ${EXAM_PASS} points pour valider. Tu peux le passer quand tu veux.</p>
+      <button class="cta" data-exam="${u.id}"><div><h2>${examBtn}</h2></div><span class="go">→</span></button>
+      ${last && !running ? `<button class="trainlink" data-exlast="${u.id}">Voir mon dernier corrigé</button>` : ""}
+    </section>`;
+}
+function programmeView() {
+  const st = unitStatus(unitIds(), progress());
+  // past the last unit, a unit skipped by an exam taken directly is what is left to do
+  const home = st.current || unitIds().find(id => st.state[id] === "open");
+  const focus = progUnit && UNIT_BY_ID[progUnit] && st.state[progUnit] !== "locked" ? progUnit : home;
+  const AW = activeWords(), due = dueCount(AW), doneN = P.days[String(today())] || 0, nErr = errCount(), days = streak();
+  const pills = { done: "Validée", current: "En cours", open: "Ouverte", next: "Examen possible", locked: "Verrouillée" };
+  const list = UNITS.map((u, i) => {
+    const s = st.state[u.id], rec = progress()[u.id] || {};
+    return `<button class="frow urow" data-punit="${u.id}"${s === "locked" ? " disabled" : ""}><span class="fnum">${i + 1}</span><span class="ftitle"><span data-notr>${esc(u.title)}</span><small data-notr>${esc(u.level)}</small></span><span class="pill${s === "done" ? " pill-ok" : ""}">${XD.exams[u.id] ? "Examen en cours" : pills[s]}${rec.best ? ` · ${scoreText(rec.best)}/40` : ""}</span></button>`;
+  }).join("");
+  return `<div class="dcols"><div class="dcol">
+      ${focus && focus !== home ? `<button class="backlink" data-punit="">← Unité en cours</button>` : ""}
+      ${focus ? unitCard(UNIT_BY_ID[focus], st.state[focus]) : `<section class="section ucard"><span class="label">Programme</span><h2>Toutes les unités disponibles sont validées</h2><p>Bravo. D'autres unités arriveront : en attendant, les autres rubriques restent ouvertes pour t'entraîner.</p></section>`}
+    </div>
+    <div class="dcol">
+      <section class="stats" aria-label="Aujourd'hui">
+        <div class="stat"><b>${days}</b><span>jour${days > 1 ? "s" : ""} de suite</span></div>
+        <div class="stat"><b class="num">${Math.min(doneN, GOAL)}/${GOAL}</b><span>objectif du jour</span></div>
+        <button class="stat" data-start="review"><b>${due}</b><span>mots à revoir</span></button>
+      </section>
+      ${nErr ? hubCard('data-go="mots:err"', "Revoir mes erreurs", nErr > 1 ? "erreurs à corriger" : "erreur à corriger", `<i class="bbadge num">${Math.min(nErr, 99)}</i>`) : ""}
+      <section class="section"><span class="label">Toutes les unités</span><div class="flist">${list}</div></section>
+    </div></div>`;
+}
+
 /* ---------- backup: export / import progress ---------- */
 function backupText() { return JSON.stringify({ app: "wortschatz-alltag", v: 1, exported: new Date().toISOString(), P }); }
 function bmsg(t) { const el = document.getElementById("bmsg"); if (el) el.textContent = t; }
@@ -2744,7 +3247,6 @@ function importProgress(text) {
   const other = data && data.P ? data.P : data;
   if (!other || typeof other !== "object" || !other.w) { bmsg("Ce fichier ou ce code n'est pas une sauvegarde de Wortschatz Alltag."); return; }
   merge(other);
-  if (other.done) P.done = Object.assign({}, other.done, P.done || {});
   syncMine(); persist(); render();
   bmsg(`Progression importée : ${Object.keys(other.w).length} mots, ${Object.keys(other.g || {}).length} fiches. Elle a été fusionnée avec celle de cet appareil.`);
 }
@@ -2762,6 +3264,7 @@ function setDict() {
   DICT = lang !== "fr" ? I18N[lang] || null : null;
   loadFiches(lang);
   loadContent(lang);
+  loadProgramme(lang);
   document.documentElement.lang = lang;
   // these two dialogs sit in the static page, outside what render() rebuilds
   document.getElementById("ov").setAttribute("aria-label", tr("Fiche de grammaire"));
@@ -2840,6 +3343,7 @@ app.addEventListener("click", e => {
   if (t.id === "showIki") { settings.showIki = !showIki(); saveSettings(); render(); return; }
   if (t.id === "autoSay") { settings.autoSay = settings.autoSay === false; saveSettings(); render(); return; }
   if (ikiClick(t)) return;
+  if (programmeClick(t)) return;
   if (t.dataset.mode) { settings.mode = t.dataset.mode; saveSettings(); render(); return; }
   if (t.dataset.ikimode) { settings.ikimode = t.dataset.ikimode; saveSettings(); render(); return; }
   if (t.dataset.vmode) { settings.vmode = t.dataset.vmode; saveSettings(); render(); return; }
@@ -2881,6 +3385,7 @@ app.addEventListener("click", e => {
 app.addEventListener("submit", e => {
   e.preventDefault();
   if (e.target.id === "mf") { addMine(); return; }
+  if (view === "exam") { examGo(1); return; }
   if (view === "vx") { vxSubmit(); return; }
   const q = S.qs[S.i];
   const val = document.getElementById("ti").value;
@@ -2895,6 +3400,7 @@ app.addEventListener("toggle", e => { if (e.target.classList && e.target.classLi
 app.addEventListener("input", e => {
   if (e.target.id === "q") { settings.q = e.target.value; renderLex(); }
   if (IA) ikiInput(e.target);
+  if (view === "exam") examInput(e.target);
   if (e.target.id === "qi") { settings.qi = e.target.value; saveSettings(); renderIrrList(); }
   if (e.target.id === "qp") { settings.qp = e.target.value; saveSettings(); renderVpList(); }
 });

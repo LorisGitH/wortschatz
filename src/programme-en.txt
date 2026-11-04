@@ -1,0 +1,174 @@
+// Unités du programme, dans l'ordre. L'identifiant d'une unité reste stable : la progression y est attachée.
+// @id|niveau|titre|description
+// F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
+// T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
+// Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
+// N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
+
+N|Anna;Lena;Maria;Max;Paul;Tom;Entschuldigung
+
+@a1-presenter|A1|Introducing yourself|Greeting people, saying who you are, talking about your family, asking simple questions.
+F|1;2;27
+V|pres|sein;haben;heißen;kommen;gehen;wissen;kennen;schreiben;bleiben
+M|Hallo!;Guten Morgen!;Guten Tag!;Guten Abend!;Gute Nacht!;Tschüss!;Auf Wiedersehen!;Bis später!;Bis morgen!;Danke schön!;Bitte schön!;Entschuldigung!;ja;nein;bitte;Freut mich!;Alles klar!;Kein Problem.;Ich verstehe nicht.;Wie heißen Sie?;Woher kommen Sie?;Wie geht's?;Viel Glück!;Herzlich willkommen!;Guten Appetit!;Schönes Wochenende!
+M|die Familie;die Eltern;die Mutter;der Vater;das Kind;der Sohn;die Tochter;der Bruder;die Schwester;die Geschwister;die Großeltern;die Oma;der Opa;der Onkel;die Tante;der Mann;die Frau;der Freund;die Freundin;der Nachbar;die Nachbarin;das Baby;der Junge;das Mädchen;die Leute;der Hund;die Katze;verheiratet;ledig;geschieden;heiraten;besuchen
+T|[Die] Mutter heißt Julia.|der/die/das|The mother is called Julia.|1
+T|[Das] Kind ist zehn Jahre alt.|der/die/das|The child is ten years old.|1
+T|[Der] Bruder wohnt in Hamburg.|der/die/das|The brother lives in Hamburg.|1
+T|Wo wartet [die] Familie?|der/die/das|Where is the family waiting?|1
+T|Da kommt [das] Mädchen.|der/die/das|Here comes the girl.|1
+T|Hier schläft [der] Hund.|der/die/das|The dog sleeps here.|1
+T|Das ist [die] Katze von Anna.|der/die/das|That is Anna's cat.|1
+T|Wo wohnt [die] Tante?|der/die/das|Where does the aunt live?|1
+T|[Der] Junge ist neun.|der/die/das|The boy is nine.|1
+T|Ich [bin] Student.|sein|I am a student.|2
+T|Du [bist] sehr nett.|sein|You are very kind.|2
+T|Wir [sind] aus Frankreich.|sein|We are from France.|2
+T|Ihr [seid] heute hier.|sein|You (all) are here today.|2
+T|Ich [habe] zwei Kinder.|haben|I have two children.|2
+T|Er [hat] eine Schwester.|haben|He has a sister.|2
+T|[Hast] du Geschwister?|haben|Do you have brothers and sisters?|2
+T|Wir [haben] einen Hund.|haben|We have a dog.|2
+T|Ich [heiße] Paul.|heißen|My name is Paul.|2
+T|Wie [heißt] deine Mutter?|heißen|What is your mother's name?|2
+T|Du [kommst] aus Italien.|kommen|You come from Italy.|2
+T|Maria [kommt] aus Polen.|kommen|Maria comes from Poland.|2
+T|Wir [wohnen] in Köln.|wohnen|We live in Cologne.|2
+T|Er [arbeitet] in Berlin.|arbeiten|He works in Berlin.|2
+T|Du [arbeitest] viel.|arbeiten|You work a lot.|2
+T|[Wo] wohnt ihr? – In Bonn.|W-Frage|Where do you (all) live? – In Bonn.|27
+T|[Woher] kommst du? – Aus Spanien.|W-Frage|Where are you from? – From Spain.|27
+T|[Wer] ist das? – Das ist mein Vater.|W-Frage|Who is that? – That is my father.|27
+T|[Wie] heißt deine Schwester? – Lena.|W-Frage|What is your sister's name? – Lena.|27
+T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|What are you doing? – I am learning German.|27
+T|[Wann] kommst du? – Morgen.|W-Frage|When are you coming? – Tomorrow.|27
+T|[Wohin] gehst du? – Nach Hause.|W-Frage|Where are you going? – Home.|27
+S|My name is Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
+S|What is the dog called?|Wie heißt der Hund?|27
+S|Where does Maria come from?|Woher kommt Maria?|27
+S|I come from Germany.|Ich komme aus Deutschland.|2
+S|We live in Berlin.|Wir wohnen in Berlin.|2
+S|I have a sister.|Ich habe eine Schwester.|2
+S|The father is here.|Der Vater ist hier.|1
+S|The mother works in Munich.|Die Mutter arbeitet in München.|2
+S|The child is called Max.|Das Kind heißt Max.|1
+S|Where does the neighbour (man) live?|Wo wohnt der Nachbar?|27
+S|Who is Anna?|Wer ist Anna?|27
+S|The neighbour (man) comes from Poland.|Der Nachbar kommt aus Polen.|2
+S|The neighbour (woman) is married.|Die Nachbarin ist verheiratet.|1
+S|We have two children.|Wir haben zwei Kinder.|2
+S|Do you have a daughter? (du)|Hast du eine Tochter?|2
+S|The people are very kind.|Die Leute sind sehr nett.|2
+S|What are you doing? (du)|Was machst du?|27
+S|Where does Anna live?|Wo wohnt Anna?|27
+
+@a1-journee|A1|My day, my home|Talking about your day, telling the time, counting, describing your home.
+F|3;4;26
+V|pres|fahren;essen;lesen;sehen;sprechen;nehmen;schlafen;treffen;laufen
+M|der Tag;die Woche;der Monat;das Jahr;die Stunde;die Minute;die Uhr;der Morgen;der Mittag;der Nachmittag;der Abend;die Nacht;der Montag;der Dienstag;der Mittwoch;der Donnerstag;der Freitag;der Samstag;der Sonntag;das Wochenende;der Termin;heute;morgen;gestern;jetzt;immer;oft;nie
+M|zwei;drei;vier;fünf;sechs;sieben;acht;neun;zehn;zwölf;zwanzig;dreißig;hundert
+M|die Wohnung;das Haus;das Zimmer;die Küche;das Bad;die Tür;das Fenster;der Schlüssel;das Bett;der Tisch;der Stuhl;der Schrank;das Sofa;die Lampe;die Miete;der Balkon;der Keller;die Toilette;die Treppe
+T|Du [fährst] nach Berlin.|fahren|You are going to Berlin.|3
+T|Er [fährt] mit dem Zug.|fahren|He is going by train.|3
+T|Was [isst] du zum Frühstück?|essen|What do you eat for breakfast?|3
+T|Anna [isst] gern Fisch.|essen|Anna likes eating fish.|3
+T|Du [liest] ein Buch.|lesen|You are reading a book.|3
+T|Maria [liest] die Zeitung.|lesen|Maria is reading the newspaper.|3
+T|[Siehst] du das Haus?|sehen|Do you see the house?|3
+T|Er [sieht] den Schlüssel nicht.|sehen|He doesn't see the key.|3
+T|Du [sprichst] gut Deutsch.|sprechen|You speak German well.|3
+T|Der Lehrer [spricht] langsam.|sprechen|The teacher speaks slowly.|3
+T|Du [nimmst] den Bus.|nehmen|You take the bus.|3
+T|Er [nimmt] ein Taxi.|nehmen|He takes a taxi.|3
+T|Das Kind [schläft] im Bett.|schlafen|The child is sleeping in the bed.|3
+T|[Schläfst] du gut?|schlafen|Do you sleep well?|3
+T|Lena [trifft] heute Tom.|treffen|Lena is meeting Tom today.|3
+T|Wann [triffst] du Anna?|treffen|When are you meeting Anna?|3
+T|Mein Vater [läuft] jeden Morgen.|laufen|My father runs every morning.|3
+T|Am Montag [fahren] wir nach Hamburg.|fahren|On Monday we are going to Hamburg.|4
+T|Heute [habe] ich viel Zeit.|haben|Today I have a lot of time.|4
+T|Morgen [arbeite] ich nicht.|arbeiten|Tomorrow I am not working.|4
+T|Am Abend [lese] ich ein Buch.|lesen|In the evening I read a book.|4
+T|Jetzt [kocht] Paul.|kochen|Now Paul is cooking.|4
+T|[Kommst] du morgen?|kommen|Are you coming tomorrow?|4
+T|Es ist [halb] neun.|8:30|It is half past eight.|26
+T|Es ist [Viertel] vor drei.|14:45|It is a quarter to three.|26
+T|Es ist Viertel [nach] zehn.|10:15|It is a quarter past ten.|26
+T|Es ist [halb] sieben.|6:30|It is half past six.|26
+T|Das kostet [vierundzwanzig] Euro.|24|That costs 24 euros.|26
+T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|My brother is 35 years old.|26
+T|Das Zimmer kostet [dreihundert] Euro.|300|The room costs 300 euros.|26
+T|Das Haus hat [dreizehn] Zimmer.|13|The house has 13 rooms.|26
+S|What are you reading? (du)|Was liest du?|3
+S|He speaks German.|Er spricht Deutsch.|3
+S|On Monday I am going to Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
+S|Today he is sleeping for a long time.|Heute schläft er lange.;Er schläft heute lange.|4
+S|Anna takes the bus.|Anna nimmt den Bus.|3
+S|Do you see the door? (du)|Siehst du die Tür?|4
+S|The flat has three rooms.|Die Wohnung hat drei Zimmer.|26
+S|It is ten o'clock.|Es ist zehn Uhr.|26
+S|It is half past nine.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
+S|The appointment is on Wednesday.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
+S|Tomorrow we are staying at home.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
+S|Where is the child sleeping?|Wo schläft das Kind?|3
+S|At the weekend I sleep a lot.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
+S|The night is long.|Die Nacht ist lang.|1
+S|The rent costs eight hundred euros.|Die Miete kostet achthundert Euro.|26
+S|He often reads in the evening.|Er liest oft am Abend.;Am Abend liest er oft.|4
+S|We eat at noon.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
+S|The wardrobe and the bed are new.|Der Schrank und das Bett sind neu.|1
+
+@a1-courses|A1|Eating and shopping|Saying what you want or don't want, asking a price, counting in the plural.
+F|5;6;7
+V|pres|trinken;geben;finden;mögen;bekommen;einkaufen;helfen;bringen;vergessen
+M|das Essen;das Frühstück;das Brot;das Brötchen;die Butter;der Käse;die Wurst;das Fleisch;der Fisch;das Ei;die Milch;das Gemüse;das Obst;der Apfel;die Banane;die Kartoffel;die Tomate;der Salat;der Reis;die Nudeln;das Salz;der Zucker;der Kuchen;das Wasser;der Saft;der Kaffee;der Tee;das Bier;der Wein;der Teller;die Tasse;das Glas;das Messer;die Gabel;der Löffel;kochen;lecker;Ich habe Hunger.;Ich habe Durst.
+M|der Supermarkt;die Bäckerei;die Apotheke;der Markt;das Geschäft;die Kasse;die Tüte;die Flasche;die Packung;das Kilo;der Preis;das Bargeld;die Karte;der Euro;kaufen;bezahlen;kosten;billig;teuer;geöffnet;geschlossen;Wie viel kostet das?
+T|Paul hat [kein] Auto.|nicht/kein|Paul doesn't have a car.|5
+T|Wir kaufen [keine] Butter.|nicht/kein|We are not buying any butter.|5
+T|Er trinkt [keinen] Kaffee.|nicht/kein|He doesn't drink coffee.|5
+T|Hier gibt es [keinen] Salat.|nicht/kein|There is no salad here.|5
+T|Das Brot ist [nicht] teuer.|nicht/kein|The bread is not expensive.|5
+T|Ich mag den Kuchen [nicht].|nicht/kein|I don't like the cake.|5
+T|Sie haben [keine] Kinder.|nicht/kein|They have no children.|5
+T|Der Supermarkt ist heute [nicht] geöffnet.|nicht/kein|The supermarket is not open today.|5
+T|Ich kaufe zwei [Äpfel].|der Apfel|I am buying two apples.|6
+T|Wir brauchen drei [Flaschen].|die Flasche|We need three bottles.|6
+T|Hier sind fünf [Brötchen].|das Brötchen|Here are five bread rolls.|6
+T|Die [Eier] sind frisch.|das Ei|The eggs are fresh.|6
+T|Ich möchte zwei [Würste].|die Wurst|I would like two sausages.|6
+T|Wir nehmen vier [Gläser].|das Glas|We are taking four glasses.|6
+T|Die [Bananen] kosten zwei Euro.|die Banane|The bananas cost two euros.|6
+T|Hier sind vier [Tassen].|die Tasse|Here are four cups.|6
+T|Die [Kartoffeln] sind billig.|die Kartoffel|The potatoes are cheap.|6
+T|Ich kaufe drei [Tomaten].|die Tomate|I am buying three tomatoes.|6
+T|In Köln gibt es viele [Supermärkte].|der Supermarkt|There are many supermarkets in Cologne.|6
+T|Wir nehmen [den] Salat.|der|We'll have the salad.|7
+T|Wir kaufen [einen] Kuchen.|ein|We are buying a cake.|7
+T|Hast du [den] Zucker?|der|Do you have the sugar?|7
+T|Anna isst [das] Brötchen.|das|Anna is eating the bread roll.|7
+T|Anna sucht [die] Apotheke.|die|Anna is looking for the pharmacy.|7
+T|Ich brauche [eine] Tüte.|ein|I need a bag.|7
+T|Wir suchen [einen] Markt.|ein|We are looking for a market.|7
+T|[Der] Wein ist gut.|der|The wine is good.|7
+T|Er kauft [einen] Apfel.|ein|He is buying an apple.|7
+T|Möchtest du [den] Käse?|der|Would you like the cheese?|7
+T|Ich finde [den] Preis gut.|der|I think the price is good.|7
+S|I don't have any bread.|Ich habe kein Brot.|5
+S|We don't have any water.|Wir haben kein Wasser.|5
+S|The coffee is not hot.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
+S|I drink tea.|Ich trinke Tee.|2
+S|He is buying a cake.|Er kauft einen Kuchen.|7
+S|Do you eat meat? (du)|Isst du Fleisch?|3
+S|The apples are good.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
+S|We are buying three bottles.|Wir kaufen drei Flaschen.|6
+S|Paul is looking for the supermarket.|Paul sucht den Supermarkt.|7
+S|The pharmacy is closed.|Die Apotheke ist geschlossen.|7
+S|I like cheese.|Ich mag Käse.;Ich mag den Käse.|7
+S|The bread costs two euros.|Das Brot kostet zwei Euro.|6
+S|He doesn't eat fish.|Er isst keinen Fisch.|5
+S|I can't find the key.|Ich finde den Schlüssel nicht.|5
+S|The children drink milk.|Die Kinder trinken Milch.|6
+S|We'll have two coffees.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
+S|Paul is paying for the meal.|Paul bezahlt das Essen.|7
+S|The tomatoes are not expensive.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5

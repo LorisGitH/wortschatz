@@ -24,3 +24,6 @@ jobs:
         run: |
           git status --porcelain
           test -z "$(git status --porcelain)" || { echo "::error::Les fichiers construits ne correspondent pas à src/. Lancer ./build.sh et committer le résultat."; git diff --stat; exit 1; }
+
+      - name: Programme and exam tests
+        run: python3 src/tools/test_programme.py
