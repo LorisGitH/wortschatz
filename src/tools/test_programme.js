@@ -118,6 +118,22 @@
     eq(markSentence(["Ich gehe."], "ich gehe", noun).pts, 1);
   });
 
+  test("a name or noun opening a sentence keeps its capital, in the real content", () => {
+    eq(markSentence(["Anna nimmt den Bus."], "anna nimmt den Bus", keepsCapital).pts, .5);
+    eq(markSentence(["Die Kinder trinken Milch."], "die Kinder trinken Milch", keepsCapital).pts, 1);
+    eq(markSentence(["Kinder trinken Milch."], "kinder trinken Milch", keepsCapital).pts, .5);
+  });
+  test("a word that is also an ordinary lowercase word can open a sentence without its capital", () => {
+    eq(markSentence(["Morgen bleiben wir zu Hause."], "morgen bleiben wir zu Hause", keepsCapital).pts, 1);
+    eq(markSentence(["Ich gehe."], "ich gehe", keepsCapital).pts, 1);
+  });
+  test("an expression that is a noun keeps its capital", () => {
+    const pardon = { kind: "p", de: "Entschuldigung!", fr: "Pardon !" };
+    eq(markWord(pardon, "entschuldigung", "", [], keepsCapital).pts, 0);
+    eq(markWord(pardon, "Entschuldigung", "", [], keepsCapital).pts, 1);
+    eq(markWord(danke, "danke schön", "", [], keepsCapital).pts, 1);
+  });
+
   /* ---------- total ---------- */
   test("the pass mark is 32 out of 40, half points included", () => {
     eq(examPassed(32), true);

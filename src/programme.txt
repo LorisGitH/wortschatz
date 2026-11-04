@@ -3,7 +3,10 @@
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
 // S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
-// Ces phrases sont réservées à l'examen : aucun exercice ne les montre, build.py le vérifie.
+// Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
+// N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
+
+N|Anna;Lena;Maria;Max;Paul;Tom;Entschuldigung
 
 @a1-presenter|A1|Se présenter|Saluer, dire qui on est, parler de sa famille, poser des questions simples.
 F|1;2;27
@@ -13,9 +16,9 @@ M|die Familie;die Eltern;die Mutter;der Vater;das Kind;der Sohn;die Tochter;der 
 T|[Die] Mutter heißt Julia.|der/die/das|La mère s'appelle Julia.|1
 T|[Das] Kind ist zehn Jahre alt.|der/die/das|L'enfant a dix ans.|1
 T|[Der] Bruder wohnt in Hamburg.|der/die/das|Le frère habite à Hambourg.|1
-T|Wo ist [die] Familie?|der/die/das|Où est la famille ?|1
-T|Das ist [das] Mädchen.|der/die/das|C'est la fille.|1
-T|Hier ist [der] Hund.|der/die/das|Voici le chien.|1
+T|Wo wartet [die] Familie?|der/die/das|Où attend la famille ?|1
+T|Da kommt [das] Mädchen.|der/die/das|Voilà la fille qui arrive.|1
+T|Hier schläft [der] Hund.|der/die/das|Le chien dort ici.|1
 T|Das ist [die] Katze von Anna.|der/die/das|C'est le chat d'Anna.|1
 T|Wo wohnt [die] Tante?|der/die/das|Où habite la tante ?|1
 T|[Der] Junge ist neun.|der/die/das|Le garçon a neuf ans.|1
@@ -42,7 +45,7 @@ T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|Que fais-tu ? – J'apprends l
 T|[Wann] kommst du? – Morgen.|W-Frage|Quand viens-tu ? – Demain.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Où vas-tu ? – À la maison.|27
 S|Je m'appelle Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
-S|Comment t'appelles-tu ?|Wie heißt du?|27
+S|Comment s'appelle le chien ?|Wie heißt der Hund?|27
 S|D'où vient Maria ?|Woher kommt Maria?|27
 S|Je viens d'Allemagne.|Ich komme aus Deutschland.|2
 S|Nous habitons à Berlin.|Wir wohnen in Berlin.|2
@@ -50,7 +53,7 @@ S|J'ai une sœur.|Ich habe eine Schwester.|2
 S|Le père est ici.|Der Vater ist hier.|1
 S|La mère travaille à Munich.|Die Mutter arbeitet in München.|2
 S|L'enfant s'appelle Max.|Das Kind heißt Max.|1
-S|Où est le chien ?|Wo ist der Hund?|1
+S|Où habite le voisin ?|Wo wohnt der Nachbar?|27
 S|Qui est Anna ?|Wer ist Anna?|27
 S|Le voisin vient de Pologne.|Der Nachbar kommt aus Polen.|2
 S|La voisine est mariée.|Die Nachbarin ist verheiratet.|1
@@ -58,7 +61,7 @@ S|Nous avons deux enfants.|Wir haben zwei Kinder.|2
 S|As-tu une fille ?|Hast du eine Tochter?|2
 S|Les gens sont très gentils.|Die Leute sind sehr nett.|2
 S|Que fais-tu ?|Was machst du?|27
-S|Où habites-tu ?|Wo wohnst du?|27
+S|Où habite Anna ?|Wo wohnt Anna?|27
 
 @a1-journee|A1|Ma journée, mon logement|Raconter sa journée, donner l'heure, compter, décrire son logement.
 F|3;4;26
@@ -108,13 +111,13 @@ S|Il est dix heures.|Es ist zehn Uhr.|26
 S|Il est neuf heures et demie.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
 S|Le rendez-vous est mercredi.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
 S|Demain, nous restons à la maison.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
-S|Où est la clé ?|Wo ist der Schlüssel?|4
+S|Où dort l'enfant ?|Wo schläft das Kind?|3
 S|Le week-end, je dors beaucoup.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
-S|La nuit est longue.|Die Nacht ist lang.|3
+S|La nuit est longue.|Die Nacht ist lang.|1
 S|Le loyer coûte huit cents euros.|Die Miete kostet achthundert Euro.|26
 S|Il lit souvent le soir.|Er liest oft am Abend.;Am Abend liest er oft.|4
 S|Nous mangeons à midi.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
-S|L'armoire et le lit sont neufs.|Der Schrank und das Bett sind neu.|3
+S|L'armoire et le lit sont neufs.|Der Schrank und das Bett sind neu.|1
 
 @a1-courses|A1|Manger et faire les courses|Dire ce qu'on veut ou non, demander un prix, compter au pluriel.
 F|5;6;7
@@ -124,7 +127,7 @@ M|der Supermarkt;die Bäckerei;die Apotheke;der Markt;das Geschäft;die Kasse;di
 T|Paul hat [kein] Auto.|nicht/kein|Paul n'a pas de voiture.|5
 T|Wir kaufen [keine] Butter.|nicht/kein|Nous n'achetons pas de beurre.|5
 T|Er trinkt [keinen] Kaffee.|nicht/kein|Il ne boit pas de café.|5
-T|Das ist [kein] Apfel.|nicht/kein|Ce n'est pas une pomme.|5
+T|Hier gibt es [keinen] Salat.|nicht/kein|Ici, il n'y a pas de salade.|5
 T|Das Brot ist [nicht] teuer.|nicht/kein|Le pain n'est pas cher.|5
 T|Ich mag den Kuchen [nicht].|nicht/kein|Je n'aime pas le gâteau.|5
 T|Sie haben [keine] Kinder.|nicht/kein|Ils n'ont pas d'enfants.|5
@@ -144,7 +147,7 @@ T|Wir nehmen [den] Salat.|der|Nous prenons la salade.|7
 T|Wir kaufen [einen] Kuchen.|ein|Nous achetons un gâteau.|7
 T|Hast du [den] Zucker?|der|As-tu le sucre ?|7
 T|Anna isst [das] Brötchen.|das|Anna mange le petit pain.|7
-T|Ich suche [die] Apotheke.|die|Je cherche la pharmacie.|7
+T|Anna sucht [die] Apotheke.|die|Anna cherche la pharmacie.|7
 T|Ich brauche [eine] Tüte.|ein|J'ai besoin d'un sac.|7
 T|Wir suchen [einen] Markt.|ein|Nous cherchons un marché.|7
 T|[Der] Wein ist gut.|der|Le vin est bon.|7
@@ -154,12 +157,12 @@ T|Ich finde [den] Preis gut.|der|Je trouve le prix bien.|7
 S|Je n'ai pas de pain.|Ich habe kein Brot.|5
 S|Nous n'avons pas d'eau.|Wir haben kein Wasser.|5
 S|Le café n'est pas chaud.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
-S|Je bois du thé.|Ich trinke Tee.|7
+S|Je bois du thé.|Ich trinke Tee.|2
 S|Il achète un gâteau.|Er kauft einen Kuchen.|7
-S|Tu manges de la viande ?|Isst du Fleisch?|7
+S|Tu manges de la viande ?|Isst du Fleisch?|3
 S|Les pommes sont bonnes.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
 S|Nous achetons trois bouteilles.|Wir kaufen drei Flaschen.|6
-S|Je cherche le supermarché.|Ich suche den Supermarkt.|7
+S|Paul cherche le supermarché.|Paul sucht den Supermarkt.|7
 S|La pharmacie est fermée.|Die Apotheke ist geschlossen.|7
 S|J'aime le fromage.|Ich mag Käse.;Ich mag den Käse.|7
 S|Le pain coûte deux euros.|Das Brot kostet zwei Euro.|6

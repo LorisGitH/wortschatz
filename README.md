@@ -16,13 +16,13 @@ La page d'accueil est un programme, comme à l'école : on travaille une unité,
 
 ### Examen
 
-40 questions écrites, sans QCM, tirées au hasard : 12 phrases à trous, 8 formes verbales ou prépositions, 12 mots vers l'allemand (avec article et pluriel si pertinent), 8 phrases à traduire. Les phrases à trous et à traduire sont réservées à l'examen : `build.py` refuse celles qu'un exercice montre aussi.
+40 questions écrites, sans QCM, tirées au hasard : 12 phrases à trous, 8 formes verbales ou prépositions, 12 mots vers l'allemand (avec article et pluriel si pertinent), 8 phrases à traduire. Les phrases à trous et à traduire sont réservées à l'examen : `build.py` refuse celles que montrent les fiches, les listes, les exercices (trous remplis compris) ou les gabarits des Déclinaisons.
 
 Une question par écran, navigation libre, vue d'ensemble des questions sans réponse, aucune correction avant de rendre la copie. L'examen en cours reste sur l'appareil et reprend avec ses réponses après fermeture de l'app. La durée de 60 minutes est indicative : le temps ne s'écoule que lorsque l'examen est à l'écran, et un dépassement est noté sans pénalité.
 
 Notation, sur 40, avec 32 points pour valider :
 
-- **Réponses courtes** : juste ou faux. Majuscule obligatoire aux noms. `ae`, `oe`, `ue`, `ss` sont acceptés pour `ä`, `ö`, `ü`, `ß`, mais `Muller` pour `Müller` est faux. Terminaisons et articles exacts.
+- **Réponses courtes** : juste ou faux. Majuscule obligatoire aux noms et aux prénoms, même en tête de phrase ; les autres mots peuvent commencer une phrase sans majuscule. `ae`, `oe`, `ue`, `ss` sont acceptés pour `ä`, `ö`, `ü`, `ß`, mais `Muller` pour `Müller` est faux. Terminaisons et articles exacts.
 - **Vocabulaire** : une lettre fausse est tolérée dans un mot de 5 lettres ou plus, et signalée dans le corrigé. Pas dans l'article, le pluriel, une majuscule ou un umlaut.
 - **Phrases à traduire** : 1 point pour une version acceptée, 0,5 point à un mot près (le corrigé montre la différence), sinon 0. La ponctuation ne compte pas.
 

@@ -2696,17 +2696,27 @@ const PROGRAW = `/*PROGRAMME*/`;
 const PROGRAW_I18N = /*PROG_I18N*/;
 const UNITS = [];
 const UNIT_BY_ID = {};
+const CAPITALS = new Set(); // words that keep their capital at the start of a sentence
+// a noun or a name, unless the same word also exists in lowercase (der Morgen, morgen)
+function keepsCapital(word) {
+  if (!CAPITALS.has(word)) return false;
+  const low = word[0].toLowerCase() + word.slice(1);
+  return !WORDS.some(w => !w.iki && !w.mine && w.kind !== "n" && w.de === low) && !IRR.some(v => v.inf === low);
+}
 const UNIT_OF_THEME = id => String(id || "").startsWith("u-") ? UNIT_BY_ID[id.slice(2)] : null;
 function loadProgramme(lang) {
   const wordOf = de => WORDS.find(w => !w.iki && !w.mine && w.de === de);
   UNITS.length = 0;
   for (const k in UNIT_BY_ID) delete UNIT_BY_ID[k];
+  CAPITALS.clear();
+  for (const w of WORDS) if (w.kind === "n" && !w.iki && !w.mine) { CAPITALS.add(w.base); if (w.pl) CAPITALS.add(w.pl); }
   let u = null;
   for (const raw of (PROGRAW_I18N[lang] || PROGRAW).split("\n")) {
     const line = raw.trim();
     if (!line || line.startsWith("//")) continue;
     const f = line.split("|");
-    if (f[0][0] === "@") {
+    if (f[0] === "N") for (const k of f[1].split(";")) CAPITALS.add(k);
+    else if (f[0][0] === "@") {
       u = { id: f[0].slice(1), level: f[1], title: f[2], desc: f[3], fiches: [], verbs: [], vps: [], words: [], gaps: {}, sents: {} };
       UNITS.push(u); UNIT_BY_ID[u.id] = u;
       // a session limited to the unit is an ordinary session on this theme; it stays out of THEMES, so out of the free training lists
@@ -2774,14 +2784,15 @@ function oneLetterOff(t, u) {
   }
   return off === 1 && j === u.length;
 }
-function markWordOne(w, typed, typedPl) {
+function markWordOne(w, typed, typedPl, keeps) {
   const noun = w.kind === "n";
   const T = deTokens(w.de), U = deTokens(typed);
   if (T.length !== U.length || !T.length) return { pts: 0 };
   let near = false;
-  if (!deMatch(w.de, typed, !noun)) {
+  const free = !noun && !keeps(T[0]);
+  if (!deMatch(w.de, typed, free)) {
     // the article is what's being tested, so only the other words can carry the wrong letter
-    const off = T.map((t, i) => deWordEq(t, U[i], i === 0 && (!noun || t[0] === t[0].toLowerCase())) ? 0 : 1);
+    const off = T.map((t, i) => deWordEq(t, U[i], i === 0 && (free || t[0] === t[0].toLowerCase())) ? 0 : 1);
     const k = off.indexOf(1);
     if (off.reduce((a, b) => a + b, 0) !== 1 || (noun && k === 0) || !oneLetterOff(T[k], U[k])) return { pts: 0 };
     near = true;
@@ -2790,10 +2801,10 @@ function markWordOne(w, typed, typedPl) {
   return near ? { pts: 1, near } : { pts: 1 };
 }
 // alts: other words with the same meaning; an exact answer wins over a tolerated one
-function markWord(w, typed, typedPl, alts = []) {
+function markWord(w, typed, typedPl, alts = [], keeps = () => false) {
   let best = { pts: 0 };
   for (const o of [w, ...alts]) {
-    const r = markWordOne(o, typed, typedPl);
+    const r = markWordOne(o, typed, typedPl, keeps);
     if (r.pts && !r.near) return r;
     if (r.pts && !best.pts) best = r;
   }
@@ -2904,9 +2915,9 @@ function answered(q, a) {
 }
 function examMark(q, a) {
   const main = Array.isArray(a) ? a[0] : a || "";
-  if (q.cat === "gap") return markShort(q.g.answers, main, !q.g.before);
-  if (q.cat === "sent") { const nouns = new Set(WORDS.filter(w => w.kind === "n").flatMap(w => [w.base, w.pl])); return markSentence(q.s.accepted, main, w => nouns.has(w)); }
-  if (q.cat === "word") return markWord(q.w, main, Array.isArray(a) ? a[1] : "", WORDS.filter(o => !o.iki && !o.mine && o !== q.w && o.fr === q.w.fr));
+  if (q.cat === "gap") return markShort(q.g.answers, main, !q.g.before && !keepsCapital(q.g.answers[0]));
+  if (q.cat === "sent") return markSentence(q.s.accepted, main, keepsCapital);
+  if (q.cat === "word") return markWord(q.w, main, Array.isArray(a) ? a[1] : "", WORDS.filter(o => !o.iki && !o.mine && o !== q.w && o.fr === q.w.fr), keepsCapital);
   if (q.it) return markShort([q.it.token], main, q.it.ex.startsWith(q.it.token));
   return markShort(q.answers, main.replace(/^\s*(ich|du|er|sie|es|wir|ihr|man)\s+/i, ""));
 }

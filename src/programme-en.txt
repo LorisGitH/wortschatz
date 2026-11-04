@@ -3,7 +3,10 @@
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
 // S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
-// Ces phrases sont réservées à l'examen : aucun exercice ne les montre, build.py le vérifie.
+// Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
+// N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
+
+N|Anna;Lena;Maria;Max;Paul;Tom;Entschuldigung
 
 @a1-presenter|A1|Introducing yourself|Greeting people, saying who you are, talking about your family, asking simple questions.
 F|1;2;27
@@ -13,9 +16,9 @@ M|die Familie;die Eltern;die Mutter;der Vater;das Kind;der Sohn;die Tochter;der 
 T|[Die] Mutter heißt Julia.|der/die/das|The mother is called Julia.|1
 T|[Das] Kind ist zehn Jahre alt.|der/die/das|The child is ten years old.|1
 T|[Der] Bruder wohnt in Hamburg.|der/die/das|The brother lives in Hamburg.|1
-T|Wo ist [die] Familie?|der/die/das|Where is the family?|1
-T|Das ist [das] Mädchen.|der/die/das|That is the girl.|1
-T|Hier ist [der] Hund.|der/die/das|Here is the dog.|1
+T|Wo wartet [die] Familie?|der/die/das|Where is the family waiting?|1
+T|Da kommt [das] Mädchen.|der/die/das|Here comes the girl.|1
+T|Hier schläft [der] Hund.|der/die/das|The dog sleeps here.|1
 T|Das ist [die] Katze von Anna.|der/die/das|That is Anna's cat.|1
 T|Wo wohnt [die] Tante?|der/die/das|Where does the aunt live?|1
 T|[Der] Junge ist neun.|der/die/das|The boy is nine.|1
@@ -42,7 +45,7 @@ T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|What are you doing? – I am l
 T|[Wann] kommst du? – Morgen.|W-Frage|When are you coming? – Tomorrow.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Where are you going? – Home.|27
 S|My name is Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
-S|What is your name?|Wie heißt du?|27
+S|What is the dog called?|Wie heißt der Hund?|27
 S|Where does Maria come from?|Woher kommt Maria?|27
 S|I come from Germany.|Ich komme aus Deutschland.|2
 S|We live in Berlin.|Wir wohnen in Berlin.|2
@@ -50,15 +53,15 @@ S|I have a sister.|Ich habe eine Schwester.|2
 S|The father is here.|Der Vater ist hier.|1
 S|The mother works in Munich.|Die Mutter arbeitet in München.|2
 S|The child is called Max.|Das Kind heißt Max.|1
-S|Where is the dog?|Wo ist der Hund?|1
+S|Where does the neighbour (man) live?|Wo wohnt der Nachbar?|27
 S|Who is Anna?|Wer ist Anna?|27
-S|The neighbour comes from Poland.|Der Nachbar kommt aus Polen.|2
+S|The neighbour (man) comes from Poland.|Der Nachbar kommt aus Polen.|2
 S|The neighbour (woman) is married.|Die Nachbarin ist verheiratet.|1
 S|We have two children.|Wir haben zwei Kinder.|2
-S|Do you have a daughter?|Hast du eine Tochter?|2
+S|Do you have a daughter? (du)|Hast du eine Tochter?|2
 S|The people are very kind.|Die Leute sind sehr nett.|2
-S|What are you doing?|Was machst du?|27
-S|Where do you live?|Wo wohnst du?|27
+S|What are you doing? (du)|Was machst du?|27
+S|Where does Anna live?|Wo wohnt Anna?|27
 
 @a1-journee|A1|My day, my home|Talking about your day, telling the time, counting, describing your home.
 F|3;4;26
@@ -97,24 +100,24 @@ T|Das kostet [vierundzwanzig] Euro.|24|That costs 24 euros.|26
 T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|My brother is 35 years old.|26
 T|Das Zimmer kostet [dreihundert] Euro.|300|The room costs 300 euros.|26
 T|Das Haus hat [dreizehn] Zimmer.|13|The house has 13 rooms.|26
-S|What are you reading?|Was liest du?|3
+S|What are you reading? (du)|Was liest du?|3
 S|He speaks German.|Er spricht Deutsch.|3
 S|On Monday I am going to Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
 S|Today he is sleeping for a long time.|Heute schläft er lange.;Er schläft heute lange.|4
 S|Anna takes the bus.|Anna nimmt den Bus.|3
-S|Do you see the door?|Siehst du die Tür?|4
+S|Do you see the door? (du)|Siehst du die Tür?|4
 S|The flat has three rooms.|Die Wohnung hat drei Zimmer.|26
 S|It is ten o'clock.|Es ist zehn Uhr.|26
 S|It is half past nine.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
 S|The appointment is on Wednesday.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
 S|Tomorrow we are staying at home.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
-S|Where is the key?|Wo ist der Schlüssel?|4
+S|Where is the child sleeping?|Wo schläft das Kind?|3
 S|At the weekend I sleep a lot.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
-S|The night is long.|Die Nacht ist lang.|3
+S|The night is long.|Die Nacht ist lang.|1
 S|The rent costs eight hundred euros.|Die Miete kostet achthundert Euro.|26
 S|He often reads in the evening.|Er liest oft am Abend.;Am Abend liest er oft.|4
 S|We eat at noon.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
-S|The wardrobe and the bed are new.|Der Schrank und das Bett sind neu.|3
+S|The wardrobe and the bed are new.|Der Schrank und das Bett sind neu.|1
 
 @a1-courses|A1|Eating and shopping|Saying what you want or don't want, asking a price, counting in the plural.
 F|5;6;7
@@ -124,7 +127,7 @@ M|der Supermarkt;die Bäckerei;die Apotheke;der Markt;das Geschäft;die Kasse;di
 T|Paul hat [kein] Auto.|nicht/kein|Paul doesn't have a car.|5
 T|Wir kaufen [keine] Butter.|nicht/kein|We are not buying any butter.|5
 T|Er trinkt [keinen] Kaffee.|nicht/kein|He doesn't drink coffee.|5
-T|Das ist [kein] Apfel.|nicht/kein|That is not an apple.|5
+T|Hier gibt es [keinen] Salat.|nicht/kein|There is no salad here.|5
 T|Das Brot ist [nicht] teuer.|nicht/kein|The bread is not expensive.|5
 T|Ich mag den Kuchen [nicht].|nicht/kein|I don't like the cake.|5
 T|Sie haben [keine] Kinder.|nicht/kein|They have no children.|5
@@ -144,7 +147,7 @@ T|Wir nehmen [den] Salat.|der|We'll have the salad.|7
 T|Wir kaufen [einen] Kuchen.|ein|We are buying a cake.|7
 T|Hast du [den] Zucker?|der|Do you have the sugar?|7
 T|Anna isst [das] Brötchen.|das|Anna is eating the bread roll.|7
-T|Ich suche [die] Apotheke.|die|I am looking for the pharmacy.|7
+T|Anna sucht [die] Apotheke.|die|Anna is looking for the pharmacy.|7
 T|Ich brauche [eine] Tüte.|ein|I need a bag.|7
 T|Wir suchen [einen] Markt.|ein|We are looking for a market.|7
 T|[Der] Wein ist gut.|der|The wine is good.|7
@@ -154,12 +157,12 @@ T|Ich finde [den] Preis gut.|der|I think the price is good.|7
 S|I don't have any bread.|Ich habe kein Brot.|5
 S|We don't have any water.|Wir haben kein Wasser.|5
 S|The coffee is not hot.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
-S|I drink tea.|Ich trinke Tee.|7
+S|I drink tea.|Ich trinke Tee.|2
 S|He is buying a cake.|Er kauft einen Kuchen.|7
-S|Do you eat meat?|Isst du Fleisch?|7
+S|Do you eat meat? (du)|Isst du Fleisch?|3
 S|The apples are good.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
 S|We are buying three bottles.|Wir kaufen drei Flaschen.|6
-S|I am looking for the supermarket.|Ich suche den Supermarkt.|7
+S|Paul is looking for the supermarket.|Paul sucht den Supermarkt.|7
 S|The pharmacy is closed.|Die Apotheke ist geschlossen.|7
 S|I like cheese.|Ich mag Käse.;Ich mag den Käse.|7
 S|The bread costs two euros.|Das Brot kostet zwei Euro.|6
