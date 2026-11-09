@@ -51,6 +51,13 @@ else
   bad "the page has no Content-Security-Policy, or its script-src allows inline script ('$csp')"
 fi
 
+connect_src=$(tr ';' '\n' <<<"$csp" | sed -n 's/^[[:space:]]*connect-src[[:space:]]*//p')
+if [[ "$connect_src" == "'self' data: https://api.languagetool.org" ]]; then
+  pass "connect-src allows LanguageTool and nothing else beyond the page"
+else
+  bad "unexpected connect-src ('$connect_src')"
+fi
+
 # The script the page loads, under the exact name it asks for.
 src=$(grep -o '<script src="[^"]*"' "$body_file" | head -1 | sed 's/.*src="//; s/"$//')
 if [[ -z "$src" ]]; then

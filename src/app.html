@@ -531,6 +531,8 @@ button.stat:hover { background: var(--bg); }
 .corr .right { font-weight: 700; overflow-wrap: anywhere; }
 .corr .pts { align-self: flex-start; }
 .corr .fiche-link { margin-top: 6px; }
+.ltm { margin: 4px 0 0; padding-left: 18px; font-size: 14px; color: var(--muted); overflow-wrap: anywhere; }
+.note a { color: var(--ink); }
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
 </style>
 
@@ -1002,6 +1004,7 @@ function topBar(title) {
     <div class="setrow"><span><b>Passage automatique</b><small>Après une bonne réponse, la question suivante s'affiche seule.</small></span><button class="switch" role="switch" id="autoNext" aria-checked="${settings.autoNext}" aria-label="Passage automatique"><i></i></button></div>
     <div class="setrow"><span><b>Lecture à voix haute</b><small>La bonne réponse est prononcée après chaque question.</small></span><button class="switch" role="switch" id="autoSay" aria-checked="${settings.autoSay !== false}" aria-label="Lecture à voix haute"><i></i></button></div>
     <div class="setrow"><span><b>Afficher IKI</b><small>Ajoute la rubrique IKI (cours de l'école) à la barre de navigation.</small></span><button class="switch" role="switch" id="showIki" aria-checked="${showIki()}" aria-label="Afficher IKI"><i></i></button></div>
+    <div class="setrow"><span><b>${LT_SET_T}</b><small>${LT_SET_D}</small></span><button class="switch" role="switch" id="ltOn" aria-checked="${ltOn()}" aria-label="${LT_SET_T}"><i></i></button></div>
     <div id="sync" class="sync${syncState === "on" ? " on" : ""}"><i></i><span>${syncState === "on" ? "Progression synchronisée sur ton compte" : "Progression enregistrée sur cet appareil"}</span></div>
     <div class="setrow"><span><b>Sauvegarde</b><small>Enregistre ta progression dans un fichier (Fichiers, iCloud Drive…) ou recharge-la, par exemple sur un nouveau téléphone.</small></span></div>
     <div class="row2"><button class="secondary" id="bexport">Exporter</button><button class="secondary" id="bimport">Importer</button></div>
@@ -2730,7 +2733,7 @@ function loadProgramme(lang) {
       const m = f[1].match(/^(.*)\[(.+?)\](.*)$/);
       u.gaps["g:" + u.id + ":" + hash(f[1])] = { before: m[1], after: m[3], answers: m[2].split("/"), cue: f[2], fr: f[3], fiche: +f[4] };
     }
-    else if (f[0] === "S") u.sents["s:" + u.id + ":" + hash(f[2])] = { fr: f[1], accepted: f[2].split(";"), fiche: +f[3] };
+    else if (f[0] === "S") u.sents["s:" + u.id + ":" + hash(f[2])] = { fr: f[1], accepted: f[2].split(";"), fiche: +f[3], keywords: (f[4] || "").split(";").filter(Boolean).map(k => k.split("/")) };
   }
 }
 function unitIds() { return UNITS.map(u => u.id); }
@@ -2883,7 +2886,7 @@ const EXAM_MS = 60 * 60000;
 let XD = { exams: {}, last: {} };
 try { const s = localStorage.getItem(EXAM_KEY); if (s) XD = Object.assign(XD, JSON.parse(s)); } catch (e) {}
 function saveXD() { try { localStorage.setItem(EXAM_KEY, JSON.stringify(XD)); } catch (e) {} }
-let EX = null; // { u, screen: "q" | "over" | "result" | "fix" }
+let EX = null; // { u, screen: "q" | "over" | "check" | "result" | "fix", lt: why the last check stopped }
 let exTick = Date.now(), exSaved = 0;
 
 function examPools(u) {
@@ -3005,7 +3008,8 @@ window.addEventListener("pagehide", saveXD);
 
 function renderExam() {
   const u = UNIT_BY_ID[EX.u];
-  if (EX.screen === "result") app.innerHTML = examResultView(u);
+  if (EX.screen === "check") app.innerHTML = `<section class="section"><span class="label">${LT_WAIT}</span></section>`;
+  else if (EX.screen === "result") app.innerHTML = examResultView(u);
   else if (EX.screen === "fix") app.innerHTML = examFixView(u);
   else {
     const x = XD.exams[EX.u];
@@ -3034,9 +3038,119 @@ function examOverView(x, qs) {
     <button class="primary" id="exsubmit">Rendre ma copie</button>
     <button class="secondary" id="exback">← Continuer l'examen</button>`;
 }
+/* ---------- LanguageTool (issue #22): a second opinion on free translations, never the only judge ---------- */
+const LT_URL = "https://api.languagetool.org/v2/check";
+// the public API allows 20 requests and 75 KB a minute per IP, 20 KB a request: https://dev.languagetool.org/public-http-api
+const LT_MAX = { reqs: 15, bytes: 60000, perReq: 18000, ms: 60000 };
+const LT_TIMEOUT = 10000;
+const LT_INFO = "À la remise de la copie, tes phrases à traduire qui ne correspondent pas à une réponse connue sont envoyées à LanguageTool (Learneo, Inc., États-Unis), avec ton adresse IP mais sans identifiant ni progression. Sa politique ne précise pas combien de temps les textes sont gardés. Tu peux désactiver cet envoi dans les réglages.";
+const LT_PRIVACY = "Politique de confidentialité";
+const LT_OFF = "LanguageTool est désactivé : la correction se fait sur les seules réponses connues.";
+const LT_WAIT = "Correction en cours…";
+const LT_PEND = "Des phrases n'ont pas pu être vérifiées par LanguageTool. Pour l'instant, la note compte les seules réponses connues.";
+const LT_ASK = "Vérifier avec LanguageTool";
+const LT_RETURN = "Hors ligne : la vérification sera proposée au retour du réseau.";
+const LT_LIMIT = "Trop de vérifications en une minute. Réessaie dans un instant.";
+const LT_FAIL = "LanguageTool ne répond pas pour l'instant. Réessaie plus tard.";
+const LT_OK = "Phrase acceptée : elle contient les mots attendus et LanguageTool n'y signale aucune erreur. Autre version possible :";
+const LT_KW = "LanguageTool n'y signale aucune erreur, mais il manque des mots attendus.";
+const LT_BY = "Explications fournies par";
+const LT_SET_T = "Correction avec LanguageTool";
+const LT_SET_D = "À la remise d'un examen, envoie tes phrases à traduire à languagetool.org. Désactivé, seules les réponses connues comptent.";
+const LT_LINK = `<a href="https://languagetool.org" target="_blank" rel="noopener" data-notr>languagetool.org</a>`;
+function ltOn() { return settings.lt !== false; }
+function ltBytes(s) { return new TextEncoder().encode(String(s || "")).length; }
+// log: [time, bytes] of the recent calls
+function ltAllowed(log, bytes, now) {
+  const recent = log.filter(e => now - e[0] < LT_MAX.ms);
+  return bytes <= LT_MAX.perReq && recent.length < LT_MAX.reqs && recent.reduce((n, e) => n + e[1], bytes) <= LT_MAX.bytes;
+}
+// keywords: [[form, other form], …]; case is free, ae/oe/ue/ss stand for umlauts and ß as in the rest of the exam
+function hasKeywords(keywords, typed) {
+  const U = deTokens(typed).map(t => t.toLowerCase());
+  return keywords.every(forms => forms.some(f => U.some(t => deWordEq(f.toLowerCase(), t))));
+}
+// short answers and sentences already right never leave the device
+function ltQueue(last, u) {
+  if (!ltOn()) return [];
+  return last.ids.filter(id => {
+    const q = examQuestion(u, id);
+    return !!q && q.cat === "sent" && last.pts[id][0] < 1 && answered(q, last.a[id]) && ltBytes(last.a[id]) <= LT_MAX.perReq;
+  });
+}
+// the form body keeps the request simple, so no CORS preflight (the API answers 400 to OPTIONS)
+async function ltCheck(text) {
+  const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), LT_TIMEOUT);
+  try {
+    const res = await fetch(LT_URL, { method: "POST", body: new URLSearchParams({ text, language: "de-DE" }), credentials: "omit", referrerPolicy: "no-referrer", cache: "no-store", signal: ctl.signal });
+    if (!res.ok) throw new Error("LanguageTool " + res.status);
+    const data = await res.json();
+    if (!Array.isArray(data.matches)) throw new Error("LanguageTool: unexpected answer");
+    return data.matches;
+  } finally { clearTimeout(timer); }
+}
+// the point needs both a clean sentence and the keywords; a known mark is never lowered
+function ltApply(last, id, q, matches) {
+  const text = last.a[id];
+  last.lt = last.lt || {};
+  if (matches.length) last.lt[id] = { m: matches.slice(0, 5).map(m => [m.message, text.substr(m.offset, m.length), ((m.replacements || [])[0] || {}).value || ""]) };
+  else if (!hasKeywords(q.s.keywords, text)) last.lt[id] = { kw: 1 };
+  else { last.score += 1 - last.pts[id][0]; last.pts[id] = [1]; last.lt[id] = { ok: 1 }; }
+}
+async function ltLoop(uid) {
+  const last = XD.last[uid], u = UNIT_BY_ID[uid];
+  if (!last || !last.pend) return "done";
+  const before = last.score;
+  let status = "done";
+  while (last.pend.length) {
+    const id = last.pend[0], q = examQuestion(u, id);
+    if (!q) { last.pend.shift(); continue; }
+    const text = last.a[id], now = Date.now(), bytes = ltBytes(text);
+    XD.ltLog = (XD.ltLog || []).filter(e => now - e[0] < LT_MAX.ms);
+    if (!ltAllowed(XD.ltLog, bytes, now)) { status = "limit"; break; }
+    XD.ltLog.push([now, bytes]);
+    let matches;
+    try { matches = await ltCheck(text); } catch (e) { status = "error"; break; }
+    ltApply(last, id, q, matches);
+    last.pend.shift();
+  }
+  if (last.score !== before) { P.prog = P.prog || {}; recordExam(P.prog, uid, last.score); persist(); }
+  saveXD();
+  return status;
+}
+let ltRunning = null;
+function ltVerify(uid) {
+  if (!ltRunning) ltRunning = ltLoop(uid).finally(() => { ltRunning = null; });
+  return ltRunning;
+}
+// the paper is already marked and saved on the known answers: closing the app here loses nothing
+function ltRun(uid) {
+  EX = { u: uid, screen: "check" };
+  view = "exam"; render(); window.scrollTo(0, 0);
+  return ltVerify(uid).then(status => {
+    if (view !== "exam" || !EX || EX.u !== uid || EX.screen !== "check") return;
+    EX.screen = "result"; EX.lt = status;
+    render(); window.scrollTo(0, 0);
+  });
+}
+const ltPending = uid => ltOn() && XD.last[uid] && XD.last[uid].pend ? XD.last[uid].pend.length : 0;
+function ltInfoHTML() {
+  return ltOn() ? `<p class="note"><span>${LT_INFO}</span> ${LT_LINK} · <a href="https://languagetool.org/legal/privacy" target="_blank" rel="noopener">${LT_PRIVACY}</a></p>` : `<p class="note">${LT_OFF}</p>`;
+}
+function ltPendingHTML(uid) {
+  const n = ltPending(uid);
+  if (!n) return "";
+  const why = EX && EX.lt === "limit" ? LT_LIMIT : EX && EX.lt === "error" ? LT_FAIL : "";
+  return `<p class="note">${LT_PEND}</p>${why ? `<p class="note">${why}</p>` : ""}${navigator.onLine ? `<button class="secondary" id="exlt" data-exlt="${uid}">${LT_ASK} · ${n}</button>` : `<p class="note">${LT_RETURN}</p>`}`;
+}
+window.addEventListener("online", ltNetworkChanged);
+window.addEventListener("offline", ltNetworkChanged);
+function ltNetworkChanged() { if (view === "exam" ? EX && EX.screen === "result" : view === "home" && settings.sec === "prog") render(); }
+
+// marked at once on the known answers and saved; LanguageTool can only add to that
 function examSubmit() {
   const u = UNIT_BY_ID[EX.u], x = XD.exams[EX.u];
-  const pts = {};
+  const pts = {}, uid = EX.u;
   let score = 0;
   for (const id of x.ids) {
     const r = examMark(examQuestion(u, id), x.a[id]);
@@ -3044,14 +3158,17 @@ function examSubmit() {
     score += r.pts;
   }
   P.prog = P.prog || {};
-  const wasOk = !!(P.prog[EX.u] || {}).ok;
-  recordExam(P.prog, EX.u, score);
-  XD.last[EX.u] = { ids: x.ids, a: x.a, pts, score, ms: x.ms, fix: !wasOk && !examPassed(score) ? 1 : 0, fixed: {}, fixA: {} };
-  delete XD.exams[EX.u];
+  const wasOk = !!(P.prog[uid] || {}).ok;
+  recordExam(P.prog, uid, score);
+  const last = XD.last[uid] = { ids: x.ids, a: x.a, pts, score, ms: x.ms, fix: !wasOk && !examPassed(score) ? 1 : 0, fixed: {}, fixA: {}, pend: [] };
+  last.pend = ltQueue(last, u);
+  delete XD.exams[uid];
   saveXD();
   persist(); // only P.prog changed: no Leitner box, no error notebook, no daily goal
+  if (last.pend.length) return ltRun(uid);
   EX.screen = "result";
   render(); window.scrollTo(0, 0);
+  return Promise.resolve();
 }
 function scoreText(n) { return uiLang() === "en" ? String(n) : String(n).replace(".", ","); }
 function examCorrRow(u, last, id) {
@@ -3059,14 +3176,18 @@ function examCorrRow(u, last, id) {
   if (!q) return "";
   const p = last.pts[id], a = last.a[id];
   const typed = Array.isArray(a) ? a.filter(Boolean).join(" · ") : a;
-  const diff = q.cat === "sent" && answered(q, a) ? examMark(q, a) : null;
+  const v = (last.lt || {})[id];
+  const diff = q.cat === "sent" && answered(q, a) && !(v && v.ok) ? examMark(q, a) : null;
   const right = diff ? diff.marks.map(([w, ok]) => ok ? esc(w) : `<b class="miss">${esc(w)}</b>`).join(" ") : esc(examAnswerText(q));
   const f = examFiche(q);
   return `<div class="corr">
     <span class="pill${p[0] === 1 ? " pill-ok" : ""} pts num">${scoreText(p[0])} pt</span>
     ${examPrompt(q)}
     <div class="yours">Ta réponse : <span lang="de">${typed ? esc(typed) : "–"}</span></div>
+    ${v && v.ok ? `<div class="yours">${LT_OK}</div>` : ""}
     <div class="right" lang="de">${right}</div>
+    ${v && v.kw ? `<div class="yours">${LT_KW}</div>` : ""}
+    ${v && v.m ? `<ul class="ltm" lang="de">${v.m.map(([msg, bad, fix]) => `<li>${esc(msg)}${bad && fix ? ` <b>${esc(bad)} → ${esc(fix)}</b>` : ""}</li>`).join("")}</ul>` : ""}
     ${diff && diff.extra.length ? `<div class="yours">En trop : <span lang="de">${esc(diff.extra.join(" "))}</span></div>` : ""}
     ${p[1] ? `<div class="yours">Une lettre fausse, comptée juste. Orthographe exacte ci-dessus.</div>` : ""}
     ${f ? ficheLink(f) : ""}
@@ -3074,7 +3195,7 @@ function examCorrRow(u, last, id) {
 }
 function examResultView(u) {
   const last = XD.last[u.id], ok = examPassed(last.score), rec = progress()[u.id] || {};
-  const rows = last.ids.filter(id => last.pts[id][0] < 1 || last.pts[id][1]);
+  const rows = last.ids.filter(id => last.pts[id][0] < 1 || last.pts[id][1] || ((last.lt || {})[id] || {}).ok);
   const over = last.ms > EXAM_MS;
   const fix = mustRewrite(u.id), n = rewriteLeft(u.id).length;
   return `<section class="section">
@@ -3083,8 +3204,9 @@ function examResultView(u) {
       ${rec.ok ? `<p class="note good-note">Unité validée · meilleur score : ${scoreText(rec.best)}/40</p>` : ""}
       ${over ? `<p class="note">Temps indicatif dépassé de ${Math.floor(last.ms / 60000) - 60} min, sans pénalité.</p>` : ""}
     </section>
+    ${ltPendingHTML(u.id)}
     ${fix ? `<p class="note">Pour repasser l'examen, réécris d'abord chaque point manqué. Le nouvel examen les reprendra.</p><button class="primary" id="exfix">Réécrire mes erreurs · ${n}</button>` : ""}
-    ${rows.length ? `<section class="section"><span class="label">Corrigé</span><div class="missed">${rows.map(id => examCorrRow(u, last, id)).join("")}</div></section>` : ""}
+    ${rows.length ? `<section class="section"><span class="label">Corrigé</span>${Object.keys(last.lt || {}).length ? `<p class="note">${LT_BY} ${LT_LINK}</p>` : ""}<div class="missed">${rows.map(id => examCorrRow(u, last, id)).join("")}</div></section>` : ""}
     <div class="row2"><button class="secondary" id="home">Programme</button>${fix ? "" : `<button class="primary" data-exam="${u.id}">Repasser l'examen</button>`}</div>`;
 }
 function examFixView(u) {
@@ -3130,6 +3252,7 @@ let exLastInput = null;
 app.addEventListener("focusin", e => { if (e.target.dataset && e.target.dataset.exid) exLastInput = e.target; });
 function programmeClick(t) {
   if (t.dataset.exam) { openExam(t.dataset.exam); return true; }
+  if (t.dataset.exlt) { ltRun(t.dataset.exlt); return true; }
   if (t.dataset.exlast) { EX = { u: t.dataset.exlast, screen: "result" }; view = "exam"; render(); window.scrollTo(0, 0); return true; }
   if (t.dataset.punit !== undefined) { progUnit = t.dataset.punit || null; render(); window.scrollTo(0, 0); return true; }
   if (t.dataset.uvx) { const [k, th] = t.dataset.uvx.split(":"); startVX(k, th); return true; }
@@ -3181,8 +3304,10 @@ function unitCard(u, state) {
       ${work.length ? `<span class="label">Travail personnel</span><div class="plan">${work.map((w, i) => step(i + 1, w.done, w.attrs, w.title, w.sub, !rec.ok && i === nextStep)).join("")}</div>` : ""}
       <span class="label">Examen écrit</span>
       <p>40 questions écrites, durée indicative de 60 minutes, ${EXAM_PASS} points pour valider. Tu peux le passer quand tu veux.</p>
+      ${ltInfoHTML()}
       <button class="cta" data-exam="${u.id}"><div><h2>${examBtn}</h2></div><span class="go">→</span></button>
       ${last && !running ? `<button class="trainlink" data-exlast="${u.id}">Voir mon dernier corrigé</button>` : ""}
+      ${last && !running && ltPending(u.id) && navigator.onLine ? `<button class="trainlink" data-exlt="${u.id}">${LT_ASK} · ${ltPending(u.id)}</button>` : ""}
     </section>`;
 }
 function programmeView() {
@@ -3340,6 +3465,7 @@ app.addEventListener("click", e => {
   if (t.id === "bimport") { document.getElementById("bfile").click(); return; }
   if (t.id === "bcopy") { const ta = document.getElementById("bcode"); if (!ta.value) ta.value = backupText(); ta.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e) {} if (navigator.clipboard) navigator.clipboard.writeText(ta.value).then(() => bmsg("Code copié."), () => bmsg(ok ? "Code copié." : "Sélectionne le code et copie-le à la main.")); else bmsg(ok ? "Code copié." : "Sélectionne le code et copie-le à la main."); return; }
   if (t.id === "bpaste") { const ta = document.getElementById("bcode"); if (!ta.value.trim()) { bmsg("Colle d'abord un code de sauvegarde dans le champ."); return; } importProgress(ta.value); return; }
+  if (t.id === "ltOn") { settings.lt = !ltOn(); saveSettings(); render(); return; }
   if (t.id === "showIki") { settings.showIki = !showIki(); saveSettings(); render(); return; }
   if (t.id === "autoSay") { settings.autoSay = settings.autoSay === false; saveSettings(); render(); return; }
   if (ikiClick(t)) return;

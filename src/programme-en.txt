@@ -44,24 +44,24 @@ T|[Wie] heißt deine Schwester? – Lena.|W-Frage|What is your sister's name? �
 T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|What are you doing? – I am learning German.|27
 T|[Wann] kommst du? – Morgen.|W-Frage|When are you coming? – Tomorrow.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Where are you going? – Home.|27
-S|My name is Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
-S|What is the dog called?|Wie heißt der Hund?|27
-S|Where does Maria come from?|Woher kommt Maria?|27
-S|I come from Germany.|Ich komme aus Deutschland.|2
-S|We live in Berlin.|Wir wohnen in Berlin.|2
-S|I have a sister.|Ich habe eine Schwester.|2
-S|The father is here.|Der Vater ist hier.|1
-S|The mother works in Munich.|Die Mutter arbeitet in München.|2
-S|The child is called Max.|Das Kind heißt Max.|1
-S|Where does the neighbour (man) live?|Wo wohnt der Nachbar?|27
-S|Who is Anna?|Wer ist Anna?|27
-S|The neighbour (man) comes from Poland.|Der Nachbar kommt aus Polen.|2
-S|The neighbour (woman) is married.|Die Nachbarin ist verheiratet.|1
-S|We have two children.|Wir haben zwei Kinder.|2
-S|Do you have a daughter? (du)|Hast du eine Tochter?|2
-S|The people are very kind.|Die Leute sind sehr nett.|2
-S|What are you doing? (du)|Was machst du?|27
-S|Where does Anna live?|Wo wohnt Anna?|27
+S|My name is Anna.|Ich heiße Anna.;Mein Name ist Anna.|2|heiße/Name;Anna
+S|What is the dog called?|Wie heißt der Hund?|27|Wie;heißt;Hund
+S|Where does Maria come from?|Woher kommt Maria?|27|Woher;kommt;Maria
+S|I come from Germany.|Ich komme aus Deutschland.|2|komme;aus;Deutschland
+S|We live in Berlin.|Wir wohnen in Berlin.|2|Wir;wohnen;Berlin
+S|I have a sister.|Ich habe eine Schwester.|2|habe;Schwester
+S|The father is here.|Der Vater ist hier.|1|Vater;hier
+S|The mother works in Munich.|Die Mutter arbeitet in München.|2|Mutter;arbeitet;München
+S|The child is called Max.|Das Kind heißt Max.|1|Kind;heißt;Max
+S|Where does the neighbour (man) live?|Wo wohnt der Nachbar?|27|Wo;wohnt;Nachbar
+S|Who is Anna?|Wer ist Anna?|27|Wer;Anna
+S|The neighbour (man) comes from Poland.|Der Nachbar kommt aus Polen.|2|Nachbar;kommt;Polen
+S|The neighbour (woman) is married.|Die Nachbarin ist verheiratet.|1|Nachbarin;verheiratet
+S|We have two children.|Wir haben zwei Kinder.|2|haben;zwei;Kinder
+S|Do you have a daughter? (du)|Hast du eine Tochter?|2|Hast;Tochter
+S|The people are very kind.|Die Leute sind sehr nett.|2|Leute;nett
+S|What are you doing? (du)|Was machst du?|27|Was;machst
+S|Where does Anna live?|Wo wohnt Anna?|27|Wo;wohnt;Anna
 
 @a1-journee|A1|My day, my home|Talking about your day, telling the time, counting, describing your home.
 F|3;4;26
@@ -100,24 +100,24 @@ T|Das kostet [vierundzwanzig] Euro.|24|That costs 24 euros.|26
 T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|My brother is 35 years old.|26
 T|Das Zimmer kostet [dreihundert] Euro.|300|The room costs 300 euros.|26
 T|Das Haus hat [dreizehn] Zimmer.|13|The house has 13 rooms.|26
-S|What are you reading? (du)|Was liest du?|3
-S|He speaks German.|Er spricht Deutsch.|3
-S|On Monday I am going to Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
-S|Today he is sleeping for a long time.|Heute schläft er lange.;Er schläft heute lange.|4
-S|Anna takes the bus.|Anna nimmt den Bus.|3
-S|Do you see the door? (du)|Siehst du die Tür?|4
-S|The flat has three rooms.|Die Wohnung hat drei Zimmer.|26
-S|It is ten o'clock.|Es ist zehn Uhr.|26
-S|It is half past nine.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
-S|The appointment is on Wednesday.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
-S|Tomorrow we are staying at home.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
-S|Where is the child sleeping?|Wo schläft das Kind?|3
-S|At the weekend I sleep a lot.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
-S|The night is long.|Die Nacht ist lang.|1
-S|The rent costs eight hundred euros.|Die Miete kostet achthundert Euro.|26
-S|He often reads in the evening.|Er liest oft am Abend.;Am Abend liest er oft.|4
-S|We eat at noon.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
-S|The wardrobe and the bed are new.|Der Schrank und das Bett sind neu.|1
+S|What are you reading? (du)|Was liest du?|3|Was;liest
+S|He speaks German.|Er spricht Deutsch.|3|spricht;Deutsch
+S|On Monday I am going to Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4|Montag;fahre;Berlin
+S|Today he is sleeping for a long time.|Heute schläft er lange.;Er schläft heute lange.|4|heute;schläft;lange
+S|Anna takes the bus.|Anna nimmt den Bus.|3|Anna;nimmt;Bus
+S|Do you see the door? (du)|Siehst du die Tür?|4|Siehst;Tür
+S|The flat has three rooms.|Die Wohnung hat drei Zimmer.|26|Wohnung;drei;Zimmer
+S|It is ten o'clock.|Es ist zehn Uhr.|26|zehn;Uhr
+S|It is half past nine.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26|halb/dreißig;zehn/neun
+S|The appointment is on Wednesday.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4|Termin;Mittwoch
+S|Tomorrow we are staying at home.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4|morgen;bleiben;Hause
+S|Where is the child sleeping?|Wo schläft das Kind?|3|Wo;schläft;Kind
+S|At the weekend I sleep a lot.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4|Wochenende;schlafe
+S|The night is long.|Die Nacht ist lang.|1|Nacht;lang
+S|The rent costs eight hundred euros.|Die Miete kostet achthundert Euro.|26|Miete;kostet;achthundert
+S|He often reads in the evening.|Er liest oft am Abend.;Am Abend liest er oft.|4|liest;Abend
+S|We eat at noon.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4|essen;Mittag/mittags
+S|The wardrobe and the bed are new.|Der Schrank und das Bett sind neu.|1|Schrank;Bett;neu
 
 @a1-courses|A1|Eating and shopping|Saying what you want or don't want, asking a price, counting in the plural.
 F|5;6;7
@@ -154,24 +154,24 @@ T|[Der] Wein ist gut.|der|The wine is good.|7
 T|Er kauft [einen] Apfel.|ein|He is buying an apple.|7
 T|Möchtest du [den] Käse?|der|Would you like the cheese?|7
 T|Ich finde [den] Preis gut.|der|I think the price is good.|7
-S|I don't have any bread.|Ich habe kein Brot.|5
-S|We don't have any water.|Wir haben kein Wasser.|5
-S|The coffee is not hot.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
-S|I drink tea.|Ich trinke Tee.|2
-S|He is buying a cake.|Er kauft einen Kuchen.|7
-S|Do you eat meat? (du)|Isst du Fleisch?|3
-S|The apples are good.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
-S|We are buying three bottles.|Wir kaufen drei Flaschen.|6
-S|Paul is looking for the supermarket.|Paul sucht den Supermarkt.|7
-S|The pharmacy is closed.|Die Apotheke ist geschlossen.|7
-S|I like cheese.|Ich mag Käse.;Ich mag den Käse.|7
-S|The bread costs two euros.|Das Brot kostet zwei Euro.|6
-S|He doesn't eat fish.|Er isst keinen Fisch.|5
-S|I can't find the key.|Ich finde den Schlüssel nicht.|5
-S|The children drink milk.|Die Kinder trinken Milch.|6
-S|We'll have two coffees.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
-S|Paul is paying for the meal.|Paul bezahlt das Essen.|7
-S|The tomatoes are not expensive.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5
+S|I don't have any bread.|Ich habe kein Brot.|5|habe;kein;Brot
+S|We don't have any water.|Wir haben kein Wasser.|5|haben;kein;Wasser
+S|The coffee is not hot.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5|Kaffee;nicht;heiß/warm
+S|I drink tea.|Ich trinke Tee.|2|trinke;Tee
+S|He is buying a cake.|Er kauft einen Kuchen.|7|kauft;einen;Kuchen
+S|Do you eat meat? (du)|Isst du Fleisch?|3|Isst;Fleisch
+S|The apples are good.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6|Äpfel;gut/lecker
+S|We are buying three bottles.|Wir kaufen drei Flaschen.|6|kaufen;drei;Flaschen
+S|Paul is looking for the supermarket.|Paul sucht den Supermarkt.|7|Paul;sucht;Supermarkt
+S|The pharmacy is closed.|Die Apotheke ist geschlossen.|7|Apotheke;geschlossen
+S|I like cheese.|Ich mag Käse.;Ich mag den Käse.|7|mag;Käse
+S|The bread costs two euros.|Das Brot kostet zwei Euro.|6|Brot;kostet;zwei
+S|He doesn't eat fish.|Er isst keinen Fisch.|5|isst;keinen;Fisch
+S|I can't find the key.|Ich finde den Schlüssel nicht.|5|finde;Schlüssel;nicht
+S|The children drink milk.|Die Kinder trinken Milch.|6|Kinder;trinken;Milch
+S|We'll have two coffees.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6|nehmen;zwei;Kaffee/Kaffees
+S|Paul is paying for the meal.|Paul bezahlt das Essen.|7|Paul;bezahlt;Essen
+S|The tomatoes are not expensive.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5|Tomaten;teuer/billig
 
 @a1-ville|A1|Getting around town|Taking public transport, asking the way, saying who you are talking to, counting up to a thousand.
 F|8;10

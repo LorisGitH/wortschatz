@@ -847,5 +847,19 @@
  "Vérifier": "Comprobar",
  "Pas encore": "Todavía no",
  "Le niveau filtre les mots, les verbes, les fiches et les exercices de l'entraînement libre. Il ne s'applique pas au programme.": "El nivel filtra las palabras, los verbos, las fichas y los ejercicios de la práctica libre. No se aplica al programa.",
- "Examen en cours": "Examen en curso"
+ "Examen en cours": "Examen en curso",
+ "À la remise de la copie, tes phrases à traduire qui ne correspondent pas à une réponse connue sont envoyées à LanguageTool (Learneo, Inc., États-Unis), avec ton adresse IP mais sans identifiant ni progression. Sa politique ne précise pas combien de temps les textes sont gardés. Tu peux désactiver cet envoi dans les réglages.": "Al entregar el examen, las frases traducidas que no coinciden con una respuesta conocida se envían a LanguageTool (Learneo, Inc., Estados Unidos), con tu dirección IP, pero sin identificador ni progreso. Su política no indica cuánto tiempo se conservan los textos. Puedes desactivar este envío en los ajustes.",
+ "Politique de confidentialité": "Política de privacidad",
+ "LanguageTool est désactivé : la correction se fait sur les seules réponses connues.": "LanguageTool está desactivado: la corrección usa solo las respuestas conocidas.",
+ "Correction en cours…": "Corrigiendo…",
+ "Des phrases n'ont pas pu être vérifiées par LanguageTool. Pour l'instant, la note compte les seules réponses connues.": "LanguageTool no ha podido comprobar algunas frases. Por ahora, la nota cuenta solo las respuestas conocidas.",
+ "Vérifier avec LanguageTool": "Comprobar con LanguageTool",
+ "Hors ligne : la vérification sera proposée au retour du réseau.": "Sin conexión: la comprobación se ofrecerá cuando vuelva la red.",
+ "Trop de vérifications en une minute. Réessaie dans un instant.": "Demasiadas comprobaciones en un minuto. Vuelve a intentarlo en un momento.",
+ "LanguageTool ne répond pas pour l'instant. Réessaie plus tard.": "LanguageTool no responde por ahora. Vuelve a intentarlo más tarde.",
+ "Phrase acceptée : elle contient les mots attendus et LanguageTool n'y signale aucune erreur. Autre version possible :": "Frase aceptada: contiene las palabras esperadas y LanguageTool no señala ningún error. Otra versión posible:",
+ "LanguageTool n'y signale aucune erreur, mais il manque des mots attendus.": "LanguageTool no señala ningún error, pero faltan palabras esperadas.",
+ "Explications fournies par": "Explicaciones proporcionadas por",
+ "Correction avec LanguageTool": "Corrección con LanguageTool",
+ "À la remise d'un examen, envoie tes phrases à traduire à languagetool.org. Désactivé, seules les réponses connues comptent.": "Al entregar un examen, envía tus frases traducidas a languagetool.org. Desactivado, solo cuentan las respuestas conocidas."
 }

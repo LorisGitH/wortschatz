@@ -1,9 +1,8 @@
 // Programme and exam logic, tested through the app's own functions. Expected values come from the rules of issue #20.
 (function () {
   const lines = []; let failed = 0, passed = 0;
-  function test(name, fn) {
-    try { fn(); passed++; } catch (e) { failed++; lines.push("FAIL: " + name + "\n      " + e.message); }
-  }
+  const tests = [];
+  function test(name, fn) { tests.push([name, fn]); }
   function eq(got, want) {
     const a = JSON.stringify(got), b = JSON.stringify(want);
     if (a !== b) throw new Error("got " + a + ", wanted " + b);
@@ -287,7 +286,176 @@
     });
   });
 
-  lines.push(`${passed} passed, ${failed} failed`);
-  const pre = document.createElement("pre"); pre.id = "test-results"; pre.textContent = lines.join("\n");
-  document.body.appendChild(pre);
+  /* ---------- LanguageTool (issue #22) ---------- */
+  const K = (...w) => w.map(x => x.split("/"));
+  test("keywords are all required, in any listed form", () => {
+    eq(hasKeywords(K("gehe", "Schule"), "Heute gehe ich zur Schule."), true);
+    eq(hasKeywords(K("gehe", "Schule"), "Heute gehe ich nach Hause."), false);
+    eq(hasKeywords(K("heiße/Name", "Anna"), "Mein Name ist Anna"), true);
+  });
+  test("keywords ignore case and accept ae, oe, ue, ss, but not the bare vowel", () => {
+    eq(hasKeywords(K("Tür"), "die tuer"), true);
+    eq(hasKeywords(K("heiße"), "Ich heisse"), true);
+    eq(hasKeywords(K("Tür"), "die Tur"), false);
+    eq(hasKeywords(K("Bus"), "der Busfahrer"), false);
+  });
+  test("every sentence declares keywords that all its accepted versions contain, in every language", () => {
+    eachLang(l => { for (const u of UNITS) for (const id in u.sents) {
+      const s = u.sents[id];
+      if (!s.keywords.length) throw new Error(l + ": no keywords for " + s.accepted[0]);
+      for (const a of s.accepted) if (!hasKeywords(s.keywords, a)) throw new Error(l + ": keywords missing from " + a);
+    } });
+  });
+
+  const NOW = 1e6;
+  const calls = n => Array.from({ length: n }, () => [NOW - 1000, 100]);
+  test("the client limit stays under the documented thresholds", () => {
+    eq(LT_MAX.reqs < 20 && LT_MAX.bytes < 75000 && LT_MAX.perReq < 20000 && LT_MAX.ms === 60000, true);
+    eq(ltAllowed([], 100, NOW), true);
+    eq(ltAllowed(calls(LT_MAX.reqs - 1), 100, NOW), true);
+    eq(ltAllowed(calls(LT_MAX.reqs), 100, NOW), false);
+    eq(ltAllowed([[NOW - 1000, LT_MAX.bytes - 50]], 100, NOW), false);
+    eq(ltAllowed([], LT_MAX.perReq + 1, NOW), false);
+  });
+  test("calls older than the window no longer count", () => {
+    eq(ltAllowed(Array.from({ length: 30 }, () => [NOW - LT_MAX.ms, 40000]), 100, NOW), true);
+  });
+
+  // a unit of sentences only, and a paper marked on the known answers
+  const unitT = () => ({ id: "t", title: "T", level: "A1", desc: "", fiches: [], gaps: { "g:t:1": { before: "", after: " geht.", answers: ["Er"], cue: "x", fr: "x", fiche: 2 } }, words: [], verbs: [], vps: [],
+    sents: { "s:t:a": { fr: "a", accepted: ["Ich gehe in die Schule."], fiche: 2, keywords: K("gehe", "Schule") }, "s:t:b": { fr: "b", accepted: ["Wir wohnen in Berlin."], fiche: 2, keywords: K("wohnen", "Berlin") } } });
+  const FREE = "Ich gehe heute mit Paul sehr gern in die Schule.";
+  const paper = (a, score = 31) => {
+    const ids = Object.keys(a), pts = {};
+    for (const id of ids) pts[id] = [id[0] === "s" ? markSentence(UNIT_BY_ID.t.sents[id].accepted, a[id]).pts : 1];
+    return { ids, a, pts, score: score + ids.reduce((n, id) => n + pts[id][0], 0), ms: 0, fix: 1, fixed: {}, fixA: {}, pend: [] };
+  };
+  // runs fn with a clean state and a fake API; calls lists what was sent
+  const withApi = async (reply, fn) => {
+    const realFetch = window.fetch, savedP = P, savedXD = XD, savedSet = settings.lt, sent = [];
+    window.fetch = async (url, o) => { sent.push({ url, o, text: o.body.get("text") }); return reply(o.body.get("text"), sent.length); };
+    P = Object.assign({ w: {}, days: {} }, { prog: {} }); XD = { exams: {}, last: {} }; UNIT_BY_ID.t = unitT(); delete settings.lt;
+    try { await fn(sent); }
+    finally { window.fetch = realFetch; P = savedP; XD = savedXD; delete UNIT_BY_ID.t; if (savedSet === undefined) delete settings.lt; else settings.lt = savedSet; view = "home"; EX = null; }
+  };
+  const answer = matches => ({ ok: true, json: async () => ({ matches }) });
+  const noError = () => answer([]);
+  const ERR = { message: "Die Präposition ‚mit‘ erfordert <b>Dativ</b>.", offset: 4, length: 3, replacements: [{ value: "dem" }, { value: "x" }] };
+  const down = () => { throw new TypeError("Failed to fetch"); };
+
+  test("only written sentences not already right are queued, and none when switched off", () => withApi(noError, async () => {
+    const last = paper({ "s:t:a": FREE, "s:t:b": "Wir wohnen in Berlin.", "g:t:1": "Nein" });
+    eq(ltQueue(last, UNIT_BY_ID.t), ["s:t:a"]);
+    eq(ltQueue(paper({ "s:t:a": "   " }), UNIT_BY_ID.t), []);
+    settings.lt = false;
+    eq(ltQueue(last, UNIT_BY_ID.t), []);
+  }));
+  test("a sentence too long for one request is not queued", () => withApi(noError, async () => {
+    eq(ltQueue(paper({ "s:t:a": "Ich ".repeat(5000) }), UNIT_BY_ID.t), []);
+  }));
+  test("a POST form carries the text and the language, and nothing else", () => withApi(noError, async sent => {
+    await ltCheck("Ich gehe.");
+    eq(sent[0].url, "https://api.languagetool.org/v2/check");
+    eq([sent[0].o.method, sent[0].o.credentials], ["POST", "omit"]);
+    eq([...sent[0].o.body.keys()].sort(), ["language", "text"]);
+    eq(sent[0].o.body.get("language"), "de-DE");
+    eq(sent[0].o.headers, undefined);
+  }));
+  test("an answer without matches is an API failure, not a clean sentence", () => withApi(() => ({ ok: true, json: async () => ({}) }), async () => {
+    let threw = false;
+    try { await ltCheck("Ich gehe."); } catch (e) { threw = true; }
+    eq(threw, true);
+  }));
+  test("keywords and no error earn the point, and the paper is revised", () => withApi(noError, async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    eq(await ltVerify("t"), "done");
+    eq([last.pts["s:t:a"], last.score, last.pend, last.lt["s:t:a"].ok], [[1], 32, [], 1]);
+  }));
+  test("half a point becomes a full point on a clean free sentence", () => withApi(noError, async () => {
+    const last = XD.last.t = paper({ "s:t:a": "Ich gehe jetzt in die Schule." }, 30); last.pend = ["s:t:a"];
+    eq(last.score, 30.5);
+    await ltVerify("t");
+    eq([last.pts["s:t:a"], last.score], [[1], 31]);
+  }));
+  test("a correct sentence without the keywords gets no point", () => withApi(noError, async () => {
+    const last = XD.last.t = paper({ "s:t:a": "Heute bleibe ich lange zu Hause bei Paul." }); last.pend = ["s:t:a"];
+    await ltVerify("t");
+    eq([last.pts["s:t:a"], last.score, last.lt["s:t:a"].kw], [[0], 31, 1]);
+  }));
+  test("an error keeps the known mark and its message goes to the correction", () => withApi(() => answer([ERR]), async () => {
+    const last = XD.last.t = paper({ "s:t:a": "Ich gehe mit den Paul in die Schule." }); last.pend = ["s:t:a"];
+    await ltVerify("t");
+    eq(last.pts["s:t:a"], [0]);
+    eq(last.lt["s:t:a"].m, [[ERR.message, "geh", "dem"]]);
+  }));
+  test("a failure keeps the known mark and the unchecked sentences; a later check can turn a fail into a pass", () => withApi(down, async sent => {
+    P.prog = {}; recordExam(P.prog, "t", 31.5);
+    const last = XD.last.t = paper({ "s:t:a": FREE, "s:t:b": "Wir leben gern lange in Berlin." }, 31); last.score = 31; last.pend = ["s:t:a", "s:t:b"];
+    eq(await ltVerify("t"), "error");
+    eq([sent.length, last.score, last.pend.length, P.prog.t.ok], [1, 31, 2, 0]);
+    const realFetch = window.fetch;
+    window.fetch = async () => noError();
+    eq(await ltVerify("t"), "done");
+    window.fetch = realFetch;
+    eq([last.pend.length, last.score, P.prog.t.ok, P.prog.t.best], [0, 32, 1, 32]);
+  }));
+  test("at the limit the check stops, keeps what is left and counts what it sent", () => withApi(noError, async sent => {
+    XD.ltLog = Array.from({ length: LT_MAX.reqs - 1 }, () => [Date.now() - 1000, 10]);
+    const last = XD.last.t = paper({ "s:t:a": FREE, "s:t:b": "Wir leben gern lange in Berlin." }); last.pend = ["s:t:a", "s:t:b"];
+    eq(await ltVerify("t"), "limit");
+    eq([sent.length, last.pend, XD.ltLog.length], [1, ["s:t:b"], LT_MAX.reqs]);
+  }));
+  test("handing in: known marks first, then the free sentence, without touching short answers", () => withApi(noError, async sent => {
+    XD.exams.t = { ids: ["s:t:a", "g:t:1"], a: { "s:t:a": FREE, "g:t:1": "Nein" }, i: 0, ms: 0 };
+    EX = { u: "t", screen: "over" }; view = "exam";
+    await examSubmit();
+    eq(sent.map(x => x.text), [FREE]);
+    eq([XD.last.t.score, EX.screen, !!XD.exams.t], [1, "result", false]);
+  }));
+  test("handing in offline marks at once on the known answers and proposes a new check", () => withApi(down, async () => {
+    XD.exams.t = { ids: ["s:t:a"], a: { "s:t:a": FREE }, i: 0, ms: 0 };
+    EX = { u: "t", screen: "over" }; view = "exam";
+    await examSubmit();
+    eq([XD.last.t.score, XD.last.t.pend, EX.screen], [0, ["s:t:a"], "result"]);
+    eq(!!document.getElementById("exlt"), true);
+  }));
+  test("handing in with LanguageTool off sends nothing and keeps nothing to check", () => withApi(noError, async sent => {
+    settings.lt = false;
+    XD.exams.t = { ids: ["s:t:a"], a: { "s:t:a": FREE }, i: 0, ms: 0 };
+    EX = { u: "t", screen: "over" }; view = "exam";
+    await examSubmit();
+    eq([sent.length, XD.last.t.pend, !!document.getElementById("exlt")], [0, [], false]);
+  }));
+  test("the correction shows the messages, escaped", () => withApi(() => answer([ERR]), async () => {
+    XD.exams.t = { ids: ["s:t:a"], a: { "s:t:a": "Ich gehe mit den Paul in die Schule." }, i: 0, ms: 0 };
+    EX = { u: "t", screen: "over" }; view = "exam";
+    await examSubmit();
+    const html = document.getElementById("app").innerHTML;
+    eq([html.includes("erfordert &lt;b&gt;Dativ"), html.includes("languagetool.org")], [true, true]);
+  }));
+  test("the rewrite of a mistake is never sent", () => withApi(noError, async sent => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.fixA["s:t:a"] = "Ich gehe in die Schule.";
+    EX = { u: "t", screen: "fix" }; view = "exam";
+    programmeClick({ dataset: {}, id: "excheck" });
+    eq([sent.length, last.fixed["s:t:a"]], [0, 1]);
+  }));
+  test("the page before the exam names LanguageTool and links to it, unless switched off", () => withApi(noError, async () => {
+    const card = () => unitCard(UNIT_BY_ID.t, "current");
+    eq([card().includes('href="https://languagetool.org"'), /rel="[^"]*nofollow/.test(card())], [true, false]);
+    settings.lt = false;
+    eq(card().includes('href="https://languagetool.org"'), false);
+  }));
+  test("every new label is translated", () => {
+    for (const s of [LT_INFO, LT_OFF, LT_WAIT, LT_PEND, LT_ASK, LT_OK, LT_KW, LT_LIMIT, LT_FAIL, LT_BY, LT_RETURN, LT_PRIVACY, LT_SET_T, LT_SET_D])
+      for (const l of ["en", "es"]) if (!I18N[l][s]) throw new Error(l + ": " + s);
+  });
+
+  (async () => {
+    for (const [name, fn] of tests) {
+      try { await fn(); passed++; } catch (e) { failed++; lines.push("FAIL: " + name + "\n      " + e.message); }
+    }
+    lines.push(`${passed} passed, ${failed} failed`);
+    const pre = document.createElement("pre"); pre.id = "test-results"; pre.textContent = lines.join("\n");
+    document.body.appendChild(pre);
+  })();
 })();
