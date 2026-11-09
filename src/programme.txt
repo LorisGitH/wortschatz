@@ -44,24 +44,24 @@ T|[Wie] heißt deine Schwester? – Lena.|W-Frage|Comment s'appelle ta sœur ? �
 T|[Was] machst du? – Ich lerne Deutsch.|W-Frage|Que fais-tu ? – J'apprends l'allemand.|27
 T|[Wann] kommst du? – Morgen.|W-Frage|Quand viens-tu ? – Demain.|27
 T|[Wohin] gehst du? – Nach Hause.|W-Frage|Où vas-tu ? – À la maison.|27
-S|Je m'appelle Anna.|Ich heiße Anna.;Mein Name ist Anna.|2
-S|Comment s'appelle le chien ?|Wie heißt der Hund?|27
-S|D'où vient Maria ?|Woher kommt Maria?|27
-S|Je viens d'Allemagne.|Ich komme aus Deutschland.|2
-S|Nous habitons à Berlin.|Wir wohnen in Berlin.|2
-S|J'ai une sœur.|Ich habe eine Schwester.|2
-S|Le père est ici.|Der Vater ist hier.|1
-S|La mère travaille à Munich.|Die Mutter arbeitet in München.|2
-S|L'enfant s'appelle Max.|Das Kind heißt Max.|1
-S|Où habite le voisin ?|Wo wohnt der Nachbar?|27
-S|Qui est Anna ?|Wer ist Anna?|27
-S|Le voisin vient de Pologne.|Der Nachbar kommt aus Polen.|2
-S|La voisine est mariée.|Die Nachbarin ist verheiratet.|1
-S|Nous avons deux enfants.|Wir haben zwei Kinder.|2
-S|As-tu une fille ?|Hast du eine Tochter?|2
-S|Les gens sont très gentils.|Die Leute sind sehr nett.|2
-S|Que fais-tu ?|Was machst du?|27
-S|Où habite Anna ?|Wo wohnt Anna?|27
+S|Je m'appelle Anna.|Ich heiße Anna.;Mein Name ist Anna.|2|heiße/Name;Anna
+S|Comment s'appelle le chien ?|Wie heißt der Hund?|27|Wie;heißt;Hund
+S|D'où vient Maria ?|Woher kommt Maria?|27|Woher;kommt;Maria
+S|Je viens d'Allemagne.|Ich komme aus Deutschland.|2|komme;aus;Deutschland
+S|Nous habitons à Berlin.|Wir wohnen in Berlin.|2|Wir;wohnen;Berlin
+S|J'ai une sœur.|Ich habe eine Schwester.|2|habe;Schwester
+S|Le père est ici.|Der Vater ist hier.|1|Vater;hier
+S|La mère travaille à Munich.|Die Mutter arbeitet in München.|2|Mutter;arbeitet;München
+S|L'enfant s'appelle Max.|Das Kind heißt Max.|1|Kind;heißt;Max
+S|Où habite le voisin ?|Wo wohnt der Nachbar?|27|Wo;wohnt;Nachbar
+S|Qui est Anna ?|Wer ist Anna?|27|Wer;Anna
+S|Le voisin vient de Pologne.|Der Nachbar kommt aus Polen.|2|Nachbar;kommt;Polen
+S|La voisine est mariée.|Die Nachbarin ist verheiratet.|1|Nachbarin;verheiratet
+S|Nous avons deux enfants.|Wir haben zwei Kinder.|2|haben;zwei;Kinder
+S|As-tu une fille ?|Hast du eine Tochter?|2|Hast;Tochter
+S|Les gens sont très gentils.|Die Leute sind sehr nett.|2|Leute;nett
+S|Que fais-tu ?|Was machst du?|27|Was;machst
+S|Où habite Anna ?|Wo wohnt Anna?|27|Wo;wohnt;Anna
 
 @a1-journee|A1|Ma journée, mon logement|Raconter sa journée, donner l'heure, compter, décrire son logement.
 F|3;4;26
@@ -100,24 +100,24 @@ T|Das kostet [vierundzwanzig] Euro.|24|Ça coûte 24 euros.|26
 T|Mein Bruder ist [fünfunddreißig] Jahre alt.|35|Mon frère a 35 ans.|26
 T|Das Zimmer kostet [dreihundert] Euro.|300|La chambre coûte 300 euros.|26
 T|Das Haus hat [dreizehn] Zimmer.|13|La maison a 13 pièces.|26
-S|Que lis-tu ?|Was liest du?|3
-S|Il parle allemand.|Er spricht Deutsch.|3
-S|Lundi, je vais à Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4
-S|Aujourd'hui, il dort longtemps.|Heute schläft er lange.;Er schläft heute lange.|4
-S|Anna prend le bus.|Anna nimmt den Bus.|3
-S|Vois-tu la porte ?|Siehst du die Tür?|4
-S|L'appartement a trois pièces.|Die Wohnung hat drei Zimmer.|26
-S|Il est dix heures.|Es ist zehn Uhr.|26
-S|Il est neuf heures et demie.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26
-S|Le rendez-vous est mercredi.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4
-S|Demain, nous restons à la maison.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4
-S|Où dort l'enfant ?|Wo schläft das Kind?|3
-S|Le week-end, je dors beaucoup.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4
-S|La nuit est longue.|Die Nacht ist lang.|1
-S|Le loyer coûte huit cents euros.|Die Miete kostet achthundert Euro.|26
-S|Il lit souvent le soir.|Er liest oft am Abend.;Am Abend liest er oft.|4
-S|Nous mangeons à midi.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4
-S|L'armoire et le lit sont neufs.|Der Schrank und das Bett sind neu.|1
+S|Que lis-tu ?|Was liest du?|3|Was;liest
+S|Il parle allemand.|Er spricht Deutsch.|3|spricht;Deutsch
+S|Lundi, je vais à Berlin.|Am Montag fahre ich nach Berlin.;Ich fahre am Montag nach Berlin.|4|Montag;fahre;Berlin
+S|Aujourd'hui, il dort longtemps.|Heute schläft er lange.;Er schläft heute lange.|4|heute;schläft;lange
+S|Anna prend le bus.|Anna nimmt den Bus.|3|Anna;nimmt;Bus
+S|Vois-tu la porte ?|Siehst du die Tür?|4|Siehst;Tür
+S|L'appartement a trois pièces.|Die Wohnung hat drei Zimmer.|26|Wohnung;drei;Zimmer
+S|Il est dix heures.|Es ist zehn Uhr.|26|zehn;Uhr
+S|Il est neuf heures et demie.|Es ist halb zehn.;Es ist neun Uhr dreißig.|26|halb/dreißig;zehn/neun
+S|Le rendez-vous est mercredi.|Der Termin ist am Mittwoch.;Am Mittwoch ist der Termin.|4|Termin;Mittwoch
+S|Demain, nous restons à la maison.|Morgen bleiben wir zu Hause.;Wir bleiben morgen zu Hause.|4|morgen;bleiben;Hause
+S|Où dort l'enfant ?|Wo schläft das Kind?|3|Wo;schläft;Kind
+S|Le week-end, je dors beaucoup.|Am Wochenende schlafe ich viel.;Ich schlafe am Wochenende viel.|4|Wochenende;schlafe
+S|La nuit est longue.|Die Nacht ist lang.|1|Nacht;lang
+S|Le loyer coûte huit cents euros.|Die Miete kostet achthundert Euro.|26|Miete;kostet;achthundert
+S|Il lit souvent le soir.|Er liest oft am Abend.;Am Abend liest er oft.|4|liest;Abend
+S|Nous mangeons à midi.|Wir essen am Mittag.;Am Mittag essen wir.;Wir essen mittags.;Mittags essen wir.|4|essen;Mittag/mittags
+S|L'armoire et le lit sont neufs.|Der Schrank und das Bett sind neu.|1|Schrank;Bett;neu
 
 @a1-courses|A1|Manger et faire les courses|Dire ce qu'on veut ou non, demander un prix, compter au pluriel.
 F|5;6;7
@@ -154,24 +154,24 @@ T|[Der] Wein ist gut.|der|Le vin est bon.|7
 T|Er kauft [einen] Apfel.|ein|Il achète une pomme.|7
 T|Möchtest du [den] Käse?|der|Veux-tu le fromage ?|7
 T|Ich finde [den] Preis gut.|der|Je trouve le prix bien.|7
-S|Je n'ai pas de pain.|Ich habe kein Brot.|5
-S|Nous n'avons pas d'eau.|Wir haben kein Wasser.|5
-S|Le café n'est pas chaud.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5
-S|Je bois du thé.|Ich trinke Tee.|2
-S|Il achète un gâteau.|Er kauft einen Kuchen.|7
-S|Tu manges de la viande ?|Isst du Fleisch?|3
-S|Les pommes sont bonnes.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6
-S|Nous achetons trois bouteilles.|Wir kaufen drei Flaschen.|6
-S|Paul cherche le supermarché.|Paul sucht den Supermarkt.|7
-S|La pharmacie est fermée.|Die Apotheke ist geschlossen.|7
-S|J'aime le fromage.|Ich mag Käse.;Ich mag den Käse.|7
-S|Le pain coûte deux euros.|Das Brot kostet zwei Euro.|6
-S|Il ne mange pas de poisson.|Er isst keinen Fisch.|5
-S|Je ne trouve pas la clé.|Ich finde den Schlüssel nicht.|5
-S|Les enfants boivent du lait.|Die Kinder trinken Milch.|6
-S|Nous prenons deux cafés.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
-S|Paul paie le repas.|Paul bezahlt das Essen.|7
-S|Les tomates ne sont pas chères.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5
+S|Je n'ai pas de pain.|Ich habe kein Brot.|5|habe;kein;Brot
+S|Nous n'avons pas d'eau.|Wir haben kein Wasser.|5|haben;kein;Wasser
+S|Le café n'est pas chaud.|Der Kaffee ist nicht heiß.;Der Kaffee ist nicht warm.|5|Kaffee;nicht;heiß/warm
+S|Je bois du thé.|Ich trinke Tee.|2|trinke;Tee
+S|Il achète un gâteau.|Er kauft einen Kuchen.|7|kauft;einen;Kuchen
+S|Tu manges de la viande ?|Isst du Fleisch?|3|Isst;Fleisch
+S|Les pommes sont bonnes.|Die Äpfel sind gut.;Die Äpfel sind lecker.|6|Äpfel;gut/lecker
+S|Nous achetons trois bouteilles.|Wir kaufen drei Flaschen.|6|kaufen;drei;Flaschen
+S|Paul cherche le supermarché.|Paul sucht den Supermarkt.|7|Paul;sucht;Supermarkt
+S|La pharmacie est fermée.|Die Apotheke ist geschlossen.|7|Apotheke;geschlossen
+S|J'aime le fromage.|Ich mag Käse.;Ich mag den Käse.|7|mag;Käse
+S|Le pain coûte deux euros.|Das Brot kostet zwei Euro.|6|Brot;kostet;zwei
+S|Il ne mange pas de poisson.|Er isst keinen Fisch.|5|isst;keinen;Fisch
+S|Je ne trouve pas la clé.|Ich finde den Schlüssel nicht.|5|finde;Schlüssel;nicht
+S|Les enfants boivent du lait.|Die Kinder trinken Milch.|6|Kinder;trinken;Milch
+S|Nous prenons deux cafés.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6|nehmen;zwei;Kaffee/Kaffees
+S|Paul paie le repas.|Paul bezahlt das Essen.|7|Paul;bezahlt;Essen
+S|Les tomates ne sont pas chères.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5|Tomaten;teuer/billig
 
 @a1-ville|A1|Se repérer en ville|Prendre les transports, demander son chemin, dire à qui l'on parle, compter jusqu'à mille.
 F|8;10

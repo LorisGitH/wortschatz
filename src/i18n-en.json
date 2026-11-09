@@ -847,5 +847,19 @@
  "Vérifier": "Check",
  "Pas encore": "Not yet",
  "Le niveau filtre les mots, les verbes, les fiches et les exercices de l'entraînement libre. Il ne s'applique pas au programme.": "The level filters the words, verbs, sheets and exercises of free practice. It does not apply to the programme.",
- "Examen en cours": "Exam in progress"
+ "Examen en cours": "Exam in progress",
+ "À la remise de la copie, tes phrases à traduire non reconnues sont envoyées à LanguageTool (Learneo, Inc., États-Unis) avec ton adresse IP, sans identifiant ni progression. Sa politique ne précise ni la durée de conservation ni si ces textes entraînent ses modèles. Désactivable dans les réglages.": "When you hand in your paper, your translated sentences that were not recognised are sent to LanguageTool (Learneo, Inc., United States) with your IP address, without any identifier or progress. Its policy does not say how long texts are kept or whether they train its models. Can be turned off in the settings.",
+ "Politique de confidentialité": "Privacy policy",
+ "LanguageTool est désactivé : la correction se fait sur les seules réponses connues.": "LanguageTool is off: marking uses the known answers only.",
+ "Correction en cours…": "Marking in progress…",
+ "Des phrases n'ont pas pu être vérifiées par LanguageTool. Pour l'instant, la note compte les seules réponses connues.": "Some sentences could not be checked by LanguageTool. For now, the mark counts the known answers only.",
+ "Vérifier avec LanguageTool": "Check with LanguageTool",
+ "Hors ligne : la vérification sera proposée au retour du réseau.": "Offline: the check will be offered when the network is back.",
+ "Trop de vérifications en une minute. Réessaie dans un instant.": "Too many checks in one minute. Try again in a moment.",
+ "LanguageTool ne répond pas pour l'instant. Réessaie plus tard.": "LanguageTool is not responding right now. Try again later.",
+ "Phrase acceptée : elle contient les mots attendus et LanguageTool n'y signale aucune erreur. Autre version possible :": "Sentence accepted: it has the expected words and LanguageTool reports no error. Another possible version:",
+ "LanguageTool n'y signale aucune erreur, mais il manque des mots attendus.": "LanguageTool reports no error, but expected words are missing.",
+ "Explications fournies par": "Explanations provided by",
+ "Correction avec LanguageTool": "Marking with LanguageTool",
+ "À la remise d'un examen, envoie tes phrases à traduire à languagetool.org. Désactivé, seules les réponses connues comptent.": "When you hand in an exam, sends your translated sentences to languagetool.org. When off, only known answers count."
 }
