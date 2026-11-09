@@ -508,3 +508,178 @@ S|¿Podría abrir la ventana? (usted)|Könnten Sie das Fenster öffnen?;Könnten
 S|Deberías trabajar menos.|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|Quisiera un vaso de agua.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|Si tuviera tiempo, vendría.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte
+
+@b1-echanger|B1|Conversar y entenderse|Reaccionar y hablar de lo que importa con las preposiciones adecuadas, describir a personas y cosas, y dominar la declinación débil.
+F|21;37
+V|pres|raten;leihen;riechen;lügen;vergleichen;entscheiden
+V|prat|streiten;schreien;beißen;klingen;frieren;genießen;leiden
+P|warten>auf;sich freuen>auf;sich freuen>über;denken>an;sich kümmern>um;sich interessieren>für;sich ärgern>über;fragen>nach;teilnehmen>an;Angst haben>vor;abhängen>von;sich gewöhnen>an;sich erinnern>an;träumen>von;sprechen>mit;sprechen>über;sich unterhalten>über;erzählen>von;bitten>um;antworten>auf
+M|voll;leer;wichtig;laut;leise;sauber;schmutzig;nah;freundlich;glücklich;traurig;froh;böse;fertig;frei;besetzt;kaputt;sicher
+M|sein;haben;mögen;gehen;kommen;sprechen;wissen;kennen;sehen;lesen;schreiben;essen;trinken;schlafen;geben
+T|Wir warten schon lange [auf] den Zug.|warten|Llevamos mucho tiempo esperando el tren.|21
+T|Ich freue mich sehr [auf] die Ferien.|sich freuen (auf/über)|Tengo muchas ganas de que lleguen las vacaciones.|21
+T|Sie freut sich [über] die Blumen.|sich freuen (auf/über)|Está contenta con las flores.|21
+T|Er denkt jeden Tag [an] seine Tochter.|denken|Piensa en su hija todos los días.|21
+T|Meine Schwester kümmert sich [um] unsere Eltern.|sich kümmern|Mi hermana cuida de nuestros padres.|21
+T|Interessierst du dich [für] Musik?|sich interessieren|¿Te interesa la música?|21
+T|Mein Vater ärgert sich [über] die Nachbarn.|sich ärgern|A mi padre le molestan los vecinos.|21
+T|Der Tourist fragt [nach] dem Bahnhof.|fragen|El turista pregunta dónde está la estación.|21
+T|Mein Bruder nimmt [an] einem Deutschkurs teil.|teilnehmen|Mi hermano participa en un curso de alemán.|21
+T|Das Kind hat Angst [vor] dem Hund.|Angst haben|El niño tiene miedo del perro.|21
+T|Es hängt [von] dir ab.|abhängen|Depende de ti.|21
+T|Hast du dich schon [an] die Kälte gewöhnt?|sich gewöhnen|¿Ya te has acostumbrado al frío?|21
+T|Ich erinnere mich gut [an] meine Oma.|sich erinnern|Me acuerdo bien de mi abuela.|21
+T|Er träumt [von] einem großen Haus.|träumen|Sueña con una casa grande.|21
+T|[Worauf] wartet ihr?|wo- + auf|¿Qué estáis esperando?|21
+T|[Woran] erinnerst du dich?|wo- + an|¿De qué te acuerdas?|21
+T|[Worüber] habt ihr gesprochen?|wo- + über|¿De qué habéis hablado?|21
+T|[Wofür] interessiert sich Max?|wo- + für|¿Qué le interesa a Max?|21
+T|Das Geschenk ist schön, ich freue mich [darüber].|da- + über|El regalo es bonito, estoy contento con él.|21
+T|Der Urlaub kommt bald, wir freuen uns schon [darauf].|da- + auf|Las vacaciones llegan pronto, ya tenemos ganas de que empiecen.|21
+T|Auf [wen] warten die Kinder?|auf (Person)|¿A quién esperan los niños?|21
+T|Ich sehe den [Kollegen] im Büro.|der Kollege|Veo al compañero en la oficina.|37
+T|Wir sprechen mit dem [Studenten].|der Student|Hablamos con el estudiante.|37
+T|Morgen besuche ich meinen [Nachbarn].|der Nachbar|Mañana visito a mi vecino.|37
+T|Der Arzt hilft dem [Jungen].|der Junge|El médico ayuda al chico.|37
+T|Der Kellner bringt dem [Kunden] die Rechnung.|der Kunde|El camarero le trae la cuenta al cliente.|37
+T|Ich habe [Herrn] Weber geschrieben.|der Herr|Le he escrito al señor Weber.|37
+T|Der [Polizist] hat mir geholfen.|der Polizist|El policía me ha ayudado.|37
+T|Ich kenne den [Polizisten] nicht.|der Polizist|No conozco al policía.|37
+T|Hast du schon mit dem [Praktikanten] gesprochen?|der Praktikant|¿Ya has hablado con el becario?|37
+T|Die [Studenten] wohnen in Köln.|der Student (Plural)|Los estudiantes viven en Colonia.|37
+T|Ich verstehe diesen [Menschen] nicht.|der Mensch|No entiendo a esta persona.|37
+S|Espero una respuesta de mi compañera.|Ich warte auf eine Antwort von meiner Kollegin.|21|warte;auf;Antwort;Kollegin
+S|Tenemos ganas de que llegue el verano.|Wir freuen uns auf den Sommer.|21|freuen;auf;Sommer
+S|Estoy contento con tu regalo.|Ich freue mich über dein Geschenk.;Ich bin froh über dein Geschenk.|21|über;dein;Geschenk
+S|Mi hermano piensa a menudo en su trabajo.|Mein Bruder denkt oft an seine Arbeit.;Mein Bruder denkt oft an seinen Job.|21|denkt;an;Arbeit/Job
+S|¿Quién cuida de la abuela?|Wer kümmert sich um die Oma?;Wer kümmert sich um die Großmutter?;Wer kümmert sich um Oma?|21|kümmert;um;Oma/Großmutter
+S|A Anna le interesa mucho el deporte.|Anna interessiert sich sehr für Sport.;Anna interessiert sich sehr für den Sport.|21|interessiert;für;Sport
+S|Me acuerdo de esta ciudad.|Ich erinnere mich an diese Stadt.|21|erinnere;an;Stadt
+S|Todavía no me he acostumbrado al ruido.|Ich habe mich noch nicht an den Lärm gewöhnt.|21|an;Lärm;gewöhnt
+S|¿Tienes miedo de los perros?|Hast du Angst vor Hunden?;Hast du Angst vor den Hunden?|21|Angst;vor;Hunden
+S|Depende del precio.|Das hängt vom Preis ab.;Das hängt von dem Preis ab.;Es hängt vom Preis ab.;Es hängt von dem Preis ab.|21|hängt;Preis;ab
+S|¿Con qué sueñas?|Wovon träumst du?|21|Wovon;träumst
+S|Pienso en ello todos los días.|Ich denke jeden Tag daran.;Jeden Tag denke ich daran.|21|denke;daran
+S|Hablamos de ello ayer.|Wir haben gestern darüber gesprochen.;Gestern haben wir darüber gesprochen.|21|haben;darüber;gesprochen
+S|Espera a su vecino.|Sie wartet auf ihren Nachbarn.|37|wartet;auf;Nachbarn
+S|Conozco a este cliente.|Ich kenne diesen Kunden.|37|kenne;diesen;Kunden
+S|Ayudo a menudo al chico.|Ich helfe dem Jungen oft.;Ich helfe oft dem Jungen.|37|helfe;dem;Jungen
+S|Hablamos con los estudiantes.|Wir sprechen mit den Studenten.|37|mit;den;Studenten
+S|¿Conoces al señor Schmidt?|Kennst du Herrn Schmidt?|37|Kennst;Herrn;Schmidt
+S|La médica interroga al paciente.|Die Ärztin fragt den Patienten.;Die Ärztin befragt den Patienten.|37|Ärztin;den;Patienten
+
+@b1-travail|B1|Buscar trabajo y trabajar|Buscar un puesto, explicar un objetivo y precisar de quién se habla con oraciones de relativo y el infinitivo con zu.
+F|22;23
+V|pres|laden;messen;wachsen;schlagen;gelten;erhalten;verlassen;abgeben;vorschlagen;teilnehmen
+V|prat|bieten;vorbereiten;feststellen
+P|sich bewerben>um;sich bewerben>bei;sich vorbereiten>auf;sich konzentrieren>auf;sich beschäftigen>mit;arbeiten>an;anfangen>mit;aufhören>mit;helfen>bei;telefonieren>mit;einladen>zu;sich verabreden>mit;sich treffen>mit;sich entscheiden>für;sich bedanken>für;zufrieden>mit;zuständig>für;stolz>auf;fertig>mit;die Lust>auf
+M|die Stelle;das Gehalt;der Vertrag;die Bewerbung;der Lebenslauf;das Vorstellungsgespräch;die Besprechung;die Überstunde;die E-Mail;die Aufgabe;arbeiten;verdienen;sich bewerben;kündigen;pünktlich;krankgeschrieben;Schönen Feierabend!
+M|die Notaufnahme;die Krankenkasse;die Versichertenkarte;die Krankmeldung;der Führerschein;fahren;einkaufen;helfen;nehmen;bringen;finden;bleiben;vergessen;laufen
+T|Die Chefin, [die] heute kommt, ist sehr nett.|die/der/den|La jefa que viene hoy es muy simpática.|22
+T|Der Kollege, [der] neben mir sitzt, heißt Jan.|der/den/dem|El compañero que se sienta a mi lado se llama Jan.|22
+T|Das Buch, [das] ich lese, ist sehr gut.|das/dem/die|El libro que estoy leyendo es muy bueno.|22
+T|Der Vertrag, [den] ich unterschreibe, ist neu.|der/den/dem|El contrato que firmo es nuevo.|22
+T|Die Stelle, [die] ich suche, ist in Hamburg.|die/der/den|El puesto que busco está en Hamburgo.|22
+T|Der Mann, [dem] ich helfe, kommt aus Polen.|der/den/dem|El hombre al que ayudo viene de Polonia.|22
+T|Die Kollegin, [der] ich die E-Mail schicke, arbeitet in Bonn.|die/der/den|La compañera a la que envío el correo trabaja en Bonn.|22
+T|Das Kind, [dem] wir helfen, ist neun Jahre alt.|das/den/dem|El niño al que ayudamos tiene nueve años.|22
+T|Die Leute, [die] hier arbeiten, sind freundlich.|der/die/denen|La gente que trabaja aquí es amable.|22
+T|Die Kunden, [denen] ich schreibe, wohnen in Wien.|die/denen/der|Los clientes a los que escribo viven en Viena.|22
+T|Die Firma, in [der] ich arbeite, ist klein.|die/der/das|La empresa en la que trabajo es pequeña.|22
+T|Der Kollege, mit [dem] ich spreche, ist mein Freund.|der/den/dem|El compañero con el que hablo es mi amigo.|22
+T|Die Besprechung, auf [die] wir warten, beginnt um zehn.|die/der/den|La reunión que esperamos empieza a las diez.|22
+T|Das ist alles, [was] ich habe.|was/das/die|Eso es todo lo que tengo.|22
+T|Der Mann, [dessen] Auto dort steht, ist mein Chef.|dessen/deren/dem|El hombre cuyo coche está allí es mi jefe.|22
+T|Die Frau, [deren] Sohn hier arbeitet, heißt Maria.|dessen/deren/der|La mujer cuyo hijo trabaja aquí se llama Maria.|22
+T|Der Kollege, der heute nicht [kommt], ist krank.|kommen|El compañero que no viene hoy está enfermo.|22
+T|Es ist wichtig, pünktlich [zu] sein.|zu/um/ohne|Es importante ser puntual.|23
+T|Hast du Zeit, mir [zu] helfen?|zu/um/ohne|¿Tienes tiempo para ayudarme?|23
+T|Es macht Spaß, im Team [zu] arbeiten.|zu/um/ohne|Es divertido trabajar en equipo.|23
+T|Ich versuche, heute früher [anzukommen].|ankommen|Intento llegar antes hoy.|23
+T|Hast du Lust, mit mir [einzukaufen]?|einkaufen|¿Te apetece hacer la compra conmigo?|23
+T|Er hat angefangen, die Küche [aufzuräumen].|aufräumen|Ha empezado a ordenar la cocina.|23
+T|Ich habe keine Zeit, dich [anzurufen].|anrufen|No tengo tiempo de llamarte.|23
+T|Wir planen, nächstes Jahr [umzuziehen].|umziehen|Tenemos previsto mudarnos el año que viene.|23
+T|Ich lerne Deutsch, [um] hier zu arbeiten.|um/damit/ohne|Aprendo alemán para trabajar aquí.|23
+T|Er arbeitet viel, [um] mehr Geld zu verdienen.|um/damit/ohne|Trabaja mucho para ganar más dinero.|23
+T|Der Chef erklärt alles, [damit] wir es verstehen.|um/damit/ohne|El jefe lo explica todo para que lo entendamos.|23
+T|Er ist gegangen, [ohne] die Rechnung zu bezahlen.|um/ohne/statt|Se fue sin pagar la factura.|23
+T|[Statt] zu lernen, spielt er Fußball.|um/ohne/statt|En lugar de estudiar, juega al fútbol.|23
+T|Ich kann heute nicht lange [bleiben].|bleiben|Hoy no puedo quedarme mucho tiempo.|23
+T|Ich gehe jeden Tag [schwimmen].|schwimmen|Voy a nadar todos los días.|23
+S|El hombre que trabaja aquí es mi compañero.|Der Mann, der hier arbeitet, ist mein Kollege.|22|der;arbeitet;Kollege
+S|La candidatura que he escrito es buena.|Die Bewerbung, die ich geschrieben habe, ist gut.|22|Bewerbung;die;geschrieben
+S|El contrato que leo es largo.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
+S|La compañera con la que hablo es simpática.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
+S|La gente a la que ayudo es simpática.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
+S|Esta es la ciudad donde vivo.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
+S|La empresa en la que trabajo está en Berlín.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|El compañero cuyo coche es viejo se llama Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
+S|Eso es todo lo que quiero.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
+S|Es importante hablar alemán.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
+S|Se me ha olvidado enviar el correo.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
+S|¿Te apetece hacer la compra?|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|Trabajo para ganar dinero.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
+S|Se fue sin pagar.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
+S|En lugar de trabajar, duerme.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
+S|Te llamo para que vengas.|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
+S|Intento encontrar un puesto.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
+S|Ha empezado a ordenar el piso.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|No tenemos tiempo de comer.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
+
+@b1-demarches|B1|Trámites y cartas|Entender las cartas oficiales con la pasiva y el genitivo, alquilar un piso y gestionar el banco y los papeles.
+F|24;25
+V|perf|stehlen;brechen;verbieten;brennen;hängen;wiegen;braten;gießen;fließen;springen;verschwinden;reiten;fangen
+P|sich anmelden>für;sich informieren>über;sich erkundigen>nach;sich beschweren>über;sich beschweren>bei;sich entschuldigen>für;sich entschuldigen>bei;sich wenden>an;sich verlassen>auf;achten>auf;aufpassen>auf;ausgeben>für;bestehen>aus;suchen>nach;gehören>zu;die Frage>nach;die Antwort>auf;der Grund>für;die Einladung>zu;die Lösung>für
+M|die Nebenkosten;der Vermieter;der Mieter;die Kaution;der Mietvertrag;das Amt;das Bürgeramt;die Anmeldung;die Behörde;das Formular;der Antrag;der Ausweis;der Reisepass;die Unterschrift;die Staatsangehörigkeit;der Wohnsitz;die Steuer
+M|die Steuernummer;die Versicherung;die Bank;das Konto;die Überweisung;der Geldautomat;der Brief;das Paket;die Frist;die Gebühr;der Rundfunkbeitrag;ausfüllen;unterschreiben;sich anmelden;beantragen;überweisen
+T|Das Paket [wird] heute gebracht.|werden|El paquete se trae hoy.|24
+T|Die Briefe [werden] am Montag geschickt.|werden|Las cartas se envían el lunes.|24
+T|Im Büro [wird] nicht geraucht.|werden|En la oficina no se fuma.|24
+T|Das Formular wird vom Amt [geprüft].|prüfen|El formulario lo revisa la administración.|24
+T|Der Vertrag wird heute [unterschrieben].|unterschreiben|El contrato se firma hoy.|24
+T|Das Konto [wurde] gestern geschlossen.|werden (Präteritum)|La cuenta se cerró ayer.|24
+T|Die Kaution [wurde] schon bezahlt.|werden (Präteritum)|La fianza ya se pagó.|24
+T|Das Haus wurde 1950 [gebaut].|bauen|La casa se construyó en 1950.|24
+T|Der Antrag [ist] abgelehnt worden.|sein (Perfekt Passiv)|La solicitud ha sido rechazada.|24
+T|Die Rechnung ist schon bezahlt [worden].|werden (Perfekt Passiv)|La factura ya ha sido pagada.|24
+T|Das Paket ist gestern abgeholt [worden].|werden (Perfekt Passiv)|El paquete fue recogido ayer.|24
+T|Die Gebühr [muss] pünktlich bezahlt werden.|müssen|La tasa debe pagarse a tiempo.|24
+T|Das Formular muss heute ausgefüllt [werden].|werden|El formulario debe rellenarse hoy.|24
+T|Der Ausweis kann hier beantragt [werden].|werden|El documento de identidad se puede solicitar aquí.|24
+T|Der Brief wird [von] der Chefin unterschrieben.|von/mit/durch|La carta la firma la jefa.|24
+T|Das Bürgeramt [ist] am Samstag geschlossen.|sein/werden|La oficina de atención ciudadana está cerrada los sábados.|24
+T|Das Bürgeramt [wird] um 16 Uhr geschlossen.|sein/werden|La oficina de atención ciudadana cierra a las 16 h.|24
+T|Das ist die Adresse [des] Vermieters.|der/des/dem|Esa es la dirección del casero.|25
+T|Der Name [der] Bank ist lang.|die/der/den|El nombre del banco es largo.|25
+T|Die Unterschrift [des] Mieters fehlt.|der/des/dem|Falta la firma del inquilino.|25
+T|Die Adresse [der] Eltern ist neu.|die/der/den|La dirección de los padres es nueva.|25
+T|Das Ende [des] Vertrags ist im Mai.|der/des/dem|El final del contrato es en mayo.|25
+T|Der Preis [eines] Autos ist hoch.|ein/eines/einem|El precio de un coche es alto.|25
+T|Die Kosten [meiner] Wohnung sind hoch.|meine/meiner/meinem|Los gastos de mi piso son altos.|25
+T|Das ist das Büro [meines] Chefs.|mein/meines/meinem|Esa es la oficina de mi jefe.|25
+T|Das ist der Vertrag des [Kollegen].|der Kollege|Ese es el contrato del compañero.|25
+T|Das ist [Annas] Konto.|Anna|Esa es la cuenta de Anna.|25
+T|[Wegen] des Streiks kommt die Post später.|wegen/trotz/während|Por la huelga, el correo llega más tarde.|25
+T|[Trotz] der Kälte gehen wir spazieren.|wegen/trotz/während|A pesar del frío, vamos a pasear.|25
+T|[Während] des Urlaubs arbeite ich nicht.|wegen/trotz/während|Durante las vacaciones no trabajo.|25
+T|Das Büro ist außerhalb [der] Stadt.|der/die/den|La oficina está fuera de la ciudad.|25
+T|Statt [einer] E-Mail schreibe ich einen Brief.|eine/einer/einem|En lugar de un correo, escribo una carta.|25
+S|La carta se envía hoy.|Der Brief wird heute geschickt.;Heute wird der Brief geschickt.;Der Brief wird heute verschickt.;Heute wird der Brief verschickt.|24|Brief;wird
+S|El formulario lo firma el inquilino.|Das Formular wird vom Mieter unterschrieben.;Das Formular wird von dem Mieter unterschrieben.|24|Formular;Mieter;unterschrieben;wird
+S|El banco está cerrado hoy.|Die Bank ist heute geschlossen.;Heute ist die Bank geschlossen.|24|Bank;ist;geschlossen
+S|El paquete se entregó ayer.|Das Paket wurde gestern geliefert.;Das Paket ist gestern geliefert worden.;Gestern wurde das Paket geliefert.;Gestern ist das Paket geliefert worden.|24|Paket;geliefert
+S|El alquiler se ha pagado.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
+S|El formulario debe rellenarse.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
+S|El contrato se puede firmar mañana.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
+S|Me han robado el pasaporte.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|Aquí se habla francés.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
+S|Mi solicitud ha sido rechazada.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
+S|Ese es el coche de mi casero.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter
+S|La fecha del contrato es incorrecta.|Das Datum des Vertrags ist falsch.;Das Datum des Vertrages ist falsch.;Das Datum vom Vertrag ist falsch.|25|Datum;falsch
+S|Aquí está la dirección del banco.|Hier ist die Adresse der Bank.;Das ist die Adresse der Bank.;Hier ist die Adresse von der Bank.;Das ist die Adresse von der Bank.|25|Adresse;Bank
+S|Los gastos de comunidad del piso son altos.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
+S|Por la lluvia me quedo en casa.|Wegen des Regens bleibe ich zu Hause.;Wegen dem Regen bleibe ich zu Hause.;Ich bleibe wegen des Regens zu Hause.;Ich bleibe wegen dem Regen zu Hause.|25|wegen;Hause
+S|A pesar de la lluvia, voy al banco.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
+S|Durante las vacaciones, el banco está cerrado.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
+S|Ese es el pasaporte de Lena.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena

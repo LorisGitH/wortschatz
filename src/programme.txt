@@ -508,3 +508,178 @@ S|Pourriez-vous ouvrir la fenêtre ?|Könnten Sie das Fenster öffnen?;Könnten 
 S|Tu devrais moins travailler.|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|J'aimerais un verre d'eau.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|Si j'avais le temps, je viendrais.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte
+
+@b1-echanger|B1|Échanger et s'entendre|Réagir et parler de ce qui nous touche avec les bonnes prépositions, décrire les gens et les choses, soigner la déclinaison faible.
+F|21;37
+V|pres|raten;leihen;riechen;lügen;vergleichen;entscheiden
+V|prat|streiten;schreien;beißen;klingen;frieren;genießen;leiden
+P|warten>auf;sich freuen>auf;sich freuen>über;denken>an;sich kümmern>um;sich interessieren>für;sich ärgern>über;fragen>nach;teilnehmen>an;Angst haben>vor;abhängen>von;sich gewöhnen>an;sich erinnern>an;träumen>von;sprechen>mit;sprechen>über;sich unterhalten>über;erzählen>von;bitten>um;antworten>auf
+M|voll;leer;wichtig;laut;leise;sauber;schmutzig;nah;freundlich;glücklich;traurig;froh;böse;fertig;frei;besetzt;kaputt;sicher
+M|sein;haben;mögen;gehen;kommen;sprechen;wissen;kennen;sehen;lesen;schreiben;essen;trinken;schlafen;geben
+T|Wir warten schon lange [auf] den Zug.|warten|Nous attendons le train depuis longtemps.|21
+T|Ich freue mich sehr [auf] die Ferien.|sich freuen (auf/über)|J'ai très hâte d'être en vacances.|21
+T|Sie freut sich [über] die Blumen.|sich freuen (auf/über)|Elle est contente des fleurs.|21
+T|Er denkt jeden Tag [an] seine Tochter.|denken|Il pense tous les jours à sa fille.|21
+T|Meine Schwester kümmert sich [um] unsere Eltern.|sich kümmern|Ma sœur s'occupe de nos parents.|21
+T|Interessierst du dich [für] Musik?|sich interessieren|Est-ce que tu t'intéresses à la musique ?|21
+T|Mein Vater ärgert sich [über] die Nachbarn.|sich ärgern|Mon père est agacé par les voisins.|21
+T|Der Tourist fragt [nach] dem Bahnhof.|fragen|Le touriste demande où est la gare.|21
+T|Mein Bruder nimmt [an] einem Deutschkurs teil.|teilnehmen|Mon frère participe à un cours d'allemand.|21
+T|Das Kind hat Angst [vor] dem Hund.|Angst haben|L'enfant a peur du chien.|21
+T|Es hängt [von] dir ab.|abhängen|Ça dépend de toi.|21
+T|Hast du dich schon [an] die Kälte gewöhnt?|sich gewöhnen|T'es-tu déjà habitué au froid ?|21
+T|Ich erinnere mich gut [an] meine Oma.|sich erinnern|Je me souviens bien de ma grand-mère.|21
+T|Er träumt [von] einem großen Haus.|träumen|Il rêve d'une grande maison.|21
+T|[Worauf] wartet ihr?|wo- + auf|Qu'est-ce que vous attendez ?|21
+T|[Woran] erinnerst du dich?|wo- + an|De quoi te souviens-tu ?|21
+T|[Worüber] habt ihr gesprochen?|wo- + über|De quoi avez-vous parlé ?|21
+T|[Wofür] interessiert sich Max?|wo- + für|À quoi Max s'intéresse-t-il ?|21
+T|Das Geschenk ist schön, ich freue mich [darüber].|da- + über|Le cadeau est beau, j'en suis content.|21
+T|Der Urlaub kommt bald, wir freuen uns schon [darauf].|da- + auf|Les vacances arrivent bientôt, nous avons déjà hâte d'y être.|21
+T|Auf [wen] warten die Kinder?|auf (Person)|Qui les enfants attendent-ils ?|21
+T|Ich sehe den [Kollegen] im Büro.|der Kollege|Je vois le collègue au bureau.|37
+T|Wir sprechen mit dem [Studenten].|der Student|Nous parlons avec l'étudiant.|37
+T|Morgen besuche ich meinen [Nachbarn].|der Nachbar|Demain je rends visite à mon voisin.|37
+T|Der Arzt hilft dem [Jungen].|der Junge|Le médecin aide le garçon.|37
+T|Der Kellner bringt dem [Kunden] die Rechnung.|der Kunde|Le serveur apporte l'addition au client.|37
+T|Ich habe [Herrn] Weber geschrieben.|der Herr|J'ai écrit à monsieur Weber.|37
+T|Der [Polizist] hat mir geholfen.|der Polizist|Le policier m'a aidé.|37
+T|Ich kenne den [Polizisten] nicht.|der Polizist|Je ne connais pas le policier.|37
+T|Hast du schon mit dem [Praktikanten] gesprochen?|der Praktikant|As-tu déjà parlé au stagiaire ?|37
+T|Die [Studenten] wohnen in Köln.|der Student (Plural)|Les étudiants habitent à Cologne.|37
+T|Ich verstehe diesen [Menschen] nicht.|der Mensch|Je ne comprends pas cette personne.|37
+S|J'attends une réponse de ma collègue.|Ich warte auf eine Antwort von meiner Kollegin.|21|warte;auf;Antwort;Kollegin
+S|Nous avons hâte d'être en été.|Wir freuen uns auf den Sommer.|21|freuen;auf;Sommer
+S|Je suis content de ton cadeau.|Ich freue mich über dein Geschenk.;Ich bin froh über dein Geschenk.|21|über;dein;Geschenk
+S|Mon frère pense souvent à son travail.|Mein Bruder denkt oft an seine Arbeit.;Mein Bruder denkt oft an seinen Job.|21|denkt;an;Arbeit/Job
+S|Qui s'occupe de la grand-mère ?|Wer kümmert sich um die Oma?;Wer kümmert sich um die Großmutter?;Wer kümmert sich um Oma?|21|kümmert;um;Oma/Großmutter
+S|Anna s'intéresse beaucoup au sport.|Anna interessiert sich sehr für Sport.;Anna interessiert sich sehr für den Sport.|21|interessiert;für;Sport
+S|Je me souviens de cette ville.|Ich erinnere mich an diese Stadt.|21|erinnere;an;Stadt
+S|Je ne me suis pas encore habitué au bruit.|Ich habe mich noch nicht an den Lärm gewöhnt.|21|an;Lärm;gewöhnt
+S|As-tu peur des chiens ?|Hast du Angst vor Hunden?;Hast du Angst vor den Hunden?|21|Angst;vor;Hunden
+S|Ça dépend du prix.|Das hängt vom Preis ab.;Das hängt von dem Preis ab.;Es hängt vom Preis ab.;Es hängt von dem Preis ab.|21|hängt;Preis;ab
+S|De quoi rêves-tu ?|Wovon träumst du?|21|Wovon;träumst
+S|J'y pense tous les jours.|Ich denke jeden Tag daran.;Jeden Tag denke ich daran.|21|denke;daran
+S|Nous en avons parlé hier.|Wir haben gestern darüber gesprochen.;Gestern haben wir darüber gesprochen.|21|haben;darüber;gesprochen
+S|Elle attend son voisin.|Sie wartet auf ihren Nachbarn.|37|wartet;auf;Nachbarn
+S|Je connais ce client.|Ich kenne diesen Kunden.|37|kenne;diesen;Kunden
+S|J'aide souvent le garçon.|Ich helfe dem Jungen oft.;Ich helfe oft dem Jungen.|37|helfe;dem;Jungen
+S|Nous parlons avec les étudiants.|Wir sprechen mit den Studenten.|37|mit;den;Studenten
+S|Connais-tu monsieur Schmidt ?|Kennst du Herrn Schmidt?|37|Kennst;Herrn;Schmidt
+S|La médecin interroge le patient.|Die Ärztin fragt den Patienten.;Die Ärztin befragt den Patienten.|37|Ärztin;den;Patienten
+
+@b1-travail|B1|Postuler et travailler|Chercher un poste, expliquer un but, préciser de qui on parle avec les relatives et l'infinitif avec zu.
+F|22;23
+V|pres|laden;messen;wachsen;schlagen;gelten;erhalten;verlassen;abgeben;vorschlagen;teilnehmen
+V|prat|bieten;vorbereiten;feststellen
+P|sich bewerben>um;sich bewerben>bei;sich vorbereiten>auf;sich konzentrieren>auf;sich beschäftigen>mit;arbeiten>an;anfangen>mit;aufhören>mit;helfen>bei;telefonieren>mit;einladen>zu;sich verabreden>mit;sich treffen>mit;sich entscheiden>für;sich bedanken>für;zufrieden>mit;zuständig>für;stolz>auf;fertig>mit;die Lust>auf
+M|die Stelle;das Gehalt;der Vertrag;die Bewerbung;der Lebenslauf;das Vorstellungsgespräch;die Besprechung;die Überstunde;die E-Mail;die Aufgabe;arbeiten;verdienen;sich bewerben;kündigen;pünktlich;krankgeschrieben;Schönen Feierabend!
+M|die Notaufnahme;die Krankenkasse;die Versichertenkarte;die Krankmeldung;der Führerschein;fahren;einkaufen;helfen;nehmen;bringen;finden;bleiben;vergessen;laufen
+T|Die Chefin, [die] heute kommt, ist sehr nett.|die/der/den|La chef qui vient aujourd'hui est très gentille.|22
+T|Der Kollege, [der] neben mir sitzt, heißt Jan.|der/den/dem|Le collègue assis à côté de moi s'appelle Jan.|22
+T|Das Buch, [das] ich lese, ist sehr gut.|das/dem/die|Le livre que je lis est très bon.|22
+T|Der Vertrag, [den] ich unterschreibe, ist neu.|der/den/dem|Le contrat que je signe est nouveau.|22
+T|Die Stelle, [die] ich suche, ist in Hamburg.|die/der/den|Le poste que je cherche est à Hambourg.|22
+T|Der Mann, [dem] ich helfe, kommt aus Polen.|der/den/dem|L'homme que j'aide vient de Pologne.|22
+T|Die Kollegin, [der] ich die E-Mail schicke, arbeitet in Bonn.|die/der/den|La collègue à qui j'envoie l'e-mail travaille à Bonn.|22
+T|Das Kind, [dem] wir helfen, ist neun Jahre alt.|das/den/dem|L'enfant que nous aidons a neuf ans.|22
+T|Die Leute, [die] hier arbeiten, sind freundlich.|der/die/denen|Les gens qui travaillent ici sont aimables.|22
+T|Die Kunden, [denen] ich schreibe, wohnen in Wien.|die/denen/der|Les clients à qui j'écris habitent à Vienne.|22
+T|Die Firma, in [der] ich arbeite, ist klein.|die/der/das|L'entreprise dans laquelle je travaille est petite.|22
+T|Der Kollege, mit [dem] ich spreche, ist mein Freund.|der/den/dem|Le collègue avec qui je parle est mon ami.|22
+T|Die Besprechung, auf [die] wir warten, beginnt um zehn.|die/der/den|La réunion que nous attendons commence à dix heures.|22
+T|Das ist alles, [was] ich habe.|was/das/die|C'est tout ce que j'ai.|22
+T|Der Mann, [dessen] Auto dort steht, ist mein Chef.|dessen/deren/dem|L'homme dont la voiture est là-bas est mon chef.|22
+T|Die Frau, [deren] Sohn hier arbeitet, heißt Maria.|dessen/deren/der|La femme dont le fils travaille ici s'appelle Maria.|22
+T|Der Kollege, der heute nicht [kommt], ist krank.|kommen|Le collègue qui ne vient pas aujourd'hui est malade.|22
+T|Es ist wichtig, pünktlich [zu] sein.|zu/um/ohne|Il est important d'être ponctuel.|23
+T|Hast du Zeit, mir [zu] helfen?|zu/um/ohne|As-tu le temps de m'aider ?|23
+T|Es macht Spaß, im Team [zu] arbeiten.|zu/um/ohne|C'est amusant de travailler en équipe.|23
+T|Ich versuche, heute früher [anzukommen].|ankommen|J'essaie d'arriver plus tôt aujourd'hui.|23
+T|Hast du Lust, mit mir [einzukaufen]?|einkaufen|As-tu envie de faire les courses avec moi ?|23
+T|Er hat angefangen, die Küche [aufzuräumen].|aufräumen|Il a commencé à ranger la cuisine.|23
+T|Ich habe keine Zeit, dich [anzurufen].|anrufen|Je n'ai pas le temps de t'appeler.|23
+T|Wir planen, nächstes Jahr [umzuziehen].|umziehen|Nous prévoyons de déménager l'année prochaine.|23
+T|Ich lerne Deutsch, [um] hier zu arbeiten.|um/damit/ohne|J'apprends l'allemand pour travailler ici.|23
+T|Er arbeitet viel, [um] mehr Geld zu verdienen.|um/damit/ohne|Il travaille beaucoup pour gagner plus d'argent.|23
+T|Der Chef erklärt alles, [damit] wir es verstehen.|um/damit/ohne|Le chef explique tout pour que nous comprenions.|23
+T|Er ist gegangen, [ohne] die Rechnung zu bezahlen.|um/ohne/statt|Il est parti sans payer la facture.|23
+T|[Statt] zu lernen, spielt er Fußball.|um/ohne/statt|Au lieu d'étudier, il joue au foot.|23
+T|Ich kann heute nicht lange [bleiben].|bleiben|Je ne peux pas rester longtemps aujourd'hui.|23
+T|Ich gehe jeden Tag [schwimmen].|schwimmen|Je vais nager tous les jours.|23
+S|L'homme qui travaille ici est mon collègue.|Der Mann, der hier arbeitet, ist mein Kollege.|22|der;arbeitet;Kollege
+S|La candidature que j'ai écrite est bonne.|Die Bewerbung, die ich geschrieben habe, ist gut.|22|Bewerbung;die;geschrieben
+S|Le contrat que je lis est long.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
+S|La collègue avec qui je parle est gentille.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
+S|Les gens que j'aide sont gentils.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
+S|C'est la ville où j'habite.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
+S|L'entreprise dans laquelle je travaille est à Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|Le collègue dont la voiture est vieille s'appelle Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
+S|C'est tout ce que je veux.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
+S|Il est important de parler allemand.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
+S|J'ai oublié d'envoyer l'e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
+S|As-tu envie de faire les courses ?|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|Je travaille pour gagner de l'argent.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
+S|Il est parti sans payer.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
+S|Au lieu de travailler, il dort.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
+S|Je t'appelle pour que tu viennes.|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
+S|J'essaie de trouver un poste.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
+S|Il a commencé à ranger l'appartement.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|Nous n'avons pas le temps de manger.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
+
+@b1-demarches|B1|Démarches et courriers|Comprendre les courriers officiels grâce au passif et au génitif, louer un appartement, gérer sa banque et ses papiers.
+F|24;25
+V|perf|stehlen;brechen;verbieten;brennen;hängen;wiegen;braten;gießen;fließen;springen;verschwinden;reiten;fangen
+P|sich anmelden>für;sich informieren>über;sich erkundigen>nach;sich beschweren>über;sich beschweren>bei;sich entschuldigen>für;sich entschuldigen>bei;sich wenden>an;sich verlassen>auf;achten>auf;aufpassen>auf;ausgeben>für;bestehen>aus;suchen>nach;gehören>zu;die Frage>nach;die Antwort>auf;der Grund>für;die Einladung>zu;die Lösung>für
+M|die Nebenkosten;der Vermieter;der Mieter;die Kaution;der Mietvertrag;das Amt;das Bürgeramt;die Anmeldung;die Behörde;das Formular;der Antrag;der Ausweis;der Reisepass;die Unterschrift;die Staatsangehörigkeit;der Wohnsitz;die Steuer
+M|die Steuernummer;die Versicherung;die Bank;das Konto;die Überweisung;der Geldautomat;der Brief;das Paket;die Frist;die Gebühr;der Rundfunkbeitrag;ausfüllen;unterschreiben;sich anmelden;beantragen;überweisen
+T|Das Paket [wird] heute gebracht.|werden|Le colis est apporté aujourd'hui.|24
+T|Die Briefe [werden] am Montag geschickt.|werden|Les lettres sont envoyées lundi.|24
+T|Im Büro [wird] nicht geraucht.|werden|Au bureau, on ne fume pas.|24
+T|Das Formular wird vom Amt [geprüft].|prüfen|Le formulaire est vérifié par l'administration.|24
+T|Der Vertrag wird heute [unterschrieben].|unterschreiben|Le contrat est signé aujourd'hui.|24
+T|Das Konto [wurde] gestern geschlossen.|werden (Präteritum)|Le compte a été fermé hier.|24
+T|Die Kaution [wurde] schon bezahlt.|werden (Präteritum)|La caution a déjà été payée.|24
+T|Das Haus wurde 1950 [gebaut].|bauen|La maison a été construite en 1950.|24
+T|Der Antrag [ist] abgelehnt worden.|sein (Perfekt Passiv)|La demande a été refusée.|24
+T|Die Rechnung ist schon bezahlt [worden].|werden (Perfekt Passiv)|La facture a déjà été payée.|24
+T|Das Paket ist gestern abgeholt [worden].|werden (Perfekt Passiv)|Le colis a été retiré hier.|24
+T|Die Gebühr [muss] pünktlich bezahlt werden.|müssen|La taxe doit être payée à temps.|24
+T|Das Formular muss heute ausgefüllt [werden].|werden|Le formulaire doit être rempli aujourd'hui.|24
+T|Der Ausweis kann hier beantragt [werden].|werden|La carte d'identité peut être demandée ici.|24
+T|Der Brief wird [von] der Chefin unterschrieben.|von/mit/durch|La lettre est signée par la chef.|24
+T|Das Bürgeramt [ist] am Samstag geschlossen.|sein/werden|Le bureau des citoyens est fermé le samedi.|24
+T|Das Bürgeramt [wird] um 16 Uhr geschlossen.|sein/werden|Le bureau des citoyens ferme à 16 h.|24
+T|Das ist die Adresse [des] Vermieters.|der/des/dem|C'est l'adresse du propriétaire.|25
+T|Der Name [der] Bank ist lang.|die/der/den|Le nom de la banque est long.|25
+T|Die Unterschrift [des] Mieters fehlt.|der/des/dem|La signature du locataire manque.|25
+T|Die Adresse [der] Eltern ist neu.|die/der/den|L'adresse des parents est nouvelle.|25
+T|Das Ende [des] Vertrags ist im Mai.|der/des/dem|La fin du contrat est en mai.|25
+T|Der Preis [eines] Autos ist hoch.|ein/eines/einem|Le prix d'une voiture est élevé.|25
+T|Die Kosten [meiner] Wohnung sind hoch.|meine/meiner/meinem|Les frais de mon appartement sont élevés.|25
+T|Das ist das Büro [meines] Chefs.|mein/meines/meinem|C'est le bureau de mon chef.|25
+T|Das ist der Vertrag des [Kollegen].|der Kollege|C'est le contrat du collègue.|25
+T|Das ist [Annas] Konto.|Anna|C'est le compte d'Anna.|25
+T|[Wegen] des Streiks kommt die Post später.|wegen/trotz/während|À cause de la grève, le courrier arrive plus tard.|25
+T|[Trotz] der Kälte gehen wir spazieren.|wegen/trotz/während|Malgré le froid, nous allons nous promener.|25
+T|[Während] des Urlaubs arbeite ich nicht.|wegen/trotz/während|Pendant les vacances, je ne travaille pas.|25
+T|Das Büro ist außerhalb [der] Stadt.|der/die/den|Le bureau est en dehors de la ville.|25
+T|Statt [einer] E-Mail schreibe ich einen Brief.|eine/einer/einem|Au lieu d'un e-mail, j'écris une lettre.|25
+S|La lettre est envoyée aujourd'hui.|Der Brief wird heute geschickt.;Heute wird der Brief geschickt.;Der Brief wird heute verschickt.;Heute wird der Brief verschickt.|24|Brief;wird
+S|Le formulaire est signé par le locataire.|Das Formular wird vom Mieter unterschrieben.;Das Formular wird von dem Mieter unterschrieben.|24|Formular;Mieter;unterschrieben;wird
+S|La banque est fermée aujourd'hui.|Die Bank ist heute geschlossen.;Heute ist die Bank geschlossen.|24|Bank;ist;geschlossen
+S|Le colis a été livré hier.|Das Paket wurde gestern geliefert.;Das Paket ist gestern geliefert worden.;Gestern wurde das Paket geliefert.;Gestern ist das Paket geliefert worden.|24|Paket;geliefert
+S|Le loyer a été payé.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
+S|Le formulaire doit être rempli.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
+S|Le contrat peut être signé demain.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
+S|Mon passeport a été volé.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|Ici, on parle français.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
+S|Ma demande a été refusée.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
+S|C'est la voiture de mon propriétaire.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter
+S|La date du contrat est fausse.|Das Datum des Vertrags ist falsch.;Das Datum des Vertrages ist falsch.;Das Datum vom Vertrag ist falsch.|25|Datum;falsch
+S|Voici l'adresse de la banque.|Hier ist die Adresse der Bank.;Das ist die Adresse der Bank.;Hier ist die Adresse von der Bank.;Das ist die Adresse von der Bank.|25|Adresse;Bank
+S|Les charges de l'appartement sont élevées.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
+S|À cause de la pluie, je reste à la maison.|Wegen des Regens bleibe ich zu Hause.;Wegen dem Regen bleibe ich zu Hause.;Ich bleibe wegen des Regens zu Hause.;Ich bleibe wegen dem Regen zu Hause.|25|wegen;Hause
+S|Malgré la pluie, je vais à la banque.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
+S|Pendant les vacances, la banque est fermée.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
+S|C'est le passeport de Lena.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena

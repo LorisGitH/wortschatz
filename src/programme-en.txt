@@ -508,3 +508,178 @@ S|Could you open the window? (Sie or ihr)|Könnten Sie das Fenster öffnen?;Kön
 S|You should work less. (du)|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|I would like a glass of water.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|If I had time, I would come.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte
+
+@b1-echanger|B1|Talking and getting along|React and talk about what matters using the right prepositions, describe people and things, and handle weak nouns.
+F|21;37
+V|pres|raten;leihen;riechen;lügen;vergleichen;entscheiden
+V|prat|streiten;schreien;beißen;klingen;frieren;genießen;leiden
+P|warten>auf;sich freuen>auf;sich freuen>über;denken>an;sich kümmern>um;sich interessieren>für;sich ärgern>über;fragen>nach;teilnehmen>an;Angst haben>vor;abhängen>von;sich gewöhnen>an;sich erinnern>an;träumen>von;sprechen>mit;sprechen>über;sich unterhalten>über;erzählen>von;bitten>um;antworten>auf
+M|voll;leer;wichtig;laut;leise;sauber;schmutzig;nah;freundlich;glücklich;traurig;froh;böse;fertig;frei;besetzt;kaputt;sicher
+M|sein;haben;mögen;gehen;kommen;sprechen;wissen;kennen;sehen;lesen;schreiben;essen;trinken;schlafen;geben
+T|Wir warten schon lange [auf] den Zug.|warten|We have been waiting for the train for a long time.|21
+T|Ich freue mich sehr [auf] die Ferien.|sich freuen (auf/über)|I am really looking forward to the holidays.|21
+T|Sie freut sich [über] die Blumen.|sich freuen (auf/über)|She is pleased with the flowers.|21
+T|Er denkt jeden Tag [an] seine Tochter.|denken|He thinks about his daughter every day.|21
+T|Meine Schwester kümmert sich [um] unsere Eltern.|sich kümmern|My sister takes care of our parents.|21
+T|Interessierst du dich [für] Musik?|sich interessieren|Are you interested in music?|21
+T|Mein Vater ärgert sich [über] die Nachbarn.|sich ärgern|My father is annoyed with the neighbours.|21
+T|Der Tourist fragt [nach] dem Bahnhof.|fragen|The tourist asks where the station is.|21
+T|Mein Bruder nimmt [an] einem Deutschkurs teil.|teilnehmen|My brother is taking part in a German course.|21
+T|Das Kind hat Angst [vor] dem Hund.|Angst haben|The child is afraid of the dog.|21
+T|Es hängt [von] dir ab.|abhängen|It depends on you.|21
+T|Hast du dich schon [an] die Kälte gewöhnt?|sich gewöhnen|Have you got used to the cold yet?|21
+T|Ich erinnere mich gut [an] meine Oma.|sich erinnern|I remember my grandma well.|21
+T|Er träumt [von] einem großen Haus.|träumen|He dreams of a big house.|21
+T|[Worauf] wartet ihr?|wo- + auf|What are you waiting for?|21
+T|[Woran] erinnerst du dich?|wo- + an|What do you remember?|21
+T|[Worüber] habt ihr gesprochen?|wo- + über|What did you talk about?|21
+T|[Wofür] interessiert sich Max?|wo- + für|What is Max interested in?|21
+T|Das Geschenk ist schön, ich freue mich [darüber].|da- + über|The present is lovely, I am pleased with it.|21
+T|Der Urlaub kommt bald, wir freuen uns schon [darauf].|da- + auf|The holidays are coming soon, we are already looking forward to them.|21
+T|Auf [wen] warten die Kinder?|auf (Person)|Who are the children waiting for?|21
+T|Ich sehe den [Kollegen] im Büro.|der Kollege|I see the colleague at the office.|37
+T|Wir sprechen mit dem [Studenten].|der Student|We are talking to the student.|37
+T|Morgen besuche ich meinen [Nachbarn].|der Nachbar|Tomorrow I am visiting my neighbour.|37
+T|Der Arzt hilft dem [Jungen].|der Junge|The doctor helps the boy.|37
+T|Der Kellner bringt dem [Kunden] die Rechnung.|der Kunde|The waiter brings the customer the bill.|37
+T|Ich habe [Herrn] Weber geschrieben.|der Herr|I wrote to Mr Weber.|37
+T|Der [Polizist] hat mir geholfen.|der Polizist|The policeman helped me.|37
+T|Ich kenne den [Polizisten] nicht.|der Polizist|I don't know the policeman.|37
+T|Hast du schon mit dem [Praktikanten] gesprochen?|der Praktikant|Have you already talked to the intern?|37
+T|Die [Studenten] wohnen in Köln.|der Student (Plural)|The students live in Cologne.|37
+T|Ich verstehe diesen [Menschen] nicht.|der Mensch|I don't understand this person.|37
+S|I am waiting for an answer from my colleague (woman).|Ich warte auf eine Antwort von meiner Kollegin.|21|warte;auf;Antwort;Kollegin
+S|We are looking forward to the summer.|Wir freuen uns auf den Sommer.|21|freuen;auf;Sommer
+S|I am pleased with your present. (du)|Ich freue mich über dein Geschenk.;Ich bin froh über dein Geschenk.|21|über;dein;Geschenk
+S|My brother often thinks about his work.|Mein Bruder denkt oft an seine Arbeit.;Mein Bruder denkt oft an seinen Job.|21|denkt;an;Arbeit/Job
+S|Who is taking care of grandmother?|Wer kümmert sich um die Oma?;Wer kümmert sich um die Großmutter?;Wer kümmert sich um Oma?|21|kümmert;um;Oma/Großmutter
+S|Anna is very interested in sport.|Anna interessiert sich sehr für Sport.;Anna interessiert sich sehr für den Sport.|21|interessiert;für;Sport
+S|I remember this town.|Ich erinnere mich an diese Stadt.|21|erinnere;an;Stadt
+S|I have not got used to the noise yet.|Ich habe mich noch nicht an den Lärm gewöhnt.|21|an;Lärm;gewöhnt
+S|Are you afraid of dogs? (du)|Hast du Angst vor Hunden?;Hast du Angst vor den Hunden?|21|Angst;vor;Hunden
+S|It depends on the price.|Das hängt vom Preis ab.;Das hängt von dem Preis ab.;Es hängt vom Preis ab.;Es hängt von dem Preis ab.|21|hängt;Preis;ab
+S|What do you dream of? (du)|Wovon träumst du?|21|Wovon;träumst
+S|I think about it every day.|Ich denke jeden Tag daran.;Jeden Tag denke ich daran.|21|denke;daran
+S|We talked about it yesterday.|Wir haben gestern darüber gesprochen.;Gestern haben wir darüber gesprochen.|21|haben;darüber;gesprochen
+S|She is waiting for her neighbour (man).|Sie wartet auf ihren Nachbarn.|37|wartet;auf;Nachbarn
+S|I know this customer (man).|Ich kenne diesen Kunden.|37|kenne;diesen;Kunden
+S|I often help the boy.|Ich helfe dem Jungen oft.;Ich helfe oft dem Jungen.|37|helfe;dem;Jungen
+S|We are talking to the students.|Wir sprechen mit den Studenten.|37|mit;den;Studenten
+S|Do you know Mr Schmidt? (du)|Kennst du Herrn Schmidt?|37|Kennst;Herrn;Schmidt
+S|The doctor (woman) questions the patient (man).|Die Ärztin fragt den Patienten.;Die Ärztin befragt den Patienten.|37|Ärztin;den;Patienten
+
+@b1-travail|B1|Applying and working|Look for a job, explain a goal, and say who you mean with relative clauses and the infinitive with zu.
+F|22;23
+V|pres|laden;messen;wachsen;schlagen;gelten;erhalten;verlassen;abgeben;vorschlagen;teilnehmen
+V|prat|bieten;vorbereiten;feststellen
+P|sich bewerben>um;sich bewerben>bei;sich vorbereiten>auf;sich konzentrieren>auf;sich beschäftigen>mit;arbeiten>an;anfangen>mit;aufhören>mit;helfen>bei;telefonieren>mit;einladen>zu;sich verabreden>mit;sich treffen>mit;sich entscheiden>für;sich bedanken>für;zufrieden>mit;zuständig>für;stolz>auf;fertig>mit;die Lust>auf
+M|die Stelle;das Gehalt;der Vertrag;die Bewerbung;der Lebenslauf;das Vorstellungsgespräch;die Besprechung;die Überstunde;die E-Mail;die Aufgabe;arbeiten;verdienen;sich bewerben;kündigen;pünktlich;krankgeschrieben;Schönen Feierabend!
+M|die Notaufnahme;die Krankenkasse;die Versichertenkarte;die Krankmeldung;der Führerschein;fahren;einkaufen;helfen;nehmen;bringen;finden;bleiben;vergessen;laufen
+T|Die Chefin, [die] heute kommt, ist sehr nett.|die/der/den|The boss (woman) who is coming today is very nice.|22
+T|Der Kollege, [der] neben mir sitzt, heißt Jan.|der/den/dem|The colleague (man) who sits next to me is called Jan.|22
+T|Das Buch, [das] ich lese, ist sehr gut.|das/dem/die|The book I am reading is very good.|22
+T|Der Vertrag, [den] ich unterschreibe, ist neu.|der/den/dem|The contract I am signing is new.|22
+T|Die Stelle, [die] ich suche, ist in Hamburg.|die/der/den|The job I am looking for is in Hamburg.|22
+T|Der Mann, [dem] ich helfe, kommt aus Polen.|der/den/dem|The man I am helping comes from Poland.|22
+T|Die Kollegin, [der] ich die E-Mail schicke, arbeitet in Bonn.|die/der/den|The colleague (woman) I am sending the e-mail to works in Bonn.|22
+T|Das Kind, [dem] wir helfen, ist neun Jahre alt.|das/den/dem|The child we are helping is nine years old.|22
+T|Die Leute, [die] hier arbeiten, sind freundlich.|der/die/denen|The people who work here are friendly.|22
+T|Die Kunden, [denen] ich schreibe, wohnen in Wien.|die/denen/der|The customers I am writing to live in Vienna.|22
+T|Die Firma, in [der] ich arbeite, ist klein.|die/der/das|The company I work for is small.|22
+T|Der Kollege, mit [dem] ich spreche, ist mein Freund.|der/den/dem|The colleague (man) I am talking to is my friend.|22
+T|Die Besprechung, auf [die] wir warten, beginnt um zehn.|die/der/den|The meeting we are waiting for starts at ten.|22
+T|Das ist alles, [was] ich habe.|was/das/die|That is all I have.|22
+T|Der Mann, [dessen] Auto dort steht, ist mein Chef.|dessen/deren/dem|The man whose car is over there is my boss.|22
+T|Die Frau, [deren] Sohn hier arbeitet, heißt Maria.|dessen/deren/der|The woman whose son works here is called Maria.|22
+T|Der Kollege, der heute nicht [kommt], ist krank.|kommen|The colleague (man) who is not coming today is ill.|22
+T|Es ist wichtig, pünktlich [zu] sein.|zu/um/ohne|It is important to be on time.|23
+T|Hast du Zeit, mir [zu] helfen?|zu/um/ohne|Do you have time to help me?|23
+T|Es macht Spaß, im Team [zu] arbeiten.|zu/um/ohne|It is fun to work in a team.|23
+T|Ich versuche, heute früher [anzukommen].|ankommen|I am trying to arrive earlier today.|23
+T|Hast du Lust, mit mir [einzukaufen]?|einkaufen|Do you feel like going shopping with me?|23
+T|Er hat angefangen, die Küche [aufzuräumen].|aufräumen|He has started tidying the kitchen.|23
+T|Ich habe keine Zeit, dich [anzurufen].|anrufen|I have no time to call you.|23
+T|Wir planen, nächstes Jahr [umzuziehen].|umziehen|We are planning to move next year.|23
+T|Ich lerne Deutsch, [um] hier zu arbeiten.|um/damit/ohne|I am learning German in order to work here.|23
+T|Er arbeitet viel, [um] mehr Geld zu verdienen.|um/damit/ohne|He works a lot in order to earn more money.|23
+T|Der Chef erklärt alles, [damit] wir es verstehen.|um/damit/ohne|The boss explains everything so that we understand it.|23
+T|Er ist gegangen, [ohne] die Rechnung zu bezahlen.|um/ohne/statt|He left without paying the bill.|23
+T|[Statt] zu lernen, spielt er Fußball.|um/ohne/statt|Instead of studying, he plays football.|23
+T|Ich kann heute nicht lange [bleiben].|bleiben|I can't stay long today.|23
+T|Ich gehe jeden Tag [schwimmen].|schwimmen|I go swimming every day.|23
+S|The man who works here is my colleague.|Der Mann, der hier arbeitet, ist mein Kollege.|22|der;arbeitet;Kollege
+S|The application I wrote is good.|Die Bewerbung, die ich geschrieben habe, ist gut.|22|Bewerbung;die;geschrieben
+S|The contract I am reading is long.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
+S|The colleague (woman) I am talking to is nice.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
+S|The people I help are nice.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
+S|This is the town where I live.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
+S|The company I work for is in Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|The colleague (man) whose car is old is called Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
+S|That is all I want.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
+S|It is important to speak German.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
+S|I forgot to send the e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
+S|Do you feel like going shopping? (du)|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|I work in order to earn money.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
+S|He left without paying.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
+S|Instead of working, he is sleeping.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
+S|I am calling you so that you come. (du)|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
+S|I am trying to find a job.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
+S|He has started tidying the flat.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|We have no time to eat.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
+
+@b1-demarches|B1|Paperwork and letters|Understand official letters with the passive and the genitive, rent a flat, and manage your bank and your papers.
+F|24;25
+V|perf|stehlen;brechen;verbieten;brennen;hängen;wiegen;braten;gießen;fließen;springen;verschwinden;reiten;fangen
+P|sich anmelden>für;sich informieren>über;sich erkundigen>nach;sich beschweren>über;sich beschweren>bei;sich entschuldigen>für;sich entschuldigen>bei;sich wenden>an;sich verlassen>auf;achten>auf;aufpassen>auf;ausgeben>für;bestehen>aus;suchen>nach;gehören>zu;die Frage>nach;die Antwort>auf;der Grund>für;die Einladung>zu;die Lösung>für
+M|die Nebenkosten;der Vermieter;der Mieter;die Kaution;der Mietvertrag;das Amt;das Bürgeramt;die Anmeldung;die Behörde;das Formular;der Antrag;der Ausweis;der Reisepass;die Unterschrift;die Staatsangehörigkeit;der Wohnsitz;die Steuer
+M|die Steuernummer;die Versicherung;die Bank;das Konto;die Überweisung;der Geldautomat;der Brief;das Paket;die Frist;die Gebühr;der Rundfunkbeitrag;ausfüllen;unterschreiben;sich anmelden;beantragen;überweisen
+T|Das Paket [wird] heute gebracht.|werden|The parcel is being brought today.|24
+T|Die Briefe [werden] am Montag geschickt.|werden|The letters are being sent on Monday.|24
+T|Im Büro [wird] nicht geraucht.|werden|There is no smoking in the office.|24
+T|Das Formular wird vom Amt [geprüft].|prüfen|The form is checked by the office.|24
+T|Der Vertrag wird heute [unterschrieben].|unterschreiben|The contract is being signed today.|24
+T|Das Konto [wurde] gestern geschlossen.|werden (Präteritum)|The account was closed yesterday.|24
+T|Die Kaution [wurde] schon bezahlt.|werden (Präteritum)|The deposit has already been paid.|24
+T|Das Haus wurde 1950 [gebaut].|bauen|The house was built in 1950.|24
+T|Der Antrag [ist] abgelehnt worden.|sein (Perfekt Passiv)|The application has been refused.|24
+T|Die Rechnung ist schon bezahlt [worden].|werden (Perfekt Passiv)|The bill has already been paid.|24
+T|Das Paket ist gestern abgeholt [worden].|werden (Perfekt Passiv)|The parcel was collected yesterday.|24
+T|Die Gebühr [muss] pünktlich bezahlt werden.|müssen|The fee must be paid on time.|24
+T|Das Formular muss heute ausgefüllt [werden].|werden|The form must be filled in today.|24
+T|Der Ausweis kann hier beantragt [werden].|werden|The identity card can be applied for here.|24
+T|Der Brief wird [von] der Chefin unterschrieben.|von/mit/durch|The letter is signed by the boss (woman).|24
+T|Das Bürgeramt [ist] am Samstag geschlossen.|sein/werden|The citizens' office is closed on Saturdays.|24
+T|Das Bürgeramt [wird] um 16 Uhr geschlossen.|sein/werden|The citizens' office closes at 4 p.m.|24
+T|Das ist die Adresse [des] Vermieters.|der/des/dem|That is the landlord's address.|25
+T|Der Name [der] Bank ist lang.|die/der/den|The name of the bank is long.|25
+T|Die Unterschrift [des] Mieters fehlt.|der/des/dem|The tenant's signature is missing.|25
+T|Die Adresse [der] Eltern ist neu.|die/der/den|The parents' address is new.|25
+T|Das Ende [des] Vertrags ist im Mai.|der/des/dem|The end of the contract is in May.|25
+T|Der Preis [eines] Autos ist hoch.|ein/eines/einem|The price of a car is high.|25
+T|Die Kosten [meiner] Wohnung sind hoch.|meine/meiner/meinem|The costs of my flat are high.|25
+T|Das ist das Büro [meines] Chefs.|mein/meines/meinem|That is my boss's office.|25
+T|Das ist der Vertrag des [Kollegen].|der Kollege|That is the colleague's contract.|25
+T|Das ist [Annas] Konto.|Anna|That is Anna's account.|25
+T|[Wegen] des Streiks kommt die Post später.|wegen/trotz/während|Because of the strike, the post is coming later.|25
+T|[Trotz] der Kälte gehen wir spazieren.|wegen/trotz/während|Despite the cold, we are going for a walk.|25
+T|[Während] des Urlaubs arbeite ich nicht.|wegen/trotz/während|During the holidays, I don't work.|25
+T|Das Büro ist außerhalb [der] Stadt.|der/die/den|The office is outside the town.|25
+T|Statt [einer] E-Mail schreibe ich einen Brief.|eine/einer/einem|Instead of an e-mail, I am writing a letter.|25
+S|The letter is being sent today.|Der Brief wird heute geschickt.;Heute wird der Brief geschickt.;Der Brief wird heute verschickt.;Heute wird der Brief verschickt.|24|Brief;wird
+S|The form is signed by the tenant (man).|Das Formular wird vom Mieter unterschrieben.;Das Formular wird von dem Mieter unterschrieben.|24|Formular;Mieter;unterschrieben;wird
+S|The bank is closed today.|Die Bank ist heute geschlossen.;Heute ist die Bank geschlossen.|24|Bank;ist;geschlossen
+S|The parcel was delivered yesterday.|Das Paket wurde gestern geliefert.;Das Paket ist gestern geliefert worden.;Gestern wurde das Paket geliefert.;Gestern ist das Paket geliefert worden.|24|Paket;geliefert
+S|The rent has been paid.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
+S|The form must be filled in.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
+S|The contract can be signed tomorrow.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
+S|My passport has been stolen.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|French is spoken here.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
+S|My application has been refused.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
+S|That is my landlord's car.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter
+S|The date of the contract is wrong.|Das Datum des Vertrags ist falsch.;Das Datum des Vertrages ist falsch.;Das Datum vom Vertrag ist falsch.|25|Datum;falsch
+S|Here is the address of the bank.|Hier ist die Adresse der Bank.;Das ist die Adresse der Bank.;Hier ist die Adresse von der Bank.;Das ist die Adresse von der Bank.|25|Adresse;Bank
+S|The service charges of the flat are high.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
+S|Because of the rain, I am staying at home.|Wegen des Regens bleibe ich zu Hause.;Wegen dem Regen bleibe ich zu Hause.;Ich bleibe wegen des Regens zu Hause.;Ich bleibe wegen dem Regen zu Hause.|25|wegen;Hause
+S|Despite the rain, I am going to the bank.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
+S|During the holidays, the bank is closed.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
+S|That is Lena's passport.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena
