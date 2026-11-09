@@ -111,7 +111,7 @@ La progression est enregistrée sur l'appareil. Réglages, Sauvegarde : exporter
 
 La page d'accueil est un programme, comme à l'école : on travaille une unité, puis on la valide par un examen écrit pour passer à la suivante. Les autres rubriques restent libres d'accès, et le réglage de niveau ne filtre que l'entraînement libre. Sous l'unité en cours, un bandeau donne la série, l'objectif du jour et les mots à revoir. La carte « Revoir mes erreurs » y apparaît tant qu'il reste des erreurs.
 
-- **Unités** : 12 unités pour l'instant, 5 en A1, 4 en A2 et 3 en B1. Sans unité validée, seule la première est ouverte. Après la dernière unité disponible, le programme s'arrête et l'indique.
+- **Unités** : 16 unités, 5 en A1, 4 en A2, 3 en B1 et 4 en B2. Sans unité validée, seule la première est ouverte. Une fois la dernière unité validée, le programme l'indique et les autres rubriques restent ouvertes.
 - **Travail personnel** : une liste qui se coche seule d'après la progression (fiches acquises, mots et verbes de l'unité réussis une fois). Elle ne bloque jamais l'examen. L'entraînement alimente les révisions comme les autres exercices.
 - **Examen direct** : on peut passer l'examen de la prochaine unité verrouillée, et seulement celle-là. Le réussir valide l'unité.
 

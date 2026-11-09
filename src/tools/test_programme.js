@@ -229,27 +229,30 @@
   const langs = [undefined, "en", "es"];
   const eachLang = fn => { try { for (const l of langs) { loadProgramme(l); fn(l || "fr"); } } finally { loadProgramme(uiLang()); } };
   const fullMarks = (u, id, answer, shown) => { if (examMark(examQuestion(u, id), answer).pts !== 1) throw new Error("no full marks for " + u.id + ": " + shown); };
-  test("the programme runs from A1 to the end of B1, in order", () => {
-    eq(UNITS.map(u => u.id), ["a1-presenter", "a1-journee", "a1-courses", "a1-ville", "a1-restaurant", "a2-maison", "a2-raconter", "a2-sante", "a2-raisons", "b1-echanger", "b1-travail", "b1-demarches"]);
-    eq(UNITS.map(u => u.level).join(), "A1,A1,A1,A1,A1,A2,A2,A2,A2,B1,B1,B1");
+  test("the programme runs from A1 to the end of B2, in order", () => {
+    eq(UNITS.map(u => u.id), ["a1-presenter", "a1-journee", "a1-courses", "a1-ville", "a1-restaurant", "a2-maison", "a2-raconter", "a2-sante", "a2-raisons", "b1-echanger", "b1-travail", "b1-demarches", "b2-carriere", "b2-droit", "b2-societe", "b2-relations"]);
+    eq(UNITS.map(u => u.level).join(), "A1,A1,A1,A1,A1,A2,A2,A2,A2,B1,B1,B1,B2,B2,B2,B2");
   });
-  test("every fiche of the level is in exactly one unit", () => {
+  test("every fiche is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.fiches, x => x);
-    // fiches 1 to 27 are A1 to B1, and fiche 37 (B1–B2) goes to B1: the fiche numbers do not follow the levels
-    for (const id of [...Array(27).keys()].map(i => i + 1).concat(37)) eq([id, n[id]], [id, 1]);
+    for (const id in FICHE_BY_ID) eq([id, n[id]], [id, 1]);
   });
-  test("every irregular verb up to B1 is in exactly one unit", () => {
+  test("every irregular verb is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.verbs, x => x.v.key);
-    for (const v of IRR) if (v.level !== "B2") eq([v.key, n[v.key]], [v.key, 1]);
+    for (const v of IRR) eq([v.key, n[v.key]], [v.key, 1]);
   });
-  test("every word of the A1 to B1 themes is in exactly one unit", () => {
+  test("every word outside IKI is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.words, w => w.id);
-    for (const w of WORDS) if (!w.iki && !w.mine && w.level === "A1–B1") eq([w.de, n[w.id]], [w.de, 1]);
+    for (const w of WORDS) if (!w.iki && !w.mine) eq([w.de, n[w.id]], [w.de, 1]);
   });
-  test("a unit of the level has about 30 gaps, 16 to 20 sentences, about 60 words (about 33 in B1: 98 words were left for 3 units)", () => {
+  test("every word with a preposition is in exactly one unit", () => {
+    const n = countAcrossUnits(u => u.vps, x => x.key);
+    for (const x of VP) eq([x.key, n[x.key]], [x.key, 1]);
+  });
+  test("a unit of the level has about 30 gaps, 16 to 20 sentences, about 60 words (about 33 in B1, about 80 in B2: what was left, for 3 and 4 units)", () => {
     for (const u of UNITS) {
       const [t, s, w] = [Object.keys(u.gaps).length, Object.keys(u.sents).length, u.words.length];
-      const [wMin, wMax] = u.level === "B1" ? [30, 36] : [50, 66];
+      const [wMin, wMax] = { B1: [30, 36], B2: [75, 85] }[u.level] || [50, 66];
       if (t < 28 || t > 35 || s < 16 || s > 20 || w < wMin || w > wMax) throw new Error(`${u.id}: ${t} gaps, ${s} sentences, ${w} words`);
     }
   });

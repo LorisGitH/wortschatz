@@ -3324,7 +3324,7 @@ function programmeView() {
   }).join("");
   return `<div class="dcols"><div class="dcol">
       ${focus && focus !== home ? `<button class="backlink" data-punit="">← Unité en cours</button>` : ""}
-      ${focus ? unitCard(UNIT_BY_ID[focus], st.state[focus]) : `<section class="section ucard"><span class="label">Programme</span><h2>Toutes les unités disponibles sont validées</h2><p>Bravo. D'autres unités arriveront : en attendant, les autres rubriques restent ouvertes pour t'entraîner.</p></section>`}
+      ${focus ? unitCard(UNIT_BY_ID[focus], st.state[focus]) : `<section class="section ucard"><span class="label">Programme</span><h2>Programme terminé</h2><p>Bravo, tu as validé toutes les unités, de A1 à B2. Les autres rubriques restent ouvertes pour continuer à t'entraîner.</p></section>`}
     </div>
     <div class="dcol">
       <section class="stats" aria-label="Aujourd'hui">

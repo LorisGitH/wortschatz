@@ -683,3 +683,228 @@ S|Por la lluvia me quedo en casa.|Wegen des Regens bleibe ich zu Hause.;Wegen de
 S|A pesar de la lluvia, voy al banco.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
 S|Durante las vacaciones, el banco está cerrado.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
 S|Ese es el pasaporte de Lena.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena
+
+@b2-carriere|B2|Carrera y argumentos|Negociar tu puesto, defender tu opinión y enlazar ideas con conjunciones dobles y subordinadas avanzadas.
+F|31;35
+V|prat|beweisen;zwingen;befehlen
+P|sich unterhalten>mit;überzeugen>von;hinweisen>auf;rechnen>mit;umgehen>mit;sich auskennen>mit;sich bemühen>um;sich einsetzen>für;beitragen>zu;führen>zu;sich beteiligen>an;ankommen>auf;die Voraussetzung>für;die Teilnahme>an;das Interesse>an;das Gespräch>über;bereit>zu;bekannt>für;interessiert>an;überzeugt>von;abhängig>von
+M|die Arbeitsbedingungen;der Arbeitgeber;der Arbeitnehmer;die Kündigungsfrist;die Probezeit;die Gehaltserhöhung;die Beförderung;die Weiterbildung;die Fähigkeit;die Erfahrung;die Verantwortung;die Leistung;der Umsatz;der Gewinn;der Verlust;die Abteilung;die Geschäftsführung;der Betriebsrat;die Gewerkschaft;der Streik;die Teilzeit;die Vollzeit;das Homeoffice;die Arbeitslosigkeit;die Agentur für Arbeit;der Auftrag;verhandeln;sich weiterbilden;befördern;einstellen;entlassen;leiten;selbstständig;befristet;unbefristet
+M|meiner Meinung nach;Ich bin der Ansicht, dass …;einerseits … andererseits;trotzdem;deshalb;dennoch;obwohl;während;sobald;falls;außerdem;allerdings;zwar … aber;je … desto;sowohl … als auch;weder … noch;stattdessen;im Gegensatz zu;im Vergleich zu;aufgrund;trotz;anstatt;infolgedessen;letztendlich;beispielsweise;Es kommt darauf an.;Das hängt davon ab, ob …;Da bin ich anderer Meinung.;Ich stimme dir zu.;Das stimmt zwar, aber …;Ich gebe zu, dass …;Es ist fraglich, ob …;Ein Vorteil ist, dass …;Ein Nachteil ist, dass …
+M|sich bewerben um;sich beschäftigen mit;sich vorbereiten auf;sich konzentrieren auf;sich entscheiden für;sich bedanken für;teilnehmen an;abhängen von;überzeugen von;hinweisen auf;achten auf
+T|Ich spreche [sowohl] Englisch als auch Spanisch.|sowohl/weder/entweder|Hablo tanto inglés como español.|31
+T|Er spricht sowohl Deutsch [als] auch Türkisch.|als/wie/noch|Habla tanto alemán como turco.|31
+T|Die Firma sucht weder Köche [noch] Kellner.|noch/oder/aber|La empresa no busca ni cocineros ni camareros.|31
+T|Ich habe [weder] Zeit noch Geld.|sowohl/weder/entweder|No tengo ni tiempo ni dinero.|31
+T|[Entweder] du unterschreibst heute, oder wir suchen jemand anderen.|Entweder/Weder/Sowohl|O firmas hoy, o buscamos a otra persona.|31
+T|Wir verhandeln entweder am Montag [oder] am Dienstag.|oder/noch/aber|Negociamos o el lunes o el martes.|31
+T|Die Stelle ist nicht nur gut bezahlt, [sondern] auch sicher.|sondern/aber/oder|El puesto no solo está bien pagado, sino que también es seguro.|31
+T|Das Gehalt ist [zwar] niedrig, aber die Arbeit macht Spaß.|zwar/weder/je|El sueldo es bajo, es cierto, pero el trabajo es agradable.|31
+T|Die Probezeit ist zwar lang, [aber] der Vertrag ist unbefristet.|aber/sondern/oder|El período de prueba es largo, es cierto, pero el contrato es indefinido.|31
+T|[Einerseits] will ich mehr verdienen, andererseits möchte ich weniger arbeiten.|Einerseits/Entweder/Sowohl|Por un lado quiero ganar más, por otro me gustaría trabajar menos.|31
+T|Einerseits ist die Arbeit spannend, [andererseits] ist sie anstrengend.|andererseits/sondern/desto|Por un lado el trabajo es apasionante, por otro es agotador.|31
+T|[Je] länger ich hier arbeite, desto mehr lerne ich.|Je/Desto/Als|Cuanto más tiempo trabajo aquí, más aprendo.|31
+T|Je mehr Verantwortung sie hat, [desto/umso] zufriedener ist sie.|desto/als/wie|Cuanta más responsabilidad tiene, más satisfecha está.|31
+T|Je früher du dich bewirbst, desto [besser] sind deine Chancen.|gut (Komparativ)|Cuanto antes te presentes, mejores serán tus oportunidades.|31
+T|Je höher das Gehalt ist, desto mehr Steuern [zahlt] man.|zahlen|Cuanto más alto es el sueldo, más impuestos se pagan.|31
+T|Er hat sich weitergebildet, [indem] er abends Kurse besucht hat.|indem/sodass/falls|Se formó asistiendo a cursos por la noche.|35
+T|Sie überzeugte den Chef, [indem] sie ihm die Zahlen zeigte.|indem/sodass/falls|Convenció al jefe mostrándole las cifras.|35
+T|Der Zug hatte Verspätung, [sodass/so dass] ich die Besprechung verpasst habe.|indem/sodass/nachdem|El tren llevaba retraso, de modo que me perdí la reunión.|35
+T|Der Umsatz ist gestiegen, [sodass/so dass] alle mehr verdienen.|indem/sodass/falls|La facturación ha aumentado, de modo que todos ganan más.|35
+T|Sie benimmt sich, [als] ob sie die Chefin wäre.|als/wie/wenn|Se comporta como si fuera la jefa.|35
+T|Er tut so, als ob er krank [wäre/sei].|sein (Konjunktiv)|Hace como si estuviera enfermo.|35
+T|Sie hat gekündigt, [ohne] dass es jemand gemerkt hat.|ohne/statt/als|Dimitió sin que nadie se diera cuenta.|35
+T|[Anstatt/Statt] dass sie verhandeln, streiten sie.|Anstatt/Ohne/Sofern|En lugar de negociar, discuten.|35
+T|[Falls] Sie Fragen haben, rufen Sie mich an.|Falls/Solange/Nachdem|En caso de que tenga preguntas, llámeme.|35
+T|[Solange] die Probezeit läuft, kann man schneller kündigen.|Solange/Falls/Nachdem|Mientras dura el período de prueba, se puede dimitir más rápido.|35
+T|[Nachdem] er gekündigt hatte, suchte er eine neue Stelle.|Nachdem/Solange/Falls|Después de dimitir, buscó un nuevo puesto.|35
+T|Nachdem ich die Bewerbung abgeschickt [hatte], ging ich spazieren.|haben|Después de enviar mi candidatura, fui a pasear.|35
+T|Nachdem sie in Berlin angekommen [war], rief sie ihre Chefin an.|sein|Después de llegar a Berlín, llamó a su jefa.|35
+T|[Je] nachdem, wie die Verhandlung läuft, unterschreibe ich.|Je/Als/Wie|Según cómo vaya la negociación, firmaré.|35
+T|[Sofern] die Firma zustimmt, arbeite ich im Homeoffice.|Sofern/Indem/Nachdem|Siempre que la empresa esté de acuerdo, trabajo desde casa.|35
+S|Hablo tanto francés como alemán.|Ich spreche sowohl Französisch als auch Deutsch.|31|sowohl;als;auch;Französisch;Deutsch
+S|No tengo ni contrato ni sueldo.|Ich habe weder einen Vertrag noch ein Gehalt.;Ich habe weder Vertrag noch Gehalt.|31|weder;noch;Vertrag;Gehalt
+S|O dimites, o te quedas.|Entweder kündigst du, oder du bleibst.;Entweder du kündigst, oder du bleibst.;Entweder kündigst du oder du bleibst.;Entweder du kündigst oder du bleibst.|31|Entweder;oder;kündigst;bleibst
+S|El puesto no solo es interesante, sino que también está bien pagado.|Die Stelle ist nicht nur interessant, sondern auch gut bezahlt.|31|nicht;nur;sondern;auch;interessant
+S|El sueldo es alto, es cierto, pero el trabajo es difícil.|Das Gehalt ist zwar hoch, aber die Arbeit ist schwer.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwer.;Das Gehalt ist zwar hoch, aber die Arbeit ist schwierig.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwierig.|31|zwar;aber;Gehalt;hoch
+S|Por un lado me gusta este trabajo, por otro quiero cambiar.|Einerseits mag ich diese Arbeit, andererseits möchte ich wechseln.;Einerseits mag ich diese Arbeit, andererseits will ich wechseln.;Einerseits mag ich diesen Job, andererseits möchte ich wechseln.;Einerseits mag ich diesen Job, andererseits will ich wechseln.|31|Einerseits;andererseits;wechseln
+S|Cuanto más trabajo, más gano.|Je mehr ich arbeite, desto mehr verdiene ich.;Je mehr ich arbeite, umso mehr verdiene ich.|31|Je;mehr;arbeite;verdiene
+S|Cuanto más grande es la empresa, más reuniones hay.|Je größer die Firma ist, desto mehr Besprechungen gibt es.;Je größer die Firma ist, umso mehr Besprechungen gibt es.;Je größer das Unternehmen ist, desto mehr Besprechungen gibt es.;Je größer das Unternehmen ist, umso mehr Besprechungen gibt es.|31|Je;größer;mehr;Besprechungen
+S|Ni la jefa ni el director están aquí.|Weder die Chefin noch der Direktor ist da.;Weder die Chefin noch der Direktor sind da.;Weder die Chefin noch der Direktor ist hier.;Weder die Chefin noch der Direktor sind hier.|31|Weder;noch;Chefin;Direktor
+S|Aprendió alemán leyendo mucho.|Er hat Deutsch gelernt, indem er viel gelesen hat.;Er lernte Deutsch, indem er viel las.|35|Deutsch;indem;viel
+S|El jefe estaba enfermo, de modo que la reunión se canceló.|Der Chef war krank, sodass die Besprechung abgesagt wurde.;Der Chef war krank, so dass die Besprechung abgesagt wurde.;Der Chef war krank, sodass die Besprechung ausgefallen ist.;Der Chef war krank, so dass die Besprechung ausgefallen ist.;Der Chef war krank, sodass die Besprechung ausfiel.;Der Chef war krank, so dass die Besprechung ausfiel.|35|Chef;krank;Besprechung
+S|Habla como si fuera el director.|Er spricht, als ob er der Direktor wäre.;Er spricht, als wäre er der Direktor.;Er redet, als ob er der Direktor wäre.;Er redet, als wäre er der Direktor.;Er spricht, als ob er der Direktor sei.;Er redet, als ob er der Direktor sei.;Er spricht, als sei er der Direktor.;Er redet, als sei er der Direktor.|35|als;Direktor
+S|Dimitió sin que su jefe lo supiera.|Er hat gekündigt, ohne dass sein Chef es wusste.;Er hat gekündigt, ohne dass sein Chef davon wusste.;Er kündigte, ohne dass sein Chef es wusste.;Er kündigte, ohne dass sein Chef davon wusste.|35|ohne;dass;Chef;wusste
+S|En caso de que necesites el contrato, llámame.|Falls du den Vertrag brauchst, ruf mich an.;Falls du den Vertrag brauchst, rufe mich an.|35|Falls;Vertrag;brauchst;an
+S|Mientras el contrato sea válido, me quedo.|Solange der Vertrag gültig ist, bleibe ich.;Solange der Vertrag gilt, bleibe ich.|35|Solange;Vertrag;bleibe
+S|Después de firmar el contrato, se fue a casa.|Nachdem er den Vertrag unterschrieben hatte, ging er nach Hause.;Nachdem er den Vertrag unterschrieben hatte, ist er nach Hause gegangen.|35|Nachdem;Vertrag;unterschrieben;hatte;Hause
+S|Según sea bueno o no el sueldo, acepto el puesto.|Je nachdem, ob das Gehalt gut ist, nehme ich die Stelle an.;Je nachdem, ob das Gehalt gut ist oder nicht, nehme ich die Stelle an.|35|Je;nachdem;ob;Gehalt;Stelle
+S|Consiguió el puesto convenciendo al director.|Er hat die Stelle bekommen, indem er den Direktor überzeugt hat.;Er bekam die Stelle, indem er den Direktor überzeugte.|35|Stelle;indem;Direktor
+
+@b2-droit|B2|Derechos, contratos y salud|Leer un contrato o una carta oficial, hacer valer tus derechos, hablar de tu salud: pasiva avanzada, estilo nominal, preposiciones de lo escrito.
+F|30;33;34
+V|pres|treten;heben;stoßen
+P|bestehen>auf;sich halten>an;schreiben>an;sich erholen>von;leiden>an;leiden>unter;sterben>an;erkennen>an;verzichten>auf;gehen>um;sich handeln>um;vergleichen>mit;schützen>vor;warnen>vor;leben>von;sorgen>für;danken>für;die Bitte>um;die Suche>nach;die Angst>vor;sich fürchten>vor
+M|der Anspruch;die Bescheinigung;der Bescheid;der Widerspruch;die Vollmacht;die Genehmigung;die Aufenthaltserlaubnis;die Voraussetzung;die Bedingung;die Kündigung;die Mahnung;der Rechtsanwalt;das Gericht;das Gesetz;die Vorschrift;die Haftpflichtversicherung;der Schaden;die Steuererklärung;der Beitrag;die Rente;das Kindergeld;das Bürgergeld;die Unterlagen;der Nachweis;einreichen;verlängern;Widerspruch einlegen;genehmigen;nachweisen;haften;gültig;fristgerecht;verpflichtet;zuständig
+M|die Beschwerden;die Untersuchung;die Behandlung;die Diagnose;der Facharzt;der Hausarzt;die Nebenwirkung;die Impfung;die Allergie;die Verletzung;die Entzündung;der Blutdruck;die Ernährung;die Bewegung;der Stress;die Erschöpfung;die Sucht;die Vorsorge;sich erholen;sich verletzen;behandeln;untersuchen;verschreiben;leiden an;vorbeugen;ansteckend;chronisch;erschöpft;schwanger;rezeptpflichtig
+M|sich beschweren über;sich verlassen auf;sich kümmern um;bestehen aus;gehören zu;sorgen für;führen zu;verzichten auf;bitten um;fragen nach;warten auf;sich gewöhnen an;sich erinnern an;denken an;sich sorgen um;sich fürchten vor
+T|Die Unterlagen [sind] bis Montag einzureichen.|sein/werden|Los documentos deben presentarse antes del lunes.|30
+T|Die Steuererklärung ist bis Juli [abzugeben].|abgeben|La declaración de la renta debe entregarse antes de julio.|30
+T|Der Beitrag ist monatlich [zu] zahlen.|zu/um/ohne|La cuota debe pagarse cada mes.|30
+T|Diese Vorschrift ist kaum [zu] verstehen.|zu/um/ohne|Este reglamento apenas se puede entender.|30
+T|Der Schaden [lässt] sich leicht reparieren.|lassen|El daño se repara fácilmente.|30
+T|Die Kündigung lässt [sich] nicht rückgängig machen.|sich/es/man|El despido no se puede anular.|30
+T|Die Unterlagen lassen sich online [einreichen].|einreichen|Los documentos se pueden presentar en línea.|30
+T|Diesen Schaden kann man reparieren: Er ist [reparierbar].|reparieren (-bar)|Este daño se puede reparar: es reparable.|30
+T|Der Vertrag musste neu geschrieben [werden].|werden|El contrato tuvo que volver a redactarse.|30
+T|Im Krankenhaus [wird] auch nachts gearbeitet.|werden|En el hospital también se trabaja de noche.|30
+T|Hier können Sie einen Antrag auf Kindergeld [stellen].|stellen/treffen/nehmen|Aquí puede solicitar la prestación por hijos.|33
+T|Der Arzt hat noch keine Entscheidung [getroffen].|treffen|El médico todavía no ha tomado una decisión.|33
+T|Das Gesetz [tritt] nächstes Jahr in Kraft.|treten|La ley entra en vigor el año que viene.|33
+T|Die Anwältin [steht] Ihnen zur Verfügung.|stehen|La abogada está a su disposición.|33
+T|Geben Sie mir bitte rechtzeitig [Bescheid].|Bescheid/Antrag/Kraft|Avíseme a tiempo, por favor.|33
+T|Wir nehmen auf kranke Kollegen [Rücksicht].|Rücksicht/Kritik/Bescheid|Tenemos consideración con los compañeros enfermos.|33
+T|Das Gericht hat die Entscheidung [in] Frage gestellt.|in/zu/auf|El tribunal ha puesto en duda la decisión.|33
+T|Die Patienten üben [Kritik] an den Wartezeiten.|Kritik/Rücksicht/Bescheid|Los pacientes critican los tiempos de espera.|33
+T|Nach der [Ankunft] des Arztes beginnt die Untersuchung.|ankommen (Nomen)|Tras la llegada del médico, comienza el reconocimiento.|33
+T|Die [Entscheidung] des Gerichts ist gültig.|entscheiden (Nomen)|La decisión del tribunal es válida.|33
+T|[Laut] Bescheid muss ich nichts zahlen.|Laut/Angesichts/Zugunsten|Según la notificación, no tengo que pagar nada.|34
+T|[Aufgrund] der Krankheit konnte sie nicht arbeiten.|Aufgrund/Laut/Dank|Debido a la enfermedad, no pudo trabajar.|34
+T|[Dank] der Impfung wurde er nicht krank.|Dank/Laut/Infolge|Gracias a la vacuna, no se puso enfermo.|34
+T|[Angesichts] der hohen Kosten verzichten wir auf den Rechtsanwalt.|Angesichts/Laut/Dank|En vista de los altos costes, renunciamos al abogado.|34
+T|[Bezüglich/Hinsichtlich] Ihrer Frage schicke ich Ihnen den Nachweis.|Bezüglich/Dank/Laut|En cuanto a su pregunta, le envío el justificante.|34
+T|[Mithilfe/Mit Hilfe] eines Anwalts hat er sein Geld zurückbekommen.|Mithilfe/Laut/Trotz|Con la ayuda de un abogado, recuperó su dinero.|34
+T|Dem Gesetz [zufolge] ist der Bescheid gültig.|zufolge/laut/dank|Según la ley, la notificación es válida.|34
+T|Gemäß [dem] Vertrag zahlt die Versicherung den Schaden.|dem/den/des|Conforme al contrato, el seguro paga los daños.|34
+T|Infolge [des] Unfalls kann er nicht arbeiten.|der/des/dem|A consecuencia del accidente, no puede trabajar.|34
+T|Zugunsten [der] Patienten wurde das Gesetz geändert.|die/der/den|La ley se modificó en favor de los pacientes.|34
+S|El formulario debe entregarse antes del viernes.|Das Formular ist bis Freitag abzugeben.;Das Formular ist bis Freitag einzureichen.;Das Formular muss bis Freitag abgegeben werden.;Das Formular muss bis Freitag eingereicht werden.|30|Formular;bis;Freitag
+S|El plazo se puede prorrogar.|Die Frist lässt sich verlängern.;Die Frist kann verlängert werden.;Man kann die Frist verlängern.|30|Frist;verlängern/verlängert
+S|Esta firma no es legible.|Diese Unterschrift ist nicht lesbar.;Diese Unterschrift ist unlesbar.;Diese Unterschrift ist nicht zu lesen.;Diese Unterschrift lässt sich nicht lesen.|30|Unterschrift;lesbar/unlesbar/lesen
+S|La factura debe pagarse de inmediato.|Die Rechnung ist sofort zu bezahlen.;Die Rechnung ist sofort zu zahlen.;Die Rechnung muss sofort bezahlt werden.;Die Rechnung muss sofort gezahlt werden.|30|Rechnung;sofort
+S|Esta enfermedad se puede tratar.|Diese Krankheit lässt sich behandeln.;Diese Krankheit kann behandelt werden.;Diese Krankheit ist behandelbar.;Man kann diese Krankheit behandeln.|30|Krankheit;behandeln/behandelt/behandelbar
+S|A los pacientes se los examina por la mañana.|Die Patienten werden morgens untersucht.;Die Patienten werden am Morgen untersucht.;Morgens werden die Patienten untersucht.;Am Morgen werden die Patienten untersucht.|30|Patienten;werden;untersucht
+S|Quisiera solicitar una prórroga.|Ich möchte einen Antrag auf Verlängerung stellen.|33|Antrag;Verlängerung;stellen
+S|La médica tomará una decisión mañana.|Die Ärztin trifft morgen eine Entscheidung.;Die Ärztin wird morgen eine Entscheidung treffen.;Morgen trifft die Ärztin eine Entscheidung.;Morgen wird die Ärztin eine Entscheidung treffen.|33|Ärztin;morgen;Entscheidung;trifft/treffen
+S|El nuevo reglamento entra en vigor en marzo.|Die neue Vorschrift tritt im März in Kraft.|33|Vorschrift;tritt;März;Kraft
+S|Le aviso mañana.|Ich gebe Ihnen morgen Bescheid.;Ich sage Ihnen morgen Bescheid.;Morgen gebe ich Ihnen Bescheid.;Morgen sage ich Ihnen Bescheid.|33|Ihnen;morgen;Bescheid
+S|Este documento está a su disposición.|Dieses Dokument steht Ihnen zur Verfügung.|33|Dokument;steht;zur;Verfügung
+S|Antes de la salida, tengo que firmar el poder.|Vor der Abfahrt muss ich die Vollmacht unterschreiben.;Vor der Abreise muss ich die Vollmacht unterschreiben.|33|Abfahrt/Abreise;Vollmacht;unterschreiben
+S|Según el contrato, paga el seguro.|Laut Vertrag zahlt die Versicherung.;Laut Vertrag bezahlt die Versicherung.;Laut dem Vertrag zahlt die Versicherung.;Laut dem Vertrag bezahlt die Versicherung.;Gemäß dem Vertrag zahlt die Versicherung.;Gemäß dem Vertrag bezahlt die Versicherung.|34|Vertrag;Versicherung;zahlt/bezahlt
+S|Debido a la huelga, el tribunal está cerrado.|Aufgrund des Streiks ist das Gericht geschlossen.;Wegen des Streiks ist das Gericht geschlossen.;Infolge des Streiks ist das Gericht geschlossen.;Das Gericht ist aufgrund des Streiks geschlossen.;Das Gericht ist wegen des Streiks geschlossen.;Aufgrund des Streikes ist das Gericht geschlossen.;Wegen des Streikes ist das Gericht geschlossen.|34|Streiks/Streikes;Gericht;geschlossen
+S|Gracias a su ayuda, he conseguido el certificado.|Dank Ihrer Hilfe habe ich die Bescheinigung bekommen.;Dank Ihrer Hilfe habe ich die Bescheinigung erhalten.|34|Dank;Hilfe;Bescheinigung
+S|En cuanto a su carta, quisiera presentar un recurso.|Bezüglich Ihres Briefes möchte ich Widerspruch einlegen.;Bezüglich Ihres Briefs möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefes möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefs möchte ich Widerspruch einlegen.|34|Ihres;Widerspruch;einlegen
+S|En vista de la situación, nos quedamos en casa.|Angesichts der Lage bleiben wir zu Hause.;Angesichts der Situation bleiben wir zu Hause.|34|Angesichts;Lage/Situation;Hause
+S|Con la ayuda de un diccionario, entendí la carta.|Mithilfe eines Wörterbuchs habe ich den Brief verstanden.;Mit Hilfe eines Wörterbuchs habe ich den Brief verstanden.|34|Mithilfe/Hilfe;Wörterbuchs;Brief;verstanden
+
+@b2-societe|B2|Sociedad y medio ambiente|Seguir la actualidad, referir lo que dicen otros con el Konjunktiv I y leer la prensa gracias a los participios.
+F|29;32
+V|perf|sinken;greifen;schieben
+P|glauben>an;zweifeln>an;reagieren>auf;hoffen>auf;kämpfen>gegen;protestieren>gegen;diskutieren>über;berichten>über;nachdenken>über;handeln>von;hören>von;sich wundern>über;sich aufregen>über;lachen>über;der Wunsch>nach;die Hoffnung>auf;die Freude>an;gespannt>auf;neugierig>auf;sich sorgen>um
+M|die Gesellschaft;die Regierung;die Wahl;die Partei;der Bundestag;der Bundeskanzler;die Demokratie;die Meinung;die Freiheit;die Gleichberechtigung;die Integration;die Einwanderung;die Armut;der Wohlstand;die Ungleichheit;die Bildung;die Nachricht;die Zeitung;die Sendung;der Bericht;die Umfrage;die Krise;die Entwicklung;die Herausforderung;der Bürger;wählen;abstimmen;berichten;fordern;sich engagieren;kritisieren;gesellschaftlich;politisch;umstritten;aktuell
+M|die Umwelt;der Klimawandel;der Umweltschutz;die Energie;der Strom;der Verbrauch;die Nachhaltigkeit;die Verschmutzung;die Abgase;der Abfall;die Mülltrennung;der Gelbe Sack;das Altglas;die Solaranlage;die Windkraft;das Kraftwerk;die Ressource;die Überschwemmung;die Dürre;verschwenden;sparen;recyceln;schützen;vermeiden;verbrauchen;nachhaltig;umweltfreundlich;erneuerbar;klimaneutral
+M|offensichtlich;eindeutig;angeblich;anscheinend;vermutlich;erheblich;überwiegend;vorübergehend;dauerhaft;umfangreich;aufwendig;ausreichend;vorhanden;ehemalig;bisher;inzwischen
+T|Der Minister sagt, er [sei] nicht zuständig.|sein (Konjunktiv I)|El ministro dice que no es competente.|29
+T|Die Politikerin erklärt, sie [habe] das Problem gelöst.|haben (Konjunktiv I)|La política declara que ha resuelto el problema.|29
+T|Die Regierung teilt mit, sie [könne] das Gesetz ändern.|können (Konjunktiv I)|El Gobierno comunica que puede modificar la ley.|29
+T|Die Partei sagt, sie [werde] die Steuern senken.|werden (Konjunktiv I)|El partido dice que bajará los impuestos.|29
+T|Der Bürgermeister sagt, er [wolle] mit den Bürgern sprechen.|wollen (Konjunktiv I)|El alcalde dice que quiere hablar con los ciudadanos.|29
+T|Die Zeitung berichtet, der Strom [werde] teurer.|werden (Konjunktiv I)|El periódico informa de que la electricidad será más cara.|29
+T|In der Umfrage heißt es, die Mehrheit [sei] zufrieden.|sein (Konjunktiv I)|La encuesta dice que la mayoría está satisfecha.|29
+T|Die Demonstranten sagen, sie [hätten] keine Angst.|haben (Plural)|Los manifestantes dicen que no tienen miedo.|29
+T|Die Experten meinen, die Preise [würden] steigen.|werden (Plural)|Los expertos creen que los precios subirán.|29
+T|Der Kanzler sagte, die Krise [sei] vorbei.|sein (Konjunktiv I)|El canciller dijo que la crisis había terminado.|29
+T|Sie sagte, sie [sei] gestern nach Berlin gefahren.|sein (Konjunktiv I)|Dijo que había ido a Berlín ayer.|29
+T|Der Journalist schreibt, der Minister [habe] gelogen.|haben (Konjunktiv I)|El periodista escribe que el ministro ha mentido.|29
+T|Der Reporter fragt, [ob] die Regierung bleibt.|ob/dass/wenn|El reportero pregunta si el Gobierno se queda.|29
+T|Die Ärztin sagt, ich [solle] weniger arbeiten.|sollen (Konjunktiv I)|La médica dice que debo trabajar menos.|29
+T|Tom sagt, er [arbeite] im Homeoffice.|arbeiten (Konjunktiv I)|Tom dice que trabaja desde casa.|29
+T|Die [wachsende] Armut ist ein großes Problem.|wachsen (Partizip I)|La pobreza creciente es un gran problema.|32
+T|Sie gibt eine [überzeugende] Antwort.|überzeugen (Partizip I)|Da una respuesta convincente.|32
+T|Die [fehlenden] Unterlagen schicke ich morgen.|fehlen (Partizip I)|Los documentos que faltan los envío mañana.|32
+T|Wir sehen ein [brennendes] Haus.|brennen (Partizip I)|Vemos una casa en llamas.|32
+T|Der gestern [veröffentlichte] Bericht ist sehr lang.|veröffentlichen (Partizip II)|El informe publicado ayer es muy largo.|32
+T|Die [gewählte] Regierung beginnt im Mai.|wählen (Partizip II)|El Gobierno elegido empieza en mayo.|32
+T|Das [getrennte] Altglas kommt in den Container.|trennen (Partizip II)|El vidrio separado va al contenedor.|32
+T|Die vom Staat [geförderten] Solaranlagen sind billiger.|fördern (Partizip II)|Las placas solares subvencionadas por el Estado son más baratas.|32
+T|Wir sprechen über die stark [gestiegenen] Kosten.|steigen (Partizip II)|Hablamos de los costes que han subido mucho.|32
+T|Der [verbrauchte] Strom wird am Monatsende bezahlt.|verbrauchen (Partizip II)|La electricidad consumida se paga a final de mes.|32
+T|Die seit Jahren [steigende] Zahl der Autos ist ein Problem.|steigen (Partizip I)|El número de coches, que lleva años aumentando, es un problema.|32
+T|Das [verschmutzte] Wasser ist gefährlich.|verschmutzen (Partizip II)|El agua contaminada es peligrosa.|32
+T|Die Zeitung schreibt über den [kommenden] Winter.|kommen (Partizip I)|El periódico habla del próximo invierno.|32
+T|Er hilft einem [weinenden] Kind.|weinen (Partizip I)|Ayuda a un niño que llora.|32
+T|In den [genannten] Ländern ist die Dürre stark.|nennen (Partizip II)|En los países citados, la sequía es grave.|32
+S|El ministro dice que no tiene tiempo.|Der Minister sagt, er habe keine Zeit.;Der Minister sagt, dass er keine Zeit habe.|29|Minister;habe;Zeit
+S|La periodista escribe que la crisis es grave.|Die Journalistin schreibt, die Krise sei ernst.;Die Journalistin schreibt, dass die Krise ernst sei.;Die Journalistin schreibt, die Krise sei schlimm.;Die Journalistin schreibt, dass die Krise schlimm sei.|29|Journalistin;schreibt;Krise;sei
+S|El partido afirma que puede ganar.|Die Partei behauptet, sie könne gewinnen.;Die Partei behauptet, dass sie gewinnen könne.;Die Partei sagt, sie könne gewinnen.;Die Partei sagt, dass sie gewinnen könne.;Die Partei erklärt, sie könne gewinnen.;Die Partei erklärt, dass sie gewinnen könne.|29|Partei;könne;gewinnen
+S|Dijo que vendría mañana.|Er sagte, er werde morgen kommen.;Er sagte, dass er morgen kommen werde.;Er sagte, er komme morgen.;Er sagte, dass er morgen komme.;Er hat gesagt, er werde morgen kommen.;Er hat gesagt, dass er morgen kommen werde.;Er hat gesagt, er komme morgen.;Er sagte, er würde morgen kommen.;Er hat gesagt, er würde morgen kommen.|29|morgen;kommen/komme
+S|Dice que fue a Berlín.|Sie sagt, sie sei nach Berlin gefahren.;Sie sagt, dass sie nach Berlin gefahren sei.;Sie sagt, sie sei nach Berlin gereist.;Sie sagt, dass sie nach Berlin gereist sei.|29|sei;Berlin;gefahren/gereist
+S|Los expertos dicen que no tienen respuesta.|Die Experten sagen, sie hätten keine Antwort.;Die Experten sagen, dass sie keine Antwort hätten.|29|Experten;hätten;Antwort
+S|El médico dice que debo descansar.|Der Arzt sagt, ich solle mich ausruhen.;Der Arzt sagt, ich solle mich erholen.;Der Arzt sagt, dass ich mich ausruhen solle.;Der Arzt sagt, dass ich mich erholen solle.|29|Arzt;solle;mich
+S|Pregunta si la ley es justa.|Sie fragt, ob das Gesetz gerecht ist.;Sie fragt, ob das Gesetz gerecht sei.;Sie fragt, ob das Gesetz fair ist.;Sie fragt, ob das Gesetz fair sei.|29|fragt;ob;Gesetz
+S|El Gobierno anuncia que los impuestos bajarán.|Die Regierung teilt mit, die Steuern würden sinken.;Die Regierung teilt mit, dass die Steuern sinken würden.;Die Regierung sagt, die Steuern würden sinken.;Die Regierung sagt, dass die Steuern sinken würden.;Die Regierung kündigt an, die Steuern würden sinken.;Die Regierung kündigt an, dass die Steuern sinken würden.|29|Regierung;Steuern;sinken
+S|Los precios en alza son un problema.|Die steigenden Preise sind ein Problem.|32|steigenden;Preise;Problem
+S|Los documentos enviados están completos.|Die geschickten Unterlagen sind vollständig.;Die verschickten Unterlagen sind vollständig.;Die gesendeten Unterlagen sind vollständig.|32|geschickten/verschickten/gesendeten;Unterlagen;vollständig
+S|La casa vendida es vieja.|Das verkaufte Haus ist alt.|32|verkaufte;Haus;alt
+S|Allí hay una mujer sonriente.|Dort steht eine lächelnde Frau.;Da steht eine lächelnde Frau.|32|lächelnde;Frau
+S|El informe escrito por el ministro es largo.|Der vom Minister geschriebene Bericht ist lang.;Der von dem Minister geschriebene Bericht ist lang.;Der vom Minister verfasste Bericht ist lang.;Der von dem Minister verfasste Bericht ist lang.|32|Minister;Bericht;lang
+S|Los precios que han subido desde mayo son demasiado altos.|Die seit Mai gestiegenen Preise sind zu hoch.;Die Preise, die seit Mai gestiegen sind, sind zu hoch.|32|seit;Mai;gestiegenen/gestiegen;Preise
+S|Los residuos separados se reciclan.|Der getrennte Abfall wird recycelt.;Die getrennten Abfälle werden recycelt.;Der getrennte Müll wird recycelt.;Der sortierte Abfall wird recycelt.|32|getrennte/getrennten/sortierte;recycelt
+S|La ciudad contaminada necesita aire limpio.|Die verschmutzte Stadt braucht saubere Luft.|32|verschmutzte;Stadt;Luft
+S|El cambio climático es un problema creciente.|Der Klimawandel ist ein wachsendes Problem.|32|Klimawandel;wachsendes;Problem
+
+@b2-relations|B2|Sentimientos y relaciones|Expresar pesar y reproches, decir hasta qué punto estás seguro y hablar con naturalidad con las partículas modales.
+F|28;36;38
+V|prat|schweigen;reißen
+P|gratulieren>zu;sich streiten>mit;sich verlieben>in;sich verabschieden>von;sich verstehen>mit;riechen>nach;sich sehnen>nach;passen>zu;sich trennen>von;die Freude>über;die Erinnerung>an;die Beziehung>zu;der Streit>mit;die Sorge>um;verheiratet>mit;verliebt>in;böse>auf;froh>über;traurig>über;freundlich>zu
+M|das Gefühl;die Beziehung;das Vertrauen;die Eifersucht;die Enttäuschung;die Sehnsucht;die Geduld;der Streit;die Versöhnung;das Missverständnis;die Rücksicht;der Eindruck;die Stimmung;sich verlieben;sich trennen;sich streiten;vermissen;enttäuschen;vertrauen;sich schämen;sich aufregen;zuverlässig;ehrgeizig;eifersüchtig;geduldig;ungeduldig;neugierig;schüchtern;selbstbewusst;großzügig;hilfsbereit;empfindlich;gelassen;enttäuscht;verlegen
+M|Ich verstehe nur Bahnhof.;Das ist mir Wurst.;Ich drücke dir die Daumen.;Schwein haben;Tomaten auf den Augen haben;Ich habe die Nase voll.;ins Fettnäpfchen treten;auf dem Holzweg sein;den Nagel auf den Kopf treffen;um den heißen Brei herumreden;Hals- und Beinbruch!;Da steppt der Bär.;Alles hat ein Ende, nur die Wurst hat zwei.;etwas auf die lange Bank schieben;die Katze im Sack kaufen;jemandem auf den Keks gehen;Das ist nicht mein Bier.;Das ist mir ein Rätsel.;unter vier Augen;zwei Fliegen mit einer Klappe schlagen;Lügen haben kurze Beine.;Ende gut, alles gut.;Übung macht den Meister.
+M|ausgerechnet;gewissermaßen;anspruchsvoll;mühsam;zufällig;absichtlich;rechtzeitig;selbstverständlich;ständig;kaum;überhaupt nicht;eher;durchaus;keineswegs
+M|sich freuen auf;sich freuen über;sich interessieren für;sich ärgern über;sich unterhalten über;träumen von;glauben an;zweifeln an
+T|Wenn du angerufen [hättest], wäre ich gekommen.|haben (Konjunktiv II)|Si hubieras llamado, habría venido.|28
+T|Wenn sie früher gekommen [wäre], hätten wir gesprochen.|sein (Konjunktiv II)|Si hubiera venido antes, habríamos hablado.|28
+T|Ich [hätte] dir gern geholfen.|haben (Konjunktiv II)|Te habría ayudado con gusto.|28
+T|Wir [wären] gern länger geblieben.|sein (Konjunktiv II)|Nos habríamos quedado más tiempo con gusto.|28
+T|Du [hättest] mir die Wahrheit sagen sollen.|haben (Konjunktiv II)|Deberías haberme dicho la verdad.|28
+T|Ich hätte ihn nicht anrufen [sollen].|sollen|No debería haberlo llamado.|28
+T|Er hätte früher kommen [müssen].|müssen|Debería haber venido antes.|28
+T|Sie hätte mir helfen [können].|können|Podría haberme ayudado.|28
+T|[Hätte] ich bloß nichts gesagt!|haben (Konjunktiv II)|¡Ojalá no hubiera dicho nada!|28
+T|Fast [wären] wir zu spät gekommen.|sein (Konjunktiv II)|Por poco llegamos tarde.|28
+T|Er antwortet nicht. Er [muss] sehr müde sein.|müssen/sollen/wollen|No contesta. Tiene que estar muy cansado, seguro.|36
+T|Sie [soll] sehr reich sein.|müssen/sollen/wollen|Dicen que es muy rica.|36
+T|Er [will] den Streit nicht angefangen haben.|müssen/sollen/wollen|Afirma no haber empezado la pelea.|36
+T|Das [kann] nicht wahr sein.|können/sollen/wollen|Eso no puede ser verdad.|36
+T|Anna ist nicht da. Sie [dürfte] schon nach Hause gegangen sein.|dürfen (Konjunktiv II)|Anna no está. Probablemente ya se ha ido a casa.|36
+T|Sie [könnte] eifersüchtig sein.|können (Konjunktiv II)|Puede que esté celosa.|36
+T|Er wird [wohl] zu Hause sein.|wohl/doch/mal|Seguramente esté en casa.|36
+T|Er muss sich in sie verliebt [haben].|haben/sein|Debe de haberse enamorado de ella.|36
+T|Sie soll letztes Jahr nach Wien gezogen [sein].|haben/sein|Dicen que se mudó a Viena el año pasado.|36
+T|Er will krank gewesen [sein].|haben/sein|Afirma haber estado enfermo.|36
+T|Wie alt bist du [eigentlich]?|eigentlich/halt/schon|Por cierto, ¿cuántos años tienes?|38
+T|Was machst du [denn] hier?|denn/doch/schon|Pero ¿qué haces aquí?|38
+T|Hilf mir [mal] kurz!|mal/denn/wohl|¡Ayúdame un momento!|38
+T|Das ist [ja] wunderbar!|ja/denn/mal|¡Pero si es maravilloso!|38
+T|Nimm [doch] den Bus!|doch/denn/wohl|¡Coge el autobús, hombre!|38
+T|Er ist [halt/eben] so.|halt/denn/mal|Él es así y ya está.|38
+T|Mach dir keine Sorgen, das wird [schon] gut.|schon/denn/mal|No te preocupes, ya verás que todo irá bien.|38
+T|Was ist [bloß/nur] passiert?|bloß/halt/mal|Pero ¿qué habrá pasado?|38
+T|Komm [bloß/nur] nicht zu spät!|bloß/denn/schon|¡Sobre todo, no llegues tarde!|38
+T|Sie ist [wohl] sauer auf mich.|wohl/denn/mal|Seguramente esté enfadada conmigo.|38
+S|Si hubiera tenido tiempo, habría venido.|Wenn ich Zeit gehabt hätte, wäre ich gekommen.;Hätte ich Zeit gehabt, wäre ich gekommen.|28|Zeit;gehabt;hätte;wäre;gekommen
+S|Deberías haberte disculpado.|Du hättest dich entschuldigen sollen.;Du hättest dich entschuldigen müssen.|28|hättest;dich;entschuldigen
+S|En tu lugar, no lo habría hecho.|An deiner Stelle hätte ich das nicht gemacht.;An deiner Stelle hätte ich das nicht getan.;Ich hätte das an deiner Stelle nicht gemacht.;Ich hätte das an deiner Stelle nicht getan.;An deiner Stelle hätte ich es nicht gemacht.;An deiner Stelle hätte ich es nicht getan.|28|Stelle;hätte;gemacht/getan
+S|Podríamos habernos quedado más tiempo.|Wir hätten länger bleiben können.|28|hätten;länger;bleiben;können
+S|Por poco me caigo.|Fast wäre ich gefallen.;Fast wäre ich hingefallen.;Ich wäre fast gefallen.;Ich wäre fast hingefallen.;Fast wäre ich gestürzt.;Ich wäre fast gestürzt.|28|Fast;wäre
+S|¡Ojalá lo hubiera sabido!|Hätte ich das bloß gewusst!;Hätte ich das nur gewusst!;Wenn ich das bloß gewusst hätte!;Wenn ich das nur gewusst hätte!|28|hätte;gewusst
+S|Mi hermana tiene que estar en casa, seguro.|Meine Schwester muss zu Hause sein.|36|Schwester;muss;Hause
+S|Dicen que el nuevo vecino es muy amable.|Der neue Nachbar soll sehr nett sein.;Der neue Nachbar soll sehr freundlich sein.|36|Nachbar;soll;nett/freundlich
+S|Afirma haberlo olvidado todo.|Er will alles vergessen haben.|36|will;vergessen;haben
+S|No puede ser tu hermano.|Das kann nicht dein Bruder sein.|36|kann;nicht;Bruder
+S|Debe de haber perdido el autobús.|Sie muss den Bus verpasst haben.|36|muss;Bus;verpasst;haben
+S|Dicen que se han separado.|Sie sollen sich getrennt haben.|36|sollen;getrennt;haben
+S|¡Siéntate, hombre!|Setz dich doch!;Setze dich doch!|38|dich;doch
+S|Pero ¿dónde está?|Wo ist er denn?|38|Wo;denn
+S|¡Espera un momento!|Warte mal!;Wart mal!|38|mal
+S|Los niños son así y ya está.|Kinder sind halt so.;Kinder sind eben so.;Die Kinder sind halt so.;Die Kinder sind eben so.|38|Kinder;sind;so
+S|No te preocupes, ya vendrá.|Keine Sorge, sie kommt schon.;Mach dir keine Sorgen, sie kommt schon.;Keine Angst, sie kommt schon.|38|sie;kommt;schon
+S|Por cierto, ¿dónde vives?|Wo wohnst du eigentlich?|38|Wo;wohnst;eigentlich
