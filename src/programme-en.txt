@@ -2,7 +2,7 @@
 // @id|niveau|titre|description
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
-// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (présents dans chaque version acceptée)
 // Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
 // N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
 
@@ -172,3 +172,339 @@ S|The children drink milk.|Die Kinder trinken Milch.|6
 S|We'll have two coffees.|Wir nehmen zwei Kaffee.;Wir nehmen zwei Kaffees.|6
 S|Paul is paying for the meal.|Paul bezahlt das Essen.|7
 S|The tomatoes are not expensive.|Die Tomaten sind nicht teuer.;Die Tomaten sind billig.|5
+
+@a1-ville|A1|Getting around town|Taking public transport, asking the way, saying who you are talking to, counting up to a thousand.
+F|8;10
+V|pres|stehen;sitzen;liegen;fliegen;schwimmen;beginnen;gefallen;verstehen;werden
+M|der Bahnhof;der Zug;der Bus;die Straßenbahn;die U-Bahn;die S-Bahn;die Haltestelle;das Gleis;die Fahrkarte;der Fahrplan;die Verspätung;das Auto;das Fahrrad;der Flughafen;die Straße;die Ampel;die Kreuzung;die Ecke;der Platz;die Brücke;die Stadt;das Dorf;die Innenstadt;die Kirche;der Park;die Post;umsteigen;einsteigen;aussteigen;links;rechts;geradeaus;weit;in der Nähe;Wo ist die Haltestelle?;Wie komme ich zum Bahnhof?;hin und zurück;Nächster Halt;werden
+M|null;eins;elf;dreizehn;sechzehn;siebzehn;einundzwanzig;vierzig;fünfzig;sechzig;siebzig;achtzig;neunzig;tausend;die Million;die Zahl;die Hälfte;das Viertel;erste;zweite;dritte
+T|Ich helfe [dem] Kind.|das (Dativ)|I help the child.|8
+T|Wir danken [der] Freundin.|die (Dativ)|We thank the friend.|8
+T|Das Buch gehört [dem] Mann.|der (Dativ)|The book belongs to the man.|8
+T|Das Auto gehört [der] Frau.|die (Dativ)|The car belongs to the woman.|8
+T|Ich zeige [dem] Mädchen die Haltestelle.|das (Dativ)|I show the girl the stop.|8
+T|Anna gibt [der] Mutter das Geld.|die (Dativ)|Anna gives the mother the money.|8
+T|Paul bringt [dem] Vater einen Kaffee.|der (Dativ)|Paul brings the father a coffee.|8
+T|Wir geben [den] Eltern den Schlüssel.|die, Plural (Dativ)|We give the parents the key.|8
+T|Ich schenke [einem] Freund ein Buch.|ein (Dativ)|I give a friend a book.|8
+T|Lena hilft [einer] Nachbarin.|eine (Dativ)|Lena helps a neighbour.|8
+T|Tom zeigt [einem] Kind den Bahnhof.|ein (Dativ)|Tom shows a child the station.|8
+T|Die Stadt gefällt [dem] Bruder.|der (Dativ)|The brother likes the town.|8
+T|Der Platz gefällt [der] Tante.|die (Dativ)|The aunt likes the square.|8
+T|Wir antworten [dem] Lehrer.|der (Dativ)|We answer the teacher.|8
+T|Wir fahren [mit] der U-Bahn.|mit/nach/von|We take the underground.|10
+T|Der Zug fährt [nach] Berlin.|nach/zu/in|The train goes to Berlin.|10
+T|Tom geht [zum] Bahnhof.|zu + der Bahnhof|Tom walks to the station.|10
+T|Maria geht [zur] Post.|zu + die Post|Maria goes to the post office.|10
+T|Das Kind ist [im] Park.|in + der Park|The child is in the park.|10
+T|Wir gehen [ins] Kino.|in + das Kino|We are going to the cinema.|10
+T|Der Schlüssel liegt auf [dem] Tisch.|der Tisch (Wo?)|The key is on the table.|10
+T|Ich lege den Schlüssel auf [den] Tisch.|der Tisch (Wohin?)|I put the key on the table.|10
+T|Die Kirche steht neben [der] Brücke.|die Brücke (Wo?)|The church stands next to the bridge.|10
+T|Der Bus fährt über [die] Brücke.|die Brücke (Wohin?)|The bus goes over the bridge.|10
+T|Das Geschenk ist [für] den Vater.|für/mit/aus|The present is for the father.|10
+T|Er geht [ohne] den Hund in den Park.|ohne/mit/aus|He goes to the park without the dog.|10
+T|Wir gehen [durch] den Park.|durch/nach/aus|We walk through the park.|10
+T|Der Zug kommt [aus] Wien.|aus/zu/für|The train comes from Vienna.|10
+T|Anna wohnt [bei] der Oma.|bei/zu/nach|Anna lives at her grandmother's.|10
+T|Ich warte an [der] Ampel.|die Ampel (Wo?)|I am waiting at the traffic lights.|10
+T|Er arbeitet seit [einem] Monat in Köln.|ein Monat (Dativ)|He has been working in Cologne for a month.|10
+S|We are taking the train.|Wir fahren mit dem Zug.;Wir nehmen den Zug.|10|Wir;Zug
+S|Where is the bus going?|Wohin fährt der Bus?|10|Wohin;Bus
+S|The station is straight ahead.|Der Bahnhof ist geradeaus.|10|Bahnhof;geradeaus
+S|The post office is on the right.|Die Post ist rechts.|10|Post;rechts
+S|I am going to the post office.|Ich gehe zur Post.|10|zur;Post
+S|He is going to the station.|Er geht zum Bahnhof.;Er fährt zum Bahnhof.|10|zum;Bahnhof
+S|We are going to Vienna.|Wir fahren nach Wien.;Wir gehen nach Wien.;Wir fliegen nach Wien.|10|nach;Wien
+S|The train is late.|Der Zug hat Verspätung.|8|Zug;Verspätung
+S|I help the neighbour.|Ich helfe dem Nachbarn.|8|helfe;dem;Nachbarn
+S|The bike belongs to Paul.|Das Fahrrad gehört Paul.|8|Fahrrad;gehört;Paul
+S|Anna likes the town.|Die Stadt gefällt Anna.;Anna gefällt die Stadt.|8|Stadt;gefällt;Anna
+S|Anna gives the child the key.|Anna gibt dem Kind den Schlüssel.|8|gibt;dem;Kind;Schlüssel
+S|The bus stops in front of the church.|Der Bus hält vor der Kirche.|10|Bus;hält;vor;Kirche
+S|He lives next to the park.|Er wohnt neben dem Park.|10|wohnt;neben;Park
+S|The children are in the park.|Die Kinder sind im Park.|10|Kinder;im;Park
+S|We are going into town.|Wir gehen in die Stadt.;Wir fahren in die Stadt.|10|in;die;Stadt
+S|The ticket costs a hundred and twenty euros.|Die Fahrkarte kostet hundertzwanzig Euro.;Die Fahrkarte kostet einhundertzwanzig Euro.|26|Fahrkarte;kostet;Euro
+S|We get off at the third stop.|Wir steigen an der dritten Haltestelle aus.|26|dritten;Haltestelle
+S|The child is sitting on the chair.|Das Kind sitzt auf dem Stuhl.|10|Kind;sitzt;auf;Stuhl
+
+@a1-restaurant|A1|At the restaurant|Ordering, paying, saying what you want to, can or must do, talking about people with pronouns.
+F|9;11
+V|pres|können;müssen;wollen;dürfen;sollen;empfehlen;bitten;tun;denken
+M|das Restaurant;das Café;die Kneipe;die Speisekarte;die Rechnung;das Trinkgeld;der Kellner;die Kellnerin;die Vorspeise;das Hauptgericht;die Nachspeise;die Suppe;das Getränk;bestellen;reservieren;vegetarisch;scharf;Die Karte, bitte.;Ich hätte gern einen Kaffee.;Die Rechnung, bitte.;Zusammen oder getrennt?;Stimmt so.;Ist hier noch frei?;Einen Tisch für zwei, bitte.;Was empfehlen Sie?
+M|das Mittagessen;das Abendessen;das Hähnchen;der Joghurt;die Zwiebel;der Pfeffer;der Topf;die Pfanne;die Metzgerei;die Drogerie;der Kassenbon;der Einkaufswagen;das Pfand;die Dose;das Gramm;das Angebot;der Cent;günstig;Kann ich mit Karte zahlen?;Brauchen Sie eine Tüte?;Ich schaue nur.
+M|Mir geht es gut, danke.;Gern geschehen.;Es tut mir leid.;doch;Können Sie das wiederholen?;Sprechen Sie bitte langsamer.;Ich heiße …;Ich komme aus Frankreich.;Wie sagt man das auf Deutsch?;Was bedeutet das?;Prost!;können;müssen;wollen;dürfen;sollen
+T|Ich besuche [ihn] morgen.|er (Akk.)|I am visiting him tomorrow.|9
+T|Kennst du [sie]? – Ja, das ist Anna.|sie (Akk.)|Do you know her? – Yes, that's Anna.|9
+T|Ich sehe [dich] morgen.|du (Akk.)|I'll see you tomorrow.|9
+T|Der Kellner bringt [uns] die Karte.|wir (Dativ)|The waiter brings us the menu.|9
+T|Kannst du [mir] das Salz geben?|ich (Dativ)|Can you give me the salt?|9
+T|Das Essen schmeckt [ihm] nicht.|er (Dativ)|He doesn't like the food.|9
+T|Wie geht es [dir]? – Gut, danke.|du (Dativ)|How are you? – Fine, thanks.|9
+T|Ich gebe [Ihnen] die Rechnung.|Sie (Dativ)|I'll give you the bill.|9
+T|Ich rufe [euch] morgen an.|ihr (Akk.)|I'll call you tomorrow.|9
+T|[Mein] Kaffee ist kalt.|der Kaffee · mein|My coffee is cold.|9
+T|Hast du [meine] Tasche?|die Tasche · mein|Do you have my bag?|9
+T|Paul nimmt [meinen] Schlüssel.|der Schlüssel · mein|Paul takes my key.|9
+T|Anna bezahlt [ihren] Kaffee.|der Kaffee · ihr|Anna pays for her coffee.|9
+T|Paul trinkt [sein] Bier.|das Bier · sein|Paul drinks his beer.|9
+T|Wir essen bei [unseren] Eltern.|die Eltern · unser|We eat at our parents' house.|9
+T|Ist das [euer] Tisch?|der Tisch · euer|Is that your table?|9
+T|Ich [kann] heute nicht kommen.|können|I can't come today.|11
+T|[Kannst] du kochen?|können|Can you cook?|11
+T|Im Restaurant [darf] man nicht rauchen.|dürfen|You are not allowed to smoke in the restaurant.|11
+T|[Darf] ich hier sitzen?|dürfen|May I sit here?|11
+T|Du [musst] nicht bezahlen.|müssen|You don't have to pay.|11
+T|Wir [müssen] heute kochen.|müssen|We have to cook today.|11
+T|Er [will] Wein trinken.|wollen|He wants to drink wine.|11
+T|Was [wollt] ihr essen?|wollen|What do you want to eat?|11
+T|Der Arzt sagt, ich [soll] viel Wasser trinken.|sollen|The doctor says I should drink a lot of water.|11
+T|[Soll] ich den Tisch reservieren?|sollen|Shall I book the table?|11
+T|Ich [möchte] die Suppe.|möchten|I would like the soup.|11
+T|[Möchtest] du einen Tee?|möchten|Would you like a tea?|11
+T|Sie [können] hier bezahlen.|können|You can pay here.|11
+T|Ihr [dürft] das Essen mitnehmen.|dürfen|You are allowed to take the food with you.|11
+T|Die Kinder [wollen] Kuchen essen.|wollen|The children want to eat cake.|11
+T|Ich [muss] die Rechnung bezahlen.|müssen|I have to pay the bill.|11
+S|I would like a soup.|Ich möchte eine Suppe.;Ich hätte gern eine Suppe.|11|eine;Suppe
+S|I have to pay.|Ich muss bezahlen.;Ich muss zahlen.|11|Ich;muss
+S|Can you come today? (du)|Kannst du heute kommen?|11|Kannst;heute;kommen
+S|What do you want to eat? (du)|Was willst du essen?;Was möchtest du essen?|11|Was;essen
+S|You are not allowed to eat here.|Hier darf man nicht essen.;Man darf hier nicht essen.|11|darf;nicht;essen
+S|You don't have to wait. (du)|Du musst nicht warten.|11|musst;nicht;warten
+S|We want to book a table.|Wir wollen einen Tisch reservieren.;Wir möchten einen Tisch reservieren.|11|Tisch;reservieren
+S|He can't come.|Er kann nicht kommen.|11|kann;nicht;kommen
+S|I want to pay now.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|Ich;jetzt
+S|I'll give you the key.|Ich gebe Ihnen den Schlüssel.;Ich gebe euch den Schlüssel.|9|gebe;den;Schlüssel
+S|He brings his sister a tea.|Er bringt seiner Schwester einen Tee.|9|bringt;seiner;Schwester;Tee
+S|I know him well.|Ich kenne ihn gut.|9|kenne;ihn;gut
+S|My mother doesn't eat meat.|Meine Mutter isst kein Fleisch.|9|Meine;Mutter;Fleisch
+S|It is our car.|Das ist unser Auto.;Es ist unser Auto.|9|unser;Auto
+S|Where is your brother? (du)|Wo ist dein Bruder?|9|Wo;dein;Bruder
+S|My bag is in the car.|Meine Tasche ist im Auto.|9|Meine;Tasche;Auto
+S|Do you like the food? (du)|Schmeckt dir das Essen?|9|Schmeckt;dir;Essen
+S|The bill is for me.|Die Rechnung ist für mich.|9|Rechnung;für;mich
+
+@a2-maison|A2|Home and everyday life|Organising your day with separable verbs, giving instructions, talking about your home and your clothes.
+F|12;13
+V|pres|aufstehen;anfangen;anrufen;einsteigen;aussteigen;umsteigen;ankommen;mitkommen;fernsehen;abholen;aufmachen;zumachen
+M|das Schlafzimmer;das Wohnzimmer;der Flur;das Stockwerk;der Aufzug;der Kühlschrank;die Waschmaschine;die Heizung;der Müll;die Mülltonne;der Briefkasten;umziehen;mieten;putzen;lüften;gemütlich
+M|die Kleidung;die Hose;das Hemd;das T-Shirt;der Pullover;die Jacke;der Mantel;das Kleid;der Rock;der Schuh;die Socke;die Mütze;der Schal;der Regenschirm;die Tasche;die Größe;die Umkleidekabine;anziehen;anprobieren;passen;eng;bequem
+M|machen;sagen;fragen;antworten;verstehen;hören;öffnen;schließen;anfangen;aufhören;aufstehen;anrufen;zeigen;mitbringen;suchen;brauchen;lernen;warten
+T|Wir [stehen] früh auf.|aufstehen|We get up early.|12
+T|Paul steht jeden Tag um sechs [auf].|aufstehen|Paul gets up at six every day.|12
+T|Wann [fängt] der Kurs an?|anfangen|When does the course start?|12
+T|Der Unterricht fängt um neun [an].|anfangen|The lesson starts at nine.|12
+T|Ich [rufe] meine Mutter an.|anrufen|I am calling my mother.|12
+T|Wann rufst du mich [an]?|anrufen|When are you calling me?|12
+T|Wir [steigen] am Bahnhof ein.|einsteigen|We get on at the station.|12
+T|Hier [steigt] Maria aus.|aussteigen|Maria gets off here.|12
+T|Du [steigst] in Köln um.|umsteigen|You change in Cologne.|12
+T|Der Zug [kommt] um acht Uhr an.|ankommen|The train arrives at eight o'clock.|12
+T|[Kommst] du heute mit?|mitkommen|Are you coming along today?|12
+T|Wir [sehen] heute Abend fern.|fernsehen|We are watching TV tonight.|12
+T|Anna holt die Kinder [ab].|abholen|Anna picks up the children.|12
+T|Er [holt] mich am Flughafen ab.|abholen|He is picking me up at the airport.|12
+T|Mach das Fenster [zu]!|zumachen|Close the window!|12
+T|Wer [macht] die Tür auf?|aufmachen|Who opens the door?|12
+T|Wir [besuchen] heute die Oma.|besuchen|We are visiting grandma today.|12
+T|[Komm] bitte schnell!|kommen (du)|Come quickly, please!|13
+T|[Nimm] den Schlüssel!|nehmen (du)|Take the key!|13
+T|[Gib] mir bitte die Tasche!|geben (du)|Give me the bag, please!|13
+T|[Lies] das Buch!|lesen (du)|Read the book!|13
+T|[Fahr] langsam!|fahren (du)|Drive slowly!|13
+T|[Warte] bitte hier!|warten (du)|Wait here, please!|13
+T|[Öffne] die Flasche!|öffnen (du)|Open the bottle!|13
+T|[Seid] bitte leise!|sein (ihr)|Be quiet, please!|13
+T|[Kommt] um acht!|kommen (ihr)|Come at eight!|13
+T|[Nehmen] Sie bitte Platz!|nehmen (Sie)|Please take a seat!|13
+T|[Warten] Sie hier!|warten (Sie)|Wait here!|13
+T|[Seien] Sie pünktlich!|sein (Sie)|Be on time!|13
+T|Steh bitte [auf]!|aufstehen (du)|Get up, please!|13
+T|[Ruf] mich morgen an!|anrufen (du)|Call me tomorrow!|13
+S|I get up at seven o'clock.|Ich stehe um sieben Uhr auf.|12|stehe;sieben;auf
+S|The course starts at ten o'clock.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|zehn;Uhr
+S|Will you call me tomorrow? (du)|Rufst du mich morgen an?|12|Rufst;mich;an
+S|We get off here.|Wir steigen hier aus.|12|steigen;hier;aus
+S|You have to change in Cologne. (du)|Du musst in Köln umsteigen.|12|musst;Köln;umsteigen
+S|I am picking Anna up at the station.|Ich hole Anna am Bahnhof ab.;Ich hole Anna vom Bahnhof ab.|12|hole;Anna;ab
+S|We are watching TV this evening.|Heute Abend sehen wir fern.;Wir sehen heute Abend fern.|12|sehen;fern
+S|I would like to try on the jacket.|Ich möchte die Jacke anprobieren.|12|Jacke;anprobieren
+S|He puts on his jacket.|Er zieht seine Jacke an.|12|zieht;Jacke;an
+S|He is moving to Berlin.|Er zieht nach Berlin um.|12|zieht;Berlin;um
+S|The coat suits me.|Der Mantel passt mir gut.;Der Mantel steht mir gut.|8|Mantel;mir;gut
+S|Open the window! (du)|Mach das Fenster auf!;Öffne das Fenster!|13|das;Fenster
+S|Close the door, please! (du)|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|die;Tür
+S|Speak more slowly, please. (du)|Sprich bitte langsamer.;Sprich langsamer, bitte.|13|Sprich;bitte;langsamer
+S|Help me, please! (du)|Hilf mir bitte!;Bitte hilf mir!|13|Hilf;mir;bitte
+S|Take your coat! (du)|Nimm deinen Mantel!|13|Nimm;deinen;Mantel
+S|Wait here, please.|Warten Sie bitte hier.;Warten Sie hier, bitte.;Wartet bitte hier.;Wartet hier, bitte.|13|hier;bitte
+S|Stay at home! (du)|Bleib zu Hause!;Bleibe zu Hause!|13|zu;Hause
+
+@a2-raconter|A2|Talking about the past|Saying what you did in the perfect, using war, hatte and the modals in the preterite, talking about the weather and free time.
+F|14;15
+V|perf|tragen;rufen;verlieren;rennen;halten;ausgehen;abfahren;zurückkommen;mitnehmen
+V|prat|steigen;scheinen;gewinnen;singen
+M|der Vormittag;der Januar;der Februar;der März;der April;der Mai;der Juni;der Juli;der August;der September;der Oktober;der November;der Dezember;der Frühling;der Sommer;der Herbst;der Winter;der Feiertag;der Geburtstag;übermorgen;bald;später;manchmal;Wie spät ist es?;Es ist halb drei.
+M|das Wetter;die Sonne;der Regen;der Schnee;der Wind;die Wolke;das Gewitter;die Temperatur;sonnig;bewölkt;Es regnet.;Es ist kalt.;Es ist warm.;die Freizeit;das Hobby;der Sport;das Kino;der Film;das Buch;die Musik;das Konzert;das Museum;der Ausflug;die Reise;das Schwimmbad;der Verein;das Spiel;spazieren gehen;schwimmen;wandern;sich treffen;Hast du Lust?;wohnen;leben;verlieren;tragen
+T|Ich [habe] gestern viel gearbeitet.|haben/sein|I worked a lot yesterday.|14
+T|Wir [sind] nach Hamburg gefahren.|haben/sein|We went to Hamburg.|14
+T|Anna [ist] spät gekommen.|haben/sein|Anna came late.|14
+T|Er [hat] einen Apfel gegessen.|haben/sein|He ate an apple.|14
+T|Paul [ist] zu Hause geblieben.|haben/sein|Paul stayed at home.|14
+T|Gestern [ist] nichts passiert.|haben/sein|Nothing happened yesterday.|14
+T|Ich [bin] früh aufgestanden.|haben/sein|I got up early.|14
+T|Ich habe einen Film [gesehen].|sehen|I saw a film.|14
+T|Er hat ein Buch [gelesen].|lesen|He read a book.|14
+T|Wir haben Kaffee [getrunken].|trinken|We drank coffee.|14
+T|Du hast viel [geschlafen].|schlafen|You slept a lot.|14
+T|Sie hat den Brief [geschrieben].|schreiben|She wrote the letter.|14
+T|Wir haben Obst [gekauft].|kaufen|We bought fruit.|14
+T|Hast du die Miete [bezahlt]?|bezahlen|Did you pay the rent?|14
+T|Wir haben am Samstag [eingekauft].|einkaufen|We did the shopping on Saturday.|14
+T|Der Film hat um acht [angefangen].|anfangen|The film started at eight.|14
+T|Ich habe dich gestern [angerufen].|anrufen|I called you yesterday.|14
+T|Ich [war] gestern im Kino.|sein (Präteritum)|I was at the cinema yesterday.|15
+T|Wir [waren] am Wochenende in Wien.|sein (Präteritum)|We were in Vienna at the weekend.|15
+T|Wo [warst] du gestern?|sein (Präteritum)|Where were you yesterday?|15
+T|Das Wetter [war] schön.|sein (Präteritum)|The weather was nice.|15
+T|Ich [hatte] keine Lust.|haben (Präteritum)|I didn't feel like it.|15
+T|[Hattest] du Zeit?|haben (Präteritum)|Did you have time?|15
+T|Er [hatte] Fieber.|haben (Präteritum)|He had a temperature.|15
+T|Ich [konnte] nicht kommen.|können (Präteritum)|I couldn't come.|15
+T|Wir [mussten] lange warten.|müssen (Präteritum)|We had to wait a long time.|15
+T|Anna [wollte] ins Kino gehen.|wollen (Präteritum)|Anna wanted to go to the cinema.|15
+T|Früher [gab] es hier ein Kino.|geben (Präteritum)|There used to be a cinema here.|15
+T|Er [wurde] krank.|werden (Präteritum)|He fell ill.|15
+T|Die Kinder [durften] nicht fernsehen.|dürfen (Präteritum)|The children were not allowed to watch TV.|15
+S|Yesterday I worked at home.|Gestern habe ich zu Hause gearbeitet.;Ich habe gestern zu Hause gearbeitet.|14|habe;Hause;gearbeitet
+S|We went to the cinema.|Wir sind ins Kino gegangen.|14|sind;Kino;gegangen
+S|She read a book.|Sie hat ein Buch gelesen.|14|hat;Buch;gelesen
+S|He arrived yesterday.|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|ist;gestern
+S|What did you eat? (du)|Was hast du gegessen?|14|Was;gegessen
+S|I forgot the key.|Ich habe den Schlüssel vergessen.|14|Schlüssel;vergessen
+S|We won the game.|Wir haben das Spiel gewonnen.|14|Spiel;gewonnen
+S|He lost his phone.|Er hat sein Handy verloren.|14|sein;Handy;verloren
+S|The sun was shining.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne
+S|The children sang.|Die Kinder haben gesungen.|14|Kinder;gesungen
+S|I went out with Anna.|Ich bin mit Anna ausgegangen.|14|bin;Anna;ausgegangen
+S|The bus left at eight o'clock.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht
+S|He came back late.|Er ist spät zurückgekommen.;Er ist spät nach Hause gekommen.|14|ist;spät
+S|I was ill.|Ich war krank.;Ich bin krank gewesen.|15|krank
+S|Yesterday there was a concert.|Gestern gab es ein Konzert.;Es gab gestern ein Konzert.|15|gab;Konzert
+S|How was the weekend?|Wie war das Wochenende?|15|war;Wochenende
+S|I couldn't sleep.|Ich konnte nicht schlafen.|15|konnte;schlafen
+S|We had to wait.|Wir mussten warten.;Wir haben warten müssen.|15|warten
+S|She didn't have time.|Sie hatte keine Zeit.|15|hatte;keine;Zeit
+
+@a2-sante|A2|Health and comparisons|Talking about your body and the doctor, using reflexive verbs, comparing things and people.
+F|16;19
+V|pres|waschen;anziehen;umziehen;aussehen;kennenlernen;schneiden;fallen;treiben;sterben
+M|der Körper;der Kopf;das Auge;das Ohr;die Nase;der Mund;der Zahn;der Hals;der Arm;die Hand;der Finger;der Bauch;der Rücken;das Bein;der Fuß;das Herz;der Arzt;die Ärztin;die Praxis;das Krankenhaus;das Medikament;das Rezept;das Fieber;die Erkältung;der Husten;die Schmerzen;krank;gesund;müde;Ich habe Kopfschmerzen.;Mir ist schlecht.;Ich brauche einen Termin.;Gute Besserung!
+M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen
+T|Ich wasche [mich] jeden Morgen.|sich (ich)|I wash every morning.|16
+T|Ich putze [mir] die Zähne.|sich (ich, Dativ)|I brush my teeth.|16
+T|Beeil [dich]!|sich (du)|Hurry up!|16
+T|Er fühlt [sich] heute schlecht.|sich|He feels bad today.|16
+T|Wir treffen [uns] am Bahnhof.|sich (wir)|We are meeting at the station.|16
+T|Ihr müsst [euch] beeilen.|sich (ihr)|You have to hurry.|16
+T|Anna freut [sich] auf den Urlaub.|sich|Anna is looking forward to the holidays.|16
+T|Setzen Sie [sich] bitte!|sich (Sie)|Please sit down!|16
+T|Hast du [dir] die Hände gewaschen?|sich (du, Dativ)|Did you wash your hands?|16
+T|Ich kaufe [mir] ein Fahrrad.|sich (ich, Dativ)|I am buying myself a bike.|16
+T|Hast du [dich] erkältet?|sich (du)|Have you caught a cold?|16
+T|Ich habe [mich] erkältet.|sich (ich)|I have caught a cold.|16
+T|Kannst du [dir] den Termin merken?|sich (du, Dativ)|Can you remember the appointment?|16
+T|Er [fühlt] sich krank.|fühlen|He feels ill.|16
+T|Ich [freue] mich auf morgen.|freuen|I am looking forward to tomorrow.|16
+T|Das Kind [wäscht] sich die Hände.|waschen|The child washes its hands.|16
+T|Anna ist [jünger] als Paul.|jung|Anna is younger than Paul.|19
+T|Der Zug ist [schneller] als der Bus.|schnell|The train is faster than the bus.|19
+T|Das Fieber ist heute [höher] als gestern.|hoch|The temperature is higher today than yesterday.|19
+T|Heute geht es mir [besser].|gut|I am better today.|19
+T|Tee trinke ich [lieber] als Kaffee.|gern|I prefer tea to coffee.|19
+T|Mein Vater arbeitet [mehr] als ich.|viel|My father works more than I do.|19
+T|Die Wohnung ist [kleiner] als das Haus.|klein|The flat is smaller than the house.|19
+T|Berlin ist [größer] als Bonn.|groß|Berlin is bigger than Bonn.|19
+T|Das Medikament ist so teuer [wie] das andere.|als/wie|This medicine is as expensive as the other one.|19
+T|Meine Schwester ist größer [als] ich.|als/wie|My sister is taller than me.|19
+T|Ist das [nächste] Krankenhaus weit?|nah|Is the nearest hospital far?|19
+T|Der Arm tut am [meisten] weh.|viel|The arm hurts the most.|19
+T|Im Winter ist es am [kältesten].|kalt|It is coldest in winter.|19
+T|Am [liebsten] esse ich Fisch.|gern|I like eating fish best.|19
+T|Er ist der [beste] Arzt.|gut|He is the best doctor.|19
+T|Anna ist am [jüngsten].|jung|Anna is the youngest.|19
+S|I feel well today.|Ich fühle mich heute gut.;Heute fühle ich mich gut.|16|fühle;mich;gut
+S|We have to hurry.|Wir müssen uns beeilen.|16|müssen;uns;beeilen
+S|He is washing.|Er wäscht sich.|16|wäscht;sich
+S|We are meeting tomorrow.|Wir treffen uns morgen.;Wir sehen uns morgen.;Morgen treffen wir uns.;Morgen sehen wir uns.|16|uns;morgen
+S|Anna has caught a cold.|Anna hat sich erkältet.|16|Anna;sich;erkältet
+S|I am buying myself a jacket.|Ich kaufe mir eine Jacke.|16|kaufe;mir;Jacke
+S|I am looking forward to summer.|Ich freue mich auf den Sommer.|16|freue;mich;Sommer
+S|Do you have a headache? (du)|Hast du Kopfschmerzen?|6|Hast;Kopfschmerzen
+S|My back hurts.|Mein Rücken tut weh.;Mein Rücken tut mir weh.|9|Rücken;weh
+S|I have a temperature.|Ich habe Fieber.|6|habe;Fieber
+S|She is tired and ill.|Sie ist müde und krank.|1|müde;krank
+S|The doctor is younger than me.|Der Arzt ist jünger als ich.|19|Arzt;jünger;als
+S|The temperature is higher today.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute
+S|Anna speaks German better than Paul.|Anna spricht besser Deutsch als Paul.;Anna spricht Deutsch besser als Paul.|19|besser;Deutsch;als
+S|This medicine is cheaper.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;ist
+S|I prefer drinking water.|Ich trinke lieber Wasser.|19|trinke;lieber;Wasser
+S|Paul is as tall as Tom.|Paul ist so groß wie Tom.|19|so;groß;wie
+S|The train is the fastest.|Der Zug ist am schnellsten.|19|Zug;schnellsten
+S|The nearest doctor is in Bonn.|Der nächste Arzt ist in Bonn.|19|nächste;Arzt;Bonn
+
+@a2-raisons|A2|Work, reasons and plans|Linking ideas, explaining why, describing with adjectives, talking about the future, asking politely.
+F|17;18;20
+V|pres|aufhören;aufräumen;einladen;ausfüllen;zuhören;unterschreiben;schließen;nennen;lassen;werfen;ziehen
+M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;gefallen;glauben;denken
+M|wer?;was?;wo?;wohin?;woher?;wann?;warum?;wie?;wie viel?;welcher?;und;oder;aber;weil;dass;wenn;also;auch;noch;schon;nur;sehr;ziemlich;vielleicht;zusammen;allein;hier;dort;alles;nichts;etwas;jemand;niemand;viel;wenig;genug
+T|Anna bleibt zu Hause, [weil] sie krank ist.|weil/wenn/dass|Anna is staying at home because she is ill.|17
+T|Ich glaube, [dass] er heute kommt.|weil/dass/ob|I think he is coming today.|17
+T|Ich komme nicht, [denn] ich muss arbeiten.|denn/weil/dass|I'm not coming because I have to work.|17
+T|Ich weiß nicht, [ob] er Zeit hat.|ob/dass/wenn|I don't know whether he has time.|17
+T|[Wenn] es regnet, bleiben wir zu Hause.|wenn/als/ob|If it rains, we stay at home.|17
+T|[Als] ich ein Kind war, wohnte ich in Köln.|wenn/als/ob|When I was a child, I lived in Cologne.|17
+T|Ich trinke nicht Kaffee, [sondern] Tee.|aber/sondern/und|I don't drink coffee, but tea.|17
+T|Es ist kalt, [trotzdem] gehen wir schwimmen.|deshalb/trotzdem/dann|It is cold, but we are going swimming anyway.|17
+T|Ich bin müde, [deshalb] gehe ich ins Bett.|deshalb/trotzdem/dann|I am tired, so I am going to bed.|17
+T|Ich weiß, dass du heute [kommst].|kommen|I know you are coming today.|17
+T|Wir essen, wenn Paul [ankommt].|ankommen|We will eat when Paul arrives.|17
+T|Ich lerne Deutsch, weil ich in Wien [arbeite].|arbeiten|I am learning German because I work in Vienna.|17
+T|Mein Bruder hat einen [guten] Job.|gut (der Job)|My brother has a good job.|18
+T|Wir haben ein [schönes] Haus.|schön (das Haus)|We have a beautiful house.|18
+T|Ich kaufe einen [neuen] Computer.|neu (der Computer)|I am buying a new computer.|18
+T|Der [alte] Chef ist nett.|alt (der Chef)|The old boss is nice.|18
+T|Ich nehme die [kleine] Tasche.|klein (die Tasche)|I'll take the small bag.|18
+T|Er arbeitet in einer [großen] Firma.|groß (die Firma)|He works for a big company.|18
+T|Das [neue] Büro ist schön.|neu (das Büro)|The new office is nice.|18
+T|Ich trinke [heißen] Kaffee.|heiß (der Kaffee)|I drink hot coffee.|18
+T|Ich möchte [frisches] Brot.|frisch (das Brot)|I would like fresh bread.|18
+T|Ich [werde] dir morgen schreiben.|werden|I will write to you tomorrow.|20
+T|Wir [werden] nächstes Jahr umziehen.|werden|We will move next year.|20
+T|Er [wird] bald kommen.|werden|He will come soon.|20
+T|[Könnten] Sie mir das zeigen?|können (Konjunktiv II)|Could you show me that?|20
+T|[Würden] Sie mir bitte helfen?|werden (Konjunktiv II)|Would you help me, please?|20
+T|Du [solltest] mehr schlafen.|sollen (Konjunktiv II)|You should sleep more.|20
+T|Ich [würde] gern schwimmen gehen.|werden (Konjunktiv II)|I would like to go swimming.|20
+T|Wir [hätten] gern einen Tisch.|haben (Konjunktiv II)|We would like a table.|20
+T|Das [wäre] sehr nett.|sein (Konjunktiv II)|That would be very kind.|20
+S|I am staying at home because I am tired.|Ich bleibe zu Hause, weil ich müde bin.;Ich bleibe zu Hause, denn ich bin müde.|17|bleibe;Hause;müde
+S|I think he is ill.|Ich glaube, dass er krank ist.;Ich glaube, er ist krank.|17|glaube;krank
+S|I don't know whether Anna is coming.|Ich weiß nicht, ob Anna kommt.|17|weiß;ob;Anna
+S|When I have time, I read.|Wenn ich Zeit habe, lese ich.|17|Wenn;Zeit;lese
+S|When I was a child, I lived in Berlin.|Als ich ein Kind war, habe ich in Berlin gewohnt.;Als ich ein Kind war, wohnte ich in Berlin.;Als ich Kind war, habe ich in Berlin gewohnt.;Als ich Kind war, wohnte ich in Berlin.|17|Als;Berlin
+S|It is raining, so I am taking the bus.|Es regnet, deshalb nehme ich den Bus.;Es regnet, deswegen nehme ich den Bus.;Es regnet, deshalb fahre ich mit dem Bus.;Es regnet, deswegen fahre ich mit dem Bus.|17|regnet;Bus
+S|I don't drink beer, but wine.|Ich trinke kein Bier, sondern Wein.|17|Bier;sondern;Wein
+S|I am buying the green jumper.|Ich kaufe den grünen Pullover.|18|grünen;Pullover
+S|They live in a big city.|Sie wohnen in einer großen Stadt.|18|wohnen;großen;Stadt
+S|He has a new car.|Er hat ein neues Auto.|18|neues;Auto
+S|We have a small kitchen.|Wir haben eine kleine Küche.|18|kleine;Küche
+S|We are looking for a cheap flat.|Wir suchen eine billige Wohnung.;Wir suchen eine günstige Wohnung.|18|suchen;Wohnung
+S|She works for a small company.|Sie arbeitet in einer kleinen Firma.|18|einer;kleinen;Firma
+S|I will visit you tomorrow. (du)|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen
+S|Could you open the window?|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster
+S|You should work less. (du)|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
+S|I would like a glass of water.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
+S|If I had time, I would come.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte

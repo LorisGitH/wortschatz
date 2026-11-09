@@ -78,8 +78,12 @@ def check_programme():
             if is_shown(x): leaks.append(x)
             u['T'] += 1
         elif f[0] == 'S':
-            assert len(f) == 4 and int(f[3]) in fiches, l
+            assert len(f) in (4, 5) and int(f[3]) in fiches, l
             leaks += [x for x in f[2].split(';') if is_shown(x)]
+            if len(f) == 5: # the keywords of a free answer (issue #22): each one must be in every accepted version
+                for x in f[2].split(';'):
+                    tokens = [t.casefold() for t in re.findall(r'[\w-]+', x)]
+                    for k in f[4].split(';'): assert k.casefold() in tokens, (u['id'], k, x)
             u['S'] += 1
         else: raise AssertionError(l)
     assert not leaks, ('reserved sentences shown in training', leaks)
