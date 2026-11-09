@@ -229,27 +229,32 @@
   const langs = [undefined, "en", "es"];
   const eachLang = fn => { try { for (const l of langs) { loadProgramme(l); fn(l || "fr"); } } finally { loadProgramme(uiLang()); } };
   const fullMarks = (u, id, answer, shown) => { if (examMark(examQuestion(u, id), answer).pts !== 1) throw new Error("no full marks for " + u.id + ": " + shown); };
-  test("the programme runs from A1 to the end of A2, in order", () => {
-    eq(UNITS.map(u => u.id), ["a1-presenter", "a1-journee", "a1-courses", "a1-ville", "a1-restaurant", "a2-maison", "a2-raconter", "a2-sante", "a2-raisons"]);
-    eq(UNITS.map(u => u.level).join(), "A1,A1,A1,A1,A1,A2,A2,A2,A2");
+  test("the programme runs from A1 to the end of B1, in order", () => {
+    eq(UNITS.map(u => u.id), ["a1-presenter", "a1-journee", "a1-courses", "a1-ville", "a1-restaurant", "a2-maison", "a2-raconter", "a2-sante", "a2-raisons", "b1-echanger", "b1-travail", "b1-demarches"]);
+    eq(UNITS.map(u => u.level).join(), "A1,A1,A1,A1,A1,A2,A2,A2,A2,B1,B1,B1");
   });
   test("every fiche of the level is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.fiches, x => x);
-    for (let id = 1; id <= 20; id++) eq([id, n[id]], [id, 1]);
-    eq([n[26], n[27]], [1, 1]);
+    // fiches 1 to 27 are A1 to B1, and fiche 37 (B1–B2) goes to B1: the fiche numbers do not follow the levels
+    for (const id of [...Array(27).keys()].map(i => i + 1).concat(37)) eq([id, n[id]], [id, 1]);
   });
-  test("every irregular verb of A1 and A2 is in exactly one unit", () => {
+  test("every irregular verb up to B1 is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.verbs, x => x.v.key);
-    for (const v of IRR) if (v.level === "A1" || v.level === "A2") eq([v.key, n[v.key]], [v.key, 1]);
+    for (const v of IRR) if (v.level !== "B2") eq([v.key, n[v.key]], [v.key, 1]);
   });
-  test("a unit of the level has about 30 gaps, 16 to 20 sentences, about 60 words", () => {
+  test("every word of the A1 to B1 themes is in exactly one unit", () => {
+    const n = countAcrossUnits(u => u.words, w => w.id);
+    for (const w of WORDS) if (!w.iki && !w.mine && w.level === "A1–B1") eq([w.de, n[w.id]], [w.de, 1]);
+  });
+  test("a unit of the level has about 30 gaps, 16 to 20 sentences, about 60 words (about 33 in B1: 98 words were left for 3 units)", () => {
     for (const u of UNITS) {
       const [t, s, w] = [Object.keys(u.gaps).length, Object.keys(u.sents).length, u.words.length];
-      if (t < 28 || t > 35 || s < 16 || s > 20 || w < 50 || w > 66) throw new Error(`${u.id}: ${t} gaps, ${s} sentences, ${w} words`);
+      const [wMin, wMax] = u.level === "B1" ? [30, 36] : [50, 66];
+      if (t < 28 || t > 35 || s < 16 || s > 20 || w < wMin || w > wMax) throw new Error(`${u.id}: ${t} gaps, ${s} sentences, ${w} words`);
     }
   });
-  test("every word and verb of a unit exists", () => {
-    for (const u of UNITS) { eq([u.id, u.words.filter(w => !w).length], [u.id, 0]); eq([u.id, u.verbs.filter(x => !x.v).length], [u.id, 0]); }
+  test("every word, verb and preposition of a unit exists", () => {
+    for (const u of UNITS) { eq([u.id, u.words.filter(w => !w).length], [u.id, 0]); eq([u.id, u.verbs.filter(x => !x.v).length], [u.id, 0]); eq([u.id, u.vps.filter(x => !x).length], [u.id, 0]); }
   });
   test("every unit draws a complete exam whose questions all exist", () => {
     for (const u of UNITS) for (let n = 0; n < 10; n++) {
@@ -263,6 +268,7 @@
       for (const id in u.gaps) for (const a of u.gaps[id].answers) fullMarks(u, id, a, a);
       for (const id in u.sents) for (const a of u.sents[id].accepted) fullMarks(u, id, a, a);
       for (const w of u.words) fullMarks(u, "w:" + w.id, [w.de, w.pl || ""], w.de);
+      for (const it of u.vps) fullMarks(u, "p:" + it.key, it.token, it.key);
       for (const x of u.verbs) for (let k = 0; k < 6; k++) {
         const id = `c:${x.v.key}:${x.tense}:${k}`;
         if (!examQuestion(u, id)) throw new Error(u.id + ": no form " + x.v.key + " " + k);
