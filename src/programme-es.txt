@@ -2,7 +2,7 @@
 // @id|niveau|titre|description
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
-// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (présents dans chaque version acceptée)
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (a/b si plusieurs formes ; chacun présent dans chaque version acceptée)
 // Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
 // N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
 
@@ -214,19 +214,19 @@ S|¿Adónde va el autobús?|Wohin fährt der Bus?|10|Wohin;Bus
 S|La estación está todo recto.|Der Bahnhof ist geradeaus.|10|Bahnhof;geradeaus
 S|Correos está a la derecha.|Die Post ist rechts.|10|Post;rechts
 S|Voy a correos.|Ich gehe zur Post.|10|zur;Post
-S|Va a la estación.|Er geht zum Bahnhof.;Er fährt zum Bahnhof.|10|zum;Bahnhof
+S|Va a la estación. (él)|Er geht zum Bahnhof.;Er fährt zum Bahnhof.|10|zum;Bahnhof
 S|Vamos a Viena.|Wir fahren nach Wien.;Wir gehen nach Wien.;Wir fliegen nach Wien.|10|nach;Wien
 S|El tren lleva retraso.|Der Zug hat Verspätung.|8|Zug;Verspätung
-S|Ayudo al vecino.|Ich helfe dem Nachbarn.|8|helfe;dem;Nachbarn
+S|Ayudo a la tía.|Ich helfe der Tante.|8|helfe;der;Tante
 S|La bicicleta es de Paul.|Das Fahrrad gehört Paul.|8|Fahrrad;gehört;Paul
 S|A Anna le gusta la ciudad.|Die Stadt gefällt Anna.;Anna gefällt die Stadt.|8|Stadt;gefällt;Anna
 S|Anna le da la llave al niño.|Anna gibt dem Kind den Schlüssel.|8|gibt;dem;Kind;Schlüssel
-S|El autobús para delante de la iglesia.|Der Bus hält vor der Kirche.|10|Bus;hält;vor;Kirche
-S|Vive al lado del parque.|Er wohnt neben dem Park.|10|wohnt;neben;Park
+S|El autobús está delante de la iglesia.|Der Bus steht vor der Kirche.;Der Bus ist vor der Kirche.|10|Bus;vor;Kirche
+S|Vive al lado del parque. (él)|Er wohnt neben dem Park.|10|wohnt;neben;Park
 S|Los niños están en el parque.|Die Kinder sind im Park.|10|Kinder;im;Park
 S|Vamos a la ciudad.|Wir gehen in die Stadt.;Wir fahren in die Stadt.|10|in;die;Stadt
 S|El billete cuesta ciento veinte euros.|Die Fahrkarte kostet hundertzwanzig Euro.;Die Fahrkarte kostet einhundertzwanzig Euro.|26|Fahrkarte;kostet;Euro
-S|Nos bajamos en la tercera parada.|Wir steigen an der dritten Haltestelle aus.|26|dritten;Haltestelle
+S|La tercera calle está a la derecha.|Die dritte Straße ist rechts.|26|dritte;Straße;rechts
 S|El niño está sentado en la silla.|Das Kind sitzt auf dem Stuhl.|10|Kind;sitzt;auf;Stuhl
 
 @a1-restaurant|A1|En el restaurante|Pedir, pagar, decir lo que quieres, puedes o debes hacer, hablar de los tuyos con pronombres.
@@ -243,9 +243,9 @@ T|Kannst du [mir] das Salz geben?|ich (Dativ)|¿Puedes darme la sal?|9
 T|Das Essen schmeckt [ihm] nicht.|er (Dativ)|No le gusta la comida.|9
 T|Wie geht es [dir]? – Gut, danke.|du (Dativ)|¿Cómo estás? – Bien, gracias.|9
 T|Ich gebe [Ihnen] die Rechnung.|Sie (Dativ)|Le doy la cuenta.|9
-T|Ich rufe [euch] morgen an.|ihr (Akk.)|Os llamo mañana.|9
+T|Ich besuche [euch] am Sonntag.|ihr (Akk.)|Os visito el domingo.|9
 T|[Mein] Kaffee ist kalt.|der Kaffee · mein|Mi café está frío.|9
-T|Hast du [meine] Tasche?|die Tasche · mein|¿Tienes mi bolso?|9
+T|Hast du [meine] Tasse?|die Tasse · mein|¿Tienes mi taza?|9
 T|Paul nimmt [meinen] Schlüssel.|der Schlüssel · mein|Paul coge mi llave.|9
 T|Anna bezahlt [ihren] Kaffee.|der Kaffee · ihr|Anna paga su café.|9
 T|Paul trinkt [sein] Bier.|das Bier · sein|Paul bebe su cerveza.|9
@@ -268,21 +268,21 @@ T|Ihr [dürft] das Essen mitnehmen.|dürfen|Podéis llevaros la comida.|11
 T|Die Kinder [wollen] Kuchen essen.|wollen|Los niños quieren comer pastel.|11
 T|Ich [muss] die Rechnung bezahlen.|müssen|Tengo que pagar la cuenta.|11
 S|Quisiera una sopa.|Ich möchte eine Suppe.;Ich hätte gern eine Suppe.|11|eine;Suppe
-S|Tengo que pagar.|Ich muss bezahlen.;Ich muss zahlen.|11|Ich;muss
+S|Tengo que pagar.|Ich muss bezahlen.;Ich muss zahlen.|11|muss;bezahlen/zahlen
 S|¿Puedes venir hoy?|Kannst du heute kommen?|11|Kannst;heute;kommen
-S|¿Qué quieres comer?|Was willst du essen?;Was möchtest du essen?|11|Was;essen
+S|¿Qué quieres comer?|Was willst du essen?;Was möchtest du essen?|11|willst/möchtest;essen
 S|Aquí no se puede comer.|Hier darf man nicht essen.;Man darf hier nicht essen.|11|darf;nicht;essen
 S|No tienes que esperar.|Du musst nicht warten.|11|musst;nicht;warten
 S|Queremos reservar una mesa.|Wir wollen einen Tisch reservieren.;Wir möchten einen Tisch reservieren.|11|Tisch;reservieren
-S|No puede venir.|Er kann nicht kommen.|11|kann;nicht;kommen
-S|Quiero pagar ahora.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|Ich;jetzt
+S|No puede venir. (él)|Er kann nicht kommen.|11|kann;nicht;kommen
+S|Quiero pagar ahora.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|jetzt;will/möchte;bezahlen/zahlen
 S|Os doy la llave.|Ich gebe Ihnen den Schlüssel.;Ich gebe euch den Schlüssel.|9|gebe;den;Schlüssel
-S|Le lleva un té a su hermana.|Er bringt seiner Schwester einen Tee.|9|bringt;seiner;Schwester;Tee
+S|Le lleva un té a su hermana. (él)|Er bringt seiner Schwester einen Tee.|9|bringt;seiner;Schwester;Tee
 S|Lo conozco bien.|Ich kenne ihn gut.|9|kenne;ihn;gut
 S|Mi madre no come carne.|Meine Mutter isst kein Fleisch.|9|Meine;Mutter;Fleisch
 S|Es nuestro coche.|Das ist unser Auto.;Es ist unser Auto.|9|unser;Auto
 S|¿Dónde está tu hermano?|Wo ist dein Bruder?|9|Wo;dein;Bruder
-S|Mi bolso está en el coche.|Meine Tasche ist im Auto.|9|Meine;Tasche;Auto
+S|Mi coche está en la estación.|Mein Auto ist am Bahnhof.|9|Mein;Auto;Bahnhof
 S|¿Te gusta la comida?|Schmeckt dir das Essen?|9|Schmeckt;dir;Essen
 S|La cuenta es para mí.|Die Rechnung ist für mich.|9|Rechnung;für;mich
 
@@ -309,11 +309,11 @@ T|Er [holt] mich am Flughafen ab.|abholen|Me recoge en el aeropuerto.|12
 T|Mach das Fenster [zu]!|zumachen|¡Cierra la ventana!|12
 T|Wer [macht] die Tür auf?|aufmachen|¿Quién abre la puerta?|12
 T|Wir [besuchen] heute die Oma.|besuchen|Hoy visitamos a la abuela.|12
-T|[Komm] bitte schnell!|kommen (du)|¡Ven rápido, por favor!|13
+T|[Komm/Komme] bitte schnell!|kommen (du)|¡Ven rápido, por favor!|13
 T|[Nimm] den Schlüssel!|nehmen (du)|¡Coge la llave!|13
 T|[Gib] mir bitte die Tasche!|geben (du)|¡Dame el bolso, por favor!|13
 T|[Lies] das Buch!|lesen (du)|¡Lee el libro!|13
-T|[Fahr] langsam!|fahren (du)|¡Conduce despacio!|13
+T|[Fahr/Fahre] langsam!|fahren (du)|¡Conduce despacio!|13
 T|[Warte] bitte hier!|warten (du)|¡Espera aquí, por favor!|13
 T|[Öffne] die Flasche!|öffnen (du)|¡Abre la botella!|13
 T|[Seid] bitte leise!|sein (ihr)|¡Callaos, por favor!|13
@@ -322,20 +322,20 @@ T|[Nehmen] Sie bitte Platz!|nehmen (Sie)|¡Siéntese, por favor!|13
 T|[Warten] Sie hier!|warten (Sie)|¡Espere aquí!|13
 T|[Seien] Sie pünktlich!|sein (Sie)|¡Sea puntual!|13
 T|Steh bitte [auf]!|aufstehen (du)|¡Levántate, por favor!|13
-T|[Ruf] mich morgen an!|anrufen (du)|¡Llámame mañana!|13
-S|Me levanto a las siete.|Ich stehe um sieben Uhr auf.|12|stehe;sieben;auf
-S|El curso empieza a las diez.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|zehn;Uhr
+T|[Ruf/Rufe] mich morgen an!|anrufen (du)|¡Llámame mañana!|13
+S|Me levanto a las siete.|Ich stehe um sieben Uhr auf.;Um sieben Uhr stehe ich auf.|12|stehe;sieben;auf
+S|El curso empieza a las diez.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|Kurs/Unterricht;zehn;fängt/beginnt
 S|¿Me llamas mañana?|Rufst du mich morgen an?|12|Rufst;mich;an
 S|Nos bajamos aquí.|Wir steigen hier aus.|12|steigen;hier;aus
 S|Tienes que hacer transbordo en Colonia.|Du musst in Köln umsteigen.|12|musst;Köln;umsteigen
 S|Recojo a Anna en la estación.|Ich hole Anna am Bahnhof ab.;Ich hole Anna vom Bahnhof ab.|12|hole;Anna;ab
 S|Esta noche vemos la televisión.|Heute Abend sehen wir fern.;Wir sehen heute Abend fern.|12|sehen;fern
 S|Quisiera probarme la chaqueta.|Ich möchte die Jacke anprobieren.|12|Jacke;anprobieren
-S|Se pone la chaqueta.|Er zieht seine Jacke an.|12|zieht;Jacke;an
-S|Se muda a Berlín.|Er zieht nach Berlin um.|12|zieht;Berlin;um
+S|Se pone la chaqueta. (él)|Er zieht seine Jacke an.|12|zieht;Jacke;an
+S|Se muda a Berlín. (él)|Er zieht nach Berlin um.|12|zieht;Berlin;um
 S|El abrigo me queda bien.|Der Mantel passt mir gut.;Der Mantel steht mir gut.|8|Mantel;mir;gut
-S|¡Abre la ventana!|Mach das Fenster auf!;Öffne das Fenster!|13|das;Fenster
-S|¡Cierra la puerta, por favor!|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|die;Tür
+S|¡Abre la ventana!|Mach das Fenster auf!;Öffne das Fenster!|13|Fenster;auf/Öffne
+S|¡Cierra la puerta, por favor!|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|Tür;zu/Schließ/Schließe
 S|Habla más despacio, por favor.|Sprich bitte langsamer.;Sprich langsamer, bitte.|13|Sprich;bitte;langsamer
 S|¡Ayúdame, por favor!|Hilf mir bitte!;Bitte hilf mir!|13|Hilf;mir;bitte
 S|¡Coge tu abrigo!|Nimm deinen Mantel!|13|Nimm;deinen;Mantel
@@ -381,28 +381,28 @@ T|Die Kinder [durften] nicht fernsehen.|dürfen (Präteritum)|Los niños no pod�
 S|Ayer trabajé en casa.|Gestern habe ich zu Hause gearbeitet.;Ich habe gestern zu Hause gearbeitet.|14|habe;Hause;gearbeitet
 S|Fuimos al cine.|Wir sind ins Kino gegangen.|14|sind;Kino;gegangen
 S|Leyó un libro. (ella)|Sie hat ein Buch gelesen.|14|hat;Buch;gelesen
-S|Llegó ayer. (él)|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|ist;gestern
+S|Llegó ayer. (él)|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|gestern;angekommen/gekommen
 S|¿Qué has comido?|Was hast du gegessen?|14|Was;gegessen
 S|Olvidé la llave.|Ich habe den Schlüssel vergessen.|14|Schlüssel;vergessen
 S|Ganamos el juego.|Wir haben das Spiel gewonnen.|14|Spiel;gewonnen
-S|Perdió el teléfono. (él)|Er hat sein Handy verloren.|14|sein;Handy;verloren
-S|Brilló el sol.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne
+S|Perdió su llave. (él)|Er hat seinen Schlüssel verloren.|14|seinen;Schlüssel;verloren
+S|Brilló el sol.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne;geschienen/schien
 S|Los niños cantaron.|Die Kinder haben gesungen.|14|Kinder;gesungen
 S|Salí con Anna.|Ich bin mit Anna ausgegangen.|14|bin;Anna;ausgegangen
-S|El autobús salió a las ocho.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht
+S|El autobús salió a las ocho.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht;abgefahren/ab
 S|Volvió tarde. (él)|Er ist spät zurückgekommen.;Er ist spät nach Hause gekommen.|14|ist;spät
-S|Estuve enfermo.|Ich war krank.;Ich bin krank gewesen.|15|krank
+S|Estuve en casa.|Ich war zu Hause.;Ich bin zu Hause gewesen.|15|Hause;war/gewesen
 S|Ayer hubo un concierto.|Gestern gab es ein Konzert.;Es gab gestern ein Konzert.|15|gab;Konzert
 S|¿Qué tal fue el fin de semana?|Wie war das Wochenende?|15|war;Wochenende
 S|No pude dormir.|Ich konnte nicht schlafen.|15|konnte;schlafen
-S|Tuvimos que esperar.|Wir mussten warten.;Wir haben warten müssen.|15|warten
+S|Tuvimos que esperar.|Wir mussten warten.;Wir haben warten müssen.|15|warten;mussten/müssen
 S|No tenía tiempo. (ella)|Sie hatte keine Zeit.|15|hatte;keine;Zeit
 
 @a2-sante|A2|Salud y comparaciones|Hablar del cuerpo y del médico, usar verbos pronominales, comparar cosas y personas.
 F|16;19
 V|pres|waschen;anziehen;umziehen;aussehen;kennenlernen;schneiden;fallen;treiben;sterben
 M|der Körper;der Kopf;das Auge;das Ohr;die Nase;der Mund;der Zahn;der Hals;der Arm;die Hand;der Finger;der Bauch;der Rücken;das Bein;der Fuß;das Herz;der Arzt;die Ärztin;die Praxis;das Krankenhaus;das Medikament;das Rezept;das Fieber;die Erkältung;der Husten;die Schmerzen;krank;gesund;müde;Ich habe Kopfschmerzen.;Mir ist schlecht.;Ich brauche einen Termin.;Gute Besserung!
-M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen
+M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen;früh;spät;nett;richtig;falsch
 T|Ich wasche [mich] jeden Morgen.|sich (ich)|Me lavo cada mañana.|16
 T|Ich putze [mir] die Zähne.|sich (ich, Dativ)|Me lavo los dientes.|16
 T|Beeil [dich]!|sich (du)|¡Date prisa!|16
@@ -442,23 +442,23 @@ S|Nos vemos mañana.|Wir treffen uns morgen.;Wir sehen uns morgen.;Morgen treffe
 S|Anna se ha resfriado.|Anna hat sich erkältet.|16|Anna;sich;erkältet
 S|Me compro una chaqueta.|Ich kaufe mir eine Jacke.|16|kaufe;mir;Jacke
 S|Tengo ganas de que llegue el verano.|Ich freue mich auf den Sommer.|16|freue;mich;Sommer
-S|¿Te duele la cabeza?|Hast du Kopfschmerzen?|6|Hast;Kopfschmerzen
-S|Me duele la espalda.|Mein Rücken tut weh.;Mein Rücken tut mir weh.|9|Rücken;weh
+S|¿Te duele la cabeza?|Hast du Kopfschmerzen?;Tut dir der Kopf weh?|6|Kopfschmerzen/Kopf
+S|Me duele el brazo.|Mein Arm tut weh.;Mein Arm tut mir weh.;Mir tut der Arm weh.|9|Arm;weh
 S|Tengo fiebre.|Ich habe Fieber.|6|habe;Fieber
 S|Está cansada y enferma.|Sie ist müde und krank.|1|müde;krank
 S|El médico es más joven que yo.|Der Arzt ist jünger als ich.|19|Arzt;jünger;als
-S|Hoy la fiebre es más alta.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute
+S|Hoy la fiebre es más alta.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute;höher/stärker
 S|Anna habla alemán mejor que Paul.|Anna spricht besser Deutsch als Paul.;Anna spricht Deutsch besser als Paul.|19|besser;Deutsch;als
-S|Este medicamento es más barato.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;ist
+S|Este medicamento es más barato.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;billiger/günstiger
 S|Prefiero beber agua.|Ich trinke lieber Wasser.|19|trinke;lieber;Wasser
 S|Paul es tan alto como Tom.|Paul ist so groß wie Tom.|19|so;groß;wie
-S|El tren es el más rápido.|Der Zug ist am schnellsten.|19|Zug;schnellsten
+S|El tren es el más rápido.|Der Zug ist am schnellsten.;Der Zug ist der schnellste.|19|Zug;schnellsten/schnellste
 S|El médico más cercano está en Bonn.|Der nächste Arzt ist in Bonn.|19|nächste;Arzt;Bonn
 
 @a2-raisons|A2|Trabajo, razones y planes|Enlazar ideas, explicar por qué, describir con adjetivos, hablar del futuro, pedir con cortesía.
 F|17;18;20
 V|pres|aufhören;aufräumen;einladen;ausfüllen;zuhören;unterschreiben;schließen;nennen;lassen;werfen;ziehen
-M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;gefallen;glauben;denken
+M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;der Computer;das Handy;das Geld;die Adresse;gefallen;glauben;denken
 M|wer?;was?;wo?;wohin?;woher?;wann?;warum?;wie?;wie viel?;welcher?;und;oder;aber;weil;dass;wenn;also;auch;noch;schon;nur;sehr;ziemlich;vielleicht;zusammen;allein;hier;dort;alles;nichts;etwas;jemand;niemand;viel;wenig;genug
 T|Anna bleibt zu Hause, [weil] sie krank ist.|weil/wenn/dass|Anna se queda en casa porque está enferma.|17
 T|Ich glaube, [dass] er heute kommt.|weil/dass/ob|Creo que viene hoy.|17
@@ -493,18 +493,18 @@ T|Das [wäre] sehr nett.|sein (Konjunktiv II)|Sería muy amable.|20
 S|Me quedo en casa porque estoy cansado.|Ich bleibe zu Hause, weil ich müde bin.;Ich bleibe zu Hause, denn ich bin müde.|17|bleibe;Hause;müde
 S|Creo que está enfermo.|Ich glaube, dass er krank ist.;Ich glaube, er ist krank.|17|glaube;krank
 S|No sé si viene Anna.|Ich weiß nicht, ob Anna kommt.|17|weiß;ob;Anna
-S|Cuando tengo tiempo, leo.|Wenn ich Zeit habe, lese ich.|17|Wenn;Zeit;lese
+S|Cuando tengo tiempo, leo.|Wenn ich Zeit habe, lese ich.;Ich lese, wenn ich Zeit habe.|17|wenn;Zeit;lese
 S|Cuando era niño, vivía en Berlín.|Als ich ein Kind war, habe ich in Berlin gewohnt.;Als ich ein Kind war, wohnte ich in Berlin.;Als ich Kind war, habe ich in Berlin gewohnt.;Als ich Kind war, wohnte ich in Berlin.|17|Als;Berlin
 S|Llueve, por eso cojo el autobús.|Es regnet, deshalb nehme ich den Bus.;Es regnet, deswegen nehme ich den Bus.;Es regnet, deshalb fahre ich mit dem Bus.;Es regnet, deswegen fahre ich mit dem Bus.|17|regnet;Bus
-S|No bebo cerveza, sino vino.|Ich trinke kein Bier, sondern Wein.|17|Bier;sondern;Wein
+S|No bebo cerveza, sino vino.|Ich trinke kein Bier, sondern Wein.;Ich trinke nicht Bier, sondern Wein.|17|Bier;sondern;Wein
 S|Compro el jersey verde.|Ich kaufe den grünen Pullover.|18|grünen;Pullover
-S|Viven en una ciudad grande.|Sie wohnen in einer großen Stadt.|18|wohnen;großen;Stadt
+S|Viven en una ciudad grande. (ellos)|Sie wohnen in einer großen Stadt.;Sie leben in einer großen Stadt.|18|wohnen/leben;großen;Stadt
 S|Tiene un coche nuevo. (él)|Er hat ein neues Auto.|18|neues;Auto
 S|Tenemos una cocina pequeña.|Wir haben eine kleine Küche.|18|kleine;Küche
 S|Buscamos un piso barato.|Wir suchen eine billige Wohnung.;Wir suchen eine günstige Wohnung.|18|suchen;Wohnung
 S|Trabaja en una empresa pequeña. (ella)|Sie arbeitet in einer kleinen Firma.|18|einer;kleinen;Firma
-S|Te visitaré mañana.|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen
-S|¿Podría abrir la ventana?|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster
+S|Te visitaré mañana.|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen;besuchen/besuche
+S|¿Podría abrir la ventana? (usted)|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster;öffnen/aufmachen
 S|Deberías trabajar menos.|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|Quisiera un vaso de agua.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|Si tuviera tiempo, vendría.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte

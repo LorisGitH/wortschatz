@@ -2,7 +2,7 @@
 // @id|niveau|titre|description
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
-// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (présents dans chaque version acceptée)
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (a/b si plusieurs formes ; chacun présent dans chaque version acceptée)
 // Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
 // N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
 
@@ -217,16 +217,16 @@ S|Je vais à la poste.|Ich gehe zur Post.|10|zur;Post
 S|Il va à la gare.|Er geht zum Bahnhof.;Er fährt zum Bahnhof.|10|zum;Bahnhof
 S|Nous allons à Vienne.|Wir fahren nach Wien.;Wir gehen nach Wien.;Wir fliegen nach Wien.|10|nach;Wien
 S|Le train a du retard.|Der Zug hat Verspätung.|8|Zug;Verspätung
-S|J'aide le voisin.|Ich helfe dem Nachbarn.|8|helfe;dem;Nachbarn
+S|J'aide la tante.|Ich helfe der Tante.|8|helfe;der;Tante
 S|Le vélo appartient à Paul.|Das Fahrrad gehört Paul.|8|Fahrrad;gehört;Paul
 S|La ville plaît à Anna.|Die Stadt gefällt Anna.;Anna gefällt die Stadt.|8|Stadt;gefällt;Anna
 S|Anna donne la clé à l'enfant.|Anna gibt dem Kind den Schlüssel.|8|gibt;dem;Kind;Schlüssel
-S|Le bus s'arrête devant l'église.|Der Bus hält vor der Kirche.|10|Bus;hält;vor;Kirche
+S|Le bus est devant l'église.|Der Bus steht vor der Kirche.;Der Bus ist vor der Kirche.|10|Bus;vor;Kirche
 S|Il habite à côté du parc.|Er wohnt neben dem Park.|10|wohnt;neben;Park
 S|Les enfants sont dans le parc.|Die Kinder sind im Park.|10|Kinder;im;Park
 S|Nous allons en ville.|Wir gehen in die Stadt.;Wir fahren in die Stadt.|10|in;die;Stadt
 S|Le billet coûte cent vingt euros.|Die Fahrkarte kostet hundertzwanzig Euro.;Die Fahrkarte kostet einhundertzwanzig Euro.|26|Fahrkarte;kostet;Euro
-S|Nous descendons au troisième arrêt.|Wir steigen an der dritten Haltestelle aus.|26|dritten;Haltestelle
+S|La troisième rue est à droite.|Die dritte Straße ist rechts.|26|dritte;Straße;rechts
 S|L'enfant est assis sur la chaise.|Das Kind sitzt auf dem Stuhl.|10|Kind;sitzt;auf;Stuhl
 
 @a1-restaurant|A1|Au restaurant|Commander, payer, dire ce qu'on veut, peut ou doit faire, parler de ses proches avec les pronoms.
@@ -243,9 +243,9 @@ T|Kannst du [mir] das Salz geben?|ich (Dativ)|Peux-tu me donner le sel ?|9
 T|Das Essen schmeckt [ihm] nicht.|er (Dativ)|Il n'aime pas ce plat.|9
 T|Wie geht es [dir]? – Gut, danke.|du (Dativ)|Comment vas-tu ? – Bien, merci.|9
 T|Ich gebe [Ihnen] die Rechnung.|Sie (Dativ)|Je vous donne l'addition.|9
-T|Ich rufe [euch] morgen an.|ihr (Akk.)|Je vous appelle demain.|9
+T|Ich besuche [euch] am Sonntag.|ihr (Akk.)|Je vous rends visite dimanche.|9
 T|[Mein] Kaffee ist kalt.|der Kaffee · mein|Mon café est froid.|9
-T|Hast du [meine] Tasche?|die Tasche · mein|As-tu mon sac ?|9
+T|Hast du [meine] Tasse?|die Tasse · mein|As-tu ma tasse ?|9
 T|Paul nimmt [meinen] Schlüssel.|der Schlüssel · mein|Paul prend ma clé.|9
 T|Anna bezahlt [ihren] Kaffee.|der Kaffee · ihr|Anna paie son café.|9
 T|Paul trinkt [sein] Bier.|das Bier · sein|Paul boit sa bière.|9
@@ -268,21 +268,21 @@ T|Ihr [dürft] das Essen mitnehmen.|dürfen|Vous avez le droit d'emporter le rep
 T|Die Kinder [wollen] Kuchen essen.|wollen|Les enfants veulent manger du gâteau.|11
 T|Ich [muss] die Rechnung bezahlen.|müssen|Je dois payer l'addition.|11
 S|Je voudrais une soupe.|Ich möchte eine Suppe.;Ich hätte gern eine Suppe.|11|eine;Suppe
-S|Je dois payer.|Ich muss bezahlen.;Ich muss zahlen.|11|Ich;muss
+S|Je dois payer.|Ich muss bezahlen.;Ich muss zahlen.|11|muss;bezahlen/zahlen
 S|Tu peux venir aujourd'hui ?|Kannst du heute kommen?|11|Kannst;heute;kommen
-S|Que veux-tu manger ?|Was willst du essen?;Was möchtest du essen?|11|Was;essen
+S|Que veux-tu manger ?|Was willst du essen?;Was möchtest du essen?|11|willst/möchtest;essen
 S|On n'a pas le droit de manger ici.|Hier darf man nicht essen.;Man darf hier nicht essen.|11|darf;nicht;essen
 S|Tu n'es pas obligé d'attendre.|Du musst nicht warten.|11|musst;nicht;warten
 S|Nous voulons réserver une table.|Wir wollen einen Tisch reservieren.;Wir möchten einen Tisch reservieren.|11|Tisch;reservieren
 S|Il ne peut pas venir.|Er kann nicht kommen.|11|kann;nicht;kommen
-S|Je veux payer maintenant.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|Ich;jetzt
+S|Je veux payer maintenant.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|jetzt;will/möchte;bezahlen/zahlen
 S|Je vous donne la clé.|Ich gebe Ihnen den Schlüssel.;Ich gebe euch den Schlüssel.|9|gebe;den;Schlüssel
 S|Il apporte un thé à sa sœur.|Er bringt seiner Schwester einen Tee.|9|bringt;seiner;Schwester;Tee
 S|Je le connais bien.|Ich kenne ihn gut.|9|kenne;ihn;gut
 S|Ma mère ne mange pas de viande.|Meine Mutter isst kein Fleisch.|9|Meine;Mutter;Fleisch
 S|C'est notre voiture.|Das ist unser Auto.;Es ist unser Auto.|9|unser;Auto
 S|Où est ton frère ?|Wo ist dein Bruder?|9|Wo;dein;Bruder
-S|Mon sac est dans la voiture.|Meine Tasche ist im Auto.|9|Meine;Tasche;Auto
+S|Ma voiture est à la gare.|Mein Auto ist am Bahnhof.|9|Mein;Auto;Bahnhof
 S|Le repas te plaît ?|Schmeckt dir das Essen?|9|Schmeckt;dir;Essen
 S|L'addition est pour moi.|Die Rechnung ist für mich.|9|Rechnung;für;mich
 
@@ -309,11 +309,11 @@ T|Er [holt] mich am Flughafen ab.|abholen|Il vient me chercher à l'aéroport.|1
 T|Mach das Fenster [zu]!|zumachen|Ferme la fenêtre !|12
 T|Wer [macht] die Tür auf?|aufmachen|Qui ouvre la porte ?|12
 T|Wir [besuchen] heute die Oma.|besuchen|Nous rendons visite à la grand-mère aujourd'hui.|12
-T|[Komm] bitte schnell!|kommen (du)|Viens vite, s'il te plaît !|13
+T|[Komm/Komme] bitte schnell!|kommen (du)|Viens vite, s'il te plaît !|13
 T|[Nimm] den Schlüssel!|nehmen (du)|Prends la clé !|13
 T|[Gib] mir bitte die Tasche!|geben (du)|Donne-moi le sac, s'il te plaît !|13
 T|[Lies] das Buch!|lesen (du)|Lis le livre !|13
-T|[Fahr] langsam!|fahren (du)|Roule doucement !|13
+T|[Fahr/Fahre] langsam!|fahren (du)|Roule doucement !|13
 T|[Warte] bitte hier!|warten (du)|Attends ici, s'il te plaît !|13
 T|[Öffne] die Flasche!|öffnen (du)|Ouvre la bouteille !|13
 T|[Seid] bitte leise!|sein (ihr)|Soyez calmes, s'il vous plaît !|13
@@ -322,9 +322,9 @@ T|[Nehmen] Sie bitte Platz!|nehmen (Sie)|Asseyez-vous, s'il vous plaît !|13
 T|[Warten] Sie hier!|warten (Sie)|Attendez ici !|13
 T|[Seien] Sie pünktlich!|sein (Sie)|Soyez à l'heure !|13
 T|Steh bitte [auf]!|aufstehen (du)|Lève-toi, s'il te plaît !|13
-T|[Ruf] mich morgen an!|anrufen (du)|Appelle-moi demain !|13
-S|Je me lève à sept heures.|Ich stehe um sieben Uhr auf.|12|stehe;sieben;auf
-S|Le cours commence à dix heures.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|zehn;Uhr
+T|[Ruf/Rufe] mich morgen an!|anrufen (du)|Appelle-moi demain !|13
+S|Je me lève à sept heures.|Ich stehe um sieben Uhr auf.;Um sieben Uhr stehe ich auf.|12|stehe;sieben;auf
+S|Le cours commence à dix heures.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|Kurs/Unterricht;zehn;fängt/beginnt
 S|Tu m'appelles demain ?|Rufst du mich morgen an?|12|Rufst;mich;an
 S|Nous descendons ici.|Wir steigen hier aus.|12|steigen;hier;aus
 S|Tu dois changer à Cologne.|Du musst in Köln umsteigen.|12|musst;Köln;umsteigen
@@ -334,8 +334,8 @@ S|Je voudrais essayer la veste.|Ich möchte die Jacke anprobieren.|12|Jacke;anpr
 S|Il met sa veste.|Er zieht seine Jacke an.|12|zieht;Jacke;an
 S|Il déménage à Berlin.|Er zieht nach Berlin um.|12|zieht;Berlin;um
 S|Le manteau me va bien.|Der Mantel passt mir gut.;Der Mantel steht mir gut.|8|Mantel;mir;gut
-S|Ouvre la fenêtre !|Mach das Fenster auf!;Öffne das Fenster!|13|das;Fenster
-S|Ferme la porte, s'il te plaît !|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|die;Tür
+S|Ouvre la fenêtre !|Mach das Fenster auf!;Öffne das Fenster!|13|Fenster;auf/Öffne
+S|Ferme la porte, s'il te plaît !|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|Tür;zu/Schließ/Schließe
 S|Parle plus lentement, s'il te plaît.|Sprich bitte langsamer.;Sprich langsamer, bitte.|13|Sprich;bitte;langsamer
 S|Aide-moi, s'il te plaît !|Hilf mir bitte!;Bitte hilf mir!|13|Hilf;mir;bitte
 S|Prends ton manteau !|Nimm deinen Mantel!|13|Nimm;deinen;Mantel
@@ -381,28 +381,28 @@ T|Die Kinder [durften] nicht fernsehen.|dürfen (Präteritum)|Les enfants n'avai
 S|Hier, j'ai travaillé à la maison.|Gestern habe ich zu Hause gearbeitet.;Ich habe gestern zu Hause gearbeitet.|14|habe;Hause;gearbeitet
 S|Nous sommes allés au cinéma.|Wir sind ins Kino gegangen.|14|sind;Kino;gegangen
 S|Elle a lu un livre.|Sie hat ein Buch gelesen.|14|hat;Buch;gelesen
-S|Il est arrivé hier.|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|ist;gestern
+S|Il est arrivé hier.|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|gestern;angekommen/gekommen
 S|Qu'as-tu mangé ?|Was hast du gegessen?|14|Was;gegessen
 S|J'ai oublié la clé.|Ich habe den Schlüssel vergessen.|14|Schlüssel;vergessen
 S|Nous avons gagné le jeu.|Wir haben das Spiel gewonnen.|14|Spiel;gewonnen
-S|Il a perdu son téléphone.|Er hat sein Handy verloren.|14|sein;Handy;verloren
-S|Le soleil a brillé.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne
+S|Il a perdu sa clé.|Er hat seinen Schlüssel verloren.|14|seinen;Schlüssel;verloren
+S|Le soleil a brillé.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne;geschienen/schien
 S|Les enfants ont chanté.|Die Kinder haben gesungen.|14|Kinder;gesungen
 S|Je suis sorti avec Anna.|Ich bin mit Anna ausgegangen.|14|bin;Anna;ausgegangen
-S|Le bus est parti à huit heures.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht
+S|Le bus est parti à huit heures.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht;abgefahren/ab
 S|Il est rentré tard.|Er ist spät zurückgekommen.;Er ist spät nach Hause gekommen.|14|ist;spät
-S|J'étais malade.|Ich war krank.;Ich bin krank gewesen.|15|krank
+S|J'étais à la maison.|Ich war zu Hause.;Ich bin zu Hause gewesen.|15|Hause;war/gewesen
 S|Hier, il y avait un concert.|Gestern gab es ein Konzert.;Es gab gestern ein Konzert.|15|gab;Konzert
 S|Comment était le week-end ?|Wie war das Wochenende?|15|war;Wochenende
 S|Je n'ai pas pu dormir.|Ich konnte nicht schlafen.|15|konnte;schlafen
-S|Nous avons dû attendre.|Wir mussten warten.;Wir haben warten müssen.|15|warten
+S|Nous avons dû attendre.|Wir mussten warten.;Wir haben warten müssen.|15|warten;mussten/müssen
 S|Elle n'avait pas le temps.|Sie hatte keine Zeit.|15|hatte;keine;Zeit
 
 @a2-sante|A2|Santé et comparaisons|Parler de son corps et du médecin, utiliser les verbes pronominaux, comparer les choses et les gens.
 F|16;19
 V|pres|waschen;anziehen;umziehen;aussehen;kennenlernen;schneiden;fallen;treiben;sterben
 M|der Körper;der Kopf;das Auge;das Ohr;die Nase;der Mund;der Zahn;der Hals;der Arm;die Hand;der Finger;der Bauch;der Rücken;das Bein;der Fuß;das Herz;der Arzt;die Ärztin;die Praxis;das Krankenhaus;das Medikament;das Rezept;das Fieber;die Erkältung;der Husten;die Schmerzen;krank;gesund;müde;Ich habe Kopfschmerzen.;Mir ist schlecht.;Ich brauche einen Termin.;Gute Besserung!
-M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen
+M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen;früh;spät;nett;richtig;falsch
 T|Ich wasche [mich] jeden Morgen.|sich (ich)|Je me lave chaque matin.|16
 T|Ich putze [mir] die Zähne.|sich (ich, Dativ)|Je me brosse les dents.|16
 T|Beeil [dich]!|sich (du)|Dépêche-toi !|16
@@ -442,23 +442,23 @@ S|Nous nous voyons demain.|Wir treffen uns morgen.;Wir sehen uns morgen.;Morgen 
 S|Anna a pris froid.|Anna hat sich erkältet.|16|Anna;sich;erkältet
 S|Je m'achète une veste.|Ich kaufe mir eine Jacke.|16|kaufe;mir;Jacke
 S|J'ai hâte d'être à l'été.|Ich freue mich auf den Sommer.|16|freue;mich;Sommer
-S|As-tu mal à la tête ?|Hast du Kopfschmerzen?|6|Hast;Kopfschmerzen
-S|Mon dos me fait mal.|Mein Rücken tut weh.;Mein Rücken tut mir weh.|9|Rücken;weh
+S|As-tu mal à la tête ?|Hast du Kopfschmerzen?;Tut dir der Kopf weh?|6|Kopfschmerzen/Kopf
+S|Mon bras me fait mal.|Mein Arm tut weh.;Mein Arm tut mir weh.;Mir tut der Arm weh.|9|Arm;weh
 S|J'ai de la fièvre.|Ich habe Fieber.|6|habe;Fieber
 S|Elle est fatiguée et malade.|Sie ist müde und krank.|1|müde;krank
 S|Le médecin est plus jeune que moi.|Der Arzt ist jünger als ich.|19|Arzt;jünger;als
-S|La fièvre est plus forte aujourd'hui.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute
+S|La fièvre est plus forte aujourd'hui.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute;höher/stärker
 S|Anna parle mieux allemand que Paul.|Anna spricht besser Deutsch als Paul.;Anna spricht Deutsch besser als Paul.|19|besser;Deutsch;als
-S|Ce médicament est moins cher.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;ist
+S|Ce médicament est moins cher.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;billiger/günstiger
 S|Je préfère boire de l'eau.|Ich trinke lieber Wasser.|19|trinke;lieber;Wasser
 S|Paul est aussi grand que Tom.|Paul ist so groß wie Tom.|19|so;groß;wie
-S|Le train est le plus rapide.|Der Zug ist am schnellsten.|19|Zug;schnellsten
+S|Le train est le plus rapide.|Der Zug ist am schnellsten.;Der Zug ist der schnellste.|19|Zug;schnellsten/schnellste
 S|Le médecin le plus proche est à Bonn.|Der nächste Arzt ist in Bonn.|19|nächste;Arzt;Bonn
 
 @a2-raisons|A2|Travail, raisons et projets|Relier ses idées, expliquer pourquoi, décrire avec des adjectifs, parler de l'avenir, demander poliment.
 F|17;18;20
 V|pres|aufhören;aufräumen;einladen;ausfüllen;zuhören;unterschreiben;schließen;nennen;lassen;werfen;ziehen
-M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;gefallen;glauben;denken
+M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;der Computer;das Handy;das Geld;die Adresse;gefallen;glauben;denken
 M|wer?;was?;wo?;wohin?;woher?;wann?;warum?;wie?;wie viel?;welcher?;und;oder;aber;weil;dass;wenn;also;auch;noch;schon;nur;sehr;ziemlich;vielleicht;zusammen;allein;hier;dort;alles;nichts;etwas;jemand;niemand;viel;wenig;genug
 T|Anna bleibt zu Hause, [weil] sie krank ist.|weil/wenn/dass|Anna reste à la maison parce qu'elle est malade.|17
 T|Ich glaube, [dass] er heute kommt.|weil/dass/ob|Je crois qu'il vient aujourd'hui.|17
@@ -493,18 +493,18 @@ T|Das [wäre] sehr nett.|sein (Konjunktiv II)|Ce serait très gentil.|20
 S|Je reste à la maison parce que je suis fatigué.|Ich bleibe zu Hause, weil ich müde bin.;Ich bleibe zu Hause, denn ich bin müde.|17|bleibe;Hause;müde
 S|Je crois qu'il est malade.|Ich glaube, dass er krank ist.;Ich glaube, er ist krank.|17|glaube;krank
 S|Je ne sais pas si Anna vient.|Ich weiß nicht, ob Anna kommt.|17|weiß;ob;Anna
-S|Quand j'ai le temps, je lis.|Wenn ich Zeit habe, lese ich.|17|Wenn;Zeit;lese
+S|Quand j'ai le temps, je lis.|Wenn ich Zeit habe, lese ich.;Ich lese, wenn ich Zeit habe.|17|wenn;Zeit;lese
 S|Quand j'étais enfant, j'habitais à Berlin.|Als ich ein Kind war, habe ich in Berlin gewohnt.;Als ich ein Kind war, wohnte ich in Berlin.;Als ich Kind war, habe ich in Berlin gewohnt.;Als ich Kind war, wohnte ich in Berlin.|17|Als;Berlin
 S|Il pleut, c'est pourquoi je prends le bus.|Es regnet, deshalb nehme ich den Bus.;Es regnet, deswegen nehme ich den Bus.;Es regnet, deshalb fahre ich mit dem Bus.;Es regnet, deswegen fahre ich mit dem Bus.|17|regnet;Bus
-S|Je ne bois pas de bière mais du vin.|Ich trinke kein Bier, sondern Wein.|17|Bier;sondern;Wein
+S|Je ne bois pas de bière mais du vin.|Ich trinke kein Bier, sondern Wein.;Ich trinke nicht Bier, sondern Wein.|17|Bier;sondern;Wein
 S|J'achète le pull vert.|Ich kaufe den grünen Pullover.|18|grünen;Pullover
-S|Ils habitent dans une grande ville.|Sie wohnen in einer großen Stadt.|18|wohnen;großen;Stadt
+S|Ils habitent dans une grande ville.|Sie wohnen in einer großen Stadt.;Sie leben in einer großen Stadt.|18|wohnen/leben;großen;Stadt
 S|Il a une nouvelle voiture.|Er hat ein neues Auto.|18|neues;Auto
 S|Nous avons une petite cuisine.|Wir haben eine kleine Küche.|18|kleine;Küche
 S|Nous cherchons un appartement bon marché.|Wir suchen eine billige Wohnung.;Wir suchen eine günstige Wohnung.|18|suchen;Wohnung
 S|Elle travaille dans une petite entreprise.|Sie arbeitet in einer kleinen Firma.|18|einer;kleinen;Firma
-S|Je te rendrai visite demain.|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen
-S|Pourriez-vous ouvrir la fenêtre ?|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster
+S|Je te rendrai visite demain.|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen;besuchen/besuche
+S|Pourriez-vous ouvrir la fenêtre ?|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster;öffnen/aufmachen
 S|Tu devrais moins travailler.|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|J'aimerais un verre d'eau.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|Si j'avais le temps, je viendrais.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte

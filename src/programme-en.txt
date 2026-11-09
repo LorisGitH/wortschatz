@@ -2,7 +2,7 @@
 // @id|niveau|titre|description
 // F|fiches ; V|temps|verbes irréguliers (pres, prat ou perf) ; P|mots à préposition (mot>préposition) ; M|mots du vocabulaire
 // T|phrase à trous réservée à l'examen, réponse entre crochets (a/b si plusieurs)|indice|traduction|fiche
-// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (présents dans chaque version acceptée)
+// S|phrase à traduire vers l'allemand|versions acceptées séparées par ;|fiche|mots-clés séparés par ; (a/b si plusieurs formes ; chacun présent dans chaque version acceptée)
 // Ces phrases sont réservées à l'examen : ni les fiches, ni les listes, ni les exercices, ni les gabarits des Déclinaisons ne les montrent, build.py le vérifie.
 // N|mots qui gardent leur majuscule en tête de phrase sans être un nom du vocabulaire (prénoms…)
 
@@ -217,16 +217,16 @@ S|I am going to the post office.|Ich gehe zur Post.|10|zur;Post
 S|He is going to the station.|Er geht zum Bahnhof.;Er fährt zum Bahnhof.|10|zum;Bahnhof
 S|We are going to Vienna.|Wir fahren nach Wien.;Wir gehen nach Wien.;Wir fliegen nach Wien.|10|nach;Wien
 S|The train is late.|Der Zug hat Verspätung.|8|Zug;Verspätung
-S|I help the neighbour.|Ich helfe dem Nachbarn.|8|helfe;dem;Nachbarn
+S|I help the aunt.|Ich helfe der Tante.|8|helfe;der;Tante
 S|The bike belongs to Paul.|Das Fahrrad gehört Paul.|8|Fahrrad;gehört;Paul
-S|Anna likes the town.|Die Stadt gefällt Anna.;Anna gefällt die Stadt.|8|Stadt;gefällt;Anna
+S|Anna likes the town. (gefallen)|Die Stadt gefällt Anna.;Anna gefällt die Stadt.|8|Stadt;gefällt;Anna
 S|Anna gives the child the key.|Anna gibt dem Kind den Schlüssel.|8|gibt;dem;Kind;Schlüssel
-S|The bus stops in front of the church.|Der Bus hält vor der Kirche.|10|Bus;hält;vor;Kirche
+S|The bus is in front of the church.|Der Bus steht vor der Kirche.;Der Bus ist vor der Kirche.|10|Bus;vor;Kirche
 S|He lives next to the park.|Er wohnt neben dem Park.|10|wohnt;neben;Park
 S|The children are in the park.|Die Kinder sind im Park.|10|Kinder;im;Park
 S|We are going into town.|Wir gehen in die Stadt.;Wir fahren in die Stadt.|10|in;die;Stadt
 S|The ticket costs a hundred and twenty euros.|Die Fahrkarte kostet hundertzwanzig Euro.;Die Fahrkarte kostet einhundertzwanzig Euro.|26|Fahrkarte;kostet;Euro
-S|We get off at the third stop.|Wir steigen an der dritten Haltestelle aus.|26|dritten;Haltestelle
+S|The third street is on the right.|Die dritte Straße ist rechts.|26|dritte;Straße;rechts
 S|The child is sitting on the chair.|Das Kind sitzt auf dem Stuhl.|10|Kind;sitzt;auf;Stuhl
 
 @a1-restaurant|A1|At the restaurant|Ordering, paying, saying what you want to, can or must do, talking about people with pronouns.
@@ -243,9 +243,9 @@ T|Kannst du [mir] das Salz geben?|ich (Dativ)|Can you give me the salt?|9
 T|Das Essen schmeckt [ihm] nicht.|er (Dativ)|He doesn't like the food.|9
 T|Wie geht es [dir]? – Gut, danke.|du (Dativ)|How are you? – Fine, thanks.|9
 T|Ich gebe [Ihnen] die Rechnung.|Sie (Dativ)|I'll give you the bill.|9
-T|Ich rufe [euch] morgen an.|ihr (Akk.)|I'll call you tomorrow.|9
+T|Ich besuche [euch] am Sonntag.|ihr (Akk.)|I am visiting you on Sunday.|9
 T|[Mein] Kaffee ist kalt.|der Kaffee · mein|My coffee is cold.|9
-T|Hast du [meine] Tasche?|die Tasche · mein|Do you have my bag?|9
+T|Hast du [meine] Tasse?|die Tasse · mein|Do you have my cup?|9
 T|Paul nimmt [meinen] Schlüssel.|der Schlüssel · mein|Paul takes my key.|9
 T|Anna bezahlt [ihren] Kaffee.|der Kaffee · ihr|Anna pays for her coffee.|9
 T|Paul trinkt [sein] Bier.|das Bier · sein|Paul drinks his beer.|9
@@ -268,21 +268,21 @@ T|Ihr [dürft] das Essen mitnehmen.|dürfen|You are allowed to take the food wit
 T|Die Kinder [wollen] Kuchen essen.|wollen|The children want to eat cake.|11
 T|Ich [muss] die Rechnung bezahlen.|müssen|I have to pay the bill.|11
 S|I would like a soup.|Ich möchte eine Suppe.;Ich hätte gern eine Suppe.|11|eine;Suppe
-S|I have to pay.|Ich muss bezahlen.;Ich muss zahlen.|11|Ich;muss
+S|I have to pay.|Ich muss bezahlen.;Ich muss zahlen.|11|muss;bezahlen/zahlen
 S|Can you come today? (du)|Kannst du heute kommen?|11|Kannst;heute;kommen
-S|What do you want to eat? (du)|Was willst du essen?;Was möchtest du essen?|11|Was;essen
-S|You are not allowed to eat here.|Hier darf man nicht essen.;Man darf hier nicht essen.|11|darf;nicht;essen
+S|What do you want to eat? (du)|Was willst du essen?;Was möchtest du essen?|11|willst/möchtest;essen
+S|Eating is not allowed here. (man)|Hier darf man nicht essen.;Man darf hier nicht essen.|11|darf;nicht;essen
 S|You don't have to wait. (du)|Du musst nicht warten.|11|musst;nicht;warten
 S|We want to book a table.|Wir wollen einen Tisch reservieren.;Wir möchten einen Tisch reservieren.|11|Tisch;reservieren
 S|He can't come.|Er kann nicht kommen.|11|kann;nicht;kommen
-S|I want to pay now.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|Ich;jetzt
-S|I'll give you the key.|Ich gebe Ihnen den Schlüssel.;Ich gebe euch den Schlüssel.|9|gebe;den;Schlüssel
+S|I want to pay now.|Ich will jetzt bezahlen.;Ich möchte jetzt bezahlen.;Ich will jetzt zahlen.;Ich möchte jetzt zahlen.|11|jetzt;will/möchte;bezahlen/zahlen
+S|I'll give you the key. (Sie or ihr)|Ich gebe Ihnen den Schlüssel.;Ich gebe euch den Schlüssel.|9|gebe;den;Schlüssel
 S|He brings his sister a tea.|Er bringt seiner Schwester einen Tee.|9|bringt;seiner;Schwester;Tee
 S|I know him well.|Ich kenne ihn gut.|9|kenne;ihn;gut
 S|My mother doesn't eat meat.|Meine Mutter isst kein Fleisch.|9|Meine;Mutter;Fleisch
 S|It is our car.|Das ist unser Auto.;Es ist unser Auto.|9|unser;Auto
 S|Where is your brother? (du)|Wo ist dein Bruder?|9|Wo;dein;Bruder
-S|My bag is in the car.|Meine Tasche ist im Auto.|9|Meine;Tasche;Auto
+S|My car is at the station.|Mein Auto ist am Bahnhof.|9|Mein;Auto;Bahnhof
 S|Do you like the food? (du)|Schmeckt dir das Essen?|9|Schmeckt;dir;Essen
 S|The bill is for me.|Die Rechnung ist für mich.|9|Rechnung;für;mich
 
@@ -309,11 +309,11 @@ T|Er [holt] mich am Flughafen ab.|abholen|He is picking me up at the airport.|12
 T|Mach das Fenster [zu]!|zumachen|Close the window!|12
 T|Wer [macht] die Tür auf?|aufmachen|Who opens the door?|12
 T|Wir [besuchen] heute die Oma.|besuchen|We are visiting grandma today.|12
-T|[Komm] bitte schnell!|kommen (du)|Come quickly, please!|13
+T|[Komm/Komme] bitte schnell!|kommen (du)|Come quickly, please!|13
 T|[Nimm] den Schlüssel!|nehmen (du)|Take the key!|13
 T|[Gib] mir bitte die Tasche!|geben (du)|Give me the bag, please!|13
 T|[Lies] das Buch!|lesen (du)|Read the book!|13
-T|[Fahr] langsam!|fahren (du)|Drive slowly!|13
+T|[Fahr/Fahre] langsam!|fahren (du)|Drive slowly!|13
 T|[Warte] bitte hier!|warten (du)|Wait here, please!|13
 T|[Öffne] die Flasche!|öffnen (du)|Open the bottle!|13
 T|[Seid] bitte leise!|sein (ihr)|Be quiet, please!|13
@@ -322,9 +322,9 @@ T|[Nehmen] Sie bitte Platz!|nehmen (Sie)|Please take a seat!|13
 T|[Warten] Sie hier!|warten (Sie)|Wait here!|13
 T|[Seien] Sie pünktlich!|sein (Sie)|Be on time!|13
 T|Steh bitte [auf]!|aufstehen (du)|Get up, please!|13
-T|[Ruf] mich morgen an!|anrufen (du)|Call me tomorrow!|13
-S|I get up at seven o'clock.|Ich stehe um sieben Uhr auf.|12|stehe;sieben;auf
-S|The course starts at ten o'clock.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|zehn;Uhr
+T|[Ruf/Rufe] mich morgen an!|anrufen (du)|Call me tomorrow!|13
+S|I get up at seven o'clock.|Ich stehe um sieben Uhr auf.;Um sieben Uhr stehe ich auf.|12|stehe;sieben;auf
+S|The course starts at ten o'clock.|Der Kurs fängt um zehn Uhr an.;Der Kurs beginnt um zehn Uhr.;Der Unterricht fängt um zehn Uhr an.;Der Unterricht beginnt um zehn Uhr.|12|Kurs/Unterricht;zehn;fängt/beginnt
 S|Will you call me tomorrow? (du)|Rufst du mich morgen an?|12|Rufst;mich;an
 S|We get off here.|Wir steigen hier aus.|12|steigen;hier;aus
 S|You have to change in Cologne. (du)|Du musst in Köln umsteigen.|12|musst;Köln;umsteigen
@@ -334,12 +334,12 @@ S|I would like to try on the jacket.|Ich möchte die Jacke anprobieren.|12|Jacke
 S|He puts on his jacket.|Er zieht seine Jacke an.|12|zieht;Jacke;an
 S|He is moving to Berlin.|Er zieht nach Berlin um.|12|zieht;Berlin;um
 S|The coat suits me.|Der Mantel passt mir gut.;Der Mantel steht mir gut.|8|Mantel;mir;gut
-S|Open the window! (du)|Mach das Fenster auf!;Öffne das Fenster!|13|das;Fenster
-S|Close the door, please! (du)|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|die;Tür
+S|Open the window! (du)|Mach das Fenster auf!;Öffne das Fenster!|13|Fenster;auf/Öffne
+S|Close the door, please! (du)|Mach bitte die Tür zu!;Mach die Tür bitte zu!;Schließ bitte die Tür!;Schließe bitte die Tür!;Schließ die Tür bitte!;Mach die Tür zu!|13|Tür;zu/Schließ/Schließe
 S|Speak more slowly, please. (du)|Sprich bitte langsamer.;Sprich langsamer, bitte.|13|Sprich;bitte;langsamer
 S|Help me, please! (du)|Hilf mir bitte!;Bitte hilf mir!|13|Hilf;mir;bitte
 S|Take your coat! (du)|Nimm deinen Mantel!|13|Nimm;deinen;Mantel
-S|Wait here, please.|Warten Sie bitte hier.;Warten Sie hier, bitte.;Wartet bitte hier.;Wartet hier, bitte.|13|hier;bitte
+S|Wait here, please. (Sie or ihr)|Warten Sie bitte hier.;Warten Sie hier, bitte.;Wartet bitte hier.;Wartet hier, bitte.|13|hier;bitte
 S|Stay at home! (du)|Bleib zu Hause!;Bleibe zu Hause!|13|zu;Hause
 
 @a2-raconter|A2|Talking about the past|Saying what you did in the perfect, using war, hatte and the modals in the preterite, talking about the weather and free time.
@@ -381,28 +381,28 @@ T|Die Kinder [durften] nicht fernsehen.|dürfen (Präteritum)|The children were 
 S|Yesterday I worked at home.|Gestern habe ich zu Hause gearbeitet.;Ich habe gestern zu Hause gearbeitet.|14|habe;Hause;gearbeitet
 S|We went to the cinema.|Wir sind ins Kino gegangen.|14|sind;Kino;gegangen
 S|She read a book.|Sie hat ein Buch gelesen.|14|hat;Buch;gelesen
-S|He arrived yesterday.|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|ist;gestern
+S|He arrived yesterday.|Er ist gestern angekommen.;Gestern ist er angekommen.;Er ist gestern gekommen.;Gestern ist er gekommen.|14|gestern;angekommen/gekommen
 S|What did you eat? (du)|Was hast du gegessen?|14|Was;gegessen
 S|I forgot the key.|Ich habe den Schlüssel vergessen.|14|Schlüssel;vergessen
 S|We won the game.|Wir haben das Spiel gewonnen.|14|Spiel;gewonnen
-S|He lost his phone.|Er hat sein Handy verloren.|14|sein;Handy;verloren
-S|The sun was shining.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne
+S|He lost his key.|Er hat seinen Schlüssel verloren.|14|seinen;Schlüssel;verloren
+S|The sun was shining.|Die Sonne hat geschienen.;Die Sonne schien.|14|Sonne;geschienen/schien
 S|The children sang.|Die Kinder haben gesungen.|14|Kinder;gesungen
 S|I went out with Anna.|Ich bin mit Anna ausgegangen.|14|bin;Anna;ausgegangen
-S|The bus left at eight o'clock.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht
+S|The bus left at eight o'clock.|Der Bus ist um acht Uhr abgefahren.;Der Bus fuhr um acht Uhr ab.|14|Bus;acht;abgefahren/ab
 S|He came back late.|Er ist spät zurückgekommen.;Er ist spät nach Hause gekommen.|14|ist;spät
-S|I was ill.|Ich war krank.;Ich bin krank gewesen.|15|krank
+S|I was at home.|Ich war zu Hause.;Ich bin zu Hause gewesen.|15|Hause;war/gewesen
 S|Yesterday there was a concert.|Gestern gab es ein Konzert.;Es gab gestern ein Konzert.|15|gab;Konzert
 S|How was the weekend?|Wie war das Wochenende?|15|war;Wochenende
 S|I couldn't sleep.|Ich konnte nicht schlafen.|15|konnte;schlafen
-S|We had to wait.|Wir mussten warten.;Wir haben warten müssen.|15|warten
+S|We had to wait.|Wir mussten warten.;Wir haben warten müssen.|15|warten;mussten/müssen
 S|She didn't have time.|Sie hatte keine Zeit.|15|hatte;keine;Zeit
 
 @a2-sante|A2|Health and comparisons|Talking about your body and the doctor, using reflexive verbs, comparing things and people.
 F|16;19
 V|pres|waschen;anziehen;umziehen;aussehen;kennenlernen;schneiden;fallen;treiben;sterben
 M|der Körper;der Kopf;das Auge;das Ohr;die Nase;der Mund;der Zahn;der Hals;der Arm;die Hand;der Finger;der Bauch;der Rücken;das Bein;der Fuß;das Herz;der Arzt;die Ärztin;die Praxis;das Krankenhaus;das Medikament;das Rezept;das Fieber;die Erkältung;der Husten;die Schmerzen;krank;gesund;müde;Ich habe Kopfschmerzen.;Mir ist schlecht.;Ich brauche einen Termin.;Gute Besserung!
-M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen
+M|groß;klein;alt;neu;jung;gut;schlecht;schön;hässlich;lang;kurz;schnell;langsam;heiß;kalt;warm;leicht;schwer;einfach;schwierig;liegen;sitzen;stehen;früh;spät;nett;richtig;falsch
 T|Ich wasche [mich] jeden Morgen.|sich (ich)|I wash every morning.|16
 T|Ich putze [mir] die Zähne.|sich (ich, Dativ)|I brush my teeth.|16
 T|Beeil [dich]!|sich (du)|Hurry up!|16
@@ -442,23 +442,23 @@ S|We are meeting tomorrow.|Wir treffen uns morgen.;Wir sehen uns morgen.;Morgen 
 S|Anna has caught a cold.|Anna hat sich erkältet.|16|Anna;sich;erkältet
 S|I am buying myself a jacket.|Ich kaufe mir eine Jacke.|16|kaufe;mir;Jacke
 S|I am looking forward to summer.|Ich freue mich auf den Sommer.|16|freue;mich;Sommer
-S|Do you have a headache? (du)|Hast du Kopfschmerzen?|6|Hast;Kopfschmerzen
-S|My back hurts.|Mein Rücken tut weh.;Mein Rücken tut mir weh.|9|Rücken;weh
+S|Do you have a headache? (du)|Hast du Kopfschmerzen?;Tut dir der Kopf weh?|6|Kopfschmerzen/Kopf
+S|My arm hurts.|Mein Arm tut weh.;Mein Arm tut mir weh.;Mir tut der Arm weh.|9|Arm;weh
 S|I have a temperature.|Ich habe Fieber.|6|habe;Fieber
 S|She is tired and ill.|Sie ist müde und krank.|1|müde;krank
 S|The doctor is younger than me.|Der Arzt ist jünger als ich.|19|Arzt;jünger;als
-S|The temperature is higher today.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute
+S|The fever is higher today.|Das Fieber ist heute höher.;Heute ist das Fieber höher.;Das Fieber ist heute stärker.;Heute ist das Fieber stärker.|19|Fieber;heute;höher/stärker
 S|Anna speaks German better than Paul.|Anna spricht besser Deutsch als Paul.;Anna spricht Deutsch besser als Paul.|19|besser;Deutsch;als
-S|This medicine is cheaper.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;ist
+S|This medicine is cheaper.|Das Medikament ist billiger.;Das Medikament ist günstiger.;Dieses Medikament ist billiger.;Dieses Medikament ist günstiger.|19|Medikament;billiger/günstiger
 S|I prefer drinking water.|Ich trinke lieber Wasser.|19|trinke;lieber;Wasser
 S|Paul is as tall as Tom.|Paul ist so groß wie Tom.|19|so;groß;wie
-S|The train is the fastest.|Der Zug ist am schnellsten.|19|Zug;schnellsten
+S|The train is the fastest.|Der Zug ist am schnellsten.;Der Zug ist der schnellste.|19|Zug;schnellsten/schnellste
 S|The nearest doctor is in Bonn.|Der nächste Arzt ist in Bonn.|19|nächste;Arzt;Bonn
 
 @a2-raisons|A2|Work, reasons and plans|Linking ideas, explaining why, describing with adjectives, talking about the future, asking politely.
 F|17;18;20
 V|pres|aufhören;aufräumen;einladen;ausfüllen;zuhören;unterschreiben;schließen;nennen;lassen;werfen;ziehen
-M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;gefallen;glauben;denken
+M|die Arbeit;der Job;der Beruf;die Firma;das Büro;der Chef;die Chefin;der Kollege;die Kollegin;der Urlaub;die Pause;der Feierabend;der Computer;das Handy;das Geld;die Adresse;gefallen;glauben;denken
 M|wer?;was?;wo?;wohin?;woher?;wann?;warum?;wie?;wie viel?;welcher?;und;oder;aber;weil;dass;wenn;also;auch;noch;schon;nur;sehr;ziemlich;vielleicht;zusammen;allein;hier;dort;alles;nichts;etwas;jemand;niemand;viel;wenig;genug
 T|Anna bleibt zu Hause, [weil] sie krank ist.|weil/wenn/dass|Anna is staying at home because she is ill.|17
 T|Ich glaube, [dass] er heute kommt.|weil/dass/ob|I think he is coming today.|17
@@ -493,18 +493,18 @@ T|Das [wäre] sehr nett.|sein (Konjunktiv II)|That would be very kind.|20
 S|I am staying at home because I am tired.|Ich bleibe zu Hause, weil ich müde bin.;Ich bleibe zu Hause, denn ich bin müde.|17|bleibe;Hause;müde
 S|I think he is ill.|Ich glaube, dass er krank ist.;Ich glaube, er ist krank.|17|glaube;krank
 S|I don't know whether Anna is coming.|Ich weiß nicht, ob Anna kommt.|17|weiß;ob;Anna
-S|When I have time, I read.|Wenn ich Zeit habe, lese ich.|17|Wenn;Zeit;lese
+S|When I have time, I read.|Wenn ich Zeit habe, lese ich.;Ich lese, wenn ich Zeit habe.|17|wenn;Zeit;lese
 S|When I was a child, I lived in Berlin.|Als ich ein Kind war, habe ich in Berlin gewohnt.;Als ich ein Kind war, wohnte ich in Berlin.;Als ich Kind war, habe ich in Berlin gewohnt.;Als ich Kind war, wohnte ich in Berlin.|17|Als;Berlin
 S|It is raining, so I am taking the bus.|Es regnet, deshalb nehme ich den Bus.;Es regnet, deswegen nehme ich den Bus.;Es regnet, deshalb fahre ich mit dem Bus.;Es regnet, deswegen fahre ich mit dem Bus.|17|regnet;Bus
-S|I don't drink beer, but wine.|Ich trinke kein Bier, sondern Wein.|17|Bier;sondern;Wein
+S|I don't drink beer, but wine.|Ich trinke kein Bier, sondern Wein.;Ich trinke nicht Bier, sondern Wein.|17|Bier;sondern;Wein
 S|I am buying the green jumper.|Ich kaufe den grünen Pullover.|18|grünen;Pullover
-S|They live in a big city.|Sie wohnen in einer großen Stadt.|18|wohnen;großen;Stadt
+S|They live in a big city.|Sie wohnen in einer großen Stadt.;Sie leben in einer großen Stadt.|18|wohnen/leben;großen;Stadt
 S|He has a new car.|Er hat ein neues Auto.|18|neues;Auto
 S|We have a small kitchen.|Wir haben eine kleine Küche.|18|kleine;Küche
 S|We are looking for a cheap flat.|Wir suchen eine billige Wohnung.;Wir suchen eine günstige Wohnung.|18|suchen;Wohnung
-S|She works for a small company.|Sie arbeitet in einer kleinen Firma.|18|einer;kleinen;Firma
-S|I will visit you tomorrow. (du)|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen
-S|Could you open the window?|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster
+S|She works in a small company.|Sie arbeitet in einer kleinen Firma.|18|einer;kleinen;Firma
+S|I will visit you tomorrow. (du)|Ich werde dich morgen besuchen.;Ich besuche dich morgen.|20|dich;morgen;besuchen/besuche
+S|Could you open the window? (Sie or ihr)|Könnten Sie das Fenster öffnen?;Könnten Sie das Fenster aufmachen?;Könntet ihr das Fenster öffnen?;Könntet ihr das Fenster aufmachen?;Würden Sie das Fenster öffnen?;Würden Sie das Fenster aufmachen?|20|Fenster;öffnen/aufmachen
 S|You should work less. (du)|Du solltest weniger arbeiten.|20|solltest;weniger;arbeiten
 S|I would like a glass of water.|Ich hätte gern ein Glas Wasser.;Ich möchte ein Glas Wasser.|20|Glas;Wasser
 S|If I had time, I would come.|Wenn ich Zeit hätte, würde ich kommen.;Wenn ich Zeit hätte, käme ich.|20|Wenn;Zeit;hätte

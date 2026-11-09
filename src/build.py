@@ -83,7 +83,7 @@ def check_programme():
             if len(f) == 5: # the keywords of a free answer (issue #22): each one must be in every accepted version
                 for x in f[2].split(';'):
                     tokens = [t.casefold() for t in re.findall(r'[\w-]+', x)]
-                    for k in f[4].split(';'): assert k.casefold() in tokens, (u['id'], k, x)
+                    for k in f[4].split(';'): assert set(k.casefold().split('/')) & set(tokens), (u['id'], k, x)
             u['S'] += 1
         else: raise AssertionError(l)
     assert not leaks, ('reserved sentences shown in training', leaks)

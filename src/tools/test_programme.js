@@ -226,21 +226,21 @@
   });
 
   /* ---------- the real content: every unit, in every language (issue #23) ---------- */
-  const inProgramme = (list, key) => { const n = {}; for (const u of UNITS) for (const x of list(u)) n[key(x)] = (n[key(x)] || 0) + 1; return n; };
+  const countAcrossUnits = (list, key) => { const n = {}; for (const u of UNITS) for (const x of list(u)) n[key(x)] = (n[key(x)] || 0) + 1; return n; };
   const langs = [undefined, "en", "es"];
   const eachLang = fn => { try { for (const l of langs) { loadProgramme(l); fn(l || "fr"); } } finally { loadProgramme(uiLang()); } };
-  const noMark = q => { throw new Error("no full marks for " + q); };
+  const fullMarks = (u, id, answer, shown) => { if (examMark(examQuestion(u, id), answer).pts !== 1) throw new Error("no full marks for " + u.id + ": " + shown); };
   test("the programme runs from A1 to the end of A2, in order", () => {
     eq(UNITS.map(u => u.id), ["a1-presenter", "a1-journee", "a1-courses", "a1-ville", "a1-restaurant", "a2-maison", "a2-raconter", "a2-sante", "a2-raisons"]);
     eq(UNITS.map(u => u.level).join(), "A1,A1,A1,A1,A1,A2,A2,A2,A2");
   });
   test("every fiche of the level is in exactly one unit", () => {
-    const n = inProgramme(u => u.fiches, x => x);
+    const n = countAcrossUnits(u => u.fiches, x => x);
     for (let id = 1; id <= 20; id++) eq([id, n[id]], [id, 1]);
     eq([n[26], n[27]], [1, 1]);
   });
   test("every irregular verb of A1 and A2 is in exactly one unit", () => {
-    const n = inProgramme(u => u.verbs, x => x.v.key);
+    const n = countAcrossUnits(u => u.verbs, x => x.v.key);
     for (const v of IRR) if (v.level === "A1" || v.level === "A2") eq([v.key, n[v.key]], [v.key, 1]);
   });
   test("a unit of the level has about 30 gaps, 16 to 20 sentences, about 60 words", () => {
@@ -261,13 +261,13 @@
   });
   test("every known answer of every unit gets full marks", () => {
     for (const u of UNITS) {
-      for (const id in u.gaps) for (const a of u.gaps[id].answers) { if (examMark(examQuestion(u, id), a).pts !== 1) noMark(u.id + ": " + a); }
-      for (const id in u.sents) for (const a of u.sents[id].accepted) { if (examMark(examQuestion(u, id), a).pts !== 1) noMark(u.id + ": " + a); }
-      for (const w of u.words) { if (examMark(examQuestion(u, "w:" + w.id), [w.de, w.pl || ""]).pts !== 1) noMark(u.id + ": " + w.de); }
+      for (const id in u.gaps) for (const a of u.gaps[id].answers) fullMarks(u, id, a, a);
+      for (const id in u.sents) for (const a of u.sents[id].accepted) fullMarks(u, id, a, a);
+      for (const w of u.words) fullMarks(u, "w:" + w.id, [w.de, w.pl || ""], w.de);
       for (const x of u.verbs) for (let k = 0; k < 6; k++) {
-        const q = examQuestion(u, `c:${x.v.key}:${x.tense}:${k}`);
-        if (!q) throw new Error(u.id + ": no form " + x.v.key + " " + k);
-        if (examMark(q, q.answers[0]).pts !== 1) noMark(u.id + ": " + q.answers[0]);
+        const id = `c:${x.v.key}:${x.tense}:${k}`;
+        if (!examQuestion(u, id)) throw new Error(u.id + ": no form " + x.v.key + " " + k);
+        fullMarks(u, id, examQuestion(u, id).answers[0], id);
       }
     }
   });
@@ -278,11 +278,12 @@
     }
   });
   test("the translated programmes hold the same questions, each with its own wording", () => {
-    const ids = {};
-    eachLang(l => { ids[l] = UNITS.map(u => [u.id, Object.keys(u.gaps), Object.keys(u.sents), u.title, u.desc]); });
-    for (const l of ["en", "es"]) ids[l].forEach((u, i) => {
-      eq([u[0], u[1], u[2]], ids.fr[i].slice(0, 3));
-      if (u[3] === ids.fr[i][3] || u[4] === ids.fr[i][4]) throw new Error(l + ": untranslated " + u[0]);
+    const byLang = {};
+    eachLang(l => { byLang[l] = UNITS.map(u => ({ id: u.id, gaps: Object.keys(u.gaps), sents: Object.keys(u.sents), title: u.title, desc: u.desc })); });
+    for (const l of ["en", "es"]) byLang[l].forEach((u, i) => {
+      const fr = byLang.fr[i];
+      eq([u.id, u.gaps, u.sents], [fr.id, fr.gaps, fr.sents]);
+      if (u.title === fr.title || u.desc === fr.desc) throw new Error(l + ": untranslated " + u.id);
     });
   });
 
