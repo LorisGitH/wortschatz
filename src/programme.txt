@@ -683,3 +683,228 @@ S|À cause de la pluie, je reste à la maison.|Wegen des Regens bleibe ich zu Ha
 S|Malgré la pluie, je vais à la banque.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
 S|Pendant les vacances, la banque est fermée.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
 S|C'est le passeport de Lena.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena
+
+@b2-carriere|B2|Carrière et arguments|Négocier sa place, défendre son avis et relier ses idées avec les conjonctions doubles et les subordonnées avancées.
+F|31;35
+V|prat|beweisen;zwingen;befehlen
+P|sich unterhalten>mit;überzeugen>von;hinweisen>auf;rechnen>mit;umgehen>mit;sich auskennen>mit;sich bemühen>um;sich einsetzen>für;beitragen>zu;führen>zu;sich beteiligen>an;ankommen>auf;die Voraussetzung>für;die Teilnahme>an;das Interesse>an;das Gespräch>über;bereit>zu;bekannt>für;interessiert>an;überzeugt>von;abhängig>von
+M|die Arbeitsbedingungen;der Arbeitgeber;der Arbeitnehmer;die Kündigungsfrist;die Probezeit;die Gehaltserhöhung;die Beförderung;die Weiterbildung;die Fähigkeit;die Erfahrung;die Verantwortung;die Leistung;der Umsatz;der Gewinn;der Verlust;die Abteilung;die Geschäftsführung;der Betriebsrat;die Gewerkschaft;der Streik;die Teilzeit;die Vollzeit;das Homeoffice;die Arbeitslosigkeit;die Agentur für Arbeit;der Auftrag;verhandeln;sich weiterbilden;befördern;einstellen;entlassen;leiten;selbstständig;befristet;unbefristet
+M|meiner Meinung nach;Ich bin der Ansicht, dass …;einerseits … andererseits;trotzdem;deshalb;dennoch;obwohl;während;sobald;falls;außerdem;allerdings;zwar … aber;je … desto;sowohl … als auch;weder … noch;stattdessen;im Gegensatz zu;im Vergleich zu;aufgrund;trotz;anstatt;infolgedessen;letztendlich;beispielsweise;Es kommt darauf an.;Das hängt davon ab, ob …;Da bin ich anderer Meinung.;Ich stimme dir zu.;Das stimmt zwar, aber …;Ich gebe zu, dass …;Es ist fraglich, ob …;Ein Vorteil ist, dass …;Ein Nachteil ist, dass …
+M|sich bewerben um;sich beschäftigen mit;sich vorbereiten auf;sich konzentrieren auf;sich entscheiden für;sich bedanken für;teilnehmen an;abhängen von;überzeugen von;hinweisen auf;achten auf;führen zu
+T|Ich spreche [sowohl] Englisch als auch Spanisch.|sowohl/weder/entweder|Je parle aussi bien anglais qu'espagnol.|31
+T|Er spricht sowohl Deutsch [als] auch Türkisch.|als/oder/noch|Il parle aussi bien allemand que turc.|31
+T|Die Firma sucht weder Köche [noch] Kellner.|noch/oder/aber|L'entreprise ne cherche ni cuisiniers ni serveurs.|31
+T|Ich habe [weder] Zeit noch Geld.|sowohl/weder/entweder|Je n'ai ni le temps ni l'argent.|31
+T|[Entweder] du unterschreibst heute, oder wir suchen jemand anderen.|Entweder/Weder/Sowohl|Soit tu signes aujourd'hui, soit nous cherchons quelqu'un d'autre.|31
+T|Wir verhandeln entweder am Montag [oder] am Dienstag.|oder/noch/aber|Nous négocions soit lundi, soit mardi.|31
+T|Die Stelle ist nicht nur gut bezahlt, [sondern] auch sicher.|sondern/aber/oder|Le poste n'est pas seulement bien payé, il est aussi sûr.|31
+T|Das Gehalt ist [zwar] niedrig, aber die Arbeit macht Spaß.|zwar/weder/je|Le salaire est certes bas, mais le travail est agréable.|31
+T|Die Probezeit ist zwar lang, [aber] der Vertrag ist unbefristet.|aber/sondern/oder|La période d'essai est certes longue, mais le contrat est à durée indéterminée.|31
+T|[Einerseits] will ich mehr verdienen, andererseits möchte ich weniger arbeiten.|Einerseits/Entweder/Sowohl|D'un côté je veux gagner plus, de l'autre je voudrais travailler moins.|31
+T|Einerseits ist die Arbeit spannend, [andererseits] ist sie anstrengend.|andererseits/sondern/desto|D'un côté le travail est passionnant, de l'autre il est fatigant.|31
+T|[Je] länger ich hier arbeite, desto mehr lerne ich.|Je/Desto/Als|Plus je travaille ici longtemps, plus j'apprends.|31
+T|Je mehr Verantwortung sie hat, [desto/umso] zufriedener ist sie.|desto/als/wie|Plus elle a de responsabilités, plus elle est satisfaite.|31
+T|Je früher du dich bewirbst, desto [besser] sind deine Chancen.|gut (Komparativ)|Plus tu postules tôt, meilleures sont tes chances.|31
+T|Je höher das Gehalt ist, desto mehr Steuern [zahlt] man.|zahlen|Plus le salaire est élevé, plus on paie d'impôts.|31
+T|Er hat sich weitergebildet, [indem] er abends Kurse besucht hat.|indem/sodass/falls|Il s'est formé en suivant des cours le soir.|35
+T|Sie überzeugte den Chef, [indem] sie ihm die Zahlen zeigte.|indem/sodass/falls|Elle a convaincu le chef en lui montrant les chiffres.|35
+T|Der Zug hatte Verspätung, [sodass/so dass] ich die Besprechung verpasst habe.|indem/sodass/nachdem|Le train avait du retard, si bien que j'ai raté la réunion.|35
+T|Der Umsatz ist gestiegen, [sodass/so dass] alle mehr verdienen.|indem/sodass/falls|Le chiffre d'affaires a augmenté, si bien que tout le monde gagne plus.|35
+T|Sie benimmt sich, [als] ob sie die Chefin wäre.|als/wie/wenn|Elle se comporte comme si elle était la chef.|35
+T|Er tut so, als ob er krank [wäre/sei].|sein (Konjunktiv)|Il fait comme s'il était malade.|35
+T|Sie hat gekündigt, [ohne] dass es jemand gemerkt hat.|ohne/statt/als|Elle a démissionné sans que personne ne s'en aperçoive.|35
+T|[Anstatt/Statt] dass wir verhandeln, streiten sich unsere Anwälte.|Anstatt/Ohne/Sofern|Au lieu que nous négociions, nos avocats se disputent.|35
+T|[Falls] Sie Fragen haben, rufen Sie mich an.|Falls/Solange/Nachdem|Au cas où vous auriez des questions, appelez-moi.|35
+T|[Solange] die Probezeit läuft, kann man schneller kündigen.|Solange/Falls/Nachdem|Tant que dure la période d'essai, on peut démissionner plus vite.|35
+T|[Nachdem] er gekündigt hatte, suchte er eine neue Stelle.|Nachdem/Solange/Falls|Après avoir démissionné, il a cherché un nouveau poste.|35
+T|Nachdem ich die Bewerbung abgeschickt [hatte], ging ich spazieren.|haben|Après avoir envoyé ma candidature, je suis allé me promener.|35
+T|Nachdem sie in Berlin angekommen [war], rief sie ihre Chefin an.|sein|Après être arrivée à Berlin, elle a appelé sa chef.|35
+T|[Je] nachdem, wie die Verhandlung läuft, unterschreibe ich oder nicht.|Je/Als/Wie|Selon la façon dont se passe la négociation, je signe ou non.|35
+T|[Sofern] die Firma zustimmt, arbeite ich im Homeoffice.|Sofern/Indem/Nachdem|Dans la mesure où l'entreprise est d'accord, je travaille à domicile.|35
+S|Je parle aussi bien français qu'allemand.|Ich spreche sowohl Französisch als auch Deutsch.|31|sowohl;als/wie;auch;Französisch;Deutsch
+S|Je n'ai ni contrat ni salaire.|Ich habe weder einen Vertrag noch ein Gehalt.;Ich habe weder Vertrag noch Gehalt.|31|weder;noch;Vertrag;Gehalt
+S|Soit tu démissionnes, soit tu restes.|Entweder kündigst du, oder du bleibst.;Entweder du kündigst, oder du bleibst.;Entweder kündigst du oder du bleibst.;Entweder du kündigst oder du bleibst.|31|Entweder;oder;kündigst;bleibst
+S|Le poste n'est pas seulement intéressant, il est aussi bien payé.|Die Stelle ist nicht nur interessant, sondern auch gut bezahlt.|31|nicht;nur;sondern;auch;interessant
+S|Le salaire est certes élevé, mais le travail est difficile.|Das Gehalt ist zwar hoch, aber die Arbeit ist schwer.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwer.;Das Gehalt ist zwar hoch, aber die Arbeit ist schwierig.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwierig.|31|zwar;aber;Gehalt/Lohn;hoch
+S|D'un côté j'aime ce travail, de l'autre je veux changer.|Einerseits mag ich diese Arbeit, andererseits möchte ich wechseln.;Einerseits mag ich diese Arbeit, andererseits will ich wechseln.;Einerseits mag ich diesen Job, andererseits möchte ich wechseln.;Einerseits mag ich diesen Job, andererseits will ich wechseln.|31|Einerseits;andererseits;wechseln
+S|Plus je travaille, plus je gagne.|Je mehr ich arbeite, desto mehr verdiene ich.;Je mehr ich arbeite, umso mehr verdiene ich.|31|Je;mehr;arbeite;verdiene
+S|Plus l'entreprise est grande, plus il y a de réunions.|Je größer die Firma ist, desto mehr Besprechungen gibt es.;Je größer die Firma ist, umso mehr Besprechungen gibt es.;Je größer das Unternehmen ist, desto mehr Besprechungen gibt es.;Je größer das Unternehmen ist, umso mehr Besprechungen gibt es.|31|Je;größer;mehr;Besprechungen/Meetings/Sitzungen
+S|Ni la cheffe ni le directeur ne sont là.|Weder die Chefin noch der Direktor ist da.;Weder die Chefin noch der Direktor sind da.;Weder die Chefin noch der Direktor ist hier.;Weder die Chefin noch der Direktor sind hier.|31|Weder;noch;Chefin;Direktor
+S|Il a appris l'allemand en lisant beaucoup.|Er hat Deutsch gelernt, indem er viel gelesen hat.;Er lernte Deutsch, indem er viel las.|35|Deutsch;indem;viel
+S|Le chef était malade, si bien que la réunion a été annulée.|Der Chef war krank, sodass die Besprechung abgesagt wurde.;Der Chef war krank, so dass die Besprechung abgesagt wurde.;Der Chef war krank, sodass die Besprechung ausgefallen ist.;Der Chef war krank, so dass die Besprechung ausgefallen ist.;Der Chef war krank, sodass die Besprechung ausfiel.;Der Chef war krank, so dass die Besprechung ausfiel.|35|Chef;krank;Besprechung/Meeting/Sitzung
+S|Il parle comme s'il était le directeur.|Er spricht, als ob er der Direktor wäre.;Er spricht, als wäre er der Direktor.;Er redet, als ob er der Direktor wäre.;Er redet, als wäre er der Direktor.;Er spricht, als ob er der Direktor sei.;Er redet, als ob er der Direktor sei.;Er spricht, als sei er der Direktor.;Er redet, als sei er der Direktor.|35|als;Direktor
+S|Il a démissionné sans que son chef le sache.|Er hat gekündigt, ohne dass sein Chef es wusste.;Er hat gekündigt, ohne dass sein Chef davon wusste.;Er kündigte, ohne dass sein Chef es wusste.;Er kündigte, ohne dass sein Chef davon wusste.;Er hat gekündigt, ohne dass sein Chef es gewusst hat.;Er hat gekündigt, ohne dass sein Chef davon gewusst hat.|35|ohne;dass;Chef;wusste/gewusst
+S|Au cas où tu aurais besoin du contrat, appelle-moi.|Falls du den Vertrag brauchst, ruf mich an.;Falls du den Vertrag brauchst, rufe mich an.|35|Falls;Vertrag;brauchst/benötigst;an
+S|Tant que le contrat est valable, je reste.|Solange der Vertrag gültig ist, bleibe ich.;Solange der Vertrag gilt, bleibe ich.|35|Solange;Vertrag;bleibe
+S|Après avoir signé le contrat, il est rentré à la maison.|Nachdem er den Vertrag unterschrieben hatte, ging er nach Hause.;Nachdem er den Vertrag unterschrieben hatte, ist er nach Hause gegangen.|35|Nachdem;Vertrag;unterschrieben;hatte;Hause
+S|Selon que le salaire est bon ou non, j'accepte le poste ou je le refuse.|Je nachdem, ob das Gehalt gut ist, nehme ich die Stelle an oder lehne sie ab.;Je nachdem, ob das Gehalt gut ist oder nicht, nehme ich die Stelle an oder lehne sie ab.|35|Je;nachdem;ob;Gehalt/Lohn;Stelle/Job
+S|Il a obtenu le poste en convainquant le directeur.|Er hat die Stelle bekommen, indem er den Direktor überzeugt hat.;Er bekam die Stelle, indem er den Direktor überzeugte.|35|Stelle/Job;indem;Direktor
+
+@b2-droit|B2|Droits, contrats et santé|Lire un contrat ou un courrier officiel, faire valoir ses droits, parler de sa santé : passif avancé, style nominal, prépositions de l'écrit.
+F|30;33;34
+V|pres|treten;heben;stoßen
+P|bestehen>auf;sich halten>an;schreiben>an;sich erholen>von;leiden>an;leiden>unter;sterben>an;erkennen>an;verzichten>auf;gehen>um;sich handeln>um;vergleichen>mit;schützen>vor;warnen>vor;leben>von;sorgen>für;danken>für;die Bitte>um;die Suche>nach;die Angst>vor;sich fürchten>vor
+M|der Anspruch;die Bescheinigung;der Bescheid;der Widerspruch;die Vollmacht;die Genehmigung;die Aufenthaltserlaubnis;die Voraussetzung;die Bedingung;die Kündigung;die Mahnung;der Rechtsanwalt;das Gericht;das Gesetz;die Vorschrift;die Haftpflichtversicherung;der Schaden;die Steuererklärung;der Beitrag;die Rente;das Kindergeld;das Bürgergeld;die Unterlagen;der Nachweis;einreichen;verlängern;Widerspruch einlegen;genehmigen;nachweisen;haften;gültig;fristgerecht;verpflichtet;zuständig
+M|die Beschwerden;die Untersuchung;die Behandlung;die Diagnose;der Facharzt;der Hausarzt;die Nebenwirkung;die Impfung;die Allergie;die Verletzung;die Entzündung;der Blutdruck;die Ernährung;die Bewegung;der Stress;die Erschöpfung;die Sucht;die Vorsorge;sich erholen;sich verletzen;behandeln;untersuchen;verschreiben;leiden an;vorbeugen;ansteckend;chronisch;erschöpft;schwanger;rezeptpflichtig
+M|sich beschweren über;sich verlassen auf;sich kümmern um;bestehen aus;gehören zu;sorgen für;verzichten auf;bitten um;fragen nach;warten auf;sich gewöhnen an;sich erinnern an;denken an;sich fürchten vor
+T|Die Unterlagen [sind] bis Montag einzureichen.|sein/werden|Les documents doivent être déposés d'ici lundi.|30
+T|Die Steuererklärung ist bis Juli [abzugeben].|abgeben|La déclaration d'impôts doit être remise d'ici juillet.|30
+T|Der Beitrag ist monatlich [zu] zahlen.|zu/um/ohne|La cotisation est à payer tous les mois.|30
+T|Diese Vorschrift ist kaum [zu] verstehen.|zu/um/ohne|Cette réglementation est à peine compréhensible.|30
+T|Der Schaden [lässt] sich leicht reparieren.|lassen|Le dommage se répare facilement.|30
+T|Die Kündigung lässt [sich] nicht rückgängig machen.|sich/es/man|Le licenciement ne peut pas être annulé.|30
+T|Die Unterlagen lassen sich online [einreichen].|einreichen|Les documents peuvent être déposés en ligne.|30
+T|Diesen Schaden kann man reparieren: Er ist [reparierbar].|reparieren (-bar)|Ce dommage peut être réparé : il est réparable.|30
+T|Der Vertrag musste neu geschrieben [werden].|werden|Le contrat a dû être réécrit.|30
+T|Im Krankenhaus [wird] auch nachts gearbeitet.|werden|À l'hôpital, on travaille aussi la nuit.|30
+T|Hier können Sie einen Antrag auf Kindergeld [stellen].|stellen/treffen/nehmen|Ici, vous pouvez faire une demande d'allocations familiales.|33
+T|Der Arzt hat noch keine Entscheidung [getroffen].|treffen|Le médecin n'a pas encore pris de décision.|33
+T|Das Gesetz [tritt] nächstes Jahr in Kraft.|treten|La loi entre en vigueur l'année prochaine.|33
+T|Die Anwältin [steht] Ihnen zur Verfügung.|stehen|L'avocate est à votre disposition.|33
+T|Geben Sie mir bitte rechtzeitig [Bescheid].|Bescheid/Antrag/Kraft|Prévenez-moi à temps, s'il vous plaît.|33
+T|Wir nehmen auf kranke Kollegen [Rücksicht].|Rücksicht/Kritik/Bescheid|Nous avons des égards pour les collègues malades.|33
+T|Das Gericht hat die Entscheidung [in] Frage gestellt.|in/zu/auf|Le tribunal a remis en question la décision.|33
+T|Die Patienten üben [Kritik] an den Wartezeiten.|Kritik/Rücksicht/Bescheid|Les patients critiquent les temps d'attente.|33
+T|Nach der [Ankunft] des Arztes beginnt die Untersuchung.|ankommen (Nomen)|Après l'arrivée du médecin, l'examen commence.|33
+T|Die [Entscheidung] des Gerichts ist gültig.|entscheiden (Nomen)|La décision du tribunal est valable.|33
+T|[Laut] Bescheid muss ich nichts zahlen.|Laut/Angesichts/Zugunsten|Selon l'avis, je n'ai rien à payer.|34
+T|[Aufgrund] der Krankheit konnte sie nicht arbeiten.|Aufgrund/Laut/Dank|En raison de la maladie, elle n'a pas pu travailler.|34
+T|[Dank] der Impfung wurde er nicht krank.|Dank/Laut/Infolge|Grâce au vaccin, il n'est pas tombé malade.|34
+T|[Angesichts] der hohen Kosten verzichten wir auf den Rechtsanwalt.|Angesichts/Laut/Dank|Au vu des coûts élevés, nous renonçons à l'avocat.|34
+T|[Bezüglich/Hinsichtlich] Ihrer Frage schicke ich Ihnen den Nachweis.|Bezüglich/Dank/Laut|Concernant votre question, je vous envoie le justificatif.|34
+T|[Mithilfe/Mit Hilfe] eines Anwalts hat er sein Geld zurückbekommen.|Mithilfe/Laut/Trotz|Avec l'aide d'un avocat, il a récupéré son argent.|34
+T|Dem Gesetz [zufolge] ist der Bescheid gültig.|zufolge/laut/dank|D'après la loi, l'avis est valable.|34
+T|Gemäß [dem] Vertrag zahlt die Versicherung den Schaden.|dem/den/des|Conformément au contrat, l'assurance paie les dommages.|34
+T|Infolge [des] Unfalls kann er nicht arbeiten.|der/des/dem|À la suite de l'accident, il ne peut pas travailler.|34
+T|Zugunsten [der] Patienten wurde das Gesetz geändert.|die/der/den|En faveur des patients, la loi a été modifiée.|34
+S|Le formulaire doit être rendu d'ici vendredi.|Das Formular ist bis Freitag abzugeben.;Das Formular ist bis Freitag einzureichen.;Das Formular muss bis Freitag abgegeben werden.;Das Formular muss bis Freitag eingereicht werden.|30|Formular;bis;Freitag
+S|Le délai peut être prolongé.|Die Frist lässt sich verlängern.;Die Frist kann verlängert werden.;Man kann die Frist verlängern.;Die Frist ist verlängerbar.|30|Frist;verlängern/verlängert/verlängerbar
+S|Cette signature n'est pas lisible.|Diese Unterschrift ist nicht lesbar.;Diese Unterschrift ist unlesbar.;Diese Unterschrift ist nicht zu lesen.;Diese Unterschrift lässt sich nicht lesen.;Diese Unterschrift ist nicht leserlich.;Diese Unterschrift ist unleserlich.|30|Unterschrift;lesbar/unlesbar/lesen/leserlich/unleserlich
+S|La facture doit être payée immédiatement.|Die Rechnung ist sofort zu bezahlen.;Die Rechnung ist sofort zu zahlen.;Die Rechnung muss sofort bezahlt werden.;Die Rechnung muss sofort gezahlt werden.|30|Rechnung;sofort
+S|Cette maladie peut être traitée.|Diese Krankheit lässt sich behandeln.;Diese Krankheit kann behandelt werden.;Diese Krankheit ist behandelbar.;Man kann diese Krankheit behandeln.|30|Krankheit;behandeln/behandelt/behandelbar
+S|Les patients doivent être examinés le matin.|Die Patienten müssen morgens untersucht werden.;Die Patienten müssen am Morgen untersucht werden.;Morgens müssen die Patienten untersucht werden.;Am Morgen müssen die Patienten untersucht werden.|30|Patienten;müssen;untersucht;werden
+S|Je voudrais faire une demande de prolongation.|Ich möchte einen Antrag auf Verlängerung stellen.|33|Antrag;Verlängerung;stellen
+S|La médecin va prendre une décision demain.|Die Ärztin trifft morgen eine Entscheidung.;Die Ärztin wird morgen eine Entscheidung treffen.;Morgen trifft die Ärztin eine Entscheidung.;Morgen wird die Ärztin eine Entscheidung treffen.|33|Ärztin;morgen;Entscheidung;trifft/treffen
+S|La nouvelle réglementation entre en vigueur en mars.|Die neue Vorschrift tritt im März in Kraft.|33|Vorschrift/Regelung;tritt;März;Kraft
+S|Je vous préviens demain. (Sie)|Ich gebe Ihnen morgen Bescheid.;Ich sage Ihnen morgen Bescheid.;Morgen gebe ich Ihnen Bescheid.;Morgen sage ich Ihnen Bescheid.|33|Ihnen;morgen;Bescheid
+S|Ce document est à votre disposition. (Sie)|Dieses Dokument steht Ihnen zur Verfügung.|33|Dokument;steht;zur;Verfügung
+S|Avant le départ, je dois signer la procuration.|Vor der Abfahrt muss ich die Vollmacht unterschreiben.;Vor der Abreise muss ich die Vollmacht unterschreiben.|33|Abfahrt/Abreise;Vollmacht;unterschreiben
+S|Selon le contrat, l'assurance paie.|Laut Vertrag zahlt die Versicherung.;Laut Vertrag bezahlt die Versicherung.;Laut dem Vertrag zahlt die Versicherung.;Laut dem Vertrag bezahlt die Versicherung.;Gemäß dem Vertrag zahlt die Versicherung.;Gemäß dem Vertrag bezahlt die Versicherung.|34|Vertrag;Versicherung;zahlt/bezahlt
+S|En raison de la grève, le tribunal est fermé.|Aufgrund des Streiks ist das Gericht geschlossen.;Wegen des Streiks ist das Gericht geschlossen.;Infolge des Streiks ist das Gericht geschlossen.;Das Gericht ist aufgrund des Streiks geschlossen.;Das Gericht ist wegen des Streiks geschlossen.;Aufgrund des Streikes ist das Gericht geschlossen.;Wegen des Streikes ist das Gericht geschlossen.|34|Streiks/Streikes;Gericht;geschlossen
+S|Grâce à votre aide, j'ai obtenu le certificat. (Sie)|Dank Ihrer Hilfe habe ich die Bescheinigung bekommen.;Dank Ihrer Hilfe habe ich die Bescheinigung erhalten.|34|Dank;Hilfe;Bescheinigung/Zertifikat
+S|Concernant votre lettre, je voudrais faire opposition. (Sie)|Bezüglich Ihres Briefes möchte ich Widerspruch einlegen.;Bezüglich Ihres Briefs möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefes möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefs möchte ich Widerspruch einlegen.|34|Ihres;Widerspruch;einlegen/erheben
+S|Au vu de la situation, nous restons à la maison.|Angesichts der Lage bleiben wir zu Hause.;Angesichts der Situation bleiben wir zu Hause.|34|Angesichts;Lage/Situation;Hause
+S|À l'aide d'un dictionnaire, j'ai compris la lettre.|Mithilfe eines Wörterbuchs habe ich den Brief verstanden.;Mit Hilfe eines Wörterbuchs habe ich den Brief verstanden.|34|Mithilfe/Hilfe;Wörterbuchs/Wörterbuches;Brief;verstanden/verstand
+
+@b2-societe|B2|Société et environnement|Suivre l'actualité, rapporter ce que disent les autres avec le Konjunktiv I, lire la presse grâce aux participes.
+F|29;32
+V|perf|sinken;greifen;schieben
+P|glauben>an;zweifeln>an;reagieren>auf;hoffen>auf;kämpfen>gegen;protestieren>gegen;diskutieren>über;berichten>über;nachdenken>über;handeln>von;hören>von;sich wundern>über;sich aufregen>über;lachen>über;der Wunsch>nach;die Hoffnung>auf;die Freude>an;gespannt>auf;neugierig>auf;sich sorgen>um
+M|die Gesellschaft;die Regierung;die Wahl;die Partei;der Bundestag;der Bundeskanzler;die Demokratie;die Meinung;die Freiheit;die Gleichberechtigung;die Integration;die Einwanderung;die Armut;der Wohlstand;die Ungleichheit;die Bildung;die Nachricht;die Zeitung;die Sendung;der Bericht;die Umfrage;die Krise;die Entwicklung;die Herausforderung;der Bürger;wählen;abstimmen;berichten;fordern;sich engagieren;kritisieren;gesellschaftlich;politisch;umstritten;aktuell
+M|die Umwelt;der Klimawandel;der Umweltschutz;die Energie;der Strom;der Verbrauch;die Nachhaltigkeit;die Verschmutzung;die Abgase;der Abfall;die Mülltrennung;der Gelbe Sack;das Altglas;die Solaranlage;die Windkraft;das Kraftwerk;die Ressource;die Überschwemmung;die Dürre;verschwenden;sparen;recyceln;schützen;vermeiden;verbrauchen;nachhaltig;umweltfreundlich;erneuerbar;klimaneutral
+M|offensichtlich;eindeutig;angeblich;anscheinend;vermutlich;erheblich;überwiegend;vorübergehend;dauerhaft;umfangreich;aufwendig;ausreichend;vorhanden;ehemalig;bisher;inzwischen;sich sorgen um;glauben an;zweifeln an
+T|Der Minister sagt, er [sei] nicht zuständig.|sein (Konjunktiv I)|Le ministre dit qu'il n'est pas compétent.|29
+T|Die Politikerin erklärt, sie [habe] das Problem gelöst.|haben (Konjunktiv I)|La femme politique déclare qu'elle a résolu le problème.|29
+T|Die Regierung teilt mit, sie [könne] das Gesetz ändern.|können (Konjunktiv I)|Le gouvernement fait savoir qu'il peut modifier la loi.|29
+T|Die Partei sagt, sie [werde] die Steuern senken.|werden (Konjunktiv I)|Le parti dit qu'il va baisser les impôts.|29
+T|Der Bürgermeister sagt, er [wolle] mit den Bürgern sprechen.|wollen (Konjunktiv I)|Le maire dit qu'il veut parler avec les citoyens.|29
+T|Die Zeitung berichtet, der Strom [werde] teurer.|werden (Konjunktiv I)|Le journal rapporte que l'électricité va coûter plus cher.|29
+T|In der Umfrage heißt es, die Mehrheit [sei] zufrieden.|sein (Konjunktiv I)|Le sondage dit que la majorité est satisfaite.|29
+T|Die Demonstranten sagen, sie [hätten] keine Angst.|haben (Konjunktiv)|Les manifestants disent qu'ils n'ont pas peur.|29
+T|Die Experten meinen, die Preise [würden] steigen.|werden (Konjunktiv)|Les experts estiment que les prix vont augmenter.|29
+T|Der Kanzler sagte, die Krise [sei] vorbei.|sein (Konjunktiv I)|Le chancelier a dit que la crise était finie.|29
+T|Sie sagte, sie [sei] gestern nach Berlin gefahren.|sein (Konjunktiv I)|Elle a dit qu'elle était allée à Berlin hier.|29
+T|Der Journalist schreibt, der Minister [habe] gelogen.|haben (Konjunktiv I)|Le journaliste écrit que le ministre a menti.|29
+T|Der Reporter fragt, [ob] die Regierung bleibt.|ob/dass/wenn|Le reporter demande si le gouvernement reste.|29
+T|Die Ärztin sagt, ich [solle] weniger arbeiten.|sollen (Konjunktiv I)|La médecin dit que je dois moins travailler.|29
+T|Tom sagt, er [arbeite] im Homeoffice.|arbeiten (Konjunktiv I)|Tom dit qu'il travaille à domicile.|29
+T|Die [wachsende] Armut ist ein großes Problem.|wachsen (Partizip I)|La pauvreté croissante est un gros problème.|32
+T|Sie gibt eine [überzeugende] Antwort.|überzeugen (Partizip I)|Elle donne une réponse convaincante.|32
+T|Die [fehlenden] Unterlagen schicke ich morgen.|fehlen (Partizip I)|Les documents manquants, je les envoie demain.|32
+T|Wir sehen ein [brennendes] Haus.|brennen (Partizip I)|Nous voyons une maison en feu.|32
+T|Der gestern [veröffentlichte] Bericht ist sehr lang.|veröffentlichen (Partizip II)|Le rapport publié hier est très long.|32
+T|Die [gewählte] Regierung nimmt im Mai ihre Arbeit auf.|wählen (Partizip II)|Le gouvernement élu prend ses fonctions en mai.|32
+T|Das [gesammelte] Altglas kommt in den Container.|sammeln (Partizip II)|Le verre collecté va dans le conteneur.|32
+T|Die vom Staat [geförderten] Solaranlagen sind billiger.|fördern (Partizip II)|Les panneaux solaires subventionnés par l'État sont moins chers.|32
+T|Wir sprechen über die stark [gestiegenen] Kosten.|steigen (Partizip II)|Nous parlons des coûts qui ont fortement augmenté.|32
+T|Der [verbrauchte] Strom wird am Monatsende bezahlt.|verbrauchen (Partizip II)|L'électricité consommée est payée à la fin du mois.|32
+T|Die seit Jahren [steigende] Zahl der Autos ist ein Problem.|steigen (Partizip I)|Le nombre de voitures qui augmente depuis des années est un problème.|32
+T|Das [verschmutzte] Wasser ist gefährlich.|verschmutzen (Partizip II)|L'eau polluée est dangereuse.|32
+T|Die Zeitung schreibt über den [kommenden] Winter.|kommen (Partizip I)|Le journal parle de l'hiver à venir.|32
+T|Er hilft einem [weinenden] Kind.|weinen (Partizip I)|Il aide un enfant qui pleure.|32
+T|In den [genannten] Ländern herrscht eine schwere Dürre.|nennen (Partizip II)|Dans les pays cités, il y a une grave sécheresse.|32
+S|Le ministre dit qu'il n'a pas le temps. (Konjunktiv)|Der Minister sagt, er habe keine Zeit.;Der Minister sagt, dass er keine Zeit habe.|29|Minister;habe;Zeit
+S|La journaliste écrit que la crise est grave. (Konjunktiv)|Die Journalistin schreibt, die Krise sei ernst.;Die Journalistin schreibt, dass die Krise ernst sei.;Die Journalistin schreibt, die Krise sei schlimm.;Die Journalistin schreibt, dass die Krise schlimm sei.|29|Journalistin;schreibt;Krise;sei
+S|Le parti affirme qu'il peut gagner. (Konjunktiv)|Die Partei behauptet, sie könne gewinnen.;Die Partei behauptet, dass sie gewinnen könne.;Die Partei sagt, sie könne gewinnen.;Die Partei sagt, dass sie gewinnen könne.;Die Partei erklärt, sie könne gewinnen.;Die Partei erklärt, dass sie gewinnen könne.|29|Partei;könne;gewinnen
+S|Il a dit qu'il viendrait demain.|Er sagte, er werde morgen kommen.;Er sagte, dass er morgen kommen werde.;Er sagte, er komme morgen.;Er sagte, dass er morgen komme.;Er hat gesagt, er werde morgen kommen.;Er hat gesagt, dass er morgen kommen werde.;Er hat gesagt, er komme morgen.;Er sagte, er würde morgen kommen.;Er hat gesagt, er würde morgen kommen.;Er sagte, dass er morgen kommen würde.;Er hat gesagt, dass er morgen kommen würde.;Er hat gesagt, dass er morgen komme.|29|morgen;kommen/komme
+S|Elle dit qu'elle est allée à Berlin. (Konjunktiv)|Sie sagt, sie sei nach Berlin gefahren.;Sie sagt, dass sie nach Berlin gefahren sei.;Sie sagt, sie sei nach Berlin gereist.;Sie sagt, dass sie nach Berlin gereist sei.;Sie sagt, sie sei in Berlin gewesen.;Sie sagt, dass sie in Berlin gewesen sei.|29|sei;Berlin;gefahren/gereist/gewesen
+S|Les experts disent qu'ils n'ont pas de réponse. (Konjunktiv)|Die Experten sagen, sie hätten keine Antwort.;Die Experten sagen, dass sie keine Antwort hätten.|29|Experten;hätten;Antwort
+S|Le médecin dit que je dois me reposer. (Konjunktiv)|Der Arzt sagt, ich solle mich ausruhen.;Der Arzt sagt, ich solle mich erholen.;Der Arzt sagt, dass ich mich ausruhen solle.;Der Arzt sagt, dass ich mich erholen solle.;Der Arzt sagt, ich müsse mich ausruhen.;Der Arzt sagt, ich müsse mich erholen.;Der Arzt sagt, dass ich mich ausruhen müsse.;Der Arzt sagt, dass ich mich erholen müsse.|29|Arzt;solle/müsse;mich
+S|Elle demande si la loi est juste.|Sie fragt, ob das Gesetz gerecht ist.;Sie fragt, ob das Gesetz gerecht sei.;Sie fragt, ob das Gesetz fair ist.;Sie fragt, ob das Gesetz fair sei.|29|fragt;ob;Gesetz
+S|Le gouvernement annonce que les impôts vont baisser.|Die Regierung teilt mit, die Steuern würden sinken.;Die Regierung teilt mit, dass die Steuern sinken würden.;Die Regierung sagt, die Steuern würden sinken.;Die Regierung sagt, dass die Steuern sinken würden.;Die Regierung kündigt an, die Steuern würden sinken.;Die Regierung kündigt an, dass die Steuern sinken würden.|29|Regierung;Steuern;sinken
+S|Les prix en hausse sont un problème.|Die steigenden Preise sind ein Problem.;Steigende Preise sind ein Problem.|32|steigenden/steigende;Preise;Problem
+S|Les documents envoyés sont complets.|Die geschickten Unterlagen sind vollständig.;Die verschickten Unterlagen sind vollständig.;Die gesendeten Unterlagen sind vollständig.;Die abgeschickten Unterlagen sind vollständig.;Die geschickten Dokumente sind vollständig.;Die verschickten Dokumente sind vollständig.|32|geschickten/verschickten/gesendeten/abgeschickten;Unterlagen/Dokumente;vollständig
+S|La maison vendue est vieille.|Das verkaufte Haus ist alt.;Das Haus, das verkauft wurde, ist alt.;Das Haus, das verkauft worden ist, ist alt.|32|verkaufte/verkauft;Haus;alt
+S|Là-bas, il y a une femme souriante.|Dort steht eine lächelnde Frau.;Da steht eine lächelnde Frau.|32|lächelnde;Frau
+S|Le rapport écrit par le ministre est long.|Der vom Minister geschriebene Bericht ist lang.;Der von dem Minister geschriebene Bericht ist lang.;Der vom Minister verfasste Bericht ist lang.;Der von dem Minister verfasste Bericht ist lang.|32|Minister;Bericht;lang
+S|Les prix qui ont augmenté depuis mai sont trop élevés.|Die seit Mai gestiegenen Preise sind zu hoch.;Die Preise, die seit Mai gestiegen sind, sind zu hoch.|32|seit;Mai;gestiegenen/gestiegen;Preise
+S|Les déchets triés sont recyclés.|Der getrennte Abfall wird recycelt.;Die getrennten Abfälle werden recycelt.;Der getrennte Müll wird recycelt.;Der sortierte Abfall wird recycelt.;Getrennter Abfall wird recycelt.;Sortierter Abfall wird recycelt.;Die sortierten Abfälle werden recycelt.|32|getrennte/getrennten/getrennter/sortierte/sortierter/sortierten;recycelt
+S|La ville polluée a besoin d'air pur.|Die verschmutzte Stadt braucht saubere Luft.|32|verschmutzte;Stadt;Luft
+S|Le changement climatique est un problème croissant.|Der Klimawandel ist ein wachsendes Problem.|32|Klimawandel;wachsendes/zunehmendes;Problem
+
+@b2-relations|B2|Sentiments et relations|Exprimer regrets et reproches, dire à quel point on est sûr, parler naturellement avec les particules modales.
+F|28;36;38
+V|prat|schweigen;reißen
+P|gratulieren>zu;sich streiten>mit;sich verlieben>in;sich verabschieden>von;sich verstehen>mit;riechen>nach;sich sehnen>nach;passen>zu;sich trennen>von;die Freude>über;die Erinnerung>an;die Beziehung>zu;der Streit>mit;die Sorge>um;verheiratet>mit;verliebt>in;böse>auf;froh>über;traurig>über;freundlich>zu
+M|das Gefühl;die Beziehung;das Vertrauen;die Eifersucht;die Enttäuschung;die Sehnsucht;die Geduld;der Streit;die Versöhnung;das Missverständnis;die Rücksicht;der Eindruck;die Stimmung;sich verlieben;sich trennen;sich streiten;vermissen;enttäuschen;vertrauen;sich schämen;sich aufregen;zuverlässig;ehrgeizig;eifersüchtig;geduldig;ungeduldig;neugierig;schüchtern;selbstbewusst;großzügig;hilfsbereit;empfindlich;gelassen;enttäuscht;verlegen
+M|Ich verstehe nur Bahnhof.;Das ist mir Wurst.;Ich drücke dir die Daumen.;Schwein haben;Tomaten auf den Augen haben;Ich habe die Nase voll.;ins Fettnäpfchen treten;auf dem Holzweg sein;den Nagel auf den Kopf treffen;um den heißen Brei herumreden;Hals- und Beinbruch!;Da steppt der Bär.;Alles hat ein Ende, nur die Wurst hat zwei.;etwas auf die lange Bank schieben;die Katze im Sack kaufen;jemandem auf den Keks gehen;Das ist nicht mein Bier.;Das ist mir ein Rätsel.;unter vier Augen;zwei Fliegen mit einer Klappe schlagen;Lügen haben kurze Beine.;Ende gut, alles gut.;Übung macht den Meister.
+M|ausgerechnet;gewissermaßen;anspruchsvoll;mühsam;zufällig;absichtlich;rechtzeitig;selbstverständlich;ständig;kaum;überhaupt nicht;eher;durchaus;keineswegs
+M|sich freuen auf;sich freuen über;sich interessieren für;sich ärgern über;sich unterhalten über;träumen von
+T|Wenn du angerufen [hättest], wäre ich gekommen.|haben (Konjunktiv II)|Si tu avais appelé, je serais venu.|28
+T|Wenn sie früher gekommen [wäre], hätten wir gesprochen.|sein (Konjunktiv II)|Si elle était venue plus tôt, nous aurions parlé.|28
+T|Ich [hätte] dir gern geholfen.|haben (Konjunktiv II)|Je t'aurais aidé volontiers.|28
+T|Wir [wären] gern länger geblieben.|sein (Konjunktiv II)|Nous serions restés plus longtemps volontiers.|28
+T|Du [hättest] mir die Wahrheit sagen sollen.|haben (Konjunktiv II)|Tu aurais dû me dire la vérité.|28
+T|Ich hätte ihn nicht anrufen [sollen].|sollen|Je n'aurais pas dû l'appeler.|28
+T|Er hätte früher kommen [müssen].|müssen|Il aurait dû venir plus tôt.|28
+T|Sie hätte mir helfen [können].|können|Elle aurait pu m'aider.|28
+T|[Hätte] ich bloß nichts gesagt!|haben (Konjunktiv II)|Si seulement je n'avais rien dit !|28
+T|Fast [wären] wir zu spät gekommen.|sein (Konjunktiv II)|Nous avons failli arriver en retard.|28
+T|Er antwortet nicht. Er [muss] sehr müde sein.|müssen/sollen/wollen|Il ne répond pas. Il doit être très fatigué, c'est sûr.|36
+T|Sie [soll] sehr reich sein.|müssen/sollen/wollen|Il paraît qu'elle est très riche.|36
+T|Er [will] den Streit nicht angefangen haben.|müssen/sollen/wollen|Il prétend ne pas avoir commencé la dispute.|36
+T|Das [kann] nicht wahr sein.|können/sollen/wollen|Ça ne peut pas être vrai.|36
+T|Anna ist nicht da. Sie [dürfte] schon nach Hause gegangen sein.|dürfen (Konjunktiv II)|Anna n'est pas là. Elle est probablement déjà rentrée.|36
+T|Sie [könnte] eifersüchtig sein.|können (Konjunktiv II)|Elle est peut-être jalouse.|36
+T|Er wird [wohl] zu Hause sein.|wohl/doch/mal|Il est sans doute à la maison.|36
+T|Er muss sich in sie verliebt [haben].|haben/sein|Il a dû tomber amoureux d'elle.|36
+T|Sie soll letztes Jahr nach Wien gezogen [sein].|haben/sein|Il paraît qu'elle a déménagé à Vienne l'année dernière.|36
+T|Er will krank gewesen [sein].|haben/sein|Il prétend avoir été malade.|36
+T|Wie alt bist du [eigentlich]?|eigentlich/halt/schon|Au fait, quel âge as-tu ?|38
+T|Was machst du [denn] hier?|denn/doch/schon|Mais que fais-tu ici ?|38
+T|Hilf mir [mal] kurz!|mal/denn/wohl|Aide-moi un instant !|38
+T|Das ist [ja] wunderbar!|ja/denn/mal|Mais c'est merveilleux !|38
+T|Nimm [doch] den Bus!|doch/denn/wohl|Prends donc le bus !|38
+T|Er ist [halt/eben] so.|halt/denn/mal|Il est comme ça, c'est tout.|38
+T|Mach dir keine Sorgen, das wird [schon] wieder gut.|schon/denn/mal|Ne t'inquiète pas, ça va aller.|38
+T|Was ist [bloß/nur] passiert?|bloß/halt/mal|Mais qu'est-ce qui a bien pu se passer ?|38
+T|Komm [bloß/nur] nicht zu spät!|bloß/denn/schon|Surtout, ne sois pas en retard !|38
+T|Sie ist [wohl] sauer auf mich.|wohl/denn/mal|Elle est sans doute fâchée contre moi.|38
+S|Si j'avais eu le temps, je serais venu.|Wenn ich Zeit gehabt hätte, wäre ich gekommen.;Hätte ich Zeit gehabt, wäre ich gekommen.|28|Zeit;gehabt;hätte;wäre;gekommen
+S|Tu aurais dû t'excuser.|Du hättest dich entschuldigen sollen.;Du hättest dich entschuldigen müssen.|28|hättest;dich;entschuldigen
+S|À ta place, je ne l'aurais pas fait.|An deiner Stelle hätte ich das nicht gemacht.;An deiner Stelle hätte ich das nicht getan.;Ich hätte das an deiner Stelle nicht gemacht.;Ich hätte das an deiner Stelle nicht getan.;An deiner Stelle hätte ich es nicht gemacht.;An deiner Stelle hätte ich es nicht getan.|28|Stelle;hätte;gemacht/getan
+S|Nous aurions pu rester plus longtemps.|Wir hätten länger bleiben können.|28|hätten;länger;bleiben;können
+S|J'ai failli tomber.|Fast wäre ich gefallen.;Fast wäre ich hingefallen.;Ich wäre fast gefallen.;Ich wäre fast hingefallen.;Fast wäre ich gestürzt.;Ich wäre fast gestürzt.;Beinahe wäre ich gefallen.;Beinahe wäre ich hingefallen.;Ich wäre beinahe gefallen.;Ich wäre beinahe hingefallen.|28|Fast/Beinahe;wäre
+S|Si seulement je l'avais su !|Hätte ich das bloß gewusst!;Hätte ich das nur gewusst!;Wenn ich das bloß gewusst hätte!;Wenn ich das nur gewusst hätte!;Hätte ich es bloß gewusst!;Hätte ich es nur gewusst!;Wenn ich es bloß gewusst hätte!;Wenn ich es nur gewusst hätte!|28|hätte;gewusst
+S|Ma sœur doit être à la maison, c'est certain.|Meine Schwester muss zu Hause sein.|36|Schwester;muss;Hause
+S|Il paraît que le nouveau voisin est très gentil. (avec un modal)|Der neue Nachbar soll sehr nett sein.;Der neue Nachbar soll sehr freundlich sein.|36|Nachbar;soll;nett/freundlich
+S|Il prétend avoir tout oublié. (avec un modal)|Er will alles vergessen haben.|36|will;vergessen;haben
+S|Ça ne peut pas être ton frère.|Das kann nicht dein Bruder sein.|36|kann;nicht;Bruder
+S|Elle a dû rater le bus.|Sie muss den Bus verpasst haben.|36|muss;Bus;verpasst;haben
+S|Il paraît qu'ils se sont séparés. (avec un modal)|Sie sollen sich getrennt haben.|36|sollen;getrennt;haben
+S|Assieds-toi donc !|Setz dich doch!;Setze dich doch!|38|dich;doch
+S|Mais où est-il ?|Wo ist er denn?|38|Wo;denn
+S|Attends un peu !|Warte mal!;Wart mal!|38|mal
+S|Les enfants sont comme ça, c'est tout.|Kinder sind halt so.;Kinder sind eben so.;Die Kinder sind halt so.;Die Kinder sind eben so.|38|Kinder;sind;so;halt/eben/mal
+S|Ne t'inquiète pas, elle va bien venir.|Keine Sorge, sie kommt schon.;Mach dir keine Sorgen, sie kommt schon.;Keine Angst, sie kommt schon.;Keine Sorge, sie wird schon kommen.|38|sie;kommt/kommen;schon
+S|Au fait, où habites-tu ?|Wo wohnst du eigentlich?|38|Wo;wohnst;eigentlich

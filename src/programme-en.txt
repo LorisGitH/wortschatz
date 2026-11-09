@@ -683,3 +683,228 @@ S|Because of the rain, I am staying at home.|Wegen des Regens bleibe ich zu Haus
 S|Despite the rain, I am going to the bank.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
 S|During the holidays, the bank is closed.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
 S|That is Lena's passport.|Das ist Lenas Reisepass.;Das ist der Reisepass von Lena.|25|Reisepass;Lenas/Lena
+
+@b2-carriere|B2|Career and arguments|Negotiate your position, defend your opinion and link ideas with paired conjunctions and advanced subordinate clauses.
+F|31;35
+V|prat|beweisen;zwingen;befehlen
+P|sich unterhalten>mit;überzeugen>von;hinweisen>auf;rechnen>mit;umgehen>mit;sich auskennen>mit;sich bemühen>um;sich einsetzen>für;beitragen>zu;führen>zu;sich beteiligen>an;ankommen>auf;die Voraussetzung>für;die Teilnahme>an;das Interesse>an;das Gespräch>über;bereit>zu;bekannt>für;interessiert>an;überzeugt>von;abhängig>von
+M|die Arbeitsbedingungen;der Arbeitgeber;der Arbeitnehmer;die Kündigungsfrist;die Probezeit;die Gehaltserhöhung;die Beförderung;die Weiterbildung;die Fähigkeit;die Erfahrung;die Verantwortung;die Leistung;der Umsatz;der Gewinn;der Verlust;die Abteilung;die Geschäftsführung;der Betriebsrat;die Gewerkschaft;der Streik;die Teilzeit;die Vollzeit;das Homeoffice;die Arbeitslosigkeit;die Agentur für Arbeit;der Auftrag;verhandeln;sich weiterbilden;befördern;einstellen;entlassen;leiten;selbstständig;befristet;unbefristet
+M|meiner Meinung nach;Ich bin der Ansicht, dass …;einerseits … andererseits;trotzdem;deshalb;dennoch;obwohl;während;sobald;falls;außerdem;allerdings;zwar … aber;je … desto;sowohl … als auch;weder … noch;stattdessen;im Gegensatz zu;im Vergleich zu;aufgrund;trotz;anstatt;infolgedessen;letztendlich;beispielsweise;Es kommt darauf an.;Das hängt davon ab, ob …;Da bin ich anderer Meinung.;Ich stimme dir zu.;Das stimmt zwar, aber …;Ich gebe zu, dass …;Es ist fraglich, ob …;Ein Vorteil ist, dass …;Ein Nachteil ist, dass …
+M|sich bewerben um;sich beschäftigen mit;sich vorbereiten auf;sich konzentrieren auf;sich entscheiden für;sich bedanken für;teilnehmen an;abhängen von;überzeugen von;hinweisen auf;achten auf;führen zu
+T|Ich spreche [sowohl] Englisch als auch Spanisch.|sowohl/weder/entweder|I speak both English and Spanish.|31
+T|Er spricht sowohl Deutsch [als] auch Türkisch.|als/oder/noch|He speaks both German and Turkish.|31
+T|Die Firma sucht weder Köche [noch] Kellner.|noch/oder/aber|The company is looking for neither cooks nor waiters.|31
+T|Ich habe [weder] Zeit noch Geld.|sowohl/weder/entweder|I have neither time nor money.|31
+T|[Entweder] du unterschreibst heute, oder wir suchen jemand anderen.|Entweder/Weder/Sowohl|Either you sign today, or we look for someone else.|31
+T|Wir verhandeln entweder am Montag [oder] am Dienstag.|oder/noch/aber|We are negotiating either on Monday or on Tuesday.|31
+T|Die Stelle ist nicht nur gut bezahlt, [sondern] auch sicher.|sondern/aber/oder|The job is not only well paid but also secure.|31
+T|Das Gehalt ist [zwar] niedrig, aber die Arbeit macht Spaß.|zwar/weder/je|The salary may be low, but the work is enjoyable.|31
+T|Die Probezeit ist zwar lang, [aber] der Vertrag ist unbefristet.|aber/sondern/oder|The probation period may be long, but the contract is permanent.|31
+T|[Einerseits] will ich mehr verdienen, andererseits möchte ich weniger arbeiten.|Einerseits/Entweder/Sowohl|On the one hand I want to earn more, on the other I would like to work less.|31
+T|Einerseits ist die Arbeit spannend, [andererseits] ist sie anstrengend.|andererseits/sondern/desto|On the one hand the work is exciting, on the other it is tiring.|31
+T|[Je] länger ich hier arbeite, desto mehr lerne ich.|Je/Desto/Als|The longer I work here, the more I learn.|31
+T|Je mehr Verantwortung sie hat, [desto/umso] zufriedener ist sie.|desto/als/wie|The more responsibility she has, the more satisfied she is.|31
+T|Je früher du dich bewirbst, desto [besser] sind deine Chancen.|gut (Komparativ)|The earlier you apply, the better your chances are.|31
+T|Je höher das Gehalt ist, desto mehr Steuern [zahlt] man.|zahlen|The higher the salary, the more tax you pay.|31
+T|Er hat sich weitergebildet, [indem] er abends Kurse besucht hat.|indem/sodass/falls|He trained further by attending courses in the evening.|35
+T|Sie überzeugte den Chef, [indem] sie ihm die Zahlen zeigte.|indem/sodass/falls|She convinced the boss by showing him the figures.|35
+T|Der Zug hatte Verspätung, [sodass/so dass] ich die Besprechung verpasst habe.|indem/sodass/nachdem|The train was late, so that I missed the meeting.|35
+T|Der Umsatz ist gestiegen, [sodass/so dass] alle mehr verdienen.|indem/sodass/falls|Turnover has risen, so that everyone earns more.|35
+T|Sie benimmt sich, [als] ob sie die Chefin wäre.|als/wie/wenn|She behaves as if she were the boss.|35
+T|Er tut so, als ob er krank [wäre/sei].|sein (Konjunktiv)|He is pretending to be ill.|35
+T|Sie hat gekündigt, [ohne] dass es jemand gemerkt hat.|ohne/statt/als|She resigned without anyone noticing.|35
+T|[Anstatt/Statt] dass wir verhandeln, streiten sich unsere Anwälte.|Anstatt/Ohne/Sofern|Instead of us negotiating, our lawyers are arguing.|35
+T|[Falls] Sie Fragen haben, rufen Sie mich an.|Falls/Solange/Nachdem|In case you have any questions, call me.|35
+T|[Solange] die Probezeit läuft, kann man schneller kündigen.|Solange/Falls/Nachdem|As long as the probation period lasts, you can give notice more quickly.|35
+T|[Nachdem] er gekündigt hatte, suchte er eine neue Stelle.|Nachdem/Solange/Falls|After he had resigned, he looked for a new job.|35
+T|Nachdem ich die Bewerbung abgeschickt [hatte], ging ich spazieren.|haben|After I had sent off my application, I went for a walk.|35
+T|Nachdem sie in Berlin angekommen [war], rief sie ihre Chefin an.|sein|After she had arrived in Berlin, she called her boss.|35
+T|[Je] nachdem, wie die Verhandlung läuft, unterschreibe ich oder nicht.|Je/Als/Wie|Depending on how the negotiation goes, I will sign or not.|35
+T|[Sofern] die Firma zustimmt, arbeite ich im Homeoffice.|Sofern/Indem/Nachdem|Provided that the company agrees, I will work from home.|35
+S|I speak both French and German.|Ich spreche sowohl Französisch als auch Deutsch.|31|sowohl;als/wie;auch;Französisch;Deutsch
+S|I have neither a contract nor a salary.|Ich habe weder einen Vertrag noch ein Gehalt.;Ich habe weder Vertrag noch Gehalt.|31|weder;noch;Vertrag;Gehalt
+S|Either you resign or you stay. (du)|Entweder kündigst du, oder du bleibst.;Entweder du kündigst, oder du bleibst.;Entweder kündigst du oder du bleibst.;Entweder du kündigst oder du bleibst.|31|Entweder;oder;kündigst;bleibst
+S|The job is not only interesting but also well paid.|Die Stelle ist nicht nur interessant, sondern auch gut bezahlt.|31|nicht;nur;sondern;auch;interessant
+S|The salary may be high, but the work is difficult.|Das Gehalt ist zwar hoch, aber die Arbeit ist schwer.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwer.;Das Gehalt ist zwar hoch, aber die Arbeit ist schwierig.;Das Gehalt ist zwar hoch, die Arbeit ist aber schwierig.|31|zwar;aber;Gehalt/Lohn;hoch
+S|On the one hand I like this work, on the other I want to change.|Einerseits mag ich diese Arbeit, andererseits möchte ich wechseln.;Einerseits mag ich diese Arbeit, andererseits will ich wechseln.;Einerseits mag ich diesen Job, andererseits möchte ich wechseln.;Einerseits mag ich diesen Job, andererseits will ich wechseln.|31|Einerseits;andererseits;wechseln
+S|The more I work, the more I earn.|Je mehr ich arbeite, desto mehr verdiene ich.;Je mehr ich arbeite, umso mehr verdiene ich.|31|Je;mehr;arbeite;verdiene
+S|The bigger the company, the more meetings there are.|Je größer die Firma ist, desto mehr Besprechungen gibt es.;Je größer die Firma ist, umso mehr Besprechungen gibt es.;Je größer das Unternehmen ist, desto mehr Besprechungen gibt es.;Je größer das Unternehmen ist, umso mehr Besprechungen gibt es.|31|Je;größer;mehr;Besprechungen/Meetings/Sitzungen
+S|Neither the boss (woman) nor the director (man) is here.|Weder die Chefin noch der Direktor ist da.;Weder die Chefin noch der Direktor sind da.;Weder die Chefin noch der Direktor ist hier.;Weder die Chefin noch der Direktor sind hier.|31|Weder;noch;Chefin;Direktor
+S|He learned German by reading a lot.|Er hat Deutsch gelernt, indem er viel gelesen hat.;Er lernte Deutsch, indem er viel las.|35|Deutsch;indem;viel
+S|The boss (man) was ill, so that the meeting was cancelled.|Der Chef war krank, sodass die Besprechung abgesagt wurde.;Der Chef war krank, so dass die Besprechung abgesagt wurde.;Der Chef war krank, sodass die Besprechung ausgefallen ist.;Der Chef war krank, so dass die Besprechung ausgefallen ist.;Der Chef war krank, sodass die Besprechung ausfiel.;Der Chef war krank, so dass die Besprechung ausfiel.|35|Chef;krank;Besprechung/Meeting/Sitzung
+S|He talks as if he were the director.|Er spricht, als ob er der Direktor wäre.;Er spricht, als wäre er der Direktor.;Er redet, als ob er der Direktor wäre.;Er redet, als wäre er der Direktor.;Er spricht, als ob er der Direktor sei.;Er redet, als ob er der Direktor sei.;Er spricht, als sei er der Direktor.;Er redet, als sei er der Direktor.|35|als;Direktor
+S|He resigned without his boss (man) knowing.|Er hat gekündigt, ohne dass sein Chef es wusste.;Er hat gekündigt, ohne dass sein Chef davon wusste.;Er kündigte, ohne dass sein Chef es wusste.;Er kündigte, ohne dass sein Chef davon wusste.;Er hat gekündigt, ohne dass sein Chef es gewusst hat.;Er hat gekündigt, ohne dass sein Chef davon gewusst hat.|35|ohne;dass;Chef;wusste/gewusst
+S|In case you need the contract, call me. (du)|Falls du den Vertrag brauchst, ruf mich an.;Falls du den Vertrag brauchst, rufe mich an.|35|Falls;Vertrag;brauchst/benötigst;an
+S|As long as the contract is valid, I am staying.|Solange der Vertrag gültig ist, bleibe ich.;Solange der Vertrag gilt, bleibe ich.|35|Solange;Vertrag;bleibe
+S|After he had signed the contract, he went home.|Nachdem er den Vertrag unterschrieben hatte, ging er nach Hause.;Nachdem er den Vertrag unterschrieben hatte, ist er nach Hause gegangen.|35|Nachdem;Vertrag;unterschrieben;hatte;Hause
+S|Depending on whether the salary is good or not, I will accept or turn down the job.|Je nachdem, ob das Gehalt gut ist, nehme ich die Stelle an oder lehne sie ab.;Je nachdem, ob das Gehalt gut ist oder nicht, nehme ich die Stelle an oder lehne sie ab.|35|Je;nachdem;ob;Gehalt/Lohn;Stelle/Job
+S|He got the job by convincing the director (man).|Er hat die Stelle bekommen, indem er den Direktor überzeugt hat.;Er bekam die Stelle, indem er den Direktor überzeugte.|35|Stelle/Job;indem;Direktor
+
+@b2-droit|B2|Rights, contracts and health|Read a contract or an official letter, assert your rights, talk about your health: advanced passive, nominal style, written prepositions.
+F|30;33;34
+V|pres|treten;heben;stoßen
+P|bestehen>auf;sich halten>an;schreiben>an;sich erholen>von;leiden>an;leiden>unter;sterben>an;erkennen>an;verzichten>auf;gehen>um;sich handeln>um;vergleichen>mit;schützen>vor;warnen>vor;leben>von;sorgen>für;danken>für;die Bitte>um;die Suche>nach;die Angst>vor;sich fürchten>vor
+M|der Anspruch;die Bescheinigung;der Bescheid;der Widerspruch;die Vollmacht;die Genehmigung;die Aufenthaltserlaubnis;die Voraussetzung;die Bedingung;die Kündigung;die Mahnung;der Rechtsanwalt;das Gericht;das Gesetz;die Vorschrift;die Haftpflichtversicherung;der Schaden;die Steuererklärung;der Beitrag;die Rente;das Kindergeld;das Bürgergeld;die Unterlagen;der Nachweis;einreichen;verlängern;Widerspruch einlegen;genehmigen;nachweisen;haften;gültig;fristgerecht;verpflichtet;zuständig
+M|die Beschwerden;die Untersuchung;die Behandlung;die Diagnose;der Facharzt;der Hausarzt;die Nebenwirkung;die Impfung;die Allergie;die Verletzung;die Entzündung;der Blutdruck;die Ernährung;die Bewegung;der Stress;die Erschöpfung;die Sucht;die Vorsorge;sich erholen;sich verletzen;behandeln;untersuchen;verschreiben;leiden an;vorbeugen;ansteckend;chronisch;erschöpft;schwanger;rezeptpflichtig
+M|sich beschweren über;sich verlassen auf;sich kümmern um;bestehen aus;gehören zu;sorgen für;verzichten auf;bitten um;fragen nach;warten auf;sich gewöhnen an;sich erinnern an;denken an;sich fürchten vor
+T|Die Unterlagen [sind] bis Montag einzureichen.|sein/werden|The documents must be submitted by Monday.|30
+T|Die Steuererklärung ist bis Juli [abzugeben].|abgeben|The tax return must be handed in by July.|30
+T|Der Beitrag ist monatlich [zu] zahlen.|zu/um/ohne|The contribution is to be paid monthly.|30
+T|Diese Vorschrift ist kaum [zu] verstehen.|zu/um/ohne|This regulation can hardly be understood.|30
+T|Der Schaden [lässt] sich leicht reparieren.|lassen|The damage can easily be repaired.|30
+T|Die Kündigung lässt [sich] nicht rückgängig machen.|sich/es/man|The dismissal cannot be reversed.|30
+T|Die Unterlagen lassen sich online [einreichen].|einreichen|The documents can be submitted online.|30
+T|Diesen Schaden kann man reparieren: Er ist [reparierbar].|reparieren (-bar)|This damage can be repaired: it is repairable.|30
+T|Der Vertrag musste neu geschrieben [werden].|werden|The contract had to be rewritten.|30
+T|Im Krankenhaus [wird] auch nachts gearbeitet.|werden|In the hospital, people work at night too.|30
+T|Hier können Sie einen Antrag auf Kindergeld [stellen].|stellen/treffen/nehmen|Here you can apply for child benefit.|33
+T|Der Arzt hat noch keine Entscheidung [getroffen].|treffen|The doctor has not made a decision yet.|33
+T|Das Gesetz [tritt] nächstes Jahr in Kraft.|treten|The law comes into force next year.|33
+T|Die Anwältin [steht] Ihnen zur Verfügung.|stehen|The lawyer (woman) is at your disposal.|33
+T|Geben Sie mir bitte rechtzeitig [Bescheid].|Bescheid/Antrag/Kraft|Please let me know in good time.|33
+T|Wir nehmen auf kranke Kollegen [Rücksicht].|Rücksicht/Kritik/Bescheid|We show consideration for colleagues who are ill.|33
+T|Das Gericht hat die Entscheidung [in] Frage gestellt.|in/zu/auf|The court called the decision into question.|33
+T|Die Patienten üben [Kritik] an den Wartezeiten.|Kritik/Rücksicht/Bescheid|The patients criticise the waiting times.|33
+T|Nach der [Ankunft] des Arztes beginnt die Untersuchung.|ankommen (Nomen)|After the doctor's arrival, the examination begins.|33
+T|Die [Entscheidung] des Gerichts ist gültig.|entscheiden (Nomen)|The court's decision is valid.|33
+T|[Laut] Bescheid muss ich nichts zahlen.|Laut/Angesichts/Zugunsten|According to the notice, I do not have to pay anything.|34
+T|[Aufgrund] der Krankheit konnte sie nicht arbeiten.|Aufgrund/Laut/Dank|Because of the illness, she could not work.|34
+T|[Dank] der Impfung wurde er nicht krank.|Dank/Laut/Infolge|Thanks to the vaccination, he did not fall ill.|34
+T|[Angesichts] der hohen Kosten verzichten wir auf den Rechtsanwalt.|Angesichts/Laut/Dank|In view of the high costs, we are doing without the lawyer.|34
+T|[Bezüglich/Hinsichtlich] Ihrer Frage schicke ich Ihnen den Nachweis.|Bezüglich/Dank/Laut|Regarding your question, I am sending you the proof.|34
+T|[Mithilfe/Mit Hilfe] eines Anwalts hat er sein Geld zurückbekommen.|Mithilfe/Laut/Trotz|With the help of a lawyer, he got his money back.|34
+T|Dem Gesetz [zufolge] ist der Bescheid gültig.|zufolge/laut/dank|According to the law, the notice is valid.|34
+T|Gemäß [dem] Vertrag zahlt die Versicherung den Schaden.|dem/den/des|In accordance with the contract, the insurance pays for the damage.|34
+T|Infolge [des] Unfalls kann er nicht arbeiten.|der/des/dem|As a result of the accident, he cannot work.|34
+T|Zugunsten [der] Patienten wurde das Gesetz geändert.|die/der/den|The law was changed in favour of the patients.|34
+S|The form must be handed in by Friday.|Das Formular ist bis Freitag abzugeben.;Das Formular ist bis Freitag einzureichen.;Das Formular muss bis Freitag abgegeben werden.;Das Formular muss bis Freitag eingereicht werden.|30|Formular;bis;Freitag
+S|The deadline can be extended.|Die Frist lässt sich verlängern.;Die Frist kann verlängert werden.;Man kann die Frist verlängern.;Die Frist ist verlängerbar.|30|Frist;verlängern/verlängert/verlängerbar
+S|This signature is not legible.|Diese Unterschrift ist nicht lesbar.;Diese Unterschrift ist unlesbar.;Diese Unterschrift ist nicht zu lesen.;Diese Unterschrift lässt sich nicht lesen.;Diese Unterschrift ist nicht leserlich.;Diese Unterschrift ist unleserlich.|30|Unterschrift;lesbar/unlesbar/lesen/leserlich/unleserlich
+S|The invoice must be paid immediately.|Die Rechnung ist sofort zu bezahlen.;Die Rechnung ist sofort zu zahlen.;Die Rechnung muss sofort bezahlt werden.;Die Rechnung muss sofort gezahlt werden.|30|Rechnung;sofort
+S|This illness can be treated.|Diese Krankheit lässt sich behandeln.;Diese Krankheit kann behandelt werden.;Diese Krankheit ist behandelbar.;Man kann diese Krankheit behandeln.|30|Krankheit;behandeln/behandelt/behandelbar
+S|The patients must be examined in the morning.|Die Patienten müssen morgens untersucht werden.;Die Patienten müssen am Morgen untersucht werden.;Morgens müssen die Patienten untersucht werden.;Am Morgen müssen die Patienten untersucht werden.|30|Patienten;müssen;untersucht;werden
+S|I would like to apply for an extension.|Ich möchte einen Antrag auf Verlängerung stellen.|33|Antrag;Verlängerung;stellen
+S|The doctor (woman) will make a decision tomorrow.|Die Ärztin trifft morgen eine Entscheidung.;Die Ärztin wird morgen eine Entscheidung treffen.;Morgen trifft die Ärztin eine Entscheidung.;Morgen wird die Ärztin eine Entscheidung treffen.|33|Ärztin;morgen;Entscheidung;trifft/treffen
+S|The new regulation comes into force in March.|Die neue Vorschrift tritt im März in Kraft.|33|Vorschrift/Regelung;tritt;März;Kraft
+S|I will let you know tomorrow. (Sie)|Ich gebe Ihnen morgen Bescheid.;Ich sage Ihnen morgen Bescheid.;Morgen gebe ich Ihnen Bescheid.;Morgen sage ich Ihnen Bescheid.|33|Ihnen;morgen;Bescheid
+S|This document is at your disposal. (Sie)|Dieses Dokument steht Ihnen zur Verfügung.|33|Dokument;steht;zur;Verfügung
+S|Before leaving, I have to sign the power of attorney.|Vor der Abfahrt muss ich die Vollmacht unterschreiben.;Vor der Abreise muss ich die Vollmacht unterschreiben.|33|Abfahrt/Abreise;Vollmacht;unterschreiben
+S|According to the contract, the insurance pays.|Laut Vertrag zahlt die Versicherung.;Laut Vertrag bezahlt die Versicherung.;Laut dem Vertrag zahlt die Versicherung.;Laut dem Vertrag bezahlt die Versicherung.;Gemäß dem Vertrag zahlt die Versicherung.;Gemäß dem Vertrag bezahlt die Versicherung.|34|Vertrag;Versicherung;zahlt/bezahlt
+S|Because of the strike, the court is closed.|Aufgrund des Streiks ist das Gericht geschlossen.;Wegen des Streiks ist das Gericht geschlossen.;Infolge des Streiks ist das Gericht geschlossen.;Das Gericht ist aufgrund des Streiks geschlossen.;Das Gericht ist wegen des Streiks geschlossen.;Aufgrund des Streikes ist das Gericht geschlossen.;Wegen des Streikes ist das Gericht geschlossen.|34|Streiks/Streikes;Gericht;geschlossen
+S|Thanks to your help, I got the certificate. (Sie)|Dank Ihrer Hilfe habe ich die Bescheinigung bekommen.;Dank Ihrer Hilfe habe ich die Bescheinigung erhalten.|34|Dank;Hilfe;Bescheinigung/Zertifikat
+S|Regarding your letter, I would like to lodge an objection. (Sie)|Bezüglich Ihres Briefes möchte ich Widerspruch einlegen.;Bezüglich Ihres Briefs möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefes möchte ich Widerspruch einlegen.;Hinsichtlich Ihres Briefs möchte ich Widerspruch einlegen.|34|Ihres;Widerspruch;einlegen/erheben
+S|In view of the situation, we are staying at home.|Angesichts der Lage bleiben wir zu Hause.;Angesichts der Situation bleiben wir zu Hause.|34|Angesichts;Lage/Situation;Hause
+S|With the help of a dictionary, I understood the letter.|Mithilfe eines Wörterbuchs habe ich den Brief verstanden.;Mit Hilfe eines Wörterbuchs habe ich den Brief verstanden.|34|Mithilfe/Hilfe;Wörterbuchs/Wörterbuches;Brief;verstanden/verstand
+
+@b2-societe|B2|Society and environment|Follow the news, report what others say with Konjunktiv I, and read the press thanks to participles.
+F|29;32
+V|perf|sinken;greifen;schieben
+P|glauben>an;zweifeln>an;reagieren>auf;hoffen>auf;kämpfen>gegen;protestieren>gegen;diskutieren>über;berichten>über;nachdenken>über;handeln>von;hören>von;sich wundern>über;sich aufregen>über;lachen>über;der Wunsch>nach;die Hoffnung>auf;die Freude>an;gespannt>auf;neugierig>auf;sich sorgen>um
+M|die Gesellschaft;die Regierung;die Wahl;die Partei;der Bundestag;der Bundeskanzler;die Demokratie;die Meinung;die Freiheit;die Gleichberechtigung;die Integration;die Einwanderung;die Armut;der Wohlstand;die Ungleichheit;die Bildung;die Nachricht;die Zeitung;die Sendung;der Bericht;die Umfrage;die Krise;die Entwicklung;die Herausforderung;der Bürger;wählen;abstimmen;berichten;fordern;sich engagieren;kritisieren;gesellschaftlich;politisch;umstritten;aktuell
+M|die Umwelt;der Klimawandel;der Umweltschutz;die Energie;der Strom;der Verbrauch;die Nachhaltigkeit;die Verschmutzung;die Abgase;der Abfall;die Mülltrennung;der Gelbe Sack;das Altglas;die Solaranlage;die Windkraft;das Kraftwerk;die Ressource;die Überschwemmung;die Dürre;verschwenden;sparen;recyceln;schützen;vermeiden;verbrauchen;nachhaltig;umweltfreundlich;erneuerbar;klimaneutral
+M|offensichtlich;eindeutig;angeblich;anscheinend;vermutlich;erheblich;überwiegend;vorübergehend;dauerhaft;umfangreich;aufwendig;ausreichend;vorhanden;ehemalig;bisher;inzwischen;sich sorgen um;glauben an;zweifeln an
+T|Der Minister sagt, er [sei] nicht zuständig.|sein (Konjunktiv I)|The minister says he is not responsible.|29
+T|Die Politikerin erklärt, sie [habe] das Problem gelöst.|haben (Konjunktiv I)|The politician (woman) states that she has solved the problem.|29
+T|Die Regierung teilt mit, sie [könne] das Gesetz ändern.|können (Konjunktiv I)|The government announces that it can change the law.|29
+T|Die Partei sagt, sie [werde] die Steuern senken.|werden (Konjunktiv I)|The party says it will lower taxes.|29
+T|Der Bürgermeister sagt, er [wolle] mit den Bürgern sprechen.|wollen (Konjunktiv I)|The mayor says he wants to talk to the citizens.|29
+T|Die Zeitung berichtet, der Strom [werde] teurer.|werden (Konjunktiv I)|The newspaper reports that electricity will get more expensive.|29
+T|In der Umfrage heißt es, die Mehrheit [sei] zufrieden.|sein (Konjunktiv I)|The survey says the majority is satisfied.|29
+T|Die Demonstranten sagen, sie [hätten] keine Angst.|haben (Konjunktiv)|The demonstrators say they are not afraid.|29
+T|Die Experten meinen, die Preise [würden] steigen.|werden (Konjunktiv)|The experts think prices will rise.|29
+T|Der Kanzler sagte, die Krise [sei] vorbei.|sein (Konjunktiv I)|The chancellor said the crisis was over.|29
+T|Sie sagte, sie [sei] gestern nach Berlin gefahren.|sein (Konjunktiv I)|She said she had gone to Berlin yesterday.|29
+T|Der Journalist schreibt, der Minister [habe] gelogen.|haben (Konjunktiv I)|The journalist writes that the minister lied.|29
+T|Der Reporter fragt, [ob] die Regierung bleibt.|ob/dass/wenn|The reporter asks whether the government will stay.|29
+T|Die Ärztin sagt, ich [solle] weniger arbeiten.|sollen (Konjunktiv I)|The doctor (woman) says I should work less.|29
+T|Tom sagt, er [arbeite] im Homeoffice.|arbeiten (Konjunktiv I)|Tom says he works from home.|29
+T|Die [wachsende] Armut ist ein großes Problem.|wachsen (Partizip I)|Growing poverty is a big problem.|32
+T|Sie gibt eine [überzeugende] Antwort.|überzeugen (Partizip I)|She gives a convincing answer.|32
+T|Die [fehlenden] Unterlagen schicke ich morgen.|fehlen (Partizip I)|I will send the missing documents tomorrow.|32
+T|Wir sehen ein [brennendes] Haus.|brennen (Partizip I)|We can see a burning house.|32
+T|Der gestern [veröffentlichte] Bericht ist sehr lang.|veröffentlichen (Partizip II)|The report published yesterday is very long.|32
+T|Die [gewählte] Regierung nimmt im Mai ihre Arbeit auf.|wählen (Partizip II)|The elected government takes office in May.|32
+T|Das [gesammelte] Altglas kommt in den Container.|sammeln (Partizip II)|The collected waste glass goes in the container.|32
+T|Die vom Staat [geförderten] Solaranlagen sind billiger.|fördern (Partizip II)|Solar panels subsidised by the state are cheaper.|32
+T|Wir sprechen über die stark [gestiegenen] Kosten.|steigen (Partizip II)|We are talking about the sharply increased costs.|32
+T|Der [verbrauchte] Strom wird am Monatsende bezahlt.|verbrauchen (Partizip II)|The electricity used is paid for at the end of the month.|32
+T|Die seit Jahren [steigende] Zahl der Autos ist ein Problem.|steigen (Partizip I)|The number of cars, which has been rising for years, is a problem.|32
+T|Das [verschmutzte] Wasser ist gefährlich.|verschmutzen (Partizip II)|The polluted water is dangerous.|32
+T|Die Zeitung schreibt über den [kommenden] Winter.|kommen (Partizip I)|The newspaper writes about the coming winter.|32
+T|Er hilft einem [weinenden] Kind.|weinen (Partizip I)|He is helping a crying child.|32
+T|In den [genannten] Ländern herrscht eine schwere Dürre.|nennen (Partizip II)|In the countries mentioned, there is a severe drought.|32
+S|The minister says he has no time. (Konjunktiv)|Der Minister sagt, er habe keine Zeit.;Der Minister sagt, dass er keine Zeit habe.|29|Minister;habe;Zeit
+S|The journalist (woman) writes that the crisis is serious. (Konjunktiv)|Die Journalistin schreibt, die Krise sei ernst.;Die Journalistin schreibt, dass die Krise ernst sei.;Die Journalistin schreibt, die Krise sei schlimm.;Die Journalistin schreibt, dass die Krise schlimm sei.|29|Journalistin;schreibt;Krise;sei
+S|The party claims it can win. (Konjunktiv)|Die Partei behauptet, sie könne gewinnen.;Die Partei behauptet, dass sie gewinnen könne.;Die Partei sagt, sie könne gewinnen.;Die Partei sagt, dass sie gewinnen könne.;Die Partei erklärt, sie könne gewinnen.;Die Partei erklärt, dass sie gewinnen könne.|29|Partei;könne;gewinnen
+S|He said he would come tomorrow.|Er sagte, er werde morgen kommen.;Er sagte, dass er morgen kommen werde.;Er sagte, er komme morgen.;Er sagte, dass er morgen komme.;Er hat gesagt, er werde morgen kommen.;Er hat gesagt, dass er morgen kommen werde.;Er hat gesagt, er komme morgen.;Er sagte, er würde morgen kommen.;Er hat gesagt, er würde morgen kommen.;Er sagte, dass er morgen kommen würde.;Er hat gesagt, dass er morgen kommen würde.;Er hat gesagt, dass er morgen komme.|29|morgen;kommen/komme
+S|She says she went to Berlin. (Konjunktiv)|Sie sagt, sie sei nach Berlin gefahren.;Sie sagt, dass sie nach Berlin gefahren sei.;Sie sagt, sie sei nach Berlin gereist.;Sie sagt, dass sie nach Berlin gereist sei.;Sie sagt, sie sei in Berlin gewesen.;Sie sagt, dass sie in Berlin gewesen sei.|29|sei;Berlin;gefahren/gereist/gewesen
+S|The experts say they have no answer. (Konjunktiv)|Die Experten sagen, sie hätten keine Antwort.;Die Experten sagen, dass sie keine Antwort hätten.|29|Experten;hätten;Antwort
+S|The doctor (man) says I should rest. (Konjunktiv)|Der Arzt sagt, ich solle mich ausruhen.;Der Arzt sagt, ich solle mich erholen.;Der Arzt sagt, dass ich mich ausruhen solle.;Der Arzt sagt, dass ich mich erholen solle.;Der Arzt sagt, ich müsse mich ausruhen.;Der Arzt sagt, ich müsse mich erholen.;Der Arzt sagt, dass ich mich ausruhen müsse.;Der Arzt sagt, dass ich mich erholen müsse.|29|Arzt;solle/müsse;mich
+S|She asks whether the law is fair.|Sie fragt, ob das Gesetz gerecht ist.;Sie fragt, ob das Gesetz gerecht sei.;Sie fragt, ob das Gesetz fair ist.;Sie fragt, ob das Gesetz fair sei.|29|fragt;ob;Gesetz
+S|The government announces that taxes will fall.|Die Regierung teilt mit, die Steuern würden sinken.;Die Regierung teilt mit, dass die Steuern sinken würden.;Die Regierung sagt, die Steuern würden sinken.;Die Regierung sagt, dass die Steuern sinken würden.;Die Regierung kündigt an, die Steuern würden sinken.;Die Regierung kündigt an, dass die Steuern sinken würden.|29|Regierung;Steuern;sinken
+S|Rising prices are a problem.|Die steigenden Preise sind ein Problem.;Steigende Preise sind ein Problem.|32|steigenden/steigende;Preise;Problem
+S|The documents sent are complete.|Die geschickten Unterlagen sind vollständig.;Die verschickten Unterlagen sind vollständig.;Die gesendeten Unterlagen sind vollständig.;Die abgeschickten Unterlagen sind vollständig.;Die geschickten Dokumente sind vollständig.;Die verschickten Dokumente sind vollständig.|32|geschickten/verschickten/gesendeten/abgeschickten;Unterlagen/Dokumente;vollständig
+S|The house that was sold is old.|Das verkaufte Haus ist alt.;Das Haus, das verkauft wurde, ist alt.;Das Haus, das verkauft worden ist, ist alt.|32|verkaufte/verkauft;Haus;alt
+S|A smiling woman is standing over there.|Dort steht eine lächelnde Frau.;Da steht eine lächelnde Frau.|32|lächelnde;Frau
+S|The report written by the minister (man) is long.|Der vom Minister geschriebene Bericht ist lang.;Der von dem Minister geschriebene Bericht ist lang.;Der vom Minister verfasste Bericht ist lang.;Der von dem Minister verfasste Bericht ist lang.|32|Minister;Bericht;lang
+S|The prices that have risen since May are too high.|Die seit Mai gestiegenen Preise sind zu hoch.;Die Preise, die seit Mai gestiegen sind, sind zu hoch.|32|seit;Mai;gestiegenen/gestiegen;Preise
+S|Sorted waste is recycled.|Der getrennte Abfall wird recycelt.;Die getrennten Abfälle werden recycelt.;Der getrennte Müll wird recycelt.;Der sortierte Abfall wird recycelt.;Getrennter Abfall wird recycelt.;Sortierter Abfall wird recycelt.;Die sortierten Abfälle werden recycelt.|32|getrennte/getrennten/getrennter/sortierte/sortierter/sortierten;recycelt
+S|The polluted city needs clean air.|Die verschmutzte Stadt braucht saubere Luft.|32|verschmutzte;Stadt;Luft
+S|Climate change is a growing problem.|Der Klimawandel ist ein wachsendes Problem.|32|Klimawandel;wachsendes/zunehmendes;Problem
+
+@b2-relations|B2|Feelings and relationships|Express regrets and reproaches, say how sure you are, and sound natural with modal particles.
+F|28;36;38
+V|prat|schweigen;reißen
+P|gratulieren>zu;sich streiten>mit;sich verlieben>in;sich verabschieden>von;sich verstehen>mit;riechen>nach;sich sehnen>nach;passen>zu;sich trennen>von;die Freude>über;die Erinnerung>an;die Beziehung>zu;der Streit>mit;die Sorge>um;verheiratet>mit;verliebt>in;böse>auf;froh>über;traurig>über;freundlich>zu
+M|das Gefühl;die Beziehung;das Vertrauen;die Eifersucht;die Enttäuschung;die Sehnsucht;die Geduld;der Streit;die Versöhnung;das Missverständnis;die Rücksicht;der Eindruck;die Stimmung;sich verlieben;sich trennen;sich streiten;vermissen;enttäuschen;vertrauen;sich schämen;sich aufregen;zuverlässig;ehrgeizig;eifersüchtig;geduldig;ungeduldig;neugierig;schüchtern;selbstbewusst;großzügig;hilfsbereit;empfindlich;gelassen;enttäuscht;verlegen
+M|Ich verstehe nur Bahnhof.;Das ist mir Wurst.;Ich drücke dir die Daumen.;Schwein haben;Tomaten auf den Augen haben;Ich habe die Nase voll.;ins Fettnäpfchen treten;auf dem Holzweg sein;den Nagel auf den Kopf treffen;um den heißen Brei herumreden;Hals- und Beinbruch!;Da steppt der Bär.;Alles hat ein Ende, nur die Wurst hat zwei.;etwas auf die lange Bank schieben;die Katze im Sack kaufen;jemandem auf den Keks gehen;Das ist nicht mein Bier.;Das ist mir ein Rätsel.;unter vier Augen;zwei Fliegen mit einer Klappe schlagen;Lügen haben kurze Beine.;Ende gut, alles gut.;Übung macht den Meister.
+M|ausgerechnet;gewissermaßen;anspruchsvoll;mühsam;zufällig;absichtlich;rechtzeitig;selbstverständlich;ständig;kaum;überhaupt nicht;eher;durchaus;keineswegs
+M|sich freuen auf;sich freuen über;sich interessieren für;sich ärgern über;sich unterhalten über;träumen von
+T|Wenn du angerufen [hättest], wäre ich gekommen.|haben (Konjunktiv II)|If you had called, I would have come.|28
+T|Wenn sie früher gekommen [wäre], hätten wir gesprochen.|sein (Konjunktiv II)|If she had come earlier, we would have talked.|28
+T|Ich [hätte] dir gern geholfen.|haben (Konjunktiv II)|I would gladly have helped you.|28
+T|Wir [wären] gern länger geblieben.|sein (Konjunktiv II)|We would gladly have stayed longer.|28
+T|Du [hättest] mir die Wahrheit sagen sollen.|haben (Konjunktiv II)|You should have told me the truth.|28
+T|Ich hätte ihn nicht anrufen [sollen].|sollen|I should not have called him.|28
+T|Er hätte früher kommen [müssen].|müssen|He should have come earlier.|28
+T|Sie hätte mir helfen [können].|können|She could have helped me.|28
+T|[Hätte] ich bloß nichts gesagt!|haben (Konjunktiv II)|If only I had said nothing!|28
+T|Fast [wären] wir zu spät gekommen.|sein (Konjunktiv II)|We almost arrived late.|28
+T|Er antwortet nicht. Er [muss] sehr müde sein.|müssen/sollen/wollen|He is not answering. He must be very tired.|36
+T|Sie [soll] sehr reich sein.|müssen/sollen/wollen|She is said to be very rich.|36
+T|Er [will] den Streit nicht angefangen haben.|müssen/sollen/wollen|He claims not to have started the argument.|36
+T|Das [kann] nicht wahr sein.|können/sollen/wollen|That cannot be true.|36
+T|Anna ist nicht da. Sie [dürfte] schon nach Hause gegangen sein.|dürfen (Konjunktiv II)|Anna is not here. She has probably already gone home.|36
+T|Sie [könnte] eifersüchtig sein.|können (Konjunktiv II)|She might be jealous.|36
+T|Er wird [wohl] zu Hause sein.|wohl/doch/mal|He is probably at home.|36
+T|Er muss sich in sie verliebt [haben].|haben/sein|He must have fallen in love with her.|36
+T|Sie soll letztes Jahr nach Wien gezogen [sein].|haben/sein|She is said to have moved to Vienna last year.|36
+T|Er will krank gewesen [sein].|haben/sein|He claims to have been ill.|36
+T|Wie alt bist du [eigentlich]?|eigentlich/halt/schon|How old are you, by the way?|38
+T|Was machst du [denn] hier?|denn/doch/schon|What on earth are you doing here?|38
+T|Hilf mir [mal] kurz!|mal/denn/wohl|Give me a hand for a moment!|38
+T|Das ist [ja] wunderbar!|ja/denn/mal|Why, that is wonderful!|38
+T|Nimm [doch] den Bus!|doch/denn/wohl|Just take the bus!|38
+T|Er ist [halt/eben] so.|halt/denn/mal|That is just how he is.|38
+T|Mach dir keine Sorgen, das wird [schon] wieder gut.|schon/denn/mal|Do not worry, it will be fine.|38
+T|Was ist [bloß/nur] passiert?|bloß/halt/mal|What on earth has happened?|38
+T|Komm [bloß/nur] nicht zu spät!|bloß/denn/schon|Whatever you do, do not be late!|38
+T|Sie ist [wohl] sauer auf mich.|wohl/denn/mal|She is probably cross with me.|38
+S|If I had had time, I would have come.|Wenn ich Zeit gehabt hätte, wäre ich gekommen.;Hätte ich Zeit gehabt, wäre ich gekommen.|28|Zeit;gehabt;hätte;wäre;gekommen
+S|You should have apologised. (du)|Du hättest dich entschuldigen sollen.;Du hättest dich entschuldigen müssen.|28|hättest;dich;entschuldigen
+S|If I were you, I would not have done it. (du)|An deiner Stelle hätte ich das nicht gemacht.;An deiner Stelle hätte ich das nicht getan.;Ich hätte das an deiner Stelle nicht gemacht.;Ich hätte das an deiner Stelle nicht getan.;An deiner Stelle hätte ich es nicht gemacht.;An deiner Stelle hätte ich es nicht getan.|28|Stelle;hätte;gemacht/getan
+S|We could have stayed longer.|Wir hätten länger bleiben können.|28|hätten;länger;bleiben;können
+S|I almost fell.|Fast wäre ich gefallen.;Fast wäre ich hingefallen.;Ich wäre fast gefallen.;Ich wäre fast hingefallen.;Fast wäre ich gestürzt.;Ich wäre fast gestürzt.;Beinahe wäre ich gefallen.;Beinahe wäre ich hingefallen.;Ich wäre beinahe gefallen.;Ich wäre beinahe hingefallen.|28|Fast/Beinahe;wäre
+S|If only I had known!|Hätte ich das bloß gewusst!;Hätte ich das nur gewusst!;Wenn ich das bloß gewusst hätte!;Wenn ich das nur gewusst hätte!;Hätte ich es bloß gewusst!;Hätte ich es nur gewusst!;Wenn ich es bloß gewusst hätte!;Wenn ich es nur gewusst hätte!|28|hätte;gewusst
+S|My sister must be at home.|Meine Schwester muss zu Hause sein.|36|Schwester;muss;Hause
+S|The new neighbour (man) is said to be very nice. (with a modal verb)|Der neue Nachbar soll sehr nett sein.;Der neue Nachbar soll sehr freundlich sein.|36|Nachbar;soll;nett/freundlich
+S|He claims to have forgotten everything. (with a modal verb)|Er will alles vergessen haben.|36|will;vergessen;haben
+S|That cannot be your brother. (du)|Das kann nicht dein Bruder sein.|36|kann;nicht;Bruder
+S|She must have missed the bus.|Sie muss den Bus verpasst haben.|36|muss;Bus;verpasst;haben
+S|They are said to have split up. (with a modal verb)|Sie sollen sich getrennt haben.|36|sollen;getrennt;haben
+S|Do sit down! (du)|Setz dich doch!;Setze dich doch!|38|dich;doch
+S|So where is he?|Wo ist er denn?|38|Wo;denn
+S|Wait a moment! (du)|Warte mal!;Wart mal!|38|mal
+S|Children are just like that.|Kinder sind halt so.;Kinder sind eben so.;Die Kinder sind halt so.;Die Kinder sind eben so.|38|Kinder;sind;so;halt/eben/mal
+S|Do not worry, she will come all right. (du)|Keine Sorge, sie kommt schon.;Mach dir keine Sorgen, sie kommt schon.;Keine Angst, sie kommt schon.;Keine Sorge, sie wird schon kommen.|38|sie;kommt/kommen;schon
+S|By the way, where do you live? (du)|Wo wohnst du eigentlich?|38|Wo;wohnst;eigentlich
