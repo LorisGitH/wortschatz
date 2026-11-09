@@ -608,23 +608,23 @@ T|[Statt] zu lernen, spielt er Fußball.|um/ohne/statt|Instead of studying, he p
 T|Ich kann heute nicht lange [bleiben].|bleiben|I can't stay long today.|23
 T|Ich gehe jeden Tag [schwimmen].|schwimmen|I go swimming every day.|23
 S|The man who works here is my colleague.|Der Mann, der hier arbeitet, ist mein Kollege.|22|der;arbeitet;Kollege
-S|The application I wrote is good.|Die Bewerbung, die ich geschrieben habe, ist gut.|22|Bewerbung;die;geschrieben
+S|The job application I wrote is good.|Die Bewerbung, die ich geschrieben habe, ist gut.|22|Bewerbung;die;geschrieben
 S|The contract I am reading is long.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
 S|The colleague (woman) I am talking to is nice.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
 S|The people I help are nice.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
-S|This is the town where I live.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
-S|The company I work for is in Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|This is the town where I live.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.;Das ist die Stadt, in der ich lebe.;Das ist die Stadt, wo ich lebe.|22|Stadt;wohne/lebe
+S|The company I work for is in Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.;Das Unternehmen, in dem ich arbeite, ist in Berlin.;Das Unternehmen, bei dem ich arbeite, ist in Berlin.|22|Firma/Unternehmen;der/dem;arbeite
 S|The colleague (man) whose car is old is called Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
 S|That is all I want.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
 S|It is important to speak German.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
-S|I forgot to send the e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
-S|Do you feel like going shopping? (du)|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|I forgot to send the e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.;Ich habe vergessen, die E-Mail abzuschicken.|23|vergessen;E-Mail
+S|Do you feel like going shopping? (du)|Hast du Lust, einzukaufen?;Hast du Lust, einkaufen zu gehen?|23|Lust;einzukaufen/einkaufen
 S|I work in order to earn money.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
 S|He left without paying.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
 S|Instead of working, he is sleeping.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
 S|I am calling you so that you come. (du)|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
-S|I am trying to find a job.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
-S|He has started tidying the flat.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|I am trying to find a position.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
+S|He has started tidying the flat.|Er hat angefangen, die Wohnung aufzuräumen.;Er hat begonnen, die Wohnung aufzuräumen.;Er fing an, die Wohnung aufzuräumen.|23|Wohnung;aufzuräumen
 S|We have no time to eat.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
 
 @b1-demarches|B1|Paperwork and letters|Understand official letters with the passive and the genitive, rent a flat, and manage your bank and your papers.
@@ -672,13 +672,13 @@ S|The parcel was delivered yesterday.|Das Paket wurde gestern geliefert.;Das Pak
 S|The rent has been paid.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
 S|The form must be filled in.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
 S|The contract can be signed tomorrow.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
-S|My passport has been stolen.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|My passport has been stolen.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.;Mein Pass wurde gestohlen.;Mein Pass ist gestohlen worden.|24|Reisepass/Pass;gestohlen
 S|French is spoken here.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
-S|My application has been refused.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
+S|My official application has been refused.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
 S|That is my landlord's car.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter
 S|The date of the contract is wrong.|Das Datum des Vertrags ist falsch.;Das Datum des Vertrages ist falsch.;Das Datum vom Vertrag ist falsch.|25|Datum;falsch
 S|Here is the address of the bank.|Hier ist die Adresse der Bank.;Das ist die Adresse der Bank.;Hier ist die Adresse von der Bank.;Das ist die Adresse von der Bank.|25|Adresse;Bank
-S|The service charges of the flat are high.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
+S|The utilities for the flat are high.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
 S|Because of the rain, I am staying at home.|Wegen des Regens bleibe ich zu Hause.;Wegen dem Regen bleibe ich zu Hause.;Ich bleibe wegen des Regens zu Hause.;Ich bleibe wegen dem Regen zu Hause.|25|wegen;Hause
 S|Despite the rain, I am going to the bank.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
 S|During the holidays, the bank is closed.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen

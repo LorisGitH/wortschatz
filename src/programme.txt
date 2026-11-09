@@ -612,19 +612,19 @@ S|La candidature que j'ai écrite est bonne.|Die Bewerbung, die ich geschrieben 
 S|Le contrat que je lis est long.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
 S|La collègue avec qui je parle est gentille.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
 S|Les gens que j'aide sont gentils.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
-S|C'est la ville où j'habite.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
-S|L'entreprise dans laquelle je travaille est à Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|C'est la ville où j'habite.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.;Das ist die Stadt, in der ich lebe.;Das ist die Stadt, wo ich lebe.|22|Stadt;wohne/lebe
+S|L'entreprise dans laquelle je travaille est à Berlin.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.;Das Unternehmen, in dem ich arbeite, ist in Berlin.;Das Unternehmen, bei dem ich arbeite, ist in Berlin.|22|Firma/Unternehmen;der/dem;arbeite
 S|Le collègue dont la voiture est vieille s'appelle Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
 S|C'est tout ce que je veux.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
 S|Il est important de parler allemand.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
-S|J'ai oublié d'envoyer l'e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
-S|As-tu envie de faire les courses ?|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|J'ai oublié d'envoyer l'e-mail.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.;Ich habe vergessen, die E-Mail abzuschicken.|23|vergessen;E-Mail
+S|As-tu envie de faire les courses ?|Hast du Lust, einzukaufen?;Hast du Lust, einkaufen zu gehen?|23|Lust;einzukaufen/einkaufen
 S|Je travaille pour gagner de l'argent.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
 S|Il est parti sans payer.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
 S|Au lieu de travailler, il dort.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
 S|Je t'appelle pour que tu viennes.|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
 S|J'essaie de trouver un poste.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
-S|Il a commencé à ranger l'appartement.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|Il a commencé à ranger l'appartement.|Er hat angefangen, die Wohnung aufzuräumen.;Er hat begonnen, die Wohnung aufzuräumen.;Er fing an, die Wohnung aufzuräumen.|23|Wohnung;aufzuräumen
 S|Nous n'avons pas le temps de manger.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
 
 @b1-demarches|B1|Démarches et courriers|Comprendre les courriers officiels grâce au passif et au génitif, louer un appartement, gérer sa banque et ses papiers.
@@ -672,7 +672,7 @@ S|Le colis a été livré hier.|Das Paket wurde gestern geliefert.;Das Paket ist
 S|Le loyer a été payé.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
 S|Le formulaire doit être rempli.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
 S|Le contrat peut être signé demain.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
-S|Mon passeport a été volé.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|Mon passeport a été volé.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.;Mein Pass wurde gestohlen.;Mein Pass ist gestohlen worden.|24|Reisepass/Pass;gestohlen
 S|Ici, on parle français.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
 S|Ma demande a été refusée.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
 S|C'est la voiture de mon propriétaire.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter

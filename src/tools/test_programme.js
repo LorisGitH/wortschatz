@@ -235,6 +235,7 @@
   });
   test("every fiche of the level is in exactly one unit", () => {
     const n = countAcrossUnits(u => u.fiches, x => x);
+    // fiches 1 to 27 are A1 to B1, and fiche 37 (B1–B2) goes to B1: the fiche numbers do not follow the levels
     for (const id of [...Array(27).keys()].map(i => i + 1).concat(37)) eq([id, n[id]], [id, 1]);
   });
   test("every irregular verb up to B1 is in exactly one unit", () => {
@@ -252,7 +253,7 @@
       if (t < 28 || t > 35 || s < 16 || s > 20 || w < wMin || w > wMax) throw new Error(`${u.id}: ${t} gaps, ${s} sentences, ${w} words`);
     }
   });
-  test("every word and verb of a unit exists", () => {
+  test("every word, verb and preposition of a unit exists", () => {
     for (const u of UNITS) { eq([u.id, u.words.filter(w => !w).length], [u.id, 0]); eq([u.id, u.verbs.filter(x => !x.v).length], [u.id, 0]); eq([u.id, u.vps.filter(x => !x).length], [u.id, 0]); }
   });
   test("every unit draws a complete exam whose questions all exist", () => {

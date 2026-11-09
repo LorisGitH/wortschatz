@@ -561,7 +561,7 @@ S|Depende del precio.|Das hängt vom Preis ab.;Das hängt von dem Preis ab.;Es h
 S|¿Con qué sueñas?|Wovon träumst du?|21|Wovon;träumst
 S|Pienso en ello todos los días.|Ich denke jeden Tag daran.;Jeden Tag denke ich daran.|21|denke;daran
 S|Hablamos de ello ayer.|Wir haben gestern darüber gesprochen.;Gestern haben wir darüber gesprochen.|21|haben;darüber;gesprochen
-S|Espera a su vecino.|Sie wartet auf ihren Nachbarn.|37|wartet;auf;Nachbarn
+S|Espera a su vecino. (ella)|Sie wartet auf ihren Nachbarn.|37|wartet;auf;Nachbarn
 S|Conozco a este cliente.|Ich kenne diesen Kunden.|37|kenne;diesen;Kunden
 S|Ayudo a menudo al chico.|Ich helfe dem Jungen oft.;Ich helfe oft dem Jungen.|37|helfe;dem;Jungen
 S|Hablamos con los estudiantes.|Wir sprechen mit den Studenten.|37|mit;den;Studenten
@@ -612,19 +612,19 @@ S|La candidatura que he escrito es buena.|Die Bewerbung, die ich geschrieben hab
 S|El contrato que leo es largo.|Der Vertrag, den ich lese, ist lang.|22|Vertrag;den;lese
 S|La compañera con la que hablo es simpática.|Die Kollegin, mit der ich spreche, ist nett.;Die Kollegin, mit der ich spreche, ist freundlich.|22|Kollegin;mit;der;spreche
 S|La gente a la que ayudo es simpática.|Die Leute, denen ich helfe, sind nett.;Die Leute, denen ich helfe, sind freundlich.|22|Leute;denen;helfe
-S|Esta es la ciudad donde vivo.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.|22|Stadt;wohne
-S|La empresa en la que trabajo está en Berlín.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.|22|Firma;der;arbeite
+S|Esta es la ciudad donde vivo.|Das ist die Stadt, in der ich wohne.;Das ist die Stadt, wo ich wohne.;Das ist die Stadt, in der ich lebe.;Das ist die Stadt, wo ich lebe.|22|Stadt;wohne/lebe
+S|La empresa en la que trabajo está en Berlín.|Die Firma, in der ich arbeite, ist in Berlin.;Die Firma, bei der ich arbeite, ist in Berlin.;Das Unternehmen, in dem ich arbeite, ist in Berlin.;Das Unternehmen, bei dem ich arbeite, ist in Berlin.|22|Firma/Unternehmen;der/dem;arbeite
 S|El compañero cuyo coche es viejo se llama Jan.|Der Kollege, dessen Auto alt ist, heißt Jan.|22|Kollege;dessen;Auto
 S|Eso es todo lo que quiero.|Das ist alles, was ich möchte.;Das ist alles, was ich will.|22|alles;was
 S|Es importante hablar alemán.|Es ist wichtig, Deutsch zu sprechen.|23|wichtig;zu;sprechen
-S|Se me ha olvidado enviar el correo.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.|23|vergessen;E-Mail;zu
-S|¿Te apetece hacer la compra?|Hast du Lust, einzukaufen?|23|Lust;einzukaufen
+S|Se me ha olvidado enviar el correo.|Ich habe vergessen, die E-Mail zu schicken.;Ich habe vergessen, die E-Mail zu senden.;Ich habe vergessen, die E-Mail abzuschicken.|23|vergessen;E-Mail
+S|¿Te apetece hacer la compra?|Hast du Lust, einzukaufen?;Hast du Lust, einkaufen zu gehen?|23|Lust;einzukaufen/einkaufen
 S|Trabajo para ganar dinero.|Ich arbeite, um Geld zu verdienen.|23|um;Geld;verdienen
-S|Se fue sin pagar.|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
-S|En lugar de trabajar, duerme.|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
+S|Se fue sin pagar. (él)|Er ist gegangen, ohne zu bezahlen.;Er ist gegangen, ohne zu zahlen.;Er ging, ohne zu bezahlen.;Er ging, ohne zu zahlen.|23|ohne;zu
+S|En lugar de trabajar, duerme. (él)|Statt zu arbeiten, schläft er.;Anstatt zu arbeiten, schläft er.;Er schläft, statt zu arbeiten.;Er schläft, anstatt zu arbeiten.|23|arbeiten;schläft
 S|Te llamo para que vengas.|Ich rufe dich an, damit du kommst.|23|rufe;damit;kommst
 S|Intento encontrar un puesto.|Ich versuche, eine Stelle zu finden.|23|versuche;Stelle;finden
-S|Ha empezado a ordenar el piso.|Er hat angefangen, die Wohnung aufzuräumen.|23|angefangen;Wohnung;aufzuräumen
+S|Ha empezado a ordenar el piso. (él)|Er hat angefangen, die Wohnung aufzuräumen.;Er hat begonnen, die Wohnung aufzuräumen.;Er fing an, die Wohnung aufzuräumen.|23|Wohnung;aufzuräumen
 S|No tenemos tiempo de comer.|Wir haben keine Zeit zu essen.;Wir haben keine Zeit zum Essen.|23|keine;Zeit;essen
 
 @b1-demarches|B1|Trámites y cartas|Entender las cartas oficiales con la pasiva y el genitivo, alquilar un piso y gestionar el banco y los papeles.
@@ -633,7 +633,7 @@ V|perf|stehlen;brechen;verbieten;brennen;hängen;wiegen;braten;gießen;fließen;
 P|sich anmelden>für;sich informieren>über;sich erkundigen>nach;sich beschweren>über;sich beschweren>bei;sich entschuldigen>für;sich entschuldigen>bei;sich wenden>an;sich verlassen>auf;achten>auf;aufpassen>auf;ausgeben>für;bestehen>aus;suchen>nach;gehören>zu;die Frage>nach;die Antwort>auf;der Grund>für;die Einladung>zu;die Lösung>für
 M|die Nebenkosten;der Vermieter;der Mieter;die Kaution;der Mietvertrag;das Amt;das Bürgeramt;die Anmeldung;die Behörde;das Formular;der Antrag;der Ausweis;der Reisepass;die Unterschrift;die Staatsangehörigkeit;der Wohnsitz;die Steuer
 M|die Steuernummer;die Versicherung;die Bank;das Konto;die Überweisung;der Geldautomat;der Brief;das Paket;die Frist;die Gebühr;der Rundfunkbeitrag;ausfüllen;unterschreiben;sich anmelden;beantragen;überweisen
-T|Das Paket [wird] heute gebracht.|werden|El paquete se trae hoy.|24
+T|Das Paket [wird] heute gebracht.|werden|Hoy traen el paquete.|24
 T|Die Briefe [werden] am Montag geschickt.|werden|Las cartas se envían el lunes.|24
 T|Im Büro [wird] nicht geraucht.|werden|En la oficina no se fuma.|24
 T|Das Formular wird vom Amt [geprüft].|prüfen|El formulario lo revisa la administración.|24
@@ -672,13 +672,13 @@ S|El paquete se entregó ayer.|Das Paket wurde gestern geliefert.;Das Paket ist 
 S|El alquiler se ha pagado.|Die Miete wurde bezahlt.;Die Miete ist bezahlt worden.|24|Miete;bezahlt
 S|El formulario debe rellenarse.|Das Formular muss ausgefüllt werden.|24|Formular;muss;ausgefüllt;werden
 S|El contrato se puede firmar mañana.|Der Vertrag kann morgen unterschrieben werden.;Morgen kann der Vertrag unterschrieben werden.|24|Vertrag;kann;unterschrieben;werden
-S|Me han robado el pasaporte.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.|24|Reisepass;gestohlen
+S|Me han robado el pasaporte.|Mein Reisepass wurde gestohlen.;Mein Reisepass ist gestohlen worden.;Mein Pass wurde gestohlen.;Mein Pass ist gestohlen worden.|24|Reisepass/Pass;gestohlen
 S|Aquí se habla francés.|Hier wird Französisch gesprochen.;Hier spricht man Französisch.;Man spricht hier Französisch.|24|hier;Französisch
 S|Mi solicitud ha sido rechazada.|Mein Antrag wurde abgelehnt.;Mein Antrag ist abgelehnt worden.|24|Antrag;abgelehnt
 S|Ese es el coche de mi casero.|Das ist das Auto meines Vermieters.;Das ist das Auto von meinem Vermieter.|25|Auto;Vermieters/Vermieter
 S|La fecha del contrato es incorrecta.|Das Datum des Vertrags ist falsch.;Das Datum des Vertrages ist falsch.;Das Datum vom Vertrag ist falsch.|25|Datum;falsch
 S|Aquí está la dirección del banco.|Hier ist die Adresse der Bank.;Das ist die Adresse der Bank.;Hier ist die Adresse von der Bank.;Das ist die Adresse von der Bank.|25|Adresse;Bank
-S|Los gastos de comunidad del piso son altos.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
+S|Los gastos adicionales del piso son altos.|Die Nebenkosten der Wohnung sind hoch.;Die Nebenkosten von der Wohnung sind hoch.|25|Nebenkosten;Wohnung;hoch
 S|Por la lluvia me quedo en casa.|Wegen des Regens bleibe ich zu Hause.;Wegen dem Regen bleibe ich zu Hause.;Ich bleibe wegen des Regens zu Hause.;Ich bleibe wegen dem Regen zu Hause.|25|wegen;Hause
 S|A pesar de la lluvia, voy al banco.|Trotz des Regens gehe ich zur Bank.;Trotz dem Regen gehe ich zur Bank.;Ich gehe trotz des Regens zur Bank.;Ich gehe trotz dem Regen zur Bank.|25|trotz;Bank
 S|Durante las vacaciones, el banco está cerrado.|Während der Ferien ist die Bank geschlossen.;In den Ferien ist die Bank geschlossen.|25|Ferien;Bank;geschlossen
