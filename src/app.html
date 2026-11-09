@@ -2733,7 +2733,7 @@ function loadProgramme(lang) {
       const m = f[1].match(/^(.*)\[(.+?)\](.*)$/);
       u.gaps["g:" + u.id + ":" + hash(f[1])] = { before: m[1], after: m[3], answers: m[2].split("/"), cue: f[2], fr: f[3], fiche: +f[4] };
     }
-    else if (f[0] === "S") u.sents["s:" + u.id + ":" + hash(f[2])] = { fr: f[1], accepted: f[2].split(";"), fiche: +f[3], keywords: (f[4] || "").split(";").filter(Boolean).map(k => k.split("/")) };
+    else if (f[0] === "S") u.sents["s:" + u.id + ":" + hash(f[2])] = { fr: f[1], accepted: f[2].split(";"), fiche: +f[3], keywords: f[4].split(";").map(k => k.split("/")) };
   }
 }
 function unitIds() { return UNITS.map(u => u.id); }
@@ -3042,8 +3042,8 @@ function examOverView(x, qs) {
 const LT_URL = "https://api.languagetool.org/v2/check";
 // the public API allows 20 requests and 75 KB a minute per IP, 20 KB a request: https://dev.languagetool.org/public-http-api
 const LT_MAX = { reqs: 15, bytes: 60000, perReq: 18000, ms: 60000 };
-const LT_TIMEOUT = 10000;
-const LT_INFO = "À la remise de la copie, tes phrases à traduire qui ne correspondent pas à une réponse connue sont envoyées à LanguageTool (Learneo, Inc., États-Unis), avec ton adresse IP mais sans identifiant ni progression. Sa politique ne précise pas combien de temps les textes sont gardés. Tu peux désactiver cet envoi dans les réglages.";
+const LT_TIMEOUT = 6000;
+const LT_INFO = "À la remise de la copie, tes phrases à traduire non reconnues sont envoyées à LanguageTool (Learneo, Inc., États-Unis) avec ton adresse IP, sans identifiant ni progression. Sa politique ne précise ni la durée de conservation ni si ces textes entraînent ses modèles. Désactivable dans les réglages.";
 const LT_PRIVACY = "Politique de confidentialité";
 const LT_OFF = "LanguageTool est désactivé : la correction se fait sur les seules réponses connues.";
 const LT_WAIT = "Correction en cours…";
@@ -3083,7 +3083,7 @@ async function ltCheck(text) {
   const ctl = new AbortController(), timer = setTimeout(() => ctl.abort(), LT_TIMEOUT);
   try {
     const res = await fetch(LT_URL, { method: "POST", body: new URLSearchParams({ text, language: "de-DE" }), credentials: "omit", referrerPolicy: "no-referrer", cache: "no-store", signal: ctl.signal });
-    if (!res.ok) throw new Error("LanguageTool " + res.status);
+    if (!res.ok) throw Object.assign(new Error("LanguageTool " + res.status), { status: res.status });
     const data = await res.json();
     if (!Array.isArray(data.matches)) throw new Error("LanguageTool: unexpected answer");
     return data.matches;
@@ -3110,7 +3110,7 @@ async function ltLoop(uid) {
     if (!ltAllowed(XD.ltLog, bytes, now)) { status = "limit"; break; }
     XD.ltLog.push([now, bytes]);
     let matches;
-    try { matches = await ltCheck(text); } catch (e) { status = "error"; break; }
+    try { matches = await ltCheck(text); } catch (e) { status = e.status === 429 ? "limit" : "error"; break; }
     ltApply(last, id, q, matches);
     last.pend.shift();
   }
@@ -3120,7 +3120,7 @@ async function ltLoop(uid) {
 }
 let ltRunning = null;
 function ltVerify(uid) {
-  if (!ltRunning) ltRunning = ltLoop(uid).finally(() => { ltRunning = null; });
+  if (!ltRunning) ltRunning = ltLoop(uid).catch(() => { saveXD(); return "error"; }).finally(() => { ltRunning = null; });
   return ltRunning;
 }
 // the paper is already marked and saved on the known answers: closing the app here loses nothing
@@ -3140,7 +3140,7 @@ function ltInfoHTML() {
 function ltPendingHTML(uid) {
   const n = ltPending(uid);
   if (!n) return "";
-  const why = EX && EX.lt === "limit" ? LT_LIMIT : EX && EX.lt === "error" ? LT_FAIL : "";
+  const why = !navigator.onLine ? "" : EX && EX.lt === "limit" ? LT_LIMIT : EX && EX.lt === "error" ? LT_FAIL : "";
   return `<p class="note">${LT_PEND}</p>${why ? `<p class="note">${why}</p>` : ""}${navigator.onLine ? `<button class="secondary" id="exlt" data-exlt="${uid}">${LT_ASK} · ${n}</button>` : `<p class="note">${LT_RETURN}</p>`}`;
 }
 window.addEventListener("online", ltNetworkChanged);
@@ -3217,6 +3217,7 @@ function examFixView(u) {
       <span class="label">Réécrire mes erreurs · ${left}</span>
       <p class="note">Recopie chaque point correctement. Le nouvel examen s'ouvre quand tout est juste.</p>
     </section>
+    ${ltPendingHTML(u.id)}
     ${ids.map((id, n) => {
       const q = examQuestion(u, id), done = last.fixed[id], f = examFiche(q);
       return `<section class="exo"><div class="qkind"><span class="label">${EX_LABEL[q.cat]}</span></div>${examPrompt(q)}
@@ -3307,7 +3308,7 @@ function unitCard(u, state) {
       ${ltInfoHTML()}
       <button class="cta" data-exam="${u.id}"><div><h2>${examBtn}</h2></div><span class="go">→</span></button>
       ${last && !running ? `<button class="trainlink" data-exlast="${u.id}">Voir mon dernier corrigé</button>` : ""}
-      ${last && !running && ltPending(u.id) && navigator.onLine ? `<button class="trainlink" data-exlt="${u.id}">${LT_ASK} · ${ltPending(u.id)}</button>` : ""}
+      ${ltPending(u.id) && navigator.onLine ? `<button class="trainlink" data-exlt="${u.id}">${LT_ASK} · ${ltPending(u.id)}</button>` : ""}
     </section>`;
 }
 function programmeView() {

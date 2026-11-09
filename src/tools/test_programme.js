@@ -445,6 +445,34 @@
     settings.lt = false;
     eq(card().includes('href="https://languagetool.org"'), false);
   }));
+  test("unchecked sentences can still be checked while a new exam is running", () => withApi(noError, async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    XD.exams.t = { ids: ["s:t:a"], a: {}, i: 0, ms: 0 };
+    eq(unitCard(UNIT_BY_ID.t, "current").includes('data-exlt="t"'), true);
+  }));
+  test("unchecked sentences can still be checked from the rewrite screen", () => withApi(noError, async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    eq(examFixView(UNIT_BY_ID.t).includes('data-exlt="t"'), true);
+  }));
+  test("a 429 from the API counts as the limit, and keeps the sentence", () => withApi(() => ({ ok: false, status: 429 }), async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    eq(await ltVerify("t"), "limit");
+    eq(last.pend, ["s:t:a"]);
+  }));
+  test("an unexpected answer cannot leave the paper stuck on the waiting screen", () => withApi(() => answer([null]), async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    eq(await ltVerify("t"), "error");
+    eq(last.pend, ["s:t:a"]);
+  }));
+  test("offline, the note says so without also blaming the API", () => withApi(down, async () => {
+    const last = XD.last.t = paper({ "s:t:a": FREE }); last.pend = ["s:t:a"];
+    EX = { u: "t", screen: "result", lt: "error" };
+    Object.defineProperty(navigator, "onLine", { get: () => false, configurable: true });
+    try {
+      const html = ltPendingHTML("t");
+      eq([html.includes(LT_RETURN), html.includes(LT_FAIL), html.includes("data-exlt")], [true, false, false]);
+    } finally { delete navigator.onLine; }
+  }));
   test("every new label is translated", () => {
     for (const s of [LT_INFO, LT_OFF, LT_WAIT, LT_PEND, LT_ASK, LT_OK, LT_KW, LT_LIMIT, LT_FAIL, LT_BY, LT_RETURN, LT_PRIVACY, LT_SET_T, LT_SET_D])
       for (const l of ["en", "es"]) if (!I18N[l][s]) throw new Error(l + ": " + s);
